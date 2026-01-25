@@ -136,9 +136,10 @@ def parse_classification_responses(con):
                         
                         # Remap "Other" or "Unclassifiable" to General Aptitude -> Miscellaneous
                         if subject_name.lower() == "other" or subtopic_name.lower() == "unclassifiable":
-                            subject_name = "General Aptitude"
-                            subtopic_name = "Miscellaneous"
+                            subject_name = "general aptitude"
+                            subtopic_name = "miscellaneous"
                         else:
+                            subject_name = normalize_subtopic(subject_name)
                             subtopic_name = normalize_subtopic(subtopic_name)
                         
                         if subject_name not in stream_subtopics[stream_code]:
@@ -150,7 +151,7 @@ def parse_classification_responses(con):
                         if isinstance(question_ids, list):
                             for q_id in question_ids:
                                 q_id = str(q_id).strip()
-                                question_mappings.append((q_id, subtopic_name, stream_code))
+                                question_mappings.append((q_id, subject_name, subtopic_name, stream_code))
 
         except Exception as e:
             logger.error(f"Error processing {filename}: {e}")
@@ -173,11 +174,11 @@ def parse_classification_responses(con):
                     "INSERT OR REPLACE INTO subtopics (id, subject_id, name, description, order_index) VALUES (?, ?, ?, ?, ?)",
                     (subtopic_id, subject_id, subtopic_name, "", topic_idx)
                 )
-                subtopic_id_map[(stream_code, subtopic_name)] = subtopic_id
+                subtopic_id_map[(stream_code, subject_name, subtopic_name)] = subtopic_id
     
     updated_count = 0
-    for q_id, subtopic_name, stream_code in question_mappings:
-        subtopic_id = subtopic_id_map.get((stream_code, subtopic_name))
+    for q_id, subject_name, subtopic_name, stream_code in question_mappings:
+        subtopic_id = subtopic_id_map.get((stream_code, subject_name, subtopic_name))
         if subtopic_id:
             target_q_id = None
             variants = [q_id, q_id.rstrip('.'), q_id + '.']
