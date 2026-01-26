@@ -82,7 +82,6 @@ def generate_classification_prompts(con, stream_code, batch_size=None, max_batch
         all_question_ids = [q[0].rstrip('.') for q in batch]
         
         prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize questions into the provided syllabus structure.
-Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
 
 SYLLABUS:
 {syllabus_text}
@@ -109,7 +108,7 @@ PROCESS:
 
 CRITICAL RULES:
 1. **Think First**: Use the `<thinking>` tag before the JSON.
-2. **No Lazy Mapping**: Do not use "Other" unless you have tried matching against every single syllabus item.
+2. **Strict Mapping**: Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
 3. **Exact Names**: Use subtopic names EXACTLY as they appear in the syllabus.
 4. **All Questions**: Include ALL {len(batch)} question IDs exactly as shown.
 5. **JSON Only**: After the thinking section, output ONLY the JSON object. No explanations.
