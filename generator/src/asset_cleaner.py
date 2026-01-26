@@ -47,7 +47,7 @@ def process_stream_assets(stream_path):
         
         # Determine canonical subject name and slug
         display_subj_name = norm_subj_name.title()
-        canonical_subj_slug = slugify(display_subj_name, normalize=True)
+        canonical_subj_slug = slugify(display_subj_name)
         canonical_subj_id = f"subj_{subj_idx}" # Simple ID regen or keep first? Let's regen to be clean
         
         # Note: If we change the subject slug, we must move folders.
@@ -88,7 +88,7 @@ def process_stream_assets(stream_path):
             t_group = topic_groups[norm_t_name]
             topic_count += 1
             display_t_name = norm_t_name.title()
-            new_t_slug = slugify(display_t_name, normalize=True)
+            new_t_slug = slugify(display_t_name)
             
             # Merge questions
             all_questions = set()
