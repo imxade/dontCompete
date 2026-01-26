@@ -98,49 +98,68 @@ export function useTheory(examId: string | undefined, streamId: string | undefin
 }
 
 // Use Vite's import.meta.glob to find all structure.json files at build/dev time
-// This relies purely on the folder structure and returns URLs to the assets
-// IMPORTANT: We use { query: '?url', import: 'default' } to get the URL path, NOT the content.
-const structureGlobs = import.meta.glob('../../public/assets/*/*/structure.json', { eager: true, query: '?url', import: 'default' })
+// We remove eager: true to allow dynamic import of JSON content when needed detailed info
+const structureGlobs = import.meta.glob('../../public/assets/*/*/structure.json', { import: 'default' })
 
 export function useAvailableStreams(examId: string) {
     const [streams, setStreams] = useState<Array<{ id: string, name: string, code: string }>>([])
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        // Parse the glob results
-        // Example key: "../../public/assets/gate/cs/structure.json"
+        const loadStreams = async () => {
+            setLoading(true)
+            const foundStreams: Array<{ id: string, name: string, code: string }> = []
+            const promises: Promise<void>[] = []
 
-        const foundStreams: Array<{ id: string, name: string, code: string }> = []
+            for (const path in structureGlobs) {
+                // Check if this path belongs to the current examId
+                // We look for /assets/<examId>/<streamId>/structure.json
+                // Normalize path separators just in case
+                const normalizedPath = path.replace(/\\/g, '/')
 
-        for (const path in structureGlobs) {
-            // Check if this path belongs to the current examId
-            // We look for /assets/<examId>/<streamId>/structure.json
-            // Normalize path separators just in case
-            const normalizedPath = path.replace(/\\/g, '/')
-            const parts = normalizedPath.split('/')
+                // structure.json is last (index N), then streamId (N-1), then examId (N-2)
+                // path: ../../public/assets/gate/cs/structure.json
 
-            // structure.json is last (index N), then streamId (N-1), then examId (N-2)
-            // path: ../../public/assets/gate/cs/structure.json
-            // parts: [.., .., public, assets, gate, cs, structure.json]
+                const match = normalizedPath.match(new RegExp(`/assets/${examId}/([^/]+)/structure.json$`))
 
-            // We can match "assets/<examId>/"
-            // Or simpler, just regex it
-            const match = normalizedPath.match(new RegExp(`/assets/${examId}/([^/]+)/structure.json$`))
+                if (match) {
+                    const streamId = match[1]
+                    const importFn = structureGlobs[path] as () => Promise<any>
 
-            if (match) {
-                const streamId = match[1]
-                // We cannot read the file content (name/code) from the URL glob.
-                // We rely on the folder name (streamId) for the ID and display name fallback.
-                foundStreams.push({
-                    id: streamId,
-                    name: streamId.toUpperCase().replace(/-/g, ' '),
-                    code: streamId
-                })
+                    // Load the module to get the real name
+                    const p = importFn().then((mod) => {
+                        const streamCode = mod.stream_code || streamId
+                        // Format name: "computer-science-information-technology" -> "Computer Science Information Technology"
+                        const formattedName = streamCode.split('-')
+                            .map((s: string) => s.charAt(0).toUpperCase() + s.slice(1))
+                            .join(' ')
+
+                        foundStreams.push({
+                            id: streamId,
+                            name: formattedName,
+                            code: streamId
+                        })
+                    }).catch(err => {
+                        console.error(`Failed to load stream info for ${streamId}`, err)
+                        foundStreams.push({
+                            id: streamId,
+                            name: streamId.toUpperCase(),
+                            code: streamId
+                        })
+                    })
+                    promises.push(p)
+                }
             }
+
+            await Promise.all(promises)
+            // Sort to ensure stable order
+            foundStreams.sort((a, b) => a.id.localeCompare(b.id))
+
+            setStreams(foundStreams)
+            setLoading(false)
         }
 
-        setStreams(foundStreams)
-        setLoading(false)
+        loadStreams()
 
     }, [examId])
 
