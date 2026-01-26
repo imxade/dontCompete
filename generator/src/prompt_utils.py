@@ -99,7 +99,7 @@ QUESTIONS TO CLASSIFY (TotalCount={len(batch)}):
 YOUR TASK:
 For each and every question listed above:
 1. **Analyze (Thinking)**: Break down the question, identify core concepts, and match them against the syllabus. 
-2. **Force Match**: If a question is even remotely related to a syllabus topic, categorize it there. "Other" or "General Aptitude" should be a final resort only for truly unrelated content.
+2. **Force Match**: If a question is even remotely related to a syllabus topic, categorize it there. "General Aptitude" should be a final resort only for truly unrelated content.
 3. **Classify**: Map it to a Subject and a specific Subtopic.
 4. **Format**: Use the exact question ID (the ID= value shown above).
 
