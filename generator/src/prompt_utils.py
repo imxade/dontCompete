@@ -82,20 +82,17 @@ def generate_classification_prompts(con, stream_code, batch_size=None, max_batch
         all_question_ids = [q[0].rstrip('.') for q in batch]
         
         prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize questions into the provided syllabus structure.
+Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
 
 SYLLABUS:
 {syllabus_text}
 
-ADDITIONAL VALID CATEGORIES:
-Section GA: General Aptitude
-- Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction.
+
+Additional Section: General Aptitude
+- STRICT WARNING: Think carefully before using this category, use ONLY if the question is completely irrelevant to the syllabus
+- Verbal Ability: Language comprehension, vocabulary, grammar, and reading comprehension.
 - Numerical Ability: Numerical computation, numerical estimation, numerical reasoning and data interpretation.
 - Spatial Aptitude: Transformation of shapes (translation, rotation, scaling, mirroring, assembling, grouping), paper folding, cutting, and patterns in 2D and 3D.
-
-Section Other: Unclassifiable
-- STRICT WARNING: Use this category ONLY if the question is completely irrelevant to the syllabus (e.g., a question about cooking in a CS exam). 
-- If a question has ANY technical keywords that appear in the syllabus, you MUST find a match. 
-- Misclassifying a valid syllabus question as "Other" is a failure.
 
 QUESTIONS TO CLASSIFY:
 {q_context}
