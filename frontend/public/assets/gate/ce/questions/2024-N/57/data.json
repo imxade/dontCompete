@@ -1,11 +1,3 @@
-{
-  "id": "57",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 57 \n \n[Fluid Mechanics : Flow Through Pipes]\nA 500 m long water distribution pipeline \nP\n with diameter 1.0 m, is used to convey \n3\n0.1 m /s\n  of flow. A \nnew pipeline \nQ\n, with the same length and flow rate, is to replace \nP\n. The friction factors for \nP\n and \nQ\n are \n0.04 and 0.01, respectively. The diameter of the pipeline \nQ\n (in meters) is ______________ (rounded off \nto 2 decimal places). \nAns. 0.70 to 0.80",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven,\n3\np\np\n500m,\n1m, Q\n0.1m / s\nP\nL\nD\n\uf03d\n\uf03d\n\uf03d\n\n3\nQ\n500m, Q\n0.1m / s\nQ\nL\n \uf03d\n\uf03d\n\n0.04,\n0.01\nP\nQ\nf\nf\n\uf03d\n\uf03d\n\nPAGE\n50\n\n2\n2\nf L Q\nf L Q\nQ\nQ\nQ\nP\nP\nP\nD\nD\n\uf03d\n\n5\n5\n12.1\n12.1\nP\nQ\n5\n5\n0.04\n0.01\n12.1 1\n12.1\nQ\nD\n\uf03d\n\uf0b4\n\uf0b4\n0.04 12.1\nQ\nD\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n5\n5\n0.01 12.1 1\n\n0.757m\nQ\nD\n \uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a71d6eee8ee2b4b06b467ecb88f6e7414b63ad6c4a8ef5e8728c7ea4c96fe87
+size 1055

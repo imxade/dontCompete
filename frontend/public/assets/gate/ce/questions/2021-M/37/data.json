@@ -1,11 +1,3 @@
-{
-  "id": "37",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 37 \n \nWhich of the following is/are correct statement (s)? \n \n(A) The boundary of water of a calm water pond will represent contour line.\n(B) If the whole circle bearing of a line is \n0\n270\n , its reduced bearing is \n0\n90\n NW.\n(C) In the case of fixed hair stadia tachometry, the staff intercept will be larger when the staff is held \nnearer to the observation point.\n(D) Back bearing of line is equal to Fore Bearing \n0\n180\n\u00b1\n \nAns. \nA, B, D \nQuestion 38 \n \nGypsum is typically added in cement to \n \n(A) enhance hardness \n \n \n(B) increase workability  \n \n(C) decrease heat of hydration   \n(D) prevent quick setting \nAns. \nD \nSol.\n \nGypsum is added in cement to prevent quick setting. \n \nHence, the correct option is (D). \nQuestion 39 \n \nSpot speeds of vehicles observed at point on a highway are 40, 55, 60, 65 & 80 \nkm/h\n . The space-mean \nspeed (in\n km/h\n , round off to two decimal places) of the observed vehicles is _____. \nAns. \n56.99 \nSol.\n \nGiven : \n \nSpot speed of vehicles on a highway are 40 km/h, 55 km/h, 60 km/h, 65 km/h and 85 km/h.\n1\n1\n1\n1\n1\nS\nV\nV\nV\nV\nV\nV\n=\n+\n+\n+\n+\nSpace mean speed,\n1\n2\n3\n4\n5\n1\n1\n1\n1\n1\n40\n55\n60\n65\n80\nS\nV\n \n=\n+\n+\n+\n+\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n26\n\n56.99 km/hr\nV\n =",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:937ba91cdf6281518a96d8ce560728c044742ac5b7cf380bae924f6fd5d54f08
+size 1534

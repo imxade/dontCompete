@@ -1,11 +1,3 @@
-{
-  "id": "12",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 12  \n \n \n \nConsider the normal probability distribution function\n4\n\u221a2\ud835\udf0b\n\ud835\udc52\n\u22128(\ud835\udc65+3)\n2\n\ud835\udc53(\ud835\udc65) =\nIf \n\ud835\udf07\n and \n\ud835\udf0e\n are the mean and standard deviation of \n\ud835\udc53(\ud835\udc65)\n respectively, then the ordered pair \n(\ud835\udf07, \ud835\udf0e)\n is\n[Engineering Mathematics, Probability]\n (1 Mark)\n1\n1\n(A) \n(3,\n4\n)\n \n(B) \n(\u22123,\n4\n)\n(C) (3, 4) \n(D) (\u20133, 4) \nAns. \n(B)\n4\n\u221a2\ud835\udf0b\n\ud835\udc52\n\u22128(\ud835\udc65+3)\n2\n \n \n  \n\u2026 (i)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\n \n\ud835\udc53(\ud835\udc65) =\nStandard equation of normal distribution.\n\u2212(\ud835\udc65\u2212\ud835\udf07)\n2\n2\ud835\udf0e\n2\n \n  \n \n \n \n \n\u2026 (ii)\n1\n\ud835\udc53(\ud835\udc65) =\n\ud835\udf0e\u221a2\ud835\udf0b\n\ud835\udc52\nAfter Comparing.\n1\nStandard deviation \n(\ud835\udf0e) =\n4\nMean \n(\ud835\udf07) = \u22123\n\nPAGE\n10\n\nHence the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d80d03b105fe259174d64e23fb94dcfdad8eef1fec469c270da355e69a223520
+size 1188

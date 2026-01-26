@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(D)",
-  "question_text": "Question 6 \nVerbal Ability (Case Studies)\nStudents of all the departments of a college who have successfully completed the registration \n\uf020\nprocess are \neligible to vote in the upcoming college elections. However, by the time the due date of registration was \nover, it was found that surprisingly none of the students from the Department of Human Sciences had \ncompleted the registration process.\nBased only on the information provided above, which one of the following sets of statement(s) can be \nlogically inferred with certainty?\n(i) \nAll those students who would not be eligible to vote in college elections would certainly belong to \nthe Department of Human Sciences.\n(ii) None of the students from departments other than Human Sciences failed to complete the registration\nprocess within the due time.\n(iii) All the eligible voters would certainly be students who are not from the Department of Human\nSciences.\n(A) (i) and (ii) \n(B) (i) and (iii)\n(C) only (i) \n(D) only (iii)",
-  "answer_text": "(D)",
-  "explanation_text": "Sol. \nGiven :\nStudent of all department of a college who have successfully completed the registration \n\uf020\nprocess are \neligible to vote in the upcoming college elections however by the time the due date of registration was \nover it was found that surprisingly none of the student from the department of human science had \ncompleted the registration process.\n(i) \nAll those student who would not be eligible to vote in college election would certainly belong to the \ndepartment of human science, cannot be inferred, as it is not a necessary condition or situation \naccording to the given information.\n(ii) None of student from departments other than human science failed to complete the registration\nprocess within the due time, cannot be inferred, as we have no information about the departments \nother than human science.\n(iii) All the eligible voters would certainly be students who are not from the human science, can be\ninferred logically with certainty, as according to the given information \u201cit was found that surprisingly \nnone of the student from the department of human science had completed the registration process.\u201d \nSo, all the eligible voters would not be from department of human science.\nHence, the correct option is (D).\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n4\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0ddc5227aa062743929a191dec99a73fadd5c3cdd18fbccfcd7ebd69664f582
+size 2542

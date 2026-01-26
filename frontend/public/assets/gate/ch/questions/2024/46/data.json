@@ -1,11 +1,3 @@
-{
-  "id": "46",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 46\n\nPAGE\n40\n\nThe residence time distribution, E, for a non-ideal flow reactor is given in the figure.  A first-order liquid \nphase reaction with a rate constant \n0.2 \ud835\udc5a\ud835\udc56\ud835\udc5b\n\u22121\n is carried out in the reactor.  For an inlet reactant \nconcentration of \n2mol\ud835\udc3f\n\u22121\n, the reactant concentration (in \nmol\ud835\udc3f\n\u22121\n) in the exit stream is \n \n[Chemical reaction engineering, 2 Marks]\n1\n,min\nE\n\uf02d\n3\n5\n0\ntime, min\n3\n(A) 0.905 \n(B) 0.452 \n \n(C) 1.902 \n(D) 0.502 \nAns. (A)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n1\n, min\nE\n\uf02d\nx\n3\n5\nTime, min\n\nGiven: \nRate constant \n\ud835\udc58= 0.2 \ud835\udc5a\ud835\udc56\ud835\udc5b\n\u22121\ninlet concentration \n(\ud835\udc36\n\ud835\udc34\n0\n) = 2 mol/L\nFrom segregation model\n\u221e\n0\n\ud835\udc4b\n\ud835\udc34\n= \u222b\ud835\udc4b\n\ud835\udc34\n\ud835\udc38(\ud835\udc61)\ud835\udc51\ud835\udc61\n\ud835\udc36\n\u0304\n\ud835\udc34\n\ud835\udc36\n\ud835\udc340\n \n= \u222b\n\ud835\udc36\n\ud835\udc34\n\ud835\udc36\n\ud835\udc340\n \n\ud835\udc38(\ud835\udc61)\ud835\udc51\ud835\udc61\n\u221e\n0\nor\n\u221e\n0\n= 1\nFrom graph \n\u222b\ud835\udc38(\ud835\udc61)\ud835\udc51\ud835\udc61\n2 \u00d7 \ud835\udc65= 1\n1\n\ud835\udc65=\n2\n1\n2\n \n,\nwhen 3 \u2264\ud835\udc61\u22645\n\ud835\udc38(\ud835\udc61) = {\n\n0,\notherwise\nFor First order system\n\nPAGE\n41\n\n\ud835\udc36\n\ud835\udc34\n\ud835\udc36\n\ud835\udc340\n \n= \ud835\udc52\n\u2212\ud835\udc58\ud835\udc61\n= \ud835\udc52\n\u22120.2\ud835\udc61\n\n\ud835\udc36\n\u0304\n\ud835\udc34\n\ud835\udc36\n\ud835\udc340\n \n= \u222b\ud835\udc52\n\u22120.2\ud835\udc61\n\u221e\n0\n\u00d7 0.5\ud835\udc51\ud835\udc61\n\u2234\n= \u222b\ud835\udc52\n\u22120.2\ud835\udc61\n5\n3\n\u00d7 0.5\ud835\udc51\ud835\udc61\n5\n[\ud835\udc52\n\u22120.2\ud835\udc61\n]\n3\n= 0.5\n\u22120.2\n= \u22122.5[\ud835\udc52\n\u22121\n \n\u2212\ud835\udc52\n\u22120.6\n]\n\ud835\udc36\n\u0304\n\ud835\udc34\n\ud835\udc36\n\ud835\udc340\n \n= 0.4523\n\n\u2234\n \n\ud835\udc36\n\u0304\n\ud835\udc34\n= 0.4523 \u00d7 2\n\ud835\udc36\n\u0304\n\ud835\udc34\n= 0.9046 \u22480.905"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89a59dab7394e53d4f3159ddf4474f0d23c772dfb61e2cc4369cf5f57f6dd6a4
+size 2328

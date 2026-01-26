@@ -1,11 +1,3 @@
-{
-  "id": "31",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 31\nWhich of these symbols can be found in piping and instrumentation diagrams?\n(P)\n(Q)\n(R)\n(S)\n\n\n(A) (P), (Q), (R) and (S)  \n \n(B)  (P), (R) and (S) only\n\n\n(C) (P), (Q) and (R) only  \n \n(D) (Q) and (S) only",
-  "answer_text": "(B)",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e75d3fe06f8464e5e837aab3c9b9ba856c7c424397cc7c0e2447bc943f6c256a
+size 426

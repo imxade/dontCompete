@@ -1,11 +1,3 @@
-{
-  "id": "55",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 55 \n[Geotechnical Engineering : Shear Strength of Soil]\n \n \nA soil sample was consolidated at a cell pressure of 20 kPa and a back pressure of 10 kPa for 24 hours \nduring a consolidated undrained (CU) triaxial test.  The cell pressure was increased to 30 kPa on the next \nday and it resulted in the development of pore water pressure of 1 kPa.  The soil sample failed when the \naxial stress was gradually increased to 50 kPa.  The pore water pressure at failure was recorded as 21 kPa.  \nThe value of Skempton\u2019s pore pressure parameter \nB\n  for the soil sample is __________ (rounded off to \nnearest integer). \nAns. 0.09 to 0.11 OR 0.55 to 0.65",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \n \nGiven that,\n1\nC\na\n20KP\n\uf073\n\uf03d\n\na\n10KP\nb\n\uf073\uf03d\n\nPAGE\n47\n\n2\na\n30KP\nC\n\uf073\n\uf03d\n\nC\na\nU\n1KP\n\uf044\n\uf03d\na\n50KP\nd\n\uf073\uf03d\n2\na\nU\n21KP\n\uf03d\na\n30\n20\n10KP\nC\n\uf044\uf073\uf03d\n\uf02d\n\uf03d\nSkempton\u2019s pore pressure parameters,\nU\n\uf044\n\uf03d\uf044\uf073\nB\nC\nC\n1\n10\n\uf03d\n0.1\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39d737d86b78cec47b3134bff6919c63ebe57c12391725a28739b8598c3e2dbc
+size 1234

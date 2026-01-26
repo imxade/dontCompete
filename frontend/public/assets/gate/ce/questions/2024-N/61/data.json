@@ -1,11 +1,3 @@
-{
-  "id": "61",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "9.9 to 10.2",
-  "question_text": "Question 61 \n[Environmental Engineering : Treatment of Sewage]\nAn organic waste is represented as \n240\n200\n180\n5\nC\nO\nH\nN S\n.\n(Atomic weights: S-32, H-1, C-12, O-16, N-14).\nAssume complete conversion of S to \n2\nSO\n  while burning.\n2\nSO\n  generated (in grams) per kg of this waste is ___________ (rounded off to 1 decimal place).",
-  "answer_text": "9.9 to 10.2",
-  "explanation_text": "Sol. \nOrganic waste \n240\n200\n180\n5\nC\nO\nH\nN S\n\uf03d\nWeight of organic waste \n1kg\n\uf03d\nBurning of organic waste converts\nSulphur into Sulphur dioxide as follows :\n(64 g)\n(6362 g)\nC\nO\nH\nN S\nO\nCO + H O+zH O+SO\nx\ny\n\uf02b\n\uf0ae\n240\n200\n180\n5\n2\n2\n2\n2\n2\ni.e., 6362 of organic waste produces 64g of Sulphur dioxide.\nSo,\n1 kg of organic waste produces \n2\n64\n1000gmof SO\n6362\n \n\uf0b4\nSo, Amount of \n2\nSO\n  produced \n= 10.05gm/kg"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8149fd4e494c149c41ab33ad582277a68024c6a0e9345701e0db7a771e6c7fd9
+size 1030

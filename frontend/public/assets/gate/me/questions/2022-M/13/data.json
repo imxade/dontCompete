@@ -1,11 +1,3 @@
-{
-  "id": "13",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 13\nThe Clausius inequality holds good for\n(A) any process \n \n \n(B) any cycle\n(C) only reversible process \n(D) only reversible cycle",
-  "answer_text": "(B)",
-  "explanation_text": "Sol. \nClausius inequality\n0\nQ\nS\nT\n \n\uf0a3\n\uf0f2\n\nIs hold good for any cycle hence the correct option is (B).\nHence, the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d9a3b43c9a009bb7979adc36c746670863d97ff01f73baf1283bccf0b33a646
+size 502

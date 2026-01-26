@@ -1,11 +1,3 @@
-{
-  "id": "51",
-  "stream": "instrumentation-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "4 to 4\n \n \nQuestion 52\n \n \nConsider the capacitive sensor circuit and its output voltage shown in the figure.  The circuit is switched \nON at \n0\nt\n \uf03d\n.  Assuming the opamp to be ideal, the frequency of the output voltage \n0\nV\n  is _______ kHz\n(rounded off to two decimal places).\n \n6.00 to 6.30 \nQuestion 53 \n \n  \n \n \n \n[Signals & Systems]\n \n \nThe 4-point DFTs of two sequences \n\uf05b\uf05d\nx n\n  and \n\uf05b\uf05d\ny n\n  are \n\uf05b\uf05d\uf05b\n\uf05d\n1,\n,1,\nX k\nj\nj\n\uf03d\n\uf02d\n and \n\uf05b\uf05d\uf05b\n\uf05d\n1,3 ,1, 3\nY k\nj\nj\n\uf03d\n\uf02d\n,\nrespectively. Assuming \n\uf05b\uf05d\nz n\n  represents the 4-point circular convolution of \n\uf05b\uf05d\nx n\n  and \n\uf05b\uf05d\ny n\n , the value of\n\uf05b\uf05d\n0\nz\n is __________ (rounded off to nearest integer).\nNote\n : The DFT of a N-point sequence \n\uf05b\uf05d\nx n\n  is defined as\n\uf02d\n\uf070\n\uf02d\nj\nnk\nN\n2\n1\n\uf05b\uf05d\n\uf05b\uf05d\n\uf03d\n\uf03d\uf0e5\nn\nX k\nx n e\nN\n0\n \n2 to 2\n\nPAGE\n35",
-  "question_text": "Question 51\n \n \nIn the figure shown, \n4.5 k ,\n1.5 k\nR\nR\n\uf03d\n\uf057\uf044\uf03d\n\uf057\n, and \nINA\n  is assumed to be ideal.  The equivalent resistance\nbetween \nA\n  and \nB\n  is ________ \nk\n\uf057\n (rounded off to nearest integer).",
-  "answer_text": "4 to 4\n \n \nQuestion 52\n \n \nConsider the capacitive sensor circuit and its output voltage shown in the figure.  The circuit is switched \nON at \n0\nt\n \uf03d\n.  Assuming the opamp to be ideal, the frequency of the output voltage \n0\nV\n  is _______ kHz\n(rounded off to two decimal places).\n \n6.00 to 6.30 \nQuestion 53 \n \n  \n \n \n \n[Signals & Systems]\n \n \nThe 4-point DFTs of two sequences \n\uf05b\uf05d\nx n\n  and \n\uf05b\uf05d\ny n\n  are \n\uf05b\uf05d\uf05b\n\uf05d\n1,\n,1,\nX k\nj\nj\n\uf03d\n\uf02d\n and \n\uf05b\uf05d\uf05b\n\uf05d\n1,3 ,1, 3\nY k\nj\nj\n\uf03d\n\uf02d\n,\nrespectively. Assuming \n\uf05b\uf05d\nz n\n  represents the 4-point circular convolution of \n\uf05b\uf05d\nx n\n  and \n\uf05b\uf05d\ny n\n , the value of\n\uf05b\uf05d\n0\nz\n is __________ (rounded off to nearest integer).\nNote\n : The DFT of a N-point sequence \n\uf05b\uf05d\nx n\n  is defined as\n\uf02d\n\uf070\n\uf02d\nj\nnk\nN\n2\n1\n\uf05b\uf05d\n\uf05b\uf05d\n\uf03d\n\uf03d\uf0e5\nn\nX k\nx n e\nN\n0\n \n2 to 2\n\nPAGE\n35",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e6f48d7a1f202060d6d675f1ce4792d7146e870e9d3c45252a3fdae134c321e
+size 2535

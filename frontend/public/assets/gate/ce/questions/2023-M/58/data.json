@@ -1,11 +1,3 @@
-{
-  "id": "58",
-  "stream": "civil-engineering",
-  "packet": "2023-M",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "3.33 (3.30 to 3.35)\n3\n18 12\n6 kN/m\nsub\n\uf067\n\uf03d\n\uf02d\n\uf03d",
-  "question_text": "Question 58 \n[Geotechnical Engineering : Retaining Wall & Earth Pressure]\nA vertical trench is excavated in a clayey soil deposit having a surcharge load of 30 kPa. A fluid of unit \nweight 12 kN/m\n3\n is poured in the trench to prevent collapse as the excavation proceeds. Assume that the \nfluid is not seeping through the soil deposit. If the undrained cohesion of the clay deposit is 20 kPa and \nsaturated unit weight is 18 kN/m\n3\n, what is the maximum depth of unsupported excavation (in m, \nrounded off to two decimal places)?  ________________.",
-  "answer_text": "3.33 (3.30 to 3.35)\n3\n18 12\n6 kN/m\nsub\n\uf067\n\uf03d\n\uf02d\n\uf03d",
-  "explanation_text": "Sol.\n30 kPa\n2\na\nC k\n30\n+\nFailure plane\n45\n\u00b0\n\n2\nv\na\na\nP\nK\nC K\n\uf03d\uf073\n\uf02d\n\uf028\n\uf029\n30\n1 2\n1\nsub\nP\nz\nC\n\uf03d\n\uf02b\uf067\n\uf0b4\uf02d\nWhen P = 0, \n30\n6\n2 20\n0\nz\n\uf02b\n\uf02d\uf0b4\n\uf03d\n6\n10\nz\n \uf03d\n10 m\n6\nz\n \uf03d\nSo, maximum depth of unsupported excavation = \n10\n2\n3.33\n6\n\uf0b4\n\uf03d\nHence, the correct answer is 3.33."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2131eb8ccc105f9c2d07b8cd1ce45df0c6d3cf6eae16e74b8ad05e3f7ecaf861
+size 1296

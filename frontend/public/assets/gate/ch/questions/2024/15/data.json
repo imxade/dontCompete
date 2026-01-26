@@ -1,11 +1,3 @@
-{
-  "id": "15",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(C)",
-  "question_text": "Question 15 \n \n \n \nAn infinitely long cylindrical water filament of radius \nR\n is surrounded by air. Assume water and air to be \nstatic. The pressure outside the filament is \n\ud835\udc43\n\ud835\udc5c\ud835\udc62\ud835\udc61\n and the pressure inside is \n\ud835\udc43\n\ud835\udc56\ud835\udc5b\n.\n If \n\ud835\udefe\n is the surface tension of \nthe water-air interface, then \n\ud835\udc43\n\ud835\udc56\ud835\udc5b\n\u2212\ud835\udc43\n\ud835\udc5c\ud835\udc62\ud835\udc61\n is \n \n  \n[Fluid Mechanics, 1 Marks]\n2\ud835\udefe\n(A)\n\ud835\udc45\n \n(B) 0\n\ud835\udefe\n4\ud835\udefe\n(C)\n\ud835\udc45\n \n(D)\n\ud835\udc45",
-  "answer_text": "(C)",
-  "explanation_text": "Sol.\n \nGiven ; \nAn infinitely long cylindrical water filament of radius \nR\n is surrounded by air.\nLet \n\ud835\udefe\n be surface tension and Pi and P\nout \nis Pressure inside and outside, assume a Length of L water film.\nAt Equilibrium,\nPressure Force = surface tension force\nR\nP\nin\nAir\nP\nout\nWater\nFilament\n\n(\ud835\udc43\n\ud835\udc56\ud835\udc5b\n\u2212\ud835\udc43\n\ud835\udc5c\ud835\udc62\ud835\udc61\n) \u00d7\n(\ud835\udc37\ud835\udc3f)\n\u23df\nProjected area\nof filament\n\n=\n(2)\ud835\udefe\ud835\udc3f\n\u23df\nBoth side of film\nP\n P\nin\nout\n\u2013\nL\n\n2\ud835\udefe\n2\ud835\udefe\n(\ud835\udee5\ud835\udc43\n\ud835\udc52\n) =\n2\ud835\udc45\n\ud835\udc51\n=\n\ud835\udefe\n\ud835\udee5\ud835\udc43\n\ud835\udc52\n= \ud835\udc43\n\ud835\udc56\ud835\udc5b\n\u2212\ud835\udc43\n\ud835\udc5c\ud835\udc62\ud835\udc61\n=\n\ud835\udc45"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7037746675f78814df9cd96fdeb5ad9f817615732539b4355ca8e672f7b2de4b
+size 1706

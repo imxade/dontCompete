@@ -1,11 +1,3 @@
-{
-  "id": "62",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 62 \n[Transportation Engineering : Railway, Runway and Taxiway Design]\n \n \nA horizontal curve of radius 1080 m (with transition curves on either side) in a Broad Gauge railway track \nis designed and constructed for an equilibrium speed of 70 kmph. However, a few years after construction, \nthe Railway Authorities decided to run express trains on this track. The maximum allowable cant \ndeficiency is 10 cm. \n \nThe maximum restricted speed (in kmph) of the express trains running on this track is _______________ \n(rounded off to the nearest integer). \nAns. 112 to 116",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven,\n1080 m\nR\n \uf03d\n70 kmph\neq\nV\n\uf03d\n\nPAGE\n55\n\n10 cm\nD\nC\n \uf03d\nmax\n?\nV\n\uf03d\nWe know that,\nth\nact\nD\ne\ne\nC\n\uf03d\n\uf02b\n2\n127\nth\nD\nGV\ne\nC\nR\n\uf03d\n\uf02b\n\nD\nG V\nC\nR\n\uf0b4\n\uf03d\n\uf02b\n2\n\n127\n\uf0b4\n\uf03d\n\uf02b\n\uf0b4\n2\n1.75 70\n0.1\n127 1080\n\n0.1625\n\uf03d\n2\nmax\n127\nth\nGV\ne\nR\n\uf05c\n\uf03d\n\n2\nmax\n0.1625\n127\nGV\nR\n \n\uf03d\n\nV\n\uf0b4\n\uf03d\n\uf0b4\n2\nmax\n1.75\n0.1625\n127 1080\n\n1.75\nV\n\uf0b4\n\uf0b4\n\uf03d\n0.1625 127 1080\n2\nmax\n2\nmax\n12736.285\nV\n\uf03d\n\uf028\n\uf029\n1/2\nmax\n12736.285\nV\n\uf03d\nmax\n112.85 kmph\nV\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a34e6f03922492759fc44af13bc2167f0e90188ee5a96ca888c652b4cde324cb
+size 1423

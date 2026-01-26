@@ -1,11 +1,3 @@
-{
-  "id": "63",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 63  \n \n  \n[Power Electronics : Inverter]\nA single-phase bridge voltage source inverter (VSI) feeds a purely inductive load.  The inverter output \nvoltage is a square wave in \n0\n180\n  conduction mode.  The fundamental frequency of the output voltage is \n50 Hz.  If the \nDC\n  input voltage of the inverter is 100 V and the value of the load inductance is 20 mH, \nthe peak-to-peak load current in amperes is _____ (rounded off to the nearest integer). \nAns. \n50 to 50  \nSol. \nGiven : \n \n(i)  Input voltage \n= 100\n \nV\n(ii)  Load inductance \n= 20 mH\n \n \n(iii)  Fundamental frequency of the output voltage is = 50 Hz\nis = 5O HZ:\n\nPAGE\n76\n\n(iv) A single phase bridge voltage source inverter (VSI) feeds a purely inductive load.\n1\nD\n3\nD\n3\nT\n1\nT\n0\nV\n\uf02b\n\uf02b\n\uf02d\ns\nV\n\uf02d\n0\nI\nL\n4\nD\n2\nD\n2\nT\n4\nT\nL-Load :\n \n0\nI\n  is triangular and symmetric about time - axis and feedback diodes and switches conducts\n\ud835\udc47\nfor equal duration i.e\n4\n.\nOutput voltage wave form :\n0 < \ud835\udc61< \ud835\udc47/2\n\ud835\udc49\n\ud835\udc3f\n= \ud835\udc49\n0\n = \ud835\udc49\n\ud835\udc46\n \n \nLet us assume \n0\nV\n  and \n0\nI\n  as given in the figure.\n0\nV\ns\nV\n0\nT\nt\n2\nT\ns\nV\n\uf02d\n0\nI\np\nI\nt\n0\n1\nT\n3\nD\n4\nD\n3\nT\n2\nT\n1\nD\np\nI\n\uf02d\n4\nT\n2\nD\nMode : \n0 < \ud835\udc61< \ud835\udc47/2\n\ud835\udc49\n\ud835\udc3f\n= \ud835\udc49\n0\n = \ud835\udc49\n\ud835\udc46\n\ud835\udc3f[\ud835\udc3c\n\ud835\udc5d\n\u2212(\u2212\ud835\udc3c\n\ud835\udc5d\n)]\n\n2\n)\n= \ud835\udc49\n\ud835\udc46\n(\n\ud835\udc47\n\ud835\udc3f(2\ud835\udc3c\n\ud835\udc5d\n)\n\n2\n)\n = \ud835\udc49\n\ud835\udc60\n(\n\ud835\udc47\n\ud835\udc49\n\ud835\udc60\n\ud835\udc47\n2\ud835\udc3c\n\ud835\udc5d\n= (\n2\n)\n\ud835\udc3f\n) (\n\nPAGE\n77\n\n\ud835\udc49\n\ud835\udc60\n\ud835\udc47\n\ud835\udc49\n\ud835\udc60\n1\n\ud835\udc3c\n\ud835\udc5d\n= (\n4\ud835\udc53\n)\n\ud835\udc3f\n) (\n4\n) = (\n\ud835\udc3f\n) (\n100\n1\n\ud835\udc3c\n\ud835\udc5d\n=\n4\u00d750\n)\n20\u00d710\n\u22123\n (\n\ud835\udc3c\n\ud835\udc5d\n= 25\n Amp.\n2\ud835\udc3c\n\ud835\udc5d\n (peak to peak Load current) \n= 50\n Amp\nHence the correct answer is 50.\n\uf026\n Key Point \n(i)  R-Load: Output voltage and output current are of square wave. \n \n(ii)  L-Load : Output voltage is a square wave but output current is a triangular wave and output current\nlags output Voltage by \n90\n0\n. \n(iii) For Any load in VSI. The output voltage is always\n",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:78ec0df2f8b6c7ce77e5f89f0ab0e743718ff8ddd56b67ea6ff60e78b6875748
+size 2707

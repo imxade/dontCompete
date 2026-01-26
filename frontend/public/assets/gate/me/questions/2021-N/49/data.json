@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "mechanical-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "C",
-  "question_text": "Question 49\nThe\n \nMean and variance, respectively, of a binomial distribution for n independent trials with the \nprobability of success as p, are\nEngineering Mathematics\n(A) \n(\n)\nnp,np 1-2p\n  \n(B) np, np \n(C) np, np(1- p) \n(D) \n(\n)\nnp, np 1- p",
-  "answer_text": "C",
-  "explanation_text": "Sol.\n \nBinomial distribution,\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n40\n\nMean = np\nVariance = npq = np (1 \u2013 p)\nHence, the correct option is (C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:78daa5cb3a8a26b524755c1e2adc79f2f3f39c13842b592983f7c001fb6745b1
+size 638

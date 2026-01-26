@@ -1,11 +1,3 @@
-{
-  "id": "17",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(A)\n1/\nT",
-  "question_text": "Question 17\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n11\n\nFor a reversible endothermic chemical reaction with constant heat of reaction over the operating temperature \nrange, \n\ud835\udc3e \nis the thermodynamic equilibrium constant. Which one of the following figures shows the CORRECT \ndependence of \n\ud835\udc3e \non temperature \n\ud835\udc47\n?  \n \n[Chemical Reaction Engineering , 1 Marks]\n \n \n \n \n(A)\nln( )\nK\nln( )\nK\n(B)\n1/\nT\n1/\nT\nln( )\nK\nln( )\nK\n(C)\n1/\nT\n1/\nT\nln( )\nK\n(D)\n1/\nT\nln( )\nK",
-  "answer_text": "(A)\n1/\nT",
-  "explanation_text": "Sol. \nFrom Vant Hoff\u2019s equation,\n\uf028\n\uf029\n0\n\uf044\n\uf03d\n2\nln( )\nn\nrx\nH\nd\nK\ndT\nRT\n\uf028\n\uf029\nln\n\uf044\n\uf03d\uf02d\n\uf02b\nn\nrx\nH\nK\nC\nRT\nln(K)\n1\nT\n\uf0e6\n\uf0f6\uf0ae\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8ffc4bc056f2468a27ec159152aea27e0c6b2b656e424f1481998303487b1b5
+size 1010

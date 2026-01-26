@@ -1,11 +1,3 @@
-{
-  "id": "43",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "1.73",
-  "question_text": "Question\n 43\nA hydraulic jump occurs in a triangular (V-shaped) channel with side slopes 1:1 (vertical to horizontal). \nThe sequent depths are 0.5 m and 1.5 m. The flow rate (in \n3\nm /s\n, round off to two decimal places\n) in the \nchannel is _____",
-  "answer_text": "1.73",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5be276933198aa1667de33daa90a7cd59e212a22fb32fcbb9f4adfd775a4cc07
+size 451

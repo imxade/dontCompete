@@ -1,11 +1,3 @@
-{
-  "id": "23",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 23 \n \n \n \n \nConsider the control structure for the overhead section of a distillation column shown in the figure. The \ncomposition controller (CC) controls the heavy key impurity in the distillate by adjusting the setpoint of \nthe reflux flow controller in a cascade arrangement. The sign of the controller gain for the pressure \ncontroller (PC) and that for the composition controller (CC) are, respectively,\n\nPAGE\n20\n\nPC\nAC\nLC\nset\nFC\nAC\nAO\nset\nL\nD\n\uf0e5\nX\nFC\nCC\nAC: air-to-close valve\nAO: air-to-open valve\n[Instrumentation and Process Control, 1 Marks] \n \n(A) negative, negative \n(B) negative, positive\nL/D: reflux-to-distillate ratio\n(C) positive, positive \n(D) positive, negative \nAns. (D)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\nPC : Pressure Controller\nLC : Level Controller\nFC : Flow Controller\nCC : Composition Controller\nAC\n : \nair to close valve are valve which are held open by a valve spring and required air pressure to \nmove them toward closed position. The valve closes progressively as the air pressure increases.\nAO\n :   air to open valves open progressively as air pressure increases.\nPC :\n  \nwhen column pressure increases, relative volatility between component will decrease. This will \nincrease the reflux ratio and required increased condenser and reboiler duty.\n\u2234\n \n \n Positive PC gain is recommended.\nCC : \n  The reflux flow controller gets a combined input from CC (Composition Controller). A positive\ndeviation from heavy key concentration set point warrant a negative gain to adjust the reflux FC.\n\u2234\n \n \n Negative Composition Controller is recommended."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b753283f65fc5b2377186990b7af6f7f23cff7c19444c52d6f0edf6900d3600
+size 1827

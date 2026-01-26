@@ -1,11 +1,3 @@
-{
-  "id": "5",
-  "stream": "mechanical-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "391.89",
-  "question_text": "Question 5\nIn a pure orthogonal turning by a zero rake angle single point carbide cutting tool the shear force has been \ncomputed to be 400 N. If the cutting velocity \n100 m/min\nc\nV\n =\n, depth of cut \n2.0 mm\nt\n =\n, feed\n0\n0.1mm/revolution\nS\n =\n and chip flow velocity \n20m/min\nf\nV\n =\n, then the shear strength \ns\n\u03c4\n  of the material\nwill be _______ MPa.(round off to two decimal places).\nProduction Engineering (Machining)\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n11\n",
-  "answer_text": "391.89",
-  "explanation_text": "Sol. \nGiven : \n0\n\u03b1 =\n400 N\ns\nF\n =\nCutting velocity \n(\n)\n100 m/min\nc\nV\n=\nDepth of cut = 2 mm = width of cut (b)\nChip velocity \n20 m/min\nf\nV\n =\nFeed \n0\n0.1 mm/rev\nS\n =\n = uncut chip thickness\nf\nV\n90\n(\n)\n\u0002 \u0004 \u0002 \u0003\ns\nV\n90\n \u0002 \u0003\n\u0004\nc\nV\n\nf\nc\nV\nV\n=\n\u03c6\u2212\u03b1\n\u03c6\ncos(\n)\nsin\nV\nsin\ncos\nV\n\u03c6 =\n\u03c6\nf\nc\n\u2212\n\uf0e6\n\uf0f6\n\u03c6 =\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1\n20\ntan\n100\n\n0\n11.3\n\u03c6 =\nSo,  \nsin\ns\ns\nf\nbt\n\u03c4 =\n\u03c6\n400 sin(11.3)\n2 0.1\n=\n\u00d7\n391.89 MPa\ns\n\u03c4 ="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f3c5a48c3d58d8407c22d7df557ce7ff765645cfd34d5ea1dac87397cf405b7
+size 1339

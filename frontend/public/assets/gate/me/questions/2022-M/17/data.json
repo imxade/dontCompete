@@ -1,11 +1,3 @@
-{
-  "id": "17",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(A, B, D)",
-  "question_text": "Question 17\nWhich of the following heat treatment processes is/are used for surface hardening of steels?\n(A) Carburizing \n \n \n(B) Cyaniding\n(C) Annealing \n \n \n(D) Carbonitriding",
-  "answer_text": "(A, B, D)",
-  "explanation_text": "Sol. \nHeat treatment process is/are used for surface hardening of steel-\n\uf0b7\n \nCyaniding\n\uf0b7\n \nCarbonitriding\n\uf0b7\n \nCarburizing\nNote :  \nSurface hardening process \n\uf0ae\n Cyaniding, Carbonitriding, Carburizing.\nSurface softening process \n\uf0ae\n Annealing.\nHence, the correct option is (A,B,C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb2c019af567f560b64c0d457255c39a31582d7bc15943b897887e3c99c3e141
+size 720

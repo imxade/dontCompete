@@ -1,11 +1,3 @@
-{
-  "id": "7",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 7\nThe figure shows a schematic of a simple Watt governor mechanism with the\n \nspindle \n1\n2\nO O\n   rotating at an\nangular velocity \u03c9 about a vertical axis. The balls at \nP\n \nand \nS\n have equal mass. Assume that there is no \nfriction anywhere and all other\n \ncomponents are massless and rigid. The vertical distance between the\nhorizontal\n \nplane of rotation of the balls and the pivot \n1\nO\n  is denoted by \nh\n. The value of\n \nh\n = 400 mm at a\ncertain \u03c9. If \u03c9 is doubled, the value of \nh\n will be _________ mm.\n\uf077\n1\nO\n2\n9.8m/s\ng\n \uf03d\nSpindle\nl\n1\nl\n1\nh\nP\nS\nCylindrical\njoint\nl\n2\nl\n2\nl\n3\nl\n3\nR\nQ\nO\n2\nSleeve (QR)\n(A) 50 \n(B) 100 \n(C) 150 \n(D) 200",
-  "answer_text": "(B)",
-  "explanation_text": "Sol. \n2\ng\nh\n\uf077\uf03d\n for watt governor\n(\n)\nN\n\uf077\uf0b5\n2\ng\nN\nh\n\uf03d\ng\nh\n\uf077\uf03d\n2\n1\n1\n400\nh\n \uf03d\n \n \n \n \nGiven\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n14\n\ng\nh\n\uf077\uf03d\n2\n1\n1\n\n\ng\nh\n\uf077\uf03d\n2\n2\n2\n2\n1\n2\n\uf077\uf03d\uf077\nh\ng\nh\ng\n\uf077\n\uf03d\n\uf0b4\n\uf077\n1\n2\n1\n1\n4\n2\n400\n4\nh\n\uf03d\n2\n100\nh\n \uf03d\nHence, the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a84507be5c9c86814b5ed43a38a3228120132cb34b38fc0dd858eea449f94321
+size 1389

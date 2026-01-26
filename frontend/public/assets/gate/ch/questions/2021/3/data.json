@@ -1,11 +1,3 @@
-{
-  "id": "3",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 3\nWhich of the following is NOT a necessary condition for a process under closed-loop control to be \nstable?\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n9\n\n(A) Dead time term(s) must be absent in the open loop transfer function.\n(B) Open loop transfer function must have an amplitude ratio less than 1 at the critical frequency.\n(C) All the elements in the left (first) column of the Routh array must have the same sign.\n(D) Roots of the characteristic equation must have negative real part.",
-  "answer_text": "(A)",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8808de7071582da3958c2d9313002be430e0cdf26b64209f71619e3ce7893e1c
+size 722

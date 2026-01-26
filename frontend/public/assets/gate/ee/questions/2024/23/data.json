@@ -1,11 +1,3 @@
-{
-  "id": "23",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question \n23  \n \n  \n \n[Measurement : (CT/PT)]\nThe table lists two instrument transformers and their features :\nInstrument transformers \nFeatures\n(P) \nPrimary is connected in parallel to the grid\n(X) \nCurrent transformer (CT) \n(Q) Open circuited secondary is not desirable\n(Y) \nPotential transformer (PT) \n(R) Primary current is the line current\n(S) \nSecondary burden affects the primary current\n(A) \nX\n matches with P and Q; Y matches with R and S.\n \n \n(B) \nX\n matches with P and R; Y matches with Q and S.\n\nPAGE\n26\n\n(C) \nX\n matches with Q and R; Y matches with P and S.\n \n \n(D) \nX\n matches with Q and S; Y matches with P and R. \n \nAns. (C)",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:157d6431db635d8064b1c74cfbadc9a1fe481d09b753c511b46d885898588a02
+size 872

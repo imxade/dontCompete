@@ -1,11 +1,3 @@
-{
-  "id": "55",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "3 to 3 \nSol.\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n39\n\n100\n40\n80\n20\n\n2 2089 (100\n40)\nP\nQ\nmc\nT\n\uf03d\n\uf044\n\uf03d\uf0b4\n\uf0b4\n\uf02d\n2 2089 60\nQ\n \uf03d\uf0b4\n\uf0b4\n \n \n \n \n \n \n\u2026 (i)\n(\n)\nm\nQ\nUA\nT\n\uf03d\n\uf044\n\nHere \nAMTD\n20\nm\nT\n\uf044\n\uf03d\n\uf03d\n\n(20)\nQ\nUA\n\uf03d\n \n \n \n \n \n \n \n\u2026 (ii)\nBy equation (i) and (ii)\n2 2089 60\n(20)\nUA\n\uf0b4\n\uf0b4\n\uf03d\n(\n)\n12534\nUA\n \uf03d\nUA\nC\n\uf03d\n \n \n \n \n \n \n \n\u2026 (iii)\nNTU\nmin\n2 2089\n4178\nh\nh\nh\nP\nC\nm C\n\uf03d\n\uf03d\n\uf0b4\n\uf03d\n\n1 4178\n4178\nc\nc\nc\nP\nC\nm C\n\uf03d\n\uf03d\uf0b4\n\uf03d\n\nAs both the fluids have same heat capacity\nthus \nmin\nmax\n4178\nC\nC\n\uf03d\n\uf03d\nNTU \n12534\n4178\n\uf03d\nNTU \n3\n\uf03d",
-  "question_text": "Question 55 \n \nA perfectly insulated, concentric tube countercurrent heat exchanger is used to cool lubricating oil using\nwater as a coolant (see figure below). Oil enters the outer annulus at a mass flow rate of \n1\n2 kg.s\n\uf02d\n with a\ntemperature of \n0\n100 C\n  and leaves at \n0\n40 C.\n Water enters the inner tube at a mass flow rate of \n1\n1 kg.s\n\uf02d\nwith\na temperature of \n0\n20 C\n and leaves at \n0\n80 C.\n Use specific heats of oil and water as \n1\n1\n2089 J.kg K\n\uf02d\n\uf02d\n and\n1\n1\n4178 J.kg K ,\n\uf02d\n\uf02d\n respectively. There is no phase change in both the streams. Under steady-state conditions,\nthe number of transfer units (NTU) is _______ (in integer).  \n \n[Heat Transfer, 2 Marks]\n0\n100\n C\n0\n40\n C\nOil\nWater\n0\n20\n C\n0\n80\n C",
-  "answer_text": "3 to 3 \nSol.\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n39\n\n100\n40\n80\n20\n\n2 2089 (100\n40)\nP\nQ\nmc\nT\n\uf03d\n\uf044\n\uf03d\uf0b4\n\uf0b4\n\uf02d\n2 2089 60\nQ\n \uf03d\uf0b4\n\uf0b4\n \n \n \n \n \n \n\u2026 (i)\n(\n)\nm\nQ\nUA\nT\n\uf03d\n\uf044\n\nHere \nAMTD\n20\nm\nT\n\uf044\n\uf03d\n\uf03d\n\n(20)\nQ\nUA\n\uf03d\n \n \n \n \n \n \n \n\u2026 (ii)\nBy equation (i) and (ii)\n2 2089 60\n(20)\nUA\n\uf0b4\n\uf0b4\n\uf03d\n(\n)\n12534\nUA\n \uf03d\nUA\nC\n\uf03d\n \n \n \n \n \n \n \n\u2026 (iii)\nNTU\nmin\n2 2089\n4178\nh\nh\nh\nP\nC\nm C\n\uf03d\n\uf03d\n\uf0b4\n\uf03d\n\n1 4178\n4178\nc\nc\nc\nP\nC\nm C\n\uf03d\n\uf03d\uf0b4\n\uf03d\n\nAs both the fluids have same heat capacity\nthus \nmin\nmax\n4178\nC\nC\n\uf03d\n\uf03d\nNTU \n12534\n4178\n\uf03d\nNTU \n3\n\uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:70ba266c50621c301fae5c6706caba4c9f6531f07d52cbb3bffdc2e6e4f50fbd
+size 2607

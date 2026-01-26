@@ -1,11 +1,3 @@
-{
-  "id": "64",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 64 \n \nThe purchase cost of a new distillation column is \nRs.10 lakhs \nwith an installation factor of \n5.8\n. The cost of the \ncapital is to be annualized over a period of \n6 years \nat a fixed rate of interest of \n5 % \nper annum, compounded \nannually. The annual cost (in \nlakhs of rupees\n) of the installed capital is _______ (rounded off to one decimal \nplace).   \n \n \n \n \n \n \n[Plant Design and Economic, 2 Marks]\n \n \nAns. \n11.0 to 11.8 \nSol. \n10 Lakh\nO\nC\n \uf03d\n5.8\nf\n \uf03d\n6 years\nn\n \uf03d\n5%\ni\n \uf03d\n per anum \n0.05 per anum\n\uf03d\nInstallation Capital (IC) \n10 5.8\n58 Lakh\n\uf03d\n\uf0b4\n\uf03d\nAnnualizing IC over the period of 6 years.\nIC\nAC\nAC AC AC AC AC AC\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n\n0\n0\n6\n(1 i)\nIC\n(1\n)\n1\ni\ni\n\uf0e9\n\uf0f9\n\uf02b\n\uf0b4\n\uf03d\n\uf0b4\uf0ea\n\uf0fa\n\uf02b\n\uf02d\n\uf0eb\n\uf0fb\n6\nAnnual Cost (AC)\n\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n48\n\n6\n(1.05)\n0.05\n58\n(1.05)\n1\n\uf0e9\n\uf0f9\n\uf0b4\n\uf03d\n\uf0b4\uf0ea\n\uf0fa\n\uf02d\n\uf0eb\n\uf0fb\n6\nAC\n\nAC \n11.43 Lakh\n\uf03d",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab995db86390c98aaa60dd5d97d40f47315d013e96f1338e29919134481747ad
+size 1327

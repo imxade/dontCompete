@@ -1,11 +1,3 @@
-{
-  "id": "9",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "B \nSol.\n \nGiven : \nIn a class of five students\n P, Q, R, S\n and \nT\n only student is known to have copied in the exam.\nThe recorded statement from students\nStatement of \nP\n : \nR\n has copied in the exam.\nStatement of \nQ\n : \nS\n has copied in the exam.\nStatement of \nR\n : \nP\n did not copy in the exam.\nStatement of \nS\n :  only one of us is telling the truth.\nStatement of \nT\n :  \nR\n is telling the truth.\nThe investigating team have authentic information that S never lies.\nS says only one of us is tilling the truth.\nHence, statement of all other students will be wrong.\nStatement of \nP: R \ncopied in the exam.\nStatement of \nQ : S\n copied in the exam.\nStatement of \nR : P\n copied in the exam.\nStatement of \nT : P\n copied in the exam.\nSo, \nP\n copied in the exam.\nHence, the correct option is (B).\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n8",
-  "question_text": "Question 9\nIn a class of five students P, Q, R, S and T, only one student is known to have copied in the exam. The \ndisciplinary committee has investigated the situation and recorded the statements from the students as \ngiven below.\nStatement of P :\n R has copied in the exam.\nStatement of Q :\n S has copied in the exam.\nStatement of R :\n P did not copy in the exam.\nStatement of S :\n Only one of us is telling the truth.\nStatement of T :\n R is telling the truth.\nThe investigating team had authentic information that S never lies.\nBased on the information given above, the person who has copied in the exam is\n(A) \nR\n \n(B) \nP\n(C) \nQ\n \n(D) \nT",
-  "answer_text": "B \nSol.\n \nGiven : \nIn a class of five students\n P, Q, R, S\n and \nT\n only student is known to have copied in the exam.\nThe recorded statement from students\nStatement of \nP\n : \nR\n has copied in the exam.\nStatement of \nQ\n : \nS\n has copied in the exam.\nStatement of \nR\n : \nP\n did not copy in the exam.\nStatement of \nS\n :  only one of us is telling the truth.\nStatement of \nT\n :  \nR\n is telling the truth.\nThe investigating team have authentic information that S never lies.\nS says only one of us is tilling the truth.\nHence, statement of all other students will be wrong.\nStatement of \nP: R \ncopied in the exam.\nStatement of \nQ : S\n copied in the exam.\nStatement of \nR : P\n copied in the exam.\nStatement of \nT : P\n copied in the exam.\nSo, \nP\n copied in the exam.\nHence, the correct option is (B).\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n8",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec6dd4679106f76921d5fccc86644e11c57797d18fe69c4cb927b121d9d8ed55
+size 2733

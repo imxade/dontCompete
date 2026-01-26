@@ -1,11 +1,3 @@
-{
-  "id": "53",
-  "stream": "mechanical-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 53\n                                  \n \n \nConsider an ideal vapour compression refrigeration cycle working on R-134a refrigerant. The COP of the \ncycle is 10 and the  refrigeration capacity is 150 kJ/kg. The heat rejected by the refrigerant in the condenser \nis ______kJ/kg (round off to the nearest integer).\nRefrigeration and Air Conditioning (VCRS) \n \nAns. \n165 \n \nSol.\n \nGiven :\n10,\n150 kJ/kg\nCOP\nRC\n=\n=\ncondenser\n(\n)\n?\nR\nQ\n=\nRC\nCOP\nP\n=\n=\n10\nin\n150\n10\nin\nP\n=\n15 kJ/kg\nin\nP\n =\ncondenser\n(\n)\nR\nin\nQ\nRC\nP\n=\n+\n(150\n15)\n165 kJ/kg\n=\n+\n=",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f89573746dbc8e371a83c3c3f45dc5282f2c000fd5cd27e1629e65ba23c5159
+size 796

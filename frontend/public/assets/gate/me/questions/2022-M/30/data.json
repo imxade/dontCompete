@@ -1,11 +1,3 @@
-{
-  "id": "30",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 30\nA bracket is attached to a vertical column by means of two identical rivets \nU\n and \nV\n separated by a distance \nof 2\na\n = 100 mm, as shown in the figure. The permissible\n \nshear stress of the rivet material is 50 MPa. If a\nload \nP\n = 10 kN is applied at an\n \neccentricity \n3 7\ne\na\n\uf03d\n, the minimum cross-sectional area of each of the \nrivets to\n \navoid failure is ___________ mm\n2\n.\nP\ne\nU\nBracket\n2\na\nV\nColumn\n\n(A) 800 \n(B) 25 \n(C) \n100 7\n   \n(D) \n200",
-  "answer_text": "(A)",
-  "explanation_text": "Sol. \nGiven :\nLoad \n10 kN\nP\n \uf03d\nDistance \n2\n100 mm\na\n \uf03d\nEccentricity \n( )\n3 7\ne\na\n\uf03d\nP\ne\nU\nBracket\n2\na\nV\nColumn\nPrimary force\n3\n10 10\n5000 N\n2\np\nP\n\uf0b4\n\uf03d\n\uf03d\n\nPs\nP\nP e\na\na\n\uf03d\n\uf0b4\uf03d\n\uf0b4\n2\n1\nsec\n4\n2\nondary\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n31\n\n1\n10 10\n3 7\n2\na\nPs\na\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n3\n\n1\n39686.26 N\nPs\n \uf03d\n2\n2\np\ns\nR\nP\nP\n\uf03d\n\uf02b\n2\n2\n5000\n39686.26\n\uf03d\n\uf02b\n\nmax\n40000 N\nR\n\uf03d\nmax\nR\nA\n \n\uf03d\uf074\n400000\n50\nA\n\uf03d\n2\n800 mm\nA\n \uf03d\n\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:53c752d90a381207db546a140942abd1f88ddedbefd959c51a75317c94080ab2
+size 1375

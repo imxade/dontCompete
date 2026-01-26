@@ -161,7 +161,7 @@ function TopicView() {
 
     const getContributeUrl = () => {
         if (!mdPath || !APP_CONFIG.REPO_URL) return '#'
-        return `${APP_CONFIG.REPO_URL}/blob/main/frontend/public/assets/${examId}/${streamId}/${mdPath}`
+        return `${APP_CONFIG.REPO_URL}/blob/HEAD/frontend/public/assets/${examId}/${streamId}/${mdPath}`
     }
 
     if (structureLoading || theoryLoading) {

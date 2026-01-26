@@ -1,11 +1,3 @@
-{
-  "id": "47",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 47 \n \nA tappet valve mechanism in an IC engine comprises a rocker arm ABC that is hinged at B as shown \nin the figure. The rocker is assumed rigid and it oscillates about the hinge B. The mass moment of \ninertia of the rocker about B is \n4\n2\n10\nkg.m\n\u2212\n. The rocker arm dimensions are \n3.5 cm\na\n =\n and\n2.5 cm\nb\n =\n. A pushrod pushes the rocker at location A, when moved vertically by a cam that rotates\nat \nN\n rpm. The pushrod is assumed massless and has a stiffness of 15 N/mm. At the other end C, the \nrocker pushes a valve against a spring of stiffness 10 N/mm. The valve is assumed mass-less and rigid.\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n39\n\nb\na\nA\nB\nHINGE\n+\nRocker\nc\nSpring\nPush rod\nCylinder head\nValve\nCam\n+\nResonance in the rocker system occurs when the cam shaft runs at a speed of _________ rpm (round \noff to the nearest integer).\nTheory of Machine (CAM and Follower) \n \n(A) 496 \n \n(B) 4739 \n(C) 2369 \n(D) 790 \nAns. \nB \nSol.\n0.025 m\n0.035 m\n\u03b8\n\u03b8\n10000 N/m\n15000 N/m\n\n\u03b8\n(10000) 0.025\n\u00d7\n\u03b8\n2\n(10000) (0.025)\n\u00d7\n\u03b8\n\u03b8\n\u03b8\n2\n(15000) (0.035)\n\u00d7\n\u03b8\nI\n \u03b8\n\uf067\uf067\n(15000) 0.035\n\u00d7\n\u03b8\n4\n2\n10\nkg-m\nI\n\u2212\n=\nBy D\u2019Alembert Principle\n2\n2\n[10000 (0.025)\n15000 (0.035) ]\n0\nI\n \u03b8+\n\u00d7\n+\n\u00d7\n\u03b8 =\n\uf067\uf067\n4\n(10 )\n(24.625)\n0\n\u2212\n\u03b8+\n\u03b8 =\n\uf067\uf067\n4\n24.625\n0\n10\n\u2212\n\uf0e6\n\uf0f6\n\u03b8+\n\u03b8 =\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf067\uf067\n\uf0de\n  \n2\n246250\nn\n\u03c9 =\n496.2358 rad/s\nn\n\u03c9 =\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n40\n\n496.2358 60\n4738.7031 rpm\n2\nC\nN\n\u00d7\n=\n=\n\u03c0",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c60b471b693ecec3736d50970fa3e0d435f9bdbb09b207992e142b4e340f36a0
+size 1985

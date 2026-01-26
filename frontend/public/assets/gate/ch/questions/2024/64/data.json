@@ -1,11 +1,3 @@
-{
-  "id": "64",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 64\n \n \nA PD controller with transfer function \n\ud835\udc3a\n\ud835\udc50\n is used to stabilize an open-loop unstable process with transfer \nfunction \n\ud835\udc3a\n\ud835\udc5d\n, where\n\ud835\udf0f\n\ud835\udc37\n\ud835\udc60+1\n1\n(\ud835\udc60\u22121)(10\ud835\udc60+1)\n\ud835\udc3a\n\ud835\udc50\n= \ud835\udc3e\n\ud835\udc50\n20\n)\ud835\udc60+1\n , \ud835\udc3a\n\ud835\udc5d\n=\n(\n\ud835\udf0f\ud835\udc37\nand time is in minutes.  From the necessary conditions for closed-loop stability, the maximum feasible \nvalue of \n\ud835\udf0f\n\ud835\udc37\n, in minutes, rounded off to 1 decimal place, is __________.\n[Instrumentation and process control 2 marks] \nAns. 22.2 (22.1 to 22.3) \nSol. \nGiven:\n\ud835\udc3e\n\ud835\udc36\n(\ud835\udf0f\n\ud835\udc37\n\ud835\udc46+1)\n1\n\ud835\udc3a\n\ud835\udc36\n=\n20\n\ud835\udc46+1)\n ,             \n\ud835\udc3a\n\ud835\udc43\n=\n(\ud835\udc46\u22121)(10\ud835\udc46+1)\n(\n\ud835\udf0f\ud835\udc37\nUsing Routh stability criteria\n\nPAGE\n65\n\nFirst write characteristic equation\n1 + \ud835\udc3a\n\ud835\udc42\ud835\udc3f\n= 0\n\u2234\n \n1 + \ud835\udc3a\n\ud835\udc36\n\ud835\udc3a\n\ud835\udc43\n= 0\n20\ud835\udc3e\n\ud835\udc36\n(\ud835\udf0f\n\ud835\udc37\n\ud835\udc46+1)\n1\n(10\ud835\udc60\n2\n\u22129\ud835\udc60\u22121)\n=0\n1 +\n(\ud835\udf0f\n\ud835\udc37\n\ud835\udc46+20)\n\u00d7\n(10\ud835\udf0f\n\ud835\udc37\n)\ud835\udc46\n3\n \n+ \ud835\udc46\n2\n(200 \u22129\ud835\udf0f\n\ud835\udc37\n) + \ud835\udc46(20\ud835\udc3e\n\ud835\udc36\n\ud835\udf0f\n\ud835\udc37\n\u2212\ud835\udf0f\n\ud835\udc37\n\u2212180) + (20\ud835\udc3e\n\ud835\udc36\n\u221220) = 0\n20\ud835\udc3e\n\ud835\udc36\n\ud835\udf0f\n\ud835\udc37\n\u2212\ud835\udf0f\n\ud835\udc37\n\u2212180\n10\ud835\udf0f\n\ud835\udc37\n200 \u22129\ud835\udf0f\n\ud835\udc37\n\ud835\udc46\n3\n20\ud835\udc3e\n\ud835\udc36\n\u221220\n\ud835\udc46\n2\n\n\n|\n\ud835\udc46\n1\n\ud835\udc4f\n1\n\ud835\udc50\n1\n\ud835\udc4f\n2\n\ud835\udc50\n2\n\ud835\udc46\n0\n10\ud835\udf0f\n\ud835\udc37\n(20\ud835\udc3e\n\ud835\udc36\n\u221220)\u2212(200\u22129\ud835\udf0f\n\ud835\udc37\n)\u00d7(20\ud835\udc3e\n\ud835\udc36\n\ud835\udf0f\n\ud835\udc37\n\u2212\ud835\udf0f\n\ud835\udc37\n\u2212180)\n\ud835\udc4f\n1\n =\n200\u22129\ud835\udf0f\n\ud835\udc37\nFor closed loop stability, first column should be +ve.\n\u2234\n \n200 \u22129\ud835\udf0f\n\ud835\udc37\n> 0\n200\n\ud835\udf0f\n\ud835\udc37\n<\n9\n\ud835\udf0f\n\ud835\udc37\n< 22.22\nMaximum feasible value of \n\ud835\udf0f\n\ud835\udc37\n= 22.22",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5548bba0f7e0d089ee4337afd94e2ef5e3ea826dfe0bb1d829ea5b6ce0cc361b
+size 2737

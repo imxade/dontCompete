@@ -1,11 +1,3 @@
-{
-  "id": "10",
-  "stream": "mechanical-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 10\n5.2\n4\nln\n x dx\n\uf0f2\nusing Simpson\u2019s one third rule with interval size 0.3 is\nValue of\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n15\n\n(A) 1.83 \n \n(B) 1.06 \n(C) 1.60 \n(D) 1.51 \nEngineering Mathematics \n \nAns. \nA",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \n \n \n5.2\n4\n \nln( )\nx dx\n\uf0f2\n0.3\nh\n =\n5.2\n4\n4\n0.3\nb\na\nn\nh\n\u2212\n\u2212\n=\n=\n=\nn\na\nh\nf x dx\ny\ny\n=\n+\n+ \u00d7\n+ \u00d7\n\uf0f2\nb\n[\n]\n0\n( )\n(\n)\n4 Odd\n2 Even\n3\nx \n4 \n4.3 \n4.6 \n4.9 \n5.2 \ny \n1.3862\n1.4586\n1.526\n1.589\n1.648\n0\ny\n           \n1\ny\n          \n2\ny\n        \n3\ny\n        \n4\ny\n4\n0.3\nln( )\n(1.3862 1.648)\n(1.4586 1.589)\n2 1.526\n3\nx dx\n =\n+\n+\n+\n+ \u00d7\n\uf0f2\n1.8277\n=\n[\n]\n5.2\nHence, the correct option is (A).\n\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c52a6a5461371f24f43e485244058e7940af8d6943314edca6bd3de5ec81775
+size 976

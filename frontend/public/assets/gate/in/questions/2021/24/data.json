@@ -1,11 +1,3 @@
-{
-  "id": "24",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "NAT",
-  "key": "0.5",
-  "question_text": "Question 24 \n \n \n \n \n    \nCommunication System (NAT)\nConsider that \nx \nand \ny \nare independent continuous valued random variables with uniform PDF given by \n~\n(2,3)\nx\nU\n and \n~\n(1,4)\ny\nU\n. Then \n(\n)\nP Y\nX\n\u2264\n is equal to _______(rounded off to two decimal places).\n[2 Marks]",
-  "answer_text": "0.5",
-  "explanation_text": "Sol. \nGiven pdf of random variable \nx\n and \ny\n is\n( )\nX\nf\nx\n( )\nY\nf\ny\n1\n1\ny\n4\n1\nx\n3\n2\n[\n]\n,\n( , )\nXY\nP x\nX\nx\ndx y\nY\ny\ndy\nf\nx y dxdy\n<\n<\n+\n<\n<\n+\n=\nx\n3\nXY\nP\nX\nY\nx\nf\nx y dxdy\n<\n<\n<\n<\n=\n \uf0f2\uf0f2\n[\n]\n2 1\n2\n3, 1\n( , )\nx\n3\nX\nY\nP Y\nx\nf\nx f\ny dxdy\n\u2264\n=\n \uf0f2\uf0f2\n[\n]\n2 1\n( )\n( )\nx\nP Y\nx\ndy dx\n\u2264\n=\n\u00d7\n\u22c5\n\uf0f2\uf0f2\n3\n1 1\n3\n[\n]\n2 1\n3\n1\n3\nx\nP Y\nx\ny\ndx\n\u2264\n=\n \uf0f2\n[\n]\n[ ]\n1\n2\n3\n1\n(\n1)\n3\nP Y\nx\nx\ndx\n\u2264\n=\n\u2212\n\uf0f2\n[\n]\n2\n3\n2\n1\n3\n2\nx\nP Y\nx\nx\n\uf0e9\n\uf0f9\n\u2264\n=\n\u2212\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n[\n]\n2\n[\n]\n[\n]\n1 (4.5\n3)\n(2\n2)\n3\nP Y\nx\n\u2264\n=\n\u2212\n\u2212\n\u2212\n[\n]\n1 1.5\n0.5\n3\nP Y\nx\n\u2264\n=\n\u00d7\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0037f81a34fdf0f113ad4721b42dd236d9ea192a2adab6174391b12dc182eed7
+size 1317

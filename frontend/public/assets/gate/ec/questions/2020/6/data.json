@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(A)\n \n(A)",
-  "question_text": "Question 6\na\n, \nb\n, \nc\n are real numbers. The quadratic equation \n2\n0\nax\nbx\nc\n\uf02d\n\uf02b\n\uf03d\n has equal roots, which is \n\uf062\n, then\n\nGATE 2020 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n3\n\n(A) \n3\n2\n(2\n)\nbc\na\n\uf062\uf03d\n \n(B) \n2\nac\n\uf062\uf03d\n \n(C) \nb\na\n\uf062\uf03d\n \n(D) \n2\n4\nb\nac\n\uf0b9",
-  "answer_text": "(A)\n \n(A)",
-  "explanation_text": "Sol.\n \nGiven :\n \na\n, \nb\n, \nc\n are real numbers\n2\n0\nax\nbx\nc\n\uf02d\n\uf02b\n\uf03d\n \n \n \n \n\u2026 (i)\nGiven, equation (i) has equal roots, which is \n\uf062\n.\nNow, product of the roots will be\nc\na\n\uf062\uf0d7\uf062\uf03d\n2\nc\na\n\uf062\uf03d\n \n \n \n \n\u2026 (ii)\nSum of the roots will be,\nb\na\n\uf062\uf02b\uf062\uf03d\n2\nb\na\n\uf062\uf03d\n2\nb\na\n\uf062\uf03d\n \n \n \n \n\u2026 (iii)\nMultiplying equation (ii) and (iii),\n3\n2\n2\nbc\na\n\uf062\uf03d\nHence, the correct option is (A). \nQuestion 7\nThe global financial crisis in 2008 is considered to be the most serious world-wide financial crisis, which \nstarted with the sub-prime lending crisis in USA in 2007. The sub-prime lending crisis led to the banking \ncrisis in 2008 with the collapse of Lehman Brothers in 2008. The sub-prime lending refers to the provision \nof loans to those borrowers who may have difficulties in repaying loans, and it arises because of excess \nliquidity following the East Asian crisis. Which one of the following sequences shows the correct \nprecedence as per the given passage?\n(A) East Asian crisis \n\uf0ae\n subprime lending crisis \n\uf0ae\n banking crisis \n\uf0ae\n global financial crisis.\n(B) Banking crisis \n\uf0ae\n subprime lending crisis \n\uf0ae\n global financial crisis \n\uf0ae\n East Asian crisis.\n(C) Global financial crisis \n\uf0ae\n East Asian crisis \n\uf0ae\n banking crisis \n\uf0ae\n subprime lending crisis.\n(D) Subprime lending crisis \n\uf0ae\n global financial crisis \n\uf0ae\n banking crisis \n\uf0ae\n East Asian crisis.\nSol.\n \nAccording to the given paragraph, because of East Asian crisis, sub-prime lending crisis occurred due to \naccess liquidity and hence banking crisis taken place resulting in the global financial crisis.\n\nGATE 2020 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n4\n\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa9a82e6dd68697cb252c8c11ef69f0c086dd9ff09f70a37875cd10e6b1757a7
+size 2535

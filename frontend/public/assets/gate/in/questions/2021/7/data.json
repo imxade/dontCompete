@@ -1,11 +1,3 @@
-{
-  "id": "7",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "NAT",
-  "key": "1 \nSol.\n \nGiven circuit is shown below, (all transistor are identical)\n1.25 mA\n04\nC\nI\nI\n=\n5\n B\nI\nC\nI\n4\nB\nI\n20\n\u03b2 =\n1\nQ\n2\nQ\n3\nQ\n4\nQ\n5\nQ\nB\nI\nve supply\n\u2212\nFrom figure, it is clear that,  \n \n \n \n1.25 mA\n5\nC\nB\nI\nI\n=\n+\n \n \n\u2026(i)\n1\n2\n3\n4\n5\nBE\nBE\nBE\nBE\nBE\nV\nV\nV\nV\nV\n=\n=\n=\n=\nC\nB\nI\nI\n= \u03b2\nI\nI\n = \u03b2\nC\nB\nNow equation (i) becomes as,\nI\nI\n=\n+ \u00d7 \u03b2\n5\n1\nC\nI\n \uf0e9\n\uf0f9\n=\n+\n\uf0ea\n\uf0fa\n\u03b2\n\uf0eb\n\uf0fb\n\u2234\n  \n1.25 mA \n5\nC\nC\n\u2234\n  \n1.25 mA\n5\n1\nC\nI\n=\n \uf0e6\n\uf0f6\n+\n\uf0e7\n\uf0f7\n\u03b2\n\uf0e8\n\uf0f8\n\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n7\n\n\uf0de\n  \n1.25\n1 mA\n1.25\nC\nI\n =\n=",
-  "question_text": "Question 7 \n \n \n \n \nAnalog Electronics (NAT)\nAll the transistors used in the circuit are matched and have a current gain \n\u03b2\n  of 20. Neglecting the Early\neffect, the current \n04\nI\n  in milliampere is _______. \n \n \n \n \n[2 Marks]\nConnected to \nseparate loads\n1.25 mA\nI\n04\nConnected to \nnegative power supply",
-  "answer_text": "1 \nSol.\n \nGiven circuit is shown below, (all transistor are identical)\n1.25 mA\n04\nC\nI\nI\n=\n5\n B\nI\nC\nI\n4\nB\nI\n20\n\u03b2 =\n1\nQ\n2\nQ\n3\nQ\n4\nQ\n5\nQ\nB\nI\nve supply\n\u2212\nFrom figure, it is clear that,  \n \n \n \n1.25 mA\n5\nC\nB\nI\nI\n=\n+\n \n \n\u2026(i)\n1\n2\n3\n4\n5\nBE\nBE\nBE\nBE\nBE\nV\nV\nV\nV\nV\n=\n=\n=\n=\nC\nB\nI\nI\n= \u03b2\nI\nI\n = \u03b2\nC\nB\nNow equation (i) becomes as,\nI\nI\n=\n+ \u00d7 \u03b2\n5\n1\nC\nI\n \uf0e9\n\uf0f9\n=\n+\n\uf0ea\n\uf0fa\n\u03b2\n\uf0eb\n\uf0fb\n\u2234\n  \n1.25 mA \n5\nC\nC\n\u2234\n  \n1.25 mA\n5\n1\nC\nI\n=\n \uf0e6\n\uf0f6\n+\n\uf0e7\n\uf0f7\n\u03b2\n\uf0e8\n\uf0f8\n\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n7\n\n\uf0de\n  \n1.25\n1 mA\n1.25\nC\nI\n =\n=",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e0e87bc5aa35a7d0e80e51eac62307697f5e1b43cf0d0f04377556855822ce8
+size 2064

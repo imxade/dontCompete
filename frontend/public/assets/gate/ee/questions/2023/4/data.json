@@ -1,11 +1,3 @@
-{
-  "id": "4",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 4 \nVerbal ability (case studies)\n \n \nA recent survey shows that 65% of tobacco users were advised to stop consuming tobacco. The survey \nalso shows that 3 out of 10 tobacco users attempted to stop using tobacco.  \n \nBased only on the interpretation of the above passage, which one of the following options can be logically \ninferred with certainty? \n \n(A) A majority of tobacco users who were advised to stop consuming tobacco made an attempt to do so. \n \n(B) A majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so. \n \n(C) Approximately 30% of the tobacco users successfully stopped consuming tobacco. \n \n(D) Approximately 65% of tobacco users successfully stopped consuming tobacco. \nAns. (B) \nSol. \nGiven :  \n \nA recent survey shows that 65% of tobacco users were advised to stop consuming tobacco. The survey \nalso shows that 3 out of 10 tobacco users attempted to stop using tobacco. \n \nOption (C) cannot be inferred with certainty, as according to given information 3 out of 10 numerical \ntobacco users attempted to stop using tobacco, which is not a majority.  \n \nOption (A) and option (D) cannot be inferred with certainty, as there is no information about how much \ntobacco users successfully stop consuming tobacco.  \n \nOption (B) can be inferred with certainty, as 3 out 10 tobacco users attempted to stop using tobacco; which \nmeans 7 users did not attempted to do this, and 7 out of 10 is a majority.  \n \nHence, the correct option is (B).\n \nQuestion 5 \nLogical Reasoning (Numerical Computation)\n \n \nHow many triangles are present in the given figure?\n(A)  12 \n(B) 16 \n \n(C) 20 \n(D)  24 \nAns. (C) \nSol. \nGiven : \n \nNumber of triangles are present in the figure,\nA\nn\nB\nr\nu\nq\nm\nO\ns\nt\nD\nC\np\nIn rectangle \nABCD\n, number of triangle are 8.  \n \nThe triangles are, \nOAB\n, \nOBC\n, \nOCD\n, \nODA\n, \nADC\n, \nDCB\n, \nCBA\n, \nBAD\n.\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n3\n\nThere are three triangles in \nmAn\n, \nmDp\n, \npCq\n, \nqBn\n.\nTherefore,   \n8 3 3 3 3\n20\n\uf02b\uf02b\uf02b\uf02b\uf03d\nHence, the correct option is (C).\n..\nQ.6 to Q.10 Carry Two Marks Each\n..",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0eeecb536423ae65d5a0115e538102ae8d907f323cc252a3046bc94c7580c2cf
+size 2423

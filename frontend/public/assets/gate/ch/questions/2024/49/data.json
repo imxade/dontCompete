@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 49\n \n \n \nFor purchasing a batch reactor, three alternatives \n\ud835\udc43, \ud835\udc44\n and \n\ud835\udc45\n have emerged, as summarized in the table.  \nFor a compound interest rate of 10% per annum, choose the correct option that arranges the alternatives, \nin order, from the least expensive to the most expensive.\n[Plant design and economic 2 marks] \n \n\ud835\udc43\n \n\ud835\udc44\n \n\ud835\udc45\nInstalled Cost \n(lakh rupees)\n15 \n25 \n35\nEquipment Life \n(years)\n3 \n5 \n7\nMaintenance Cost \n(lakh rupees per year)\n4 \n3 \n2\n(A) \n\ud835\udc43, \ud835\udc44, \ud835\udc45\n \n(B) \n\ud835\udc45, \ud835\udc43, \ud835\udc44\n \n \n(C) \n\ud835\udc45, \ud835\udc44, \ud835\udc43\n \n(D) \n\ud835\udc44, \ud835\udc45, \ud835\udc43\n \nAns. (C)",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven:\nP \nQ \nR \nInstalled cost (Lakh) \n15 25 35 \nEquipment cost (Year) \n3 \n5 \n7\nyear\n)\n \n4 \n3 \n2\nLakh\nMaintenance cost \n(\nalternative \nP\n \n\u2192\n\ud835\udc50\n0\n\u2212\ud835\udc50\n\ud835\udc60\n(1+\ud835\udc56)\n\ud835\udc5b\n\u22121\n \n+\n\ud835\udc50\n\ud835\udc5a\ntotal capitalized cost \n= \ud835\udc50\n0\n +\n\ud835\udc56\nwhere \n\ud835\udc50\n0\n =\n installed cost\n\ud835\udc56=\n interest per year\n\ud835\udc56=\n equipment life\n\ud835\udc50\n\ud835\udc5a\n=\n maintainence cost or annual expense\n\ud835\udc50\n\ud835\udc60\n=\n Salvage value \n= 0\n15\u22120\n4\n(\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc43\n= 15 +\n0.1\n \n= 100.317 Lakh\n(1\u22c51)\n3\n\u22121\n \n+\n(alternative \nQ\n):-\n25\u22120\n3\n(\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc44\n= 25 +\n0.1\n \n= 95.944 Lakh\n(1\u22c51)\n5\n\u22121\n \n+\n\nPAGE\n45\n\n(alternative \nR\n) :-\n35\u22120\n2\n(\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc45\n= 35 +\n0.1\n \n= 91.89 Lakh\n(1\u22c51)\n7\n\u22121\n \n+\nConcept:\n whose total Capitalized cost is minimum, that method is least expensive\n\u2235\n \n(\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc45\n< (\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc44\n< (\ud835\udc47\ud835\udc36\ud835\udc36)\n\ud835\udc43\nLeast to most expensive  \nR\n, \nQ\n, \nP"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cb35d80113b7dc8dbea360d4ab3de5728386ccb7249aaf4921b27144e547781
+size 2317

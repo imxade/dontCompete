@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "B",
-  "question_text": "Question 6\nIn a company, 35% of the employees drink coffee, 40% of the employees drink tea and 10% of the \nemployees drink both tea adn coffee. What % of employees drink neither tea nor coffee?\n(A) 25 \n \n(B) 35 \n(C) 40 \n(D) 15",
-  "answer_text": "B",
-  "explanation_text": "Sol.\n \nGiven :\n \nEmployees drink coffee = 35%\nEmployees drink tea = 40%\nEmployees drink both tea and coffee = 10%\nSo from above data we can easily sketch Venn diagram,\nCoffee\nTea\n25\n30\n10\nCoffee\nTea\n25 10\n30\n65%\n+\n+\n=\n employees are those who either takes coffee or tea or both.\nBoth\nBoth\n\u2234\n \n(100\n65)%\n35%\n\u2212\n=\n are those who neither take coffee nor tea.\nHence, the correct option is (B).\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n41\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab8f728eb4615c070f72ec1dc605a651247de956641b38da5289554a335262ad
+size 919

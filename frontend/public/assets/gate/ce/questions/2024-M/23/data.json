@@ -1,11 +1,3 @@
-{
-  "id": "23",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 23 \n[Transportation Engineering : Railway, Runway and Taxiway Design]\n\nPAGE\n17\n\nAs per the International Civil Aviation Organization (ICAO), the basic runway length is increased by\n x\n \n(%) for every \ny\n (m) raise in elevation from the Mean Sea Level (MSL). The values of \nx\n and \ny\n, respectively, \nare\n(A) 7% and 300 m \n(B) 5% and 200 m\n(C) 4% and 500 m \n(D) 10% and 1000 m \nAns. (A) \nQuestion 24 \n[Transportation Engineering : Highway Materials]\n \n \n \nWhich one of the following statements related to bitumen is FALSE?\n \n \n \n(A) Kinematic viscosity is a measure of resistance to the flow of molten bitumen under gravity.  \n \n(B) Softer grade bitumen possesses higher softening point than hard grade bitumen. \n \n(C) Flash point of bitumen is the lowest temperature at which application of a test flame causes vapours\nof the bitumen to catch an instant fire in the form of flash under specified test conditions. \n \n \n(D) Ductility test is carried out on bitumen to test its adhesive property and ability to stretch. \nAns. (B)",
-  "answer_text": "",
-  "explanation_text": "Sol. \nSofter grade bitumen has a lower softening point, while harder grade bitumen has a higher softening \npoint.  Hence statement B is false.\nHence, the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c119e904d287f1b546a807baceaa81122bb414c53bb835dbd84a486125c70bfc
+size 1443

@@ -1,11 +1,3 @@
-{
-  "id": "21",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "10",
-  "question_text": "Question 21\nThe plane of the figure represents a horizontal plane. A thin rigid rod at rest is\n \npivoted without friction \nabout a fixed vertical axis passing through \nO\n. Its mass\n \nmoment of inertia is equal to 0.1 kg\u2219cm\n2\n about \nO\n. \nA point mass of 0.001 kg hits it\n \nnormally at 200 cm/s at the location shown, and sticks to it. Immediately \nafter the\n \nimpact, the angular velocity of the rod is ___________ rad/s (in integer).\nO\n10 cm\n200 cm/s",
-  "answer_text": "10",
-  "explanation_text": "Sol. \nGiven data\nMass of particle \n( )\n0.001 kg\nm\n \uf03d\nVelocity of particle \n( )\n200 cm/s\nv\n \uf03d\nMoment of inertia about point \nO\n \n2\n0\n( )\n0.1 kg\ncm\nI\n\uf03d\n\uf02d\nO\n10 cm\n\uf03d\n\uf03d\n0.001 kg\n200 cm/sec\nm\nv\n\nLet us angular velocity of rod \n' rad/s\nr\n\uf03d\uf077\nWe know, Momentum conservation principle\n(\n) '\nr\nr\nm\nn\nr\nm\nr\nI\nI\nI\nI\n\uf077\uf02b\n\uf077\uf03d\n\uf02b\n\uf077\n2\n2\n200\n0\n0.001 10\n(0.1 0.001 10 )\n'\n10\nr\n\uf02b\n\uf0b4\n\uf0b4\n\uf03d\n\uf02b\n\uf0b4\n\uf0b4\uf077\n'\n10 rad/s\nr\n\uf077\n\uf03d\nHence, the angular velocity of rod \n'\n10 rad/s\nr\n\uf077\n\uf03d\nHence, the correct answer is 10."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b483b71bcc84a51b94c59d6b97b01ad19d09707cb65d185717b2a94f07f3222
+size 1358

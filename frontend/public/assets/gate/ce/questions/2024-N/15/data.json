@@ -1,11 +1,3 @@
-{
-  "id": "15",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 15 \n[Engineering Mathematics : Differential Equations]\n \n \n \nConsider two Ordinary Differential Equations (ODEs):\n3\n3\n2\ndy\nx\nx y\ny\ndx\nx y\n\uf02b\n\uf02b\n\uf03d\n4\n2\n2\n4\nP :\n2\ndy\ny\ndx\nx\n\uf02d\n\uf03d\n2\nQ :\nWhich one of the following options is CORRECT? \n \n(A) \nP\n is a homogeneous ODE and \nQ\n is an exact ODE. \n \n(B) \nP\n is a homogeneous ODE and \nQ\n is not an exact ODE.\n\nPAGE\n12\n\n(C) \nP\n is a nonhomogeneous ODE and \nQ\n is an exact ODE. \n \n(D) \nP\n is a nonhomogeneous ODE and \nQ\n is not an exact ODE. \nAns.\n \n(B)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\n Two ordinary differential equations (ODES)\n3\n3\n2\n:\n \ndy\nx\nx y\ny\nP dx\nx y\n\uf02b\n\uf02b\n\uf03d\n4\n2\n2\n4\n\n2\n:\n \ndy\ny\nQ dx\nx\n\uf02d\n\uf03d\n2\n\n(i) Homogeneous ordinary differential equation\n\uf026\n Key Point\nThe differential equation\n( , )\n( , )\ndy\nf x y\ndx\nx y\n\uf03d\uf066\nis homogeneous differential equation if \n( , )\nf x y\n  and \n( , )\nx y\n\uf066\n are homogeneous function of same degree.\ni.e. \n(\n,\n)\n( , )\n(\n,\n)\n( , )\nn\nf kx ky\nf x y\nk\nkx ky\nx y\n\uf03d\n\uf066\n\uf066\n3\n3\n2\n( , )\n( , )\ndy\nx\nx y\ny\nf x y\ndx\nx y\nx y\n\uf02b\n\uf02b\n\uf03d\n\uf03d\uf066\n4\n2\n2\n4\nFor\n P\n :\n3\n( , )\n3\n2\n( , )\nf x y\nx\nx y\ny\nx y\nx y\n\uf02b\n\uf02b\n\uf03d\n\uf066\n4\n2\n2\n4\n\n3\n(\n,\n)\n(\n)\n3(\n) (\n)\n2(\n)\n(\n,\n)\n(\n) (\n)\nf kx ky\nkx\nkx\nky\nky\nkx ky\nkx\nky\n\uf02b\n\uf02b\n\uf03d\n\uf066\n4\n2\n2\n4\n\n4\n3\n[\n3\n2\n]\n[\n]\nk\nx\nx y\ny\nk\nx y\n\uf02b\n\uf02b\n\uf03d\n4\n4\n2\n2\n4\n\n0\n(\n,\n)\n( , )\n(\n,\n)\n( , )\nf kx ky\nf x y\nk\nkx ky\nx y\n\uf03d\n\uf066\n\uf066\n\nHence, \n( , )\nf x y\n  and \n( , )\nx y\n\uf066\n are homogeneous function of same degree.\n3\n3\n2\ndy\nx\nx y\ny\ndx\nx y\n\uf02b\n\uf02b\n\uf03d\n4\n2\n2\n4\nand\nis a homogeneous ordinary differential equation.\n(ii) \nExact ordinary differential equation\n\uf026\n Key Point\n\nPAGE\n13\n\nA differential equation\n0\nMdx\nNdy\n\uf02b\n\uf03d\nis exact if\nM\nN\ny\nx\n\uf0b6\n\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\nFor \nQ\n :\n2\ndy\ny\ndx\nx\n\uf02d\n\uf03d\n2\n\n2\n2\nx dy\ny dx\n\uf03d\uf02d\n2\n2\n0\ny dx\nx dy\n\uf02b\n\uf03d\n2\n2\nM\ny\nN\nx\n\uf03d\n\uf03d\n2 ,\n2\nM\nN\ny\nx\ny\nx\n\uf0b6\n\uf0b6\n\uf03d\n\uf03d\n\uf0b6\n\uf0b6\nM\nN\ny\nx\n\uf0b6\n\uf0b6\n\uf0b9\n\uf0b6\n\uf0b6\nHence, \nQ\n is non-exact differential equation.\nHence, correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf5cc697ed2565bfb592d6de00c7bdbbabad6eedf42075fee196c8145c328e33
+size 2641

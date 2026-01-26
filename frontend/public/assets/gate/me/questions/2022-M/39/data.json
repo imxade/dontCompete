@@ -1,11 +1,3 @@
-{
-  "id": "39",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "18\n4 kN",
-  "question_text": "Question 39\nA structure, along with the loads applied on it, is shown in the figure. Self-weight\n \nof all the members is \nnegligible and all the pin joints are friction-less. \nAE\n is a single\n \nmember that contains pin \nC\n. Likewise, \nBE\n \nis a single member that contains pin \nD\n.\n \nMembers \nGI \nand \nFH\n are overlapping rigid members. The \nmagnitude of the force\n \ncarried by member \nCI\n is ________ kN (in integer).\nA\n3 m\n3.5 m\nC\nI\n2 kN\nH\n3 m\nG\n2 m\n2 m\n3 m\n3 m\nB\nD\nE\nF",
-  "answer_text": "18\n4 kN",
-  "explanation_text": "Sol.\nFBD\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n40\n\nA\nI\n3.5 m\n3 m\nH\n2 kN\n\uf071\nC\nC\n\u2019\n3 m\nF\nCI\n\uf071\nB\n2 m\nE\nF\n2 m\n3 m\n3 m\nD\nBecause AE is a single link\n4 kN\nIn \n(\n)\nAEB\n\uf044\n \n3\ntan\n4\n\uf071\uf03d\n36.86\n\uf071\uf03d\nIn triangle ACC\u2019\n'\n'\ntan\n'\n2\nAC\nAC\nCC\n\uf071\uf03d\n\uf03d\ntan(36.86) 2\n'\nAC\n\uf0b4\uf03d\n'\n1.5 m\nAC\n \uf03d\n'\n'\nC B\nAB\nAC\n\uf03d\n\uf02d\n3 1.5 1.5 m\n\uf03d\uf02d\n\uf03d\nApply method of section, take moment at point (E)\n1.5\n2 1.5\n4 6\nCI\nF\n \uf0b4\n\uf03d\uf0b4\n\uf02b\uf0b4\n18 kN\nCI\nF\n\uf03d\nHence, the correct answer is 18."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:98fbf1f4efe09634600045289ebbf05d0469636d09f71c3fab36b8a0d1f44004
+size 1383

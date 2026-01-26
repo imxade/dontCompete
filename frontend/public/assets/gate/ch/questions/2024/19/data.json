@@ -1,11 +1,3 @@
-{
-  "id": "19",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(A)\n\ud835\udc38\ud835\udc4e\n\ud835\udc3e\n600\n\ud835\udc3e\n400\n \n=?",
-  "question_text": "Question 19\nThe ratio of the activation energy of a chemical reaction to the universal gas constant is 1000 K. The \ntemperature-dependence of the reaction rate constant follows the collision theory. The ratio of the rate \nconstant at 600 K to that at 400 K is \n \n[Chemical reaction Engineering, 1 Marks]\n \n \n(A) 2.818 \n(B) 4.323\n(C) 1.502 \n(D) 1.000",
-  "answer_text": "(A)\n\ud835\udc38\ud835\udc4e\n\ud835\udc3e\n600\n\ud835\udc3e\n400\n \n=?",
-  "explanation_text": "Sol.\n \nGiven\n:\n\ud835\udc45\n= 1000\ud835\udc3e \nand asked\nFrom collision theory: -\nRate of reaction \n= (Fraction of molecule which have Energy > \ud835\udc38\ud835\udc4e) \u00d7\n  \n(No. of collision)\n\nPAGE\n16\n\n1\n2\n\ud835\udc52\n\u2212\ud835\udc38\ud835\udc4e\n\ud835\udc58= \ud835\udc58\n0\n\ud835\udc47\n\ud835\udc45\ud835\udc47\n\ud835\udc58\n2\n\ud835\udc58\n1\n) =\n1\n\ud835\udc47\n2\n\ud835\udc47\n1\n) \u2212\n\ud835\udc38\n\ud835\udc4e\n\ud835\udc45\ud835\udc47\n\ud835\udc59\ud835\udc5b(\n2\n \n\ud835\udc59\ud835\udc5b(\n\ud835\udc58\n2\n\ud835\udc58\n1\n) =\n1\n\ud835\udc47\n2\n\ud835\udc47\n1\n) +\n\ud835\udc38\n\ud835\udc4e\n1\n1\n\ud835\udc59\ud835\udc5b(\n\ud835\udc47\n2\n)\n2\n \n\ud835\udc59\ud835\udc5b(\n\ud835\udc45\n(\n\ud835\udc47\n1\n \n\u2212\n\ud835\udc58\n2\n\ud835\udc58\n1\n) =\n1\n600\n1\n1\n\ud835\udc59\ud835\udc5b(\n600\n)\n2\n \n\u00d7 \ud835\udc59\ud835\udc5b(\n400\n) + 1000 \u00d7 (\n400\n \n\u2212\n2.818\nk\nk\n\uf03d\n600\n400\nRemark:\n(1) Always convert Temp in kelvin while using temperature dependency formula.\n(2) All Temp dependency theory are applicable at const concentration\n(3) \n\ud835\udc38\n\ud835\udc4e\ud835\udc5f\ud835\udc5f\n> \ud835\udc38\n\ud835\udc50\ud835\udc5c\ud835\udc59\ud835\udc59\n> \ud835\udc38\n\ud835\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5b\n(4) \n\ud835\udc3e\n\ud835\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5b\n> \ud835\udc3e\n\ud835\udc50\ud835\udc5c\ud835\udc59\ud835\udc59\n> \ud835\udc3e\n\ud835\udc4e\ud835\udc5f\ud835\udc5f"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c32a9671668cf1a648e53cca3b6d79d615e32f4b308853d1afa96eed1d94f93b
+size 2222

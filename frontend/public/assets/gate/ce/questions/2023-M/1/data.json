@@ -1,11 +1,3 @@
-{
-  "id": "1",
-  "stream": "civil-engineering",
-  "packet": "2023-M",
-  "year": "2023",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 1 \n \n \n  \n[Verbal Ability : Grammar]\n \n \n\u201cI have not yet decided, what will I do this evening; I_______ visit a friend\u201d. \n \n(A)  Mite \n \n(B) Would  \n \n(C) Might    \n(D)  Didn\u2019t \nAns. (C) \nSol. \nGiven : \n \n\u201cI have not yet decided, what will I do this evening; I \nmight\n visit a friend\u201d. \n \nHence, the correct option is (C).\n \nQuestion 2 \n \n[Verbal Ability : Synonyms & Antonyms] \n \nEject : Insert :: Advance : _______. (By word meaning) \n \n(A) Advent  \n(B) Progress   \n \n(C) Retreat   \n(D)  Loan \nAns. (C) \nSol. \nGiven : \n \nEject is related to insert in a special manner as they are opposite in meaning for each other. In the same \nway of relationship advance will be related to retreat, as advance means forward and retreat means \nbackward. \n \nHence, the correct option is (C).\n \nQuestion 3 \n \n[Numerical Ability : Average, Percentage & Ratio] \n \nIn the given figure, PQRSTV is a regular hexagon with each side of length 5 cm. A circle is drawn with \nits centre at V such that it passes through P. What is the area (in cm\n2\n) of the shaded region? (The \ndiagram is representative)\nV\nP\nQ\nT\n\nR\nS\n\uf070\n \n \n(B)  \n20\n\uf070\n(A) \n25\n3\n3\n(C)  \n6\n\uf070\n \n \n(D) \n7\n\uf070\n \n \nAns. (A)\n0\n(\n2)180\nn\n\uf02d",
-  "answer_text": "",
-  "explanation_text": "Sol. \nSum of interior angles =\nn\n\uf02d\n\uf03d\n0\n0\n(\n2)180\n120\nn\nEach angle of regular hexagon,\n\nGATE 2023 \n [Forenoon Session]\nCivil Engineering\nPAGE\n2\n\n2\n0\nRequired Area\n360\nR\n\uf071\n\uf03d\n\uf070\n\uf070\n\uf03d\n0\n2\n0\n120\n5\n360\n\uf03d\n\uf070\n25\n3\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:28f8e6301d5f7d4a5603a823bbb31579d699373af60c2414b7a774aa9ec48e37
+size 1826

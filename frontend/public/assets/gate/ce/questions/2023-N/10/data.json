@@ -1,11 +1,3 @@
-{
-  "id": "10",
-  "stream": "civil-engineering",
-  "packet": "2023-N",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(C)\n\nGATE 2023 \n [Afternoon Session]\nCivil Engineering\nPAGE\n6",
-  "question_text": "Question 10 \n \n \n[Logical Reasoning : Miscellaneous]\nConsider a spherical globe rotating about an axis passing through its poles. There are three points \nP\n, \nQ\n, \nand \nR \nsituated respectively on the equator, the north pole, and midway between the equator and the\nnorth pole in the northern hemisphere. Let \nP\n, \nQ\n, and R move with speeds \n,\nP\nQ\nv v\n , and \nR\nv\n , respectively.\nWhich one of the following options is CORRECT?\n(A) \nP\nR\nQ\nv\nv\nv\n\uf03c\n\uf03c\n \n(B) \nP\nQ\nR\nv\nv\nv\n\uf03c\n\uf03c\n(C) \nP\nR\nQ\nv\nv\nv\n\uf03e\n\uf03e\n \n(D) \nP\nR\nQ\nv\nv\nv\n\uf03d\n\uf0b9",
-  "answer_text": "(C)\n\nGATE 2023 \n [Afternoon Session]\nCivil Engineering\nPAGE\n6",
-  "explanation_text": "Sol.\nQ\nR\nP\nWe know velocity (\nV\n) \nr\n\uf03d\uf077\n,  where \n\uf077\uf03d\nConstant \n \n\uf05c\n \nV\nr\n\uf0b5\n \n \nHence, more is the distance from the axis of rotation more will be the velocity.\nSpherical globe\nSo,  \nP\nR\nQ\nV\nV\nV\n\uf03e\n\uf03e\nHence, the correct option is (C).\n\n..\nQ.11 to Q.35 Carry One Mark Each\n.."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff36012fa8c1de71ef480019c89f53ee5a16013a1a3d8c77b1921c1d93d56e1a
+size 1287

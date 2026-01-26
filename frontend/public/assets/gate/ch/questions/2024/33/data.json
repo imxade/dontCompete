@@ -1,11 +1,3 @@
-{
-  "id": "33",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 33\n \n \n \nConsider the steady, uni-directional, fully-developed, pressure-driven laminar flow of an incompressible \nNewtonian fluid through a circular pipe of inner radius 5.0 cm.  the magnitude of shear stress at the inner \nwall of the pipe is \n0.1\ud835\udc41\ud835\udc5a\n\u22122\n.  At a radial distance of 1.0 cm from the pipe axis, the magnitude of the shear \nstress, in \n\ud835\udc41\ud835\udc5a\n\u22122\n, rounded off to 3 decimal places, is ______. \n \n[Fluid Mechanics, 1 Marks] \nAns. 0.019 to 0.021",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\n Laminar flow\n\ud835\udf0f\n\ud835\udc64\n= 0.1 N/m\n2\n\nPAGE\n26\n\nFully developed Newtonian fluid.\n5cm\nr\n \uf03d\n\nFor laminar fully developed flow\n\ud835\udc51\ud835\udc5d\n2\ud835\udf0f\n\ud835\udc5f\n= 0\n\ud835\udc51\ud835\udc65\n+\n\n\ud835\udf0f(\ud835\udc5f)\n\ud835\udc5f\n\n\ud835\udc45\n\ud835\udf0f\n\ud835\udc64\n=\n\ud835\udf0f(\ud835\udc5f)\n1\n\n5\n0.1\n \n=\n0.1\n5\n \n= 0.020 N/m\n2\n\ud835\udf0f(\ud835\udc5f= 1) ="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92abbcd43966452ec64bdfb4c290a8aff6b627057d11962bc4f7ff32764d1fc9
+size 1180

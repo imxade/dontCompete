@@ -1,11 +1,3 @@
-{
-  "id": "23",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "0.014 to 0.016",
-  "question_text": "Question 23\nA viscous liquid is pumped through a pipe network in a chemical plant. The annual pumping cost per \nunit length of pipe is given by\n2\npump\nq\nC\nD\n4\n48.13\n\u03bc\n=\n\nThe annual cost of the installed piping system per unit length of pipe is given by\n45.92\npiping\nC\nD\n=\nHere, \nD\n is the inner diameter of the pipe in meter, \nq\n is the volumetric flowrate of the liquid in \n3\n1\nm s\n\u2212\nand \n\u03bc\nis the viscosity of the liquid in Pa.s.\nIf the viscosity of the liquid is \n3\n20 10  Pa.s\n\u2212\n\u00d7\nand the volumetric flow rate of the liquid is \n4\n3\n1\n10  m s ,\n\u2212\n\u2212\nthe\neconomic inner diameter of the pipe is _______ meter. (round off to 3 decimal places)",
-  "answer_text": "0.014 to 0.016",
-  "explanation_text": "Sol. \nGiven,\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n24\n\n2\n4\n3\n4\n48.13\n,\n10  m /s\nPump\nq M\nC\nq\nD\n\u2212\n=\n=\n\n3\n45.92\n,\n20 10  Pa-s\nPiping\nC\nD M\n\u2212\n=\n=\n\u00d7\nTotal annual cost \nPump\nPiping\nC\nC\n=\n+\n[Total annual cost]\n0,\nd\ndD\n=\nfor economic inner diameter calculation.\n2\n4\n48.13\n45.92\nT.A.C.\nq\nM\nD\nD\n\u00d7\n\u00d7\n+\n=\n\nDifferentiating and equating to zero\n2\n5\n4 48.13\n45.92\n0\nq\nM\nD\n\u2212\u00d7\n\u00d7\n\u00d7\n+\n=\n\nSolving by substituting \nq\n and \nM\n0.0153 m\nD\n =\nAnswer range is 0.014-0.016"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:062afad46f48f6f8cb12dd5df7d47ff32c1dbc7300cdca05a885fb5b3b577df4
+size 1534

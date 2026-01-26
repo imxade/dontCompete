@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "electrical-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 49\nThe figure below shows the per-phase Open Circuit Characteristics (measured in V) and Short Circuit \nCharacteristics (measured in A) of a 14 kVA, 400 V, 50 Hz, 4-pole, 3-phase, delta connected alternator, \ndriven at 1500 rpm. The field current, \nf\nI\n  is measured in A. Readings taken are marked as respective (\nx\n,\ny\n) coordinates in the figure. Ratio of the unsaturated and saturated synchronous impedances\n(unsat)\n(sat)\n(Z\n/ Z\n)\ns\ns\n of the alternator is closest to\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n52\n\nOC\nV\nSC\nI\nOCC\n(8,400)\n(2,210)\n(1,110)\n(4,20)\nSCC\n(0,10)\n(0,0)\nf\nI\n(A) 2.025 \n(B) 2.000 \n(C) 2.100 \n(D) 1.000 \nAns. \n(C) \nSol.\n \nGiven : \nThree phase delta connected Alternator  \n \n(i) Rating \n14kVA\n\uf03d\n(ii) \n400V\nt\nV\n \uf03d\n(iii) \n50Hz\nf\n \uf03d\n(iv) \n4\nP\n \uf03d\n  \n \nFrom SCC at \n4 A, \n20 A\nf\nSC\nI\nI\n\uf03d\n\uf03d\n2 ,\n10 A\nf\nSC\nI\nA I\n\uf03d\n\uf03d\n8A,\n40 A\nf\nSC\nI\nI\n\uf03d\n\uf03d\nCase I : From linear Portion  \n \nUnsaturated synchronous impedance is calculated from linear portion of OCC, \n \n \n \n2 A\nf\nI\n\uf03d\nV\nZ\nI\n\uf03d\n\uf03d\n\uf03d\n\uf057\n210\n21\n10\nOC\ns\nSC\nCase II : From nonlinear Portion \n \nSaturated synchronous impedance is calculated from nonlinear portion of OCC, \n \n \n \n8 A\nf\nI\n\uf03d\nV\nZ\nI\n\uf03d\n\uf03d\n\uf03d\n\uf057\n400\n10\n40\nOC\ns\nSC\nThe ratio of unsaturated synchronous impedance to saturated synchronous impedance is given by\nZ\n21\n2.1\n10\ns\n(unsaturated)\nZ\n\uf03d\n\uf03d\n\ns\n(saturated)\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n53\n",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9884ca8aae63f90da4578354ac25ff8cf68aeffd368333ca665294bd1081271b
+size 1874

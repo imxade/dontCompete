@@ -1,11 +1,3 @@
-{
-  "id": "14",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(D)",
-  "question_text": "Question 14\nIn a solvent regeneration process, a gas is used to strip a solute from a liquid in a countercurrent packed \ntower operating under isothermal condition. Pure gas is used in this stripping operation. All solutions are \ndilute and Henry\u2019s law, \n*\ny\nmx\n=\n, is applicable. Here \n*\ny\n  is the mole fraction of the solute in the gas\nphase in equilibrium with the liquid phase of solute mole fraction \nx \nand \nm\n is the Henry\u2019s law constant.\nLet \n1\nx\n  be the mole fraction of the solute in the leaving liquid and \n2\nx\n  be the mole fraction of solute in the\nentering liquid.\nWhen the value of the ratio of the liquid to gas molar flow rates is equal to \nm\n, the overall liquid phase \nnumber of transfer units. NTUOL is given by\n2\n1\nln\n \nx\nx\nx\nx\n\uf0e6\n\uf0f6\n+\n\uf0e7\n\uf0f7\n\u2212\n\uf0e8\n\uf0f8\n \n(B) \n2\n1\nx\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n \n(D) \n2\n1\n1\nln\n \nx\nx\nx\nx\nx\n+\n\u2212\n \n(C) \n2\nx\nx\nx\n\u2212\n(A) \n2\n1\n2\n1\n1",
-  "answer_text": "(D)",
-  "explanation_text": "Sol.\n2\nx\nS\nG\nPure gas,\nS\nG\n1\nx\n1\n0\ny\n =\nWhen the ratio of liquid to gas flow rates is equal to \nm\n, this means absorption factor is 1\ni.e.,  \n1\nLS\nA\nmGS\n=\n=\nIn this case, \n \nChange in liquid mole reactions of solute\nDriving force at bottom of the column\nOL\nNTU\n=\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n16\n\nx\nx\nNTU\nx\nx\n\u2212\n=\n\u2212\n2\n1\n*\n1\n1\nOL\nWhere, \n \n*\n1\nx\n  is the concentration that is in equilibrium with bulk gas phase\n\uf0de\n  \n*\n*\n1\n1\n0\ny\nmx\n=\n=\n \n{as gas is pure}\nx\nx\nNTU\nx\n\u2212\n=\nSo,   \n2\n1\n1\nOL"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34351a394a79f97d9f0ac485c66051307d00b127dbd7992f09f8589d415ad154
+size 1829

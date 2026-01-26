@@ -1,11 +1,3 @@
-{
-  "id": "19",
-  "stream": "civil-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "o\n328 43'",
-  "question_text": "Question 19\nThe bearing of a survey is \n0\n31 17'\nN\nW\n . It\u2019s a azimuth observed from north is ________ degree.",
-  "answer_text": "o\n328 43'",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96fca163010e9d32790e15e9276c6fd25b8a8644e2fdbe866a6367c50ffef7e3
+size 330

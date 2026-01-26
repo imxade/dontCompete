@@ -1,11 +1,3 @@
-{
-  "id": "53",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "512 (Range : 512 to 512)\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n75\n\nD\nI\nx\ny\ndxdy\n\uf03d\n\uf02b\n\uf0f2\uf0f2\n2\n2\n3(\n)",
-  "question_text": "Question 53 \n \n \nMathematics \n \nThe value of the integral\nD\nx\ny\ndxdy\n\uf02b\n\uf0f2\uf0f2\n,\n2\n2\n3(\n)\n\nwhere \nD\n is the shaded triangular region shown in the diagram, is _______. (round off to the nearest integer)\ny\n(4,  4)\n(0, 4)\nx\n(0, 0)\n(0, \u2013 4)\n(4, \u2013 4)",
-  "answer_text": "512 (Range : 512 to 512)\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n75\n\nD\nI\nx\ny\ndxdy\n\uf03d\n\uf02b\n\uf0f2\uf0f2\n2\n2\n3(\n)",
-  "explanation_text": "Sol.\n \nGiven :\nConsider a vertical strip in 1\nst\n quadrant as shown below,\n\n\uf03d\n\uf03d\ny x\nx\n4\n2\n2\n\uf03d\n\uf03d\n\uf03d\n\uf0b4\n\uf02b\n\uf0f2\uf0f2\n\nx\ny\nI\nx\ny\ndydx\n0\n0\n2\n3(\n)\nx\ny\nx y\ndx\n\uf0e9\n\uf0f9\n\uf03d\n\uf02b\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n\uf0f2\n4\n3\n2\nx\nI\nx\ny\ndydx\n\uf03d\n\uf02b\n\uf0f2\uf0f2\n4\n2\n2\n0\n0\n6\n3\n0 0\n6\n(\n)\n\n0\n6\n(0 0)\n3\nx\nI\nx\ndx\n\uf0e9\n\uf0f9\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf0ea\n\uf0fa\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0eb\n\uf0fb\n\uf0f2\n4\n3\n3\n\n4\n4\n3\n4\n4\n6 4\n6\n3\n3\n4\nx\nx\nI\ndx\n\uf0e6\n\uf0f6\n\uf0e9\n\uf0f9\n\uf0b4\n\uf03d\n\uf03d\n\uf0e7\n\uf0f7\n\uf0ea\n\uf0fa\n\uf0e8\n\uf0f8\n\uf0eb\n\uf0fb\n\uf0f2\n\n0\n0\n512\nI\n \uf03d\nHence, the correct answer is 512."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf586eee623012ad74d8aa6e5ab8bdbe1cd78e1c6a1b02aeb7effbf9c227129d
+size 1646

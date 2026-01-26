@@ -1,11 +1,3 @@
-{
-  "id": "11",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(D)\n (B)\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n7",
-  "question_text": "Question 11 \nMathematics (linear algebra)\nT\nW\n \uf03d\n, the vector normal to the plane defined by \n1\nT\nW x\n \uf03d\n is\nFor a given vector \n[1,2,3]\nT\n\uf02d\uf02d\n \n(B) \n[3,0, 1]\nT\n\uf02d\n(A) \n[ 2, 2,2]\nT\n  \n(D) \n[1,2,3]\nT\n(C) \n[3,2,1]",
-  "answer_text": "(D)\n (B)\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n7",
-  "explanation_text": "Sol. \nGiven : \n[1,2,3]\nW\n \uf03d\n1\nT\nx\nW\n\uf03d\n\uf0e9\uf0f9\n\uf0ea\uf0fa\uf03d\n\uf0ea\uf0fa\n\uf0ea\uf0fa\n\uf0eb\uf0fb\nx\n[1\n2\n3]\n1\ny\n\nz\n:\n2\n3\n1\nx\ny\nz\n\uf066\n\uf02b\n\uf02b\n\uf03d\nNormal vector or gradient of \n\u02c6\n\u02c6\n\u02c6\n2\n3\ni\nj\nk\n\uf066\uf03d\uf02b\n\uf02b\nNormal vector \n[1,2,3]\nT\n\uf03d\nHence, the correct option is (D).\n \nQuestion 12 \nControl system (block diagram & signal)\nFor the block diagram shown in the figure, the transfer function\n( )\n( )\nY s\nR s\n \nis\n( )\nR s\n2\n3\n\uf02b\n\uf02b\n1\ns\n( )\nY s\n\uf02b\n\uf02b\n1\n\n\uf02b\n\uf02b\n \n(B) \n3\n2\n1\ns\ns\n\uf02b\n\uf02d\n(A)  \n2\n3\n1\ns\ns\n\uf02b\n\uf02b\n\uf02b\n(C)  \n1\n3\n2\ns\n\uf02b\n \n(D) \n3\n2\n1\ns\ns\ns\nSol. \nGiven block diagram is,\n( )\nR s\n2\n3\n\uf02b\n\uf02b\n1\ns\n( )\nY s\n\uf02b\n\uf02b\n1\nBy Mason\u2019s gain formula,\n\uf044\uf02b\n\uf044\n\uf03d\n\uf044\nP\nP\nY s\n1\n1\n2\n2\n( )\n( )\nR s\n2\n3\nP\nP\ns\n\uf03d\n\uf03d\n1\n2\n1\n2\n1\n1\n\uf044\uf03d\n\uf044\uf03d\n1\n1\ns\n\uf044\uf03d\uf02d\n2\n3\n(s)\n3\n2\n1\n(s)\n1\n1\n\uf02b\n\uf02b\n\uf03d\n\uf03d\n\uf02d\n\uf02d\nY\ns\ns\nR\ns\ns\n\n\nHence, the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8265b902e952dfcaba5191677d89701f06ada41297dba2b2ea5d5767fc182b9
+size 1811

@@ -1,11 +1,3 @@
-{
-  "id": "22",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "2.659",
-  "question_text": "Question 22\nA rigid uniform annular disc is pivoted on a knife edge A in a uniform gravitational\n \nfield as shown, such \nthat it can execute small amplitude simple harmonic motion in\n \nthe plane of the figure without slip at the \npivot point. The inner radius \nr\n and outer\n \nradius \nR \nare such that \n2\n2\n / 2\nr\nR\n\uf03d\n, \nand the acceleration due to\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n21\n\ngravity is \ng\n.\n \nIf the\n \ntime period of small amplitude simple harmonic motion is given by \n/\nT\nR g\n\uf03d\uf062\uf070\n,\nwhere \n\uf070\n \nis the ratio of circumference to diameter of a circle, then \n\uf062\n =\n ________\n \n(round off to 2 decimal\nplaces).\ng\nA\nG\nR\nr",
-  "answer_text": "2.659",
-  "explanation_text": "Sol. \nGiven,\n2\n2\n2\nR\nr\n \uf03d\n\nWhere,\nr\n \uf03d\n Inner radius of disc\nR\n \uf03d\n Outer radius of disc\nMotion of disc = Simple harmonic motion (SHM)\nAcceleration \ng\n\uf03d\nTime period of oscillation \n( )\nR\nT\ng\n\uf03d\uf062\uf070\n \n \n \n \n \n\u2026 (i)\n\nMass moment of inertia about centre of gravity \n(\n)\nG\nI\n\uf0e6\n\uf0f6\n\uf02b\n\uf0e7\n\uf0f7\n\uf02b\n\uf0e8\n\uf0f8\n\uf03d\n\uf03d\n2\n2\n2\n2\n(\n)\n2\n2\n2\nG\nR\nR\nR\nr\nI\nM\nM\n\n2\n3\n4\nG\nI\nMR\n\uf03d\n2\nA\nG\nI\nI\nMr\n\uf03d\n\uf02b\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n22\n\n2\n2\n3\n4\n2\nMR\nMR\n\uf03d\n\uf02b\n\n2\n5\n4\nA\nI\nMR\n\uf03d\n \n \n \n \n \n\u2026 (ii)\nDisc rotated \n\uf071\n angle\n\nA\nA\nT\nI\n\uf03d\n\uf0b5\n\uf0e5\n\uf02b\nWhere,\nA\nT\n \uf0ae\n Torque about A\n\uf061\uf0ae\n Angular acceleration\n2\n5\nsin\n4\nMg\nr\nMR\n\uf02d\n\uf0b4\n\uf071\uf03d\n\uf071\n\n2\n5\n0\n4\n2\nR\nMgR\nMg\n\uf071\uf02b\n\uf03d\n\nR\ng\nM\nk\n\uf071\uf02b\n\uf03d\n5 2\n4\n0\n\ne\ne\n5 2\n4\n0\nR\ng\n\uf071\uf02b\n\uf071\uf03d\n\u2026. (iii)\nWe know,\n0\ne\ne\nm\nk\n\uf071\uf02b\n\uf071\uf03d\n\u2026. (iV)\nWe know,\nk\nM\n\uf077\uf03d\ne\nn\ne\n4\ng\nR\n\uf077\uf03d\n\n5 2\nn\n\uf0b4\ng\nR\n\uf077\uf03d\n0.752\nn\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n23\n\nn\nT\n\uf070\n\uf03d\uf077\n \n \n \n \n \n\u2026 (v)\nSince, Time period \n2\n( )\nFrom equation (i) & (v)\n2\n0.752\nR\nR\ng\ng\n\uf070\n\uf062\uf070\n\uf03d\n2.659 rad/s\n\uf062\uf03d\nHence, the correct answer is 2.659."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cdb2dff089e85f996ea91a7f8208ba736d30c9b6d9cb6f9db86279663d0115d
+size 2501

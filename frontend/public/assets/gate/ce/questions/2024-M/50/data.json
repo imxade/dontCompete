@@ -1,11 +1,3 @@
-{
-  "id": "50",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 50 \n[RCC Structures : Prestress Concrete]\nAn inverted T-shaped concrete beam \n\uf028\n\uf029\n1\nB\n in the figure, with centroidal axis \nX\nX\n\uf02d\n, is subjected to an\neffective prestressing force of 1000 kN acting at the bottom kern point of the beam cross-section.  Also\nconsider an identical concrete beam \n\uf028\n\uf029\n2\nB\n with the same grade of concrete but without any prestressing\nforce.\n(Figure NOT to scale) \n \nThe additional cracking moment (in \n.\nKN m\n) that can be carried by beam \n1\nB\n  in comparison to beam \n2\nB\nis _________ (rounded off to nearest integer). \nAns. 299 to 301",
-  "answer_text": "",
-  "explanation_text": "Sol.\nComp\n2H/3\nx\nx\nH/3\n100 mm\nComp.\nTen.\nStress\ndiagram\nonly when\nprestressing\nforce is there\nStress\ndiagram\nwith B.M.\nKem point\n\nResultant stress at the bottom fibre in beam B,\n\nPAGE\n41\n\nM\nP\nPe\nA\nZ\nZ\n\uf03d\n\uf02b\n\uf02d\n1\nb\nb\nM\n1000 10\n1000 10\nA\nZ\nZ\n\uf0b4\n\uf0b4\n\uf03d\n\uf02b\n\uf02d\n3\n3\n\n1\nb\nb\nFor no crack, stress at bottom \ncr\nf\n\uf03d\nM\n1000 10\n1000 10\n100\nf\nA\nZ\nZ\n\uf0b4\n\uf0b4\n\uf0b4\n\uf02b\n\uf02d\n\uf03d\uf02d\n \n \n\u2026.(i)\n3\n3\n\uf0de\n1\ncr\nb\nb\nResultant stress at the bottom fibre in beam B\n2\n i.e.,\nM\nZ\n\uf03d\uf02d\nwhen no prestressing force is here \n2\nb\nFor no crack, stress at bottom \ncr\n=f\nM\nf\nZ\n\uf02d\n\uf03d\uf02d\n\uf0de\n  \n2\ncr\nb\nAlso, for beam B\n1\n, without the moment M\n1\nP\nPe\n0\nA\nZ\n\uf02d\n\uf03d\n\nt\n1\ne\n0\nA\nZ\n\uf02d\n\uf03d\n\uf0de\nt\n1\ne\nA\nZ\n\uf03d\n\uf0de\nt\n\uf0de\n  \nt\nZ\nA\ne\n\uf03d\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\nI / y\nZ\ny\n2H\n2\nZ\nI / y\ny\n3 H / 3\n\uf03d\n\uf03d\n\uf03d\n\uf03d\nb\nb\nt\nt\nt\nb\n\uf0de\n  \nt\nb\nZ\n0.5Z\n\uf03d\n\uf0de\n  \nb\n0.5Z\nA\ne\n\uf03d\nAdding equation (i) and (ii)\n\nPAGE\n42\n\nM\nM\n1000 10\n1000 10\n100\n0\nA\nZ\nZ\nZ\n\uf0b4\n\uf0b4\n\uf0b4\n\uf02b\n\uf02d\n\uf02b\n\uf03d\n3\n3\n\uf0de\n1\n1\nb\nb\nb\n\uf0de\n  \n\uf028\n\uf029\n3\n3\n1000 10\n100\n1000 10\n0\n0.5Z\nZ\nZ\nM\nM\n\uf02d\n\uf0b4\n\uf0b4\n\uf0b4\n\uf02b\n\uf02d\n\uf03d\n1\n2\nb\nb\nb\n\uf0de\n  \n1\n2\nM\nM\n300kN.m\n\uf02d\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d4f5f1e27209cd9869e3b7a9c62ef8daf82a61cdb223213b2eaedc152d2a746
+size 2341

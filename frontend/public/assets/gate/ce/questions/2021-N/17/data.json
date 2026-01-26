@@ -1,11 +1,3 @@
-{
-  "id": "17",
-  "stream": "civil-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 17\n \n \nIn an aggregate mix, the proportions of coarse aggregate, fine aggregate and mineral filler are 55%, \n40% and 5% respectively. The values of bulk specific gravity of the coarse aggregate, fine aggregate \nand mineral filler are 2.55, 2.65 and 2.70, respectively. The bulk specific gravity of the aggregate mix \n(round off to two decimal places) is _______. \nAns. \n(2.4 - 2.7) \nSol.\n \nGiven :\nWeight of coarse aggregate \n1\n55%\nW\n =\nWeight of fine aggregate \n2\n40%\nW\n =\nWeight of filler, \n3\n5%\nW\n =\nBulk specific gravity of CA \n1\n2.55\nG\n =\nBulk specific gravity of fine aggregate \n2\n2.65\nG\n =\nBulk specific gravity of filler = 2.7 \n \nBulk specific gravity of mix,\n100\n55\n40\n5\n2.55\n2.65\n2.7\n100\nG\nW\nW\nW\nG\nG\nG\n\n=\n+\n+\n=\n+\n+\n3\n1\n2\n1\n2\n3\n100\n21.568 15.094 1.851\nG\n =\n+\n+\n100\n38.513\n=\n2.596\n=",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:74b6f5abe0d5eb7695355be9240db15bcdd5c49e9af871914823e01b528d3aad
+size 1066

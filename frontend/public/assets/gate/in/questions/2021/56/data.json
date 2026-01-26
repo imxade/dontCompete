@@ -1,11 +1,3 @@
-{
-  "id": "56",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 56 \n \n \n \n \n \n \n \nAptitude\nFollowing shape has equal length segments \nPR\n,\n PS\n,\n QS\n,\n TR\n and \nTQ \nare of equal length, what will be the \nangle \n\u03b8\n ? \n \n \n \n \n \n \n[2 Marks]\nP\nT\n\u03b8\nQ\n(A) 36 \n(B) 108 \n(C) 72 \n(D) 45\nR\nS",
-  "answer_text": "(A)",
-  "explanation_text": "Sol. \nHere, star shape will all sequent are equal is shown below,\nP\n\u0005\nB\nA\nT\nQ\n\u0005\n\u0005\n\u0005\n\u0005\n\u2234\n  \nP\nT\nS\nR\nQ\n\u2220\n= \u2220\n= \u2220\n= \u2220\n= \u2220\n= \u03b8\n  \n(Equal sides of triangle have equal angle)\nR\nS\nIn \nTBR\n\u0394\n,\n\u0005\nB\nT\n\u0005\n\u0005\nExt\n2\nB\n\u2220\n= \u03b8\n \n\u2026 (i)            (\n\uf051\n Sum of opposite interior angle = Exterior angle)\nR\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n51\n\nIn \nQAS\n\u0394\n,\n\u0005\nA\nS\n\u0005\n\u0005\nQ\nExt\n2\nA\n\u2220= \u03b8\n \n \n\u2026(ii)\nIn \nPAB\n\u0394\n,\nP\n\u0005\nB\nA\n\n\u0005\n\n\u0005\n\uf051\n Sum of all interior angles in a \n0\n180\n\u0394 =\n.\n\u2234\n  \n0\n2\n2\n180\n\u03b8 + \u03b8 + \u03b8 =\n0\n36\n\u03b8 =\nHence, the correct option is (A)"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:edcdae2a094173e31b42b8ae26f1126486a81f9efab60c100ac4bcb88b2dbdec
+size 1311

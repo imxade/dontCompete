@@ -1,11 +1,3 @@
-{
-  "id": "15",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 15 \n[RCC Structures : IS Recommendations & Fundamentals] \n \n \nConcrete of characteristic strength 30 MPa is required. If 40 specimens of concrete cubes are to be \ntested, the minimum number of specimens having at least 30 MPa strength should be \n \n(A) 35 \n(B) 37 \n \n(C) 38 \n(D) 39 \nAns. (C)",
-  "answer_text": "",
-  "explanation_text": "Sol. \nAs per\n IS456:2000\n, at least 95% of the specimen should have strength equal to more than the \ncharacteristic strength.\nGiven,\nCharacteristic strength \na\n30MP\n\uf03d\nNumber of concrete cubes \n40\n\uf03d\nThe minimum numbers of specimen \n0.95 40\n\uf03d\n\uf0b4\n38\n\uf03d\n\nPAGE\n12\n\nHence, the correct option is (C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f235612f49bcc5ab33d309aaab9bd6ed83a2596ecda65ad6a2485ea4ea3ac84c
+size 839

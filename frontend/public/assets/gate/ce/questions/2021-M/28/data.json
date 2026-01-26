@@ -1,11 +1,3 @@
-{
-  "id": "28",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "28.18",
-  "question_text": "Question 28 \n \nA column is subjected to a total load (P) of 60 kN supported through a bracket connection as shown in the \nfigure (not to scale).\nP = 60 kN\n40mm\nmm\n40\n30mm\nR\n30mm\n100 mm\nThe resultant force in bolt R (in kN, round off to one decimal place) is ________.\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n18\n",
-  "answer_text": "28.18",
-  "explanation_text": "Sol.\n100 m\n60 kN\n40\n40\n30\nR\n30\n\nResultant force, \n2\n2\n1\n2\n1\n2\n2\ncos\nR\nF\nF\nF F\n=\n+\n+\n\u03b8\n1\nTotal load ( )\nNumber of bolt ( )\nP\nF\nn\n=\n1\n60\n10 kN\n6\nF\n =\n=\n.\nPe r\nF\nr\n= \u03a3\n1\n2\n2\n1\n2\n2\n2\n60 100 40\n18.18 kN\n4 50\n2 40\nF\n\u00d7\n\u00d7\n=\n=\n\u03a3 \u00d7\n+ \u00d7\nF\n2\nF\n2\n180\n0\n\u03b8\n = 180\n0\nF\n1\nF\n1\n\n2\n2\n0\n10\n18.18\n2 10 18.18cos180\nR\n =\n+\n+ \u00d7\n\u00d7\n\u03b8\n = 0\nF\n1\nF\n2\n\n2\n2\n0\n10\n18.18\n2 10 18.18cos0\nR\n =\n+\n+\n\u00d7\n\u00d7\n28.18 kN\nR\n =\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n19\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:90f7145b06b3d7c1d16fd8cead82c9b21aa9db503a6e68da990aa34ec55659f8
+size 1161

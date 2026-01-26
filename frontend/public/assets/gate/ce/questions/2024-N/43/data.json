@@ -1,11 +1,3 @@
-{
-  "id": "43",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 43 \n[Transportation Engineering : Traffic Engineering] \n \nThe consolidated data of a spot speed study for a certain stretch of a highway is given in the table.\nSpeed range\nNumber of \nobservations \n0-10 \n7\n(kmph)\n10-20 \n31\n20-30 \n76\n30-40 \n129\n40-50 \n104\n50-60 \n78\n60-70 \n29\n70-80 \n24\n80-90 \n13\n90-100 \n9\nThe \u201cupper speed limit\u201d (in kmph) for the traffic sign is \n \n(A) 50 \n(B) 55 \n \n(C) 65 \n(D) 70 \nAns.\n \n(B)",
-  "answer_text": "",
-  "explanation_text": "Sol.\nSpeed range\nNumber of \nobservations\nCumulative number\nCumulative % Passed  \ncumulativenumberof vehicle 100\nN\n\uf03d\n\uf0b4\n\uf0e5\n(kmph)\nof vehicles\n0-10 \n7 \n7 \n1.4% \n10-20 \n31 \n38 \n7.6% \n20-30 \n76 \n114 \n22.8% \n30-40 \n129 \n243 \n48.6% \n40-50 \n104 \n347 \n69.4% \n50-60 \n78 \n425 \n85% \n60-70 \n29 \n454 \n90.8% \n70-80 \n24 \n478 \n95.6% \n80-90 \n13 \n491 \n98.2% \n90-100 \n9 \n500 \n100% \n \n500\nN\n\uf0e5\n\uf03d\nUpper speed limit is corresponding to 85% of cumulative vehicles passed.\n\uf05c\n Upper speed limit \n50\n60\n55 kmph\n2\n\uf02b\n\uf03d\n\uf03d\n\nPAGE\n38\n\nHence, the correct option is (B)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f045a42c75d12e816663b75b1d0561dd6c4f4d3edfbfc12f2abd94666c7136f5
+size 1304

@@ -1,11 +1,3 @@
-{
-  "id": "65",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 65 \nMathematics ( Vector Calculus)\nA quadratic function of two variables is given as \n1\n3\n3\n2\n)\n,\n(\n2\n1\n2\n1\n2\n2\n2\n1\n2\n1\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\nx\nx\nx\nx\nx\nx\nx\nx\nf\n.\nThe magnitude of maximum rate of change of the function at the point (1,1) is ______. (Rounded off to \nthe nearest integer) \nAns. 10 (10 to 10)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven : \n2\n2\n1\n2\n1\n2\n1\n2\n1\n2\n( ,\n)\n2\n3\n3\n1\nf x x\nx\nx\nx\nx\nx x\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n1\n2\n\u02c6\n\u02c6\nf\nf\nf\ni\nj\nx\nx\n\uf0b6\n\uf0b6\n\uf0d1\uf03d\n\uf02b\n\uf0b6\n\uf0b6\n1\n2\n2\n1\n\u02c6\n\u02c6\n(2\n3\n)\n(4\n3\n)\ni\nx\nx\nj\nx\nx\n\uf03d\n\uf02b\uf02b\n\uf02b\n\uf02b\uf02b\n\n(1,1)\n\u02c6\n\u02c6\n6\n8\nf\ni\nj\n\uf0d1\n\uf03d\n\uf02b\n2\n2\n(1,1)\n6\n8\n36\n64\n100\n10\nf\n\uf0d1\n\uf03d\n\uf02b\n\uf03d\n\uf02b\n\uf03d\n\uf03d\nHence, the correct answer is 10.\n\uf071\uf071\uf071\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5f5fc658dea09b8224e1e96f02b248b52d4b778f3feefca3fecd9ff9d06386c
+size 1125

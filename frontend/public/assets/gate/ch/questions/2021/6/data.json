@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "0.52 to 0.54",
-  "question_text": "Question 6\nConsider a steady flow of an incompressible, Newtonian fluid through a smooth circular pipe. Let\nlaminar\n\u03b1\n and \nturbulent\n\u03b1\n denote the kinetic energy correction factors for laminar and turbulent flow through\nthe pipe, respectively. For turbulent flow through the pipe\n3\n2\n0\n2\n(3\n)(3\n2 )\nturbulent\nV\nn\nV\nn\nn\n\uf0e6\n\uf0f6\n\u03c3\n=\n \uf0e7\n\uf0f7\n+\n+\n\uf0e8\n\uf0f8\n\nHere, \nV\n  is the average velocity, \n0\nV\n  is the centerline velocity and \nn\n is a parameter. The ratio of average\nvelocity to the centerline velocity for turbulent flow through the pipe is given by\n2\n2\n(\n1)(2\n1)\nV\nn\nV\nn\nn\n=\n+\n+\n\n0\n\u03b1\n\u03b1\n is _______. (round off to 2 decimal places)\nFor \n7\nn\n =\n, the value of \nturbulent\nlaminar\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n10\n",
-  "answer_text": "0.52 to 0.54",
-  "explanation_text": "Sol. \nKinetic energy correction factor for turbulent\n3\n2\n0\n2\n(3\n)(3\n2 )\ntub\nV\nn\nV\nn\nn\n\uf0e6\n\uf0f6\n\u03b1\n=\n \uf0e7\n\uf0f7\n+\n+\n\uf0e8\n\uf0f8\n\nV\n \u2212\n average velocity, \n0\nV\n \u2212\n Centerline velocity\nand given\n2\n2\n(\n1)(2\n1)\nV\nn\nV\nn\nn\n=\n+\n+\n  for turbulent \n7\nn\n =\n\n0\n\u03b1\n=\n\u03b1\n\nmin\n?\ntub\nla\nar\n2\n2\n2\n2 7\n90\n(\n1)(2\n1)\n(7 1)(2 7 1)\n8 15\nV\nn\nV\nn\nn\n\u00d7\n=\n=\n=\n+\n+\n+\n\u00d7 +\n\u00d7\n\n0\n0.8167\n=\n3\n2\n1\n2 7\n1.05038\n0.01167\n(3\n7) (3\n2 7)\ntub\n\u00d7\n\uf0e6\n\uf0f6\n\u03b1\n=\n=\n\uf0e7\n\uf0f7\n+\n\u00d7\n+ \u00d7\n\uf0e8\n\uf0f8\n\nFor laminar \nmin\n2\nla\nar\n\u03b1\n=\n1.05038\n0.52919\n2\n\u03b1\n=\n=\n\u03b1\n \n \n \n \n \n \nAns.\n\u2234\ntub\nla\nar\nmin"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b0e47a008420ca756f7530f8451bd30412debc0105682175e3f06fdf0fffbcf
+size 1844

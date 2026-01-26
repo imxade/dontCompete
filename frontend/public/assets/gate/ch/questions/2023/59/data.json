@@ -1,11 +1,3 @@
-{
-  "id": "59",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "16 to 16 \nSol. \nA\nP\n\uf0be\uf0be\n\uf0ae\n3\n1 mol/m\nA\nC\n\uf03d\n\n0\n0.8\nA\nX\n \uf03d\nX\nV\nF\nr\n\uf03d\uf02d\nA\n\nA\nA\n0\nX\nV\nF\nC\nr\n\uf074\n\uf03d\n\uf03d\uf02d\nA\n\nA\nA\nA\n0\n0\n0.8\n1\n0.05\n\uf074\uf03d\n16 sec\n\uf074\uf03d",
-  "question_text": "Question 59 \n \nA unimolecular, irreversible liquid-phase reaction\nproducts\nA\n\uf0be\uf0be\uf0ae\nwas carried out in an ideal batch reactor at temperature \n\ud835\udc47\n. The rate of the reaction \n(\n)\nA\nr\n\uf02d\n \nmeasured at different\nconversions \nA\nX\n  \n \nis given in the table below. This reaction is also carried out in an ideal continuous stirred tank\nreactor (CSTR) at the same temperature \n\ud835\udc47 \nwith a feed concentration of \n3\n1 mol.m ,\n\uf02d\nunder steady-state \nconditions. For a conversion of \n0.8\n, the space time (in \ns\n) of the CSTR is (in integer).\n[Chemical Reaction Engineering, 2 Marks]\nA\nX\n  \n0 \n0.1 \n0.2 \n0.4 \n0.6 \n0.8\n3\n1\n(mol.m s )\nA\nr\n\uf02d\n\uf02d\n\uf02d\n \n0.45 \n0.35 \n0.31 \n0.18 \n0.11 \n0.05",
-  "answer_text": "16 to 16 \nSol. \nA\nP\n\uf0be\uf0be\n\uf0ae\n3\n1 mol/m\nA\nC\n\uf03d\n\n0\n0.8\nA\nX\n \uf03d\nX\nV\nF\nr\n\uf03d\uf02d\nA\n\nA\nA\n0\nX\nV\nF\nC\nr\n\uf074\n\uf03d\n\uf03d\uf02d\nA\n\nA\nA\nA\n0\n0\n0.8\n1\n0.05\n\uf074\uf03d\n16 sec\n\uf074\uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:573ff5cbfb684af792b215972e50bc70d70752f711d0de448dd88698c31111b1
+size 1469

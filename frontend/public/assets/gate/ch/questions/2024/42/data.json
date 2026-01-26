@@ -1,11 +1,3 @@
-{
-  "id": "42",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 42\n \n \n \nA simple distillation column separates a binary mixture of \n\ud835\udc34\n and \n\ud835\udc35\n.  The relative volatility of \n\ud835\udc34\n with \nrespect to \n\ud835\udc35\n is 2.  The steady-state composition of \n\ud835\udc34\n in the vapor leaving the 1\nst\n, 2\nnd\n and 3\nrd\n trays in the \nrectifying section are 94, 90 and 85 mol%, respectively.  for ideal trays and constant molal overflow, the \nreflux-to-distillate ratio is\n[Mass transfer, 2 Marks]\n \n \n(A) 1.9 \n(B) 2.7 \n \n(C) 1.2 \n(D) 1.1 \nAns. \n(B)",
-  "answer_text": "",
-  "explanation_text": "Sol.     \nGiven:\n1\nFeed line\n0.94\ny\n \uf03d\n2\n1\n2\n(\n,\n)\nx y\n3\ny\n2\n3\n(\n,\n)\nx\ny\nx\n\n\ud835\udc45\n\ud835\udefc\n\ud835\udc34\ud835\udc35\n= 2\n\ud835\udc37\n=?\n\nPAGE\n36\n\ny\n1\n=0.94\n1\nx\n1\ny\n2\n=0.90\n2\ny\n3\n=0.85\nx\n2\n3\n\nx\n3\n\u2192\n \n\ud835\udc65\n1\n and \n\ud835\udc66\n1\nare at equilibrium curve.\n\uf0ae\n\ud835\udc65\n2\n and \n\ud835\udc66\n2\n are at equilibrium curve.\nNote :\nStream lies on same side lies on operating line.\nStream lie on opposite side lies on equilibrium line.\n\ud835\udefc\ud835\udc65\n1\n1+(\ud835\udefc\u22121)\ud835\udc65\n1\n \n \n \n\ud835\udc66\n2\n =\n\ud835\udefc\ud835\udc65\n2\n1+(\ud835\udefc\u22121)\ud835\udc65\n2\n\ud835\udc66\n1\n =\n2\ud835\udc65\n1\n1+\ud835\udc65\n1\n \n \n \n0.9 =\n2\ud835\udc65\n2\n1+\ud835\udc65\n2\n0.94 =\n0.94\n0.9\n\ud835\udc65\n1\n =\n1.06\n  \n \n\ud835\udc65\n2\n =\n1.1\nEnriching section operating line can be written as :\n\ud835\udc45\n\ud835\udc65\n\ud835\udc37\n\ud835\udc45+1\n\ud835\udc66=\n\ud835\udc45+1\n \n\ud835\udc65+\n\ud835\udc45\nSlope \n=\n\ud835\udc45+1\n \n=\nSlope between \n(\ud835\udc65\n2\n, \ud835\udc66\n3\n)\n and \n(\ud835\udc65\n1\n, \ud835\udc66\n2\n)\n\ud835\udc45\n0.9\u22120.85\n0.94\n1.06\n \u2212  \n0.9\n\n\n\ud835\udc45+1\n \n=\n1.1\n\ud835\udc45= 2.68\n\ud835\udc3f\n\ud835\udc45= 2.7 =\n\ud835\udc37"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:12a1a5deca1231d3987619b2d9f6029e017d521242a0b6f05ac7c04c4168b1e8
+size 2098

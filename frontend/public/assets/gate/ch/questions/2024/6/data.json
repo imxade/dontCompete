@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 6 \n \nIn the given text, the blanks are numbered (i)-(iv). Select the best match for all the blanks. \n \nFrom the ancient Athenian arena to the modern Olympic stadiums, athletics __(i)   the potential for a \nspectacle. The crowd _(ii)   with bated breath as the Olympian artist twists his body, stretching the javelin \nbehind him. Twelve strides in, he begins to cross-step. Six cross-steps (iii)  in an abrupt stop on his left \nfoot. As his body (iv)  like a door turning on a hinge, the javelin is launched skyward at a precise angle.\n[Logical Reasoning, 4] \n \n(A) (i) hold  \n(ii) waits  (iii) culminates  (iv) pivot \n \n(B) (i) holds  (ii) wait \n (iii) culminates  (iv) pivot \n \n(C) (i) hold  \n(ii) wait  \n(iii) culminate  \n(iv) pivots \n \n(D) (i) holds \n(ii) waits  (iii) culminate  \n(iv) pivots \nAns. (D)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nIn the context, the word choices should (D) align with the tense and subject-verb agreement the correct \noption is (D).\nWhere \"holds\" (i) matches the singular subject \"athletics\". \"waits\" (ii) agrees with the singular \"crowd\", \n\"culminate\" (iii) fits the sequence, and \"pivots\" (iv) corresponds to the action of the body.\nHence, the correct option is (D). \nQuestion 7 \n \nThree distinct sets of indistinguishable twins are to be seated at a circular table that has 8 identical chairs. \nUnique seating arrangements are defined by the relative positions of the people. \n \nHow many unique seating arrangements are possible such that each person is sitting next to their twin?\n[Numerical Ability, 4] \n \n(A) 12 \n(B) 14 \n \n(C) 10 \n(D) 28 \nAns. (A)\nSol.\n\nPAGE\n5\n\nA A\nB B\nC C\nset 1\nset 2\nset 3\n( )\nE\nEMPTY\nEMPTY\nA A\nA A\nC\nC\n( )\nE\nEMPTY\nOR\n( )\nE\nB\nB\nCC\n( )\nE\nEMPTY\nB\nB\n\nSet 1 Set 2 Set 3 E E \n\u2261\n Total 5 units\nCircular arrangement of 5 units out of which 2 are alike (E and E)\n(5\u22121)!\n4!\n4\u00d73\u00d72\u00d71\n=\n2\u00d71\n= 12\n2!\n=\n2!\n \n=\nSo, number of unique sitting arrangemet Possible \n= 12\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72c9c8a60b7fe84899f2bf921402a5a83aa93b1a94a528bf8cc5085dc3ba4b29
+size 2244

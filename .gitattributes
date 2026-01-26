@@ -1,2 +1,1 @@
-frontend/public/assets/** filter=lfs diff=lfs merge=lfs -text
-* !text !filter !merge !diff
+frontend/public/assets/*/*/questions/** filter=lfs diff=lfs merge=lfs -text

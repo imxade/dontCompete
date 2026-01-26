@@ -1,11 +1,3 @@
-{
-  "id": "21",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 21  \n \n[Control System : Second Order System]\nn\nn\ns\ns\n\uf077\n\uf02b\uf07a\uf077\n\uf02b\uf077\n with the poles \np\n and\n2\n*\np\n  having\nn\nConsider the standard second - order system of the form\n2\n2\n2\nnegative real parts. The pole locations are also shown in the figure. Now consider two such second - order \nsystems as defined below :\nSystem 1 : \n3rad/sec\nn\n\uf077\uf03d\n and \n0\n60\n\uf071\uf03d\nSystem 2 : \n1rad/sec\nn\n\uf077\uf03d\n and \n0\n70\n\uf071\uf03d\nWhich one of the following statements is correct ?\n\nPAGE\n23\n\n(A) Settling time of system 1 is more than that of system 2.  \n \n(B) Settling time of system 2 is more than that of system 1. \n \n(C) Settling times of both the systems are the same.  \n \n(D) Settling time cannot be computed from the given information. \nAns. \n(B)\nn\ns\nS\n\uf077\n\uf02b\uf078\uf077\n\uf02b\uf077\n with the pole \nP \nand\n2\n*\nP",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven : \nConsider the standard second order system of the form\n2\n2\n2\nn\nn\nhaving negative real parts.\nSystem 1 :\n \n3rad/sec\nn\n\uf077\uf03d\n and \n0\n60\n\uf071\uf03d\nSystem 2 :\n \n1rad/sec\nn\n\uf077\uf03d\n and \n0\n70\n\uf071\uf03d\nThe pole location are also shown in the below figure.\nj\n\uf077\np\n\uf071\n\uf073\nn\n\uf02d\uf077\n0\n*\np\nSetting Time : \nTime required by the response to reach and steady within specified range of % to 5% of \nits final value.\nFor 2% tolerance : \n4\n4\ns\nn\nt\n \uf03d\uf074\uf03d\uf078\uf077\n(Approx)\nFor 5% tolerance : \n3\n3\ns\nn\nt\n \uf03d\uf074\uf03d\uf078\uf077\n(Approx)\nWhere \n\uf074\uf03d\n Time constant\n\nPAGE\n24\n\n1\nn\n\uf074\uf03d\uf078\uf077\nKey Point : \n \n1. \nFor all positive value of \n\uf078\n system are static.\n2. \nPole away from origin are called insignificant pole and does not affect the stability of the system.\n3. \n1\ncos ( )\n\uf02d\n\uf071\uf03d\n\uf078\nAccording to question :\nSystem 1 : \n3rad/sec\nn\n\uf077\uf03d\n3rad/sec\nn\n\uf077\uf03d\n1\ncos ( )\n\uf02d\n\uf071\uf03d\n\uf078\n0\ncos\ncos(60 )\n0.5\n\uf078\uf03d\n\uf071\uf03d\n\uf03d\n\n4\n2.67sec\n0.5 3\ns\nt\n\uf03d\n\uf03d\n\uf0b4\n(1)\nSystem 2 :\n1rad/sec\nn\n\uf077\uf03d\n0\ncos\ncos(70 )\n\uf078\uf03d\n\uf071\uf03d\n\n0.34\n\uf078\uf03d\n4\n11.76sec\n0.34 1\ns\nt\n\uf03d\n\uf03d\n\uf0b4\n\n(2)\nHence, the correct option is (B)"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a36b24f5ca2ecd2e89f4ab817deee58221bd5eaae3e644513681f80098b8cdb9
+size 2525

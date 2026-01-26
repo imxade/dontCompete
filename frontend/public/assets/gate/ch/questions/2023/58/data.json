@@ -1,11 +1,3 @@
-{
-  "id": "58",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 58 \n \nFresh catalyst is loaded into a reactor before the start of the following catalytic reaction.\nproducts\nA\n\uf0be\uf0be\n\uf0ae\nThe catalyst gets deactivated over time. The instantaneous activity \n( ),\na t\n  at time \n\ud835\udc61\n, is defined as the ratio\nof the rate of reaction \n'\n1\n1\n( )(mol.(g cat hr )\nA\nr t\n\uf02d\n\uf02d\n\uf02d\n to the rate of reaction with fresh catalyst. Controlled\nexperimental measurements led to an empirical correlation\n'\n ( )\n0.5\n10\nA\nr t\nt\n\uf02d\n\uf03d\uf02d\n\uf02b\nwhere \n\ud835\udc61 \nis in hours. The activity of the catalyst at \n\ud835\udc61 = 10 hr \nis _______ (rounded off to one decimal place).\n[Chemical Reaction Engineering, 2 Marks] \n \nAns. \n0.5 to 0.5\nr\na\nr\n\uf02d\n\uf03d\uf02d\n'\n( )\nA",
-  "answer_text": "",
-  "explanation_text": "Sol. \nActivity\nA\nGiven \n\uf0ae\n \n'\n0.5\n10\nA\nr\nt\n\uf02d\n\uf03d\uf02d\n\uf02b\nRate of reaction with fresh catalyst i.e.\nat \n0\nt\n \uf03d\n(0.5) 0 10\nA\nr\n\uf02d\n\uf03d\uf02d\n\uf0b4\uf02b\n10\nA\nr\n\uf02d\n\uf03d\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n42\n\nActivity at \n10 hr\nt\n \uf03d\n\uf02d\n\uf02b\n\uf03d\n0.5(10) 10\n10\nt\na\n \uf03d\n10 hr\n10 hr\n0.5\nt\na\n \uf03d\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:71074a5bbdb22289ed6fbb031d9d7ad7b712aa99d89eedbb503afb5af700b8af
+size 1412

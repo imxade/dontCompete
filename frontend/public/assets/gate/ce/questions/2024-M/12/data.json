@@ -1,11 +1,3 @@
-{
-  "id": "12",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 12 \n[Engineering Mathematics : Differential Equations]\nThe second-order differential equation in an unknown function \n: ( , )\nu u x y\n  is defined as\n2\n2\nu\nx\n\uf0b6\n\uf03d\n\uf0b6\n2\n\nAssuming \n: ( ),\n:\n( ),\ng g x\nf\nf y\n  and \n: ( ),\nh h y\n  the general solution of the above differential equation is\n(A) \n2\n( )\n( )\nu\nx\nf y\ng x\n\uf03d\n\uf02b\n\uf02b\n \n(B) \n2\n( )\n( )\nu\nx\nx f y\nh y\n\uf03d\n\uf02b\n\uf02b\n(C) \n2\n( )\n( )\nu\nx\nx f y\ng x\n\uf03d\n\uf02b\n\uf02b\n \n(D) \n2\n( )\n( )\nu\nx\nf y\ny g x\n\uf03d\n\uf02b\n\uf02b",
-  "answer_text": "(B)",
-  "explanation_text": "Sol. \nGiven :\n Partial differential equation is given below,\n2\n2\nu\nx\n\uf0b6\n\uf03d\n\uf0b6\n \n \n \n \n \n \n\u2026(i)\n2\n\nAnd assuming \n: ( ),\n:\n( ),\n: ( )\ng g x\nf\nf y\nh h y\nFor general solution, integrating equation (i) on both sides with respect to \u2018\nx\n\u2019\n2\n2\n( )\nu dx\ndx\nf y\nx\n\uf0e6\n\uf0f6\n\uf0b6\n\uf03d\n\uf02b\n\uf0e7\n\uf0f7\n\uf0b6\n\uf0e8\n\uf0f8\n\uf0f2\n\uf0f2\n2\n\n2\n( )\nu\nx\nf y\nx\n\uf0b6\n\uf03d\n\uf02b\n\uf0b6\nAgain integrating above equation with respect to \u2018\nx\n\u2019\n2\n( )\n( )\nu dx\nxdx\nf y dx\nh y\nx\n\uf0b6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0b6\n\uf0e8\n\uf0f8\n\uf0f2\n\uf0f2\n\uf0f2\n2\n2\n( )\n( )\n2\nx\nu\nxf y\nh y\n\uf03d\n\uf02b\n\uf02b\n\n2\n( )\n( )\nu\nx\nxf y\nh y\n\uf03d\n\uf02b\n\uf02b\nHence, the general solution of given differential equation is\n2\n( )\n( )\nu\nx\nxf y\nh y\n\uf03d\n\uf02b\n\uf02b\nHence; the correct option is (B)"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0629d8164199a3d2f331b34695cdef2638070a83b992f80cebc79c3339826f47
+size 1735

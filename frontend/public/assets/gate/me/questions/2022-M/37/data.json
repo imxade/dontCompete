@@ -1,11 +1,3 @@
-{
-  "id": "37",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "0.18",
-  "question_text": "Question 37\nLet a random variable \nX\n follow Poisson distribution such that \nProb(\n1)\nProb(\n2)\nX\nX\n\uf03d\n\uf03d\n\uf03d\n. The value of\nProb(\n3)\nX\n \uf03d\n is __________ (round off to 2 decimal places).",
-  "answer_text": "0.18",
-  "explanation_text": "Sol.\n \nGiven :\n Random variable \nx\n follows poisson\u2019s distribution\nprob\n(\n1)\nx\n \uf03d\n\uf03d\n prob\n(\n2)\nx\n \uf03d\nPoisson\u2019s distribution,\n\uf02d\n\uf03d\n \n \nwhere \nm\n \uf0ae\n mean\nm\nr\ne\nm\np r\nr\n( )\n!\nm\nm\ne\nm\ne\nm\n\uf02d\n\uf02d\n\uf03d\n1\n2\n\n1!\n2!\n2\n2\nm\nm\n \uf03d\n\n2,\nm\n \uf03d\n mean of Poisson\u2019s distribution,\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n2\n3\n2\n2\n8\n(\n3)\n0.18\n3!\n6\ne\ne\np x\n\nHence, the correct answer is 0.18."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f150ac59db70a67f784677ac9b3e350948877cce85b6e0e2c22fc7ca3b4288b
+size 931

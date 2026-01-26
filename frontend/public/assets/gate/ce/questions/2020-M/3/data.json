@@ -1,11 +1,3 @@
-{
-  "id": "3",
-  "stream": "civil-engineering",
-  "packet": "2020-M",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(C) \nSol.\nG\nE\nC\nA\nD\nB\nF\nTake joint A\nP\nAC\nF\nAB\nF\n\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n6\n\n0,\n0\nx\ny\nF\nF\n\u03a3\n=\n\u03a3\n=\n0,\n0\nAC\nAB\nF\nF\n=\n=\nSimilarly, take joint B\n0\nBD\nBC\nF\nF\n=\n=\nSimilarly, take joint C\n0\nCE\nCD\nF\nF\n=\n=\nTake joint D\nDE\nF\nDF\nF\nP\n0,\n0\ny\ny\nF\nF\n\u03a3\n=\n\u03a3\n=\n,\n0\nDE\nDF\nF\nP F\n=\n=\nTruss reduce (it is 1 degree indeterminate)\nE\nG\nl\nP\nl\nF\nTake redundant as vertical support\nP\nP\nE\nP\nP\n2\nP\nF\nApplied unit load at 1 as shown in figure (at redundant)\nG\nE\n1\nF\n\n1\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n7\n\n2\n2\n1\n1\nPUl\nP\nl\nX\nU l\nl\n\u03a3\n\u00d7 \u00d7\n= \u2212\n= \u2212\n\u03a3\n\u00d7\nX\nP\n= \u2212\nForce in member \nGF\nGF\nF\nUx\n=\n+\nForce in member \nGF\nGF\nF\nUx\n=\n+\n(\n1)\nP\nP\n=\n\u2212\u2212\u00d7\n0\n=\n0\n0\n0\n0\n0\n0\n0\n0\nNo. of zero force member is 8.",
-  "question_text": "Question 3 \n \nConsider the planar truss shown in the figure (\nnot drawn to the scale\n)\nL\nL\nL\nL\nP\nNeglecting self-weight of the members, the number of zero-force members in the truss under the action \nof the load \nP\n, is \n \n(A) 7 \n \n(B) 6 \n(C) 8 \n(D) 9",
-  "answer_text": "(C) \nSol.\nG\nE\nC\nA\nD\nB\nF\nTake joint A\nP\nAC\nF\nAB\nF\n\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n6\n\n0,\n0\nx\ny\nF\nF\n\u03a3\n=\n\u03a3\n=\n0,\n0\nAC\nAB\nF\nF\n=\n=\nSimilarly, take joint B\n0\nBD\nBC\nF\nF\n=\n=\nSimilarly, take joint C\n0\nCE\nCD\nF\nF\n=\n=\nTake joint D\nDE\nF\nDF\nF\nP\n0,\n0\ny\ny\nF\nF\n\u03a3\n=\n\u03a3\n=\n,\n0\nDE\nDF\nF\nP F\n=\n=\nTruss reduce (it is 1 degree indeterminate)\nE\nG\nl\nP\nl\nF\nTake redundant as vertical support\nP\nP\nE\nP\nP\n2\nP\nF\nApplied unit load at 1 as shown in figure (at redundant)\nG\nE\n1\nF\n\n1\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n7\n\n2\n2\n1\n1\nPUl\nP\nl\nX\nU l\nl\n\u03a3\n\u00d7 \u00d7\n= \u2212\n= \u2212\n\u03a3\n\u00d7\nX\nP\n= \u2212\nForce in member \nGF\nGF\nF\nUx\n=\n+\nForce in member \nGF\nGF\nF\nUx\n=\n+\n(\n1)\nP\nP\n=\n\u2212\u2212\u00d7\n0\n=\n0\n0\n0\n0\n0\n0\n0\n0\nNo. of zero force member is 8.",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb2ac8e269ccca63a7cef27b06e7a6269f9e522b392c5859430ff481ee20c5a8
+size 2352

@@ -1,11 +1,3 @@
-{
-  "id": "47",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "NAT",
-  "key": "30",
-  "question_text": "Question 47 \n \n \n \n \nNetwork Theory (NAT)\nAn air core coil having a winding resistance of \n10\n\u03a9\n  is connected in series with a variable capacitor \n.\nx\nC\nThe series circuit is excited by a 10 V sinusoidal voltage source of angular frequency 1000 rad/s. As the\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n43\n\nvalue of the capacitor is varied, a maximum voltage of 30 V was observed across it. Neglecting skin-\neffect, the value of the inductance of the coil in millihenry is _______. \n \n \n[2 Marks]",
-  "answer_text": "30",
-  "explanation_text": "Sol. \nAccording to question, given RLC circuit is shown below,\n10\n \b\nL\nC\nV\nL\n30 V\nI\n10sin\nV\nt\n\t\n\u0006\n1000 rad/sec\n\u0006\nVoltage across capacitor and inductor becomes maximum only when circuit is in resonance.\nIn resonance \nC\nV\nQ V\n=\nC\nV\nQ\nV\n=\n=\n=\nSo,   \n30\n3\n10\nAlso,  \n0\n1000\n10\nL\nL\nQ\nR\n\u03c9\n\u00d7\n=\n=\n30 H\n30 mH\n1000\nL\n =\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecf85562192bce85b87a1520092c18ab03e680775e7a1299023c5f6dfa97e520
+size 1133

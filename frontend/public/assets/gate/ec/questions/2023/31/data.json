@@ -1,11 +1,3 @@
-{
-  "id": "31",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 31  \n \n \n \n \n \n \nDigital Electronics : ADC and DAC\n\nGATE 2023 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n20\n\nThe signal-to-noise ratio (SNR) of an ADC with a full-scale sinusoidal input is given to be 61.96 dB. The \nresolution of the ADC is _______ bits. (rounded off to nearest integer) \nAns. 10 (10 to 10)",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven : \n \nSNR of ADC \n61.96dB\n\uf03d\nSNR \n1.76\n6.02 dB\nn\n\uf03d\n\uf02b\n \n \n61.96\n1.76\n6.02\nn\n\uf03d\n\uf02b\n \n \n10\nn\n \uf03d\nHence, the correct answer is 10."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7b20be2f3458c068c017c694ba5ef81666a44193623d8598f071be84358b059
+size 756

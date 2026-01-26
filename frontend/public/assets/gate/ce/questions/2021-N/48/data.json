@@ -1,11 +1,3 @@
-{
-  "id": "48",
-  "stream": "civil-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 48\n \n \nAn elevated cylindrical water storage tank is shown in the figure. The tank has inner diameter of 1.5 \nm. It is supported on a solid steel circular column of diameter 75 mm and total height (\nL\n) of 4 m. Take\nwater density \n3\n1000 kg/m\n  and acceleration due to gravity \n3\n10 m /s\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n26\n\nh\nL\nE  I\n,\nIf elastic modulus (\nE\n) of steel is 200 GPa, ignoring self-weight of the tank. For the supporting steel \ncolumn to remain unbuckled. The maximum depth (\nh\n) of the water permissible (in m, round off to one \ndecimal place) is _______. \nAns.  (2.68 - 2.72) \nSol. \nGiven : \n \nDiameter of solid steel column, \n0.075 m\nD\n =\nHeight of column, \n4 m\nL\n =\n\u2234\n Effective length of column, \n2\n8 m\ne\nL\nL\n=\n=\n2\nEI\nP\nL\n\u03c0\n=\nBy Euler\u2019s formula,\n2\nE\ne\n\u03c0\n\u03c0 \u00d7\n\u00d7\n\u00d7\n\u00d7\n=\n2\n9\n4\n2\n200 10\n0.075\n64\n8\nE\nP\n\n47903.22 N\nE\nP\n =\n2\n1.5\n4\nBottom\nF\ngh\n\u03c0\n= \u03c1\n\u00d7\n\u00d7\n\n2\n1000 10\n1.5\n4\nBottom\nF\nh\n\u03c0\n=\n\u00d7\n\u00d7 \u00d7\n\u00d7\n\n17671.45868\nN\nBottom\nF\nh\n=\nTo avoid buckling, \nBottom\nE\nF\nP\n\u2264\n17621.45868\n47903.22\nh\n \u2264\n2.71 m\nh\n \u2264\n\u2234\n  \nmax\n2.7 m\nh\n=",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd189ea329c5c0d4424a63692082e5006014b2425424961dbecd306ac6a0de83
+size 1485

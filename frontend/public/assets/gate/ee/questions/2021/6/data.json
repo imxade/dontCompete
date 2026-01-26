@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "electrical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "1.414\n0.5 mF",
-  "question_text": "Question 6  \n \n \n \nNetwork Theory (2M)\nIn the given circuit, for maximum power to be delivered to \nL\nR\n , its value should be ______ \n\u03a9\n  (Round\noff to 2 decimal places).\n4 mH\nV\n1 krad/sec\n\u0005 \u0006\n2\n \u0004\nL\nR",
-  "answer_text": "1.414\n0.5 mF",
-  "explanation_text": "Sol. \nGiven circuit is as shown below,\n4\nj\n \u0004\n4 mH\n2\n\u0004\n1k rad/sec\n\u0005 \u0006\nL\nR\n2\n\u0004\nth\nZ\n2\nj\n\u0003\n\u0004\n\n0.5 mF\n\nGATE 2021 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n7\n\n2\n2\n2\n2\nth\nj\nZ\nj\n\u00d7\n=\n+\n2\n2\n2\n2\n4\n2\n2 2\n2\n2\nth\nj\nZ\n\u00d7\n=\n=\n=\n\u03a9\n+\n\nFor maximum power transfer,\n2\n1.414\nL\nth\nR\nZ\n=\n=\n=\n\u03a9\nHence, the correct answer is 1.414."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3e08c96fe12e392bfd9eb32fab2ef64558514c7268423db1ecee892b212fb9a
+size 895

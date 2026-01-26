@@ -1,11 +1,3 @@
-{
-  "id": "48",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(D)",
-  "question_text": "Question 48\nMatch the reaction in Group-1 with the reaction type in Group-2.\nGroup-1 \nGroup-2\nP. \nMethylcyclohexane\n\u2192\nToluene\n2\n3\nH\n+\n \nI. \nDehydrocyclization\nQ. \nEthylcyclopentane\n\u2192\nMethylcyclohexane \nII. \nCracking\nR. \nn-Octane\n\u2192\nEthylbenzene\n2\n4\nH\n+\n \nIII. \nDehydrogenation\nS. \nn-Octane\n\u2192\nn-Pentane + Propylene  \nIV. \nIsomerization\nThe correct combination is :\n(A) P-II, Q-III, R-I, S-IV  \n \n(B) P-III, Q-IV, R-II, S-I\n(C) P-I, Q-IV, R-III, S-II  \n \n(D) P-III, Q-IV, R-I, S-II",
-  "answer_text": "(D)",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a76cb4c934fad0c4b78905c364e138fd8797a21175f53a39d1287c2fe6de888
+size 738

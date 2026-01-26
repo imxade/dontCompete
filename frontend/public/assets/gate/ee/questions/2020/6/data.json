@@ -1,11 +1,3 @@
-{
-  "id": "6",
-  "stream": "electrical-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "0\nDASHED BOX",
-  "question_text": "Question 6\nThe cross-section of a metal-oxide-semiconductor structure is shown schematically. Starting from an \nuncharged condition, a bias o f + 3 V is applied to the gate contact with respect to the body contact. The \ncharge inside the silicon dioxide layer is then measured to be +\nQ\n. The total charge contained within the \ndashed box shown, upon application of bias, expressed as a multiple of \nQ\n (absolute value in Coulombs, \nrounded off to the nearest integer) is ____________.\nGATE\nSilicon Dioxide\nSi\nBODY",
-  "answer_text": "0\nDASHED BOX",
-  "explanation_text": "Sol. \nGiven cross section is shown in below figure,\nGATE\nSilicon Dioxide\nSi\nBODY\n\nDASHED BOX\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n12\n\nThe applied voltage at gate terminal can be compensated by induced charge at semiconductor surface so \nas a whole it is always neutral."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c60b875a5548b8645156868f93ad1c03dc2081f4d909c27ed9b71ef3b78bc83a
+size 1055

@@ -1,11 +1,3 @@
-{
-  "id": "26",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 26\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n24\n\nIn grinding operation of metal, specific energy consumption is \n3\n15 J/mm\n . If a grinding wheel with a\ndiameter of \n200 mm\nis rotating at \n3000 rpm\nto obtain a material removal rate of \n3\n6000 mm / min\n , then\nthe tangential force on the wheel is _______N(round off to two decimal places).\nProduction Engineering (Grinding) \nAns. \n47.74",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nSpecific energy (\ne\n) = 15 J/mm\n3\n200 mm\nD\n =\n3000 rpm\nN\n =\n3\n6000 mm /min\nMRR\n =\n3\nPower\n15 J/mm\ne\nMRR\n=\n=\n\nPower\n15 6000\n=\n\u00d7\n15 6000\n1000\nC\nDN\nf\n\u03c0\n\u00d7\n=\n\u00d7\n15 6000 1000\n200 3000\nC\nf\n\u00d7\n\u00d7\n= \u03c0\u00d7\n\u00d7\n47.74 N\nC\nf\n ="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5237a85b6774b9320f6c45ba5e99c7b45cb4373c9a2347afb4c356e64e123c93
+size 935

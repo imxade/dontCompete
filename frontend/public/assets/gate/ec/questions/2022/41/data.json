@@ -1,11 +1,3 @@
-{
-  "id": "41",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "D",
-  "question_text": "Question 41 \n \n \nAnalog Electronics\nFor the following circuit with an ideal OPAMP, the difference between the maximum and the minimum \nvalues of the capacitor voltage \n(\n)\nC\nV\n is\nR\n15V\n\uf02b\nC\nV\n\uf02d\n\uf02b\n(mA)\nD\nI\nC\nD\nI\nD\n20\nR\n12V\n\uf02d\nV\nD\nR\nR\nR\n10\n0\n( )\nV\n0\nV\nD\nD\nD\n(A) 15 V \n(B) 27 V\n(C) 14 V \n(D) 13 V",
-  "answer_text": "D",
-  "explanation_text": "Sol.\n \nThe given circuit is an astable multivibrator/free running oscillator.\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n55\n\nR\n+15V\nC\nV\n0\nV\nC\n(mA)\nD\nI\nD\nI\nD\n\u2013 12V\n20\nR\nR\nR\nR\nV\nD\n10\n0\n( )\nV\n1\nD\n2\nD\n0\nV\nD\nFig. Astable multivibrator                              Fig. Ideal characteristic of diode\nCase 1 :\n When \n0\n15 V\nV\n \uf03d\n, \n1\nD\n  is ON and \n2\nD\n  is OFF then above circuit becomes as,\nR\n15V\n\uf02b\nV\n \n\uf02d\nC\nV\nC\n0\n15 V\nV\n \uf03d\uf02b\n12V\n\uf02d\nR\n2\nR\nV\n \n\uf02b\nApply voltage division rule to calculate \nV\n \n\uf02b\n,\n\uf02b\n\uf0b4\n\uf0b4\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n\uf02b\n0\n15\n15\n5 V\n2\n3\n3\nR V\nR\nV\nR\nR\nR\nMaximum voltage across capacitor is (i.e. capacitor charged upto \nUTP\nV\nV\n \n\uf02b\n\uf03d\n),\nmax\n[\n( )]\n5 V\nc\nUTP\nV t\nV\n\uf03d\n\uf03d\nCase 2 : \nWhen \n0\n12 V\nV\n \uf03d\uf02d\n, \n1\nD\n  is OFF and \n2\nD\n  is ON, then above circuit becomes as,\nR\n15V\n\uf02b\nV\n \n\uf02d\n12V\nout\nV\n\uf03d\uf02d\nC\nV\nC\n+\n12 V\n\uf02d\n2\nR\nV\n \n\uf02b\nR\nApplying voltage division rule to calculate \nV\n \n\uf02b\n,\n\uf02b\n\uf02d\n\uf03d\n\uf0b4\n\uf03d\n\uf0b4\uf03d\uf02d\n\uf02b\nSo,  \n2\n12 2\n8 V\n2\n3\nout\nR\nV\nV\nR\nR\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n56\n\nMinimum capacitor voltage is (i.e. capacitor charged upto \nLTP\nV\nV\n \n\uf02b\n\uf03d\n),\nmin\n[\n( )]\n8 V\nc\nLTP\nV t\nV\n\uf03d\uf02d\n\uf03d\nThe waveform of output voltage \n( )\nout\nV\nt\n  and capacitor voltage \n( )\nc\nV t\n  is,\n( )\nout\nV\nt\n15V\n\uf02b\nt\n0\n12V\n\uf02d\n( )\nc\nV t\nmax\n5 V\nUTP\nc\nV\nV\n\uf03d\n\uf03d\nt\n0\nmin\n8 V\nLTP\nc\nV\nV\n\uf03d\n\uf03d\uf02d\n\nThus,  \nmax\nmin\n5 ( 8)\n13 V\nc\nc\nV\nV\n\uf02d\n\uf03d\uf02d\uf02d\n\uf03d\nHence, the correct option is (D)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:02676cf37d1407f57d05a47cb7c0eab8300b998f42f68eeb7b84ddcbcdab2257
+size 2484

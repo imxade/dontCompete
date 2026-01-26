@@ -1,11 +1,3 @@
-{
-  "id": "53",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "1.00 to 1.20 \nSol. \nFor Stoke\u2019s Law regime \u2013\nTerminal settling velocity\nd\ng\nv\n\uf072\uf02d\uf072\n\uf03d\n\uf06d\n2\n(\n)\np\np\nf\nt\n\n18\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n37\n\n\uf02d\n\uf02d\n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\n  \n\uf0de\n \n3\n(1.11 10 ) m/s\nt\nv\n\uf02d\n\uf03d\n\uf0b4\n6\n2\n3\n(100 10 ) (1000\n800)9.81\n18 10\nt\nv\n\n1.11 mm/s\nt\nv\n \uf03d",
-  "question_text": "Question 53\nA large tank is filled with water \n3\n(density\n1 g.cm )\n\uf02d\n\uf03d\n upto a height of 5 m. A \n100 \u03bcm\n diameter solid\nspherical particle \n3\n(density\n0.8 g.cm )\n\uf02d\n\uf03d\n is released at the bottom of the tank. The particle attains its\nterminal velocity \n( )\nt\nv\nafter traveling to a certain height in the tank. Use acceleration due to gravity as 10\nm.s\u22122 and water viscosity as \n3\n10  Pa.s.\n\uf02d\n Neglect wall effects on the particle. If Stokes law is applicable,\nthe absolute value of \nt\nv\n1\n(in mm.s )\n\uf02d\n is ____________ (rounded off to two decimal places).\n[Mechanical Operation, 2 Marks]",
-  "answer_text": "1.00 to 1.20 \nSol. \nFor Stoke\u2019s Law regime \u2013\nTerminal settling velocity\nd\ng\nv\n\uf072\uf02d\uf072\n\uf03d\n\uf06d\n2\n(\n)\np\np\nf\nt\n\n18\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n37\n\n\uf02d\n\uf02d\n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\n  \n\uf0de\n \n3\n(1.11 10 ) m/s\nt\nv\n\uf02d\n\uf03d\n\uf0b4\n6\n2\n3\n(100 10 ) (1000\n800)9.81\n18 10\nt\nv\n\n1.11 mm/s\nt\nv\n \uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2779508f9a2fa656d986624b8dcbc628db9040b57046a63923ccf06e7acc156c
+size 1678

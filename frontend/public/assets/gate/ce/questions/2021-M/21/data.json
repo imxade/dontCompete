@@ -1,11 +1,3 @@
-{
-  "id": "21",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "0.9",
-  "question_text": "Question 21\nA truss EFGH is shown in the figure, in which all the members have the same axial rigidity\n R\n. In the \nfigure, \nP\n is the magnitude of external horizontal forces acting at joints \nF\n and \nG\n.\nF\nG\nP\nP\nL\nE\nH\n\nL\nIf\n \n3\n500 10  kN\nR\n =\n\u00d7\n, \n150 kN\nP\n =\n and \nL\n = 3 m, the magnitude of the horizontal displacement of joint \nG\n \n(in mm round off to one decimal place)is __________.",
-  "answer_text": "0.9",
-  "explanation_text": "Sol.\n \nGiven :\nAxial rigidity  \n3\n500 10 kN\nR\n =\n\u00d7\n150 kN\nP\n =\n?\nG\nPkl\nAE\n\u03b4 = \u03a3\n=\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n13\n\n\nG\nP\nP\nP\n3 m\nConsider joint \nG \n:\n3 m\nG\nP\n0\nx\nF\n\u03a3\n=\n0\ny\nF\n\u03a3\n=\nTo final K, applied unit load at \nG\n1 kN\nG\n1 kN\n2 kN\n1 kN\n\n1 kN\nMembers \nP \nk \nL \nPkL\nAE\nAB \n0 \n1 \n3 \n0\nBC \n0 \n2\n\u2212\n \n3 2\n  \n0\nAC \n0 \n1 \n3 \n0\nBG \nP \n1 \n3 \n(1)(3)\nP\nAE\nGC \n0 \n0 \n3 \n0\n\u2234\n \n(1)(3)\nAE\n\u03b4 =\n3\n150(1)(3)\n500 10\n=\n\u00d7\nG\nP\n4\n9 10\nm\n\u2212\n= \u00d7\n0.9 mm\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c2924413e6facc0f94df3e443b607249ece6cb2a512a8efe01b9085b0047203
+size 1242

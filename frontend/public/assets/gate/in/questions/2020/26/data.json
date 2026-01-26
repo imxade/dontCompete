@@ -1,11 +1,3 @@
-{
-  "id": "26",
-  "stream": "instrumentation-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(200) \nSol. \nGiven : \n \n600nm\n\uf06c\uf03d\n2\n1.5\nn\n \uf03d\n1\n1\nn\n \uf03d\n\nGATE 2020 \n [Forenoon Session]\nPAGE\nInstrumentation Engineering\n26\n\nSince, light is incident normally.\nFor destructive interference path difference must be either \n3\n,\n2\n2\n\uf06c\n\uf06c\n or odd multiple of \n' '\n\uf06c\n and we know\nthat, the distance travelled \nt\n\uf03d\n \n \nWhere \n' '\nt\n = Thickness of the slab\nt\n\uf06c\uf03d\n\uf05c\n For minimum thickness, \n2\nBut the slab has a refractive index.\n2\n2\nt\nn\n\uf06c\uf03d\n\uf05c\n600\n2 1.5\n\uf03d\n\uf0b4\nt\n\n\n600\n200nm\n3\n\uf03d\n\uf03d\nt\n200nm\nt\n \uf03d\n\nHence, correct answer is 200",
-  "question_text": "Question 26\nAs shown in the figure, a slab of finite thickness \nt\n with refractive index \n2\n1.5,\nn\n \uf03d\nhas air \n1\n(\n1)\nn\n \uf03d\n above\nand below it. Light of free space of wavelength 600 nm is incident normally from air as shown. For a \ndestructive interference to be observed at \nR\n, the minimum value of thickness of the slab \nt\n (in nm) is \n_______\nI\nR\n1\n1\nn\n \uf03d\n2\n1.5\nn\n \uf03d\nt\n1\n1\nn\n \uf03d",
-  "answer_text": "(200) \nSol. \nGiven : \n \n600nm\n\uf06c\uf03d\n2\n1.5\nn\n \uf03d\n1\n1\nn\n \uf03d\n\nGATE 2020 \n [Forenoon Session]\nPAGE\nInstrumentation Engineering\n26\n\nSince, light is incident normally.\nFor destructive interference path difference must be either \n3\n,\n2\n2\n\uf06c\n\uf06c\n or odd multiple of \n' '\n\uf06c\n and we know\nthat, the distance travelled \nt\n\uf03d\n \n \nWhere \n' '\nt\n = Thickness of the slab\nt\n\uf06c\uf03d\n\uf05c\n For minimum thickness, \n2\nBut the slab has a refractive index.\n2\n2\nt\nn\n\uf06c\uf03d\n\uf05c\n600\n2 1.5\n\uf03d\n\uf0b4\nt\n\n\n600\n200nm\n3\n\uf03d\n\uf03d\nt\n200nm\nt\n \uf03d\n\nHence, correct answer is 200",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45f946b09d1be788c3bac1ea1fcbbe7d2381fcc03effc4f2376fb1a2d91cdef7
+size 1983

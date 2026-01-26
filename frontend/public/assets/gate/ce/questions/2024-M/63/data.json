@@ -1,11 +1,3 @@
-{
-  "id": "63",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 63 \n[Transportation Engineering : Traffic Engineering] \n \nThe figure presents the trajectories of six vehicles within a time-space domain. The number in the \nparentheses represents unique identification of each vehicle.\n(Figure NOT to scale) \n \nThe mean speed (in km/hr) of the vehicles in the entire time-space domain is __________ (rounded off to \nnearest integer). \nAns. 52 to 58",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nMean speed \n100\n250\n400\n350 150\n10 15\n30\n25 15 10\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n15.71m/sec\n\uf03d\n\uf0b4\n\uf0b4\n\uf03d\n15.71 60 60\n1000\n56.556 km/ h\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:710f8e9d89d422d47571a259b96aac702c1be84d1688af993106eaedbaf4d7f3
+size 819

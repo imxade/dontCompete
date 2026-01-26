@@ -1,11 +1,3 @@
-{
-  "id": "12",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "40 to 40",
-  "question_text": "Question 12\nFormaldehyde is produced by the oxidation of methane in a reactor. The following two parallel reactions \noccur.\n4\n2\n2\nCH\nO\nHCHO\nH O\n+\n\u2192\n+\n4\n2\n2\n2\n2\n2\nCH\nO\nCO\nH O\n+\n\u2192\n+\nMethane and oxygen are fed to the reactor. The product gases leaving the reactor include methane \noxygen, formaldehyde, carbon dioxide and water vapor.\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n14\n\n1\n60 mol s\n\u2212\n of methane enters the reactor. The molar flow rate (in \n1\nmol s )\n\u2212\n of \n4\n2\n,\nCH\nO\n  and \n2\nCO\n  leaving\nthe reactor are 26, 2 and 4 respectively. The molar flow rate of oxygen entering the reactor is _______\n1\nmol s\n\u2212\n.",
-  "answer_text": "40 to 40",
-  "explanation_text": "Sol."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef8cf20fec0ca6ebdc90962ca593ee8f028aff63398cc324fe2a9a2eccd059a0
+size 920

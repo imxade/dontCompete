@@ -1,11 +1,3 @@
-{
-  "id": "54",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "318.59\nSurface 1",
-  "question_text": "Question 54\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n57\n\nConsider a solid slab (thermal conductivity, \n1\n1\n10 W m\nK\nk\n\uf02d\n\uf02d\n\uf03d\n\uf0d7\n\uf0d7\n) with thickness 0.2 m and of infinite \nextent in the other two directions as shown in the figure.\n \nSurface \n2\n, at 300 K, is exposed to a fluid flow at\na free stream temperature (\nT\n\uf0a5\n) of\n \n293 K, with a convective heat transfer coefficient (\nh\n) of\n2\n1\n100 W m\nK\n\uf02d\n\uf02d\n\uf0d7\n\uf0d7\n. Surface \n2 \nis opaque, diffuse and gray with an emissivity (\n \uf065\n) of 0.5 and exchanges heat \nby\n \nradiation with very large surroundings at 0 K. Radiative heat transfer inside the solid\n \nslab is neglected.\nThe Stefan-Boltzmann constant is \n8\n2\n4\n5.67 10  W m\nK\n\uf02d\n\uf02d\n\uf02d\n\uf0b4\n\uf0d7\n\uf0d7\n. The\n \ntemperature \n1\nT\n  of Surface \n1\n of the slab,\nunder steady-state conditions,\n \nis _________ K (round off to the nearest integer).\n0K\nsurr\nT\n\uf03d\n293K\nT\n\uf0a5\n\uf03d\n2\n100W/m -K\nh\n \uf03d\nFluid,\nSurface 2\n0.5\n\uf065\uf03d\n2\n300K\nT\n \uf03d\n0.2 m\n10W/mk\nk\n \uf03d\nTo infinity\nTo infinity\n1\nT",
-  "answer_text": "318.59\nSurface 1",
-  "explanation_text": "Sol. \nGiven:-\nThermal conductivity \n( )\n10 W/mk\nk\n \uf03d\nThickness \n( )\n0.2 m\nL\n \uf03d\nTemperature at surface (2) \n2\n(\n)\n300 k\nT\n\uf03d\n2\n( )\n100 W/m\nh\n \uf03d\nHeat transfer coefficient\nEmissivity of surface (2) \n( )\n0.5\n\uf065\uf03d\nSurrounding temperature \n(\n)\n293k\nT\n\uf0a5\n\uf03d\nTemperature of large surrounding \nlarge\n(\n)\n0k\nT\n\uf03d\n8\n2\n4\n( )\n5.67 10 w/m k\n\uf02d\n\uf073\uf03d\n\uf0b4\nStefan boltzman constant\n\nconvection\nconduction\nrudiation\nQ\nQ\nQ\n\uf03d\n\uf02b\n\uf0a5\n\uf02d\n\uf03d\n\uf02d\n\uf02b\uf065\uf073\n\uf02d\n2\n2\nlarge\n(\n)\n(\n)\n[\n]\nkA T\nT\nhA T\nT\nA T\nT\nL\n4\n4\n1\n2\n8\n4\n4\n1\n10 (\n300)\n100 (300\n293)\n0.5 5.67 10 [300\n0 ]\n0.2\nT\n\uf02d\n\uf0b4\n\uf02d\n\uf03d\n\uf0b4\n\uf02d\n\uf02b\n\uf0b4\n\uf0b4\n\uf02d\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n58\n\n1\n318.59 k\nt\n \uf03d\nHence, the correct answer is 318.59 k."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:10f1ff1b8a2caf3c85fbdab1c187245c06f96f7cdfe0181f470bfabe295727dc
+size 2361

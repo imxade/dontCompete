@@ -1,11 +1,3 @@
-{
-  "id": "46",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(C)",
-  "question_text": "Question 46\nA batch settling experiment is performed in a long column using a dilute dispersion containing equal \nnumber of particles of type A and type B in water (density \n3\n1000 kg m\n\u2212\n) at room temperature.\nType A are spherical particles of diameter \n30 m\n\u03bc\n and density \n3\n1100 kg m\n\u2212\n.\nType B are spherical particles of diameter \n10 m\n\u03bc\n and density \n3\n1900 kg m\n\u2212\n.\nAssuming that Stoke\u2019s law is valid throughout the duration of the experiment, the settled bed would\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n39\n\n(A) Consist of type B particles only.\n(B) Be completely segregated with type B particles on top of type A particles.\n(C) Consist of a homogeneous mixture of type A and type B particles.\n(D) Be completely segregated with type A particles on top of type B particles.",
-  "answer_text": "(C)",
-  "explanation_text": "Sol. \nBatch settling exp.\nWater \n3\n(\n)\n1000 kg/m\nf\nP\n=\nEqual No Type A and Type B particle\nStoke\u2019s law valid\nType A \n3\n1100 kg/m ,(\n)\n30 mm\nA\nP\nA\nd\n\u2212\u03c1 =\n=\nType B \n3\n1900 kg/m ,(\n)\n10 mm\nB\nP\nB\nd\n\u2212\u03c1 =\n=\nTerminal velocity\nType A \n3\n1900 kg/m ,(\n)\n10 mm\nB\nP\nB\nd\n\u2212\u03c1 =\n=\nTerminal velocity\n2\n (\n)\nP\np\nf\nt\nd\nP\nP\ng\nu\n\u2212\n=\n\u03bc\n\n18\n2\nd\nP\nP\ng\nu\nu\nd\nP\nP\ng\n2\n(\n) (\n)\n\u2212\n=\n\u2212\nP\nA\nA\nf\nA\n\n(\n) (\n)\nB\nP\nB\nB\nf\n2\n3\n1100 1000\n10\n1900 1000\nu\nP\nu\n\u2212\n\uf0e6\n\uf0f6\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\uf0e7\n\uf0f7\n\u2212\n\uf0e8\n\uf0f8\uf0e8\n\uf0f8\nA\n\nB\nu\n\uf0e6\n\uf0f6\n=\n\u00d7\n\uf0e7\n\uf0f7\n\u03bc\n\uf0e8\n\uf0f8\n2\n100\n(3)\n900\nA\nB\n1\n9\n9\n= \u00d7\nu\n=\n\u03bc\n1\nA\nB\nA\nB\nu\nu\n=\nOption (3) consist of a homogeneous mixture of type \n\u03b2\n  particles."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd1c435b08dd6d73a5d3f736b342b2f964be92110658fad8b9c58ad59b92b5d8
+size 1979

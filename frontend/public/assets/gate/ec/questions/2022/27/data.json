@@ -1,11 +1,3 @@
-{
-  "id": "27",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MSQ",
-  "key": "C, D",
-  "question_text": "Question 27 \n(MSQ)\n \n \n \nDigital Electronics\nSelect the Boolean function(s) equivalent to \nx\nyz\n\uf02b\n, where \n, ,\nx y\n  and \nz\n are Boolean variables, and \u2018\n\uf02b\n\u2019 \ndenotes logical OR operation.\n(A) \nx\nxz\nxy\n\uf02b\n\uf02b\n \n(B) \nx\nz\nxy\n\uf02b\uf02b\n(C) \n(\n)(\n)\nx\ny x\nz\n\uf02b\n\uf02b\n \n(D) \nx\nxy\nyz\n\uf02b\n\uf02b",
-  "answer_text": "C, D",
-  "explanation_text": "Sol.\n \nGiven : \n(\n)\nx\nyz\n\uf02b\n..\nMethod 1\n..\nChoosing from options :\nFrom option (A) : \n \n \n \n \nx\nxz\nxy\n\uf02b\n\uf02b\n(1\n)\nx\nz\ny\n\uf02b\uf02b\n \n \n \n( 1 Anything 1)\n\uf02b\n\uf03d\n\nSo, option (A) is incorrect.\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n33\n\nFrom option (B) :\n \n \n \n \n \nx\nz\nxy\n\uf02b\uf02b\n(1\n)\nx\ny\nz\n\uf02b\n\uf02b\n \n \n \n( 1 Anything\n1)\n\uf02b\n\uf03d\n\nx\nz\n\uf02b\nSo, option (B) is incorrect.\nFrom option (C) : \n \n \n \n \n(\n)(\n)\nx\ny x\nz\n\uf02b\n\uf02b\nx\nxz\nyx\nyz\n\uf02b\n\uf02b\n\uf02b\n(1\n)\nx\nz\ny\n\uf02b\uf02b\n  \n \n( 1 Anything\n1)\n\uf02b\n\uf03d\n\nx\nyz\n\uf02b\nSo, option (C) is correct.\nFrom option (D) : \n \n \n \n \nx\nxy\nyz\n\uf02b\n\uf02b\n(1\n)\nx\ny\nyz\n\uf02b\n\uf02b\nx\nyz\n\uf02b\n   \n \n \n( 1 Anything\n1)\n\uf02b\n\uf03d\n\nSo, option (D) is correct.\nHence, the correct options are (C) & (D).\n..\nMethod 2\n..\nGiven : \n(\n)\nx\nyz\n\uf02b\n  \n\u2026(i)\nFrom Boolean algebra, \n(\n)(\n)\n\uf02b\n\uf03d\n\uf02b\n\uf02b\nA BC\nA B A C\nSo, equation (i) can write as,\n(\n)(\n)\n\uf02b\n\uf03d\n\uf02b\n\uf02b\nx\nyz\nx\ny x\nz\nAgain from Boolean algebra, \n\uf02b\n\uf03d\n\uf02b\n\uf02b\nA BC\nA\nAB\nBC\nSo, equation (i) can write as, \n \n\uf02b\n\uf03d\uf02b\n\uf02b\nx\nyz\nx\nxy\nyz\nHence, the correct options are (C) & (D)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9507a6e1b79b6d4c5e85b3b470ad512d083250afcea225add4d175a17e40169
+size 1993

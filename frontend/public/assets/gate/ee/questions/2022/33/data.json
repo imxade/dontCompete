@@ -1,11 +1,3 @@
-{
-  "id": "33",
-  "stream": "electrical-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "0.4473 (Range : 0.43 to 0.47)",
-  "question_text": "Question 33 \n \n \nPower Electronics\nThe voltage at the input of an AC-DC rectifier is given by \n( )\n230 2 sin\nv t\nt\n\uf03d\n\uf077\n where \n2\n50 rad/sec.\n\uf077\uf03d\uf070\uf0b4\nThe input current drawn by the rectifier is given by\n( )\n10sin\n4 sin 3\n3 sin 5\n3\n6\n3\ni t\nt\nt\nt\n\uf070\n\uf070\n\uf070\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf077\uf02d\n\uf02b\n\uf077\uf02d\n\uf02b\n\uf077\uf02d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n.\nThe input power factor, (rounded off to two decimal places), is, ________ lag.",
-  "answer_text": "0.4473 (Range : 0.43 to 0.47)",
-  "explanation_text": "Sol.\n \nGiven :\n(i) \n( )\n230 2 sin(\n)\nV t\nt\n\uf03d\n\uf077\n(ii) \n( )\n10 sin\n4 sin 3\n3 sin 5\n3\n6\n3\ni t\nt\nt\nt\n\uf070\n\uf070\n\uf070\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf077\uf02d\n\uf02b\n\uf077\uf02d\n\uf02b\n\uf077\uf02d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n(iii)  \n50 Hz\nf\n \uf03d\n(iv) \n2\n50 rad/sec\n\uf077\uf03d\uf070\uf0b4\nInput power factor (IPF),\n10\n( ) |\nA\n2\nRMS\ni t\n\uf03d\n( )|\n230 V\nRMS\nV t\n\uf03d\n, \n1\n1\ncos\ncos 3\n2\n\uf070\n\uf03d\n\uf066\uf03d\n\uf03d\nFundamental displacement factor (FDF) \n1\nWhere, \n1\n\uf066\n is the angle between voltage and fundamental component of current.\n2\n2\n2\n10\n4\n3\n( )|\n7.905 A\n2\n2\n2\nRMS\ni t\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\nWe know, IPF \nDistortion factor Fundamental displacement factor\n\uf03d\n\uf0b4\nIPF \ng FDF\n\uf03d\uf0b4\nAlso, \n1\n( )|\n10/\n2\n0.8946\n( )|\n7.905\ni t\ng\ni t\n\uf03d\n\uf03d\n\uf03d\nRMS\nRMS\nTherefore, IPF \n0.8946 0.5\n0.4473\n\uf03d\n\uf0b4\n\uf03d\nHence, the correct answer is 0.4473.\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n30\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:32e4e369e6577fc66ca4fe629b69439b6f0ea1077b0baa3c5e61c35e071a7025
+size 2194

@@ -1,11 +1,3 @@
-{
-  "id": "3",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 3\nGiven a function \n2\n2\n2\n1 (\n)\n2\n \nx\ny\nz\n\uf06a\uf03d\n\uf02b\n\uf02b\n in three-dimensional Cartesian space, the value of the surface\nintegral\nS\n\uf0f2\uf0f2\n\u02c6\nn\ndS\n\uf0d7\uf0d1\uf06a\n,\n\nwhere \nS\n is the surface of a sphere of unit radius and \n\u02c6\nn\n is the outward unit normal vector on \nS\n, is\n(A) \n4\n\uf070\n  \n(B) \n3\n\uf070\n  \n(C) \n4 /3\n\uf070\n  \n(D) 0",
-  "answer_text": "(A)",
-  "explanation_text": "Sol. \nGiven :\n A function \n2\n2\n2\n1\n( , , )\n(\n)\n2\nx y z\nx\ny\nz\n\uf079\n\uf03d\n\uf02b\n\uf02b\n in three dimensional cartesian space.\nSurface integral,\nS\nI\nn\nds\n\uf03d\n\uf0d7\uf0d1\uf079\n\uf0f2\uf0f2\n\u02c6\n\nwhere, \nS\n is the surface of sphere of unit radius and \n\u02c6\nn\n  is the outward unit normal vector on \nS\n.\n\u02c6\n\u02c6\n\u02c6\nGrad\ni\nj\nk\nx\ny\nz\n\uf0e6\n\uf0f6\n\uf064\n\uf064\n\uf064\n\uf0d1\uf079\uf03d\n\uf079\uf03d\n\uf02b\n\uf02b\n\uf079\n\uf0e7\n\uf0f7\n\uf064\n\uf064\n\uf064\n\uf0e8\n\uf0f8\n\n2\n2\n2\n1\n\u02c6\n\u02c6\n\u02c6\n(\n)\n2\ni\nj\nk\nx\ny\nz\nx\ny\nz\n\uf0e6\n\uf0f6\n\uf064\n\uf064\n\uf064\n\uf0e9\n\uf0f9\n\uf0d1\uf079\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\uf0ea\n\uf0fa\n\uf064\n\uf064\n\uf064\n\uf0eb\n\uf0fb\n\uf0e8\n\uf0f8\n\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n10\n\n2\n2\n2\n2\n2\n2\n2\n2\n2\n1\n\u02c6\n\u02c6\n\u02c6\n(\n)\n(\n)\n(\n)\n2\n \ni\nx\ny\nz\nj\nx\ny\nz\nk\nx\ny\nz\nx\ny\nz\n\uf0e9\n\uf0f9\n\uf064\n\uf064\n\uf064\n\uf0d1\uf079\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0ea\n\uf0fa\n\uf064\n\uf064\n\uf064\n\uf0eb\n\uf0fb\n\n\u02c6\n\u02c6\n\u02c6\nxi\nyj\nzk\n\uf0d1\uf079\uf03d\n\uf02b\n\uf02b\nthen, surface integral \n\u02c6\n\u02c6\n\u02c6\n\u02c6 (\n)\nS\nI\nn\nxi\nyj\nzk ds\n\uf03d\n\uf0d7\n\uf02b\n\uf02b\n\uf0f2\uf0f2\n\nBy divergence theorem,\nS\nV\nAnds\nA dv\n\uf03d\n\uf0d1\uf0d7\n\uf0f2\uf0f2\n\uf0f2\uf0f2\uf0f2\n\u02c6\n(\n)\n\n\u02c6\n\u02c6\n\u02c6\n\u02c6\n\u02c6\n\u02c6\nDiv( )\n(\n)\nA\nA\ni\nj\nk\nxi\nyj\nzk\nx\ny\nz\n\uf0e6\n\uf0f6\n\uf064\n\uf064\n\uf064\n\uf0d1\uf0d7\n\uf03d\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf064\n\uf064\n\uf064\n\uf0e8\n\uf0f8\n\nDiv( )\n1 1 1\n3\nA\nA\n\uf0d1\uf0d7\n\uf03d\n\uf03d\uf02b\uf02b\uf03d\n\nV\nI\ndv\n\uf03d\n\uf0f2\uf0f2\uf0f2\n3\nV\nI\ndv\n\uf03d\n\uf0f2\uf0f2\uf0f2\n3\n3\nI\nV\n\uf03d\nVolume of sphere, \n3\n4\n3\nV\nr\n\uf03d\n\uf070\n (with \n1\nr\n \uf03d\n)\n3\n4\n3\n1\n3\nI\n \uf03d\uf0b4\n\uf070\uf0b4\n3\nI\n\uf0b4\n\uf03d\n\uf070\n3 4\n4\nI\n \uf03d\n\uf070\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55cd59f4e76ad3ad9f59856b818b4017367548a33100bbd884864f4246e124f4
+size 2779

@@ -1,11 +1,3 @@
-{
-  "id": "46",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(A, C, D) OR (A, C)",
-  "question_text": "Question 46 \n[Transportation Engineering : Highway Materials]\n \n \nIn the context of pavement material characterization, the CORRECT statement(s) is/are \n \n(A) The load penetration curve of CBR test may need origin correction due to the non-vertical\npenetrating plunger of the loading machine  \n \n(B) The toughness and hardness of road aggregates are determined by Los Angeles abrasion test and\naggregate impact test, respectively. \n \n(C) Grading of normal (unmodified) bitumen binders is done based on viscosity test results. \n \n \n(D) In compacted bituminous mix, Voids in the Mineral Aggregate (VMA) is equal to the sum of total\nvolume of air voids (\nv\nV\n ) and total volume of bitumen (\nb\nV\n )",
-  "answer_text": "(A, C, D) OR (A, C)",
-  "explanation_text": "Sol. \n\u2022 \nIn a bituminous mix\nVMA\n \uf03d\nVoids in mineral aggregate\nVMA\n%\n%\nb\nv\nV\nV\n\uf03d\n\uf02b\nwhere, \n%\nb\nV\n\uf03d\nPercentage volume of bitumen\n%\nv\nV\n\uf03d\nPercentage air voids\n\u2022\n \nToughness is determined by aggregate impact test and hardness is determined by loss  \n \n \n \nangeles abrasion test.\n\u2022 \nAn initial concavity in CBR curve indicate errors which may occur due to following reasons and also \nrequire correction.\n(a) Top layer of soil too soft\n(b) Top surface of soil specimen is not even\n(c) The penetration plunger of the loading machine is not vertical and the bottom of plunger is not\nhorizontal. \n \nHence, the correct options are (A, C, D) or (A, C).\n\n\nPAGE\n41\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86abae53a32ef162ab24803162d01fc72d0acb2b187a1e8684eff8cfa42b6c2e
+size 1683

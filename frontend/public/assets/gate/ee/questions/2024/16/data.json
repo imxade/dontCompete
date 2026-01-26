@@ -1,11 +1,3 @@
-{
-  "id": "16",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(A) \nSol. \nGiven :\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n2\n1\n10\nt\nx t\ne\nu t\nu t\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n2\n1\n10\nt\nx t\ne\nu t\nu t\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\n(\n1)\n(\n10)\nu t\nu t\n\uf02d\n\uf02d\n\uf02d\n1\n0\n1\n10\nt\n\n\uf05b\n\uf05d\n2\n(\n1)\n(\n10)\nt\ne\nu t\nu t\n\uf02d\n\uf02d\n\uf02d\nHigh Value\n7.39\nt\nThis is finite duration signal. \n \n\uf0de\nROC of transform of a bounded finite duration signal is entire s-plane.\n1\n10\nHence the correct option is (A).",
-  "question_text": "Question 16  \n[Signals & Systems : Laplace Transform]\nIf\n \n( )\nu t\n  is the unit step function, then the region of convergence (ROC) of the Laplace transform of the\nsignal.\n2\n( )\n[ (\n1)\n(\n10)]\nt\nx t\ne\nu t\nu t\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n is\n\n(A) \nRe( )\ns\n\uf02d\uf0a5\uf03c\n\uf03c\uf0a5\n \n(B) \nRe( )\n10\ns\n \uf0b3\n(C) \nRe( )\n1\ns\n \uf0a3\n \n(D) \n1\nRe( )\n10\ns\n\uf0a3\n\uf0a3",
-  "answer_text": "(A) \nSol. \nGiven :\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n2\n1\n10\nt\nx t\ne\nu t\nu t\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n2\n1\n10\nt\nx t\ne\nu t\nu t\n\uf03d\n\uf02d\n\uf02d\n\uf02d\n\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\n(\n1)\n(\n10)\nu t\nu t\n\uf02d\n\uf02d\n\uf02d\n1\n0\n1\n10\nt\n\n\uf05b\n\uf05d\n2\n(\n1)\n(\n10)\nt\ne\nu t\nu t\n\uf02d\n\uf02d\n\uf02d\nHigh Value\n7.39\nt\nThis is finite duration signal. \n \n\uf0de\nROC of transform of a bounded finite duration signal is entire s-plane.\n1\n10\nHence the correct option is (A).",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f51ee27df443d39bee86f7fae02e455e9f92554c5b96271d12cabb79f1d82db2
+size 1887

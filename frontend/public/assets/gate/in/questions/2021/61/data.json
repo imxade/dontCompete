@@ -1,11 +1,3 @@
-{
-  "id": "61",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "D",
-  "question_text": "Question 61 \n \n \n \n \n \n \nAptitude\nFour persons P, Q, R and S are to be seated in a row, facing same direction, but not necessary in the same \norder. P and R can not be seated adjacent to each other, S should be seated to the right of Q, then how \nmany distinct seating arrangement is possible? \n \n \n \n \n[1 Mark]\n(A) 4 \n(B) 2 \n(C)  8  \n(D)  6",
-  "answer_text": "D",
-  "explanation_text": "Sol. \nCondition 1 : \nP and R can not sit adjacent to each other.\nCondition 2 : \nS should be seated to the right of Q,\nAccording to this all possible cases will be\n1. \nQ  P  S  R\n2. \nQ  R  S  P\n3. \nP  Q  S  R\n4. \nR  Q  S  P\n5. \nP  Q  R  S\n6. \nR  Q  P  S\nHence, the correct option is (D)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:999f4395fe36d6d26d556a66bf8ca224b9ed33ba15e60a56b747be640b3249d6
+size 863

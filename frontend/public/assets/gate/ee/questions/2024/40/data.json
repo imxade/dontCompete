@@ -1,11 +1,3 @@
-{
-  "id": "40",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 40  \n[Electrical Machine : Synchronous Machine]\nA 3-phase, 11 kV, 10 MVA synchronous generator is connected to an inductive load of power factor\n\uf028\n\uf029\n3 / 2\n  via a lossless line with a per-phase inductive reactance of \n5\n\uf057\n.  The per-phase synchronous\nreactance of the generator is \n30\n\uf057\n with negligible armature resistance.  If the generator is producing the\nrated current at the rated voltage, then the power factor at the terminal of the generator is  \n \n(A) 0.63 lagging  \n(B)  0.87 lagging \n \n(C)  0.63 leading \n(D) 0.87 leading \n \nAns. \n(A) \nSol. \nGiven circuit is shown below :\nt\nV\n5\nj\n0\n3\n30\n2\npF\n \uf03d\n\uf03d\nlagging\n11\n\uf0d0\uf064\n30\nj\n3\n\n0\n3\n30 lagging\n2\npF\n \uf03d\n\uf03d\n\n2\n0\n2\n(\ncos30\n)\n( sin30\n)\nE\nV\nIR\nV\nIX\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n2\n2\n11\n3\n.\n524.86(5)\n2\n2\n3\nK\nV\nV\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\n\nPAGE\n42\n\n2\n2\n2\n11\n3\n.\n2624.319\n4\n2\n3\nK\nV\nV\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\n2\n2\n2\n2\n11\n3\n2624.319V\n2624.319\n4\n4\n3\nK\nV\nV\n\uf0e6\n\uf0f6\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n4618.105V\nt\nV\n \uf03d\n2\n2\n2\n(\n)\n2\ncos\nIZ\nE\nV\nEV\n\uf03d\n\uf02b\n\uf02d\n\uf064\n2\n2\n2\n11\n11\n(2624.319)\n(4618.105)\n2\n(4618.105)cos\n3\n3\nK\nK\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02d\n\uf064\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\n20.96\n\uf064\uf03d\n \n \n \ncos(20.96\n30)\n0.629lagging\npF\n \uf03d\n\uf02b\n\uf03d\nHence, the correct option is (A).",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:71e17ed1cd03df9d997706856b767815d6d0bc61455e11b696e283df4e50f566
+size 1974

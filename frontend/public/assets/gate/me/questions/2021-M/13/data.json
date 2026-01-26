@@ -1,11 +1,3 @@
-{
-  "id": "13",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "A",
-  "question_text": "Question 13 \n \nCustomers arrive at a shop according to the Poisson distribution with a mean of 10 customers/hour. \nThe manager notes that no customer arrives for the first 3 minutes after the shop opens. The probability \nthat a customer arrives within the next 3 minutes is\nIndustrial Engineering (Queuing Theory) \n \n(A) 0.86 \n \n(B) 0.61 \n(C) 0.50 \n(D) 0.39 \nAns. \nD",
-  "answer_text": "A",
-  "explanation_text": "Sol.\n \nGiven: \n10\n\u03bb =\n \ncustomer/hours, \nt\n = 3 minutes\n \n3\n60\n=\nhour\nn\n = 1 (for one customer to arrive) \n \nThe probability that a customer arrive within the next 3 minutes is,\n\u2212\u03bb\n \u03bb\n=\nn\nt\ne\nt\nP n t\nn\n(\n)\n(\n)\n,\n!\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n17\n\n1\n3\n10 60\n3\n10\n60\n1,3\n1!\n\u2212\n\u00d7\n\uf0e6\n\uf0f6\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n=\ne\nP\n(\n)\n(\n)\n1,3\n0.303\nP\n=\nSince, the nearest option is D. \n \nHence, the correct option is (D) \nQuestion 14\nAn infinitely long pin fin, attached to an isothermal hot surface, transfers heat at a steady rate of \n1\nQ\n\uf026\n to\nthe ambient air. If the thermal conductivity of the fin material is doubled, while keeping everything \nelse constant, the rate of steady-state heat transfer from the fin becomes \n2\nQ\n\uf026\n. The ratio \n2\n1\n/\nQ\nQ\n\uf026\n\uf026\n is\nHeat Transfer (Fins)\n(A) \n2\n  \n \n(B) \n1\n2\n \n(C) 2 \n(D) \n1\n2\nSol.\n \nHeat transfer with long fin is \n1\nQ\n  (conductivity = \nK\n)\n1\n0\n(\n)\nC\nQ\nhPKA\nT\nT\n\u221e\n=\n\u2212\nHeat transfer with long fin \n2\nQ\n  (conductivity = 2\nK\n)\n2\n0\n2\n(\n)\nC\nQ\nhP KA\nT\nT\n\u221e\n=\n\u2212\nhP KA\nT\nT\nQ\nQ\nhPKA\nT\nT\n2\n(\n)\n2\n(\n)\n\u2212\n=\n=\n\u2212\n0\n2\nC\n\u221e\n\n1\n0\nC\n\u221e\nHence, the correct option is (A). \nQuestion 15 \n \nTwo smooth identical spheres each of radius 125 mm and weight 100 N rest in a horizontal channel \nhaving vertical walls. The distance between vertical walls of the channel is 400 mm.\n400\n125\n+\n+\n125\nThe reaction at the point of contact between two spheres is _____ N (round off to one decimal place).\nAll dimensions are in mm\nEngineering Mechanics (Concurrent Force System) \nAns. \n125 \nSol.\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n18\n\nA\n125\n+\nP\nB\n250\nP\n+\n125\n150\n\u03b8\n250\nQ\nO\n\u03b8\nO\nQ\n\n150\n400\n150\ncos\n250\nOQ\nOP\n\u03b8 =\n=\n0\n53.13\n\u03b8 =\n \n \nFBD of body A,\nN\n53.13\n0\nN\n1\nN\n1\n100 N\n53.13\n0\nsin53.13\n100\nN\n=\n100 N\n100\n125 N\nsin53.13\nN\n =\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b3c533d3b6ccc8f5da2afc6082948c7be96e12c632cf09d3b93d13e04ae6cb3
+size 2716

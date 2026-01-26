@@ -1,11 +1,3 @@
-{
-  "id": "1",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 1\nThe velocity components in the \nx\n and \ny\n directions for an incompressible flow are given as \n( 5\n6 ) and \n(9\n6 ),\nu\nx\nv\ny\n\uf03d\uf02d\uf02b\n\uf03d\uf02d\n\uf02b\nrespectively. The equation of the streamline is\nx\ny\n\uf02d\uf02b\n\uf03d\n\uf02b\n constant \n \n \n(B) \n( 5\n6 )(9\n6 )\nx\ny\n\uf02d\uf02b\n\uf02b\n\uf03d\n constant\n(A) \n5\n6\n9\n6\nx\n\uf02b\n\uf03d\n\uf02d\uf02b\n constant \n \n \n(D) \n( 5\n6 )\n(9\n6 )\nx\ny\n\uf02d\uf02b\n\uf02d\n\uf02b\n\uf03d\n constant\n(C) \n9\n6\n5\n6\ny",
-  "answer_text": "(B)",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55374849010d47ace3f6951ceeec42fdf53ae721785c6a4d7640b8b3928388e4
+size 726

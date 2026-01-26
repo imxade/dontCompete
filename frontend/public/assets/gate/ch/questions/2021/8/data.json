@@ -1,11 +1,3 @@
-{
-  "id": "8",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 8\nMatch the common name of chemicals in Group-1 with their chemical formulae is Group-2.\nGroup-1 \nGroup-2\nP. \nGypsum  \nI. \n2\n4\n2\n(\n)\nCa H PO\nQ. \nDolomite  \nII. \n4\n2\n2\nCaSO\nH O\nR. \nTriple superphosphate  \nIII. \n3\n3\nCaCO MgCO\nThe correct combination is :\n(A) P-II, Q-III, R-I  \n(B) P-II, Q-I, R-III  \n(C) P-III, Q-II, R-I  \n(D) P-III, Q-I, R-II",
-  "answer_text": "(A)",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa4136d8f06be0b87c3ccbe6dd0b8d1602f62a40b291ca621af21dbbd5dfa8f2
+size 577

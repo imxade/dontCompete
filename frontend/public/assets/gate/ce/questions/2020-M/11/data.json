@@ -1,11 +1,3 @@
-{
-  "id": "11",
-  "stream": "civil-engineering",
-  "packet": "2020-M",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "5\n \n(A)",
-  "question_text": "Question 11\nIn an urban area, a median is provided to separate the opposing streams of traffic. As per IRC : 86-1983, \nthe desirable minimum width (in m, expressed as integer) of the median, is _______.",
-  "answer_text": "5\n \n(A)",
-  "explanation_text": "Sol.\n \nAs per IRC : 86-1983\nDesirable minimum width of median in urban roads = 5 m \nQuestion 12\nThe data for an agricultural field for a specific month are given below :\nPan Evaporation  \n100 mm\n=\nEffective Rainfall  \n20 mm\n=\n(after deducting losses due to runoff and deep percolation)\nCrop Coefficient  \n0.4\n=\nIrrigation Efficiency  \n0.5\n=\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n11\n\nThe amount of irrigation water (in mm) to be applied to the field in that month, is\n(A) 40 \n \n(B) 0 \n(C) 80 \n(D) 20\nSol.\n \nWater required by crop \n100 0.4 mm\n40 mm\n=\n\u00d7\n=\nEffective rainfall = 20 mm\nAdditional water required = 20 mm\nAmount of water required after accounting irrigation efficiency\n20\n40 mm\n0.5\n=\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5eb34780aa00fd2434e9460c49cc3ebcfa9e4d6585ea3e6a47d8c7c5bc3bc54b
+size 1177

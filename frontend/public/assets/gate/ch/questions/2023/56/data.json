@@ -1,11 +1,3 @@
-{
-  "id": "56",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "9.10 to 9.50 \nSol.\n'\n0.02\ns\nY\n \uf03d\n1 bar\n0\n25 C\n0\n50 C\n\n2450 kJ/kg\nw\n\uf06c\uf03d\n1.01 kJ/kgK\nB\nP\nC\n\uf03d\n4.18 kJ/kgK\nA\nP\nC\n\uf03d\n1\n2\nh\nh\n\uf03d\nY\nY\nT\nT\nC\n\uf02d\n\uf06c\n\uf02d\n\uf03d\n(\n)\ns\nw\nG\nas\ns\n1.01 0.02(4.18)\n1.0936 kJ/kgK\ns\nC\n \uf03d\n\uf02b\n\uf03d\nY\n\uf02d\n\uf02d\n\uf03d\n(0.02\n')(2450)\n(50\n25)\n1.0936\n25 1.0936\n0.02\n'\n2450\nY\n\uf0b4\n\uf03d\n\uf02d\n3\n'\n8.8491 10\nY\n\uf02d\n\uf03d\n\uf0b4\n3\n'\n10\nY\nH\n\uf02d\n\uf03d\n\uf0b4\n8.84\nH\n \uf03d",
-  "question_text": "Question 56\nPartially saturated air at 1 bar and \n0\n50 C\n is contacted with water in an adiabatic saturator. The air is cooled\nand humidified to saturation, and exits at \n0\n25 C\n  with an absolute humidity of 0.02 kg water per kg dry air.\nUse latent heat of vaporization of water as \n1\n2450 kJ.kg\n\uf02d\n and average specific heat capacity for dry air and\nwater, respectively as \n1\n1\n1.01 kJ.kg K\n\uf02d\n\uf02d\n and \n1\n1\n4.18 kJ.kg K .\n\uf02d\n\uf02d\n If the absolute humidity of air entering the\nadiabatic saturator is \n3\n10 kg\nH\n\uf02d\n\uf0b4\n water per kg dry air, the value of \n\ud835\udcd7\n is __________ (rounded off to two\ndecimal places). \n \n \n \n \n \n[Mass Transfer, 2 Marks]\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n40\n",
-  "answer_text": "9.10 to 9.50 \nSol.\n'\n0.02\ns\nY\n \uf03d\n1 bar\n0\n25 C\n0\n50 C\n\n2450 kJ/kg\nw\n\uf06c\uf03d\n1.01 kJ/kgK\nB\nP\nC\n\uf03d\n4.18 kJ/kgK\nA\nP\nC\n\uf03d\n1\n2\nh\nh\n\uf03d\nY\nY\nT\nT\nC\n\uf02d\n\uf06c\n\uf02d\n\uf03d\n(\n)\ns\nw\nG\nas\ns\n1.01 0.02(4.18)\n1.0936 kJ/kgK\ns\nC\n \uf03d\n\uf02b\n\uf03d\nY\n\uf02d\n\uf02d\n\uf03d\n(0.02\n')(2450)\n(50\n25)\n1.0936\n25 1.0936\n0.02\n'\n2450\nY\n\uf0b4\n\uf03d\n\uf02d\n3\n'\n8.8491 10\nY\n\uf02d\n\uf03d\n\uf0b4\n3\n'\n10\nY\nH\n\uf02d\n\uf03d\n\uf0b4\n8.84\nH\n \uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33ed5a53423153538d9332bdc7799a39a12269ca67459b18f614501d5b4c16b3
+size 2039

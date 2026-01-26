@@ -1,11 +1,3 @@
-{
-  "id": "56",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 56 \n \n  \n[Engineering Hydrology : Hydrograph]\n \n \nThe ordinates of a 1-hour unit hydrograph (UH) are given below.\nTime (hours) \n0 \n1 \n2 \n3 \n4 \n5\nOrdinates of \n1-hour \nUH \n\uf028\n\uf029\n3\nm /s\n0 \n13 \n50 \n80 \n95 \n85\n\nTime (hours) 6 \n7 \n8 \n9 \n10 \n11\nOrdinates of \n1-hour \nUH \n\uf028\n\uf029\n3\nm /s\n55 \n35 \n15 \n10 \n3 \n0\nThese ordinates are used to derive a 3-hour UH.  The peak discharge (in \n3\nm /s\n ) for the derived 3-hour UH \nis ___________ (rounded off to nearest integer). \nAns. 86 to 88",
-  "answer_text": "",
-  "explanation_text": "Sol.\n\nPAGE\n48\n\nI\nIII\n1h UH\nII\n1h UH\nII\n1h UH\nt\nI\n1h UH\n3h \nI\nII\nIII\nUH\n3\n\uf02b\n\uf02b\n\uf03d\nlagged\nby 2 hr\nlagged\nby 1 hr\nlagged\nby 1 hr\n0\n0\n0\n1\n13\n0\n13/3 = 4.33\n2\n50\n13\n63/3 = 21\n0\n13\n13\n47.6\n3\n80\n50\n4\n95\n80\n50\n75\n5\n85\n95\n80\n86.7\n6\n55\n85\n95\n7\n35\n55\n85\n8\n15\n9\n10\n10\n3\n11\n0"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7eb8a448f703be4ad43d491a8f63d37e7e6634df0abd700dc9df563087b148e
+size 1085

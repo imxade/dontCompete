@@ -1,11 +1,3 @@
-{
-  "id": "10",
-  "stream": "chemical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 10\nDuring a half-moon phase, the Earth-Moon-Sun form a right triangle. If the Moon-Earth-Sun angle at this \nhalf-moon phase is measured to be \n89.85\n0\n,\n the ratio of the Earth-Sun and Earth-Moon distances is closest \nto \n \n \n  \n \n \n[Numerical Ability, 3]\n(A) 328 \n(B) 382 \n \n(C) 238 \n(D) 283 \nAns. (B) \nSol.\n\nPAGE\n8\n\nS\nE\nS\n\uf02d\nS\nM\n\uf02d\nM\nE\n\uf071\nE\nM\n\uf02d\n\n\n\u2220\nMoon\n \u2212\nearth\n \u2212\nsun\n = 89.85\n0\n\ud835\udf03= 89.85\n0\nEarth -sun\nEarth -Moon \n= sec \ud835\udf03= sec (89 \u22c585\n\u2218\n)\n\n\ud835\udc38\u2212\ud835\udc46\n\n\ud835\udc38\u2212\ud835\udc40\n= 381.97 \u2243382\nHence, the correct option is (B).\n.\nTechnical Section\n.\nQ.11 to Q.35 Carry ONE Mark Each",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab18b8710c4dab18bc2c2f3e51b262f795923534709963a8cede33b4c3c47963
+size 941

@@ -1,11 +1,3 @@
-{
-  "id": "39",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 39 \n \nMatch the reactions in Group 1 with the catalyst in Group 2 listed in the table below.\nGroup 1 \nGroup 2 \nP)   \n6\n6\n2\nC H\nCl\nChlorobenzene\nHCl\n\uf02b\n\uf0be\uf0be\n\uf0ae\n\uf02b\n \nI)   Mixed oxide of Mo \nand Fe\nQ)  \n2\n2\n2\n1\nH C\nCH\nO\nEthylene oxide\n2\n\uf03d\n\uf02b\n\uf0be\uf0be\uf0ae\n \nII)  \n2\n5\nV O\nR)  \n3\n2\n2\n1\nCH OH+\nO\nFormaldehyde+H O\n2\n\uf0be\uf0be\uf0ae\n \nIII) \n3\nFeCl\nS)  \n2\n2\n2\n9\nNaphthalene+\nO\nphthalic Anhydride+2H O+2CO\n2\n\uf0be\uf0be\uf0ae\n \nIV) \n2\nAg O\n\n[Chemical Technology, 2 Marks]\n \n \n \n(A) P-III, Q-IV, R-II, S-I \n \n(B) \nP-III, Q-IV, R-I, S-II \n \n(C) \nP-IV, Q-II, R-I, S-III  \n \n(D) \nP-IV, Q-III, R-I, S-II \nAns. \n(B)",
-  "answer_text": "",
-  "explanation_text": "Sol. \n3\nFeCl\n6\n6\n2\nC H\nCl\n\uf02b\n\uf0be\uf0be\uf0be\uf0ae\n Chlorobenzene + HCl\n2\nAg O\n2\n2\n2\n1\nH C\nCH\nO\n2\n\uf03d\n\uf02b\n\uf0be\uf0be\uf0be\uf0ae\n Ethylene Oxide\nMixed Oxide of MO and Fe\n3\n2\n1\nCH OH\nO\n2\n\uf02b\n\uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\n\uf0ae\n Formaldehyde\n2\nH O\n\uf02b\nNaphthaline \n2\n5\nV O\n2\n9 O\n2\n\uf02b\n\uf0be\uf0be\uf0be\uf0ae\n Pthalic Anhydride \n2\n2\n2H O\n2CO\n\uf02b\n\uf02b"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cca4d6a1c94b942b2e051c7f55b4f82913baf7b3c50ab41353386e4b7ecf2a1
+size 1371

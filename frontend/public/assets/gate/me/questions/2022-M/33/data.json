@@ -1,11 +1,3 @@
-{
-  "id": "33",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(C)",
-  "question_text": "Question 33\nA solid spherical bead of lead (uniform density = 11000 kg/m\n3\n) of diameter\n \nd\n = 0.1 mm sinks with a\n3\n1\n1\n1.1 10  kg m\ns\n\uf02d\n\uf02d\n\uf02d\n\uf03d\n\uf0b4\n\uf0d7\n\uf0d7\n ). The\nconstant velocity \nV\n in a large stagnant pool of a liquid\n \n(dynamic viscosity\ncoefficient of drag is given by\n \n24\nRe\nD\nc\n \uf03d\n, where the Reynolds number (Re) is defined on the basis of the\nd\nD\nc\nV\n\uf0e6\n\uf0f6\n\uf070\n\uf03d\n\uf072\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n2\n(\n)(0.5\n)\n4\nD\ndiameter\n \nof the bead. The drag force acting on the bead is expressed as\n, where\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n33\n\n2\n10 m/s\ng\n \uf03d\n, \nthe velocity \nV\n is\n\uf072\n is the density of the liquid. Neglect the\n \nbuoyancy force. Using\n__________ m/s.\n(A) \n1\n24\n \n  \n(B) \n1\n6\n \n  \n(C) \n1\n18\n \n  \n(D) \n1\n12",
-  "answer_text": "(C)",
-  "explanation_text": "Sol. \nGiven :\n3\n(\n)\n11000 kg/m\nspherical bead\n\uf072\n\uf03d\nDensity of spherical bead,\nDiameter, \n( )\n0.1 mm\nd\n \uf03d\n3\n( )\n1.1 10  kg/m-sec\n\uf02d\n\uf06d\uf03d\n\uf0b4\nDynamic viscosity,\nCoefficient of drag, \n\uf028\n\uf029\n24\nRe\nD\nC\n\uf03d\nNeglect Buoyancy force \n(\n0)\nB\nF\n \uf03d\nd\nF\nC\nV\n \n\uf0e6\n\uf0f6\n\uf070\n\uf03d\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n2\n0.5 3\n4\nD\nD\n\n\nWeigth of spherical bead\nD\nB\nF\nF\n\uf02b\n\uf03d\n3\n2\n2\nspherica\nD\nwater\nl bead\nd\nd\nC\nV\ng\n\uf070\n\uf070\uf0e6\n\uf0f6\n\uf0b4\n\uf0b4\uf072\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\uf072\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n4\n0.5\n4\n3\n2\n\n\nd\nd\nV\ng\nVd\n\uf06d\n\uf070\n\uf0e6\n\uf0f6\n\uf0b4\n\uf0b4\uf072\n\uf0b4\n\uf0b4\n\uf03d\n\uf070\n\uf0b4\uf072\n\uf0b4\n\uf0e7\n\uf0f7\n\uf072\n\uf0e8\n\uf0f8\n2\n2\n24\n4\n0.5\n4\n3\n2\n\n\nspherical bea\nwater\nwa er\nd\nt\n3\n3\n3\n3 2\n3\n24 1.1 10\n4\n0.1 10\n0.5\n(0.1 10 )\n11000 10\n0.1 10\n4\n3\n2\nV\n\uf0e6\n\uf0f6\n\uf0b4\n\uf0b4\n\uf070\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0b4\n\uf0e8\n\uf0f8\n\uf02d\n\uf02d\n\uf02d\n\uf02d\n\n\n9\n8\n264 0.5\n7.85 10\n5.75 10\nV\n\uf02d\n\uf02d\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n1 m/sec\n0.055 m/sec\n18\nV\n \uf03d\n\uf03d\nHence, the correct option is (C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e238fab86457439badcb240de7c3328c869c88ea7ebd9fff3cc2fbb484a905f
+size 2486

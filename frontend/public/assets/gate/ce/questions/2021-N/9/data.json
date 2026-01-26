@@ -1,11 +1,3 @@
-{
-  "id": "9",
-  "stream": "civil-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "C",
-  "question_text": "Question 9\nIn the figure PQRS is a square. the shaded portion is formed by intersection of sectors of circle with \nradius equal to the side of square and center at S and Q.\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n36\n\nP\nQ\nr\nr\nR\nS\nr\nThe probability that any point picked randomly within square falls in shaded area is\n(A) \n1\n2 \n \n \n(B) 4\n2\n\u03c0\n\u2212\n \n(C) \n1\n2\n\u03c0 \u2212\n \n(D) 4\n\u03c0",
-  "answer_text": "C",
-  "explanation_text": "Sol.\nP\nQ\nr\nr\nR\nS\nr\n\nProbability \nfA\nTA\n=\n2\n2\n2\n4\n2\nr\nr\nfA\n\uf0e6\n\uf0f6\n\u03c0\n=\n\u2212\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\uf0e6\n\uf0f6\n\u03c0\n\u2212\n\u00d7\n\uf0e7\n\uf0f7\n\u03c0\n\uf0e6\n\uf0f6\n\uf0e8\n\uf0f8\n=\n=\n\u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n2\nr\nr\nfA\nTA\nr\n2\n4\n2\n1\n2\n\n2\nHence, the correct option is (C). \nQuestion 10\n \n \nThe author said, \u201cmusicians rehearse before their concerts. Actors rehearse there roles before the \nopening of new play. On the other hand, I find it strange that many public speakers thick they can just \nwalk on the stage and start speaking. In my opinion, it is no less important for public speakers to \nrehearse talks.\u201d \n \nBased on the above passage, which one the following is \nTRUE\n? \n \n(A) The author is of the opinion that rehearsing is more important only for musicians than public \nspeakers. \n \n(B) The author is of the opinion that rehearsing is less important for public speakers than for musicians \nand actors. \n \n(C) The author is of the opinion that rehearsing is important for musicians, actors and public speakers. \n \n(D) The author is of the opinion that rehearsing is more important for actors than musicians. \nAns. \nA \n \n\uf076\uf076\uf076\uf076\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:097d486411ca46248cc73f798af352e7273c01bc1d00fe781ca8a938ffb76fe9
+size 1924

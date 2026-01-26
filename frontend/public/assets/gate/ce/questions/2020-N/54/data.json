@@ -1,11 +1,3 @@
-{
-  "id": "54",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "221.52",
-  "question_text": "Question\n 54\nThe cross-section of the reinforced concrete beam having an effective depth of 500 mm is shown in the \nfigure (\nnot drawn to the scale\n). The grades of concrete and steel used are M35 and Fe550, respectively.\nThe area of tension reinforcement is \n2\n400mm\n . It is given that corresponding to 0.2% proof stress, the\nmaterial safety factor is 1.15 and the yield strain of Fe550 steel is 0.0044\n500 mm\n100 mm\n200 mm\n500 mm\nA\nst\n = 400 mm\n2\nAs per IS 456:2000, the depth (in mm\n, round off to the nearest integer\n) of the neutral axis measured from \nthe extreme compression fiber, is ______",
-  "answer_text": "221.52",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9795ac87bc01467fe2d335b293663e31f089226ad22300a6cceccad4a655a962
+size 822

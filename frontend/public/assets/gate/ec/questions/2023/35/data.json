@@ -1,11 +1,3 @@
-{
-  "id": "35",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "4 (04 to 04)",
-  "question_text": "Question 35  \n \n \n \n \n \nNetwork Theory : Transient Analysis\n \n \nIn the circuit shown below, switch \nS\n was closed for a long time. If switch is opened at \nt\n = 0, the maximum \nmagnitude of the voltage \nV\nR\n, in volts, is ______ (rounded off to the nearest integer).\n2 \n\uf057\nS\n1 \n\uf057\nR\nV\n+\n\u2013\n1 H\n+\u2013\n2V\ns\nV\n =\n\n\nGATE 2023 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n25\n",
-  "answer_text": "4 (04 to 04)",
-  "explanation_text": "Sol. \nGiven circuit is\n2 \n\uf057\nS\n1 \n\uf057\nR\nV\n+\n\u2013\n1 H\n+\u2013\n2V\ns\nV\n =\nAt \n\uf02d\n\uf03d\n0\nt\n, switch is closed circuit is in steady state and inductor acts as S.C.\n2\n \uf057\n1\n \uf057\n\uf02d\n2V\n(0 )\nL\ni\n(0 )\n2 A\nL\ni\n\uf02d\n\uf03d\nAt \n\uf02b\n\uf03d\n0\nt\n, switch is open and inductor acts as O.C.\n2\n \uf057\n1\n \uf057\nR\nV\n+\n\u2013\n2V\n2 A\nV\nV\nR\n4\n2\n2\n\uf02d\n\uf03d\n\uf02d\n\uf0b4\n\uf03d\nMagnitude of \n4\n\uf02d\n\uf03d\nR\nV\nV\nV\nR\n4\n\uf03d\nHence, the correct answer is 4.\n..\nQ.36 to Q.65 Carry Two Marks Each\n.."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c993a8ba5a77f1cf8dad3e313a3855f7fc50a3f36ce0b7c9e1cad6ab9d65e34
+size 1271

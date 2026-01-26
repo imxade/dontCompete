@@ -1,11 +1,3 @@
-{
-  "id": "1",
-  "stream": "instrumentation-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(D)\n \nQuestion 4\nIf the sum of the first 20 consecutive positive odd numbers is divided by \n2\n20\n , the result is  \n \n(A) 1 \n(B) 20\n(C) 2 \n(D) \n1\n2\n \n(A)\n\nPAGE\n2",
-  "question_text": "Question 1\nIf \n'\n'\n\uf0ae\n denotes increasing order of intensity, then the meaning of the words \n\uf05b\n\uf05d\ndrizzle\nrain\ndownpour\n\uf0ae\n\uf0ae\nis analogous to \n\uf05b\n\uf05d\n_______\nquarrel\nfeud\n\uf0ae\n\uf0ae\n. Which one of the given options is appropriate to fill the\nblank ? \n \n(A) bicker \n(B) bog \n \n(C) dither \n(D) dodge \nAns. \n(A) \nQuestion 2  \n \nStatements : \n \n1. \nAll heroes are winners. \n \n2. \nAll winners are lucky people. \n \nInferences : \n \nI. \nAll lucky people are heroes. \n \nII. \nSome lucky people are heroes. \n \nIII. Some winners are heroes. \n \nWhich of the above inferences can be logically deduced from statements 1 and 2 ? \n \n(A) Only I and II \n(B) Only II and III \n \n(C) Only I and III \n(D) Only III \nAns. \n(B)\n \nQuestion 3  \n \nA student was supposed to \nmultiply\n a positive real number \np\n  with another positive real number\n q\n .\nInstead, the student \ndivided\n \np\n  by \nq\n .  If the percentage error in the student\u2019s answer is 80%, the value of\nq\n is\n(A) 5 \n(B) \n2\n(C) 2 \n(D) \n5",
-  "answer_text": "(D)\n \nQuestion 4\nIf the sum of the first 20 consecutive positive odd numbers is divided by \n2\n20\n , the result is  \n \n(A) 1 \n(B) 20\n(C) 2 \n(D) \n1\n2\n \n(A)\n\nPAGE\n2",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:54eb33645704e704053b463ddff62de30c4625494b03d3ee8b1cd760066703f4
+size 1646

@@ -1,11 +1,3 @@
-{
-  "id": "60",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 60 \n[Environmental Engineering : Treatment of Sewage] \n \nActivated carbon is used to remove a pollutant from wastewater in a mixed batch reactor, which follows \nfirst-order reaction kinetics. \n \n \nAt a reaction rate of \n0.38/ day\n, the time (in days) required to remove the pollutant by 95% is _______\n(rounded off to 1 decimal places). \nAns. 7.8 to 8.0",
-  "answer_text": "",
-  "explanation_text": "Sol. \nWe know that, first order kinetics\nkt\nt\n0\nN\nN\n e\n\uf02d\n\uf03d\n\nWhere,\nt\nN\n \uf03d\nNumber of pollutant present in waste water at time (t)\n0\nN\n \uf03d\n Number of pollutant present in waste water initially\nFor efficiency of 95%\n\nPAGE\n52\n\n\uf02d\n\uf0b4\n\uf03d\nN\nN\n100\n95\nN\n0\nt\n0\nN\n0.05\nN\n \n\uf03d\nt\n0\nNow,\nkt\nt\n0\nN\nN e\n\uf02d\n\uf03d\n\nN\ne\nN\n\uf02d\n\uf03d\nkt\nt\n0\n0.38t\n0.05\ne\n\uf02d\n\uf03d\ne\n7.89\n\uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0adf2fd46ef0e73c99af62af55cba3d8a2e0c22419d9724b4af420644405bcec
+size 1033

@@ -1,11 +1,3 @@
-{
-  "id": "34",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 34 \n \nA solid sphere of radius 10 mm is placed at the centroid of a hollow cubical enclosure of side length \n30 mm. The outer surface of the sphere is denoted by 1 and the inner surface of the cube is denoted by \n2. The  view factor \n22\nF\n  for radiation heat transfer is _______ (round off to two decimal places).\nHeat Transfer (Shape Factor) \nAns. \n0.7641",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven : \n10 mm\nR\n =\n30 mm\nL\n =\nSphere\n1 \n2\nSurface 1 is a convex surface (sphere)\nCube\nSo,  \n11\n0\nF\n=\n11\n12\n1\nF\nF\n+\n=\n12\n1\nF\n =\nApply reciprocal theorem,\n1\n12\n2\n21\nA F\nA\nF\n=\n\u00d7\n2\n2\n21\n4\n1\n6\nR\nL\nF\n\u03c0\n\u00d7 =\n\u00d7\n3 2\n3 2\n21\n4 (10 10 )\n6(30 10 )\nF\n\u2212\n\u2212\n\u03c0\n\u00d7\n=\n\u00d7\n\u00d7\n21\n0.001256\n0.0054\nF\n =\n= 0.23259\n21\n22\n1\nF\nF\n+\n=\n22\n1 0.23259\nF\n= \u2212\n22\n0.7641\nF\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8be17efdf35d8ba9a05ce1a47c168d1db40ae5eeb535c785ef0a1fddcd6fe02f
+size 1050

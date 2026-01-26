@@ -1,11 +1,3 @@
-{
-  "id": "3",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "C\n \n1",
-  "question_text": "Question 3  \n \n \n \n \nDigital Electronics (MCQ)\nA\n \n4 1\n\u00d7\n  multiplexer with two selection line is used to realize Boolean function \nF\n  having four Boolean \nvariable \n,\n,\nx y z\n  and \nw\n  as shown in below, \n0\nS\n  and \n1\nS\n  denote the least significant bit (LSB) and most\nsignificant bit (MSB) of the selector lines of multiplexer respectively. \n0\n1\n2\n3\n,\n,\n,\nI\nI\nI\nI\n  are input lines of the\nmultiplexer.\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n3\n\nzw\n3\nI\nzw\n2\nI\n4 1\n\u00d7\nF\nMUX\n1\nI\n0\nz\nw\n+\n0\nI\n1\nS\n0\nS\nx\ny\nThe canonical sum of product representation of \nF\n  is \n \n \n \n[2 Marks]\n(A) \n( ,\n,\n,\n)\n(2, 5, 9, 11, 14)\nF x y z w\nm\n= \u03a3\n \n(B) \n( ,\n,\n,\n)\n(0, 1, 3, 14, 15)\nF x y z w\nm\n= \u03a3\n(C) \n( ,\n,\n,\n)\n(0, 1, 3, 11, 14)\nF x y z w\nm\n= \u03a3\n \n(D) \n( ,\n,\n,\n)\n(1, 3, 7, 9, 15)\nF x y z w\nm\n= \u03a3",
-  "answer_text": "C\n \n1",
-  "explanation_text": "Sol.\n \nGiven \n4 1\n\u00d7\n  MUX have,\nInput lines : \n0\n1\n,\n0\nI\nz\nw I\n=\n+\n=\n2\n3\n,\nI\nzw I\nzw\n=\n=\nSelection lines : \n1\n0\n,\nS\nx S\ny\n=\n=\nOutput equation of \n4 1\n\u00d7\n  MUX\n1\n0\n0\n1\n0\n1\n1\n0\n2\n1\n0\n3\nF\nS S I\nS S I\nS S I\nS S I\n=\n+\n+\n+\n(\n)\n0\nF\nx y z\nw\nx y\nx y z w\nx y z w\n=\n+\n+\n\u22c5+\n+\n0\nF\nx y z\nx y w\nx y z w\nx y z w\n=\n+\n+ +\n+\n(000X, 00X1, 1011, 1110)\nF\nm\n= \u03a3\n(0, 1, 1, 3, 11, 14)\nF\nm\n= \u03a3\n(0, 1, 3, 11, 14)\nF\nm\n= \u03a3\n \nQuestion 4 \n \n \n \n \nAnalog Electronics (NAT)\nThe diode used in the circuit has a fixed voltage drop of 0.6 V when forward biased. A signal \ns\nV\n  is given\nto the ideal OpAmp as shown. When \ns\nV\n  is at its positive peak, the output (\nOA\nV\n) of the Op-Amp in volts is\n_______. \n \n \n \n \n \n \n[1 Mark]\n\u2212\nV\nOA\n+\n10 k\n\u03a9\nV\nt  \ns\n = 0.4 sin(100\n) V\n \n\u03c0\nSol.\n \nAssuming diode to be open circuited, the given circuit becomes as,\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n4\n\n+\n\u2212\nV\nI\n\u2212\nV\nOC\nV\nNI\n+\nV\nOA\n10 k\n\u03a9\nV\nt \ns\n = 0.4 sin\nV\n \u03c9\nNow Op-Amp work as a comparator circuit, \n \nIf,  \n0\ns\nV\n >\nNI\nI\nV\nV\n>\nOA\nsat\nV\nV\n= +\nSo,  \n0\nOC\nV\n>\nIt means, diode is ON and virtual ground concept is valid. \n \nNow, equivalent circuit, and replace diode by 0.6 V battery as,\n0.6 V\n\u2212\nV\ns\n+\nV\nOA\n10 k\n\u03a9\nV\nt \ns\n = 0.4 sin\nV\n \u03c9\nThus,  \n0.6\nOA\ns\nV\nV\n=\n+\n(max)\nmax\n0.6\n(\n)\nOA\nS\nV\nV\n=\n+\n(max)\n0.6\n0.4\n1V\nOA\nV\n=\n+\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7101dda613d796756264016ce55b8fad71f340566ed1303e552f0ced0162f110
+size 2762

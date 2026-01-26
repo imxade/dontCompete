@@ -1,11 +1,3 @@
-{
-  "id": "54",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "1.57 (1.56 to 1.58)",
-  "question_text": "Question 54 \nNetwork theory ( transient Analysis)\nThe circuit shown in the figure is initially in the steady state with the switch \nK\n in open condition and \nK\n in \nclosed condition. The switch \nK\n is closed and \nK\n  is opened simultaneously at the instant \nt \n= \nt\n1\n, where \nt\n1\n > \n0. The minimum value of \nt\n1\n in milliseconds, such that there is no transient in the voltage across the 100 \n\uf06d\nF capacitor, is ____________ (Round off to 2 decimal places).\ni t\n( ) =\nK\n100 F\n\uf06d\n10 \n\uf057\nsin1000\nt\nK\n10 \n\uf057\n5V",
-  "answer_text": "1.57 (1.56 to 1.58)",
-  "explanation_text": "Sol. \nGiven circuit is as shown below,\ni t\n( ) =\nK\n100 F\n\uf06d\n10 \n\uf057\nsin1000\nt\nK\n+\n\u2013\n10 \n\uf057\n\n5V\nGiven that \nK\n is opened and \nK\n  is closed initially. So given circuit becomes,\n100 F\n\uf06d\n10 \n\uf057\nsin1000\nt\n+\n\u2013\n10 \n\uf057\nFigure (A) can be drawn in phase form as shown below,\n5V\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n47\n\nI\nC\nV\nC\n\u2013 10 \nj\n\uf057\n+\n10 \n\uf057\n\u2013\n\n0\n1 0\n10\n1\n45\n10\n10\n2\nC\nI\nj\n\uf0d0\n\uf0b4\n\uf03d\n\uf03d\n\uf0d0\n\uf02d\n0\n\uf05c\n\n0\n1\n10\n10\n45\n2\nC\nC\nV\nj\nI\nj\n\uf03d\uf02d\n\uf0b4\n\uf03d\uf02d\n\uf0b4\n\uf0d0\n0\n10\n45\n2\n\uf03d\n\uf0d0\uf02d\n\uf05c\n \n0\n10\n( )\nsin(1000\n45 ) V\n2\nC\nV t\nt\n\uf03d\n\uf02d\nNow, at \n1\nt\nt\n\uf03d\n, \nK\n is closed and \nK\n  is opened. So, the circuit becomes,\n+\n100 F\n\uf06d\n10 \n\uf057\nsin1000\nt\nV\nC\n\u2013\n+\n\u2013\n10 \n\uf057\n\uf05c\n Steady state voltage across capacitor will be, \n( )\n5\nC\nV\n \uf0a5\uf03d\n.\n5V\nNow, for transient free condition at \n1\nt\nt\n\uf03d\n.\n1\n( )\n( )\nC\nC\nV t\nV\n\uf03d\n\uf0a5\n0\n1\n10 sin(1000\n45 )\n5\n2\nt\n \uf02d\n\uf03d\n\n5 2\n1\nsin 1000\n45\n10\n2\nt\n \uf02d\n\uf03d\n\uf03d\n\uf028\n\uf029\n0\n1\n2\nt\n\uf02d\n\uf0e6\n\uf0f6\n\uf02d\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1\n1000\n45\nsin\n0\n1\n1\n\n0\n0\n1\n1000\n45\n45\nt\n \uf02d\n\uf03d\n0\n1\n1000\n90\n2\nt\n\uf070\n\uf03d\n\uf03d\n1\n ms\n2\nt\n\uf070\n\uf03d\n1.57 ms\n\uf03d\nHence, the correct answer is 1.57 ms.\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n48\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18605a76c53b9e2cf79ac9fd6222275db9b13783ae7082143aea6e0ea0f759d5
+size 2414

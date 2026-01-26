@@ -1,11 +1,3 @@
-{
-  "id": "21",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(A)  \nSol. \nThermal conductivity \n\uf0ae\n \n1\n1\nWm K\n\uf02d\n\uf02d\nConvective heat transfer coefficient \n\uf0ae\n \n2\n1\nWm K\n\uf02d\n\uf02d\nStefan - Boltzmann constant \n\uf0ae\n \n2\n4\nWm K\n\uf02d\n\uf02d\nHeat capacity rate \n\uf0ae\n \n1\nWK\n \n\uf02d\n2\nQ\nW\nK\nK\nT\nM K\nA\nX\n\uf03d\n\uf0de\n\uf03d\n\uf044\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf044\n\uf0e8\n\uf0f8\n\n2\nQ\nW\nH\nh\nA\nT\nM K\n\uf03d\n\uf0de\n\uf03d\n\uf044\n\uf028\n\uf029\n4\n2\n4\nQ\nW\nM K\nA\nT\n\uf073\uf03d\n\uf0de\uf073\uf03d\n\uf044\n\n\n\uf028\n\uf029\nHeat capacity rate \nW\nK\n\uf03d\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n14",
-  "question_text": "Question 21 \n \nMatch the quantities in Group 1 with their units in Group 2 listed in the table below.\nGroup 1 \nGroup 2 \nP)   Thermal conductivity \nI)   \n2\n1\nW.m\nK\n\uf02d\n\uf02d\n \nQ)  Convective heat transfer coefficient \nII)  \n1\n1\nW.m K\n\uf02d\n\uf02d\n \nR)  Stefan-Boltzmann constant \nIII) \n1\nW.K\n\uf02d\n \nS)  Heat capacity rate \nIV) \n2\n4\nW.m\nK\n\uf02d\n\uf02d\n[Heat Transfer, 1 Mark]\n \n \n(A) P-II, Q-I, R-IV, S-III \n \n(B) \nP-I, Q-II, R-III, S-IV  \n \n(C) \nP-III, Q-IV, R-II, S-I  \n \n(D) \nP-IV, Q-I, R-III, S-II",
-  "answer_text": "(A)  \nSol. \nThermal conductivity \n\uf0ae\n \n1\n1\nWm K\n\uf02d\n\uf02d\nConvective heat transfer coefficient \n\uf0ae\n \n2\n1\nWm K\n\uf02d\n\uf02d\nStefan - Boltzmann constant \n\uf0ae\n \n2\n4\nWm K\n\uf02d\n\uf02d\nHeat capacity rate \n\uf0ae\n \n1\nWK\n \n\uf02d\n2\nQ\nW\nK\nK\nT\nM K\nA\nX\n\uf03d\n\uf0de\n\uf03d\n\uf044\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf044\n\uf0e8\n\uf0f8\n\n2\nQ\nW\nH\nh\nA\nT\nM K\n\uf03d\n\uf0de\n\uf03d\n\uf044\n\uf028\n\uf029\n4\n2\n4\nQ\nW\nM K\nA\nT\n\uf073\uf03d\n\uf0de\uf073\uf03d\n\uf044\n\n\n\uf028\n\uf029\nHeat capacity rate \nW\nK\n\uf03d\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n14",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f231a66a3f368cfc96eaa6b1ffa74b428dc60ef65856b24e5abe65f27b743f3
+size 2055

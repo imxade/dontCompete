@@ -1,11 +1,3 @@
-{
-  "id": "52",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 52 \n[RCC Structures : Design & Analysis of Beam and Slab]\n \n \nA slab panel with an effective depth of 250 mm is reinforced with 0.2% main reinforcement using 8 mm \ndiameter steel bars.  The uniform center-to-center spacing (in mm) at which the 8 mm diameter bars are \nplaced in the slab panel is _________ (rounded off to nearest integer). \nAns. 99 to 102 \nSol. \nd\n250mm\n\uf03d\nst\nA\n0.2%\n\uf03d\n8mm\n\uf066\uf03d\nS\n?\n\uf03d\nA\nA (%)\n100\nB.d\n\uf03d\n\uf0b4\nst\nst\n\uf070\n\uf0e6\n\uf0f6\n\uf0b4\n\uf066\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf03d\n2\nn\n100\n4\n0.2\nB.d\n\n\uf070\n\uf0e6\n\uf0f6\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf03d\n\uf0b4\n2\nB\n8\n0.2\nS\n4\n100\nB 250\n\n\nPAGE\n44\n\nB\n50.265\nS\n0.002\nB 250\n\uf0b4\n\uf03d\n\uf0b4\n\n50.265\nS\n250 0.002\n\uf03d\n\uf0b4\nS\n100.53mm\n100\n\uf03d\n\uf0bb",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:93a54acd2a6aa623f045ff012a50a584a461257991f4d6142e725aa85d68c260
+size 1058

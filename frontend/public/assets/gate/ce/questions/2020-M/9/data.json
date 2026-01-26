@@ -1,11 +1,3 @@
-{
-  "id": "9",
-  "stream": "civil-engineering",
-  "packet": "2020-M",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 9\nIn a two-dimensional stress analysis, the state of stress at a point \nP\n is\n\u03c3\n\u03c4\n\uf0e9\n\uf0f9\n\u03c3 =\n \uf0ea\n\uf0fa\n\u03c4\n\u03c3\n\uf0eb\n\uf0fb\nxx\nxy\n[ ]\nxy\nyy\nThe necessary and sufficient condition for existence of the state of pure shear at the point \nP\n, is\n(A) \n0\nxx\nyy\n\u03c3\n+ \u03c3\n=\n \n \n \n(B) \n0\nxy\n\u03c4\n=\n(C) \n2\n0\nxx\nyy\nxy\n\u03c3 \u03c3\n\u2212\u03c4\n=\n \n \n \n(D) \n2\n2\n(\n)\n4\n0\nxx\nyy\nxy\n\u03c3\n\u2212\u03c3\n+ \u03c4\n=\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n10\n",
-  "answer_text": "(A)",
-  "explanation_text": "Sol. \nGiven,\n\u03c3\n\u03c4\n\uf0e9\n\uf0f9\n\u03c3 =\n \uf0ea\n\uf0fa\n\u03c4\n\u03c3\n\uf0eb\n\uf0fb\nxx\nxy\n\nxy\nyy\nFor the state of pure shear, the centre of Mohr\u2019s circle coincides with origin. Also the principal stresses \nare equal to shear stress\nHence,\n2\n2\nxx\nyy\nxx\nyy\nxx\nyy\nxy\nxy\n\u03c3\n+ \u03c3\n\u03c3\n\u2212\u03c3\n\u03c3\n\u2212\u03c3\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\u00b1\n+ \u03c4\n=\n+ \u03c4\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n2\n2\n2\n2\n2\n\nLet us take positive sign into consideration,\nxx\nyy\n\u03c3\n+ \u03c3\n=\n0\n2\n0\nxx\nyy\n\u03c3\n+ \u03c3\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:47d5b016f9c42ea892d5611f75afd877f4dda4136a3b12a886f9251880ab2424
+size 1405

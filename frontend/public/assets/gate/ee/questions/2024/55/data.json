@@ -1,11 +1,3 @@
-{
-  "id": "55",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 55  \n \n \n[Electrical Machine : DC Machine]\nA 5 kW, 220 V DC shunt motor has\n \n0.5\n\uf057\n \narmature resistance including brushes.  The motor\n \ndraws a no-\nload current of 3 A.  The field current is constant at 1 A.  assuming that the core and rotational losses are \nconstant and independent of the load, the current (in amperes) drawn by the motor while delivering the \nrated load, for the best possible efficiency, is _______ (rounded off to 2 decimal places). \nAns. \n27.19 to 27.39 \nSol. \nGiven : \n \n(i)  \n220V\nt\nV\n \uf03d\n(ii)  \n0.5\na\nR\n \uf03d\n\uf057\n(iii)  \nField current \n\uf028\n\uf029\n1A\nsn\nI\n\uf03d\n(iv) \nOutput power \n5kW\n\uf03d\n(v)  \nAssuming that the core and rotational losses are constant and independent of the load.\n(vi) \n\uf028\n\uf029\nNo\nLoad\n3A\nL\nI\n\uf02d\n\uf03d\n+\n1A\nL\nI\n0.5\na\nR\n \uf03d\n\uf057\nsh\nR\na\nI\n220V\nt\nV\n \uf03d\nb\nE\n\uf02d\nCase 1 : \n At no load :\n1\nb\nt\na\na\nE\nV\nI R\n\uf03d\n\uf02d\n\n\uf028\n\uf029\n1\n220\n3 1 0.5\nb\nE\n \uf03d\n\uf02d\n\uf02d\n1\n219Volt\nb\nE\n \uf03d\n\nNo load power developed = Mechanical loss\n1\nb\na\nE I\n\uf03d\n\n219 2\n438W\n\uf03d\n\uf0b4\n\uf03d\nCase 2 : \nAt rated load : \n \nGiven : \n \n \n \n \n \n5kW\nout\nP\n\uf03d\nMechanical power developed = Net mechanical power output + Mechanical losses\n\nPAGE\n61\n\nin armature  \n\uf028\n\uf029\nb\na\nE I\n\uf03d\n2\n2\n5000\n438\n5438W\nb\na\nE I\n\uf03d\n\uf02b\n\uf03d\n\n\uf028\n\uf029\n2\n2\n5438\na\na\na\nV\nI R\nI\n\uf02d\n\uf03d\n2\n5438\na\na\na\nVI\nI R\n\uf02d\n\uf03d\n\n2\n2\n\uf028\n\uf029\n\uf028\n\uf029\n2\n2\n2\n0.5\n220\n5438\n0\na\na\nI\nI\n\uf02d\n\uf02b\n\uf03d\n2\n26.28 Amp\na\nI\n\uf03d\n\nCurrent drawn by motor\n2\nL\na\nsh\nI\nI\nI\n\uf03d\n\uf02b\n\n26.28 1\nL\nI\n \uf03d\n\uf02b\n27.28Amp\nL\nI\n \uf03d\nHence the correct Answer is (27.28)",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b975191d25e29fd1e7ddce2bfe8f4c7b86605621c4fb6b8cc8ee7e32b12ea69e
+size 2070

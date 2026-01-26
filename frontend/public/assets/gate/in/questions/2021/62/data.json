@@ -1,11 +1,3 @@
-{
-  "id": "62",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "C",
-  "question_text": "Question 62 \n \n \n \n \n \n \nAptitude\nConsider two rectangular sheets, M and N of identical dimensions of \n6\n4 cm\n\u00d7\n each\nFolding operation (i) : The sheet is folded into half by joining the short edges of the current shape.\nFolding operation (ii) : The sheet is folded into half by joining the long edges of the current shape.\nFolding operation (i) is carried out on sheet M 3 times.\nFolding operation (ii) is carried out on sheet N 3 times.\nThe ratio of perimeters of the final folded shape of sheet N to the final folded shape of sheet M is.\n[2 Marks]\n(A) 3 : 2 \n(B) 7 : 5 \n(C) 13 : 7 \n(D) 5 : 13",
-  "answer_text": "C",
-  "explanation_text": "Sol.\n \nAccording to given data, we can proceed step by step as given below,\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n54\n\nM\nN\n6\n6\n4\n4\n4\n4\n1\nst\n folding: (Respective of short edges) \n1\nst\n folding: (Respective of long edges)\n6\n6\n3\n6\n4\n4\n2\n2\n3\n6\n2\nnd\n folding: (Respective of short side) \n2\nnd\n folding: (Respective of long side)\n3\n6\n2\n2\n1\n1\n6\n3\nrd\n folding: (Respective of short side) \n3\nrd\n folding: (Respective of long side)\n3\n1.5\n2\n2\n6\n0.5\n0.5\n1.5\n6\nPerimeter of folded shape M =7  \nPerimeter of folded shape N = 13\n\u2e2b \nRatio of perimeters of the final folded shape N to the final folded shape of sheet M is \n13:7."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87fb864eb6b795db9425b632e9e18f13b0b84cf71bdb51581cc3eb3605e9a9ee
+size 1530

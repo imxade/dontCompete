@@ -1,11 +1,3 @@
-{
-  "id": "32",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 32 \n \nVehicular arrival at an isolated intersection follows the Poisson distribution. The mean vehicular arrival \nrate is 2 vehicle per minute. The probability (round off to two decimal places) that at least 2 vehicle will \narrive in any given 1- minute interval is ______. \nAns. \n0.27 \nSol. \nGiven :\n1\n2 Vehicle/min\n2 Vehical/60 sec\nVeh/sec\n30\n\u03bb =\n=\n=\n2\nn\n =\n and \n1 min\nt\n =\nn\nt\ne\nP n t\nn\n\u2212\u03bb\n\u03bb\n=\n( t)\n( , )\n!\n2\n(2 1)\n(2 1)\n( , )\n0.2706\n2!\ne\nP n t\n\u2212\n\u00d7\n\u00d7\n=\n=\n\nHence, the probability that atleast 2 vehicles will arrive in any given 1 min interval is 0.2706.\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n22\n",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e98cf47851584f139f868ca037898070dcbe074fd213a28790b54430dfc99d0c
+size 905

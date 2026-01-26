@@ -1,11 +1,3 @@
-{
-  "id": "20",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(A)  \nSol. \nKozeny \u2013 Carmann\u2019s Equation\n\uf028\n\uf029\n\uf028\n\uf029\n2\n\uf06d\n\uf02d\uf065\n\uf044\n\uf03d\nu\nP\nL\nd\n2\n3\n150\n1\n\n\uf066\n\uf065\nS\np\nWhere, u is a minimum fluidization velocity\n\uf028\n\uf029\n2\nS\np\nu\nd\n\uf0b5\uf066\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n13\n\nFor spherical particles \n1\nS\n\uf066\uf03d\n\uf028\n\uf029\n2\np\nu\nd\n\uf0b5\nGiven :\n\uf028\n\uf029\nn\np\nu\nd\n\uf0b5\nThus,   \n2\nn\n \uf03d",
-  "question_text": "Question 20 \n \nFor a packed-bed comprising of uniform-sized spherical particles of diameter \n,\np\nD\nthe pressure drop across the\nbed is given by the Kozeny-Carman equation when the particle Reynolds number \n(Re )\n1.\np\n \n\uf03c\n Under this\ncondition, minimum fluidization velocity is proportional to \n.\nn\np\nD\n Which one of the following is the CORRECT\nvalue of exponent \n \n?  \n \n \n \n[Mechanical Operation, 1 Marks]\n \n \n(A) 2 \n \n(B) \u20131 \n \n(C) \u20132 \n \n \n(D) 1",
-  "answer_text": "(A)  \nSol. \nKozeny \u2013 Carmann\u2019s Equation\n\uf028\n\uf029\n\uf028\n\uf029\n2\n\uf06d\n\uf02d\uf065\n\uf044\n\uf03d\nu\nP\nL\nd\n2\n3\n150\n1\n\n\uf066\n\uf065\nS\np\nWhere, u is a minimum fluidization velocity\n\uf028\n\uf029\n2\nS\np\nu\nd\n\uf0b5\uf066\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n13\n\nFor spherical particles \n1\nS\n\uf066\uf03d\n\uf028\n\uf029\n2\np\nu\nd\n\uf0b5\nGiven :\n\uf028\n\uf029\nn\np\nu\nd\n\uf0b5\nThus,   \n2\nn\n \uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1e9cd96c8da1b3cbd764ba4ee3cbaf1e3080c965242d24f363b22f289e2722b
+size 1661

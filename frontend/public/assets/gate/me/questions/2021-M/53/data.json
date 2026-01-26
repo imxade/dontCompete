@@ -1,11 +1,3 @@
-{
-  "id": "53",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 53\nAn orthogonal cutting operation is performed using a single point cutting tool with a rake angle of 12\n0\n \non a lathe. During turning, the cutting force and the friction force are \n1000 N\n  & 600 N, respectively.\nIf the chip thickness and the uncut chip thickness during turning are 1.5 mm and 0.75 mm, respectively, \nthen the shear force is______N (round off to two decimal places)\nProduction Engineering (Machining) \nAns. \n685.916",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven : \n0\n12\n\u03b1 =\nCutting force,\n \n1000 N\nC\nF\n =\nFriction force,\n \n600 N\nF\n =\nChip thickness, \n1.5 mm\nc\nt\n =\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n43\n\nUncut chip thickness,\n \n0.75 mm\nt\n =\n0.75\n1\n0.5\n1.5\n2\nc\nt\nr\nt\n=\n=\n=\n=\ncos\ntan\n1\nsin\nr\nr\n\u03b1\n\u03c6 = \u2212\n\u03b1\n\u2212\n\uf0e6\n\uf0f6\n\u03c6 =\n\uf0e7\n\uf0f7\n\u2212\n\uf0e8\n\uf0f8\n1\n0.5cos(12)\ntan\n1 0.5sin(12)\n\n0\n28.62\n\u03c6 =\nMethod 1 :\nsin\ncos\nC\nT\nF\nF\nF\n=\n\u03b1 +\n\u03b1\n600\n1000sin (12)\ncos(12)\nT\nF\n=\n+\n400.84 N\nT\nF\n =\ncos\nsin\nS\nC\nT\nF\nF\nF\n=\n\u03c6 \u2212\n\u03c6\n1000cos(28.62)\n400.84sin (28.62)\nS\nF\n =\n\u2212\n685.81 N\nS\nF\n =\nMethod 2 :\ncos(\n)\nC\nF\nR\n=\n\u03b2 \u2212\u03b1\n0\n1000\ncos(\n12 )\nR\n=\n\u03b2 \u2212\n \n \n \n\u2026 (i)\nand  \n600\nsin\nF\nR\n=\n=\n\u03b2\n \n \n \n\u2026 (ii)\nDivide equation (i) and (ii),\n1000\ncos (\n12)\n600\nsin\n\u03b2 \u2212\n=\n\u03b2\ncos cos(12)\nsin (12)sin ( )\nsin\n\u03b2\n+\n\u03b2\n=\n\u03b2\n1000\ncot cos(12)\nsin(12)\n600\n \n=\n\u03b2\n+\n0\n33.84\n\u03b2 =\nSo,  \ncos(\n)\ns\nF\nR\n=\n\u03c6+\u03b2 \u2212\u03b1\nand  \n0\n600\nsin\nsin (33.84 )\nF\nR\n =\n=\n\u03b2\n1077.43 N\nR\n =\nSo,  \n1077.43cos(28.62\n33.84 12)\ns\nF\n =\n+\n\u2212\n685.916 N\ns\nF\n ="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3cbee3a63d5b33322cb7490feeb0530fe88fc6a1034c86695c4e326030c7831
+size 1983

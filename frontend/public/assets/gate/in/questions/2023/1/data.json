@@ -1,11 +1,3 @@
-{
-  "id": "1",
-  "stream": "instrumentation-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 1 \n \nThe village was nested in a green spot, _______ the ocean and the hills. \n \n(A) through \n(B) in \n \n(C) at \n(D) between \nAns. (D) \nSol. \nThe village was nested in a green spot, \nbetween\n the ocean and the hills. \n \nHence, the correct option is (D).\n \nQuestion 2 \n \nDisagree : Protest :: Agree : _______. \n \n  \n \n(By word meaning) \n \n(A) Refuse \n(B) Pretext  \n \n(C) Recommend \n(D) Refute \nAns. (C) \nSol. \nGiven :\n disagree is related with protest in a special manner, as disagree is feeling of our choice and \nprotest is resultant action as when we disagree with something we protest against it. In the same \nrelationship agree will be related to recommend.  \n \nHere, agree is our internal feeling and recommend is external resultant action as when we are agreed \nwith something we do recommend.  \n \nHence, the correct option is (C).\n \nQuestion 3 \n \nA \u2018frabjous\u2019 number is defined as a 3 digit number with all digits odd, and no two adjacent digits being \nthe same. For example, 137 is a frabjous number, while 133 is not. How many such frabjous numbers \nexist? \n \n  \n \n(D)  125 \n(B) 720 \n \n(C)  60 \n(D) 80 \nAns. (D) \nQuestion 4 \n \nWhich one among the following statements must be TRUE about the mean and the median of the scores \nof all candidates appearing for GATE 2023? \n \n \n (A) The median is at least as large as the mean. \n \n (B) The mean is at least as large as the median. \n \n (C) At most half the candidates have score that is larger than the median. \n \n (D) At most half the candidates have a score that is larger than the mean. \nAns. (C) \nQuestion 5\n\nGATE 2023\n  [Forenoon Session]\nInstrumentation Engineering\nPAGE\n2\n\nIn the given diagram, ovals are marked at different heights (\nh\n) of a hill. Which one of the following \noptions \nP\n, \nQ\n, \nR\n and \nS\n depicts the top view of the hill?\n\n\n(A) \nP \n(B) \nQ \n \n(C) \nR \n(D) \nS \nAns. (B) \nSol. \nGiven :\n In the diagram ovals (contour lines) are marked at different heights (\nh\n) of a hill. The top view of \nthe hill is best depicts by option Q from the figure we can see AB is perpendicular to CD and the slop of \nthe hill is divided in PQ and QR in two parts. \n \nSlop QR is stretching linearly as it down wards and the ovals are widening from line AB towards slop \nQP, which we can clearly see in the top view diagram of the hill in figure Q. \n \nHence, the correct option is (B).\n..\nQ.6 to Q.10 Carry Two Marks Each\n..",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeacca5cc992bbc9530f2ffb1982996eb25ba829fad93f2ef3955d5f8821590d
+size 2709

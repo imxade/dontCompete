@@ -1,11 +1,3 @@
-{
-  "id": "46",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "1400",
-  "question_text": "Question 46 \n \n \n \n  \nCommunications System (2M)\nConsider a super heterodyne receiver tuned to 600 kHz. If the local oscillator feeds a 1000 kHz signal to \nthe mixer, the image frequency (in integer) is _______ kHz.",
-  "answer_text": "1400",
-  "explanation_text": "Sol.\n \nGiven :\n600kHz\nRF\nf\n=\n1000kHz\nLO\nf\n=\nFor \nLO\nRF\nf\nf\n>\n, image frequency is given by,\n2\nimage\nRF\nIF\nf\nf\nf\n=\n+\n2\nimage\nLO\nRF\nf\nf\nf\n=\n\u2212\n \n \n(\n)\nIF\nLO\nRF\nf\nf\nf\n=\n\u2212\n\uf051\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n64\n\n2 1000\n600\n1400 kHz\nimage\nf\n=\n\u00d7\n\u2212\n=\nHence, the image frequency is 1400 kHz."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba2b779537ab31f62d7bc18030ad57208c980c3affd461102b87989a7a31328d
+size 857

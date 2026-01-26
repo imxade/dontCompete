@@ -1,11 +1,3 @@
-{
-  "id": "8",
-  "stream": "electrical-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 8\nIf P, Q, R, S are 4 individuals, how many teams of size exceeding one can be formed, with Q as a member?\n(A) 5 \n(B) 7 \n(C) 8 \n(D) 6",
-  "answer_text": "(B)",
-  "explanation_text": "Sol. \nNo. of available players  = 4\nNo. of teams of 2 members, including \nQ\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n5\n\n,\n,\n03\nQP QR QS\n\uf03d\n\uf03d\n [No. of ways to fill 1 place by 3 members]\nNo. of teams of 3 members including \nQ\n=\n No. of ways of filling 2 places from 3 members\n3\n2\n3!\n3 2 1\n3\n2!1!\n2 1\nC\n\uf0b4\uf0b4\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n\uf0b4\nNo. of teams of 4 members including \nQ\n= No. of ways of filling 3 places from 3 members\n3\n3\n3!\n1\n3! 0!\nC\n\uf03d\n\uf03d\n\uf03d\n\uf05c\n Total number of teams \n3\n3 1\n7\n\uf03d\n\uf02b\uf02b\uf03d\nHence, the correct option is (B)"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:be932092f36aa94b1471473f74dbc8a5d890f0ad63b3cc8c448580378905cee9
+size 1001

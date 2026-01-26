@@ -1,11 +1,3 @@
-{
-  "id": "58",
-  "stream": "electrical-engineering",
-  "packet": "2022",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "3183 (Range : 3170 to 3190)",
-  "question_text": "Question 58 \n \n \nPower Electronics\nConsider an ideal full-bridge single-phase DC-AC inverter with a DC bus voltage magnitude of 1000 V. \nThe inverter output voltage \n( )\nv t\n  shown below, is obtained when diagonal switches of the inverter are \nswitched with 50% duty cycle. The inverter feeds a load with a sinusoidal current given by,\n( )\n10sin\nA\n3\ni t\nt\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf077\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n, where \n2\n\uf070\n\uf077\uf03d\n. The active power, in watts, delivered to the load is _____. (round\nT\noff to nearest integer)\nv t\n( )\nt\n sec\n0\n0.5\nT\nT",
-  "answer_text": "3183 (Range : 3170 to 3190)",
-  "explanation_text": "Sol.\n \nGiven :\n(i) DC bus voltage magnitude \n1000 V\n\uf03d\ndc\nV\n\uf070\n\uf077\uf03d\n(ii) \n0\n( )\n10sin\n3\ni t\nt\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf077\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n, where \n2\nT\nThe Fourier series expansion of the given voltage \n( )\nv t\n  is,\n\uf0a5\nV\nv t\nn\nt\nn\n4\n( )\nsin(\n)\ndc\n\uf03d\n\uf03d\n\uf077\n\uf070\n\uf0e5\n \n \n \n(\n( )\nv t\n  has half wave symmetry)\n0\n1,3,5\nn\n\uf0b4\n\uf03d\n\uf077\n\uf070\n4 1000\n( )\nsin(\n)\nn\nv t\nt\n\uf03d\n\uf05c\n \n0\n1\nThe active power delivered to load in watts,\n\uf0b4\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf066\uf03d\n\uf0b4\n\uf0b4\uf0e7\n\uf0f7\n\uf070\uf0b4\n\uf0e8\n\uf0f8\n4 1000\n10\n( )\n(rms)\n( ) (rms) cos\ncos 3\n2\n2\nn\nP\nv t\ni t\n\uf03d\n3183W\n\uf03d\nPower, \n1\nHence, the correct answer is 3183.\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n61\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0b1d08a69422da262ce65730984c608f4f7fa2f0730baf93356dc915ddfbc51
+size 1774

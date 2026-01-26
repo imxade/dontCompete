@@ -1,11 +1,3 @@
-{
-  "id": "45",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 45 \n \nLet \nC\n represent the unit circle centered at origin in the complex plane, and complex variable,\nz\nx\niy\n=\n+\n.The value of the contour integral \ncosh(3 )\n2\nc\nz dz\nz\n\uf0f2\n\uf0d1\n (where integration is taken counter\nclockwise) is\nEngineering Mathematics (Complex Variable) \n \n(A) \n2\n i\n\u03c0\n  \n \n(B) \ni\n\u03c0\n  \n(C) 0 \n(D) 2 \nAns. \nB\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n37\n",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \ncosh(3 )\n2\nc\nz\nI\ndz\nz\n=\n \uf0f2\n\uf0d1\n0\nz\n = 0\n\n1\ncosh(3 )\n1\n2\n( )\ncosh(0)\n2\n(\n0)\n2\nz\ni\nf a\ni\nz\n=\n\u00d7 \u03c0 \u00d7\n= \u03c0 \u00d7\n\u2212\n\uf0f2\n\uf0d1\nI\ni\n= \u03c0\n  \nQuestion 46 \n \nA single jet Pelton wheel operates at 300 rpm. The mean diameter of the wheel is 2 m. Operating head \nand dimensions of jet are such that water comes out of the jet with a velocity of 40 m/s and flow rate \nof \n3\n5m / sec . The jet is deflected by the bucket at an angle of \n0\n165 .\n Neglecting all losses, the power\ndeveloped by the Pelton wheel is ________MW (round off to two decimal places).\nHydraulic Machine (Pelton Wheels) \nAns. \n2.6499\nSol.\n \nGiven\n \n3\n0\n1\n40 m/s, \n5 m /s, \n165 ,\n300 rpm\nV\nQ\nN\n=\n=\n\u03b4 =\n=\nBucket\nJet\n\nAt inlet :\n1\nV\nA\nB\nC\nu\n1\n1\nr\nV\nV\nu\n=\n\u2212\n\n2 300\n60\n60\nDN\nu\n\u03c0\n\u03c0\u00d7 \u00d7\n=\n=\n31.415 m/sec\n=\n1\n1\n40 m/sec\nw\nV\nV\n=\n=\nAt exit:\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n38\n\nu\n2\nV\n\u03c9\n\u03c6\n\u03b2\n2\nr\nV\n2\nV\n\nBlade are smooth so,\n1\n2\n1\nr\nr\nV\nV\nV\nu\n=\n=\n\u2212\n40 31.42\n=\n\u2212\n8.58 m/sec\n=\n2\n2\n \ncos\nw\nr\nV\nu\nV\n=\n\u2212\n\u03c6\n0\n31.42 8.58cos15\n=\n\u2212\n23.132 m/sec\n=\nw\nw\nQ V\nV\nu\n\u03c1\n\u2212\n=\n1\n2\n6\n(\n)\nPower in MW\n10\n6\n1000 5[40\n23.132] 31.42\n10\n\u00d7\n\u2212\n\u00d7\n=\n2.6499 MW\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5615b0f1be756fea3ca0ed9b0916ea03f6b12fdce2cc7fb0cd7c7673b1db47c
+size 2080

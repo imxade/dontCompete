@@ -1,11 +1,3 @@
-{
-  "id": "8",
-  "stream": "civil-engineering",
-  "packet": "2020-M",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "(D)",
-  "question_text": "Question 8\nDuring chlorination process, aqueous (aq) chlorine reacts rapidly with water to form \nCl , HOCl, and H\n\u2212\n+\nas shown below\n2\n2\nCl (aq)\nH O\nHOCl\nCl\nH\n\u2212\n+\n+\n+\n+\n\uf083\nThe most active disinfectant in the chlorination process from amongst the following, is\n(A) H\n+\n \n \n \n(B) \n2\nH O\n  \n(C) \nCl\n\u2212\n \n(D) \nHOCl",
-  "answer_text": "(D)",
-  "explanation_text": "Sol.\npH\nCl\nH O\nHOCl\nHCl\n>\n+\n+\n\uf088\uf088\uf088\uf088\uf086\n\uf087\uf088\uf088\uf088\uf088\n5\n2\n2\nhypochlorous\nacid\n\npH\n8\n<\n=\n+\n\uf088\uf088\uf088\uf088\uf086\n\uf087\uf088\uf088\uf088\uf088\npH\nHOCl\nH\nOCl\n>\n+\n\u2212\n7\n(Unstable, hence\nbreakdown at higher\n \npH)\n\n\n\u25cf \nAt pH < 5, chlorine does not react with water and remains as free chlorine.\n\u25cf \n2\n(\n)\nHOCl\nOCl\nCl\n\u2212\n+\n+\n are combinedly called freely available chlorine. Out of these forms of freely\navailable chlorine, HOCl is most destructive. It is 80 % more effective than \nOCl\n\u2212\n ion. Hence, pH of \nwater should be maintained slightly below 7."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99f228d4eef1d4ac9e12d2f402e3c084a4928de898c67d1a3912d6d4940e5c0c
+size 1226

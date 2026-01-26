@@ -1,11 +1,3 @@
-{
-  "id": "30",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(A, C, D)",
-  "question_text": "Question 30\nFor the function \n2\n,\n0\n( )\n,\n0\nx\nx\nf x\nx\nx\n\u2212\n<\n\uf0ec\n=\n \uf0ed\n\u2265\n\uf0ee\nthe CORRECT statement(s) is/are\n(A) \n( )\nf x\n is differentiable at \n1\nx\n =\n  \n(B) \n( )\nf x\n is differentiable at \n0\nx\n =\n(C) \n( )\nf x\n is continuous at \n1\nx\n =\n  \n(D) \n( )\nf x\n is continuous at \n0\nx\n =",
-  "answer_text": "(A, C, D)",
-  "explanation_text": "Sol. \nGiven : \n \n2\n,\n0\n( )\n,\n0\nx\nx\nf x\nx\nx\n\u2212\n<\n\uf0ec\n=\n \uf0ed\n\u2265\n\uf0ee\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n30\n\n( )\nf x\n2\n( )\nf x\nx\n\u0002\n( )\nf x\nx\n\u0002 \u0004\nx\n1\n0\n( )\nf x\n  is continuous at \n0\nx\n =\n and \n1\nx\n =\n  as there is no discontinuity present at \nx\n = 0 and \nx\n = 1.\n( )\nf x\n  is differentiable at \n1\nx\n =\n .\nBut not differentiable at \n0\nx\n =\n due to formation of cusp at \nx\n = 0.\nHence, the correct statements are \nA\n, \nC\n and \nD\n."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cae7154907241da7fae5c41770df15d0aa3573eb953b20a31eef12b7c965f41
+size 1110

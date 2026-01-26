@@ -1,11 +1,3 @@
-{
-  "id": "9",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "D",
-  "question_text": "Question 9\nHuman have the ability to construct worlds entirely in their minds, which don\u2019t exist in the physical world. \nSo far as we known, no other species possess this ability. This skill is so important that we have different \nwords to refer to its different flavors, such as imagination, invention and innovation.\nBased on above passage, which one of the following is TRUE?\n(A) The terms imagination, invention and innovation refer to unrelated skills.\n(B) No species possess the ability to construct worlds in their mind.\n(C) Imagination, invention and innovation are unrelated to the ability to construct metal worlds.\n(D) We do not know of any species other than humans. who posses the ability to construct mental worlds.",
-  "answer_text": "D",
-  "explanation_text": "Sol. \nAs given in the above passage \u201cso far as we know, no other species posses this ability\u201d. By this we can \nconclude option D is correct.\nHence, the correct option is (D).\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n42\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7de234681e4b739d1c1a938beb4d1d54df6a7b15ba3469e9c3210b22611288a1
+size 1185

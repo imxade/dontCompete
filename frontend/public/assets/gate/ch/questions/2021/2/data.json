@@ -1,11 +1,3 @@
-{
-  "id": "2",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "1790 to 1800",
-  "question_text": "Question 2\nSeawater is passed through a column containing a bed of resin beads.\nDensity of seawater \n3\n1025 kgm\n\u2212\n=\nDensity of resin beads \n3\n1330 kgm\n\u2212\n=\nDiameter of resin beads \n50 m\n=\n\u03bc\nVoid fraction of the bed at the onset of fluidization \n=\n  0.4\nAcceleration due to gravity \n2\n9.81 ms\n\u2212\n=\nThe pressure drop per unit length of the bed at the onset of fluidization is _______\n1\nPa m .\n\u2212\n (round off to \nnearest integer)",
-  "answer_text": "1790 to 1800",
-  "explanation_text": "Sol. \nSea water is passed through a column containing a bed of resin beads\nSeawater \n3\n(\n)\n1025 kg/m\nwater\nf\nP\nP\n =\nDensity of resin bed \n3\n(\n)\n1330 kg/m\nP\nP\n=\nDiameter of resin beads \n50 mm\n=\ngravity \n2\n9.81 m/sec\n=\nVoid fractions \n0.4\n\u03b5 =\nPresure drop per unit length of the Bed at the onset (incipient) fluidization\n(\n)(1\n)( )\np\nf\nP\ng\nL\n\u0394\n= \u03c1 \u2212\u03c1\n\u2212\u03b5\n(1330 1025)(1 0.4)(9.81)\nP\nL\n\u0394\n=\n\u2212\n\u2212\n1795.23 Pa/m\nP\nL\n\u0394\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:543c84b00353b424e79cb78e72f9fc1a168adbcbc7c985490724c60767051583
+size 1207

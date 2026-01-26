@@ -1,11 +1,3 @@
-{
-  "id": "55",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "0.4242\n0\n(\n)\n37 C\ni\nh\nT\n\uf03d",
-  "question_text": "Question 55\nDuring open-heart surgery, a patient\u2019s blood is cooled down to \n0\n25\n C from \n0\n37\n C\n \nusing a concentric tube \ncounter-flow heat exchanger. Water enters the heat\n \nexchanger at \n0\n4\n C and leaves at \n0\n18\n C. Blood flow rate \nduring the surgery is\n \n5 L/minute.\nUse the following fluid properties:\nFluid \nDensity (kg/m\n3\n) Specific heat (J/kg-K)\nBlood \n1050 \n3740\nWater \n1000 \n4200\nEffectiveness of the heat exchanger is _________ (round off to 2 decimal places).",
-  "answer_text": "0.4242\n0\n(\n)\n37 C\ni\nh\nT\n\uf03d",
-  "explanation_text": "Sol. \nInlet temperature of hot fluid\n0\n(\n)\n25 C\ne\nh\nT\n\uf03d\nOutlet temperature of hot fluid\n0\n(\n)\n4 C\ni\nC\nT\n\uf03d\nInlet temperature of cold fluid\n0\n(\n)\n18 C\ne\nC\nT\n\uf03d\nOutlet temperature of cold fluid\nEffectiveness \n( )\n\uf0ce\n\uf02d\n\uf0ce\uf03d\n\uf02d\nC t\nt\n(\n)\nc\nc\nc\n\n2\n1\nC\nT\nT\n(\n)\n1\n1\nmin\nh\nC\n\uf02d\n\uf0b4\n\uf03d\n\uf0b4\n\uf03d\n3\n5 10\n1050\n0.0875 kg/sec\n60\nh\nm\n\n\n(\n)\n(\n)\ni\ne\ne\ni\nh\nh\nh\nh\nc\nc\nc\nc\nm C T\nT\nm C T\nT\n\uf02d\n\uf03d\n\uf02d\n\n0.0875 3740 12\n4200 14\nc\nm\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n\uf0b4\n\n0.667\nc\nm\n \uf03d\n\n0\n37 C\ni\nh\nT\n \uf03d\n0\n25 C\ne\nh\nT\n\uf03d\n0\n18 C\ne\nc\nT\n \uf03d\nCounter flow\n0\n4 C\ni\nc\nT\n \uf03d\n\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n59\n\nmin\nc\nC\nC\n\uf03d\n18\n4\n0.4242\n37\n4\n\uf02d\n\uf0ce\uf03d\n\uf03d\n\uf02d\nHence, the correct answer is 0.4242.\n\n\uf076\uf076\uf076\uf076\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5576dfe2645b9433b51d3360b262f1003ead9c28a33eed98944e9fcbed20f0b
+size 1757

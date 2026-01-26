@@ -1,11 +1,3 @@
-{
-  "id": "9",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 9 \nNumerical Ability (number system)\n \n \nThe digit in the unit\u2019s place of product \n999\n1000\n3\n7\n\uf0b4\nis ____. \n \n(A)  7 \n(B) 1  \n \n(C) 3 \n(D)  9 \nAns. (A)\n999\n1000\n4 249\n3\n4 25\n3\n7\n(3 )\n3\n(7 )\n\uf0b4\n\uf03d\n\uf0b4\n\uf0b4\n1 27 1\n\uf03d\uf0b4\n\uf0b4",
-  "answer_text": "",
-  "explanation_text": "Sol. \nGiven :\nUnit digit value \n7\n\uf03d\n \n \nHence, the correct option is (A).\n \nQuestion 10 \nLogical Reasoning (numerical computation)\n \n \nA square with sides of length 6 cm is given. The boundary of the shaded region is defined by two semi-\ncircles whose diameters are the sides of the square, as shown.\n3 cm\nThe area of the shaded region is_______ cm\n2\n.\n \n \n(A) \n6\n\uf070\n \n(B) 18 \n \n \n(C)  20 \n(D)  \n9\n\uf070\n \nAns. (B) \nSol.\n6 cm\nD\nIV\nIII\n6 cm\nA\nC\nII\nI\nB\nArea of region \n2\n(\n)\n2[36 ( .3 )]\nA\nB\nC\nD\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf02d\uf070\n72 18\n\uf03d\n\uf02d\n\uf070\n \n \nArea of region \n(\n)\nI\nII\nIII\nIV\n\uf02b\n\uf02b\n\uf02b\n36 [72 18 ]\n\uf03d\n\uf02d\n\uf02d\n\uf070\n18\n36\n\uf03d\n\uf070\uf02d\n\uf070\n\uf03d\n\uf070\uf02d\n\uf03d\n\uf02d\nArea of region \u201c\nI\n\u201d \n9\n(18\n36)/4\n9\n2\nArea of shared region = Area of \n(\n)\nA\nB\nI\n\uf03d\n\uf02b\n\uf02b\n3\n2\n3\n3\n2\n2\nI\nI\n\uf070\n\uf070\n\uf03d\n\uf02d\uf02b\n\uf02d\n9\n9\n9\n2\n9\n2\n2\n2\n\uf070\n\uf070\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02d\n\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n9\n(9\n18)\n\uf03d\uf070\uf02d\n\uf070\uf02d\n18\n\uf03d\n \n \nHence, the correct option is (B).\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n6\n\n\n..\nQ.11 to Q.35 Carry One Mark Each\n.."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b006d215680a2a4bbf463a900423d6b0321a6cad520ea470d58f50844396845
+size 1855

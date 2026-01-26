@@ -1,11 +1,3 @@
-{
-  "id": "8",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "(A)",
-  "question_text": "Question 8\nA square threaded screw is used to lift a load \nW\n by applying a force \nF\n. Efficiency\n \nof square threaded \nscrew is expressed as\n(A) The ratio of work done by \nW\n per revolution to work done by \nF\n per revolution\n(B) \nW/F\n(C) \nF/W\n(D) The ratio of work done by \nF\n per revolution to work done by \nW\n per revolution",
-  "answer_text": "(A)",
-  "explanation_text": "Sol. \nGiven :\nLoad \nW\n\uf03d\nApplied force \nF\n\uf03d\nThe efficiency of square thread salent is\nWork done by load per revolution\nWork done by force per revolution\n\uf068\uf03d\nHence, the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:889e575b8f6bb4388fc7e65c36b2af7bf53a61fa387b01fd756118f05b505ad3
+size 768

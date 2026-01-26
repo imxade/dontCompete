@@ -1,11 +1,3 @@
-{
-  "id": "50",
-  "stream": "instrumentation-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "0.450 to 0.550",
-  "question_text": "Question 50\n\nPAGE\n34\n\nThe readings recorded from a 20-psig pressure gauge are given in the Table. The regression line obtained \nfor the data is \n\ud835\udc66= 0.04 \ud835\udc65+ 10.32\n. The regression coefficient of determination, \n\ud835\udc45\n2\n \n=\n ______ (rounded \noff to three decimal places).\n\ud835\udc99\n \n1 \n2 \n3 \n4 \n5 \n\ud835\udc9a\n (psig) \n10.3 10.5 10.4 10.5 10.5",
-  "answer_text": "0.450 to 0.550",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84ac3481704b18e8bf0123122ddf2063a24beeb4194041f99d51800d2db7ea3f
+size 624

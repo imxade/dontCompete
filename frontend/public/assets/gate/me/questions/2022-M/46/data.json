@@ -1,11 +1,3 @@
-{
-  "id": "46",
-  "stream": "mechanical-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "350.32",
-  "question_text": "Question 46\nA 4 mm thick aluminum sheet of width \nw\n = 100 mm is rolled in a two-roll mill of roll diameter 200 mm \neach. The workpiece is lubricated with a mineral oil, which gives a coefficient of friction, \n0.1\n\uf06d\uf03d\n. The\nflow stress \n( )\n\uf073\n of the material in MPa is \n207\n414 ,\n\uf073\uf03d\n\uf02b\n\uf065\n where \n\uf065\n is the true strain. Assuming rolling to\nbe a plane strain deformation process, the roll separation force (\nF\n) for maximum permissible draft \n(thickness reduction) is _________ kN (round off to the nearest integer).\nUse:\nL\nF\nwL\nh\n\uf06d\n\uf0e6\n\uf0f6\n\uf03d\n\uf073\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nwhere \n\uf073\n is average flow stress, \nL\n is roll- workpiece contact length, and \nh\n  is the\n1.15\n1\n,\n2\naverage sheet thickness.",
-  "answer_text": "350.32",
-  "explanation_text": "Sol. \nRolling, \n0\n4 mm\nh\n \uf03d\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n49\n\n100 mm\nW\n \uf03d\n200 mm\nD\n \uf03d\n207+414\n\uf073\uf03d\n\uf065\n2\nmax\n0\n(\n)\n0.1\n100\nf\nh\nh\nh\n\uf044\n\uf03d\n\uf0b4\n\uf03d\n\uf02d\n\n3 mm\nf\nh\n \uf03d\n\n4\nln\n0.287\n3\n\uf0e6\n\uf0f6\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n207\n414\n\uf073\uf03d\n\uf02b\n\uf065\n325.818\n\uf073\uf03d\n207\n325.818\n266.409 MPa\n2\n\uf02b\n\uf073\uf03d\n\uf03d\n1.15\n1\n2\nuL\nP\nh\n\uf0e6\n\uf0f6\n\uf03d\n\uf073\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nwe know that \nL\nR h\n\uf0e9\n\uf0f9\n\uf03d\n\uf044\n\uf0eb\n\uf0fb\n0.4 10\n1.15 266.409\n1\n2 3.5\nP\n\uf0b4\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf02b\n\uf0e7\n\uf0f7\n\uf0b4\n\uf0e8\n\uf0f8\n\n100 1\n10 mm\nL\n \uf03d\n\uf0b4\uf03d\n0.4 10\n1.15 266.409\n1\n100 10\n2 3.5\nF\n\uf0b4\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf02b\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0b4\n\uf0e8\n\uf0f8\n4\n3\n3.5 mm\n2\nh\n\uf02b\n\uf03d\n\uf03d\n350.32 kN\nF\n \uf03d\nHence, the correct answer is 35.32."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b72bde5a547c491861be7ac54ace549087c9fa120c29b48a7b06dba82d8d42b
+size 2099

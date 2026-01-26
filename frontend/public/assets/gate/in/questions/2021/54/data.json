@@ -1,11 +1,3 @@
-{
-  "id": "54",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "NAT",
-  "key": "",
-  "question_text": "Question 54 \n \n \n \n \nElectromagnetics (NAT)\nThe figure below shows an electrically conductive bar of square cross-section resting on a plane surface. \nThe bar of mass of 1 kg has depth of 0.5 m along the y direction. The coefficient of friction between the\nbar and the surface is 0.1. Assume the acceleration due to gravity to be \n2\n10 m/s\n . The system faces a\nuniform flux density \n1\n\u02c6\nB\nzT\n= \u2212\n. At time \n0\nt\n =\n, a current of 10 A is switched onto the bar and it\nmaintained.\nB\nz\ny\nx\n0\nx\nWhen the bar has moved by 1 m, its speed in metre per second is _______ (rounded off to one decimal \nplace). \n \n \n \n \n \n \n[2 Marks] \nAns. \n2.828 \nSol.\n \nEquation of motion, \n \n \n \n2\n2\n2\nv\nu\nas\n\u2212\n=\n2\n2\nv\nas\n=\n  \n \n(\nInitial velocity \n0)\nu\n =\n\uf051\nTwo forces are experienced by bar \n \n1. Magnetic force by current carrying conductor \n(\n)\nB\nF\n.\n2. Kinetic friction force against the direction of movement \n(\n)\nk\nF\n.\ntotal\nB\nk\nF\nF\nF\n=\n\u2212\nAs \nk\nF\n  is against the \nB\nF\n ,\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n49\n\nz\nB\ny\nd\nx\nLets assume current is flowing in direction of \n\u02c6\ny\na\n\u2212\nI\nCalculation of \nB\nF\n  :\nMethod 1 :\n  \nsin\nB\nF\nId B\n=\n\u03b8\n0\n90\n=\n\u03b8 =\nAngle between \nI\n  and \nB\n0\n10 0.5 1 sin90\nB\nF\n =\n\u00d7\n\u00d7 \u00d7\n5 N\n=\nMethod 2 :\n \nB\nF\nId\nB\n=\n\u00d7\n\uf072\n\uf072\n\u02c6\n\u02c6\n10 0.5(\n) ( 1\n)\nB\ny\nz\nF\na\na\n=\n\u00d7\n\u2212\n\u00d7 \u2212\n5 N\n=\nCalculation of \nk\nF\n  :\nk\nk\nF\nmg\n= \u03bc\nWhere, \nk\n\u03bc =\n Coefficient of friction\nm\n =\n Mass of bar and  \n \n \ng\n =\n Gravity due to earth.\n0.1 1 10\n1N\nk\nF\n =\n\u00d7 \u00d7\n=\ntotal\nB\nk\nF\nF\nF\n=\n\u2212\n5 1\n4 N\n=\n\u2212=\nSo that, \n2\n2\nV\nas\n=\ntotal\nF\na\n =\n=\n=\n\uf051\n  \n2\n4\n4 m/sec\nMass\n1\n2\n2\n4 1\nV\n=\n\u00d7 \u00d7\n  \n \n(\n1 m)\ns\n =\n\uf051\n8\nV\n =\n2.82842 m/s\n=",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4232787a77a0f8de45bd03892b53d3e7c41166be030ba9152bf1eb631e8faf7
+size 2203

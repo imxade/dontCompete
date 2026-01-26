@@ -1,11 +1,3 @@
-{
-  "id": "24",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "32",
-  "question_text": "Question 24 \n \n \n \n \nSignals & Systems (2M)\nThe exponential Fourier series representation of continuous time periodic signal \n( )\nx t\n  is defined as\n=\u2212\u221e\n=\n \uf0e5\n\u221e\n\u03c9\n0\n( )\njk\nt\nk\nk\nx t\na e\nwhere \n0\n\u03c9\n  is the fundamental angular frequency of \n( )\nx t\n  and the coefficient of series are \nk\na\n .\nThe following information is given about \n( )\nx t\n  and \nk\na\n .\n(i) \n( )\nx t\n  is real and even having fundamental period of 6 sec.\n(ii) Average value of \n( )\nx t\n  is 2.\n\u2264\n\u2264\n\uf0ec\n=\n \uf0ed\n>\n\uf0ee\n(iii) \n,\n1\n3\n0,\n3\nk\nk\nk\na\nk\nThe average power of the signal \n( )\nx t\n  (round of one decimal place) is _______.",
-  "answer_text": "32",
-  "explanation_text": "Sol.\n \nGiven :\n=\u221e\n=\n \uf0e5\n\u221e\n\u03c9\n0\n( )\njk\nt\nk\nk\nx t\na e\n(i)\n \n( )\nx t\n  is real and even with \n6\nT\n =\n sec\n(ii)\n \nAverage value of \n( )\nx t\n =2\n\u2264\n\u2264\n\uf0ec\n=\n\uf0de\n=\n\uf0ed\n>\n\uf0ee\n(iii)\n,\n1\n3\n{........1,2,3}\n0,\n3\nk\nk\nk\nk\na\na\nk\nFrom symmetry conditions, as \n( )\nx t\n  is real and even, so its fourier series coefficients will also be real\nand even.\ni.e. \n*\nk\nk\na\na\n=\n and \nk\nk\na\na\n\u2212\n=\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n35\n\nso if \n1\n1\n1\n1\n1\na\na\na\n\u2212\n=\n \uf0de\n=\n=\n2\n2\n2\n2\n2\na\na\na\n\u2212\n=\n\uf0de\n=\n=\n3\n3\n3\n3\n3\na\na\na\n\u2212\n=\n\uf0de\n=\n=\n0\nk\na\n =\n for \n3\nk\n >\n0\nk\na\n\u2212\n=\n for \n3\nk\n < \u2212\nAlso, given that average value of \n( )\nx t\nT\nx t dt\na\nT\n=\n=\n\uf0f2\n1\n( )\n2\ni.e.  \n0\n0\nSo, the complete set of Fourier series coefficients is given as\n3\n2\n1\n0\n1\n2\n3\n{3,2,1,2,1,2,3}\n{\n,\n,\n,\n,\n,\n,\n}\nx\na\na\na\na\na a a a\n\u2212\n\u2212\n\u2212\n\u2191\n=\n=\nUsing Parseval\u2019s theorem, average power of \n( )\nx t\n is given as\nT\n1\n( )\n=\u2212\u221e\n=\n=\n \uf0e5\n\uf0f2\n\u221e\n2\n2\n\nx\nk\nk\nP\nx t\ndt\na\nT\n0\n2\n2\n2\n2\n2\n2\n2\n(3)\n(2)\n(1)\n(2)\n(1)\n(2)\n(3)\nx\nP\n =\n+\n+\n+\n+\n+\n+\n9\n4 1 4 1 4\n9\nx\nP\n =\n+\n+ +\n+ +\n+\n32 W\nx\nP\n =\nHence, the average power of signal \n( )\n32 W\nx t is"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b033773c786aabb5959d516f7b3de42e73e786899badc75168507a7334872e86
+size 2392

@@ -1,11 +1,3 @@
-{
-  "id": "14",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "NAT",
-  "key": "0\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n15",
-  "question_text": "Question 14  \n \n \n \n \nEngg. Mathematics (NAT)\nLet \n2\n1\n( )\n6\n9\nf z\nz\nz\n=\n+\n+\n defined in complex plane. This integral \n( )\nf z dz\n\uf0f2\n\uf0d1\n over the contour of a circle \nc\nC\nwith center at the origin and unit radius is ______.  \n \n \n \n[1 Mark]",
-  "answer_text": "0\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n15",
-  "explanation_text": "Sol.\n \nGiven : \n2\n2\n1\n1\n( )\n6\n9\n(\n3)\nf z\nz\nz\nz\n=\n=\n+\n+\n+\n( )\nf z\n  has pole at \n3\nz\n = \u2212\n of order 2.\nGiven we have a unity radius circle with center at origin.\nImg\n1\n( 2, 0)\n\u2212\n(1, 0)\nRe\n( 3, 0)\n\u2212\n(0, 0)\n( 1, 0)\n\u2212\nSince, no pole lie inside or on the contour.\nC\nf z dz\n =\n\uf0f2\n\uf0d1\nTherefore, \n( )\n0"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c37391b6de1542145d54d1c783f0423f148b1568b9387cfcea03e972c10473b
+size 995

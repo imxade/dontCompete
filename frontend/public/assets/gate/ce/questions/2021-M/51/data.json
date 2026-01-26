@@ -1,11 +1,3 @@
-{
-  "id": "51",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "2.92",
-  "question_text": "Question 51\nAn unlined canal under regime conditions along with a silt factor of 1 has a width of flow 71.25 m. \nAssuming the unlined canal as a wide channel, the corresponding average depth of flow (in m, round off \nto two decimal places) in the canal will be _______.",
-  "answer_text": "2.92",
-  "explanation_text": "Sol.\n \nGiven :\nSilt factor = 1\nWidth of flow = 71.25\n5/2\n2\n2\n140 5\nAf\nfR\n\uf0e6\n\uf0f6\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n5/2\n2\n2\n140 5\nBD f\nf\nD\n\uf0e6\n\uf0f6\n=\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(\n)\n5/2\n2\n71.25\n1\n140\n1\n5\nD\nD\n\uf0e6\n\uf0f6\n\u00d7\n\u00d7 =\n\u00d7 \u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(\n)\n5/2\n5/2\n2\n0.5089\n5\nD\nD\n\uf0e6\n\uf0f6\n\u00d7\n=\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(\n)\n3/2\n5.029\nD\n=\n3/2\n2.94m\nD\n="
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cee6b1b0c4a8a58326ec8dabc545a349f1374f6c1107936a8dfaa5f2194022f
+size 960

@@ -1,11 +1,3 @@
-{
-  "id": "24",
-  "stream": "mechanical-engineering",
-  "packet": "2021-N",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "C",
-  "question_text": "Question 24\nThe allowance provided in between a hole and a shaft is calculated from the difference between\nMechanical Measurement and Meterology (Limit ,fit Tolerance)\n(A) lower limit of the shaft and upper limit of the hole\n(B)upper limit of the shaft and upper limit of the hole\n(C) upper limit of the shaft and lower limit of the hole\nD)lower limit of the shaft and lower limit of the hole",
-  "answer_text": "C",
-  "explanation_text": "Sol. \nThe allowance provided between a hole and shaft is calculated from the different between upper limit of \nshaft and upper limit of hole.\nAllowance = UL of shaft and LL of hole.\nHence, the correct option is (C)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fb753887a7e7b522ed60ea1ec5293b48eb98adb63e66d0de0711f09983a3905
+size 813

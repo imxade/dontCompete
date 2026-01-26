@@ -1,11 +1,3 @@
-{
-  "id": "2",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "2.22\n\nGATE 2020 \n [Afternoon Session]\n \nCivil Engineering\nPAGE\n4",
-  "question_text": "Question 2\nThe maximum applied load on a cylindrical concrete specimen of diameter 150 mm and length 300 mm \ntested as per the split tensile strength test guidelines of IS 5816 : 1999 is 157 kN. The split tensile strength \n(\nin MPa, round off to one decimal place\n) of the specimen is _________.",
-  "answer_text": "2.22\n\nGATE 2020 \n [Afternoon Session]\n \nCivil Engineering\nPAGE\n4",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc9f1cd853cffffcbd2f758905934e8dfaadd1c10538fee728b5631c0b95e9bb
+size 630

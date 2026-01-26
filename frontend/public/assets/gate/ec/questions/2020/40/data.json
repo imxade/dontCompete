@@ -1,11 +1,3 @@
-{
-  "id": "40",
-  "stream": "electronics-and-communication-engineering",
-  "packet": "2020",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 40\nThe magnetic field of a uniform plane wave in vacuum is given by\n\u02c6\n\u02c6\n\u02c6\n( , , , )\n(\n2\n)cos(\n3\n)\nx\ny\nz\nH x y z t\na\na\nba\nt\nx\ny\nz\n\uf03d\n\uf02b\n\uf02b\n\uf077\uf02b\n\uf02d\n\uf02d\n\uf072\n.\nThe value of \nb\n is_______________. \nAns. \n(1)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\n Magnetic field of uniform plane wave is,\n\u02c6\n\u02c6\n\u02c6\n( , , , )\n(\n2\n)cos(\n3\n)\nx\ny\nz\nH x y z t\na\na\nba\nt\nx\ny\nz\n\uf03d\n\uf02b\n\uf02b\n\uf077\uf02b\n\uf02d\n\uf02d\n\uf072\n\uf05b\n\uf05d\n\u02c6\n\u02c6\n\u02c6\n( , , , )\n(\n2\n)cos\n( 3\n)\nx\ny\nz\nH x y z t\na\na\nba\nt\nx\ny\nz\n\uf03d\n\uf02b\n\uf02b\n\uf077\uf02d\uf02d\n\uf02b\n\uf02b\n\uf072\nPropagation vector is given by,\n\u02c6\n\u02c6\n\u02c6\n3\nx\ny\nz\nk\na\na\na\n\uf03d\uf02d\n\uf02b\n\uf02b\n\uf072\nFrom Maxwell\u2019s equation,\n0\nk H\n\uf0d7\n\uf03d\n\uf072\n\uf072\n\u02c6\n\u02c6\n\u02c6\n\u02c6\n\u02c6\n\u02c6\n( 3\n) (\n2\n)\n0\nx\ny\nz\nx\ny\nz\na\na\na\na\na\nba\n\uf02d\n\uf02b\n\uf02b\n\uf0d7\n\uf02b\n\uf02b\n\uf03d\n3 2\n0\nb\n\uf02d\uf02b\uf02b\uf03d\n1\nb\n \uf03d\n\nGATE 2020 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n55\n\nHence, the value of \nb\n is 1."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30565576e8b2aceeed9205748ccbb5fa2323d89cabfe9452483fb8e690f7b3b5
+size 1423

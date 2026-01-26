@@ -1,11 +1,3 @@
-{
-  "id": "52",
-  "stream": "civil-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "3.48",
-  "question_text": "Question 52\nA retaining wall of height 10 m with clay backfill is shown in the figure (not to scale). Weight of the \nretaining wall is 5000 kN per m acting at 3.3 m from the toe of the retaining wall. The interface friction \nangle between base of the retaining wall and the base soil is \n0\n20\n . The depth of clay placed in front of the \nretaining wall are the same. Assume that the tension crack is filled with water. Use Rankine\u2019s earth \npressure theory. Take unit weight of water, \n2\n9.81kN/m\nw\n\u03b3 =\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n33\n\nClay\n3\n17.2kN/m\n\u03b3 =\n0\n0\n\u03c6 =\n10 m\n2\n30kN/m\nc\n=\n2.0 m Clay\nBase soil\n3.3 m\n\n5000 kN\nThe factor of safety (round off to two decimal places) against sliding failure of the retaining wall after \nignoring the passive earth pressure will be _______.",
-  "answer_text": "3.48",
-  "explanation_text": "Sol.\nZ\nc\n10 m\n6.512\nW\n = 5000 kN\nP\nw\nP\np \n(ignore)\nf \n= \nN \n\u03bc\n13.9\n3.488\nc\nZ\n =\n(tan )W\nf\nN\n= \u03bc\n=\n\u03b4\n45.2\nw\nP\n =\n, \n2\n1\n490.5 kN\n2\nw\nw\nP\nH\n=\n\u03b3\n=\n(tan )(5000)\n45.2\n490.5\nw\nw\nN\nFOS\nP\nP\n\u03bc\n\u03b4\n=\n=\n+\n+\n(tan 20)(5000)\n3.48\n522.027\n=\n=\nFOS"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cb2ad0c7215fd1d78dd596842ab6b7654e75322fdba07f60939c0d5ea392c7e
+size 1380

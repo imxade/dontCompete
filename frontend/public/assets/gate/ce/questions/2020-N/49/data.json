@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question\n 49\nPermeability tests were carried out on the samples collected from two different layers as shown in the \nfigure (\nnot drawn to the scale\n). The relevant horizontal (\nh\nk\n ) and vertical\n(\n)\nv\nk\ncoefficients of permeability\nare indicated for each layer\n\nGATE 2020 \n [Afternoon Session]\n \nCivil Engineering\nPAGE\n16\n\nGround level\n3\n1\n4.4 10\nm/s\nh\nk\n\u0004\n\u0003\n\u0005\n3m\n3\n1\n4 10\nm/s\nv\nk\n\u0004\n\u0003\n\u0005\nLayer 1\n1\n2\n6 10\nm/s\nh\nk\n\u0004\n\u0003\n\u0005\n4m\n1\n2\n5.5 10\nm/s\nv\nk\n\u0004\n\u0003\n\u0005\nLayer 2\nThe ratio of the equivalent horizontal to vertical coefficients of permeability, is  \n \n(A) \n37.29 \n(B) 80.20 \n(C) 68.25 \n(D) 0.03 \nAns. \n(A) \nQuestion\n 50 \n \nThe ion product of water \n(\n)\nw\npK\n is 14. If a rain water sample has a pH of 5.6, the concentration of \nOH\n \n\uf02d\nin the sample (in \n9\n10\n\uf02d\n mol/litre\n, round off to one decimal place\n), is _______. \nAns. \n3.98 \nQuestion\n 51 \n \nA constant-head permeability test was conducted on a soil specimen under a hydraulic gradient of 2.5. \nThe soil specimen has specific gravity of 2.65 and saturated water content of 20%. If the coefficient of \npermeability of the soil is 0.1 cm/s, the seepage velocity (in cm/s\n, round off to two decimal places\n) through \nthe soil specimen is _______. \nAns. \n0.721 \nQuestion\n 52 \n \nA 5 m high vertical wall has a saturated clay backfill. The saturated unit weight and cohesion of clay are\n3\n18kN/m\n  and 20 kPa, respectively. The angle of internal friction of clay is zero. In order to prevent\ndevelopment of tension zone, the height of the wall is required to be increased. Dry sand is used as backfill \nabove the clay for the increased portion of the wall. The unit weight and angle of internal friction of sand\nare \n3\n16kN/m\n and \n0\n30\n , respectively. Assume that the back of the wall is smooth and top of the backfill is\nhorizontal. To prevent the development of tension zone, the minimum height (in m\n, round off to one \ndecimal place\n) by which the wall has to be raised is _______. \nAns. \n2.5 \nQuestion\n 53\n  \n \nA\n4 4\n\uf0b4\n matrix\n[ ]\nP\n is given below\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf02d\n\uf0ea\n\uf0fa\n\uf03d\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n0\n1\n3\n0\n2\n3\n0\n4\n[ ]\n0\n0\n6\n1\n0\n0\n1\n6\n\nP\n\nThe eigenvalues of \n[ ]\nP\n  are\n(A) \n1,2,3,4 \n(B) 1,2,5,7 \n(C) 0,3,6,6 \n(D) 3,4,5,7 \nAns. \n(B)\n\nGATE 2020 \n [Afternoon Session]\n \nCivil Engineering\nPAGE\n17\n",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3da7853dcd5a21190b1d0a6e202176c1352442836e2897993c7dea085f0a6cc
+size 2746

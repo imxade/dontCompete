@@ -1,11 +1,3 @@
-{
-  "id": "43",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 43 \n \n \n[Environmental Engineering : Air Pollution]\n\nPAGE\n34\n\nFor assessing the compliance with the emissions standards of incineration plants, a correction needs to be \napplied to the measured concentrations of air pollutants.  The emission standard (based on 11% Oxygen)\nfor HCl is 50 \n3\nmg / Nm\n  and the measured concentrations of HCl and Oxygen in flue gas are \n3\n42mg / Nm\nand \n13%\n , respectively. \n \nAssuming 21% Oxygen in air, the CORRECT statement is : \n \n(A) No compliance, as the corrected HCl emission is greater than the emission standard. \n \n(B) Compliance is there, as the corrected HCl emission is lesser than the emission standard. \n \n(C) Compliance is there, as there is no need to apply the correction since Oxygen is greater than 11%\nand HCl emission is lesser than the emission standard. \n \n(D) No compliance, as the Oxygen is greater than 11% in the flue gas. \nAns. (A)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven : Emission standard (based on 11% oxygen)\nFor \n3\nHCl\n50 mg / Nm\n\uf03d\nMeasured concentration of HCl and oxygen in flue gas are 42 mg/Nm\n3\n and 13% respectively.\nAs per CPCB,\nCalculated emission concentration at the standard percentage oxygen concentration (ES)\n\uf02d\n\uf03d\n\uf0b4\n\uf02d\n21 OS\nES\nEM\n21 OM\nEM = Measured emission concentration at the standard percentage oxygen concentration\nOS = Standard oxygen concentration\nOM = Measured oxygen concentration\nSo,\n\uf02d\n\uf03d\n\uf0b4\n\uf03d\n\uf03e\n\uf02d\n3\n3\n21 11\nES\n42\n52.5mg / Nm\n50mg / Nm\n21 13\nHere, no compliance as the corrected HCl emission is greater than the emission standard.\nHence, the correct options is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a15864efe0b54c10997a57f780d0ceb0af1f3d349c3cd5c52958e300f38fcae
+size 1849

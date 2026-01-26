@@ -1,11 +1,3 @@
-{
-  "id": "40",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "(C)",
-  "question_text": "Question 40\nWater in a container at \n290 K \nis exposed to air containing \n3% \n2\nCO\n  \nby volume. Air behaves like an ideal gas\nand is maintained at \n100 kPa \npressure. The liquid phase comprising of dissolved \n2\nCO\n  \nin water behaves like\nan ideal solution. Use Henry\u2019s constant of \n2\nCO\n  \ndissolved in water at \n290 K \nas \n12 MPa\n. Under equilibrium\nconditions, which one of the following is the CORRECT value of the mole fraction of \n2\nCO\n  \ndissolved in water?  \n[Mass Transfer, 2 Marks]\n \n \n(A) \n4\n2.9 10\n\uf02d\n\uf0b4\n \n \n(B) \n4\n0.9 10\n\uf02d\n\uf0b4\n \n \n(C) \n4\n2.5 10\n\uf02d\n\uf0b4\n \n \n(D) \n4\n0.5 10\n\uf02d\n\uf0b4\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n26\n",
-  "answer_text": "(C)",
-  "explanation_text": "Sol. \nHenry Law \n\uf0ae\n \npi\nHxi\n\uf03d\n \n \n \n \n \n \n\u2026 (i)\nRault\u2019s Law \n\uf0ae\n \ni\npi\ny P\n\uf03d\n \n \n \n \n \n \n\u2026 (ii)\ni\nHxi\ny P\n\uf03d\n6\n3\n(12 10 )\n(0.03)(100 10 )\ni\nx\n\uf0b4\n\uf03d\n\uf0b4\n4\n2.5 10\ni\nx\n\uf02d\n\uf03d\n\uf0b4"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a6b4646461e18e38ee5a987fd6ba2cc2c13fb829b27188590a8419810dc8415
+size 1230

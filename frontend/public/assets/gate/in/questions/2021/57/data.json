@@ -1,11 +1,3 @@
-{
-  "id": "57",
-  "stream": "instrumentation-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "A\n2\n2\np\nq\np\nq\npq\n+\n\u2295\n=\n \nB",
-  "question_text": "Question 57 \n \n \n \n \n \n \nAptitude\n2\n2\np\nq\np\nq\npq\n+\n\u2295\n=\n and\n2\np\np\nq\n,\nq\n=\n\uf065\n \nif x \n\u2295\ny\nLet \n\u2295\n and \n\uf065\n are two operators on numbers p and q such that\n= 2\n\uf065\n2, then x will be equal to   \n \n \n \n \n[1 Mark]\n(A) y \n(B) 2y \n(C) y/2 \n(D) 3y/2",
-  "answer_text": "A\n2\n2\np\nq\np\nq\npq\n+\n\u2295\n=\n \nB",
-  "explanation_text": "Sol.\n \nGiven :\n2\n2\nx\ny\nx\ny\nxy\n+\n\u2295\n=\n \n \n \n\u2026(i)\n\u2234\n2\np\np\nq\nq\n=\n\uf065\nand\n2\n2\n2\n2\n2\n2\n=\n=\n\uf065\n  \n \n \n\u2026(ii)\n\u2234\nFrom equation (i) and (ii),\n2\n2\nx\ny\n2\nxy\n+\n=\n\n\u2234\n  \n2\n2\nx\ny\n2xy\n0\n+\n\u2212\n=\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n52\n\n2\n(x\ny)\n0\n\u2212\n=\n\u2234\n  \nx\ny\n=\n satisfy the condition. \nQuestion 58 \n \n \n \n \n \n \nAptitude\nIn a company, 35% employees drink coffee, 40% drink tea and 10% drink both tea and coffee. Then how \nmuch % of employees will neither drink tea nor coffee?  \n \n \n[1 Mark]\n(A) 25 \n(B) 35 \n(C) 40 \n(D) 15\nSol. \nGiven :\n \nEmployees drink coffee = 35%\nEmployees drink tea = 40%\nEmployees drink both tea and coffee = 10%\nSo from above data we can easily sketch Venn diagram,\nCoffee\nTea\n25\n30\n10\nCoffee\nTea\n25 10\n30\n65%\n+\n+\n=\n employees are those who either takes coffee or tea or both.\nBoth\nBoth\n\u2234\n \n(100\n65)%\n35%\n\u2212\n=\n are those who neither take coffee nor tea."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1bb3863af9043b33eadfa13b92de337a52eb58392fa05f9d50ee2efa05f1230
+size 1667

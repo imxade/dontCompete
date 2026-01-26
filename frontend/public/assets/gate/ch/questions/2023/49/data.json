@@ -1,11 +1,3 @@
-{
-  "id": "49",
-  "stream": "chemical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "5.20 to 5.30 \nSol.\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n33\n\nWet air 10% H O\n2\nCaCl  pellets\n2\n\nLet 100 mol of wet air entering the bed\nAt inlet \u2013\nmol of dry air \n90 mol\n\uf03d\nmol of water\n10 mol\n\uf03d\nAt exit \u2013\nmol of dry air \n90 mol\n\uf03d\nmol of water\n5 mol\n\uf03d\nmol% of water vapor in product \n5\n100\n95\n\uf03d\n\uf0b4\n5.26%\n\uf03d",
-  "question_text": "Question 49 \n \nWet air containing 10 mole percent water vapor is dried by continuously passing it through a column of\n2\nCaCl\n  pellets. The pellets remove 50 percent of water from wet air entering the column. The mole percent\nof water vapor in the product stream exiting the column is ___________ (rounded off to two decimal \nplaces). \n \n \n \n \n[Mass Transfer, 2 Marks]",
-  "answer_text": "5.20 to 5.30 \nSol.\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n33\n\nWet air 10% H O\n2\nCaCl  pellets\n2\n\nLet 100 mol of wet air entering the bed\nAt inlet \u2013\nmol of dry air \n90 mol\n\uf03d\nmol of water\n10 mol\n\uf03d\nAt exit \u2013\nmol of dry air \n90 mol\n\uf03d\nmol of water\n5 mol\n\uf03d\nmol% of water vapor in product \n5\n100\n95\n\uf03d\n\uf0b4\n5.26%\n\uf03d",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f40584ba1a12ed0dc576ce7733b2b22639db4709b9648ce7c80746d2f0131927
+size 1378

@@ -1,11 +1,3 @@
-{
-  "id": "35",
-  "stream": "electrical-engineering",
-  "packet": "2024",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "50 to 50 \nSol. \nGiven Circuit is Shown below\nM\nTh\n10A\nL\nI\n\uf03d\n\uf02b\n10\u03bcF\n\uf02d\nL\nConstant\n50V\n\uf02b\nLoad\n\uf02d\nFD\nCurrent\nA\nTh\n\n\nPAGE\n38\n\n\uf02d\n\uf0b4\n\uf0b4\n\uf03d\n\uf03d\n6\nCV\nt\nI\n10 10\n50\n10\nS\ncm\n\n0\n50 \u03bcsec\ncm\nt\n\uf03d\nHence the correct Answer is 50.\nQ.36 to Q.65 Carry TWO Marks Each",
-  "question_text": "Question 35  \n \n  \n[Power Electronics : Chopper]\nA forced commutated thyristorized step - down chopper is shown in the figure. Neglect the ON - state \ndrop across the power devices. Assume that the capacitor is initially charged to 50 V with the polarity \nshown in the figure. The load current \n(\n)\nL\nI\n can be assumed to be constant at 10 A. Initially, \nM\nTh\n  is ON\nand \nA\nTh\n  is OFF. The turn \u2013 off time available to \nM\nTh\n  in microseconds, when \nA\nTh\n  is triggered, is\n_______(rounded off to the nearest integer)\nM\nTh\n10A\nL\nI\n\uf03d\n\uf02b\n10\u03bcF\n\uf02d\nL\nConstant\n50V\n\uf02b\nLoad\n\uf02d\nFD\nCurrent\nA\nTh",
-  "answer_text": "50 to 50 \nSol. \nGiven Circuit is Shown below\nM\nTh\n10A\nL\nI\n\uf03d\n\uf02b\n10\u03bcF\n\uf02d\nL\nConstant\n50V\n\uf02b\nLoad\n\uf02d\nFD\nCurrent\nA\nTh\n\n\nPAGE\n38\n\n\uf02d\n\uf0b4\n\uf0b4\n\uf03d\n\uf03d\n6\nCV\nt\nI\n10 10\n50\n10\nS\ncm\n\n0\n50 \u03bcsec\ncm\nt\n\uf03d\nHence the correct Answer is 50.\nQ.36 to Q.65 Carry TWO Marks Each",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b137bb39748935ebca3697be539c21f37a0f85aa0e27229573d26898c300fca
+size 1558

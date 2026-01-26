@@ -1,11 +1,3 @@
-{
-  "id": "11",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 11 \n[Engineering Mathematics : Differential Equations]\nThe smallest positive root of the equation\n5\n4\n3\n2\n5\n10\n50\n9\n45\n0\nx\nx\nx\nx\nx\n\uf02d\n\uf02d\n\uf02b\n\uf02b\n\uf02d\n\uf03d\nlies in the range\n(A) \n0\n2\nx\n\uf03c\n\uf0a3\n \n(B) \n2\n4\nx\n\uf03c\n\uf0a3\n(C) \n6\n8\nx\n\uf0a3\n\uf0a3\n \n(D) \n10\n100\nx\n\uf0a3\n\uf0a3\n \nAns. (A)",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \nGiven :\n5\n4\n3\n2\n( )\n5\n10\n50\n9\n45\n0\nf x\nx\nx\nx\nx\nx\n\uf03d\n\uf02d\n\uf02d\n\uf02b\n\uf02b\n\uf02d\n\uf03d\n(0)\n0\n45\nf\n\uf03d\n\uf02d\n \n \n\uf0de\n Negative\n5\n(2)\n(2)\n65 80\n200 18 45\nf\n\uf03d\n\uf02d\n\uf02d\n\uf02b\n\uf02b\n\uf02d\n(2)\n60\nf\n\uf03d\n \n \n\uf0de\n Positive\nIf \n( )\nf x\n  is continuous on [\na,b\n] and \n( )\nf a\n  and \n( )\nf b\n  are of opposite sign then there exist at least one\npoint \nc\n on [\na,b\n] such that \n( )\n0\nf c\n \uf03d\n. So atleast one root lying between (0,2)\n[ ( )\n]\nf b\nve\n\uf03d\uf02b\nb\nx\na\n[ ( )\n]\nf a\nve\n\uf03d\uf02d\n\n\nPAGE\n9\n\nHence the correct option is (A)."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d4963f892a298767205c63d671bb67adea081f7bcd34195e598a7d5c6b307c5
+size 1229

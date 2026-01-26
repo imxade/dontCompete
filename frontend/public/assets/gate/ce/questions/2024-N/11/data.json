@@ -1,11 +1,3 @@
-{
-  "id": "11",
-  "stream": "civil-engineering",
-  "packet": "2024-N",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 11 \n \n[Engineering Mathematics : Differential Equations]\n \n \nA partial differential equation\n2\n2\n0\nT\nT\nx\ny\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\n\uf0b6\n\uf0b6\n2\n2\nis defined for the two-dimensional field \n: ( , ),\nT T x y\n inside a planar square domain of size \n2\n2 .\nm\nm\n\uf0b4\n Three\nboundary edges of the square domain are maintained at value \n50,\nT\n \uf03d\nwhereas the fourth boundary edge\nis maintained at \n100.\nT\n \uf03d\n \n \nThe value of \nT\n at the center of the domain is\n(\nA\n)\n  50.0 \n(\nB\n)\n 62.5\n\nPAGE\n9\n\n(\nC\n)\n 75.0 \n(\nD\n)\n  87.5",
-  "answer_text": "(B)",
-  "explanation_text": "Sol.\n \nTemperature at centre = Average of temperature at sides\n100\n50\n50\n0\nC\n\n50\n50\n50\n50 100\n62.5\n4\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf03d\nHence, the correct option is (B). \nQuestion 12 \n \n[Engineering Mathematics : Linear Algebra]\n \n \nThe statements \nP\n and \nQ\n are related to matrices \nA\n and \nB\n, which are conformable for both addition and \nmultiplication.\nP: \nT\nT\nT\n(\n)\n\uf02b\n\uf03d\n\uf02b\nA\nB\nA\nB\nQ: \nT\nT\nT\n(\n)\n \uf03d\nAB\nA B\nWhich one of the following options is CORRECT? \n \n(A)  \nP\n is TRUE and \nQ\n is FALSE \n(B)  Both \nP\n and \nQ\n are TRUE \n \n(C)  \nP\n is FALSE and \nQ \nis TRUE \n(D)  Both \nP\n and \nQ\n are FALSE \nAns.\n \n(A)\nSol.\n \nGiven :\n:(\n)\nT\nT\nT\nP\nA\nB\nA\nB\n\uf02b\n\uf03d\n\uf02b\n:(\n)\nT\nT\nT\nQ\nAB\nA B\n\uf03d\nAccording to properties of a matrix.\n(i) \n(\n)\nT\nT\nT\nA\nB\nA\nB\n\uf02b\n\uf03d\n\uf02b\nThe sum of transpose of matrices is equal to the transpose of the sum of two matrices.\n(ii) \n(\n)\nT\nT\nT\nAB\nB A\n\uf03d\nThe product of the transpose of two matrices in reverse order is equal to the transpose of the \nproduct of them.\nHence the correct option is (A).\n\n\nPAGE\n10\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:394fbdd218a2a449f7373a265a04a7f2ef4ea512be90186f7872eb5cf0899eab
+size 2003

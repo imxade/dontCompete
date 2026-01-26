@@ -1,11 +1,3 @@
-{
-  "id": "5",
-  "stream": "civil-engineering",
-  "packet": "2020-M",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 5\nA planar elastic structure is subjected to uniformly distributed load, as shown in the figure (\nnot drawn to \nthe scale\n)\n\nGATE 2020 \n [Forenoon Session]\n \nCivil Engineering\nPAGE\n8\n\n12kN/m\n2.4m\nParabolic pro\ufb01le\n8.0m\nNeglecting self-weight, the maximum bending moment generated in the structure (\nin kN.m, round off to \nthe nearest integer\n), is _______. \nAns. \n96",
-  "answer_text": "",
-  "explanation_text": "Sol.\n \n12 8\n48 kN\n2\n2\nA\nB\nwL\nV\nV\n\u00d7\n=\n=\n=\n=\nAs horizontal thrust is zero so it behaves like a beam (curved beam)\n2\n2\n12 8\n96 kNm\n8\n\u00d7\n=\n=\nmax\n8\nwL\nM\n=\n(At crown)\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d56e5ec056905cc0ae03849ef0e5b2caa80492b9ae44ed5baaa7bb3ca08b8104
+size 790

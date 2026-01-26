@@ -1,11 +1,3 @@
-{
-  "id": "39",
-  "stream": "civil-engineering",
-  "packet": "2020-N",
-  "year": "2020",
-  "type": "MCQ",
-  "key": "413.59",
-  "question_text": "Question\n 39\nTwo steel plates are lap jointed in a workshop using 6 mm thick fillet weld as shown in the figure (\nnot \ndrawn to the scale\n), The ultimate strength of the weld is 410 MPa.\n120mm\nFillet\nweld\n200mm\n\nAs per Limit State Design of IS 800: 2007, the design capacity (in kN,\n round off to three decimal places\n) \nof the welded connection, is _____.",
-  "answer_text": "413.59",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:80f6a6be146c7ac5a7fcadd5d2384f0016061513761230d5184af75126740ca9
+size 571

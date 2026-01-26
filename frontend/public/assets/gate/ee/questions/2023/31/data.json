@@ -1,11 +1,3 @@
-{
-  "id": "31",
-  "stream": "electrical-engineering",
-  "packet": "2023",
-  "year": "2023",
-  "type": "MCQ",
-  "key": "4 (4 to 4)",
-  "question_text": "Question 31 \nSignals & Systems (basic of signal)\nFor the signals \n( )\nx t\n  and \n( )\ny t\n  shown in the figure, \n( )\n( )\n( )\n*\nz t\nx t\ny t\n\uf03d\n is maximum at \n1\n.\nt\nT\n\uf03d\n Then \n1\nT\n  in\nseconds is _______. (round off to the nearest integer).\n( )\ny t\n2\n1\nt\n0\n1\n\uf02d\n2\n\uf02d\n3\n\uf02d\n1 \n2 \n3 \n4\n5 \n6 \n7\n1\n\uf02d\n2\n\uf02d\n( )\nx t\n3\n2\n1\nt\n0\n1 \n2 \n3 \n4\n5 \n6 \n7 \n1\n\uf02d\n1\n\uf02d\n2\n\uf02d\n3\n\uf02d\n2\n\uf02d",
-  "answer_text": "4 (4 to 4)",
-  "explanation_text": "Sol. \nGiven signal \ny\n(\nt\n) and \nx\n(\nt\n) is shown in figure below,\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n23\n\n( )\ny t\n2\n1\nt\n0\n1\n-\n2\n-\n3\n-\n1 \n2 \n3 \n4\n5 \n6 \n7\n1\n-\n2\n-\n\n( )\nx t\n3\n2\n1\nt\n5 \n6 \n7 \n1\n-\n1\n-\n2\n-\n3\n-\n0\n1 \n2 \n3 \n4\n2\n-\n\n\uf0a5\n\uf02d\uf0a5\n\uf03d\n\uf074\n\uf02d\uf074\n\uf074\n\uf0f2\nGiven : \n( )\n( )\n( )\nz t\nx t\ny t\n\uf03d\n\uf02a\n( ) (\n)\ny\nx t\nd\n(\n)\nx t\n \uf02d\uf074\ncan be plotted as shown below,\nx t\n(  \u2013 )\n\uf074\n1\n\uf074\n0\n\u2013 \n t\n1 +\n1 +\n t\n\nMaximum value of convolution will be obtained when positive portion of \n( )\ny\n \uf074\n is multiplied with \n(\n)\nx t\n \uf02d\uf074\n\uf05c\n \n1\n5\nt\n\uf02b\uf03d\n4 sec\nt\n \uf03d\nAt \n4 sec\nt\n \uf03d\n, maximum value of convolution will be obtained.\nHence, the correct answer is 4."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1f2c94695fa2ff38f93bd207672fca5c91fea5a6922eb14ffe0a0a7e0c046f2
+size 1577

@@ -1,11 +1,3 @@
-{
-  "id": "33",
-  "stream": "mechanical-engineering",
-  "packet": "2021-M",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 33 \n \nA pressure measurement device fitted on the surface of a submarine located at a depth of \nH \n below the \nsurface of an ocean, reads an absolute pressure of \n4.2 MPa\n . The density of  sea water is \n3\n1050kg/m ,\nthe atmospheric pressure is 101 kPa, and the acceleration due to gravity is \n2\n9.8m/s . The depth \nH\n is\n__________ m.\nFluid Mechanics (Pressure Measurement) \nAns. \n398.347  \nSol.\n \nGiven : \n \n \n101 Pa\natm\nP\nk\n=\n6\n4.2MPa = 4.2 10 Pa\nP\n =\n\u00d7\n3\n1050\n/\nsea\nkg m\n\u03c1\n=\n101kPa\natm\nP\n\u0003\nH\natm\nsea\nP\nP\ngH\n\u0003\n\u0004 \u0005\natm\naea\nP\nP\ngH\n=\n+ \u03c1\nSubmarine\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n30\n\n6\n3\n4.2 10\n101 10\n1050 9.8\nH\n\u00d7\n=\n\u00d7\n+\n\u00d7\n\u00d7\n \n \n \n  \n398.347 m\nH\n =",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1979abe3dd46efb72cdd812b98063179fb3738898534489c039ab4eeeaf728fa
+size 1019

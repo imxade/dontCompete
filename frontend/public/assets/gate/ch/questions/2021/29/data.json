@@ -1,11 +1,3 @@
-{
-  "id": "29",
-  "stream": "chemical-engineering",
-  "packet": "2021",
-  "year": "2021",
-  "type": "MCQ",
-  "key": "(B)",
-  "question_text": "Question 29\nWater of density \n3\n1000 kg m\n\u2212\n flows in a horizontal pipe of 10 cm diameter at an average velocity of\n1\n0.5 ms .\n\u2212\n The following plot shows the pressure measured at various distances from the pipe entrance.\n1250\n1205\n1200\nPressure measured, Pa\n1152\n1150\n1112\n1100\n1074\n1037\n1050\n1000\n1000\n950\n0\n1\n2\n3\n4\n5\n6\n7\nDistance from the entrance of the pipe, m\nUsing the data shown in the figure, the Fanning friction factor in the pipe when the flow is FULLY \nDEVELOPED is\n(A) 0.0082 \n \n(B) 0.0074 \n(C) 0.0106 \n(D) 0.0012",
-  "answer_text": "(B)",
-  "explanation_text": "Sol. \nWater  \n3\n( )\n1000 kg/m\nP\n =\n( ) diameter\n10 cm,\nd\n=\n2\n5 10  cm\nr\n\u2212\n= \u00d7\n1\n0.5 m/sec\n5 10\navg\nV\n\u2212\n=\n= \u00d7\nf\nReneloping\nRegion Vary\nDeveloped\nRegion\nOut\nx\nFind out panning friction factor in the pipe when the flow is fully developed is\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n29\n\n?\nf\n =\n2\n2\n\u03c9\n\u03c4\n=\n  \n \n \n\u2026 (i)\navg\nf\nPu\n\nand   \n2\nr\ndP\nr\ndx\n\uf0e6\n\uf0f6\n\u03c4 = \u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nat wall  \n2\ndP\nR\ndx\n\u03c9\n\uf0e6\n\uf0f6\n\u03c4 = \u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n  \n \n\u2026 (ii)\nFrom 1074 to 1037 to 1000 constant\ndP\ndx\n\u2212\n\uf0e6\n\uf0f6\n=\n= \u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n37\n37\n1\nwall\n\uf0e9\n\uf0f9\n\uf0e6\n\uf0f6\n\u2212\n\u00d7\n\uf0e7\n\uf0f7\n\uf0ea\n\uf0fa\n\u2212\u2212\n\u00d7 \u00d7\n\uf0e8\n\uf0f8\n\uf0eb\n\uf0fb\n=\n=\n\u00d7\n\u00d7\ndP\nR\ndx\nf\nPu\n2\n2\n( 37) 5 10\n1000 (5 10 )\n2\n\u2212\nwall\n\n2\n1 2\n\u2212\n2\n\u2212\n2\n37 5 10\n0.0074\n1000 5 5 10\n\u2212\n\u00d7 \u00d7\n=\n=\n\u00d7 \u00d7 \u00d7\n \n \n \n \n \n \nAns.\n"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:80d6132241175fb8620e07632bd932255a8a03db50abdffa403b8a5b5467c294
+size 1907

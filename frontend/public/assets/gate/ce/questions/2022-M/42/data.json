@@ -1,11 +1,3 @@
-{
-  "id": "42",
-  "stream": "civil-engineering",
-  "packet": "2022-M",
-  "year": "2022",
-  "type": "MCQ",
-  "key": "",
-  "question_text": "Question 42\nAt a traffic intersection, cars and buses arrives according to independent position processes at an average \nrate of 4 veh/hr and 2 veh/hr respectively. The probability of observing at test 2 vehicles in 30 minutes \nis_______(round off to Two decimal place)",
-  "answer_text": "",
-  "explanation_text": ""
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9621f937b5a2a8d7215a361ba259c8511133aeb4298e7801df75a20ac0896350
+size 461

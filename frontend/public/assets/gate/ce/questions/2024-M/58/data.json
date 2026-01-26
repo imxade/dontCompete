@@ -1,11 +1,3 @@
-{
-  "id": "58",
-  "stream": "civil-engineering",
-  "packet": "2024-M",
-  "year": "2024",
-  "type": "MCQ",
-  "key": "4.40 to 4.70",
-  "question_text": "Question 58 \n \n  \n[Fluid Mechanics : Open Channel Flow]\nA spillway has unit discharge of \n3\n7.5 m /s/m\n.  The flow depth at the downstream horizontal apron is 0.5\nm.  The tail water depth (in meters) required to form a hydraulic jump is _________ (rounded off to 2 \ndecimal places).\n\nPAGE\n50\n",
-  "answer_text": "4.40 to 4.70",
-  "explanation_text": "Sol.\n \nGiven,\nUnit discharge \n3\n7.5 m / s / m\n\uf03d\nFlow depth at the downstream horizontal apron \n\uf028\n\uf029\n1\n0.5m\ny\n\uf03d\nThe tail water depth required is,\n\uf028\n\uf029\n2\n\uf02b\n\uf03d\n2\ny y\ny\ny\ng\n1\n2\n1\n2\nq\n2\n2\n0.5\n(0.5\n)\n7.5\n9.81\n2\ny\ny\n\uf0b4\n\uf02b\n\uf03d\n2\n\n2\n4.55m\ny\n \uf03d"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1b25fd7c591ce075d1e1f6d6c7973c2bdb1b24e8eb3f3a32ee16c1f653343ed
+size 853
