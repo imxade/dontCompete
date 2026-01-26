@@ -12,9 +12,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { APP_CONFIG } from './src/config'
 
 const config = defineConfig({
-  // Base path for GitHub Pages deployment
-  // Set VITE_BASE_PATH environment variable to your repo name (e.g., '/dont-compete/')
-  base: process.env.VITE_BASE_PATH || '/',
+  base: '/dontcompete/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

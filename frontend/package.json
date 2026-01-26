@@ -6,7 +6,7 @@
     "dev": "vite dev",
     "_dev": "vite dev --port 3000",
     "build": "vite build",
-    "build:gh-pages": "vite build",
+    "build:static": "NITRO_PRESET=static vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "format": "biome format",
