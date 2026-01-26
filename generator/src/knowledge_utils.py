@@ -142,13 +142,13 @@ def parse_classification_responses(con):
                             subject_name = normalize_subtopic(subject_name)
                             subtopic_name = normalize_subtopic(subtopic_name)
                         
-                        if subject_name not in stream_subtopics[stream_code]:
-                            stream_subtopics[stream_code][subject_name] = []
+                        if isinstance(question_ids, list) and len(question_ids) > 0:
+                            if subject_name not in stream_subtopics[stream_code]:
+                                stream_subtopics[stream_code][subject_name] = []
 
-                        if subtopic_name not in stream_subtopics[stream_code][subject_name]:
-                            stream_subtopics[stream_code][subject_name].append(subtopic_name)
-                        
-                        if isinstance(question_ids, list):
+                            if subtopic_name not in stream_subtopics[stream_code][subject_name]:
+                                stream_subtopics[stream_code][subject_name].append(subtopic_name)
+                            
                             for q_id in question_ids:
                                 q_id = str(q_id).strip()
                                 question_mappings.append((q_id, subject_name, subtopic_name, stream_code))
