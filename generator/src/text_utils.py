@@ -23,7 +23,10 @@ def normalize_subtopic(name):
     # 4. Remove punctuation (keep alphanumeric and spaces)
     name = re.sub(r'[^\w\s]', '', name)
     
-    # 5. Collapse multiple spaces and strip
+    # 5. Remove 'section-<no.>-' prefixes
+    name = re.sub(r'^section\s*\d+\s*', '', name)
+    
+    # 6. Collapse multiple spaces and strip
     name = ' '.join(name.split())
     
     # 6. Remove trailing noise words and symbols
