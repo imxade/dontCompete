@@ -81,7 +81,7 @@ def generate_classification_prompts(con, stream_code, batch_size=None, max_batch
         q_context = "\n\n".join(q_list)
         all_question_ids = [q[0].rstrip('.') for q in batch]
         
-        prompt = f"""You are classifying GATE CS exam questions. Read the syllabus and classify each question.
+        prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize questions into the provided syllabus structure.
 
 SYLLABUS:
 {syllabus_text}
@@ -93,42 +93,44 @@ Section GA: General Aptitude
 - Spatial Aptitude: Transformation of shapes (translation, rotation, scaling, mirroring, assembling, grouping), paper folding, cutting, and patterns in 2D and 3D.
 
 Section Other: Unclassifiable
-- Use this category ONLY if the question clearly does not fit into any Computer Science or General Aptitude topic.
+- STRICT WARNING: Use this category ONLY if the question is completely irrelevant to the syllabus (e.g., a question about cooking in a CS exam). 
+- If a question has ANY technical keywords that appear in the syllabus, you MUST find a match. 
+- Misclassifying a valid syllabus question as "Other" is a failure.
 
 QUESTIONS TO CLASSIFY:
 {q_context}
 
 YOUR TASK:
-Classify all {len(batch)} questions above. For each question:
-1. Find the matching subject (CS Subject, "General Aptitude", or "Other").
-2. Find the specific subtopic (if General Aptitude, use "Verbal Ability", "Numerical Ability", etc. If Other, use "Unclassifiable").
-3. Use the exact question ID (the ID= value shown above).
-4. **CRITICAL**: For subtopic names, you MUST use the exact name as listed in the syllabus. Do not paraphrase, do not singularize/pluralize, do not add "Concept". Copy it exactly, otherwise there might be duplicate subtopics due to minor variations in multiple runs.
+For each question:
+1. **Analyze (Thinking)**: Break down the question, identify core concepts, and match them against the syllabus keywords.
+2. **Classify**: Map it to a Subject and a specific Subtopic.
+3. **Format**: Use the exact question ID (the ID= value shown above).
 
-OUTPUT FORMAT:
-Return ONLY a JSON object. No explanations, no markdown code blocks, just the JSON.
-
-Example structure:
-{{
-  "Digital Logic": {{
-    "Boolean Algebra": ["{all_question_ids[0]}"],
-  }},
-  "General Aptitude": {{
-    "Verbal Ability": ["{all_question_ids[1] if len(all_question_ids) > 1 else all_question_ids[0]}"],
-    "Spatial Aptitude": ["{all_question_ids[2] if len(all_question_ids) > 2 else all_question_ids[0]}"]
-  }},
-  "Other": {{
-    "Unclassifiable": []
-  }}
-}}
+PROCESS:
+1. First, provide a `<thinking>` section where you briefly analyze each question (max 2 sentences per question).
+2. Then, provide the final result in a single JSON block.
 
 CRITICAL RULES:
-1. Output ONLY the JSON object
-2. Use real CS subject names from the syllabus
-3. **STRICTLY** use subtopic names exactly as they appear in the syllabus. Look for comma or semicolon separated terms in the syllabus text.
-4. Include ALL {len(batch)} question IDs exactly as shown (ID= values)
-5. Do NOT add spaces, periods, or modify the IDs
-6. Each question ID must appear exactly once
+1. **Think First**: Use the `<thinking>` tag before the JSON.
+2. **No Lazy Mapping**: Do not use "Other" unless you have tried matching against every single syllabus item.
+3. **Exact Names**: Use subtopic names EXACTLY as they appear in the syllabus.
+4. **All Questions**: Include ALL {len(batch)} question IDs exactly as shown.
+5. **JSON Only**: After the thinking section, output ONLY the JSON object. No explanations.
+
+Example Output:
+<thinking>
+1. ID={all_question_ids[0]}: Analyzed concepts X and Y. These are fundamental to Boolean Algebra in Digital Logic.
+2. ID={all_question_ids[1]}: Topic involves English grammar, which fits under General Aptitude -> Verbal Ability.
+</thinking>
+
+{{
+  "Digital Logic": {{
+    "Boolean Algebra": ["{all_question_ids[0]}"]
+  }},
+  "General Aptitude": {{
+    "Verbal Ability": ["{all_question_ids[1]}"]
+  }}
+}}
 
 JSON OUTPUT:
 """
