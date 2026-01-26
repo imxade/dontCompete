@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 11\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n15\n\nA machine part in the form of cantilever beam is subjected to fluctuating load as shown in the figure. \nThe load varies from 800 N to 1600 N. The modified endurance, yield and ultimate strengths of the \nmaterial are 200 MPa. 500 MPa and 600 MPa, respectively.\nBeam \nCross-section\n800 N to 1600 N\n20\n100\n12\nThe factor of safety of the beam using modified Goodman criterion is_________ (round off to one \ndecimal place).\nAll dimensions are in mm\nMachine Design (Dynamic Loading) \nAns. \n2 \nSol.\n \nGiven : \n200MPa\ne\n\u03c3 =\n500MPa\nyt\nS\n=\n600MPa\nut\nS\n=\nM\nbd\n\u00d7\n\u00d7\n=\n=\n\u00d7\n2\n2\n6\n6 1600 100\nmax\nmax\nA\nB\n\u03c3\n= \u03c3\nat \nA\n due to 1600 N\n(\n)\n12\n20\nmax\n200MPa\nA\n\u03c3\n=\nmin\nmin\nA\nB\n\u03c3\n= \u03c3\nat \nA\n due to 800N\n(\n)\nmin\n2\n6 800 100\n100MPa\n12\n20\nA\n\u00d7\n\u00d7\n\u03c3\n=\n=\n\u00d7\nGoodman criterion, \n1\nN\nut\ne\nS\n\u03c3\n\u03c3\n+\n\u2264\n\u03c3\nm\na\nmax\nmin\n150MPa\n2\nm\n\u03c3\n+ \u03c3\n\u03c3 =\n=\nmax\nmin\n50MPa\n2\na\n\u03c3\n\u2212\u03c3\n\u03c3 =\n=\n150\n50\n1\n600\n200\nN\n+\n\u2264\n2\nN\n \u2264\n \n \n \n \n2\nN\n \u2248\nLanger, \n1\nN\nyt\nyt\nS\nS\n\u03c3\n\u03c3\n+\n\u2264\nm\na\n150\n50\n1\n500\n500\nN\n+\n\u2264\n2.5\nN\n \u2264\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n16\n\nAccording to modified Goodman criteria, we will select the smaller value of factor of safety from the \nabove two values. So, factor of safety will be 2. \nQuestion 12 \n \nConsider a single degree of freedom system comprising a mass M, supported on a spring and a dashpot \nas shown in the figure\nSpring\nDashpot\nIf the amplitude of free vibration response reduces from 8 mm to 1.5 mm in 3 cycles, that damping \nratio of the system is _________. (round off to three decimal places).\nMechanical Vibration (Damping Ratio) \nAns. \n0.088\n=\n\uf0fc\n\uf0fd\n=\n\uf0fe\nx\n8 mm\n3 cycle\n1.5 mm",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n \n \n0\nx\n3\nx\ne\nx\n3\n0\n\u03b4\n=\n3\n3\n8\n1.5\ne\n \n\u03b4\n=\n\n0.558\n\u03b4 =\n2\n2\n0.558\n1\n\u03c0\u03be\n=\n\u2212\u03be\n\n0.088\n\u03be="
+}

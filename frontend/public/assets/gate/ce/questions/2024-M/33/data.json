@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 33 \n[Structural Analysis : Determinacy & Indeterminacy (Static & Kinematic)] \n \nThe plane frame shown in the figure has fixed support at joint A, hinge support at joint F, and roller \nsupport at joint I.  In the figure, \nA\n  to I indicate joints of the frame.\nIf the axial deformations are neglected, the degree of kinematic indeterminacy is _______ (in integer). \nAns. 9 to 9",
+  "answer_text": "",
+  "explanation_text": "Sol.\nC\nD\nG\nB\nE\nH\ny\nA\nx\nF\n\n\nPAGE\n23\n\nFrom inextensibility of BF & BA,\nx\nB\n0\nB\n0\ny\n\uf044\n\uf03d\n\uf044\n\uf03d\nFrom inextensibility of BE and EF\n1\nx\nE\n0\nE\n0\ny\n\uf044\n\uf03d\n\uf044\n\uf03d\nFrom inextensibility of CE and BC\nx\nC\n0\nC\n0\ny\n\uf044\n\uf03d\n\uf044\n\uf03d\nFrom inextensibility of BD and CD,\nx\ny\nD\n0\nD\n0\n\uf044\n\uf03d\n\uf044\n\uf03d\nFrom inextensibility of DG,\nx\nG\n0\n\uf044\n\uf03d\nFrom inextensibility of EH and HF,\nx\ny\nH\n0\nH\n0\n\uf044\n\uf03d\n\uf044\n\uf03d\nFrom inextensibility FI,\nx\nI\n0\n\uf044\n\uf03d\n\uf0de\n  \nIf at joint \n(F),FB,FE,FH,FI\n are rigidly connected then possible displacements at \nF\nF\n\u03b8\n\uf03d\nIf at joint I, FI and IH are rigidly connected, possible displacements at \nI\nI\n\u03b8\n\uf03d\n.\nHence unknown joint displacements are\nB,\nC,\nD,\nE,\nF,\nG,\nGy\nH,\n1\n\u03b8 \u03b8 \u03b8 \u03b8 \u03b8 \u03b8 \u0394\n,\u03b8 \u03b8\n\uf0de\n  \nk\nD\n9\n\uf03d"
+}

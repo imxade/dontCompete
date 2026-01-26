@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "NAT",
+  "key": "120 \nSol.\n \nGiven : \n5 MHz\nm\nBW\nf\n=\n=\nNyquist rate (N.R) \n2\n2\n2 5\n10 MHz\nm\nBW\nf\n= \u00d7\n=\n= \u00d7 =\nSampling frequency, \n1.5\n.\ns\nf\nN R\n=\n\u00d7\n1.5 10\n15 MHz\ns\nf\n =\n\u00d7\n=\nGiven, \n256\n2\nn\nL\n =\n=\n  \n\u2192\n    Numbers of levels  \n \n \n \n8 bit\nn\n =\n    \n\u2192\n    it should be integer always\nBit rate of PCM, \n8 15\nb\ns\nR\nnf\n=\n= \u00d7\n120 Mbps\nb\nR\n =",
+  "question_text": "Question 26 \n \n \n \n \nCommunication System (NAT)\nA signal having a bandwidth of 5 MHz is transmitted using the Pulse code modulation (PCM) scheme as \nfollows. The signal is sampled at a rate 50% above the Nyquist rate and quantized into 256 levels. The \nbinary pulse rate of the PCM signal in Mbits per second is _______.  \n \n \n[2 Marks]",
+  "answer_text": "120 \nSol.\n \nGiven : \n5 MHz\nm\nBW\nf\n=\n=\nNyquist rate (N.R) \n2\n2\n2 5\n10 MHz\nm\nBW\nf\n= \u00d7\n=\n= \u00d7 =\nSampling frequency, \n1.5\n.\ns\nf\nN R\n=\n\u00d7\n1.5 10\n15 MHz\ns\nf\n =\n\u00d7\n=\nGiven, \n256\n2\nn\nL\n =\n=\n  \n\u2192\n    Numbers of levels  \n \n \n \n8 bit\nn\n =\n    \n\u2192\n    it should be integer always\nBit rate of PCM, \n8 15\nb\ns\nR\nnf\n=\n= \u00d7\n120 Mbps\nb\nR\n =",
+  "explanation_text": ""
+}

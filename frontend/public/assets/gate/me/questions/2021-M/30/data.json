@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 30\nConsider a reciprocating engine with crank radius R and connecting rod of length L. The secondary \nunbalance force for this case is equivalent to primary unbalance force due to a virtual crank \nof__________\nTheory of Machine (Balancing)\n(A) radius \n2\nL\n  rotating at twice the engine speed\n2\n4\nR\nL\n \n rotating at twice the engine speed\n(B) radius\n(C) radius \n4\nR\n  rotating at half the engine speed\n2\n4\nL\nR\n \n rotating at half the engine speed\n(D) radius",
+  "answer_text": "B",
+  "explanation_text": "Sol.\n \nPrimary unbalance = Secondary unbalance\n2\n2\n cos\ncos\nmr\nmr\nn\n\u03c9\n\u03c9\n\u03b8 =\n\u03b8\n\n2\n4\n4\n4\nr\nR\nR\nR\nr\nn\nL\nL\n\u00d7\n=\n=\n=\n\u00d7\nFor secondary,\n2\n\u03c9 = \u03c9"
+}

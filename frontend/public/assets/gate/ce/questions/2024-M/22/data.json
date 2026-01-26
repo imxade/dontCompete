@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 22 \n[Transportation Engineering : Geometrical Design of Highway]\n \n \n \nA car is travelling at a speed of 60 km/hr on a section of a National Highway having a downward gradient \nof 2%. The driver of the car suddenly observes a stopped vehicle on the car path at a distance 130 m ahead, \nand applies brake. If the brake efficiency is 60%, coefficient of friction is 0.7, driver\u2019s reaction time is 2.5\ns, and acceleration due to gravity is \n2\n9.81 m/s ,\n the distance (in meters) required by the driver to bring the\ncar to a safe stop lies in the range\n(A) 126 to 130 \n(B) 41 to 45\n(C) 33 to 37 \n(D) 75 to 79 \nAns. (D)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\nV\n60km/ hr\n\uf03d\n2%\n\uf068\uf03d\nb\n60%\n\uf068\uf03d\nf\n0.7\n\uf03d\nt\n2.5\nr\ns\n\uf03d\n2\ng\n9.81m/s\n\uf03d\n2\nSSD\n0.278\n254 n\nn\nr\nV\nV\nt\nf\n\uf03d\n\uf0b4\n\uf0b4\n\uf02b\n\uf0b4\n\uf02d\n\uf028\n\uf029\n\nb\n2\n60\n0.278 60 2.5\n254 (0.6 0.7\n0.02)\n\uf03d\n\uf0b4\n\uf0b4\n\uf02b\n\uf0b4\n\uf0b4\n\uf02d\n\n77.13m\n\uf03d\nHence, the correct option is (D)."
+}

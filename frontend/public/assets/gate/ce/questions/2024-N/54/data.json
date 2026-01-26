@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 54 \n[Geotechnical Engineering : Origin of Soil & Their Properties]\nThe in-situ percentage of voids of a sand deposit is 50%. The maximum and minimum densities of sand \ndetermined from the laboratory tests are \n3\n1.8 g/cm\n  and \n3\n1.3 g/cm\n , respectively. Assume the specific\ngravity of sand as 2.7. The relative density index of the in-situ sand is __________ (rounded off to 2 \ndecimal places) \nAns. 0.12 to 0.14 OR 12 to 14",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\n3\n1.8 g/cm\nd\n\uf067\n\uf03d\n\nmax\n3\n1.3 g/cm\nd\n\uf067\n\uf03d\n\nmin\n2.7\nG\n \uf03d\nWe know that,\nRelative density \n\uf028\n\uf029\n\uf028\n\uf029\n\uf067\n\uf067\uf02d\uf067\n\uf03d\nd\nd\nd\n\nmax\nmin\n(\n)\nd\nd\nd\nI\nmax\nmin\nD\n\uf067\n\uf067\n\uf02d\uf067\n\uf05c\n Percentage of air voids \n(\n)\na\nn\na\nc\nn\na\nn\n\uf03d\n\uf0b4\n\nPAGE\n47\n\n50%\n1\n n\n\uf03d\uf0b4\n50%\n0.5\nn\n \uf03d\n\uf03d\n\uf05c\n Void ratio\n0.5\n1\n1\n1 0.5\nn\ne\nn\n\uf03d\n\uf03d\n\uf03d\n\uf02d\n\uf02d\n\uf05c\n Dry density \n(\n)\nd\n\uf067\ne\n\uf067\n\uf067\n\uf03d\uf02b\nG\nw\nd\n(\n)\n1\n\uf0b4\n\uf03d\n\uf02b\n2.7 1\n1 1\n3\n1.35 g/cm\n\uf03d\nd\nd\nd\nI\n\uf067\n\uf067\uf02d\uf067\n\uf03d\uf067\n\uf067\n\uf02d\uf067\n(\n)\nd\nd\nd\nD\n\nmax\nmin\n(\n)\nmax\nmin\n1.8(1.35 1.3)\n1.35(1.8 1.3)\nD\nI\n\uf02d\n\uf03d\n\uf02d\n0.1333\nD\nI\n \uf03d\n13.33%\nD\nI\n \uf03d"
+}

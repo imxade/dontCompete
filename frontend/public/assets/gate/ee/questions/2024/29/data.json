@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MSQ",
+  "key": "(B, D)",
+  "question_text": "Question 29 \n[MSQ] \n \n  \n \n[Mathematics : Probability]\nLet \nX\n  be a discrete random variable that is uniformly distributed over the set \n{ 10, 9,...,0,...,9,10}\n\uf02d\n\uf02d\n.\nWhich of the following random variables is/are uniformly distributed ? \n \n \n(1 Mark)\n(A) \n2\nX\n  \n(B) \n3\nX\n2\n(\n5)\nX\n \uf02d\n \n(D)\n2\n(\n10)\nX\n \uf02b\n(C)",
+  "answer_text": "(B, D)",
+  "explanation_text": "Sol. \nGiven : \nX\n is discrete random variable that is uniformly distributed over the set\n\uf07b\n\uf07d\n10, 9,.....,0,.......9,10\n\uf02d\n\uf02d\n\nPAGE\n31\n\nProbability of getting either \n10\n\uf02d\n or \n9\n\uf02d\n or probability of getting either 0, or 9 or 10, all are same i.e. \n1 \n.\n(21)\nFrom option (A) :\n\uf07b\n\uf07d\n2\n100,81,.....,0,.......81,100\nX\n \uf0ae\nHere, probability of getting every number are not same because all the values are not different, therefore\n2\nX\n  is not uniformly distributed. \n \nFrom option (B) :\n\uf07b\n\uf07d\n3\n1000, 729,.......,0,......729,1000\nX\n \uf0ae\uf02d\n\uf02d\nSimilarly, probability of getting every numbers are same because all the values are different.  Therefore,\n3\nX\n  is uniformly distributed. \n \nFrom option (C) :\n\uf028\n\uf029\n\uf028\n\uf029\uf028\n\uf029\n\uf028\n\uf029\n\uf028\uf029\uf028\uf029\n\uf07b\n\uf07d\n2\n2\n2\n2\n2\n2\n5\n15\n,\n14\n,......\n5\n,..... 4\n, 5\nX\n \uf02d\n\uf0ae\n\uf02d\n\uf02d\n\uf02d\n\uf07b\n\uf07d\n225,196,......25,......16,25\n\uf0ae\nHere, probability of getting every numbers are not same  because all values are not different.  Therefore,\n\uf028\n\uf029\n2\n5\nX\n \uf02d\n is not uniformly distributed.\nFrom option (D) :\n\uf028\n\uf029\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\uf028\n\uf029\n\uf07b\n\uf07d\n2\n2\n2\n2\n2\n10\n0, 1\n,....... 10\n,....... 19\n, 20\nX\n \uf02b\n\uf0ae\nHere, probability of getting every numbers are same because all values are different. \n \nHence, the correct options are (B) and (D)."
+}

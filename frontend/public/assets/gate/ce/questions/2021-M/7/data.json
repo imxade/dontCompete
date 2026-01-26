@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 7\nStatements: Either P marris Q or X marris Y\nAmong the options below, the logical \nNEGATION\n of the above statement is :\n(A) Neither P marries Q nor X marries Y. \n(B) P does not marry Q and X marries Y.\n(C) P marries Q and X marries Y. \n(D) X does not marry Y and P marries Q.",
+  "answer_text": "C",
+  "explanation_text": "Sol.\n \nAs we are directed to do logical negation, of given statement, situation of \u201ceither or\u201d will becomes \n\u201cNeither nor\u201d\nas :  \nP\nQ\n=\n \nX\nY\n=\nNegation : \nP\nQ\n\u2260\n \nX\nY\n\u2260\nHence, the correct option is (C)."
+}

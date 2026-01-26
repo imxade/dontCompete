@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 50 \n[Structural Analysis : Influence Line Diagram and Rolling Loads] \n \nThe horizontal beam \nPQRS\n shown in the figure has a fixed support at point \nP\n, an internal hinge at point \nQ\n, and a pin support at point R. A concentrated vertically downward load (\nV\n) of 10 kN can act at any point \nover the entire length of the beam.\n(Figure NOT to scale) \n \nThe maximum magnitude of the moment reaction (in kN. m) that can act at the support P due to V is \n____________ (in integer). \nAns. 150 to 150",
+  "answer_text": "",
+  "explanation_text": "Sol.\n15m\n10m\n5m\nQ\nP\n\nILD for moment at \nP\n,\nP\nQ\nR\n7.5 m\nS\n1\n\uf071\uf03d\n1\n\n15 m\n\uf05c\n Maximum moment at \nP\n will be when load is at \nQ\n,\nmax\n(\n)\n10kN 15m\n150 kN-m\nBM\n\uf03d\n\uf0b4\n\uf03d"
+}

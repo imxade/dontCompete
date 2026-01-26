@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(D)\n2\n(\n)\nu u\nv u\nu\ng\nT\nT\nx\ny\ny\n\uf0a5\n\uf0b6\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\uf062\n\uf02d\n\uf02b\uf0b6\n\uf0b6\n\uf0b6\n\uf0b6\n2",
+  "question_text": "Question 15\nIn the following two-dimensional momentum equation for natural convection over\n \na surface immersed in \na quiescent fluid at temperature \nT\n\uf0a5\n (\ng\n is the gravitational\n \nacceleration, \n\uf062\n \nis the volumetric thermal\nexpansion coefficient, \nv\n \nis the kinematic\n \nviscosity, \nu \nand \nv\n are the velocities in \n\ud835\udc65\n and \n\ud835\udc66\n directions, \nrespectively, and \nT\n is the\n \ntemperature)\n2\n(\n)\nu\nu\nu\nu\nv\ng\nT\nT\nv\nx\ny\ny\n\uf0a5\n\uf0b6\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\n\uf062\n\uf02d\n\uf02b\n\uf0b6\n\uf0b6\n\uf0b6\n , the term \n(\n)\ng\nT\nT\n\uf0a5\n\uf062\n\uf02d\n \nrepresents\n2\n\n(A) Ratio of inertial force to viscous force. \n(B) Ratio of buoyancy force to viscous force.\n(C) Viscous force per unit mass. \n(D) Buoyancy force per unit mass.",
+  "answer_text": "(D)\n2\n(\n)\nu u\nv u\nu\ng\nT\nT\nx\ny\ny\n\uf0a5\n\uf0b6\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\uf062\n\uf02d\n\uf02b\uf0b6\n\uf0b6\n\uf0b6\n\uf0b6\n2",
+  "explanation_text": "Sol.\nWe know that\nBuoyancy force,  \n3\n(\n)\n(\n)\nB\nC\nF\nm g\nT\nT\nL g\nT\nT\n\uf0a5\n\uf0a5\n\uf03d\n\uf0b4\uf062\n\uf02d\n\uf03d\uf072\n\uf062\n\uf02d\n\uf0a5\n\uf072\n\uf062\n\uf02d\n\uf03d\n\uf03d\uf062\n\uf02d\n\uf072\n3\n3\n(\n)\n(\n)\nmass\nF\nL g\nT\nT\ng\nT\nT\nL\n\uf0a5\n\nB\nC\nC\nHence, the correct option is (D)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "1.36",
+  "question_text": "Question 1\n                                  \n \n \nThe wheels and axle system lying on a rough surface is shown in the figure. Each wheel has diameter 0.8 \nm and mass 1 kg. Assume that the mass of the wheel is concentrated at rim and neglect the mass of spokes. \nThe diameter of axle is  0.2 m and its mass is 1.5 kg. Neglect the moment of Inertia of axle and assume\n2\n9.81 m/s\ng\n =\n. An effort of 10 N is applied on the axle in the horizontal direction shown at mid span of\nthe axle. Assume that the wheels move on a horizontal surface without slip. The acceleration of the wheel \nthe axle system in horizontal direction is _______ \n2\nm/s\n  (round off to one decimal place).\nEngineering Mechanics (Dynamics)\nWheel\nAxle\ng\n0.2 m\n0.8m\n10 N",
+  "answer_text": "1.36",
+  "explanation_text": "Sol.\nMethod-I\n\u03b1\nG\n10N\n0.1m\n0.4\na\n =\n\u03b1\n0.4m\nf\n\n1 kg\nW\nM\n=\naxle\n1.5 kg\nM\n=\nInertia of axle (to be neglect)\n(2 1) 1.5\n3.5 kg\nM\n =\n\u00d7\n+\n=\n2\n2\n2(1) 0.4\n0.32 kgm\nG\nI\n=\n\u00d7\n=\nF\nma\n\u03a3\n=\n10\n3.5\n3.5 0.4\nf\na\n\u2212\n=\n=\n\u00d7\n\u03b1\n1.4\n10\nf\n +\n\u03b1 =\n \n \n \n \n\u2026 (i)\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n7\n\nG\nG\nT\nI\n\u03a3\n=\n\u03b1\n0.4 10 0.1\n0.32\nf\n \u00d7\n\u2212\n\u00d7\n=\n\u03b1\n0.4\n0.32\n1\nf\n \u2212\n\u03b1 =\n  \n \n \n \n\u2026 (ii)\nSolving (i) and (ii),\n5.227 N\nf\n =\n2\n3.4091 rad/s\n\u03b1 =\n2\n0.4\n3.4091 0.4\n1.36 m/s\na\n = \u03b1\u00d7\n=\n\u00d7\n=\nMethod-II\n10\nI\n0.3\nf\n\n2\n[\n(1 0.4 )] 2\nw\nw\nI\nG\nI\nI\n=\n+\n\u00d7\n\u00d7\n2\n2\n[(1 0.4 )\n(1 0.4 )] 2\n=\n\u00d7\n+\n\u00d7\n\u00d7\n0.64\n=\n2\n(1.5\n0.4 )\nI\nG\naxle\naxle\nI\nI\n=\n+\n\u00d7\n0.24\n=\n0.64\n0.24\n0.88\nI\nI\n =\n+\n=\nI\nI\nT\nI\n\u03a3\n=\n\u03b1\n10\n0.3\n0.88\n\u00d7\n=\n\u03b1\n3.4091\n\u03b1 =\n2\n3.4091 0.4\n1.36 m/s\na\n =\n\u00d7\n="
+}

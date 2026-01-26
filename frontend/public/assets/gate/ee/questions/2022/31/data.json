@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "5 (Range : 4.95 to 5.50)",
+  "question_text": "Question 31 \n \n \nNetwork Theory\nIn the circuit shown below, the switch \nS\n is closed at \n0.\nt\n \uf03d\n The magnitude of the steady state voltage, in\nvolts, across the \n6\n\uf057\n resistor is ______. (round off to two decimal places).\n6\n\uf057\n3\n\uf057\n10\n \uf057\n1 F\n\uf06d\n2\n\uf057\n10V\nS\n",
+  "answer_text": "5 (Range : 4.95 to 5.50)",
+  "explanation_text": "Sol.\n \nGiven circuit is shown below,\n6\n\uf057\n3\n\uf057\n1 F\n\uf06d\n10\n\uf057\n2\n\uf057\n10 V\ns\n\nAt steady state : \nSwitch \ns\n  is closed.\nIn steady state capacitor behaves as open circuit.\n+\n\u2013\nV\n6\n\uf057\n3\n\uf057\n10\n\uf057\nO.C.\n2\n\uf057\n\n10 V\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n28\n\nAfter simplification,\n\nApplying voltage division rule, \n2 10\n5V\n2\n2\nV\n\uf0b4\n\uf03d\n\uf03d\n\uf02b\nHence, the magnitude of steady state voltage across \n6\n\uf057\n resistor is 5 V."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)\n3\n( )\n;\n1\n1\nf x\nx\nx\n\uf03d\n\uf02d\uf0a3\n\uf03c",
+  "question_text": "Question 4\nThe Fourier series expansion of \n3\nx\n  \nin the interval \n1\n1\nx\n\uf02d\uf0a3\n\uf03c\n with periodic\n \ncontinuation has\n(A) Only sine terms\n(B) Only cosine terms\n(C) Both sine and cosine terms\n(D) Only sine terms and a non-zero constant",
+  "answer_text": "(A)\n3\n( )\n;\n1\n1\nf x\nx\nx\n\uf03d\n\uf02d\uf0a3\n\uf03c",
+  "explanation_text": "Sol.\n \nGiven :\n Function\nThe above function \n( )\nf x\n  is odd.\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n11\n\nWe know that, odd function contains only odd terms,\n\uf070\n\uf070\n\uf0e9\n\uf0f9\n\uf03d\n\uf02b\n\uf02b\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n\uf0e5\n\uf0a5\na\nn x\nn x\nf x\na\nb\nT\nT\n0\n1\n( )\ncos\nsin\n2\nn\nn\nn\n\uf03d\n0\na\n  and \nn\na\n  will be zero.\nTherefore, the given function \n( )\nf x\n  contains only sine term.\nHence, the correct option is (A)."
+}

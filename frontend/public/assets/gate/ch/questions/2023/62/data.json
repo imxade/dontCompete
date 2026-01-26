@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 62 \n \nThe transfer function of a measuring instrument is\n1.05\n( )\nexp(\n)\n2\n1\nm\nG\ns\ns\ns\n\uf03d\n\uf02d\n\uf02b\n\nAt time \n\ud835\udc61 \n= 0, a step change of +1 unit is introduced in the input of this instrument. The time taken by \nthe instrument to show an increase of 1 unit in its output is _____ (rounded off to two decimal places).\n[Instrumentation and Process Control, 2 Marks]\n \nAns. \n6.99 to 7.19\n\uf02d\n\uf03d\n\uf03d\n\uf02b\nS",
+  "answer_text": "",
+  "explanation_text": "Sol. \n( )\n1.05\n( )\n( )\n2\n1\nY S\ne\nG\nS\nX S\nS\nm\nSince step response of first order plus delay system is \u2013\n\uf0e6\n\uf0f6\n\uf02d\uf074\n\uf02d\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf074\n\uf0e8\n\uf0f8\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf03d\n\uf02d\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\nt\nd\n( )\n1\nP\nY t\nMK\ne\n\np\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n46\n\nWhere \nd\n\uf074\uf03d\n dead time constant\n\uf02d\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e9\n\uf0f9\n\uf03d\n\uf03d\n\uf02d\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\nt\nY t\ne\n1\n2\n( )\n1.0\n1.05 1\n\n\n\uf02d\n\uf02d\n\uf02d\uf03d\uf02d\n(\n1)\n2\n1.0\n1\n1.05\nt\ne\n\n\uf02d\n\uf0e6\n\uf0f6\n\uf02d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf02d\n\uf03d\uf02d\n1\n2\n0.05\n1.05\nt\ne\n\n5\n1\nln 105\n2\nt\n \uf02d\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\uf02d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n7.089\nt\n \uf03d\n7.1\nt\n \uf03d"
+}

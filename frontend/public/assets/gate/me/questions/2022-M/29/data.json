@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 29\nConsider a forced single degree-of-freedom system governed by \n2\n2\n( )\n2\n( )\n( )\ncos(\n)\nn\nn\nn\nx t\nx t\nx t\nt\n\uf02b\uf07a\uf077\n\uf02b\uf077\n\uf03d\uf077\n\uf077\n,\nwhere \n\uf07a\n and \nn\n\uf077\n are the damping ratio and undamped natural frequency of the system, respectively, while\n\uf077\n is the forcing frequency. The amplitude of the forced steady state response of this system is given by\n\uf02d\n\uf0e9\n\uf0f9\n\uf02d\n\uf02b\n\uf07a\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n, where \n/\n.\nn\nr\n \uf03d\uf077\uf077\nThe peak amplitude of this response occurs at a frequency\n1/2\n2\n2\n2\n1\n2\nr\nr\n\uf028\n\uf029\n\uf028\n\uf029\np\n\uf077\uf03d\uf077\n. If \nd\n\uf077\n denotes the damped natural frequency of this system, which one of the following options\nis true?\n(A) \np\nd\nn\n\uf077\uf03c\uf077\uf03c\uf077\n  \n \n \n(B) \np\nd\nn\n\uf077\uf03d\uf077\uf03c\uf077\n(C) \nd\nn\np\n\uf077\uf03c\uf077\uf03d\uf077\n  \n \n \n(D) \nd\nn\np\n\uf077\uf03c\uf077\uf03c\uf077",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \nGiven\nn\nr\n\uf077\n\uf03d\uf077\n\nr\n\uf077\uf03d\n\uf03d\n\uf02d\uf078\n\uf077\n2\n1 2\nn\n2\n1 2\np\nn\n\uf077\uf03d\uf077\n\uf02d\uf078\n \n \n \n \n \n\u2026 (i)\n\n(\n)\np\n\uf077\uf03d\uf077\n when peak amplitude is occur.\nSo from equation (i) we can conclude \np\nn\n\uf077\uf03c\uf077\nAnd we know that,\n2\n1\nd\nn\n\uf077\uf03d\n\uf02d\uf078\uf077\nDamped frequency,\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n30\n\nValue of \n(\n1)\n\uf078\uf03c\n always\nSo,   \nd\nn\n\uf077\uf03c\uf077\nSo, the sequence will be \np\nd\nn\n\uf077\uf03c\uf077\uf03c\uf077\nHence the correct option is (A)."
+}

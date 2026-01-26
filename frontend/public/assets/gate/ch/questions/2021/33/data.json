@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 33\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n32\n\nFor a shell-and-tube heat exchanger, the overall heat transfer coefficient is calculated as \n2\n1\n250 W m K\n\u2212\n\u2212\nfor a specific process condition. It is expected that the heat exchanger may be fouled during the \noperation, and a fouling resistance of \n2\n1\n0.001 m K W\n\u2212\nis prescribed. The dirt overall heat transfer\ncoefficient is _______\n2\n1\nW m K .\n\u2212\n\u2212\n(A) 200 \n \n(B) 100 \n(C) 150 \n(D) 250",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \n \n \n2\n250 W/m K\nclean\nU\n=\n2\n0.001 m K/W\nf\nR\n =\n?\ndirt\nU\n=\n1\n1\nR\nU\nU\n=\n+\nf\ndirt\nclean\n1\n1\n0.001\n250\ndirt\nU\n=\n+\n2\n200 W/m K\ndirt\nU\n="
+}

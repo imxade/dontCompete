@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A, B, D) \nSol. \nReynold stress, averaged over a sufficiently long time is zero everywhere inside the pipe.\n\u2022\n \nReynolds stress at the pipe wall is zero. \n\u2022\n \nFor Turbulent Flow \u2013 \n \nmax\n0.817\navg\nv\nv\n\uf03d",
+  "question_text": "Question 29 \n \nFor a fully developed turbulent flow of an incompressible Newtonian fluid through a pipe of constant \ndiameter, which of the following statements is/are CORRECT? \n[Fluid Mechanics, 1 Mark]\n \n \n(A) Reynolds stress, averaged over a sufficiently long time, is zero everywhere inside the pipe. \n \n(B) Reynolds stress at the pipe wall is zero. \n \n(C) Average velocity of the fluid is half of its center-line velocity. \n \n(D) Average pressure gradient in the flow direction is constant.",
+  "answer_text": "(A, B, D) \nSol. \nReynold stress, averaged over a sufficiently long time is zero everywhere inside the pipe.\n\u2022\n \nReynolds stress at the pipe wall is zero. \n\u2022\n \nFor Turbulent Flow \u2013 \n \nmax\n0.817\navg\nv\nv\n\uf03d",
+  "explanation_text": ""
+}

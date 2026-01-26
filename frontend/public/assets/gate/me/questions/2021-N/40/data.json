@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 40\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n35\n\nA surface grinding operation has been performed on a Cast Iron plate having dimensions 300 mm (\nlength\n) \n\u00d7\n \n10mm\n (\nwidth\n) \n50mm\n\u00d7\n (\nheight\n). The grinding was performed using an alumina wheel having a wheel \ndiameter of 150 mm and wheel width of 12 mm. The grinding velocity used is 40 m/s, table speed is 5 \nm/min, depth of cut per pass is \n50\u03bcm\n and the number of grinding passes is 20. The average tangential \nand average normal forces for each pass are found to be 40 N and 60 N respectively. The value of the \nspecific grinding energy under the aforesaid grinding condition is __________ \n3\nJ/mm\n  (round off to one \ndecimal place).\nProduction Engineering (Grinding) \nAns.   \nSol. \nQuestion 41\n                                  \n \n \nIn a CNC machine tool, the function of an interpolator is to generate\nProduction Engineering (CNC Machine Toool) \n \n \n(A) error signal for tool radius compensation during machining \n \n(B) reference signal prescribing the shape of the part to be machined \n \n(C) NC code from the part drawing during post processing \n \n(D) signal for lubrication pump during machining \nAns. \nB",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nIn CNC machine tool function of half interpolator is to generate reference signal prescribing the shape of \nthe part to be machined.\nHence, the correct option is (B)."
+}

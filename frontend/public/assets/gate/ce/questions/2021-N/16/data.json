@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 16\nAn activated sludge process (ASP) is designed for  secondary treatment of \n3\n2500 m /day\n of municipal\nwastewater. After primary clarifier, the ultimate BOD of the influent, which enters into ASP reactor is \n200 mg/L Treated effluent after secondary clarifier is required to have an ultimate BOD of 20 mg/L. \nMix liquor volatile suspended solids (MLVSS) concentration in the reactor and the under flow is \nmaintained as 3000 mg/L and  12000 mg/L, respectively.  The hydraulic retention time and mean sale \ncell residence time are 0.2 day and 10 days, respectively. A representative flow diagram of the ASP is \nshown below.\nInfluent after \nprimary clarifier \nASP \nreactor\nSecondary \nclarifier\nTreated effluent\nUnder flow\nReturn flow\nSludge wastage\nThe underflow volume (in m\n3\n/day, round off to one decimal place) of sludge wastage is _____. \nAns. \n37.5 \nSol.\n  \nActivates sludge process, \n3\n0\n7500 m /day\nQ\n =\nUltimate, \n200 mg/L\nu\nBOD\n =\nEffluent \n20 mg/L\nBOD\n =\nHydraulic retention time \n0.2 day\n=\n\u03b8\n10 days\nc\n \n=\n0\n \n+\nR\nQ\nQ\n(\n)\n0\n\u03c9\n+\nE\nQ\nQ\nX\n0\nQ\nAeration\ntank\nSST\n.\nu\nu\nQ X\nR\nQ\n\u03c9\nu\nQ X\n\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n10\n\nV\nQ x\nQ\nQ\nx\n=\n+\n\u2212\n\nx\nc\nw\nu\nw\nE\n0\n\u03b8\n(\n)\nV\nQ x\n=\n\u03b8\nx\nc\nw\nu\n7500\n0.2 3000\n10\n12000\nw\nQ\n\u00d7\n\u00d7\n=\n\u00d7\n3\n37.5 m /day\n=\nw\nQ",
+  "answer_text": "",
+  "explanation_text": ""
+}

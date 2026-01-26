@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 28 \n \nIt is required to control the volume of the contents in the jacketed reactor shown in the figure.\nReactants\nCooling\nWater\n1\nV\n \uf02d\nLT\nL101\nTT\nT101\nCooling\nWater\nTT\nT102\n2\nV\n \uf02d\nFT\nF101\n1\nE\n \uf02d\n3\nV\n \uf02d\nProduct\nWhich one of the following schemes can be used for feedback control? \n \n(A) Measure F101 and manipulate valve V-1 \n(B) Measure L101 and manipulate valve V-3\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n28\n\n(C) Measure T101 and manipulate valve V-1 \n(D) Measure L101 and manipulate valve V-2",
+  "answer_text": "(B)",
+  "explanation_text": ""
+}

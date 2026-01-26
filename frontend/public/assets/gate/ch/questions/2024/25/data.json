@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 25 \n \n \n \n \n \nIn an ammonia manufacturing facility, the necessary hydrogen is generated from methane. The facility \nconsists of the following process units \u2013  \n \nP : Methanator, Q: CO shift convertor, R : CO2 stripper, S : Reformer, T: Ammonia convertor \n \nThe correct order of these units, starting from methane feed is \n[Chemical Technology, 1 Marks] \n \n(A) S, Q, R, P, T \n(B)  P, Q, R, S, T \n \n(C) S, P, Q, R, T \n(D)  P, S, T, Q, R  \nAns. (A)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nSteam Reformer \n\u2192\n \nCO shift convertor  \n\u2192CO\n2\n stripper \n\u2192\nmethanator \n\u2192\n ammonia convertor\nSteam reformer\n \n\u2192\n \nCH\n4(\ud835\udc54)\n + \ud835\udc3b\n2\n\ud835\udc42\n(\ud835\udc54)\n \u2192CO\n2(\ud835\udc54)\n + 3\ud835\udc3b\n2(\ud835\udc54)\nCO Shift Convertor :\nWater gas shift reaction:      \nCO\n(\ud835\udc54)\n + \ud835\udc3b\n2\n\ud835\udc42\n(\ud835\udc54)\n \u2192CO\n2(\ud835\udc54)\n + \ud835\udc3b\n2(\ud835\udc54)\nCO Stripper: \nCO\n2\n is undesirable in Final ammonia product\nThis unit removes \nCO\n2\n from syn gas stream using solvent (ethylamine)\nMethanator : \nA small amount of unreacted methane may be present after reforming. The methanator \nconvert this remaining methane any CO that might have slipped through CO shift reactor back into \nCH\n4\n \nand \nCO\n2\nAmmonia Convertor :\nHaber bosch process \n\u2192\n  \n\ud835\udc41\n2(\ud835\udc54)\n + 3\ud835\udc3b\n2(\ud835\udc54)\n \u21922\ud835\udc41\ud835\udc3b\n3(\ud835\udc54)"
+}

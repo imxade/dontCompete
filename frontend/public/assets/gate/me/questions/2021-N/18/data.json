@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "163840",
+  "question_text": "Question 18 \n \nThe figure shows the relationship between fatigue strength  \n( )\nS\n  and fatigue life \n(\n)\nN\n  of a material. The \nfatigue strength of the material for a life of 1000 cycles is 450 MPa, while its fatigue strength for a life of\n6\n10\n  cycles is 150 MPa.\n10\nlog\nS\n10\nlog\nN\n7\n\nThe life of a cylinder shaft made of this material subjected to an alternating stress of 200 MPa will then \nbe _______ cycles (round off to the nearest integer).\nMachine Design (Fluctuating Stress)",
+  "answer_text": "163840",
+  "explanation_text": "Sol.\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n21\n\n10\nlog ( )\nS\n10\nlog (450)\n1\n10\n( , )\nlog\n, log (200)\nx y\nN\n=\n10\nlog (200)\n2\n10\nlog (150)\n3\nlog(10 )\n3\n=\nlog(\n)\nN\n6\nlog(10 )\n6\n=\nlog(10 )\nN\n\nx\nx\ny\ny\nx\nx\ny\ny\n\u2212\n\u2212\n=\n\u2212\n\u2212\n1\n1\n2\n1\n2\n1\nlog\n200\nlog (450)\n3\n6\n3\nlog (150)\nlog(450)\nx\n\u2212\n\u2212\n=\n\u2212\n\u2212\n10\n10\n10\n5.214421\nx\n =\nlog\n5.214421\nN\n =\n163840.58 cycle\nN\n =\n163840 cycles\nN\n \u2248"
+}

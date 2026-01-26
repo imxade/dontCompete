@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 1 \n \nIn an equilateral triangle \nPQR\n, side \nPQ\n is divided in 4 equal parts, side \nQR\n is divided into 6 equal parts \nand \nPR\n is divided into 8 equal parts. The length of each sub-divided part in cm is an integer. The \nminimum area of triangle \nPQR\n possible, in cm\n2\n, is\n(A) 18 \n \n(B) 144\n 3\n  \n(C) \n48 3\n  \n(D) 24 \nAns. \nB \nSol.\n6 \n8\n\n4\nFor \n,\n,\n4 6 8\na a a\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n to be integer, a must be LCM of 4, 6 and 8. So \na\n = 24\n2\n2\n3\n3\n24\n144 3\n4\n4\na\n=\n=\n\u00d7\n=\nArea\nHence, the correct option is (B). \nQuestion 2 \n \n\u2295\n and \n\uf065\n are 2 operators on numbers p and q such that \np\nq\np\nq\n=\n\u2212\n\uf065\n and \np\nq\np q\n\u2295\n=\n\u00d7\n then\n(\n)\n(\n)\n9\n(6\n7)\n7\n(6\n5)\n\u2295\n\u2295\n=\n\uf065\n\uf065\n\uf065\n(A) 40 \n \n(B) \n40\n\u2212\n \n(C) \n33\n\u2212\n \n(D) \n26\n\u2212\n \nAns. \nB \nSol. \n[9\n(6 7)] [7 1]\n33\n7\n\u2212\n\u00d7\n\u2212\n\u00d7\n= \u2212\n\u2212\n40\n= \u2212\nHence, the correct option is (B). \nQuestion 3\nY\nPHYLAXIS\nThe mirror image of the above text about the x-axis is\nX\n(A) \n \n \n(B)\n(C) \n \n \n(D) \n \nAns. \nC \nSol.\nHence, the correct option is (C).\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n34\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

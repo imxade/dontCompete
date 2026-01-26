@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 32\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n28\n\nAn overhanging beam PQR is subjected to uniformly distributed load 20 kN/m as shown in the figure.\nBeam cross-section\n20 kN/m\ny\nz\nz\nP\nQ\nR\n100\nx\n2000  \n1000\n24\nThe maximum bending stress developed in the beam is_______MPa (round off to one decimal \nplace).\nAll dimensions are in mm\nStrength of Material (Bending Stresses) \nAns. \n250  \nSol.\n20kN/m\nQ\nR\nP\n2m\n1m\n45kN\nQ\nR\n=\n15kN\nP\nR\n =\nTaking \n0\nA\nM\n\u03a3\n=\n,\n2\n(20 3 1.5)\n0\nQ\nR\n \u00d7 \u2212\n\u00d7 \u00d7\n=\n45 kN\nQ\nR\n =\nTaking \n0\ny\nF\n\u03a3\n=\n,\n60\nP\nQ\nR\nR\n+\n=\n45\n60\nP\nR\n +\n=\n15 kN\nP\nR\n =\n20kN/m\nQ\nR\nP\nD\n45kN\nQ\nR\n=\n2m\n1m\n15kN\nP\nR\n =\n15kN\nD\nx\n25kN\nSFD\n\n2\n15\n25\nx\nx\n\u2212\n=\n25\n30 15\nx\nx\n=\n\u2212\n \n \n \n0.75 m\nx\n =\nFor (\n)\n0\nP\nBM\n=\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n29\n\n2\n20\n(\n)\n15\n5.625 kNm\n2\nD\nx\nBM\nx\n=\n\u2212\n=\nFor\nFor \n1\n(\n)\n20 1\n10 kNm\n2\nQ\nBM\n= \u2212\n\u00d7 \u00d7\n= \u2212\nFor (\n)\n0\nR\nBM\n=\nmax\n10 kNm\nM\n=\n6\nmax\n10 10 Nmm\nM\n=\n\u00d7\n50 mm\nN\n100 mm\n\n24 mm\n3\n24 100\n12\nI\n\u00d7\n=\n\nmax\n0 max\nmax\n(\n)\nM\ny\nI\n\u03c3\n=\n6\n0\nmax\n3\n10 10\n12\n(\n)\n50\n250 MPa\n24 100\n\u00d7\n\u00d7\n\u03c3\n=\n\u00d7\n=\n\u00d7\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

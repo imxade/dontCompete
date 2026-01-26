@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "instrumentation-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MSQ",
+  "key": "(A, C)",
+  "question_text": "Question 49 \n[MSQ]\nThe complex functions \n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n,\n,\nf z\nu x y\niv x y\n\uf03d\n\uf02b\n and \n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n,\n,\nf z\nu x y\niv x y\n\uf03d\n\uf02d\n are both analytic in a\ngiven domain.  Choose the correct option(s) from the following. \n \n \n \n(2 Marks)\n(A) \n0\nu\nv\nx\ny\n\uf0b6\n\uf0b6\n\uf03d\n\uf03d\n\uf0b6\n\uf0b6\n \n(B) \n0\nu\nv\ny\nx\n\uf0b6\n\uf0b6\n\uf03d\uf02d\n\uf0b9\n\uf0b6\n\uf0b6\n(C) \n\uf028\uf029\n0\ndf z\ndz\n\uf03d\n \n(D) \n\uf028\uf029\n0\ndf z\ndz\n\uf0b9",
+  "answer_text": "(A, C)",
+  "explanation_text": "Sol.\n \nGiven\n \n:\n The complex function\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n,\n,\nf z\nu x y\niv x y\n\uf03d\n\uf02b\nand  \n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n,\n,\nf z\nu x y\niv x y\n\uf03d\n\uf02d\n are both analytic in a given domain.\nSince \n\uf028\uf029\nf z\n   is analytic it satisfies Cauchy - Riemann equation\ni.e.  \nu\nv\nx\ny\n\uf0b6\n\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\n and \nu\nv\ny\nx\n\uf0b6\n\uf02d\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\nSince \n\uf028\uf029\nf z\n  is analytic it satisfies Cauchy - Riemann equation\n\uf028\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n\uf07b\n\uf07d\n,\n,\nf z\nu x y\nv x y\n\uf03d\n\uf02b\uf02d\ni.e.  \nu\nv\nx\ny\n\uf0b6\n\uf02d\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\n and \nu\nv\ny\nx\n\uf0b6\n\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\nv\nv\ny\ny\n\uf0b6\n\uf02d\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\n and \nv\nv\nx\nx\n\uf0b6\n\uf02d\uf0b6\n\uf03d\n\uf0b6\n\uf0b6\n0\nv\ny\n\uf0b6\uf03d\n\uf0b6\n and \n0\nv\nx\n\uf0b6\uf03d\n\uf0b6\nSimilarly, \n0\nu\nx\n\uf0b6\n\uf03d\n\uf0b6\nand \n0\nu\ny\n\uf0b6\n\uf03d\n\uf0b6\nHence,\n u\n = constant,\n v\n = constant\nTherefore, \n\uf028\uf029\nconstant\nf z\nu\niv\n\uf03d\n\uf02b\n\uf03d\nHence, \n\uf028\uf029\n0\ndf z\ndz\n\uf03d\nHence the correct options are (A) and (C).\n\n"
+}

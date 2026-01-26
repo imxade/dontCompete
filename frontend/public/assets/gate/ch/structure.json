@@ -1,0 +1,810 @@
+{
+  "stream": "ch",
+  "stream_code": "chemical-engineering",
+  "subjects": [
+    {
+      "name": "chemical engineering",
+      "id": "ch_subj_1",
+      "slug": "chemical-engineering",
+      "topics": [
+        {
+          "name": "thermodynamic",
+          "id": "ch_subj_1_topic_1",
+          "slug": "thermodynamic",
+          "md_path": "chemical-engineering/thermodynamic.md",
+          "questions": []
+        },
+        {
+          "name": "inorganic chemistry",
+          "id": "ch_subj_1_topic_2",
+          "slug": "inorganic-chemistry",
+          "md_path": "chemical-engineering/inorganic-chemistry.md",
+          "questions": [
+            "questions/2021/8/"
+          ]
+        },
+        {
+          "name": "calculus",
+          "id": "ch_subj_1_topic_3",
+          "slug": "calculus",
+          "md_path": "chemical-engineering/calculus.md",
+          "questions": []
+        },
+        {
+          "name": "phase equilibria",
+          "id": "ch_subj_1_topic_4",
+          "slug": "phase-equilibria",
+          "md_path": "chemical-engineering/phase-equilibria.md",
+          "questions": [
+            "questions/2021/52/"
+          ]
+        },
+        {
+          "name": "chemical reaction engineering",
+          "id": "ch_subj_1_topic_5",
+          "slug": "chemical-reaction-engineering",
+          "md_path": "chemical-engineering/chemical-reaction-engineering.md",
+          "questions": [
+            "questions/2021/24/"
+          ]
+        },
+        {
+          "name": "catalysis",
+          "id": "ch_subj_1_topic_6",
+          "slug": "catalysis",
+          "md_path": "chemical-engineering/catalysis.md",
+          "questions": [
+            "questions/2021/5/"
+          ]
+        },
+        {
+          "name": "fluid mechanics and mechanical operation",
+          "id": "ch_subj_1_topic_7",
+          "slug": "fluid-mechanics-and-mechanical-operation",
+          "md_path": "chemical-engineering/fluid-mechanics-and-mechanical-operation.md",
+          "questions": [
+            "questions/2021/2/",
+            "questions/2021/51/",
+            "questions/2024/60/"
+          ]
+        },
+        {
+          "name": "process calculations and thermodynamic",
+          "id": "ch_subj_1_topic_8",
+          "slug": "process-calculations-and-thermodynamic",
+          "md_path": "chemical-engineering/process-calculations-and-thermodynamic.md",
+          "questions": [
+            "questions/2021/23/"
+          ]
+        },
+        {
+          "name": "differential equation",
+          "id": "ch_subj_1_topic_9",
+          "slug": "differential-equation",
+          "md_path": "chemical-engineering/differential-equation.md",
+          "questions": [
+            "questions/2021/11/"
+          ]
+        },
+        {
+          "name": "mass transfer",
+          "id": "ch_subj_1_topic_10",
+          "slug": "mass-transfer",
+          "md_path": "chemical-engineering/mass-transfer.md",
+          "questions": [
+            "questions/2021/17/",
+            "questions/2021/22/",
+            "questions/2021/50/"
+          ]
+        },
+        {
+          "name": "mechanical operation",
+          "id": "ch_subj_1_topic_11",
+          "slug": "mechanical-operation",
+          "md_path": "chemical-engineering/mechanical-operation.md",
+          "questions": [
+            "questions/2023/20/",
+            "questions/2023/25/"
+          ]
+        },
+        {
+          "name": "reaction kinetic",
+          "id": "ch_subj_1_topic_12",
+          "slug": "reaction-kinetic",
+          "md_path": "chemical-engineering/reaction-kinetic.md",
+          "questions": [
+            "questions/2023/60/"
+          ]
+        },
+        {
+          "name": "instrumentation and process control",
+          "id": "ch_subj_1_topic_13",
+          "slug": "instrumentation-and-process-control",
+          "md_path": "chemical-engineering/instrumentation-and-process-control.md",
+          "questions": [
+            "questions/2024/64/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mathematic",
+      "id": "ch_subj_2",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "calculus",
+          "id": "ch_subj_2_topic_1",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": [
+            "questions/2021/13/",
+            "questions/2021/30/",
+            "questions/2024/47/"
+          ]
+        },
+        {
+          "name": "thermodynamic",
+          "id": "ch_subj_2_topic_2",
+          "slug": "thermodynamic",
+          "md_path": "engineering-mathematic/thermodynamic.md",
+          "questions": [
+            "questions/2021/16/"
+          ]
+        },
+        {
+          "name": "heat transfer",
+          "id": "ch_subj_2_topic_3",
+          "slug": "heat-transfer",
+          "md_path": "engineering-mathematic/heat-transfer.md",
+          "questions": [
+            "questions/2021/10/"
+          ]
+        },
+        {
+          "name": "vector operation",
+          "id": "ch_subj_2_topic_4",
+          "slug": "vector-operation",
+          "md_path": "engineering-mathematic/vector-operation.md",
+          "questions": [
+            "questions/2021/49/"
+          ]
+        },
+        {
+          "name": "linear algebra",
+          "id": "ch_subj_2_topic_5",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2021/18/",
+            "questions/2024/26/"
+          ]
+        },
+        {
+          "name": "vector identitie",
+          "id": "ch_subj_2_topic_6",
+          "slug": "vector-identitie",
+          "md_path": "engineering-mathematic/vector-identitie.md",
+          "questions": [
+            "questions/2021/40/"
+          ]
+        },
+        {
+          "name": "numerical method",
+          "id": "ch_subj_2_topic_7",
+          "slug": "numerical-method",
+          "md_path": "engineering-mathematic/numerical-method.md",
+          "questions": [
+            "questions/2021/25/",
+            "questions/2024/50/"
+          ]
+        },
+        {
+          "name": "differential equation",
+          "id": "ch_subj_2_topic_8",
+          "slug": "differential-equation",
+          "md_path": "engineering-mathematic/differential-equation.md",
+          "questions": []
+        },
+        {
+          "name": "complex variable",
+          "id": "ch_subj_2_topic_9",
+          "slug": "complex-variable",
+          "md_path": "engineering-mathematic/complex-variable.md",
+          "questions": []
+        },
+        {
+          "name": "probability and statistic",
+          "id": "ch_subj_2_topic_10",
+          "slug": "probability-and-statistic",
+          "md_path": "engineering-mathematic/probability-and-statistic.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "fluid mechanics and mechanical operation",
+      "id": "ch_subj_3",
+      "slug": "fluid-mechanics-and-mechanical-operation",
+      "topics": [
+        {
+          "name": "fluid mechanic",
+          "id": "ch_subj_3_topic_1",
+          "slug": "fluid-mechanic",
+          "md_path": "fluid-mechanics-and-mechanical-operation/fluid-mechanic.md",
+          "questions": [
+            "questions/2021/46/"
+          ]
+        },
+        {
+          "name": "fluid statics surface tension",
+          "id": "ch_subj_3_topic_2",
+          "slug": "fluid-statics-surface-tension",
+          "md_path": "fluid-mechanics-and-mechanical-operation/fluid-statics-surface-tension.md",
+          "questions": [
+            "questions/2021/53/"
+          ]
+        },
+        {
+          "name": "transport properties shell balance",
+          "id": "ch_subj_3_topic_3",
+          "slug": "transport-properties-shell-balance",
+          "md_path": "fluid-mechanics-and-mechanical-operation/transport-properties-shell-balance.md",
+          "questions": []
+        },
+        {
+          "name": "transport propertie",
+          "id": "ch_subj_3_topic_4",
+          "slug": "transport-propertie",
+          "md_path": "fluid-mechanics-and-mechanical-operation/transport-propertie.md",
+          "questions": [
+            "questions/2023/33/"
+          ]
+        },
+        {
+          "name": "equation of continuity equation of motion",
+          "id": "ch_subj_3_topic_5",
+          "slug": "equation-of-continuity-equation-of-motion",
+          "md_path": "fluid-mechanics-and-mechanical-operation/equation-of-continuity-equation-of-motion.md",
+          "questions": [
+            "questions/2023/51/"
+          ]
+        },
+        {
+          "name": "fluid statics and dynamic",
+          "id": "ch_subj_3_topic_6",
+          "slug": "fluid-statics-and-dynamic",
+          "md_path": "fluid-mechanics-and-mechanical-operation/fluid-statics-and-dynamic.md",
+          "questions": []
+        },
+        {
+          "name": "non newtonian fluid",
+          "id": "ch_subj_3_topic_7",
+          "slug": "non-newtonian-fluid",
+          "md_path": "fluid-mechanics-and-mechanical-operation/non-newtonian-fluid.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "instrumentation and process control",
+      "id": "ch_subj_4",
+      "slug": "instrumentation-and-process-control",
+      "topics": [
+        {
+          "name": "measurement standard",
+          "id": "ch_subj_4_topic_1",
+          "slug": "measurement-standard",
+          "md_path": "instrumentation-and-process-control/measurement-standard.md",
+          "questions": [
+            "questions/2021/4/"
+          ]
+        },
+        {
+          "name": "p and id equipment symbol",
+          "id": "ch_subj_4_topic_2",
+          "slug": "p-and-id-equipment-symbol",
+          "md_path": "instrumentation-and-process-control/p-and-id-equipment-symbol.md",
+          "questions": [
+            "questions/2021/31/"
+          ]
+        },
+        {
+          "name": "feedforward controller",
+          "id": "ch_subj_4_topic_3",
+          "slug": "feedforward-controller",
+          "md_path": "instrumentation-and-process-control/feedforward-controller.md",
+          "questions": [
+            "questions/2021/55/"
+          ]
+        },
+        {
+          "name": "transfer functions and dynamic response",
+          "id": "ch_subj_4_topic_4",
+          "slug": "transfer-functions-and-dynamic-response",
+          "md_path": "instrumentation-and-process-control/transfer-functions-and-dynamic-response.md",
+          "questions": [
+            "questions/2021/26/"
+          ]
+        },
+        {
+          "name": "control structure",
+          "id": "ch_subj_4_topic_5",
+          "slug": "control-structure",
+          "md_path": "instrumentation-and-process-control/control-structure.md",
+          "questions": [
+            "questions/2024/23/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "process calculations and thermodynamic",
+      "id": "ch_subj_5",
+      "slug": "process-calculations-and-thermodynamic",
+      "topics": [
+        {
+          "name": "thermodynamic properties of pure substance",
+          "id": "ch_subj_5_topic_1",
+          "slug": "thermodynamic-properties-of-pure-substance",
+          "md_path": "process-calculations-and-thermodynamic/thermodynamic-properties-of-pure-substance.md",
+          "questions": [
+            "questions/2021/41/",
+            "questions/2021/42/"
+          ]
+        },
+        {
+          "name": "first and second laws of thermodynamic",
+          "id": "ch_subj_5_topic_2",
+          "slug": "first-and-second-laws-of-thermodynamic",
+          "md_path": "process-calculations-and-thermodynamic/first-and-second-laws-of-thermodynamic.md",
+          "questions": [
+            "questions/2021/15/"
+          ]
+        },
+        {
+          "name": "steady and unsteady state mass and energy balance",
+          "id": "ch_subj_5_topic_3",
+          "slug": "steady-and-unsteady-state-mass-and-energy-balance",
+          "md_path": "process-calculations-and-thermodynamic/steady-and-unsteady-state-mass-and-energy-balance.md",
+          "questions": [
+            "questions/2021/32/",
+            "questions/2024/38/"
+          ]
+        },
+        {
+          "name": "applications of first law to close and open",
+          "id": "ch_subj_5_topic_4",
+          "slug": "applications-of-first-law-to-close-and-open",
+          "md_path": "process-calculations-and-thermodynamic/applications-of-first-law-to-close-and-open.md",
+          "questions": []
+        },
+        {
+          "name": "fluid flow and pressure drop",
+          "id": "ch_subj_5_topic_5",
+          "slug": "fluid-flow-and-pressure-drop",
+          "md_path": "process-calculations-and-thermodynamic/fluid-flow-and-pressure-drop.md",
+          "questions": [
+            "questions/2021/29/"
+          ]
+        },
+        {
+          "name": "steady state mass balance",
+          "id": "ch_subj_5_topic_6",
+          "slug": "steady-state-mass-balance",
+          "md_path": "process-calculations-and-thermodynamic/steady-state-mass-balance.md",
+          "questions": []
+        },
+        {
+          "name": "heat transfer",
+          "id": "ch_subj_5_topic_7",
+          "slug": "heat-transfer",
+          "md_path": "process-calculations-and-thermodynamic/heat-transfer.md",
+          "questions": []
+        },
+        {
+          "name": "orsat analysis",
+          "id": "ch_subj_5_topic_8",
+          "slug": "orsat-analysis",
+          "md_path": "process-calculations-and-thermodynamic/orsat-analysis.md",
+          "questions": []
+        },
+        {
+          "name": "equations of state",
+          "id": "ch_subj_5_topic_9",
+          "slug": "equations-of-state",
+          "md_path": "process-calculations-and-thermodynamic/equations-of-state.md",
+          "questions": [
+            "questions/2024/57/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mass transfer",
+      "id": "ch_subj_6",
+      "slug": "mass-transfer",
+      "topics": [
+        {
+          "name": "ficks law",
+          "id": "ch_subj_6_topic_1",
+          "slug": "ficks-law",
+          "md_path": "mass-transfer/ficks-law.md",
+          "questions": [
+            "questions/2021/14/",
+            "questions/2021/54/"
+          ]
+        },
+        {
+          "name": "momentum heat and mass transfer analogie",
+          "id": "ch_subj_6_topic_2",
+          "slug": "momentum-heat-and-mass-transfer-analogie",
+          "md_path": "mass-transfer/momentum-heat-and-mass-transfer-analogie.md",
+          "questions": []
+        },
+        {
+          "name": "ficks laws molecular diffusion in fluid",
+          "id": "ch_subj_6_topic_3",
+          "slug": "ficks-laws-molecular-diffusion-in-fluid",
+          "md_path": "mass-transfer/ficks-laws-molecular-diffusion-in-fluid.md",
+          "questions": [
+            "questions/2023/49/",
+            "questions/2024/41/"
+          ]
+        },
+        {
+          "name": "distillation",
+          "id": "ch_subj_6_topic_4",
+          "slug": "distillation",
+          "md_path": "mass-transfer/distillation.md",
+          "questions": [
+            "questions/2023/57/"
+          ]
+        },
+        {
+          "name": "gas liquid equilibria",
+          "id": "ch_subj_6_topic_5",
+          "slug": "gas-liquid-equilibria",
+          "md_path": "mass-transfer/gas-liquid-equilibria.md",
+          "questions": []
+        },
+        {
+          "name": "adsorption equilibrium",
+          "id": "ch_subj_6_topic_6",
+          "slug": "adsorption-equilibrium",
+          "md_path": "mass-transfer/adsorption-equilibrium.md",
+          "questions": []
+        },
+        {
+          "name": "absorption column",
+          "id": "ch_subj_6_topic_7",
+          "slug": "absorption-column",
+          "md_path": "mass-transfer/absorption-column.md",
+          "questions": [
+            "questions/2024/40/"
+          ]
+        },
+        {
+          "name": "vapor liquid equilibrium",
+          "id": "ch_subj_6_topic_8",
+          "slug": "vapor-liquid-equilibrium",
+          "md_path": "mass-transfer/vapor-liquid-equilibrium.md",
+          "questions": [
+            "questions/2024/18/"
+          ]
+        },
+        {
+          "name": "tray column design",
+          "id": "ch_subj_6_topic_9",
+          "slug": "tray-column-design",
+          "md_path": "mass-transfer/tray-column-design.md",
+          "questions": [
+            "questions/2024/65/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "heat transfer",
+      "id": "ch_subj_7",
+      "slug": "heat-transfer",
+      "topics": [
+        {
+          "name": "equation of energy",
+          "id": "ch_subj_7_topic_1",
+          "slug": "equation-of-energy",
+          "md_path": "heat-transfer/equation-of-energy.md",
+          "questions": [
+            "questions/2021/33/"
+          ]
+        },
+        {
+          "name": "solid slab heat transfer",
+          "id": "ch_subj_7_topic_2",
+          "slug": "solid-slab-heat-transfer",
+          "md_path": "heat-transfer/solid-slab-heat-transfer.md",
+          "questions": [
+            "questions/2021/47/"
+          ]
+        },
+        {
+          "name": "equation of energy steady and unsteady heat conduction",
+          "id": "ch_subj_7_topic_3",
+          "slug": "equation-of-energy-steady-and-unsteady-heat-conduction",
+          "md_path": "heat-transfer/equation-of-energy-steady-and-unsteady-heat-conduction.md",
+          "questions": [
+            "questions/2021/1/",
+            "questions/2023/55/"
+          ]
+        },
+        {
+          "name": "thermal boundary layer and heat transfer coefficient",
+          "id": "ch_subj_7_topic_4",
+          "slug": "thermal-boundary-layer-and-heat-transfer-coefficient",
+          "md_path": "heat-transfer/thermal-boundary-layer-and-heat-transfer-coefficient.md",
+          "questions": [
+            "questions/2021/43/"
+          ]
+        },
+        {
+          "name": "heat conduction",
+          "id": "ch_subj_7_topic_5",
+          "slug": "heat-conduction",
+          "md_path": "heat-transfer/heat-conduction.md",
+          "questions": [
+            "questions/2024/39/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chemical reaction engineering",
+      "id": "ch_subj_8",
+      "slug": "chemical-reaction-engineering",
+      "topics": [
+        {
+          "name": "theories of reaction rate",
+          "id": "ch_subj_8_topic_1",
+          "slug": "theories-of-reaction-rate",
+          "md_path": "chemical-reaction-engineering/theories-of-reaction-rate.md",
+          "questions": [
+            "questions/2021/39/"
+          ]
+        },
+        {
+          "name": "reaction matching",
+          "id": "ch_subj_8_topic_2",
+          "slug": "reaction-matching",
+          "md_path": "chemical-reaction-engineering/reaction-matching.md",
+          "questions": [
+            "questions/2021/48/"
+          ]
+        },
+        {
+          "name": "theories of reaction rates kinetics of homogeneous reaction",
+          "id": "ch_subj_8_topic_3",
+          "slug": "theories-of-reaction-rates-kinetics-of-homogeneous-reaction",
+          "md_path": "chemical-reaction-engineering/theories-of-reaction-rates-kinetics-of-homogeneous-reaction.md",
+          "questions": [
+            "questions/2021/12/",
+            "questions/2021/34/",
+            "questions/2021/45/"
+          ]
+        },
+        {
+          "name": "kinetics of heterogeneous catalytic reaction",
+          "id": "ch_subj_8_topic_4",
+          "slug": "kinetics-of-heterogeneous-catalytic-reaction",
+          "md_path": "chemical-reaction-engineering/kinetics-of-heterogeneous-catalytic-reaction.md",
+          "questions": [
+            "questions/2023/58/"
+          ]
+        },
+        {
+          "name": "reaction kinetics and mechanism",
+          "id": "ch_subj_8_topic_5",
+          "slug": "reaction-kinetics-and-mechanism",
+          "md_path": "chemical-reaction-engineering/reaction-kinetics-and-mechanism.md",
+          "questions": []
+        },
+        {
+          "name": "kinetics of homogeneous reaction",
+          "id": "ch_subj_8_topic_6",
+          "slug": "kinetics-of-homogeneous-reaction",
+          "md_path": "chemical-reaction-engineering/kinetics-of-homogeneous-reaction.md",
+          "questions": [
+            "questions/2024/20/"
+          ]
+        },
+        {
+          "name": "single and multiple reactions in ideal reactor",
+          "id": "ch_subj_8_topic_7",
+          "slug": "single-and-multiple-reactions-in-ideal-reactor",
+          "md_path": "chemical-reaction-engineering/single-and-multiple-reactions-in-ideal-reactor.md",
+          "questions": []
+        },
+        {
+          "name": "non ideal reactors residence time distribution single parameter model",
+          "id": "ch_subj_8_topic_8",
+          "slug": "non-ideal-reactors-residence-time-distribution-single-parameter-model",
+          "md_path": "chemical-reaction-engineering/non-ideal-reactors-residence-time-distribution-single-parameter-model.md",
+          "questions": [
+            "questions/2024/62/"
+          ]
+        },
+        {
+          "name": "plug flow reactors pfr",
+          "id": "ch_subj_8_topic_9",
+          "slug": "plug-flow-reactors-pfr",
+          "md_path": "chemical-reaction-engineering/plug-flow-reactors-pfr.md",
+          "questions": [
+            "questions/2024/45/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "plant design and economic",
+      "id": "ch_subj_9",
+      "slug": "plant-design-and-economic",
+      "topics": [
+        {
+          "name": "cost estimation",
+          "id": "ch_subj_9_topic_1",
+          "slug": "cost-estimation",
+          "md_path": "plant-design-and-economic/cost-estimation.md",
+          "questions": [
+            "questions/2021/9/",
+            "questions/2024/49/"
+          ]
+        },
+        {
+          "name": "cost estimation and return on investment",
+          "id": "ch_subj_9_topic_2",
+          "slug": "cost-estimation-and-return-on-investment",
+          "md_path": "plant-design-and-economic/cost-estimation-and-return-on-investment.md",
+          "questions": [
+            "questions/2021/37/"
+          ]
+        },
+        {
+          "name": "cost estimation including depreciation and total annualized cost",
+          "id": "ch_subj_9_topic_3",
+          "slug": "cost-estimation-including-depreciation-and-total-annualized-cost",
+          "md_path": "plant-design-and-economic/cost-estimation-including-depreciation-and-total-annualized-cost.md",
+          "questions": [
+            "questions/2023/65/"
+          ]
+        },
+        {
+          "name": "process economics and cost estimation",
+          "id": "ch_subj_9_topic_4",
+          "slug": "process-economics-and-cost-estimation",
+          "md_path": "plant-design-and-economic/process-economics-and-cost-estimation.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "thermodynamic",
+      "id": "ch_subj_10",
+      "slug": "thermodynamic",
+      "topics": [
+        {
+          "name": "applications of thermodynamic propertie",
+          "id": "ch_subj_10_topic_1",
+          "slug": "applications-of-thermodynamic-propertie",
+          "md_path": "thermodynamic/applications-of-thermodynamic-propertie.md",
+          "questions": [
+            "questions/2021/20/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "ch_subj_11",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "standard deviation calculation",
+          "id": "ch_subj_11_topic_1",
+          "slug": "standard-deviation-calculation",
+          "md_path": "probability-and-statistic/standard-deviation-calculation.md",
+          "questions": [
+            "questions/2021/38/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chemical engineering thermodynamic",
+      "id": "ch_subj_12",
+      "slug": "chemical-engineering-thermodynamic",
+      "topics": [
+        {
+          "name": "thermodynamic properties of pure substance",
+          "id": "ch_subj_12_topic_1",
+          "slug": "thermodynamic-properties-of-pure-substance",
+          "md_path": "chemical-engineering-thermodynamic/thermodynamic-properties-of-pure-substance.md",
+          "questions": [
+            "questions/2023/40/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mechanical operation",
+      "id": "ch_subj_13",
+      "slug": "mechanical-operation",
+      "topics": [
+        {
+          "name": "elementary boundary layer theory",
+          "id": "ch_subj_13_topic_1",
+          "slug": "elementary-boundary-layer-theory",
+          "md_path": "mechanical-operation/elementary-boundary-layer-theory.md",
+          "questions": [
+            "questions/2023/23/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logical reasoning",
+      "id": "ch_subj_14",
+      "slug": "logical-reasoning",
+      "topics": [
+        {
+          "name": "pattern recognition",
+          "id": "ch_subj_14_topic_1",
+          "slug": "pattern-recognition",
+          "md_path": "logical-reasoning/pattern-recognition.md",
+          "questions": [
+            "questions/2024/9/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chemical technology",
+      "id": "ch_subj_15",
+      "slug": "chemical-technology",
+      "topics": [
+        {
+          "name": "inorganic chemical industrie",
+          "id": "ch_subj_15_topic_1",
+          "slug": "inorganic-chemical-industrie",
+          "md_path": "chemical-technology/inorganic-chemical-industrie.md",
+          "questions": [
+            "questions/2024/25/"
+          ]
+        },
+        {
+          "name": "general processe",
+          "id": "ch_subj_15_topic_2",
+          "slug": "general-processe",
+          "md_path": "chemical-technology/general-processe.md",
+          "questions": [
+            "questions/2024/29/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "ch_subj_16",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "verbal ability",
+          "id": "ch_subj_16_topic_1",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2024/1/"
+          ]
+        }
+      ]
+    }
+  ]
+}

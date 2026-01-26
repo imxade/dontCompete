@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "instrumentation-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)\n \nQuestion 18 \n \nThe sinusoidal transfer function corresponding to the polar plot shown in the figure, for \n0\nT\n \uf03e\n, is\n\nj T\nj T\n\uf02d\uf077\n\uf02b\uf077\n(A) \n1\nj T\n\uf02d\uf077\n \n(B) \n1\n1\n(C) \n1\nj T\n\uf02b\uf077\n \n(D) \n1\n1\nj T\n\uf02b\uf077\n \n(A)\n\nPAGE\n9",
+  "question_text": "Question 17 \n \n  \n \n \n \n[Control System]\n \n \nConsider the state-space representation of a system \n \n \nx\nAx\nBu\n\uf03d\n\uf02b\nwhere \nx\n is the state vector, \nu\n is the input, \nA\n is the system matrix and \nB\n  is the input matrix.  Choose the \nmatrix \nA\n from the following options such that the system has a pole at the origin.\n(B) \n1\n1.5\n2\n3\n\uf02d\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf02d\n\uf0eb\n\uf0fb\n2\n3\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf02d\n\uf02d\n\uf0eb\n\uf0fb\n(A) \n0\n1\n\n2\n3\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf02d\n\uf0eb\n\uf0fb\n2\n3\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf02d\n\uf0eb\n\uf0fb\n(C) \n1\n1.5\n(D) \n0\n1\n",
+  "answer_text": "(B)\n \nQuestion 18 \n \nThe sinusoidal transfer function corresponding to the polar plot shown in the figure, for \n0\nT\n \uf03e\n, is\n\nj T\nj T\n\uf02d\uf077\n\uf02b\uf077\n(A) \n1\nj T\n\uf02d\uf077\n \n(B) \n1\n1\n(C) \n1\nj T\n\uf02b\uf077\n \n(D) \n1\n1\nj T\n\uf02b\uf077\n \n(A)\n\nPAGE\n9",
+  "explanation_text": ""
+}

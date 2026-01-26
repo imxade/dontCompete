@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 13 \n \n \nPower System  \n \nThe most commonly used relay, for the protection of an alternator against loss of excitation, is \n \n(A) differential relay \n(B) offset Mho relay. \n \n(C) Buchholz relay \n(D) over current relay. \nAns. \nB \nSol.\n \n1. \nBuchholz\u2019s relay is used for the protection of transformer \n \n2. \nDifferential relay is used for alternator winding protection  \n \n3. \nOver-current relay is used for location where there is a chance of high current during fault.  \n \n4. \nOffset mho relay is used for the protection of an alternator against loss of excitation.  \n \nHence, the correct option is (B).\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n11\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

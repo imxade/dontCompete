@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 51\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n43\n\nConsider a fluid confined between two horizontal parallel plates and subjected to shear flow.\nIn the first experiment, the plates are separated by a distance of 1 mm. It is found that a shear stress of\n2\n2 Nm\n\u2212\nhas to be applied to keep the top plate moving with a velocity of \n1\n2 ms ,\n\u2212\nwhile the other plate is\nfixed.\nIn the second experiment, the plates are separated by a distance of 0.25 mm. It is found that a shear\nstress of \n2\n3 Nm\n\u2212\n has to be applied to keep the top plate moving with a velocity of \n1\n1 ms ,\n\u2212\nwhile the\nother plate is fixed.\nIn the range of shear rates studied, the rheological character of the fluid is\n(A) Newtonian \n \n \n(B) Ideal and inviscid\n(C) Pseudoplastic \n \n \n(D) Dilatant",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\n \nFluid confined\n \nbetween two horizontal parallel plates and sub.\nIst exp. \n(1) \n1\n1 mm\ny\n\u0394\n=\n2\n2 M/m\n\u03c4 =\n2 m/sec\ntop\nV\n=\n0\nBottom\nV\n=\n1\n2 m/sec\nV\n\u0394\n=\nIInd exp. \n(2) \n2\n0.25 mm\ny\n\u0394\n=\n2\n3 M/m\n\u03c4 =\n1 m/sec\ntop\nV\n=\n0 m/sec\nBottom\nV\n=\n2\n1 m/sec\nV\n\u0394\n=\nRheological character of the fluid\nn\nn\ndV\nV\ndy\ny\n\uf0e9\n\uf0f9\n\uf0e9\n\uf0f9\n\u0394\n\u03c4 = \u03bc\n= \u03bc\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\u0394\n\uf0eb\n\uf0fb\n\uf0eb\n\uf0fb\nModel\nn\n\uf0e6\n\uf0f6\n\u03bc\n\uf0e7\n\uf0f7\n\u03c4\n\uf0e8\n\uf0f8\n=\n=\n\u03c4\n\uf0e6\n\uf0f6\n\u03bc\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\ndV\ndy\n\n1\n1\nn\ndV\ndy\n2\n2\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n44\n\nn\nn\nV\ny\ny\nV\n\uf0e9\n\uf0f9\n\u0394\n\u00d7\u0394\n\u00d7\n\uf0e9\n\uf0f9\n=\n=\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\u0394\n\u0394\n\u00d7\n\uf0eb\n\uf0fb\n\uf0eb\n\uf0fb\n2\n2 0.25\n3\n1 1\n1\n2\n1\n2\nn\n\uf0e6\n\uf0f6\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n(0.5)\n3\n2\nln\nln 0.5\n3\nn\n\uf0e9\uf0f9\n=\n\uf0ea\uf0fa\n\uf0eb\uf0fb\n\uf0e9\uf0f9\n\uf0ea\uf0fa\n\uf0eb\uf0fb\n=\n2\nln 3\nln[0.5]\nn\n\u2234\n0.58\nn\n =\n\u2234\n  \nif \n1\nn\n <\n  \nPseudo plastic"
+}

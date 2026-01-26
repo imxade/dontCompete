@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "40 to 40\ns\ne\nG s\ns\n4\n3\n( )\n12\n1\n\u2212\n=\n+",
+  "question_text": "Question 26\ns\ne\nG s\ns\n4\n3\n( )\n.\n12\n1\n\u2212\n=\n+\nWhen a step change of magnitude \nM\n is given to the\nA system has a transfer function\nsystem input, the final value of the system output is measured to be 120. The value of \nM\n is _______.",
+  "answer_text": "40 to 40\ns\ne\nG s\ns\n4\n3\n( )\n12\n1\n\u2212\n=\n+",
+  "explanation_text": "Sol. \nGiven,\ns\ny s\ne\nG s\nu s\ns\n4\n( )\n3\n( )\n( )\n12\n1\n\u2212\n=\n=\n+\n%\n%\n\nNow, a step change of magnitude \u2018\nM\n\u2019 is given\nSo,  \n \n( )\nM\nu s\nS\n=\n%\ns\ne\nM\ny s\ns\nS\n4\n3\n( )\n12\n1\n\u2212\n=\n\u22c5\n+\n%\n\nFinal value of system output is given by\n0\nlim . ( )\n120\ns\ns y s\n\u2192\n=\n%\n\uf0de\n  \n                 \n0.1\n=\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n27\n\n\uf0de\n  \n3\n120\nM\n =\n \n \n\uf0de\n  \n40\nM\n =\n \nQuestion 27 \n \nThe following isothermal autocatalytic reaction,\n2\nA\nB\nB\n+\n\u23af\u23af\u2192\n \n(\n)\n0.1\nA\nA\nB\nr\nC C\n\u2212\n=\n \n1\n1\n(mol L s )\n\u2212\n\u2212\nis carried out in an ideal continuous stirred tank reactor (CSTR) operating at steady state. Pure \nA\n at\n1\n1 molL\n\u2212\n is fed, and 90% of \nA\n is converted in the CSTR. The space time of the CSTR is _______\nseconds. \nAns. \n100 to 100 \nSol. \nGiven,  \n0.1\nA\nA\nB\nr\nC C\n\u2212\n=\n0\n1 mol/litre\nA\nC\n=\n \n0.9\nA\nX\n =\n?\nm\n\u03c4 =\nA\nB\nC\nC\nA\nB\nB\n+\n\u23af\u23af\u2192\n0\n0\n0\n2\nC\nC\nr\n\u2212\n\u03c4 =\n\u2212\n0\n(\n)\nA\nA\nm\nA\nexit\n0\nt\n =\n1 0.51\n0.1\nm\nA\nB\nC C\n\u2212\n\u03c4 =\n  \n \n0\n \n(1\n)\nA\nA\nA\nC\nC\nX\n=\n\u2212\n0.5\n1\n100 seconds\n0.1 0.1 0.9\n0.01\nm\n\u03c4 =\n=\n=\n\u00d7\n\u00d7\n \n1 (1 0.9)\n0.1\nA\nC\n = \u00d7\n\u2212\n=\n100 sec\n=\n  \n \n \n0\nB\nA\nA\nC\nC\nX\n=\n1 0.5\n0.9\nB\nC\n = \u00d7\n="
+}

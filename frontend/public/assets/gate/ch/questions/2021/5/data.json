@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 5\nEthylene adsorbs on the vacant active sites V of a transition metal catalyst according to the following \nmechanism.\n2\n4\nC H\n2\n4\n2\nC H\nV\n\uf02b\nV\nV\n\nIf \n,\nT\nV\nN\nN\n  and \n2\n4\nC H\nN\n denote the total number of active sites, number of vacant active sites and number\nof adsorbed \n2\n4\nC H\n  molecules, respectively, the balance on the total number of active sites is given by\n(A) \n2\n4\n2\nT\nV\nC H\nN\nN\nN\n=\n+\n \n \n \n(B) \n2\n4\n0.5\nT\nV\nC H\nN\nN\nN\n=\n+\n(C) \n2\n4\n2\nT\nV\nC H\nN\nN\nN\n=\n+\n \n \n \n(D) \n2\n4\nT\nV\nC H\nN\nN\nN\n=\n+",
+  "answer_text": "(A)",
+  "explanation_text": ""
+}

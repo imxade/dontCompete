@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "34 to 35",
+  "question_text": "Question 22\nIn a batch drying experiment a solid with a critical moisture content of 0.2 kg \n2\nH O\n /kg dry solid is dried\nfrom an initial moisture content of 0.35 kg \n2\n \n/kg\nH O\n dry solid to a final moisture content of\n2\n0.1 kg H O/kg\n  dry solid in 5h. In the constant rate regime, the rate of drying is \n2\n2\n2 kg H O/(m h)\n .\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n22\n\nThe entire falling rate regime is assumed to be uniformly linear. The equilibrium moisture content is \nassumed to be zero.\nThe mass of the dry solid per unit area is _______\n2\nkg/m .\n (round off to nearest integer)",
+  "answer_text": "34 to 35",
+  "explanation_text": "Sol.\n\nN\nP \n(0.20, 2)\nC\nN\nX\n0\ne\nX\n =\nF\nX\ncr\nX\ni\nX\nGiven,\n0.35\ni\nX\n =\n0.20\ncr\nX\n=\n0.10\nF\nX\n=\n2\n2\nH O\n2 kg (m h)\nC\nN\n =\nTotal drying time \n5\nC\nF\nt\nt\nh\n=\n+\n=\nWhere,  \nC\nt\n =\n  Constant rate drying time\nF\nt\n =\n  Falling rate drying time\nWe know,  \nS\nS dX\nN\nA\ndt\n\u2212\n=\nFor constant rate, \n[\n]\nS\ncr\ni\nC\nC\nS\nX\nX\nN\nA\nt\n\u2212\n\u2212\n=\nS\nAt\n=\n\u2212\n2\n[0.35\n0.20]\nS\nC\n(0.075)\nS\nC\nS\nt\nA\n=\n \n \n \n \n\u2026 (i)\nSlope of falling rate period line \n2\n10\n0.20\n=\n=\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n23\n\nEquation of falling rate period line,  \n10\nN\nX\n=\nBy Formula,  \nS\nS dX\nN\nA\ndt\n\u2212\n=\nX\nS\nF\nX\nS\ndX\nt\nA\nX\n\u2212\n=\n\uf0f2\nF\n10\ncr\nS\nX\nt\nA\nX\n=\nln\n10\nS\ncr\nF\nF\nS\nF\nS\nt\nA\n=\n0.2\nln\n10\n0.1\nS\nF\nS\nt\nA\n=\nln 2\n10\n0.0693\nS\nF\nS\nt\nA\n=\n  \n \n \n \n\u2026 (ii)\nAdding (i) and (ii)\n0.075\n0.0693\n5\nS\nS\nS\nS\nA\nA\n+\n=\n2\n34.65 kg/m\nS\nS\nA\n \n=\nOn solving,\n35\nS\nS\nA\n \n=\n \n{Nearest integer}"
+}

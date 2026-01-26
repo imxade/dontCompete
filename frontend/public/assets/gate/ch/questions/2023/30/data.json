@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A, C) \nSol. \n\u2022 \nTotal Emissive Power does not depend upon the direction of the emission.\n\u2022 \nE depends on the wavelength of the emission.",
+  "question_text": "Question 30\nGiven that \n\ud835\udc38\n \n2\n(in W.m )\n\uf02d\n is the total hemispherical emissive power of a surface maintained at a certain\ntemperature, which of the following statements is/are CORRECT?  \n[Heat Transfer, 1 Mark]\n(A) \n\ud835\udc38\n does not depend on the direction of the emission.\n(B) \n\ud835\udc38\n depends on the viewfactor.\n(C) \n\ud835\udc38\n depends on the wavelength of the emission.\n(D) \n\ud835\udc38\n does not depend on the frequency of the emission.",
+  "answer_text": "(A, C) \nSol. \n\u2022 \nTotal Emissive Power does not depend upon the direction of the emission.\n\u2022 \nE depends on the wavelength of the emission.",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 2\nA sum of money is to be distributed among \nP\n, \nQ\n, \nR\n and \nS\n in the proportion 5 : 2 : 4 : 3, respectively.\nIf \nR\n get Rs.1000 more than \nS\n, what is the share of \nQ\n (in Rs.)?\n(A) 1000 \n(B) 1500\n(C) 2000 \n(D) 500",
+  "answer_text": "C",
+  "explanation_text": "Sol. \nGiven : \nA sum of money is to be distributed among \nP\n, \nQ\n, \nR\n and \nS\n is 5\nx\n, 2\nx\n, 4\nx\n and 3\nx\n respectively.\nWhere \nx\n is a common multiplication factor.\nAs \nR\n gets Rs.1000 more than \nS\n.\nThen, \n4\n3\n1000\nx\nx\n\uf02d\n\uf03d\n1000\nx\n \uf03d\nNow, share of \nQ\n is 2\nx \n= \n2 1000\n\uf0b4\n = Rs.2000\nShare of \nQ\n is Rs.2000.\nHence, the correct option is (C)."
+}

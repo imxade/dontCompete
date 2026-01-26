@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.24 to 0.26",
+  "question_text": "Question 19\nAs shown in the figure below, air flows in parallel to a freshly painted solid surface of width 10 m, along \nthe z-direction.\nAir\nz\nv\nA\nC\n\uf064\ny\nz\nPainted surface\n,\nA i\nC\nThe equilibrium vapor concentration of the volatile component A in the paint, at the air paint interface is\n,\nA i\nC\n. The concentration \nA\nC\n  decreases linearly from his value to zero along the y-direction over a\ndistance \n\u03b4\n  of 0.1 m in the air phase. Over this distance, the average velocity of the air stream is\n1\n0.033 ms\n\u2212\n and its velocity profile (in \n1\nms\n\u2212\n) is given by\n2\n( )\n10\nz\nv\ny\ny\n=\nWhere \ny\n is in meter.\nLet \n,\nA m\nC\n represent the flow averaged concentration. The ratio of \n,\nA m\nC\n to \n,\nA i\nC\n is _______. (round off to\n2 decimal places)",
+  "answer_text": "0.24 to 0.26",
+  "explanation_text": "Sol.\n(0,0.1)\n0.1\nAi\nm\nC\n\u0002 \u0004\ny\n,0)\n(\nAi\nC\n\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n20\n\n0.1\n0.1\nA\nAi\ny\nC\nC\n=\n+\n\u2212\n(1 10 )\nA\nAi\nC\nC\ny\n=\n\u2212\nGiven, \n2\n2\n0.1 m,\n0.033 m/sec,\n( )\n10\nV\nV\ny\ny\n\u03b4 =\n=\n=\nC\nC\n=\n?\nAM\nAi\nFor unit width of plate, Area average molar flow rate\n(mol/sec)\n is given by \u2013\n2\n0\n(mol/sec)\n( )\n( )\n1\nAm\nA\nm\nAVC\nV\ny C\ny dy\n\u03b4\n=\n=\n\u22c5\n\uf0f2\n&\n0.1\n2\n0\n(\n1)\n10\n(1 10 )\nAm\nAi\nVC\ny C\ny dy\n= \u03b4\u00d7\n=\n\u2212\n\uf0f2\n\n0.1\n2\n0\n0.1 0.033\n(10\n100 )\nAm\nAi\nC\nC\ny\ny dy\n\u00d7\n=\n\u2212\n\uf0f2\nC\nC\n=\n \n \n \n \n \n \n \nAns.\n0.25\nAm\nAi"
+}

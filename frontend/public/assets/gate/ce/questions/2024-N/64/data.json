@@ -1,0 +1,11 @@
+{
+  "id": "64",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 64 \n \n \n[Geomatics Engineering : Traversing]\nA child walks on a level surface from point \nP\n to point \nQ\n at a bearing of \n0\n30\n , from point \nQ\n to point \nR\n at a\nbearing of \n0\n90\n  and then directly returns to the starting point \nP\n at a bearing of \n0\n240\n . The straight-line paths \nPQ\n and \nQR\n are 4 m each. Assuming that all bearings are measured from the magnetic north in degrees, \nthe straight-line path length \nRP\n (in meters) is _________________ (rounded off to the nearest integer). \nAns. 6 to 8\n\nPAGE\n57\n",
+  "answer_text": "",
+  "explanation_text": "Sol.\nR\n4 m\n0\n90\nQ\n0\n240\n4m\nL\n\uf0e5\n0\n30\nD\n\uf0e5\n[0,0]\nP\n\nHorizontal distance of traverse from \nP\n to \nR\n \nD\n\uf03d\uf0e5\n0\n0\nsin30\nsin90\nPQ\nQR\n\uf03d\n\uf02b\n1\n4\n4 1\n2\n\uf03d\n\uf0b4\n\uf02b\uf0b4\n6m\n\uf03d\nVertical distance of traverse from \nP\n to \nR\n \nL\n\uf03d\uf0e5\n0\n0\ncos30\ncos90\nPQ\nQR\n\uf03d\n\uf02b\n3\n4\n2 3\n2\n\uf03d\n\uf0b4\n\uf03d\n\uf0de\n \n\uf028\n\uf029\n\uf028\n\uf029\n2\n2\nPR\nL\nD\n\uf03d\n\uf0e5\n\uf02b\uf0e5\n\uf028\uf029\n\uf028\n\uf029\n2\n2\n6\n2 3\n48\n6.93m\n7m\n\uf03d\n\uf02b\n\uf03d\n\uf03d\n"
+}

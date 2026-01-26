@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 42 \n[Fluid Mechanics : Fluid Kinematics & Fluid in Relative Equilibrium]\nA flow velocity field \n\uf028\n\uf029\n:\n,\nV V x y\nfor a fluid is represented by\n\uf028\n\uf029\n\u02c6\n\u02c6\n:3\n5\nV\ni\nx j\n\uf02b\n\nIn the context of the fluid and the flow, which one of the following statements is CORRECT ? \n \n(A) The fluid is incompressible and the flow is rotational  \n \n(B) The fluid is incompressible and the flow is irrotational \n \n(C) The fluid is compressible and the flow is rotational \n \n \n(D) The fluid is compressible and the flow is irrotational \nAns. (A)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven that,\n\u02c6\n\u02c6\nV\n3i\n5xj\n\uf03d\n\uf02b\n\nWhere, \n3,\n5\nu\nv\nx\n\uf03d\n\uf03d\nContinuity equation for incompressible flows.\n0\nu\nv\nx\ny\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\n\uf0b6\n\uf0b6\n(3)\n(5 )\n0\nx\nx\ny\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\n\uf0b6\n\uf0b6\nFluid is incompressible because, \n0\nu\nv\nx\ny\n\uf0b6\n\uf0b6\n\uf02b\n\uf03d\n\uf0b6\n\uf0b6\nChecking for rotation,\nv\nu\nw\nx\ny\n\uf0e9\n\uf0f9\n\uf0b6\n\uf0b6\n\uf03d\n\uf02d\n\uf0ea\n\uf0fa\n\uf0b6\n\uf0b6\n\uf0eb\n\uf0fb\n1\n2\n2\n\n1\n(5 )\n(3)\n2\nx\nx\ny\n\uf0e9\n\uf0f9\n\uf0b6\n\uf0b6\n\uf03d\n\uf02d\n\uf0ea\n\uf0fa\n\uf0b6\n\uf0b6\n\uf0eb\n\uf0fb\n\n1\n5\n2\n\uf03d\n\uf0b4\n0.5 5\n\uf03d\n\uf0b4\n2.5\n0\n\uf03d\n\uf0b9\n (flow is rotational)\nHence, the current option is (A)."
+}

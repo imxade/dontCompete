@@ -45,6 +45,18 @@ services:
     # Run generator by default
     command: python -m generator.src.main
 
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.58.0-jammy
+    volumes:
+      - ./frontend:/app
+    working_dir: /app
+    environment:
+      - BASE_URL=http://frontend:3000
+    networks:
+      - app_network
+    depends_on:
+      - frontend
+
 volumes:
   ollama_data:
 

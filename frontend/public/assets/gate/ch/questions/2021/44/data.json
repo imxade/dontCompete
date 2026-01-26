@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 44\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n38\n\nHeat transfer coefficient for a vapor condensing as a film on a vertical surface is given by\n(A) Dittus-Boelter equation   \n(B) Chilton-Colburn analogy\n(C) Sieder-Tate equation  \n \n(D) Nusselt theory",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nNusselt theory\n"
+}

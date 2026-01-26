@@ -1,0 +1,11 @@
+{
+  "id": "6",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 6\nA uniform light slender beam \nAB\n of section modulus \nEI\n is pinned by a frictionless\n \njoint \nA\n to the ground \nand supported by a light inextensible cable \nCB\n to hang a\n \nweight\n \n\ud835\udc4a\n as shown. If the maximum value of \nW\n2\nEI\n\uf062\uf070\n, where \n\uf070\n is the ratio of circumference to diameter\nto avoid buckling of the beam \nAB\n \nis obtained as\nof a circle,\n \nthen the value of \n\uf062\n \nis\nC\ng\nA\n30\n0\nB\n2.5 m\nW\n\n\uf02d\n  \n \n \n(B) 0.0713\n\uf02d\n2\nm\n2\nm\n(A) 0.0924\n\uf02d\n \n \n \n(D) 0.1417\n\uf02d\n2\nm\n2\nm\n(C) 0.1261\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n12\n",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\nC\n0\n30\nA\nB\nW\n2.5m\nL\n \uf03d\nF.B.D. at point \nB\nBC\nF\n0\n30\nAB\nF\nW\n\n0\nV\nF\n\uf02b\uf0ad\uf0e5\n\uf03d\n0\nsin30\nW\nBC\nF\n\uf03d\n2 W\nBC\nF\n\uf03d\n \n \n \n\u2026 (i)\n0\nH\nF\n\uf0ae\uf02b\uf0e5\n\uf03d\n0\ncos30\nAB\nBC\nF\nF\n\uf03d\n3\n2\n2\nAB\nF\nW\n\uf03d\n\uf0b4\n3 W\nAB\nF\n\uf03d\n \n \n \n\u2026 (ii)\nBuckling load\nEI\nEI\nP\nL\n\uf070\n\uf070\n\uf03d\n\uf03d\n \n \n \n \n\u2026 (iii)\n2\n2\n\n2\n2\n2.5\nC\nC\nFrom equation (ii) and (iii)\nEI\n\uf070\n\uf03d\n2\n2\n3 W\n2.5\n\nEI\nEI\n\uf070\n\uf0b4\uf062\uf070\n\uf03d\n2\n2\n2\n3\n2.5\n\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n13\n\n2\n1\n3 2.5\n\uf062\uf03d\n\n\uf0b4\n0.092\n\uf062\uf03d\nHence, the correct option is (A)."
+}

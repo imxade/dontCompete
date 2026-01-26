@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 60 \n[Environmental Engineering : Treatment of Water]\n \n \nA circular settling tank is to be designed for primary treatment of sewage at a flow rate of 10 million \nliters/day. Assume a detention period of 2.0 hours and surface loading rate of\n2\n40000 liters/m /day\n . The\nheight (in meters) of the water column in the tank is _________ (rounded off to 2 decimal places). \nAns. 3.00 to 3.40",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\nDischarge, \n10MLD\nQ\n \uf03d\nDetention period, \n2hr\nd\nt\n \uf03d\nOverflow rate, \n2\n0\n40,000 litres/m /day\nV\n \uf03d\n?\nH\n \uf03d\n\nPAGE\n53\n\nQ\nV\n\uf03d\n\uf03d\nDischarge\nOverflow rate\nSurface area of tank\n0\nSo,\n\uf0b4\n\uf03d\n6\n2\n10 10  L/day\nS.A.\n40,000 L/m /day\n\n2\nS.A.\n250 m\n\uf03d\nVolume of tank \n( )\nd\nV\nQ t\n\uf03d\n\uf0b4\n\uf02d\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n6\n3\n3\n10 10\n10\n2m\n24\n\n3\n833.33m\nV\n \uf03d\nHence,\nHeight of water in tank\nor  \n.\nV\nS A\n\uf03d\nHeight of setting zone\n3\n2\n833.33m\n250m\nH\n \uf03d\n\n3.33m\nH\n \uf03d\nNote\n : In reality, height of water in tank OR height of settling zone is estimated by above approach but if \nthe bottom of sedimentation tank is assumed to be sloping or hoppered (i.e., sludge zone is also considered) \nthen height of water in tank is determined as follows:\nUsing,\n2\n( )\n0.011\n4\nV\nD\nH\nD\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nVolume of tank\n\u2026 (i)\nAs,\n2\n2\nS.A.\n250 m\n4\n \nD\n\uf070\n\uf03d\n\uf03d\n17.835m\nD\n \uf03d\n\nPAGE\n54\n\n2\n833.33\n17.835\n0.011(17.835)\n4\n \nH\n\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nSo, \n\uf028\n\uf029\n\nSo, \n3.085m\nH\n \uf03d"
+}

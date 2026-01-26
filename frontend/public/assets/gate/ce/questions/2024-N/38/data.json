@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 38 \n \n[Construction Materials & Management]\n \n \nA critical activity in a project is estimated to take 15 days to complete at a cost of Rs. 30,000. The activity \ncan be expedited to complete in 12 days by spending a total amount of Rs. 54,000. Consider the statements \nP\n and \nQ\n. \n \nP: It is economically advisable to complete the activity early by crashing, if the indirect cost of the project \nis Rs. 8,500 per day. \n \nQ: It is economically advisable to complete the activity early by crashing, if the indirect cost of the project \nis Rs. 10,000 per day. \n \nWhich one of the following options is CORRECT? \n \n(A) Both P and Q are TRUE \n(B) P is TRUE and Q is FALSE \n \n(C) Both P and Q are FALSE \n(D) P is FALSE and Q is TRUE \nAns. (MTA)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n54000\n30000\n/\n8000Rs / day\n15 12\nC s\n\uf02d\n\uf03d\n\uf03d\n\uf02d\n\nPAGE\n31\n\nNote :\n \nIf C/s is less than indirect cost per day then it would be economically advisable to complete the \nactivity early by crashing.  Hence both the statements P&Q are correct."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 32\nActivities \nA\n to \nK\n are required to complete a project. The time estimates and the\n \nimmediate predecessors \nof these activities are given in the table. If the project is to\n \nbe completed in the minimum possible time, \nthe latest finish time for the activity \nG\n \nis ____________ hours.\nActivity \nTime (hours) \nImmediate predecessors\nA \n2 \n-\nB \n3 \n-\nC \n2 \n-\nD \n4 \nA\nE \n5 \nB\nF \n4 \nB\nG \n3 \nC\nH \n10 \nD, E\nI \n5 \nF\nJ \n8 \nG\nK \n3 \nH, I, J\n(A) 5 \n(B) 10 \n(C) 8 \n(D) 9",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nLatest finish time for activity \n10 hours\nG\n \uf03d\nD\n2\n4\nA\nB\nE\nH\n(E.T)\n3\n5\n21\n10\nK\nF\nC\nI\n4\n3\n21\n5\nJ\nG\n2\n18\n(L.T)\n(L.T)\n8\n3\n10\n(L.T)\nHence, the correct option is (B)."
+}

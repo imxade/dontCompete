@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(4.18 \u2013 4.27)",
+  "question_text": "Question 15\nThe hyetograph in the figure corresponds to a rainfall event of 3 cm.\n15\n14\nRainfall intensity mm/hr\n12\n7.5\n4.5\n4\n3\n0   \n0.5   \n1.5   2.0  2.5  3.0  3.5  4.0\n1.0\nTime (hour)\n\nIf the rainfall even has produced a direct runoff of 1.6 cm, the \n\u03c6\n  -index of the even (in mm/hour, round\noff to one decimal place) would be ___________.",
+  "answer_text": "(4.18 \u2013 4.27)",
+  "explanation_text": "Sol.\n  \nRainfall intensity\n15\n14\n12\n7.5\nmm/hr\n4.5\n4\n3\n3\n3.5\n0\n0.5\n1\n1.5\n2\n2.5\ntime (hr)\n\nRainfall \n3cm\n=\nStorm duration \n3.5 hr\n=\nRun off \n1.6 cm\n=\n???\nindex\n\u03c6\n=\nRain fall \n6\n2.25\n7.5\n2\n3.75 1.5\n30 mm\n=\n+\n+\n+ +\n+\n=\n3 cm\n=\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n9\n\n1\nst\n trial :\n \n3cm,\n1.6 cm,   \n3.5 hr\ne\nP\nR\nT\n=\n=\n=\n3 1.6\n0.4 cm/hr\n3.5\nindex\ne\nP\nR\nT\n\u2212\n\u2212\n\u03c6\n=\n=\n=\n4 mm/hr\n=\n2\nnd\n trial :\n \n=26.5 mm= 2.65 cm\nP\n, \n=1.6 cm, \n2.5\ne\nP\nT\n =\n2.65 1.6\n2.5\nindex\n\u2212\n\u03c6\n=\n0.42 cm\n=\n4.2 mm/hr\n="
+}

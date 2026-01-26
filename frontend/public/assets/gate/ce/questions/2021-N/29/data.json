@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(15.1 \u2013 15.4)",
+  "question_text": "Question 29\nA solid circular torsional member \nOPQ\n is subjected to torsional moments as shown in the figure (not \nto scale). The yield shear strength of the constituent material is 160 MPa.\n2 kN - m\n1 kN - m\n0.1 m\n0.8 m\nO\nP\nQ\n1 m\n0.5 m\nThe absolute maximum shear stress in the member (in MPa, round off to one decimal place) is _____.",
+  "answer_text": "(15.1 \u2013 15.4)",
+  "explanation_text": "Sol.\n2 kNm\n1 kNm\n2\n0.08 m\n\u03c6 =\n1 kNm\n1\n0.1 m\n\u03c6 =\n3 kNm\n O\nP\n1 kNm\nP\nQ\n2 m\n\n5 m\n6\nOP\nOP\nT\n\u00d7 \u00d7\n\u03c4\n=\n=\n=\n\u03c0\u00d7\u03c6\n\u03c0\u00d7\n16\n16 3 10\n(\n)\n15.279 MPa\n(100)\n\nmax\n3\n3\n1\npQ\nPQ\nT\n\u00d7 \u00d7\n\u03c4\n=\n=\n=\n\u03c0\u00d7\u03c6\n\u03c0\u00d7\n16\n16 1 10\n(\n)\n9.947 MPa\n(80)\n6\n\nmax\n3\n3\n2\n\u2234\n Absolute maximum shear stress in member \nmax\nmax\nmax (\n)\n, (\n)\n15.279 MPa\nOP\nPQ\n\uf0e9\n\uf0f9\n=\n\u03c4\n\u03c4\n=\n\uf0eb\n\uf0fb"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 37\n \n \nA lake has a maximum depth of 60 m. If the mean atmospheric pressure in the lake region is 91 kPa \nand unit weight of lake is 9790 N/m\n3\n. The absolute pressure (in kPa, round off to two decimal places) \nat the maximum depth of the lake is : \nAns. \n(678 \u2013 679) \nSol.\n \nGiven :\n \n91 KPa\natm\nP\n=\n, \nh\n = 60 m\nUnit weight of lake water = 9790N/m\n2\n \n \nAbsolute pressure at maximum depth of the lake = \natm\nP\ngh\n+\u03c1\n9790 60\n91\nKPa\n678.4 KPa\n1000\n\u00d7\n\uf0e6\n\uf0f6\n=\n+\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8",
+  "answer_text": "",
+  "explanation_text": ""
+}

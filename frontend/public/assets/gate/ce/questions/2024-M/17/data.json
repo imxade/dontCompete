@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 17 \n[RCC Structures : Column & Footing] \n \n \n \n \nThe following figure shows the arrangement of formwork for casting a cantilever RC beam.\n\uf073\nCantilever RC Beam\nRC Column\nS1\nS2\nS3\nS4\nS5\nS1, S2, S3, S4, S5\nare Shores/Props\nCompacted Ground\nThe correct sequence of removing the Shores/Props is \n \n(A) S1\u2192S2\u2192S3\u2192S4\u2192S5\n(B) S5\u2192S4\u2192S3\u2192S2\u2192S1\n(C) S3\u2192S2\u2192S4\u2192S1\u2192S5\n(D) S3\u2192S4\u2192S2\u2192S5\u2192S1",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nWhile removing the props, we need to\n \nensure that the beam type does not change i.e., if it is a cantilever \nbeam then the props shall be removed in such a manner that the beam at the intermediate stage also shows \ncantilever behavior. \n \nIf we remove prop \u2018S1\u2019 first then tensile stress will be generated at the bottom and no structural \nreinforcement is there to take care of this tension. \n \nSo, correct order is \nS5\nS4\nS3\nS2\nS1\n\uf0ae\n\uf0ae\n\uf0ae\n\uf0ae\n\nPAGE\n13\n\nHence, the correct option is (B). \nQuestion 18 \n \n[Geotechnical Engineering : Shallow Foundation] \n \nA 2 m wide strip footing is founded at a depth of 1.5 m below the ground level in a homogeneous pure \nclay bed. The clay bed has unit cohesion of 40 kPa. Due to seasonal fluctuations of water table from peak \nsummer to peak monsoon period, the net ultimate bearing capacity of the footing, as per Terzaghi\u2019s theory, \nwill \n \n(A) remain the same \n(B) decrease  \n \n(C) increase \n(D) become zero \n \nAns. (A)\nSol. \nGiven,\nB\n2m\n\uf03d\nf\nD\n1.5m\n\uf03d\na\nC\n40KP\n\uf03d\nSoil\nClay\n\uf03d\nWe know that,\nTerzaghi\u2019s ultimate bearing capacity\n1\nq\nCN\nqN\nB N\n2\nc\n\uf067\n\uf03d\n\uf02b\n\uf02b\n\uf067\nu\nq\nFor clay soil\n5.7,\n1,\n0\nc\nq\nN\nN\nN\n\uf067\n\uf03d\n\uf03d\n\uf03d\nSo,\nf\nq\n5.7C\nD\nu\n \n\uf03d\n\uf02b\uf067\nNet ultimate bearing capacity,\nnu\nf\nf\nq\n5.7C\n.D\nD\n\uf03d\n\uf02b\uf067\n\uf02d\uf067\nnu\nq\n5.7\nC\n\uf03d\nNet ultimate bearing capacity does not depends the increase or decrease of water level.  So, \nnu\nq\nremains\nsame.\nHence, the correct option is (A)."
+}

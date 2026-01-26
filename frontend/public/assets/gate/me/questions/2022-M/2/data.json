@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 2\nSolution of \n2\n0\nT\n\uf0d1\n\uf03d\n in a square domain \n(0\n1 and 0\n1)\nx\ny\n\uf03c\n\uf03c\n\uf03c\n\uf03c\n with boundary conditions:\n( ,0)\n; (0, )\n; ( ,1)\n1\n; (1, )\n1\nT x\nx T\ny\ny T x\nx T\ny\ny\n\uf03d\n\uf03d\n\uf03d\uf02b\n\uf03d\uf02b\n is\n(A) \n( , )\nT x y\nx\nxy\ny\n\uf03d\n\uf02d\n\uf02b\n   \n(B) \n( , )\nT x y\nx\ny\n\uf03d\n\uf02b\n(C) \n( , )\nT x y\nx\ny\n\uf03d\uf02d\uf02b\n   \n \n(D) \n( , )\nT x y\nx\nxy\ny\n\uf03d\n\uf02b\n\uf02b",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nGiven : \nLaplace equation \n2\n0\nT\n\uf0d1\n\uf03d\n, \n(0\n1, 0\n1)\nx\ny\n\uf03c\n\uf03c\n\uf03c\n\uf03c\n( ,0)\n,\n(0, )\n,\n( ,1)\n1\n,\n(1, )\n1\nT x\nx T\ny\ny T x\nx T\ny\ny\n\uf03d\n\uf03d\n\uf03d\uf02b\n\uf03d\uf02b\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n9\n\nSolution of Laplace equation is given by,\n1\n2\n3\n4\n( , )\n(\n)(\n)\nT x y\nC x\nC\nC y\nC\n\uf03d\n\uf02b\n\uf02b\n  \n \n \n\u2026(i)\nUsing boundary condition,\n1\n2\n4\n( ,0)\n(\n)(\n)\nT x\nC x\nC\nC\nx\n\uf03d\n\uf02b\n\uf03d\n \n \n \n \n\u2026(ii)\n2\n3\n4\n(0, )\n(\n)\nT\ny\nC C y\nC\ny\n\uf03d\n\uf02b\n\uf03d\n  \n \n \n \n\u2026(iii)\n1\n2\n3\n4\n( ,1)\n(\n)(\n)\n1\nT x\nC x\nC\nC\nC\nx\n\uf03d\n\uf02b\n\uf02b\n\uf03d\uf02b\n \n \n \n\u2026(iv)\n1\n2\n3\n4\n(1, )\n(\n)(\n)\n1\nT\ny\nC\nC\nC y\nC\ny\n\uf03d\n\uf02b\n\uf02b\n\uf03d\uf02b\n \n \n \n\u2026(v)\nBy solving equations (ii), (iii), (iv) and (v),\n1\n3\n2\n1,\n1,\n0\nC\nC\nC\n\uf03d\n\uf03d\n\uf03d\n and \n4\n0\nC\n \uf03d\nTherefore, the solution is given by equation (i),\n( , )\nT x y\nx\ny\n\uf03d\n\uf02b\nHence, the correct option is (B)."
+}

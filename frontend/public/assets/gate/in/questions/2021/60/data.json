@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 60 \n \n \n \n \n \n \nAptitude\nStatements : Either P marries Q or X marries Y. Among the given option below, the logical negation of \nthe above statements is,  \n \n \n \n \n \n[2 Marks]\n(A) Neither P marries Q nor X marries Y. \n(B) P does not marry Q and X marries Y\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n53\n\n(C) P marries Q and X marries Y. \n(D) X does not marries Y and P marries Q.",
+  "answer_text": "A",
+  "explanation_text": "Sol. \nAs we are directed to do logical negation, of given statement, situation of \u201ceither or\u201d will becomes \n\u201cNeither nor\u201d\nas :  \nP\nQ\n=\n \nX\nY\n=\nNegation : \nP\nQ\n\u2260\n \nX\nY\n\u2260\nHence, the correct option is (A)."
+}

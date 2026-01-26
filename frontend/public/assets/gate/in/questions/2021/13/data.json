@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "NAT",
+  "key": "2.5",
+  "question_text": "Question 13  \n \n \n \nSensor & Industrial Instrumentation (NAT)\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n14\n\nFor the full bridge made of linear strain gages with gage factor 2 as shown in the diagram\n1\n2\n3\n4\n100\nR\nR\nR\nR\n=\n=\n=\n=\n\u03a9\n at \n0\n0 C\n  and strain is 0. The temperature coefficient of resistance of the strain\ngages used is \n0\n0.005 per C.\n  All strain gages are made of same material and exposed to same temperature.\nWhile measuring a strain of 0.01 at a temperature of \n0\n50 C\n, the output \n0\nV\n  in millivolt is _______ (rounded\noff to two decimal places). \n \n \n \n \n \n[2 Marks]\n1 mA\n1\nR\n3\nR\n0\nV\n+\n\u2212\n2\nR\n4\nR",
+  "answer_text": "2.5",
+  "explanation_text": "Sol.\n \nAt \n0\n1\n2\n3\n4\n0 C\n100\nT\nR\nR\nR\nR\nR\n=\n\uf0de\n=\n=\n=\n=\n\u03a9 =\nAt \n0\n50\n50 C\n(1\n)\nT\nR\nT R\n=\n\uf0de\n=\n+ \u03b1\u0394\n\uf0de\n  \n50\n(1 0.005 50)100\nR\n=\n+\n\u00d7\n\uf0de\n  \n50\n50\n(1.25)\n125\nR\n=\n=\n\u03a9\nSo effective nominal resistance due to temperature change \n125\n=\n\u03a9\nNow, assume tensile and compressive strength on arms \n2\n3\n,\nR\nR\n  and \n1\n4\n,\nR\nR\n  respectively\n\u2234\n \nR\n\u0394\n due to \n\u03b5\n\uf0de\n  \n125 2 0.01\n2.5\n\u00d7 \u00d7\n=\n\u03a9\n\u2234\n  \n2\n3\nand\n125\n2.5\n127.5\nR\nR\n\uf0de\n+\n=\n\u03a9\n\u2234\n  \n1\n4\nand\n125\n2.5\n122.5\nR\nR\n\uf0de\n\u2212\n=\n\u03a9\n\u2234\n  \noutput\n1\n(127.5 122.5)\n2\nV\n=\n\u00d7\n\u2212\noutput\n2.5 mV\nV\n="
+}

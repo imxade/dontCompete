@@ -1,0 +1,11 @@
+{
+  "id": "21",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "124 to 126",
+  "question_text": "Question 21\nA gaseous mixture at 1 bar and 300 K consist of 20 mol % \n2\nCO\n  and 80 mol % inert gas.\nAssume the gases to be ideal. Take \n1\n1\n8.314 J mol K\nR\n\u2212\n\u2212\n=\n.\nThe magnitude of minimum work required to separated 100 mol of this mixture at 1 bar and 300 K into \npure \n2\nCO\n  and inert gas at the same temperature and pressure is _______ kJ. (round off to nearest\ninteger)",
+  "answer_text": "124 to 126",
+  "explanation_text": "Sol. \nGiven,  \n1\n2\n0.2,\n0.8\ny\ny\n=\n=\n100 mol\nn\n =\n1 bar,\n300 K\nP\nT\n=\n=\nWork done \n=\n Energy change in Gibbs free charge of mixing\nmix\nW\nG\nnRT\n= \u0394\n=\n \nln\ni\ni\ny\ny\n\uf0e5\n(100)8.314 300[0.2ln0.2\n0.8ln0]\nW\n =\n\u00d7\n+\n124.8 kJ\nW\n = \u2212\nWork done on system must be positive\n125 kJ\n=\n  \n \n \n \n \n \n \nAns."
+}

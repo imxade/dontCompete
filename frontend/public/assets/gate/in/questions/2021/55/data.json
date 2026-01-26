@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 55 \n \n \n \n \nElectrical Machines (MCQ)\nA single-phase transformer has maximum efficiency of 98%. The core losses are 80 W and the equivalent \nwinding resistance as seen from the primary side is \n0.5\n \u03a9\n . The rated current on the primary side is 25 A.\nThe percentage of the rated input current at which the maximum efficiency occurs is  \n[2 Marks]\n \n \n(A) 35.7% \n(B) 80.5% \n(C) 50.6% \n(D) 100% \nAns. \nC \nSol.\n \nGiven :  \n \n(i) Core loss\n80 W\n=\n(ii) \n1\n0.5\nR\n =\n\u03a9\n(iii)\n1(rated)\n25A\nI\n=\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n50\n\n(iv) \n98%\n0.98\n\u03b7 =\n=\nTransformer efficiency is given by,\n2\ncos\ncos\ncore\ncopper\nxS\nxS\nP\nx P\n\u03c6\n\u03b7 =\n\u03c6 +\n+\nFor maximum efficiency, \n2\ncopper\ncore\nx P\nP\n=\n2\n2\n1\n1\ncore\nx I R\nP\n=\n2\n2\n25\n0.5\n80\nx\n \u00d7\n\u00d7\n=\n \n \n \n \n0.5059\nx\n =\n \n \n \n \n%\n0.5059 100\n50.6%\nx\n =\n\u00d7\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

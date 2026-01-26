@@ -1,0 +1,11 @@
+{
+  "id": "58",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 58 \n \n  \n[Fluid Mechanics : Fluid Dynamics] \n \n \nA \n2 m 1.5 m\n\uf0b4\n tank of 6 m height is provided with a 100 mm diameter orifice at the center of its base. The \norifice is plugged and the tank is filled up to 5 m height. Consider the average value of discharge \ncoefficient as 0.6 and acceleration due to gravity (g) as\n2\n10 m/s\n . After unplugging the orifice, the time (in \nseconds) taken for the water level to drop from 5 m to 3.5 m under free discharge condition is \n____________ (rounded off to 2 decimal places). \nAns. 102.00 to 106.00",
+  "answer_text": "",
+  "explanation_text": "Sol.\n5m(initial height)\n2m 1.5m\nA\n\uf0b4\n\uf03d\nOrifice (100 mm dia) = d\n0.6\nd\nC\n \uf03d\n2\n10m/s\ng\n \uf03d\n\nLet at any instant depth of liquid in tank is \u2018\nh\n\u2019 m and in time (\ndt\n), the depth falls by \n(\n)\ndh\n\uf02d\ndh |\n\uf02d\nh\n1\n\n0\n.\n(\n)\nQdt\nA\ndh\n\uf03d\n\uf02d\n\nPAGE\n51\n\nd\nC\ngh dt\nA\ndh\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf070\n\uf03d\n\uf02d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n2\n0\n.\n2\n(\n)\n4\nd\n\n\nH\n\uf02d\n\uf0e6\n\uf0f6\n\uf03d\n\uf03d\n\uf0e7\n\uf0f7\n\uf070\n\uf0e8\n\uf0f8\n\uf0f2\n\uf0f2\nA\ndH\nt\ndt\nd\nh\nC\ng\n2\n\n0\n2\n.\n2\n4\nH\nd\n1\n\uf028\n\uf029\n0\nA\nt\nH\nH\nd\nC\ng\n\uf0e9\n\uf0f9\n\uf03d\n\uf02d\n\uf0eb\n\uf0fb\n\uf070\n1\n2\n2\n2\n.\n2\n4\nd\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf0b4\n\uf0ea\n\uf0fa\n\uf03d\n\uf0b4\n\uf02d\n\uf070\n\uf0ea\n\uf0fa\n\uf0b4\n\uf0b4\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n\uf028\n\uf029\n2\nm\nt\nm\nm\nm\ns\n2 1.5\n2\n5\n3.5\nsec\n0.6\n0.1\n2 10\n4\n1/2\n\n\n\uf028\n\uf029\n2\n2\n2\n103.985sec\nt\n \uf03d"
+}

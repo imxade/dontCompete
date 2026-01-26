@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "electrical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 48 \nElectrical machine ( 3 phase induction motor)\n \n \nA 3-phase, 415 V, 50 Hz, 6 pole, 960 RPM, 4 HP squirrel cage induction motor drives a constant torque \nload at rated speed operating from rated supply and delivering rated output. If the supply voltage and \nfrequency are reduced by 20%, the resultant speed of the motor in RPM (neglecting the stator leakage \nimpedance and rotational losses) is _____. (round off to the nearest integer). \nAns. 760 (760 to 760) \nSol.\n \nGiven :\n \n4HP\n Induction motor\n415V\nt\nV\n \uf03d\n, \n50Hz\ns\nf\n \uf03d\n,\n6\nP\n \uf03d\n,\n960rpm\nr\nN\n \uf03d\n,\nL\nT\n \uf03d\nConstant\nand\nV\nf\n  are reduced by 20 %\nHence, \nV\nf\n \n is constant\n2\nR\nV\nT\nR\ns\nX\ns\n'\n3\n\uf03d\n\uf0b4\n\uf077\uf0e6\n\uf0f6\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n\n\n'\ns\n2\n2\n2\nAs we know, motor operates in low slip region\n2\n'\n'\nR\nX\ns\n \n\uf03e\uf03e\uf03e\n so, \n2\n'\nX\n \uf0ae\nNeglect\n2\n2\nsV\nT\nR\n\uf03d\uf077\n3\n\n'\nd\ns\n2\nFor constant load torque \nd\nT\n \uf03d\nConstant\n2\nsV\n\uf03d\n\uf077\nConstant\n\ns\n2\nsf\nf\n\uf03d\nConstant\n\nsf\n \uf03d\nConstant\ns\nN\nf\n\uf0b5\ns\nsN\n \uf03d\nConstant\ns\nr\nN\nN\n\uf02d\n\uf03d\nConstant\n1\n1\n2\n2\ns\nr\ns\nr\nN\nN\nN\nN\n\uf02d\n\uf03d\n\uf02d\n\n2\n1\n2\n120\n120\n960\nr\nf\nf\nN\nP\nP\n\uf0b4\n\uf02d\n\uf03d\n\uf02d\n\nr\nf\nN\n\uf0b4\n\uf02d\n\uf03d\n\uf02d\n2\n2\n120\n120 50\n960\n6\n6\n\nr\nN\nf\n \uf02d\n\uf03d\n\uf02d\n2\n6\n120\n960\n1000\n2\n\n\nGATE 2023 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n40\n\nr\nN\nf\n\uf02d\n\uf0b4\n\uf03d\n2\n6\n120\n40\n2\n\n1\n2\n8.0\nf\nf\n \uf03d\n\nHz\n40\n50\n8.0\n2\n\uf03d\n\uf0b4\n\uf03d\nf\nr\nN\n\uf0b4\n\uf03d\n\uf02d\n2\n120 40\n40\n6\n\uf05c\n2\n40\n800\nr\nN\n\uf03d\n\uf02d\n\nrpm\n760\n40\n800\n2\n\uf03d\n\uf02d\n\uf03d\nr\nN\nHence, the resultant speed of the motor is 760 rpm. \n \nHence, the correct answer is 760.",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 28 \n \n \n \n \nSignals & Systems (MCQ)\nThe input-output relationship of an LTI system is given below\n2\n1\n1\n1\nh\nFor an input \n[ ]\nx n\n  shown below,\n0\n0 1 2\n2\n1\nthe peak value of the output when \nx\n[\nn\n] is passed through \nh\n is ______. \n \n \n[1 Mark]\n0 1\n(A) 4 \n(B) 5 \n(C) 2 \n(D) 6\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n23\n",
+  "answer_text": "B",
+  "explanation_text": "Sol.\n \nGiven input-output relation and input x [n] are shown in figure\n1\n1\n2\n1\nh n\n[ ]\nsystem\nh\nn\nn\nn = 0\n0\n1\n2\nFigure-I\n1\n2\nx [n]\nn\n0\n1\nFigure-II\nFrom figure-I, as the input applied is \n[ ]\nn\n\u03b4\n i.e. impulse function, so its response is nothing but the impulse\nresponse of the given LTI system\n\u2e2b \n \nh[n] = \n\u03b4\n[n] + 2\n\u03b4\n[n \u2013 1] + \n\u03b4\n[n - 2]\nFrom figure-II,\nX[n] = \n\u03b4\n[n] + 2\n \u03b4\n[n \u2013 1]\nResponse of the system for input x[n] is given as\nh[n]\ny[n]\nx[n]\ny[n] = x[n] * h[n]\n= \n[ ]\n[\n]\n{\n}\n[ ]\n[\n]\n[\n]\n{\n}\nn\n2\nn\n1 *\nn\n2\nn\n1\ns n\n2\n\u03b4\n+ \u03b4\n\u2212\n\u03b4\n+ \u03b4\n\u2212\n+\n\u2212\n\uf051\n  \n[ ]* [ ]\n[0]\nx n\nn\nx\n\u03b4\n=\n[ ]\n[ ]\n[\n]\n[\n]\n[\n]\n[\n]\n[\n]\ny n\nn\n2\nn 1\nn\n2\n2\nn 1\n4\nn\n2\n2\nn\n3\n= \u03b4\n+ \u03b4\n\u2212\n+\u03b4\n\u2212\n+ \u03b4\n\u2212\n+ \u03b4\n\u2212\n+ \u03b4\n\u2212\n[ ]\n[ ]\n[\n]\n[\n]\n[\n]\ny n\nn\n4\nn 1\n5\nn\n2\n2\nn 1\n= \u03b4\n+ \u03b4\n\u2212\n+ \u03b4\n\u2212\n+ \u03b4\n\u2212\nOutput y[n] is plotted as shown in figure.\n5\n4\n2\n1\nn\n0\n1\n2\n3\nHence, the peak value of y[n] is 5 & the correct options (B)\nHence, the correct option is (B).\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n24\n"
+}

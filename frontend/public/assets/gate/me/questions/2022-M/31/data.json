@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 31\nIn \n3\nFe\nFe C\n\uf02d\n phase diagram, the eutectoid composition is 0.8 weight % of carbon at\n \n0\n725\n C. The\nmaximum solubility of carbon in \n\uf061\uf02d\nferrite phase is 0.025 weight % of\n \ncarbon. A steel sample, having \nno other alloying element except 0.5 weight % of\n \ncarbon, is slowly cooled from \n0\n1000\n C to room \ntemperature. The fraction of\n \npro-eutectoid \n\uf061\uf02d\nferrite in the above steel sample at room temperature is\n(A) 0.387 \n(B) 0.864 \n(C) 0.475 \n(D) 0.775",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \nGiven data\n0\n725\n0.8% carbon\nC\n \uf03d\nThe eutectoid composition at\n\uf061\uf02d\n Ferrite phase \n0.025%Carbon\n\uf03d\n\n\uf02d\n\uf03d\n\uf02d\nFraction of pro \u2013 eutectoid \n0.8\n0.5\n(\n)\n0.8\n0.25\nm\n\uf061\n0.387\nm\n\uf061\n\uf03d\nHence the correct option is (A).\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n32\n"
+}

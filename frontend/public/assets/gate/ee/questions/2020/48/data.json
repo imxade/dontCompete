@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "electrical-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 48\nThe static electric field inside a dielectric medium with relative permittivity, \nr\n\uf065\n = 2.25, expressed in\ncylindrical coordinate system is given by the following expression\n3\n2\n6\nr\nz\nr\nr\n\uf066\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nE\na\na\na\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n51\n\nwhere \n,\n,\nr\nz\n\uf066\na\na\na\n  are unit vectors along \nr\n, \n\uf066\n and \nz\n directions, respectively. If the above expression\nrepresents a valid electrostatic field inside the medium, then the volume charge density associated with \nthis field in terms of free space permittivity \n0\n,\n\uf065\n in SI units is given by\n(A) \n0\n3\n\uf065\n \n \n \n(B) \n0\n5\n\uf065\n(C) \n0\n4\n\uf065\n \n \n \n(D) \n0\n9\n\uf065",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\n \nGiven : \n3\n2\n6\nr\nz\nr\nr\n\uf066\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nE\na\na\na\nFrom Maxwell's equation,\n\uf072\n.\nV\nP\nD\n\uf03d\uf0d1\n\n\uf028\n\uf029\n0\n.\nV\nP\nE\n\uf03d\uf0ce\n\uf0d1\n\uf072\n.\nP\nE\n\uf03d\uf0d1\n\uf072\nE\nP\nrE\nE\nr\nr\nr\nz\n\uf0b6\n\uf0b6\n\uf0b6\n\uf03d\n\uf02b\n\uf066\uf02b\n\uf0b6\n\uf0b6\uf066\n\uf0b6\n\uf028\n\uf029\n1\n1\nz\nr\n\uf028\n\uf029\n2\n1\n2\n0\n0\nP\nr\nr r\n\uf0b6\n\uf03d\n\uf02b\n\uf02b\n\uf0b6\n4\n4\nr\nP\nr\n\uf03d\n\uf03d\n\uf0de\n  \n0\nV\nP\nP\n\uf03d\uf065\n0\n4\n\uf03d\uf065"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "47",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "362 to 363",
+  "question_text": "Question 47\nConsider a solid slab of thickness 2\nL\n and uniform cross section A. the volumetric rate of heat generation \nwithin the slab is \n3\n(W m )\ng\n\u2212\n&\n. The slab loses heat by convection at both the ends to air with heat transfer\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n40\n\ncoefficient \nh\n. Assuming steady state, one dimensional heat transfer, the temperature profile within the \nslab along the thickness is given by :\n\uf0e9\n\uf0f9\n\uf0e6\n\uf0f6\n=\n\u2212\n+\n\u2212\n\u2264\n\u2264\n\uf0ea\n\uf0fa\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n2\n2\n( )\n1\n for \n2\ns\ngL\nx\nT x\nT\nL\nx\nL\nk\nL\n&\n\nWhere k is the thermal conductivity of the slab and \ns\nT\n  is the surface temperature. If \n350 K\ns\nT\n =\n,\nambient air temperature \n300 K\nT\n\u221e\n=\n and biot number (base on L as the characteristic length) is 0.5, the\nmaximum temperature in the slab is _______ K. (round off to nearest integer)",
+  "answer_text": "362 to 363",
+  "explanation_text": "Sol.\n350K\ns\nT\n \u0002\n3\nW\ng m\n\u0002\nh\nAir\nh\nAir\n300\nT\n\u0005\n \u0002\n2\nL\n\n\uf0e9\n\uf0f9\n\uf0e6\n\uf0f6\n=\n\u2212\n+\n\uf0ea\n\uf0fa\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n2\n2\n( )\n1\n2 K\ns\ngL\nx\nT x\nT\nL\n&\n\nFor \nL\nx\nL\n\u2212\n\u2264\n\u2264\n350 K,\n300 K\ns\nT\nT\n\u221e\n=\n=\n0.5\ni\nB\n =\n2\nmax\n2 K\ns\ngL\nT\nT\n=\n+\n \n&\n  \n \n\u2026 (i)\n\n3\n(\nVolume)\nW\ng\ng\nW\nm\n \n=\n\u00d7\n&\n&\n( )(2 )\n2\n(\n)\ns\ng A\nL\nhA T\nT\n\u221e\n=\n\u2212\n&\n( )\n(\n)\ns\ng L\nh T\nT\n\u221e\n=\n\u2212\n&\n \n \n \n \n\u2026 (ii)\n=0.5\ni\nhL\nB\nK\n=\n0.5\n( )\n(\n)\ns\nK\ng L\nT\nT\nL\n\u221e\n=\n\u2212\n&\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n41\n\n2\n0.5\n(350\n300)\nK\ng\nL\n=\n\u2212\n&\n2\n25\ngL\nK\n \n=\n&\n\nEvaluating this on equation (i)\nmax\n25\n350\n2\nT\n\uf0e6\n\uf0f6\n=\n+\n \uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nmax\n362.5 K\nT\n=\n  \n \n \n \n \nAns."
+}

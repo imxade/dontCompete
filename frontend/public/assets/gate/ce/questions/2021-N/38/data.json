@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 38\n \n \nA 12-hour unit hydrograph (of 1 cm excess rainfall) of a catchment is of a triangular shape with a base\nwidth of 144 hour and a peak discharge of \n3\n23m /s\n . The area of catchment (in \n2\nkm\n , round off to the\nnearest integer) is________. \nAns. \n(596 \u2013 597) \nSol.\n1\ncm/hr\n12\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1 m\nTime\n12 hr\nDischarge (m /sec)\n3\nQ\nP\n = 23 m /sec \n3\n0 \n144 hr\nTime\n(hr)\nLet, catchment area = \nA\n km\n2\n  \n \nWe know that, Area of hydrograph = [(Area of 12 hr hyetograph) \n\u00d7\n Catchment area]\n1 144 23 60 60\n2\n \n\u00d7\n\u00d7\n\u00d7\n\u00d7\n6\n2\n1\n1\n12\n10 m\n12\n100\n \nA\n\uf0e6\n\uf0f6\n=\n\u00d7\n\u00d7\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n596.16 km\nA\n =\n \nQuestion 39\n \n \nA horizontal angle \n\u03b8\n  is measured by four different surveyors multiple times and the values reported \nare given below. The most probable value of the angle \n\u03b8\n  (in degree, round off to two decimal places) \nis________.\nSurveyor \nAngle (\n\u03b8\n) \nNumber of observation \n1 \n0\n36 30'\n \n4 \n2 \n0\n36 00'\n  \n3\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n21\n\n3 \n0\n35 30'\n \n8 \n4 \n0\n36 30'\n \n4 \nAns. \n36\n0\n \nSol.\n\u03a3 (angle \u00d7 No. of observation)\nNo. of observation\nMPV\n =\n0\n3\n0\n0\n36 30' 4\n36\n3\n35 30 8\n36 30' 4\n19\nMPV\n\u00d7\n+\n\u00d7 +\n\u00d7 +\n\u00d7\n=\n0\n36\n=\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

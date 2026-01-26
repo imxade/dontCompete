@@ -1,0 +1,11 @@
+{
+  "id": "21",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 21 \n \nA hot steel spherical ball is suddenly dipped into a low temperature oil bath. Which of the following \ndimensionless parameters are required to determine instantaneous center temperature of the ball using \na Heisler chart?\nHeat Transfer (Unsteady State Conduction) \n \n(A) Biot number and Fourier number    \n(B) Reynolds number and Prandlt number  \n \n(C) Nusselt number and Grashoff number  \n(D) Biot number and Froude number \nAns. \nA \nSol.\n \nIn case of Heisler chart,\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n22\n\nT t\nT\nT\nT\n( )\nt\n\u2212\n\u2212\nVarious Biot\nnumber lines\n\u221e\ni\n\u221e\nt\nf\nL\n\u03b1\n=\n0\n2\nc\nSo, Biot number and Fourier number are required to determine instantaneous centre temperature of the \nball. \n \nHence, the correct option is (A). \nQuestion 22\nThe value of \n2\n0\n1 cos\nlim\nx\nx\nx\n\u2192\n\u2212\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n is\nEngineering Mathematics (Limit)\n(A) \n1\n4\n \n \n \n(B) \n1\n2\n \n \n(C) \n1\n3\n \n \n(D) 1",
+  "answer_text": "B",
+  "explanation_text": "Sol. \nGiven : \n2\n1 cos\nlim\nx\nx\n\u2212\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nBy applying L-H rule\n0\nsin\n0\nlim 2\n0\nx\nx\nx\n\u2192\n\uf0e6\n\uf0f6\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\u2192\n=\n1\n2\n=\n0\ncos\nlim\n2\nx\nx\n"
+}

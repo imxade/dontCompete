@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 14 \n \n \nPower Systems \n \nThe geometric mean radius of a conductor, having four equal strands with each strand of radius \u2018\nr\n\u2019, as \nshown in the figure below, is\nr\n(A) 1.723 \nr\n \n(B) 2 \nr \n \n(C) 4 \nr\n \n(D) 1.414 \nr\n  \nAns. \nA \nSol.\n \nGiven diagram is\n1\n2\nr\nr\nr\nr\nr\nr\nr\nr\n2 2\nr\nTo calculate GMR, we multiply all the distances including self-distance, i.e. \n'\nr\n3\n4\nGeometric mean radius \n11\n12\n13\n14\n(GMR)\n4\n D D D D\n\uf03d\n11\n'\n0.7788\nD\nr\nr\n\uf03d\n\uf03d\n12\n2\nD\nr\n\uf03d\n13\n2 2\nD\nr\n\uf03d\n14\n2\nD\nr\n\uf03d\nGMR\n \uf028\n\uf029\n1/4\n0.7788\n2\n2 2 2\nr\nr r\nr\n\uf03d\n\uf0b4\n\uf0b4\n\uf0b4\n \n \n \n \n \nGMR\n 1.723\nr\n\uf03d\n \n \nHence, the correct option is (A). \nQuestion 15 \n \n \nPower System \n \nThe valid positive, negative and zero sequence impedance (in p.u.), respectively, for a 220 kV, fully \ntransposed three-phase transmission line, from the given choices are \n \n \n(A) 0.15, 0.15 and 0.35 \n(B) 0.2, 0.2 and 0.2 \n \n(C) 1.1, 0.15 and 0.08 \n(D) 0.1, 0.3 and 0.1 \nAns. \nA \nSol.\n\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n12\n\nIn case of transposed transmission lines\nZero-sequence impedance, \n0\n2\ns\nm\nX\nX\nX\n\uf03d\n\uf02b\nPositive-sequence impedance, \n1\ns\nm\nX\nX\nX\n\uf03d\n\uf02d\nNegative-sequence impedance, \n2\ns\nm\nX\nX\nX\n\uf03d\n\uf02d\nSo for transmission line, \n1\n2\n0\nX\nX\nX\n\uf03d\n\uf03c\nIn option (A) only have, \n1\n2\n0.15\nX\nX\n\uf03d\n\uf03d\n0\n0.35\nX\n \uf03d\nHence, the correct option is (A).",
+  "answer_text": "",
+  "explanation_text": ""
+}

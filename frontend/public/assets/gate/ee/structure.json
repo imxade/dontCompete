@@ -1,0 +1,1317 @@
+{
+  "stream": "ee",
+  "stream_code": "electrical-engineering",
+  "subjects": [
+    {
+      "name": "engineering mathematic",
+      "id": "ee_subj_1",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "linear algebra",
+          "id": "ee_subj_1_topic_1",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2023/24/",
+            "questions/2024/11/"
+          ]
+        },
+        {
+          "name": "vector identitie",
+          "id": "ee_subj_1_topic_2",
+          "slug": "vector-identitie",
+          "md_path": "engineering-mathematic/vector-identitie.md",
+          "questions": [
+            "questions/2021/42/",
+            "questions/2022/50/"
+          ]
+        },
+        {
+          "name": "probability theory",
+          "id": "ee_subj_1_topic_3",
+          "slug": "probability-theory",
+          "md_path": "engineering-mathematic/probability-theory.md",
+          "questions": [
+            "questions/2021/13/"
+          ]
+        },
+        {
+          "name": "polynomials and root",
+          "id": "ee_subj_1_topic_4",
+          "slug": "polynomials-and-root",
+          "md_path": "engineering-mathematic/polynomials-and-root.md",
+          "questions": [
+            "questions/2021/12/"
+          ]
+        },
+        {
+          "name": "calculus",
+          "id": "ee_subj_1_topic_5",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": [
+            "questions/2021/44/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electrical machine",
+      "id": "ee_subj_2",
+      "slug": "electrical-machine",
+      "topics": [
+        {
+          "name": "single phase induction motor",
+          "id": "ee_subj_2_topic_1",
+          "slug": "single-phase-induction-motor",
+          "md_path": "electrical-machine/single-phase-induction-motor.md",
+          "questions": [
+            "questions/2023/16/"
+          ]
+        },
+        {
+          "name": "dc machine",
+          "id": "ee_subj_2_topic_2",
+          "slug": "dc-machine",
+          "md_path": "electrical-machine/dc-machine.md",
+          "questions": [
+            "questions/2020/51/",
+            "questions/2021/15/",
+            "questions/2023/15/",
+            "questions/2024/55/"
+          ]
+        },
+        {
+          "name": "synchronous machines performance characteristic",
+          "id": "ee_subj_2_topic_3",
+          "slug": "synchronous-machines-performance-characteristic",
+          "md_path": "electrical-machine/synchronous-machines-performance-characteristic.md",
+          "questions": [
+            "questions/2022/56/"
+          ]
+        },
+        {
+          "name": "conductors and overhead line",
+          "id": "ee_subj_2_topic_4",
+          "slug": "conductors-and-overhead-line",
+          "md_path": "electrical-machine/conductors-and-overhead-line.md",
+          "questions": [
+            "questions/2022/14/"
+          ]
+        },
+        {
+          "name": "induction motor",
+          "id": "ee_subj_2_topic_5",
+          "slug": "induction-motor",
+          "md_path": "electrical-machine/induction-motor.md",
+          "questions": [
+            "questions/2022/35/"
+          ]
+        },
+        {
+          "name": "constructional features and operating principle",
+          "id": "ee_subj_2_topic_6",
+          "slug": "constructional-features-and-operating-principle",
+          "md_path": "electrical-machine/constructional-features-and-operating-principle.md",
+          "questions": [
+            "questions/2021/7/"
+          ]
+        },
+        {
+          "name": "three phase induction motor",
+          "id": "ee_subj_2_topic_7",
+          "slug": "three-phase-induction-motor",
+          "md_path": "electrical-machine/three-phase-induction-motor.md",
+          "questions": [
+            "questions/2023/48/"
+          ]
+        },
+        {
+          "name": "single phase transformer",
+          "id": "ee_subj_2_topic_8",
+          "slug": "single-phase-transformer",
+          "md_path": "electrical-machine/single-phase-transformer.md",
+          "questions": [
+            "questions/2020/49/"
+          ]
+        },
+        {
+          "name": "synchronous machine",
+          "id": "ee_subj_2_topic_9",
+          "slug": "synchronous-machine",
+          "md_path": "electrical-machine/synchronous-machine.md",
+          "questions": [
+            "questions/2020/41/",
+            "questions/2024/40/",
+            "questions/2024/46/"
+          ]
+        },
+        {
+          "name": "synchronous generator",
+          "id": "ee_subj_2_topic_10",
+          "slug": "synchronous-generator",
+          "md_path": "electrical-machine/synchronous-generator.md",
+          "questions": [
+            "questions/2020/22/"
+          ]
+        },
+        {
+          "name": "dc motor",
+          "id": "ee_subj_2_topic_11",
+          "slug": "dc-motor",
+          "md_path": "electrical-machine/dc-motor.md",
+          "questions": [
+            "questions/2020/35/"
+          ]
+        },
+        {
+          "name": "induction machine",
+          "id": "ee_subj_2_topic_12",
+          "slug": "induction-machine",
+          "md_path": "electrical-machine/induction-machine.md",
+          "questions": [
+            "questions/2024/54/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "control",
+      "id": "ee_subj_3",
+      "slug": "control",
+      "topics": [
+        {
+          "name": "nyquist stability criteria",
+          "id": "ee_subj_3_topic_1",
+          "slug": "nyquist-stability-criteria",
+          "md_path": "control/nyquist-stability-criteria.md",
+          "questions": [
+            "questions/2023/13/"
+          ]
+        },
+        {
+          "name": "damping ratio and undamped natural frequency",
+          "id": "ee_subj_3_topic_2",
+          "slug": "damping-ratio-and-undamped-natural-frequency",
+          "md_path": "control/damping-ratio-and-undamped-natural-frequency.md",
+          "questions": [
+            "questions/2022/39/"
+          ]
+        },
+        {
+          "name": "stability analysis using routh hurwitz and nyquist criteria",
+          "id": "ee_subj_3_topic_3",
+          "slug": "stability-analysis-using-routh-hurwitz-and-nyquist-criteria",
+          "md_path": "control/stability-analysis-using-routh-hurwitz-and-nyquist-criteria.md",
+          "questions": [
+            "questions/2020/27/",
+            "questions/2022/17/"
+          ]
+        },
+        {
+          "name": "transfer function analysis",
+          "id": "ee_subj_3_topic_4",
+          "slug": "transfer-function-analysis",
+          "md_path": "control/transfer-function-analysis.md",
+          "questions": [
+            "questions/2023/36/"
+          ]
+        },
+        {
+          "name": "digital signal processing",
+          "id": "ee_subj_3_topic_5",
+          "slug": "digital-signal-processing",
+          "md_path": "control/digital-signal-processing.md",
+          "questions": [
+            "questions/2020/29/"
+          ]
+        },
+        {
+          "name": "bode plot",
+          "id": "ee_subj_3_topic_6",
+          "slug": "bode-plot",
+          "md_path": "control/bode-plot.md",
+          "questions": [
+            "questions/2024/58/"
+          ]
+        },
+        {
+          "name": "root locus",
+          "id": "ee_subj_3_topic_7",
+          "slug": "root-locus",
+          "md_path": "control/root-locus.md",
+          "questions": [
+            "questions/2024/57/"
+          ]
+        },
+        {
+          "name": "transfer function",
+          "id": "ee_subj_3_topic_8",
+          "slug": "transfer-function",
+          "md_path": "control/transfer-function.md",
+          "questions": [
+            "questions/2024/20/"
+          ]
+        },
+        {
+          "name": "frequency response",
+          "id": "ee_subj_3_topic_9",
+          "slug": "frequency-response",
+          "md_path": "control/frequency-response.md",
+          "questions": [
+            "questions/2024/59/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "verbal ability",
+      "id": "ee_subj_4",
+      "slug": "verbal-ability",
+      "topics": [
+        {
+          "name": "case studie",
+          "id": "ee_subj_4_topic_1",
+          "slug": "case-studie",
+          "md_path": "verbal-ability/case-studie.md",
+          "questions": [
+            "questions/2023/4/",
+            "questions/2023/6/"
+          ]
+        },
+        {
+          "name": "sentence transformation",
+          "id": "ee_subj_4_topic_2",
+          "slug": "sentence-transformation",
+          "md_path": "verbal-ability/sentence-transformation.md",
+          "questions": [
+            "questions/2023/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital electronic",
+      "id": "ee_subj_5",
+      "slug": "digital-electronic",
+      "topics": [
+        {
+          "name": "logic gate",
+          "id": "ee_subj_5_topic_1",
+          "slug": "logic-gate",
+          "md_path": "digital-electronic/logic-gate.md",
+          "questions": [
+            "questions/2023/56/"
+          ]
+        },
+        {
+          "name": "combination circuit",
+          "id": "ee_subj_5_topic_2",
+          "slug": "combination-circuit",
+          "md_path": "digital-electronic/combination-circuit.md",
+          "questions": [
+            "questions/2024/26/"
+          ]
+        },
+        {
+          "name": "counters and sequential circuit",
+          "id": "ee_subj_5_topic_3",
+          "slug": "counters-and-sequential-circuit",
+          "md_path": "digital-electronic/counters-and-sequential-circuit.md",
+          "questions": [
+            "questions/2022/29/"
+          ]
+        },
+        {
+          "name": "k map",
+          "id": "ee_subj_5_topic_4",
+          "slug": "k-map",
+          "md_path": "digital-electronic/k-map.md",
+          "questions": [
+            "questions/2024/24/"
+          ]
+        },
+        {
+          "name": "combinatorial logic",
+          "id": "ee_subj_5_topic_5",
+          "slug": "combinatorial-logic",
+          "md_path": "digital-electronic/combinatorial-logic.md",
+          "questions": [
+            "questions/2024/25/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "network theory",
+      "id": "ee_subj_6",
+      "slug": "network-theory",
+      "topics": [
+        {
+          "name": "transient analysis",
+          "id": "ee_subj_6_topic_1",
+          "slug": "transient-analysis",
+          "md_path": "network-theory/transient-analysis.md",
+          "questions": [
+            "questions/2023/54/"
+          ]
+        },
+        {
+          "name": "network analysis and design",
+          "id": "ee_subj_6_topic_2",
+          "slug": "network-analysis-and-design",
+          "md_path": "network-theory/network-analysis-and-design.md",
+          "questions": [
+            "questions/2022/28/"
+          ]
+        },
+        {
+          "name": "ac circuits steady state analysis",
+          "id": "ee_subj_6_topic_3",
+          "slug": "ac-circuits-steady-state-analysis",
+          "md_path": "network-theory/ac-circuits-steady-state-analysis.md",
+          "questions": [
+            "questions/2022/31/"
+          ]
+        },
+        {
+          "name": "rlc network",
+          "id": "ee_subj_6_topic_4",
+          "slug": "rlc-network",
+          "md_path": "network-theory/rlc-network.md",
+          "questions": [
+            "questions/2022/55/"
+          ]
+        },
+        {
+          "name": "inductor and capacitor q factor",
+          "id": "ee_subj_6_topic_5",
+          "slug": "inductor-and-capacitor-q-factor",
+          "md_path": "network-theory/inductor-and-capacitor-q-factor.md",
+          "questions": [
+            "questions/2022/27/"
+          ]
+        },
+        {
+          "name": "transient behavior or initial condition",
+          "id": "ee_subj_6_topic_6",
+          "slug": "transient-behavior-or-initial-condition",
+          "md_path": "network-theory/transient-behavior-or-initial-condition.md",
+          "questions": [
+            "questions/2021/14/"
+          ]
+        },
+        {
+          "name": "maximum power transfer",
+          "id": "ee_subj_6_topic_7",
+          "slug": "maximum-power-transfer",
+          "md_path": "network-theory/maximum-power-transfer.md",
+          "questions": [
+            "questions/2021/6/"
+          ]
+        },
+        {
+          "name": "thevenins theorem",
+          "id": "ee_subj_6_topic_8",
+          "slug": "thevenins-theorem",
+          "md_path": "network-theory/thevenins-theorem.md",
+          "questions": [
+            "questions/2023/32/"
+          ]
+        },
+        {
+          "name": "basic of network",
+          "id": "ee_subj_6_topic_9",
+          "slug": "basic-of-network",
+          "md_path": "network-theory/basic-of-network.md",
+          "questions": [
+            "questions/2024/12/",
+            "questions/2024/13/"
+          ]
+        },
+        {
+          "name": "transient",
+          "id": "ee_subj_6_topic_10",
+          "slug": "transient",
+          "md_path": "network-theory/transient.md",
+          "questions": [
+            "questions/2024/14/"
+          ]
+        },
+        {
+          "name": "magnetic coupled circuit",
+          "id": "ee_subj_6_topic_11",
+          "slug": "magnetic-coupled-circuit",
+          "md_path": "network-theory/magnetic-coupled-circuit.md",
+          "questions": [
+            "questions/2024/49/"
+          ]
+        },
+        {
+          "name": "two port network",
+          "id": "ee_subj_6_topic_12",
+          "slug": "two-port-network",
+          "md_path": "network-theory/two-port-network.md",
+          "questions": [
+            "questions/2024/48/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "signal",
+      "id": "ee_subj_7",
+      "slug": "signal",
+      "topics": [
+        {
+          "name": "signal convolution",
+          "id": "ee_subj_7_topic_1",
+          "slug": "signal-convolution",
+          "md_path": "signal/signal-convolution.md",
+          "questions": [
+            "questions/2023/31/"
+          ]
+        },
+        {
+          "name": "system analysis",
+          "id": "ee_subj_7_topic_2",
+          "slug": "system-analysis",
+          "md_path": "signal/system-analysis.md",
+          "questions": [
+            "questions/2024/37/"
+          ]
+        },
+        {
+          "name": "discrete time fourier series representation",
+          "id": "ee_subj_7_topic_3",
+          "slug": "discrete-time-fourier-series-representation",
+          "md_path": "signal/discrete-time-fourier-series-representation.md",
+          "questions": [
+            "questions/2022/49/"
+          ]
+        },
+        {
+          "name": "lti system analysis",
+          "id": "ee_subj_7_topic_4",
+          "slug": "lti-system-analysis",
+          "md_path": "signal/lti-system-analysis.md",
+          "questions": [
+            "questions/2022/47/"
+          ]
+        },
+        {
+          "name": "linear time invariant",
+          "id": "ee_subj_7_topic_5",
+          "slug": "linear-time-invariant",
+          "md_path": "signal/linear-time-invariant.md",
+          "questions": [
+            "questions/2021/27/"
+          ]
+        },
+        {
+          "name": "fourier transform",
+          "id": "ee_subj_7_topic_6",
+          "slug": "fourier-transform",
+          "md_path": "signal/fourier-transform.md",
+          "questions": [
+            "questions/2021/25/",
+            "questions/2024/33/"
+          ]
+        },
+        {
+          "name": "z transform",
+          "id": "ee_subj_7_topic_7",
+          "slug": "z-transform",
+          "md_path": "signal/z-transform.md",
+          "questions": [
+            "questions/2021/1/"
+          ]
+        },
+        {
+          "name": "discrete time signal processing",
+          "id": "ee_subj_7_topic_8",
+          "slug": "discrete-time-signal-processing",
+          "md_path": "signal/discrete-time-signal-processing.md",
+          "questions": [
+            "questions/2023/49/"
+          ]
+        },
+        {
+          "name": "linear time invariant discrete time",
+          "id": "ee_subj_7_topic_9",
+          "slug": "linear-time-invariant-discrete-time",
+          "md_path": "signal/linear-time-invariant-discrete-time.md",
+          "questions": [
+            "questions/2020/43/"
+          ]
+        },
+        {
+          "name": "fourier series representation of continuous and discrete time periodic signal",
+          "id": "ee_subj_7_topic_10",
+          "slug": "fourier-series-representation-of-continuous-and-discrete-time-periodic-signal",
+          "md_path": "signal/fourier-series-representation-of-continuous-and-discrete-time-periodic-signal.md",
+          "questions": []
+        },
+        {
+          "name": "laplace transform",
+          "id": "ee_subj_7_topic_11",
+          "slug": "laplace-transform",
+          "md_path": "signal/laplace-transform.md",
+          "questions": [
+            "questions/2024/16/"
+          ]
+        },
+        {
+          "name": "convolution",
+          "id": "ee_subj_7_topic_12",
+          "slug": "convolution",
+          "md_path": "signal/convolution.md",
+          "questions": [
+            "questions/2024/15/"
+          ]
+        },
+        {
+          "name": "stability analysis",
+          "id": "ee_subj_7_topic_13",
+          "slug": "stability-analysis",
+          "md_path": "signal/stability-analysis.md",
+          "questions": [
+            "questions/2024/38/"
+          ]
+        },
+        {
+          "name": "energy analysis",
+          "id": "ee_subj_7_topic_14",
+          "slug": "energy-analysis",
+          "md_path": "signal/energy-analysis.md",
+          "questions": [
+            "questions/2024/53/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "power electronic",
+      "id": "ee_subj_8",
+      "slug": "power-electronic",
+      "topics": [
+        {
+          "name": "single phase rectifier",
+          "id": "ee_subj_8_topic_1",
+          "slug": "single-phase-rectifier",
+          "md_path": "power-electronic/single-phase-rectifier.md",
+          "questions": [
+            "questions/2023/58/"
+          ]
+        },
+        {
+          "name": "chopper",
+          "id": "ee_subj_8_topic_2",
+          "slug": "chopper",
+          "md_path": "power-electronic/chopper.md",
+          "questions": [
+            "questions/2024/35/",
+            "questions/2024/64/"
+          ]
+        },
+        {
+          "name": "dc ac inverter",
+          "id": "ee_subj_8_topic_3",
+          "slug": "dc-ac-inverter",
+          "md_path": "power-electronic/dc-ac-inverter.md",
+          "questions": [
+            "questions/2022/58/"
+          ]
+        },
+        {
+          "name": "rectifier",
+          "id": "ee_subj_8_topic_4",
+          "slug": "rectifier",
+          "md_path": "power-electronic/rectifier.md",
+          "questions": [
+            "questions/2022/33/",
+            "questions/2024/65/"
+          ]
+        },
+        {
+          "name": "dc dc converter",
+          "id": "ee_subj_8_topic_5",
+          "slug": "dc-dc-converter",
+          "md_path": "power-electronic/dc-dc-converter.md",
+          "questions": [
+            "questions/2021/41/"
+          ]
+        },
+        {
+          "name": "switching circuit",
+          "id": "ee_subj_8_topic_6",
+          "slug": "switching-circuit",
+          "md_path": "power-electronic/switching-circuit.md",
+          "questions": [
+            "questions/2023/55/"
+          ]
+        },
+        {
+          "name": "chopper circuits and dc dc conversion",
+          "id": "ee_subj_8_topic_7",
+          "slug": "chopper-circuits-and-dc-dc-conversion",
+          "md_path": "power-electronic/chopper-circuits-and-dc-dc-conversion.md",
+          "questions": [
+            "questions/2023/23/"
+          ]
+        },
+        {
+          "name": "single phase triac based ac voltage controller",
+          "id": "ee_subj_8_topic_8",
+          "slug": "single-phase-triac-based-ac-voltage-controller",
+          "md_path": "power-electronic/single-phase-triac-based-ac-voltage-controller.md",
+          "questions": [
+            "questions/2024/28/"
+          ]
+        },
+        {
+          "name": "switching device",
+          "id": "ee_subj_8_topic_9",
+          "slug": "switching-device",
+          "md_path": "power-electronic/switching-device.md",
+          "questions": [
+            "questions/2024/27/"
+          ]
+        },
+        {
+          "name": "half wave rectifier",
+          "id": "ee_subj_8_topic_10",
+          "slug": "half-wave-rectifier",
+          "md_path": "power-electronic/half-wave-rectifier.md",
+          "questions": [
+            "questions/2024/62/"
+          ]
+        },
+        {
+          "name": "inverter",
+          "id": "ee_subj_8_topic_11",
+          "slug": "inverter",
+          "md_path": "power-electronic/inverter.md",
+          "questions": [
+            "questions/2024/63/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "ee_subj_9",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "numerical computation",
+          "id": "ee_subj_9_topic_1",
+          "slug": "numerical-computation",
+          "md_path": "general-aptitude/numerical-computation.md",
+          "questions": [
+            "questions/2023/7/"
+          ]
+        },
+        {
+          "name": "verbal ability",
+          "id": "ee_subj_9_topic_2",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2020/9/",
+            "questions/2024/6/"
+          ]
+        },
+        {
+          "name": "spatial aptitude",
+          "id": "ee_subj_9_topic_3",
+          "slug": "spatial-aptitude",
+          "md_path": "general-aptitude/spatial-aptitude.md",
+          "questions": [
+            "questions/2022/10/"
+          ]
+        },
+        {
+          "name": "logical inference",
+          "id": "ee_subj_9_topic_4",
+          "slug": "logical-inference",
+          "md_path": "general-aptitude/logical-inference.md",
+          "questions": [
+            "questions/2022/6/"
+          ]
+        },
+        {
+          "name": "verbal ability language comprehension vocabulary grammar and reading comprehension",
+          "id": "ee_subj_9_topic_5",
+          "slug": "verbal-ability-language-comprehension-vocabulary-grammar-and-reading-comprehensi",
+          "md_path": "general-aptitude/verbal-ability-language-comprehension-vocabulary-grammar-and-reading-comprehensi.md",
+          "questions": [
+            "questions/2020/3/"
+          ]
+        },
+        {
+          "name": "spatial aptitude transformation of shapes translation rotation scaling mirroring assembling grouping paper folding cutting and patterns in 2d and 3d",
+          "id": "ee_subj_9_topic_6",
+          "slug": "spatial-aptitude-transformation-of-shapes-translation-rotation-scaling-mirroring",
+          "md_path": "general-aptitude/spatial-aptitude-transformation-of-shapes-translation-rotation-scaling-mirroring.md",
+          "questions": [
+            "questions/2020/6/"
+          ]
+        },
+        {
+          "name": "analogy and intensity level",
+          "id": "ee_subj_9_topic_7",
+          "slug": "analogy-and-intensity-level",
+          "md_path": "general-aptitude/analogy-and-intensity-level.md",
+          "questions": [
+            "questions/2024/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mathematic",
+      "id": "ee_subj_10",
+      "slug": "mathematic",
+      "topics": [
+        {
+          "name": "vector calculus",
+          "id": "ee_subj_10_topic_1",
+          "slug": "vector-calculus",
+          "md_path": "mathematic/vector-calculus.md",
+          "questions": [
+            "questions/2024/36/"
+          ]
+        },
+        {
+          "name": "matrix propertie",
+          "id": "ee_subj_10_topic_2",
+          "slug": "matrix-propertie",
+          "md_path": "mathematic/matrix-propertie.md",
+          "questions": [
+            "questions/2022/20/"
+          ]
+        },
+        {
+          "name": "quadratic function",
+          "id": "ee_subj_10_topic_3",
+          "slug": "quadratic-function",
+          "md_path": "mathematic/quadratic-function.md",
+          "questions": [
+            "questions/2023/65/"
+          ]
+        },
+        {
+          "name": "linear algebra",
+          "id": "ee_subj_10_topic_4",
+          "slug": "linear-algebra",
+          "md_path": "mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2023/11/"
+          ]
+        },
+        {
+          "name": "numerical method",
+          "id": "ee_subj_10_topic_5",
+          "slug": "numerical-method",
+          "md_path": "mathematic/numerical-method.md",
+          "questions": [
+            "questions/2023/35/"
+          ]
+        },
+        {
+          "name": "complex variable",
+          "id": "ee_subj_10_topic_6",
+          "slug": "complex-variable",
+          "md_path": "mathematic/complex-variable.md",
+          "questions": [
+            "questions/2024/30/"
+          ]
+        },
+        {
+          "name": "limit serie",
+          "id": "ee_subj_10_topic_7",
+          "slug": "limit-serie",
+          "md_path": "mathematic/limit-serie.md",
+          "questions": [
+            "questions/2024/31/"
+          ]
+        },
+        {
+          "name": "differential equation",
+          "id": "ee_subj_10_topic_8",
+          "slug": "differential-equation",
+          "md_path": "mathematic/differential-equation.md",
+          "questions": [
+            "questions/2024/45/"
+          ]
+        },
+        {
+          "name": "maxima minima",
+          "id": "ee_subj_10_topic_9",
+          "slug": "maxima-minima",
+          "md_path": "mathematic/maxima-minima.md",
+          "questions": [
+            "questions/2024/43/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "analog electronic",
+      "id": "ee_subj_11",
+      "slug": "analog-electronic",
+      "topics": [
+        {
+          "name": "op amp",
+          "id": "ee_subj_11_topic_1",
+          "slug": "op-amp",
+          "md_path": "analog-electronic/op-amp.md",
+          "questions": [
+            "questions/2024/61/"
+          ]
+        },
+        {
+          "name": "op amps and other linear ics",
+          "id": "ee_subj_11_topic_2",
+          "slug": "op-amps-and-other-linear-ics",
+          "md_path": "analog-electronic/op-amps-and-other-linear-ics.md",
+          "questions": [
+            "questions/2022/16/"
+          ]
+        },
+        {
+          "name": "operational amplifiers and feedback amplifier",
+          "id": "ee_subj_11_topic_3",
+          "slug": "operational-amplifiers-and-feedback-amplifier",
+          "md_path": "analog-electronic/operational-amplifiers-and-feedback-amplifier.md",
+          "questions": [
+            "questions/2022/36/"
+          ]
+        },
+        {
+          "name": "zener diode regulator circuit",
+          "id": "ee_subj_11_topic_4",
+          "slug": "zener-diode-regulator-circuit",
+          "md_path": "analog-electronic/zener-diode-regulator-circuit.md",
+          "questions": [
+            "questions/2023/59/"
+          ]
+        },
+        {
+          "name": "diode circuit analysis",
+          "id": "ee_subj_11_topic_5",
+          "slug": "diode-circuit-analysis",
+          "md_path": "analog-electronic/diode-circuit-analysis.md",
+          "questions": [
+            "questions/2023/44/"
+          ]
+        },
+        {
+          "name": "bjt",
+          "id": "ee_subj_11_topic_6",
+          "slug": "bjt",
+          "md_path": "analog-electronic/bjt.md",
+          "questions": [
+            "questions/2024/42/"
+          ]
+        },
+        {
+          "name": "simple diode circuit",
+          "id": "ee_subj_11_topic_7",
+          "slug": "simple-diode-circuit",
+          "md_path": "analog-electronic/simple-diode-circuit.md",
+          "questions": [
+            "questions/2024/60/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "machine",
+      "id": "ee_subj_12",
+      "slug": "machine",
+      "topics": [
+        {
+          "name": "induction machine",
+          "id": "ee_subj_12_topic_1",
+          "slug": "induction-machine",
+          "md_path": "machine/induction-machine.md",
+          "questions": [
+            "questions/2024/17/"
+          ]
+        },
+        {
+          "name": "transformer",
+          "id": "ee_subj_12_topic_2",
+          "slug": "transformer",
+          "md_path": "machine/transformer.md",
+          "questions": [
+            "questions/2024/18/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "ee_subj_13",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "random variables discrete and continuous distribution",
+          "id": "ee_subj_13_topic_1",
+          "slug": "random-variables-discrete-and-continuous-distribution",
+          "md_path": "probability-and-statistic/random-variables-discrete-and-continuous-distribution.md",
+          "questions": []
+        },
+        {
+          "name": "uniform distribution",
+          "id": "ee_subj_13_topic_2",
+          "slug": "uniform-distribution",
+          "md_path": "probability-and-statistic/uniform-distribution.md",
+          "questions": [
+            "questions/2024/29/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "power system protection",
+      "id": "ee_subj_14",
+      "slug": "power-system-protection",
+      "topics": [
+        {
+          "name": "relay coordination",
+          "id": "ee_subj_14_topic_1",
+          "slug": "relay-coordination",
+          "md_path": "power-system-protection/relay-coordination.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "power",
+      "id": "ee_subj_15",
+      "slug": "power",
+      "topics": [
+        {
+          "name": "alternator protection",
+          "id": "ee_subj_15_topic_1",
+          "slug": "alternator-protection",
+          "md_path": "power/alternator-protection.md",
+          "questions": [
+            "questions/2022/13/"
+          ]
+        },
+        {
+          "name": "alternator and synchronous motor",
+          "id": "ee_subj_15_topic_2",
+          "slug": "alternator-and-synchronous-motor",
+          "md_path": "power/alternator-and-synchronous-motor.md",
+          "questions": [
+            "questions/2022/57/",
+            "questions/2022/64/"
+          ]
+        },
+        {
+          "name": "bus admittance matrix",
+          "id": "ee_subj_15_topic_3",
+          "slug": "bus-admittance-matrix",
+          "md_path": "power/bus-admittance-matrix.md",
+          "questions": [
+            "questions/2021/24/"
+          ]
+        },
+        {
+          "name": "load flow and economic dispatch",
+          "id": "ee_subj_15_topic_4",
+          "slug": "load-flow-and-economic-dispatch",
+          "md_path": "power/load-flow-and-economic-dispatch.md",
+          "questions": [
+            "questions/2021/23/"
+          ]
+        },
+        {
+          "name": "short circuit analysis three phase",
+          "id": "ee_subj_15_topic_5",
+          "slug": "short-circuit-analysis-three-phase",
+          "md_path": "power/short-circuit-analysis-three-phase.md",
+          "questions": [
+            "questions/2021/53/"
+          ]
+        },
+        {
+          "name": "load flow study",
+          "id": "ee_subj_15_topic_6",
+          "slug": "load-flow-study",
+          "md_path": "power/load-flow-study.md",
+          "questions": [
+            "questions/2021/43/"
+          ]
+        },
+        {
+          "name": "protection and overcurrent relay",
+          "id": "ee_subj_15_topic_7",
+          "slug": "protection-and-overcurrent-relay",
+          "md_path": "power/protection-and-overcurrent-relay.md",
+          "questions": [
+            "questions/2023/20/"
+          ]
+        },
+        {
+          "name": "per unit system calculation",
+          "id": "ee_subj_15_topic_8",
+          "slug": "per-unit-system-calculation",
+          "md_path": "power/per-unit-system-calculation.md",
+          "questions": [
+            "questions/2023/60/"
+          ]
+        },
+        {
+          "name": "series and shunt compensation",
+          "id": "ee_subj_15_topic_9",
+          "slug": "series-and-shunt-compensation",
+          "md_path": "power/series-and-shunt-compensation.md",
+          "questions": [
+            "questions/2020/18/"
+          ]
+        },
+        {
+          "name": "power flow analysis",
+          "id": "ee_subj_15_topic_10",
+          "slug": "power-flow-analysis",
+          "md_path": "power/power-flow-analysis.md",
+          "questions": [
+            "questions/2020/50/"
+          ]
+        },
+        {
+          "name": "psm stability",
+          "id": "ee_subj_15_topic_11",
+          "slug": "psm-stability",
+          "md_path": "power/psm-stability.md",
+          "questions": [
+            "questions/2024/56/"
+          ]
+        },
+        {
+          "name": "economic load dispatch",
+          "id": "ee_subj_15_topic_12",
+          "slug": "economic-load-dispatch",
+          "md_path": "power/economic-load-dispatch.md",
+          "questions": [
+            "questions/2024/41/"
+          ]
+        },
+        {
+          "name": "operating condition",
+          "id": "ee_subj_15_topic_13",
+          "slug": "operating-condition",
+          "md_path": "power/operating-condition.md",
+          "questions": [
+            "questions/2024/19/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electromagnetic theory",
+      "id": "ee_subj_16",
+      "slug": "electromagnetic-theory",
+      "topics": [
+        {
+          "name": "dielectric",
+          "id": "ee_subj_16_topic_1",
+          "slug": "dielectric",
+          "md_path": "electromagnetic-theory/dielectric.md",
+          "questions": [
+            "questions/2021/55/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electromagnetic field",
+      "id": "ee_subj_17",
+      "slug": "electromagnetic-field",
+      "topics": [
+        {
+          "name": "magnetic field intensity",
+          "id": "ee_subj_17_topic_1",
+          "slug": "magnetic-field-intensity",
+          "md_path": "electromagnetic-field/magnetic-field-intensity.md",
+          "questions": [
+            "questions/2021/19/"
+          ]
+        },
+        {
+          "name": "electrostatics and vector field integration",
+          "id": "ee_subj_17_topic_2",
+          "slug": "electrostatics-and-vector-field-integration",
+          "md_path": "electromagnetic-field/electrostatics-and-vector-field-integration.md",
+          "questions": [
+            "questions/2023/62/"
+          ]
+        },
+        {
+          "name": "magnetostatic",
+          "id": "ee_subj_17_topic_3",
+          "slug": "magnetostatic",
+          "md_path": "electromagnetic-field/magnetostatic.md",
+          "questions": [
+            "questions/2023/43/"
+          ]
+        },
+        {
+          "name": "curl",
+          "id": "ee_subj_17_topic_4",
+          "slug": "curl",
+          "md_path": "electromagnetic-field/curl.md",
+          "questions": [
+            "questions/2020/39/"
+          ]
+        },
+        {
+          "name": "gausss law",
+          "id": "ee_subj_17_topic_5",
+          "slug": "gausss-law",
+          "md_path": "electromagnetic-field/gausss-law.md",
+          "questions": [
+            "questions/2020/48/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "measurement",
+      "id": "ee_subj_18",
+      "slug": "measurement",
+      "topics": [
+        {
+          "name": "power and energy measurement",
+          "id": "ee_subj_18_topic_1",
+          "slug": "power-and-energy-measurement",
+          "md_path": "measurement/power-and-energy-measurement.md",
+          "questions": [
+            "questions/2023/39/"
+          ]
+        },
+        {
+          "name": "instrument transformer",
+          "id": "ee_subj_18_topic_2",
+          "slug": "instrument-transformer",
+          "md_path": "measurement/instrument-transformer.md",
+          "questions": [
+            "questions/2024/23/"
+          ]
+        },
+        {
+          "name": "z transform",
+          "id": "ee_subj_18_topic_3",
+          "slug": "z-transform",
+          "md_path": "measurement/z-transform.md",
+          "questions": [
+            "questions/2024/39/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "numerical ability",
+      "id": "ee_subj_19",
+      "slug": "numerical-ability",
+      "topics": [
+        {
+          "name": "number system and numerical reasoning",
+          "id": "ee_subj_19_topic_1",
+          "slug": "number-system-and-numerical-reasoning",
+          "md_path": "numerical-ability/number-system-and-numerical-reasoning.md",
+          "questions": [
+            "questions/2023/9/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electrical measurement",
+      "id": "ee_subj_20",
+      "slug": "electrical-measurement",
+      "topics": [
+        {
+          "name": "error analysis",
+          "id": "ee_subj_20_topic_1",
+          "slug": "error-analysis",
+          "md_path": "electrical-measurement/error-analysis.md",
+          "questions": [
+            "questions/2020/42/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calculus",
+      "id": "ee_subj_21",
+      "slug": "calculus",
+      "topics": [
+        {
+          "name": "mean value theorem",
+          "id": "ee_subj_21_topic_1",
+          "slug": "mean-value-theorem",
+          "md_path": "calculus/mean-value-theorem.md",
+          "questions": [
+            "questions/2020/7/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "complex variable",
+      "id": "ee_subj_22",
+      "slug": "complex-variable",
+      "topics": [
+        {
+          "name": "two sided laplace transform",
+          "id": "ee_subj_22_topic_1",
+          "slug": "two-sided-laplace-transform",
+          "md_path": "complex-variable/two-sided-laplace-transform.md",
+          "questions": [
+            "questions/2020/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "emt electrostatic",
+      "id": "ee_subj_23",
+      "slug": "emt-electrostatic",
+      "topics": [
+        {
+          "name": "electric field",
+          "id": "ee_subj_23_topic_1",
+          "slug": "electric-field",
+          "md_path": "emt-electrostatic/electric-field.md",
+          "questions": [
+            "questions/2024/51/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linear algebra",
+      "id": "ee_subj_24",
+      "slug": "linear-algebra",
+      "topics": [
+        {
+          "name": "eigenvalue",
+          "id": "ee_subj_24_topic_1",
+          "slug": "eigenvalue",
+          "md_path": "linear-algebra/eigenvalue.md",
+          "questions": [
+            "questions/2024/32/"
+          ]
+        }
+      ]
+    }
+  ]
+}

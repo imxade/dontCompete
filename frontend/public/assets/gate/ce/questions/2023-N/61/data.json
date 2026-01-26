@@ -1,0 +1,11 @@
+{
+  "id": "61",
+  "stream": "civil-engineering",
+  "packet": "2023-N",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "500 (500 to 500)",
+  "question_text": "Question 61 \n \n[Geotechnical Engineering : Compressibility & Consolidation]\nA consolidated drained (CD) triaxial test was carried out on a sand sample with the known effective \nshear strength parameters, \n'\n0\nc\n \uf03d\n and\n '\n30\n\uf066\uf03d\n\uf0b0\n. In the test, prior to the failure, when the sample was\nundergoing axial compression under constant cell pressure, the drainage valve was accidentally closed. \nAt the failure, 360 kPa deviatoric stress was recorded along with 70 kPa pore water pressure. If the test \nis repeated without such error, and no back pressure is applied in either of the tests, what is the \ndeviatoric stress (in kPa in integer) at the failure  _______.",
+  "answer_text": "500 (500 to 500)",
+  "explanation_text": "Sol. \n\uf028\uf029\n2\n1\n3\n \ntan\n45\n2 'tan 45\n... A\n2\n2\nc\n\uf066\n\uf066\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf073\uf03d\uf073\n\uf02b\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\uf05c\n \n3\n3\n70\n\uf073\uf03d\uf073\uf02d\nand \n\uf028\n\uf029\n1\n1\n3\n3\n70\n70\n360\n70\nd\n\uf073\uf03d\uf073\uf02d\n\uf03d\uf073\uf02b\uf073\uf02d\n\uf03d\uf073\uf02b\n\uf02d\nSubstitute \n1\n\uf073\nand \n3\n\uf073\nin equation (A), we get\n30\n360\n70\n70 tan\n45\n2\n\uf0e6\n\uf0f6\n\uf073\uf02b\n\uf02d\n\uf03d\uf073\uf02d\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf028\uf029\nA\n \uf0de\n\uf028\n\uf029\n\uf028\n\uf029\n\uf05b\n\uf05d\n0\nc\n \uf03d\n2\n3\n3\n\n\uf0de\n \n3\n250 kPa\n\uf073\uf03d\nWhen drainage is open,\n2\n1\n3\n \ntan\n45\n2\n\uf066\n\uf0e6\n\uf0f6\n\uf073\uf03d\uf073\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf05b\n\uf05d\n0\nc\n \uf03d\n\n\n\uf0e6\n\uf0f6\n\uf073\uf02b\uf073\n\uf03d\uf073\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n30\ntan\n45\n2\nd\n\uf0de\n  \n\uf028\n\uf029\n2\n3\n3\n\n\uf0de\n  \n\uf028\n\uf029\n250\n250 3\nd\n\uf02b\uf073\n\uf03d\n\uf0b4\n\uf0de\n  \n500 kPa\nd\n\uf073\uf03d\nHence, deviatoric stress is 500 kPa."
+}

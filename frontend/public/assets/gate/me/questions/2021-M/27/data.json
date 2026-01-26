@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 27 \n \nConsider a steam power plant operating on an ideal reheat Rankine cycle. The work input to the \npump is  \n20kJ/kg.\n The work output from the high pressure turbine is 750 kJ/kg. The work output\nfrom the low pressure turbine is 1500 kJ/kg. The thermal efficiency of the cycle is 50%. The \nenthalpy of saturated liquid and saturated vapour at condenser pressure are 200 kJ/kg and 2600 \nkJ/kg, respectively. The quality of steam at the exit of the low pressure turbine is _______ %(round \noff to the nearest integer).\nApplication of Thermodynamics (Power Plant) \nAns. \n92.91 \nSol.\n \nGiven : \n1\n2\n750 kJ/kg,\n1500 kJ/kg\nHPT\nLPT\nW\nW\n=\n=\n50%,\n20 kJ/kg\nP\nW\n\u03b7 =\n=\n200 kJ/kg,   \n2600 kJ/kg\nf\ng\nh\nh\n=\n=\nnet\nW\nQ\n\u03b7=\n\nsupplied\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n25\n\nT\n1\n3\n6\n2\n4\n5\ng\nh\nf\nh\ns\nCondenser Pressure\n1\n2\nnet\nHPT\nLPT\nP\nW\nW\nW\nW\n=\n+\n\u2212\n750 1500\n20\n2230\nnet\nW\n=\n+\n\u2212\n=\n2230\n0.50\n4460\nS\nS\nQ\nQ\n=\n\uf0de\n=\nQ\nQ\nQ\n\u03b7 = \u2212\n\uf0de\n= \u2212\n1\n0.50\n1\n4460\nR\nR\nS\nR\nQ\n=\n0.50\n4460\n2230 kJ/kg\nR\nQ\n =\n4\n5\n2230 kJ/kg\nR\nQ\nh\nh\n=\n\u2212\n=\n \n5\nf\nh\nh\n=\n\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\nFor condenser pressure\n4\n5\n(\n)\ng\nf\nh\nh\nx h\nh\n=\n+\n\u2212\n4\n5\n(\n)\ng\nf\nh\nh\nx h\nh\n\u2212\n=\n\u2212\n2230\n(2600 200)\nx\n=\n\u2212\n2230\n0.9291\n92.91%\n2400\nx\n =\n=\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

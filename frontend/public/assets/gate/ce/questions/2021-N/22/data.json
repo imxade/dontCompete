@@ -1,0 +1,11 @@
+{
+  "id": "22",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 22\nA water filtration unit is made of uniform-size particles of 0.4 mm diameter with a shape factor of 0.84 \nand specific gravity of 2.55. The depth of the filter bed is 0.70 m and the porosity is 0.35. The filter \nbed is to be expanded to a porosity of 0.65 by hydraulic backwash. If the terminal settling velocity of \nsand particles during backwash is 4.5 cm/s, the required backwash velocity is\n(A) \n0.75 cm/s\n  \n(B) \n0.69 cm/s\n  \n(C) \n3\n6.35 10\nm/s\n\u2212\n\u00d7\n \n(D) \n3\n5.79 10\nm/s\n\u2212\n\u00d7",
+  "answer_text": "C",
+  "explanation_text": "Sol.\n \nGiven :\nDiameter of sand particle, \n0.4 mm\nd\n =\nShape factor, \n0.84\n\u03c6 =\nSpecific gravity, \n2.55\nG\n =\nDepth of filter bed = 0.7 m\nPorosity, \n0.35\nn\n =\nExpanded, \n0.65\ne\nn\n =\nSettling velocity, \n45 cm/sec\ns\nV\n =\n0.22\n'\n\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nV\nn\nV\nWe know that,\nB\nS\n\u2234\n  \n3\n6.35 10  m/s\nb\nv\n\u2212\n=\n\u00d7\nBackwash velocity is \n3\n6.35 10\nm/s\n\u2212\n\u00d7\n.\nHence, the correct option is (C).\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n14\n"
+}

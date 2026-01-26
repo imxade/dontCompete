@@ -1,0 +1,11 @@
+{
+  "id": "6",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 6\n                                  \n \n \nA shell and tube heat exchange is used as a steam condenser. Coolant water inters the tube at 300 K and \nat a rate of 100 kg/s. The overall heat transfer coefficient is 1500 \n2\nW/m K\n  and total heat transfer area is\n2\n400 m\n . Steam condenses at a saturation temperature of 350 K. Assume that the specific heat of coolant \nwater is 4000 J/kgK. The temperature of the coolant water coming out of the condenser is _______ K \n(round off to the nearest integer).\nHeat Transfer (Heat Exchanger) \n \nAns. \n338.8434",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven : \n2\n300 K,\n100 kg/sec,\n1500 W/m -K\nci\nc\nT\nm\nU\n=\n=\n=\n\uf026\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n12\n\n2\n400 m ,\n350 K\nsat\nhi\nhe\nA\nT\nT\nT\n=\n=\n=\n=\n4000 J/kg-K,\n?\nce\nC\nT\n=\n=\nmax\nph\nC\nC\n\u2192\u221e=\nmin\n100\n4000\n400,000\nC\n=\n\u00d7\n=\n1500 400\n1.5\n400,000\nUA\nNTU\nC\n\u00d7\n=\n=\n=\n\nmin\nT\nT\ne\nT\nT\n\u2212\n\u2212\n\u03b5\n= \u2212\n=\n\u2212\n1\nNTU\nce\nci\nHE\nhi\nci\n1.5\n300\n1\n350\n300\nce\nT\ne\n\u2212\n\u2212\n\u2212\n=\n\u2212\n(\n)\n1.5\n50 1\n300\n338.8434 K\nce\nT\ne\n\u2212\n=\n\u2212\n+\n="
+}

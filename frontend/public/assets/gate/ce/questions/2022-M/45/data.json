@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "civil-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "12\n\n\uf076\uf076\uf076\uf076",
+  "question_text": "Question 45\nA two hour duration storm count with uniform excess rainfall of 3 cm occurred on a watershed. The \nordinates of steam flow hydrograph resulting from this event are given in the table.\nTime (hours) \n0 \n1 \n2 \n3 \n4 \n5 \n6 \n7\n10 \n16 \n34 \n40 \n31 \n25 \n16 \n10\nStream flow\n(\n3\nm /s\n )\n\nGATE 2022 \n [Forenoon Session]\nCivil Engineering\nPAGE\n14\n\nConsidering a constant base then of \n3\n10m /s\n , the peak flow ordinate (\n3\nm /s\n ) of one four unit hydrograph\nfor the watershed is __________.",
+  "answer_text": "12\n\n\uf076\uf076\uf076\uf076",
+  "explanation_text": ""
+}

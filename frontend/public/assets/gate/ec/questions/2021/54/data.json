@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "1.198 \nSol.\n \nGiven : \n8 cm,\na\n =\n \n4 cm,\nb\n =\nFor a standard rectangular waveguide \na\nb\n>\n \n \nSo, cut-off frequency for dominant mode \n10\n(\n)\nTE\n is\n2\nC\nc\nf\na\n=\n8\n7\n9\n2\n2\n3 10\n30 10\n1.875 10 Hz\n2 8 10\n16 10\nC\nf\n\u2212\n\u2212\n\u00d7\n\u00d7\n=\n=\n=\n\u00d7\n\u00d7 \u00d7\n\u00d7\n\n1.875 GHz\nC\nf\n=\n \n \nGiven operating frequency is, \n3.4 GHz\nf\n =\n \n \nSo, phase velocity in rectangular waveguide,\nc\nv\nf\n\n\n=\n\uf0e6\n\uf0f6\n\u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\np\n2\n1\nC\nf\np\nv\n2\n1\n1.198\n1.875\n1\n3.4\n\n\nc\n \n=\n=\n\uf0e6\n\uf0f6\n\u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n78\n\nHence, the value of \n/\np\nv\nc\n  is 1.198.",
+  "question_text": "Question 54 \n \n \n \n \nElectromagnetic Theory (2M) \n \nA standard air filled rectangular waveguide with dimensions \n8 cm\na\n =\n, \n4 cm\nb\n =\n operates at 3.4 GHz.\nFor the dominant mode of wave propagation, the phase velocity of the signal is \np\nv\n . The value (rounded\noff to two decimal places) of \n/\np\nv\nc\n , where \nc\n denotes the velocity of light is _______.",
+  "answer_text": "1.198 \nSol.\n \nGiven : \n8 cm,\na\n =\n \n4 cm,\nb\n =\nFor a standard rectangular waveguide \na\nb\n>\n \n \nSo, cut-off frequency for dominant mode \n10\n(\n)\nTE\n is\n2\nC\nc\nf\na\n=\n8\n7\n9\n2\n2\n3 10\n30 10\n1.875 10 Hz\n2 8 10\n16 10\nC\nf\n\u2212\n\u2212\n\u00d7\n\u00d7\n=\n=\n=\n\u00d7\n\u00d7 \u00d7\n\u00d7\n\n1.875 GHz\nC\nf\n=\n \n \nGiven operating frequency is, \n3.4 GHz\nf\n =\n \n \nSo, phase velocity in rectangular waveguide,\nc\nv\nf\n\n\n=\n\uf0e6\n\uf0f6\n\u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\np\n2\n1\nC\nf\np\nv\n2\n1\n1.198\n1.875\n1\n3.4\n\n\nc\n \n=\n=\n\uf0e6\n\uf0f6\n\u2212\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n78\n\nHence, the value of \n/\np\nv\nc\n  is 1.198.",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "3",
+  "question_text": "Question 49\nA\n, \nB\n, \nC\n and \nD\n are vectors of length 4.\n[\n]\n1\n2\n3\n4\nA\na\na\na\na\n=\n[\n]\n1\n2\n3\n4\nB\nb\nb\nb\nb\n=\n[\n]\n1\n2\n3\n4\nC\nc\nc\nc\nc\n=\n[\n]\n1\n2\n3\n4\nD\nd\nd\nd\nd\n=\nIt is known that \nB\n is not a scalar multiple of \nA\n. Also, \nC\n is linearly independent of \nA\n and \nB\n. Further,\n3\n2\n.\nD\nA\nB\nC\n=\n+\n+\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\na\na\na\na\n1\n2\n3\n4\nb\nb\nb\nb\n1\n2\n3\n4\nis ________.\nThe rank of the matrix\nc\nc\nc\nc\nd\nd\nd\nd\n1\n2\n3\n4\n1\n2\n3\n4\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n42\n",
+  "answer_text": "3",
+  "explanation_text": "Sol. \nGiven :  \n \n[\n]\n1\n2\n3\n4\nA\na\na\na\na\n=\n[\n]\n1\n2\n3\n4\nB\nb\nb\nb\nb\n=\n[\n]\n1\n2\n3\n4\nC\nc\nc\nc\nc\n=\n[\n]\n1\n2\n3\n4\nD\nd\nd\nd\nd\n=\nAccording to question,\n(i) B is not a scalar multiples of A\nHence, A and B are linearly independent\n(ii) C is linearly independent of A and B \n\uf0de\n \n1\n2\nC\nk A\nk B\n\u2260\n+\n where, \n1\nk\n  and \n2\nk\n  are arbitrary constant\n(iii) \n3\n2\nD\nA\nB\nC\n=\n+\n+\nSo, \nD\n is linearly dependent on A, B, C\nWe know that, the rank of matrix is equal to no. of linearly independent row/column.\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\na\na\na\na\n1\n2\n3\n4\nb\nb\nb\nb\n1\n2\n3\n4\nhave 3 linearly independent row\nSo, given matrix\nc\nc\nc\nc\nd\nd\nd\nd\n1\n2\n3\n4\n1\n2\n3\n4\nHence, the rank of matrix is 3."
+}

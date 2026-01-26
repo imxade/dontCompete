@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 46 \n[Geotechnical Engineering : Origin of Soil & Their Properties]\nWhich of the following statement(s) is/are CORRECT ? \n \n(A) Swell potential of soil decreases with an increase in the shrinkage limit. \n \n \n(B) Both loose and dense sands with different initial void ratios can attain similar void ratio at large\nstrain during shearing. \n \n(C) Among the several corrections to be applied to the SPT-N value, the dilatancy correction is applied\nbefore all other corrections. \n \n \n(D) In electrical resistivity tomography, the depth of current penetration is half of the spacing between\nthe electrodes.  \nAns. (A, B)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n\u2022 \nA state when the decrease in moisture content leads to solid state, no change in volume of soil mass is \nobserved, the consistency of soil changes from semi-solid to solid state, the boundary water content is \ncalled shrinkage limit. Shrinkage limit is the smallest value of water content at which soil mass is \ncompletely saturated. It means that below shrinkage limit, soil is partially saturated.\n\u2022 \nHigher is the shrinkage limit lower is the compressibility (volume change).\n\u2022 \nDilatancy correction is applied to the already corrected N-values for overburden pressure.\n\u2022 \nAt large value of shearing strain, both the initially loose and initially dense sands approach a constant \nvalue of void ratio called critical void ratio.\nHence, the correct options are (A) and (B)."
+}

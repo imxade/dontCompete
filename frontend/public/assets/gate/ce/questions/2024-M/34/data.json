@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34 \n[Geotechnical Engineering : Origin of Soil & Their Properties]\nAn embankment is constructed with soil by maintaining the degree of saturation as 75% during \ncompaction.  The specific gravity of soil is 2.68 and the moisture content is 17% during compaction.\nConsider the unit weight of water as \n3\n10 kN / m\n .  The dry unit weight (in \n3\nkN / m\n ) of the compacted soil\nis ________ (rounded off to 2 decimal places). \nAns. 16.60 to 16.80",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\nDegree of saturation (S) = 0.75\n\nPAGE\n24\n\nSpecific gravity (G) = 2.68\nMoisture content (w) = 0.17\nUnit weight of water \n\uf028\n\uf029\n3\nw\n10KN / m\n\uf067\n\uf03d\nWe know that,\nDry unit weight, =\ne\n\uf067\n\uf067\uf03d\n\uf02b\nG\nw\n1\nd\neS\nwG\n\uf03d\n\ne\nwG\nS\n\uf03d\n\uf0b4\n\uf03d\n0.17 2.68\ne\n0.75\ne\n0.6\n\uf03d\n\uf0b4\n\uf05c\uf067\uf03d\n\uf02b\n2.68 10\n1 0.6\nd\n3\n16.75KN/\n m\n\uf03d"
+}

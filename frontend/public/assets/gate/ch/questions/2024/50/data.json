@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 50   \n \nThe Newton-Raphson method is used to solve \n\ud835\udc53(\ud835\udc65) = 0\n, where \n\ud835\udc53(\ud835\udc65) = \ud835\udc52\n\ud835\udc65\n\u22125\ud835\udc65\n.  If the initial guess \n\ud835\udc65\n(0)\n \n= 1.0\n, the value of the next iterate, \n\ud835\udc65\n(1)\n, rounded off to 2 decimal places, is ______.\n[Engineering Mathematics, Numerical Methods]\n (2 Marks)\n \nAns. \n-0.01 to 0.01 \nSol.\n \nGiven : \n \n \n\ud835\udc53(\ud835\udc65) = \ud835\udc52\n\ud835\udc65\n\u22125\ud835\udc65\nInitial guess \n\ud835\udc65\n(0)\n \n= \ud835\udc65\n0\n = 1\nDifferentiating function \n\ud835\udc53(\ud835\udc65)\n with respect to \nx\n,\n\ud835\udc53\u2032(\ud835\udc65) = \ud835\udc52\n\ud835\udc65\n\u22125\n \n \nBy Newton Raphson\u2019s iterative method,  \n \nFirst iteration is given by,\n\ud835\udc53(\ud835\udc65\n0\n)\n\ud835\udc65\n1\n = \ud835\udc65\n0\n \u2212\n\ud835\udc53\u2032(\ud835\udc65\n0\n)\n\ud835\udc52\n\ud835\udc650\n\u22125\ud835\udc65\n0\n\ud835\udc65\n1\n = \ud835\udc65\n0\n \u2212\n\ud835\udc52\n\ud835\udc650\n\u22125\n\ud835\udc65\n0\n(\ud835\udc52\n\ud835\udc650\n\u22125)\u2212\ud835\udc52\n\ud835\udc650\n+5\ud835\udc65\n0\n\ud835\udc65\n1\n =\n\ud835\udc52\n\ud835\udc650\n\u22125\n\ud835\udc65\n0\n\ud835\udc52\n\ud835\udc650\n\u22125\ud835\udc65\n0\n\u2212\ud835\udc52\n\ud835\udc650\n+5\ud835\udc65\n0\n\ud835\udc65\n1\n =\n\ud835\udc52\n\ud835\udc650\n\u22125\n\ud835\udc65\n0\n\ud835\udc52\n\ud835\udc650\n\u2212\ud835\udc52\n\ud835\udc650\n\ud835\udc65\n1\n =\n\ud835\udc52\n\ud835\udc650\n\u22125\nPutting the value of \n\ud835\udc65\n0\n = 1\n\ud835\udc52\n1\n\u2212\ud835\udc52\n1\n0\n\ud835\udc65\n1\n =\n\ud835\udc52\n1\n\u22125\n\ud835\udc52\n1\n\u22125\n \n=\n\ud835\udc65\n1\n = 0\nHence the value of next iterate \n\ud835\udc65\n(1)\n is zero.",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 37 \n \n  \n \n[Engineering Mechanics]\n \n \nA linearly elastic beam of length 2\nl\n with flexural rigidity \nEI\n has negligible mass. A massless spring with \na spring constant k and a rigid block of mass \nm\n are attached to the beam as shown in the figure.\nThe natural frequency of this system is\n\uf02b\n \n(B)\n3\n48\nkl\nEI\nml\n\uf02b\n3\n3\n3\n6\nkl\nEI\nml\n(A)\n6\n(\n6\n)\nEIk\nkl\nEI m\n\uf02b\n \n(D) \n3\n48\n(\n48\n)\nEIk\nkl\nEI m\n\uf02b\n(C) \n3",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n\nPAGE\n30\n\n\nLet us consider stiffness of beam as \n.\nb\nk\nHere both the stiffness elements are in parallel.\n\uf0de\n \n1\n2\neq\nk\nk\nk\n\uf03d\n\uf02b\n3\n3\n48\n6\n(2 )\nEI\nEI\nk\nk\n\uf03d\n\uf02b\n\uf03d\n\uf02b\n\nk\neq\nn\nm\n\uf077\uf03d\nNatural frequency\n\uf0e6\n\uf0f6\n\uf02b\n\uf0e7\n\uf0f7\n\uf02b\n\uf0e8\n\uf0f8\n\uf03d\n\uf03d\n6\nEI\nk\nk\nEI\nm\nm\n6\n3\n3\n\n\n3\nHence, the correct option is (A)."
+}

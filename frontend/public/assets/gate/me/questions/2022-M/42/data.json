@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "\u2013 0.06%",
+  "question_text": "Question 42\nA thin-walled cylindrical pressure vessel has mean wall thickness of \nt\n and nominal\n \nradius of \nr\n. The \nPoisson\u2019s ratio of the wall material is 1/3. When it was subjected\n \nto some internal pressure, its nominal \nperimeter in the cylindrical portion increased\n \nby 0.1% and the corresponding wall thickness became \nt\n .\nThe corresponding change\n \nin the wall thickness of the cylindrical portion, i.e. \n\uf028\n\uf029\n100\n/\nt\nt\nt\n\uf0b4\n\uf02d\n, is\n________%\n \n(round off to 3 decimal places).",
+  "answer_text": "\u2013 0.06%",
+  "explanation_text": "Sol. \nGiven data\nPoisson\u2019s ratio \n1\n( )\n3\n\uf06d\uf03d\nHoop strain \n(\n)\n0.1%\nH\n\uf065\n\uf03d\nHoop strain \n1\n0.1\n(\n)\n(\n)\n100\nH\nH\nL\nD\nD\nE\n\uf064\n\uf065\n\uf03d\n\uf03d\n\uf073\uf02d\uf06d\uf073\n\uf03d\nWe know,\nH\nH\nL\nPD\nPD\nt\nt\n\uf073\n\uf073\n\uf03d\n\uf073\uf03d\n\uf03d\n,\n2\n2\n4\nTherefore,\nPD\nPD\nE\nt\nt\n\uf0e9\n\uf0f9\n\uf065\n\uf03d\n\uf02d\uf06d\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n1\n\n2\n4\nH\n0.1\n(2\n)\n100\n4\nPD\ntE\n\uf03d\n\uf02d\uf06d\n \n \n \n \n \n\u2026 (i)\n\uf028\n\uf029\n1\n(\n)\nR\nR\nH\nL\nt\nt\nE\n\uf064\n\uf065\uf03d\n\uf03d\n\uf073\uf02d\uf06d\uf073\uf02b\uf073\n0\nR\n\uf073\uf03d\n\nt\nPD\nPD\nt\nE\nt\nt\n\uf064\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf065\uf03d\n\uf03d\n\uf02d\uf06d\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n1 0\n2\n4\nR\n\ntE\n\uf06d\n\uf0e6\n\uf0f6\n\uf03d\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n3\n2\n2\nPD\n\n3 4\nt\nPD\nt\ntE\n\uf064\uf03d\uf02d\uf06d\n \n \n \n \n \n\u2026 (ii)\nFrom equation (i)\n0.001\n0.001\nPD\ntE\n \n\uf03d\n\uf03d\n\uf02d\uf06d\n\uf02d\n\u2026 (iii)\n1\n4\n2\n2\n3\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n45\n\nFrom equation (ii) and (iii)\n1\n0.001 3\n3 3\n6 1\nt\nt\n\uf064\n\uf0b4\n\uf0e6\n\uf0f6\n\uf03d\uf02d\uf0b4\n\uf0b4\uf0e7\n\uf0f7\n\uf02d\n\uf0e8\n\uf0f8\n\n0.0006\nt\nt\n\uf064\uf03d\uf02d\n\uf0de\n  \n(\n)\n0.06%\nt\nt\nt\nt\nt\n\uf02d\n\uf064\n\uf03d\n\uf03d\uf02d\nHence, the correct answer is \u2013 0.06."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "9",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 9 \n \nIn the \n4 \u00d7 4\n array shown below, each cell of the first three columns has either a cross (X) or a number, as \nper the given rule.\nRule:\n The number in a cell represents the count of crosses around its immediate neighboring cells (left, \nright, top, bottom, diagonals). \n \nAs per this rule, the \nmaximum\n number of crosses possible in the empty column is\n[Logical Reasoning, 3] \n \n(A) 0 \n(B) 1 \n \n(C)  2 \n(D) 3 \nAns. (C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n\nPAGE\n7\n\n1\n1\n2\nAll element which are\ncame on this boundary,\nis neighbore of 3\n2\nX\n3\n2\nX\n4\n= total neighbore\n      of 3 \n2\n1\nX\n\ncross\n1\navailable\nin neigh of\nthis\n1\n1\n2\n1 cross would be\npossible in both \nof them\n2\nX\n3\nFor this \n2 c ross\navailable\npn neigh.\nX\n2\n4\n1 cross didn\u2019t come\n2\n1\nX\n1 cross can be possible\n\n\nBut we wants to required maximum number of crosses.\nSo for this situation\nSo For\nX\nthis\nsituation\nMaximum\n2\nCrosses\n\uf0e6\n\uf0f6\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nX\n\nHence, the correct option is (A)."
+}

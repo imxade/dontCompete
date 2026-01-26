@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 62 \n[Transportation Engineering : Railway, Runway and Taxiway Design] \n \nThe number of trains and their corresponding speeds for a curved Broad Gauge section with 437 m radius, \nare\n\uf0b7\n \n20 trains travel at a speed of 40 km/hr \n\uf0b7\n \n15 trains travel at a speed of 50 km/hr \n\uf0b7\n \n12 trains travel at a speed of 60 km/hr \n\uf0b7\n \n8 trains travel at a speed of 70 km/hr \n\uf0b7\n \n3 trains travel at a speed of 80 km/hr \n \nIf the gauge (center-to-center distance between the rail heads) is taken as 1750 mm, the required \nequilibrium cant (in mm) will be __________ (rounded off to nearest integer). \nAns. 86 to 90",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven that,\nR\n437m\n\uf03d\nG\n1750 mm\n1.750m\n\uf03d\n\uf03d\nWe know that,\n\uf0b4\n\uf03d\n\uf0b4\n2\neq\nG\nV\ne\n127\nR\neq\nEquilibrium cant \n\uf028\n\uf029\nWhere,\n20 40 15 50 12 60\n8 70\n3 80\nV\n20 15 12\n8\n3\n\uf0b4\n\uf02b\n\uf0b4\n\uf02b\n\uf0b4\n\uf02b\uf0b4\n\uf02b\uf0b4\n\uf03d\n\uf02b\n\uf02b\n\uf02b\uf02b\neq\n52.93 km/ hr\n\uf03d\n\uf0b4\n\uf03d\n\uf0b4\n2\n1.75 52.93\ne\n127 437\n\uf05c\neq\n\nPAGE\n54\n\n0.08833m\n\uf03d\n88.34mm\n\uf03d"
+}

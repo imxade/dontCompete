@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34\nAmbient pressure, temperature and relative humidity at a location are 101 kPa, 300 K and 60% \nrespectively. The saturation pressure of water at 300 K is 3.6 kPa. The specific humidity of ambient air is \n_____ g/kg of dry air\nRefrigeration and Air Conditioning (Psychrometry)\n(A) 21.9 \n \n(B) 21.4 \n(C) 13.6 \n(D) 35.1 \nAns. \nC",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven : \n101kPa\nP\n =\n; \n300K\nT\n =\n and \n0.6\n\u03c6 =\n3.6kPa\nvs\nP\n =\nat 300 K\n?\n\u03c9=\np\np\np\n\u03c6 =\n\uf0de\n=\n\u00d7\n0.6 3.6\nv\nv\nvs\n2.16kPa\nv\np\n =\np\np\np\n\u03c9 =\n= \u03c9 =\n\u00d7\n\u2212\n\u2212\n2.16\n0.622\n0.622\n(101 2.16)\nv\nv\nkg water vapour\n0.013593\nkgof dry air\n\u03c9 =\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n32\n\ngm water vapour\n13.6\nkgof dry air\n\u03c9 =\nHence, the correct option is (C). \nQuestion 35 \n \nA block of negligible mass rests on a surface that is inclined at 30\n\u02da\n to horizontal plane as shown in \nfigure.When a vertical force of 900 N and a horizontal force of 750 N are applied, the block is just about \nto slide.\n900 N\n750 N\n30\n0\nThe coefficient of static friction between the block and the surface is____ (round of to two decimal places).\nEngineering Mechanics (Friction) \n \n \nAns. \n0.173 \nSol.\n900 N\n750 N\nN\n\u0004\n30\n0\nR\nN\n900 N\nR\n\u000e\u000b \f \u0004\n90\n0\n\r\u000f\u000b\n\u0004\n750 N\n750 N\n\u0004\n900\nR\nFrom Lamis theorem,\n750\n900\nsin 90\nsin(150\n)\nsin(120\n)\nR\n=\n=\n\u2212\u03c6\n+ \u03c6\nOn solving,  \n0\n9.805\n\u03c6 =\nCoefficient of friction, \ntan\n\u03bc =\n\u03c6\ntan(9.805)\n0.173\n=\n="
+}

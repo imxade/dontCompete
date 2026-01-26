@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 14\nA prismatic steel beam is shown in the figure. The plastic moment, \nM\np\n calculated for collapse \nmechanism using static method and kinematic method is,\nP\nC\nA\nE I\n,\nB\n3\nL\n2\n3\nL\nS\n = static, \nK\n = kinematic\n(A) \n2\n9\nps\npk\nPL\nM\nM\n>\n=\n \n \n \n(B) \n2\n9\nps\npk\nPL\nM\nM\n=\n=\n(C) \n2\n9\nps\npk\nPL\nM\nM\n=\n\u2260\n \n \n \n(D) \n2\n9\nps\npk\nPL\nM\nM\n<\n=",
+  "answer_text": "C",
+  "explanation_text": "Sol.\n \nWe know that, \nArc\nAngle\nRadius\n=\n\u2234\n Deflection is same at \nB\n from both \nA\n and \nC\nL/3\n2L/3\nG\n2\n3\n\u00d7\u03b2\nL\n\u03b2\n\u03b1\n/ 3\n\u03b1\nL\n\nNow,   \n2\n3\n3\nL\nL\n\u03b1 =\n\u03b2\n  \n \n \n[\n]\nL\n\u03b4 = \u03b8\u00d7\n2\n\u03b1 = \u03b2\n0\ns\nD\n =\nNo. of plastic hinges \n1\ns\nD\n=\n+\n0\n1\n=\n+\n1\n=\n2\n( )\n( )\n3\nP\nP\nL\nP\nM\nM\n\uf0e6\n\uf0f6\n\u03b2 =\n\u03b1 +\n\u03b2\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n(2 )\n( )\n3\nP\nP\nL\nP\nM\nM\n\uf0e6\n\uf0f6\n\u03b2 =\n\u03b2 +\n\u03b2\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n3\n3\nP\nL P\nM\n\u03b2\n=\n\u03b2\n2\n9\nP\nL\nM\nP\n=\nP\nM\n  Static \n2\n9\n\u2264\n\u2264\np\nPL\nM\n  kinetic\nHence, the correct option is (C).\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n8\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 2\nConsider the following differential equation (1\ny)\n \ndy\ny\ndx\n+\n=\n. The solution of the equation that satisfies the\ncondition \n(1)\n1\ny\n=\n  is\nEngineering Mathematics\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n8\n\n\n(A) \ny\nx\nye\ne\n=\n  \n(B) \n2\ny\nx\ny e\ne\n=\n \n(C) \n2\ny\nx\nye\ne\ne\n=\n+\n \n(D) \n(1\n)\n2\ny\nx\ny e\ne\n+\n=",
+  "answer_text": "A",
+  "explanation_text": "Sol.\n \n(1\n)\n \ndy\ny\ny\ndx\n+\n=\n(1)\n1\ny\n=\n1\n1\n dy\ndx\nc\ny\n\uf0e6\n\uf0f6\n+\n=\n+\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0f2\n\uf0f2\nln\n y\ny\nx\nc\n+\n=\n+\n0 1 1\n c\n+ = +\n  \n[\n(1)\n1]\ny\n=\n\uf051\n0\nc\n =\nln\n y\ny\nx\n+\n=\nln\nln\nln\ny\nx\ny\ne\ne\n+\n=\nln(\n)\nln\ny\nx\nye\ne\n=\ny\nx\nye\ne\n=\nHence, the correct option is (A)."
+}

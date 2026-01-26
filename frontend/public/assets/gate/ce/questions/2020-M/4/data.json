@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "civil-engineering",
+  "packet": "2020-M",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(4)",
+  "question_text": "Question 4\nA road in a hilly terrain is to be laid at a gradient of 4.5%. A horizontal curve of radius 100 m is laid at a \nlocation on this road. Gradient needs to be eased due to combination of curved horizontal and vertical \nprofiles of the road. As per IRC, the compensated gradient (\nin %, round off to one decimal place\n), is \n_______.",
+  "answer_text": "(4)",
+  "explanation_text": "Sol. \nGradient = 4.5%\nRadius \n( )\n100 m\nR\n =\n+\n\uf0fc\n=\n\uf0ef\uf0ef\uf0fd\n\uf0ef\n>/\n\uf0ef\uf0fe\n30\nR\nR\nGrade compensation\n\n75\nR\n30 100\n75\n1.3%\n0.75\n100\n100\n+\n=\n>\n=\n>\n/\n/\nG.C. = 0.75\nCompensated Gradient = Gradient \u2013 G. C.\n4.5%\n0.75\n=\n\u2212\n3.75%\n4%\n=\n</\nHence Compensated gradient = 4%"
+}

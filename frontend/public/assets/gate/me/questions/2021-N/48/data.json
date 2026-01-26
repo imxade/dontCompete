@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 48\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n39\n\nWater flows out from a large tank of cross sectional area \n2\n1 m\nt\nA\n =\n through a small, rounded orifice of\ncross sectional area \n2\n0\n1 cm\nA\n =\n, located at \n0\ny\n =\n. Initially the water level (H), measured from \ny\n = 0, is 1\nm. The acceleration due to gravity is \n2\n9.8m/sec .\nCross-sectional \narea, \nA\nt\ny\n = H\nOrifice \ncross-sectional \narea\ny\n = 0\nA\n0\n\nNeglecting any losses, the time taken by water in the tank to reach a level of \n4\nH\ny\n =\n is ______ seconds\n(round off to one decimal place).\nFluid Mechanics (Fluid Dynamics) \n \nAns. \n4517.54 \nSol.\n \nGiven : \n2\n1m\nA\n=\n; \n2\n1cm\na\n =\n4\n2\n10\nm\n\u2212\n=\nand \n2\n9.8m/sec\ng\n =\n \n \nNo losses, \n1\nd\nC\n =\nA\nWater\nWater\ny\n = 4 m\ny\n = 0\na\n\nWhen \n2\nH\n  becomes \n1m\n4\nH\n =\nA\nH\nH\nT\nC a\ng\n1\n2\n2 (\n)\n\u2212\n=\n\n.\n2\nd\n4\n2 1 ( 4\n1)\n4517.54sec\n1 10\n2 9.8\nT\n\u2212\n\u00d7 \u00d7\n\u2212\n=\n=\n\u00d7\n\u00d7\n\u00d7",
+  "answer_text": "",
+  "explanation_text": ""
+}

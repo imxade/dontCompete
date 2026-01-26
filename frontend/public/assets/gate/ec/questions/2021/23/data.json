@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 23 \n \n \n \n \n   \nComputer Organization (2M)\nThe content of the registers are \n1\n25 H,\nR\n =\n \n2\n30H\nR\n =\n and \n3\n40H\nR\n =\n. The following machine instructions\nare executed\nPUSH \n{ }\n1\nR\nPUSH \n{\n}\n2\nR\nPUSH \n{\n}\n3\nR\nPOP \n{ }\n1\nR\nPOP \n{\n}\n2\nR\nPOP \n{\n}\n3\nR\nAfter execution, the content of registers\n1\n2\n3\n,\n,\nR R R\n are\n(A) \n1\n40 H\nR\n =\n, \n2\n30 H\nR\n =\n, \n3\n25 H\nR\n =\n \n(B) \n1\n25 H\nR\n =\n, \n2\n30 H\nR\n =\n, \n3\n40 H\nR\n =\n(C) \n1\n30 H\nR\n =\n, \n2\n40 H\nR\n =\n, \n3\n25 H\nR\n =\n \n(D) \n1\n40 H\nR\n =\n, \n2\n25 H\nR\n =\n, \n3\n30 H\nR\n =",
+  "answer_text": "A",
+  "explanation_text": "Sol.\n \nGiven : \n1\n25H\nR\n =\n, \n2\n30H\nR\n =\n, \n3\n40H\nR\n =\nPUSH \n{ }\n1\nR\nPUSH \n{\n}\n2\nR\nPUSH \n{\n}\n3\nR\nPOP \n{ }\n1\nR\nPOP \n{\n}\n2\nR\nPOP \n{\n}\n3\nR\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n34\n\n1\nR\n1\n3\nR\nR\n=\n2\nR\n2\n2\nR\nR\n=\n3\nR\n3\n1\nR\nR\n=\n3\nR\n3\nR\n2\nR\n2\nR\n1\nR\n1\nR\nHence, \n1\n40H\nR\n =\n, \n2\n30H\nR\n =\n, \n3\n25H\nR\n =\nHence, the correct option is (A)."
+}

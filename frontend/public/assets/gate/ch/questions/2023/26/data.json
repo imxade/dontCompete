@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(D)\n\uf0e6\n\uf0f6\n\uf072\n\uf070\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\nD\nM\nu\nM\n\nv",
+  "question_text": "Question 26\nA packed distillation column, with vapor having an average molecular weight of \n1\n45 kg.mol ,\n\uf02d\ndensity of\n3\n2 kg.m\n\uf02d\n and a molar flow rate of \n1\n0.1 kmol.s ,\n\uf02d\n has a flooding velocity of \n1\n0.15 m.s .\n\uf02d\n The column is\ndesigned to operate at 60 % of the flooding velocity. Which one of the following is the CORRECT value \nfor the column diameter (in m)? \n \n \n \n \n[Mass Transfer, 1 Marks]\n(A) \n5\n\n\uf070\n(B) \n5\n \uf070\n(C) \n4\n\uf070\n(D) \n10\n\uf070",
+  "answer_text": "(D)\n\uf0e6\n\uf0f6\n\uf072\n\uf070\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\nD\nM\nu\nM\n\nv",
+  "explanation_text": "Sol.\nF\nV\n4\n2\n2\n0.1\n(0.15 0.6)\n45\n4\nD\n\uf0e6\n\uf0f6\n\uf070\n\uf03d\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n17\n\n10\nD\n \uf03d\n\n\uf070"
+}

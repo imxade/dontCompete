@@ -1,0 +1,11 @@
+{
+  "id": "48",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "520",
+  "question_text": "Question 48\nAn assignment problem is solved to minimize the total processing time of four jobs (1, 2, 3 and 4) on four \ndifferent machines such that each job is processed exactly by one machine and each machine processes \nexactly one job. The minimum total processing time is found to be 500 minutes. Due to a change in design, \nthe processing time of Job 4 on each machine has increased by 20 minutes. The revised minimum total \nprocessing time will be _____________ minutes (in integer).",
+  "answer_text": "520",
+  "explanation_text": "Sol. \nGiven data\nNo. of Machine \n1\n2\n3\n4\n(\n)\n,\n,\n,\nM\nM M\nM\nM\n\uf03d\nNo. of job \n1\n2\n3\n4\n( )\n,\n,\n,\nJ\nJ J\nJ\nJ\n\uf03d\nTotal minimum processing time \n500 min\n\uf03d\nProcessing time increased for each job \n20 min\n\uf03d\nHence the revised total minimum processing time \n520min\n\uf03d\nHence, the correct answer is 520."
+}

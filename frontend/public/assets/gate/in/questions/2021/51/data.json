@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "instrumentation-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "NAT",
+  "key": "0 \nSol.\n \nGiven :  \n \n(i) \n(\n)\n400V\nL\nrms\nV\n=\n(ii) \n0\n5 60\nR\nI\n = \u2220\nR\nZ\n1\nW\nZ\nZ\nY\n2\nW\nB\nReading of wattmeter 1 is given by, \n \n \n \n1\ncos\nL\nL\nW\nV I\n=\n\u03c6\n1\ncos\nRB\nR\nW\nV I\n=\n\u03c6\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n48\n\nB\nV\nR\nI\n0\n90\n\u03c6 =\n0\n60\nR\nV\n0\n30\nRB\nV\nY\nV\nB\nV\n\u2212\n0\n90\n\u03c6 =\n\u2234\n  \n1\n0watt\nW\n =",
+  "question_text": "Question 51 \n \n \n \n \nMeasurement (NAT)\nA 300 V, 5 A, LPF wattmeter has full scale of 300 W. The wattmeter can be used for loads supplied by \n300 V ac mains with a maximum power factor of ________ (rounded off to one decimal place)  \n \n \n \n \n \n \n \n \n \n[1 Mark] \nAns. \n0.2 \nSol.\n \nGiven :  \n \n(i) \n300V\nV\n =\n(ii) \n5A\nI\n =\n(iii)\n300W\nm\nP\n =\ncos\nP\nVI\n=\n\u03c6\nMaximum power factor, cos\nm\nP\nVI\n\u03c6 =\n300\n300 5\n=\n\u00d7\n0.2\n=\ncos\n0.2\n\u03c6 =\n \nQuestion 52 \n \n \n \nSensors & Transducers (MCQ)\nInput-output characteristic of a temperature sensor is exponential for a  \n \n \n[1 Mark]\n \n \n(A) Mercury thermometer  \n \n(B) Resistive temperature device (RTD) \n \n(C) Thermistor \n \n \n(D) Thermocouple \nAns. \nC \nSol. \nInput-output characteristics is exponential for thermistor. \n \nHence, the correct option is (C).\n \nQuestion 53 \n \n \n \n \n \nMeasurement (NAT)\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n47\n\nThe power in a 400 V (rms, line-line) three-phase, three-wire RYB sequence system is measured using\nthe two wattmeters, as shown. The R-line current is \n0\n5 60 A\n\u2220\n. Wattmeter \n1\nW\n  in the R-line read (in watt)\n_______. \n \n \n \n \n \n \n[2 Marks]\nR\nZ\n1\nW\n2\nW\nZ\nZ\nY\nB",
+  "answer_text": "0 \nSol.\n \nGiven :  \n \n(i) \n(\n)\n400V\nL\nrms\nV\n=\n(ii) \n0\n5 60\nR\nI\n = \u2220\nR\nZ\n1\nW\nZ\nZ\nY\n2\nW\nB\nReading of wattmeter 1 is given by, \n \n \n \n1\ncos\nL\nL\nW\nV I\n=\n\u03c6\n1\ncos\nRB\nR\nW\nV I\n=\n\u03c6\n\nGATE 2021 \n [Forenoon Session]\nInstrumentation Engineering\nPAGE\n48\n\nB\nV\nR\nI\n0\n90\n\u03c6 =\n0\n60\nR\nV\n0\n30\nRB\nV\nY\nV\nB\nV\n\u2212\n0\n90\n\u03c6 =\n\u2234\n  \n1\n0watt\nW\n =",
+  "explanation_text": ""
+}

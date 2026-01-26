@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.2443",
+  "question_text": "Question 10 \n \n \n \n \nElectromagnetic Theory (2M)\nAn antenna with a directive gain of 6 dB is radiating a total power of 16 kW. The amplitude of electric \nfield in free space at a distance of 8 km from the antenna in the direction of 6 dB gain is (Round off to 3 \ndecimal places) ______ V/m.",
+  "answer_text": "0.2443",
+  "explanation_text": "Sol.\n \nGiven :\n Directive gain \n( , )\n6 dB\nd\nG\n \u03b8 \u03c6 =\nRadiation power \n16kW\nrad\nP\n=\nDistance \n8km\nr\n =\nDirective gain \n(\n)\n6\n10log\nd\nd\nG dB\nG\n=\n=\n0.6\n10\n3.981\nd\nG\n =\n=\nSo maximum electric field amplitude in free space at distance \nr\n from antenna is,\n3\nd\nrad\ns\nG P\nE\nr\n\u03c0\u00d7\n\u00d7\n\u00d7\n\uf0e9\n\uf0f9\n= \u03b7\n=\n=\n\uf0ea\n\uf0fa\n\u03c0\n\u03c0\n\u00d7\n\uf0eb\n\uf0fb\n2\n3\n2\nmax\n120\n3.981 16 10\n0.2443V/m\n2\n2 (8 10 )\n\nHence, the correct answer for \nmax\ns\nE\n is \n0.2443V/m\n ."
+}

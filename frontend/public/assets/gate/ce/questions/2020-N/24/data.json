@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "civil-engineering",
+  "packet": "2020-N",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question\n 24\nA weightless cantilever beam of span L is loaded as shown in the figure. For the entire span of the beam, \nthe material properties are identical and the cross section is rectangular with constant width.\nP\nPL\nL\nForm the flexure-critical perspective, the most economical longitudinal profile of the beam to carry the \ngiven loads amongst the options given below, is.\n(A) \n \n \n \n(B)\n(C) \n \n \n \n(D)",
+  "answer_text": "(D)",
+  "explanation_text": ""
+}

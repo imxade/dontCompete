@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.63 to 0.65",
+  "question_text": "Question 17\nA distillation column handling a binary mixture of A and B is operating at total reflux. It has two ideal \nstages including the reboiler. The mole fraction of the more volatile component in the residue \n(\n)\nW\nx\n is\n0.1. The average relative volatility \nAB\n\u03b1\n is 4. The mole fraction of A in the distillate \n(\n)\nD\nx\n is _______.\n(round off to 2 decimal places)",
+  "answer_text": "0.63 to 0.65",
+  "explanation_text": "Sol. \nAt total Reflux \n\uf0de\n Minimum number of plates\nGiven,  \n0.1,\n4\nw\nAB\nx\n =\n\u03b1\n=\nWe know by Fenske Equation\n\uf0e9\n\uf0f9\n\u2212\n\u22c5\n\uf0ea\n\uf0fa\n\u2212\n\uf0eb\n\uf0fb\n+ =\n\u03b1\nx\nx\nx\nx\nNm\n(1\n)\nlog 1\n1\nlog\nw\nD\nD\nw\n\nWhere \nNm\n =\n  Plates inside column\n\uf0e9\n\uf0f9\n\u2212\n\u22c5\n\uf0ea\n\uf0fa\n\u2212\n\uf0eb\n\uf0fb\n+ =\n=\nx\nx\nNm\n(1 0.1)\nlog 1\n0.1\n1\n2\nlog 4\nD\nD\n\u2234\nx\n\uf0e9\n\uf0f9\n=\n\uf0ea\n\uf0fa\n\u2212\n\uf0eb\n\uf0fb\n\uf0de\n  \n9\n2log 4\nlog 1\nx\nD\nD\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n18\n\nx\n\uf0e9\n\uf0f9\n=\n\uf0ea\n\uf0fa\n\u2212\n\uf0eb\n\uf0fb\n\uf0de\n  \n9\nlog16\nlog 1\nx\nD\nD\n\uf0de\n  \n9\n16\n1\nx\nx\n= \u2212\nD\nD\n\uf0de\n  \n16 16\n9\nD\nD\nx\nx\n\u2212\n=\n\uf0de\n  \n0.64\nD\nx\n ="
+}

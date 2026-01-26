@@ -1,0 +1,1624 @@
+{
+  "stream": "cs",
+  "stream_code": "computer-science-information-technology",
+  "subjects": [
+    {
+      "name": "theory of computation",
+      "id": "cs_subj_1",
+      "slug": "theory-of-computation",
+      "topics": [
+        {
+          "name": "regular expressions and finite automata",
+          "id": "cs_subj_1_topic_1",
+          "slug": "regular-expressions-and-finite-automata",
+          "md_path": "theory-of-computation/regular-expressions-and-finite-automata.md",
+          "questions": [
+            "questions/2021-M/19/",
+            "questions/2021-M/42/",
+            "questions/2021-N/33/",
+            "questions/2021-N/34/",
+            "questions/2021-N/35/",
+            "questions/2021-N/36/",
+            "questions/2021-N/37/",
+            "questions/2021-N/61/",
+            "questions/2022/19/",
+            "questions/2023/30/"
+          ]
+        },
+        {
+          "name": "context free grammars and pushdown automata",
+          "id": "cs_subj_1_topic_2",
+          "slug": "context-free-grammars-and-pushdown-automata",
+          "md_path": "theory-of-computation/context-free-grammars-and-pushdown-automata.md",
+          "questions": [
+            "questions/2022/16/",
+            "questions/2023/29/",
+            "questions/2024-M/59/"
+          ]
+        },
+        {
+          "name": "turing machines and undecidability",
+          "id": "cs_subj_1_topic_3",
+          "slug": "turing-machines-and-undecidability",
+          "md_path": "theory-of-computation/turing-machines-and-undecidability.md",
+          "questions": [
+            "questions/2021-M/31/",
+            "questions/2022/17/"
+          ]
+        },
+        {
+          "name": "properties of language",
+          "id": "cs_subj_1_topic_4",
+          "slug": "properties-of-language",
+          "md_path": "theory-of-computation/properties-of-language.md",
+          "questions": [
+            "questions/2024-M/23/"
+          ]
+        },
+        {
+          "name": "finite automata",
+          "id": "cs_subj_1_topic_5",
+          "slug": "finite-automata",
+          "md_path": "theory-of-computation/finite-automata.md",
+          "questions": [
+            "questions/2024-M/50/"
+          ]
+        },
+        {
+          "name": "context free grammars and push down automata",
+          "id": "cs_subj_1_topic_6",
+          "slug": "context-free-grammars-and-push-down-automata",
+          "md_path": "theory-of-computation/context-free-grammars-and-push-down-automata.md",
+          "questions": [
+            "questions/2021-N/40/",
+            "questions/2024-N/52/"
+          ]
+        },
+        {
+          "name": "propositional logic",
+          "id": "cs_subj_1_topic_7",
+          "slug": "propositional-logic",
+          "md_path": "theory-of-computation/propositional-logic.md",
+          "questions": [
+            "questions/2021-M/24/"
+          ]
+        },
+        {
+          "name": "graphs connectivity matching coloring",
+          "id": "cs_subj_1_topic_8",
+          "slug": "graphs-connectivity-matching-coloring",
+          "md_path": "theory-of-computation/graphs-connectivity-matching-coloring.md",
+          "questions": [
+            "questions/2021-N/63/"
+          ]
+        },
+        {
+          "name": "regular expressions and language representation",
+          "id": "cs_subj_1_topic_9",
+          "slug": "regular-expressions-and-language-representation",
+          "md_path": "theory-of-computation/regular-expressions-and-language-representation.md",
+          "questions": []
+        },
+        {
+          "name": "finite automata and regular language",
+          "id": "cs_subj_1_topic_10",
+          "slug": "finite-automata-and-regular-language",
+          "md_path": "theory-of-computation/finite-automata-and-regular-language.md",
+          "questions": []
+        },
+        {
+          "name": "regular expression",
+          "id": "cs_subj_1_topic_11",
+          "slug": "regular-expression",
+          "md_path": "theory-of-computation/regular-expression.md",
+          "questions": [
+            "questions/2024-N/62/"
+          ]
+        },
+        {
+          "name": "monoids and group",
+          "id": "cs_subj_1_topic_12",
+          "slug": "monoids-and-group",
+          "md_path": "theory-of-computation/monoids-and-group.md",
+          "questions": [
+            "questions/2021-M/1/"
+          ]
+        },
+        {
+          "name": "regular and context free language",
+          "id": "cs_subj_1_topic_13",
+          "slug": "regular-and-context-free-language",
+          "md_path": "theory-of-computation/regular-and-context-free-language.md",
+          "questions": [
+            "questions/2021-M/12/"
+          ]
+        },
+        {
+          "name": "finite automata and regular expression",
+          "id": "cs_subj_1_topic_14",
+          "slug": "finite-automata-and-regular-expression",
+          "md_path": "theory-of-computation/finite-automata-and-regular-expression.md",
+          "questions": [
+            "questions/2022/54/"
+          ]
+        },
+        {
+          "name": "regular languages context free languages recursively enumerable language",
+          "id": "cs_subj_1_topic_15",
+          "slug": "regular-languages-context-free-languages-recursively-enumerable-language",
+          "md_path": "theory-of-computation/regular-languages-context-free-languages-recursively-enumerable-language.md",
+          "questions": [
+            "questions/2022/15/"
+          ]
+        },
+        {
+          "name": "regular expressions and finite automata context free grammars and push down automata",
+          "id": "cs_subj_1_topic_16",
+          "slug": "regular-expressions-and-finite-automata-context-free-grammars-and-push-down-auto",
+          "md_path": "theory-of-computation/regular-expressions-and-finite-automata-context-free-grammars-and-push-down-auto.md",
+          "questions": [
+            "questions/2022/27/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "discrete mathematics and combinatoric",
+      "id": "cs_subj_2",
+      "slug": "discrete-mathematics-and-combinatoric",
+      "topics": [
+        {
+          "name": "recurrence relation",
+          "id": "cs_subj_2_topic_1",
+          "slug": "recurrence-relation",
+          "md_path": "discrete-mathematics-and-combinatoric/recurrence-relation.md",
+          "questions": [
+            "questions/2022/31/",
+            "questions/2023/5/"
+          ]
+        },
+        {
+          "name": "relation",
+          "id": "cs_subj_2_topic_2",
+          "slug": "relation",
+          "md_path": "discrete-mathematics-and-combinatoric/relation.md",
+          "questions": [
+            "questions/2023/38/"
+          ]
+        },
+        {
+          "name": "algebraic manipulation of polynomial",
+          "id": "cs_subj_2_topic_3",
+          "slug": "algebraic-manipulation-of-polynomial",
+          "md_path": "discrete-mathematics-and-combinatoric/algebraic-manipulation-of-polynomial.md",
+          "questions": [
+            "questions/2022/58/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer organization and architecture",
+      "id": "cs_subj_3",
+      "slug": "computer-organization-and-architecture",
+      "topics": [
+        {
+          "name": "memory hierarchy",
+          "id": "cs_subj_3_topic_1",
+          "slug": "memory-hierarchy",
+          "md_path": "computer-organization-and-architecture/memory-hierarchy.md",
+          "questions": [
+            "questions/2021-N/32/",
+            "questions/2022/10/",
+            "questions/2023/32/",
+            "questions/2024-M/53/"
+          ]
+        },
+        {
+          "name": "memory hierarchy cache main memory and secondary storage",
+          "id": "cs_subj_3_topic_2",
+          "slug": "memory-hierarchy-cache-main-memory-and-secondary-storage",
+          "md_path": "computer-organization-and-architecture/memory-hierarchy-cache-main-memory-and-secondary-storage.md",
+          "questions": [
+            "questions/2021-N/65/",
+            "questions/2022/44/"
+          ]
+        },
+        {
+          "name": "instruction pipelining",
+          "id": "cs_subj_3_topic_3",
+          "slug": "instruction-pipelining",
+          "md_path": "computer-organization-and-architecture/instruction-pipelining.md",
+          "questions": [
+            "questions/2024-M/30/"
+          ]
+        },
+        {
+          "name": "memory organization",
+          "id": "cs_subj_3_topic_4",
+          "slug": "memory-organization",
+          "md_path": "computer-organization-and-architecture/memory-organization.md",
+          "questions": [
+            "questions/2024-M/56/",
+            "questions/2024-M/7/"
+          ]
+        },
+        {
+          "name": "performance evaluation",
+          "id": "cs_subj_3_topic_5",
+          "slug": "performance-evaluation",
+          "md_path": "computer-organization-and-architecture/performance-evaluation.md",
+          "questions": [
+            "questions/2024-M/55/"
+          ]
+        },
+        {
+          "name": "machine instructions and addressing mode",
+          "id": "cs_subj_3_topic_6",
+          "slug": "machine-instructions-and-addressing-mode",
+          "md_path": "computer-organization-and-architecture/machine-instructions-and-addressing-mode.md",
+          "questions": [
+            "questions/2021-M/14/",
+            "questions/2021-N/10/"
+          ]
+        },
+        {
+          "name": "i o interface interrupt and dma mode",
+          "id": "cs_subj_3_topic_7",
+          "slug": "i-o-interface-interrupt-and-dma-mode",
+          "md_path": "computer-organization-and-architecture/i-o-interface-interrupt-and-dma-mode.md",
+          "questions": [
+            "questions/2021-N/31/"
+          ]
+        },
+        {
+          "name": "representation and endianness",
+          "id": "cs_subj_3_topic_8",
+          "slug": "representation-and-endianness",
+          "md_path": "computer-organization-and-architecture/representation-and-endianness.md",
+          "questions": [
+            "questions/2021-N/25/"
+          ]
+        },
+        {
+          "name": "number representations and computer arithmetic \ufb01xed and \ufb02oating point",
+          "id": "cs_subj_3_topic_9",
+          "slug": "number-representations-and-computer-arithmetic-xed-and-oating-point",
+          "md_path": "computer-organization-and-architecture/number-representations-and-computer-arithmetic-xed-and-oating-point.md",
+          "questions": [
+            "questions/2021-N/22/"
+          ]
+        },
+        {
+          "name": "memory hierarchy cache main memory and secondary storage i o interface interrupt and dma mode",
+          "id": "cs_subj_3_topic_10",
+          "slug": "memory-hierarchy-cache-main-memory-and-secondary-storage-i-o-interface-interrupt",
+          "md_path": "computer-organization-and-architecture/memory-hierarchy-cache-main-memory-and-secondary-storage-i-o-interface-interrupt.md",
+          "questions": [
+            "questions/2021-M/39/",
+            "questions/2021-N/44/"
+          ]
+        },
+        {
+          "name": "machine instruction and addressing",
+          "id": "cs_subj_3_topic_11",
+          "slug": "machine-instruction-and-addressing",
+          "md_path": "computer-organization-and-architecture/machine-instruction-and-addressing.md",
+          "questions": [
+            "questions/2024-N/31/"
+          ]
+        },
+        {
+          "name": "floating point number",
+          "id": "cs_subj_3_topic_12",
+          "slug": "floating-point-number",
+          "md_path": "computer-organization-and-architecture/floating-point-number.md",
+          "questions": [
+            "questions/2024-N/14/"
+          ]
+        },
+        {
+          "name": "pipelining",
+          "id": "cs_subj_3_topic_13",
+          "slug": "pipelining",
+          "md_path": "computer-organization-and-architecture/pipelining.md",
+          "questions": [
+            "questions/2024-N/58/"
+          ]
+        },
+        {
+          "name": "memory management",
+          "id": "cs_subj_3_topic_14",
+          "slug": "memory-management",
+          "md_path": "computer-organization-and-architecture/memory-management.md",
+          "questions": [
+            "questions/2024-N/64/"
+          ]
+        },
+        {
+          "name": "instruction set architectures isa",
+          "id": "cs_subj_3_topic_15",
+          "slug": "instruction-set-architectures-isa",
+          "md_path": "computer-organization-and-architecture/instruction-set-architectures-isa.md",
+          "questions": [
+            "questions/2024-N/61/"
+          ]
+        },
+        {
+          "name": "instruction pipelining pipeline hazard",
+          "id": "cs_subj_3_topic_16",
+          "slug": "instruction-pipelining-pipeline-hazard",
+          "md_path": "computer-organization-and-architecture/instruction-pipelining-pipeline-hazard.md",
+          "questions": [
+            "questions/2021-M/50/"
+          ]
+        },
+        {
+          "name": "dma direct memory access",
+          "id": "cs_subj_3_topic_17",
+          "slug": "dma-direct-memory-access",
+          "md_path": "computer-organization-and-architecture/dma-direct-memory-access.md",
+          "questions": [
+            "questions/2022/13/"
+          ]
+        },
+        {
+          "name": "cache memory organization",
+          "id": "cs_subj_3_topic_18",
+          "slug": "cache-memory-organization",
+          "md_path": "computer-organization-and-architecture/cache-memory-organization.md",
+          "questions": [
+            "questions/2022/11/"
+          ]
+        },
+        {
+          "name": "matrix operation",
+          "id": "cs_subj_3_topic_19",
+          "slug": "matrix-operation",
+          "md_path": "computer-organization-and-architecture/matrix-operation.md",
+          "questions": [
+            "questions/2022/50/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "compiler design",
+      "id": "cs_subj_4",
+      "slug": "compiler-design",
+      "topics": [
+        {
+          "name": "lexical analysis and parsing",
+          "id": "cs_subj_4_topic_1",
+          "slug": "lexical-analysis-and-parsing",
+          "md_path": "compiler-design/lexical-analysis-and-parsing.md",
+          "questions": [
+            "questions/2023/1/"
+          ]
+        },
+        {
+          "name": "code generation and optimization",
+          "id": "cs_subj_4_topic_2",
+          "slug": "code-generation-and-optimization",
+          "md_path": "compiler-design/code-generation-and-optimization.md",
+          "questions": [
+            "questions/2024-M/39/"
+          ]
+        },
+        {
+          "name": "parsing technique",
+          "id": "cs_subj_4_topic_3",
+          "slug": "parsing-technique",
+          "md_path": "compiler-design/parsing-technique.md",
+          "questions": [
+            "questions/2024-M/26/",
+            "questions/2024-M/38/"
+          ]
+        },
+        {
+          "name": "syntax directed translation",
+          "id": "cs_subj_4_topic_4",
+          "slug": "syntax-directed-translation",
+          "md_path": "compiler-design/syntax-directed-translation.md",
+          "questions": [
+            "questions/2024-M/37/",
+            "questions/2024-N/29/"
+          ]
+        },
+        {
+          "name": "intermediate code generation",
+          "id": "cs_subj_4_topic_5",
+          "slug": "intermediate-code-generation",
+          "md_path": "compiler-design/intermediate-code-generation.md",
+          "questions": [
+            "questions/2021-N/42/"
+          ]
+        },
+        {
+          "name": "compilation phase",
+          "id": "cs_subj_4_topic_6",
+          "slug": "compilation-phase",
+          "md_path": "compiler-design/compilation-phase.md",
+          "questions": [
+            "questions/2021-N/41/"
+          ]
+        },
+        {
+          "name": "parser theory",
+          "id": "cs_subj_4_topic_7",
+          "slug": "parser-theory",
+          "md_path": "compiler-design/parser-theory.md",
+          "questions": [
+            "questions/2021-M/52/"
+          ]
+        },
+        {
+          "name": "lexical analysis",
+          "id": "cs_subj_4_topic_8",
+          "slug": "lexical-analysis",
+          "md_path": "compiler-design/lexical-analysis.md",
+          "questions": [
+            "questions/2021-M/2/"
+          ]
+        },
+        {
+          "name": "parsing",
+          "id": "cs_subj_4_topic_9",
+          "slug": "parsing",
+          "md_path": "compiler-design/parsing.md",
+          "questions": []
+        },
+        {
+          "name": "syntax directed translation sdt",
+          "id": "cs_subj_4_topic_10",
+          "slug": "syntax-directed-translation-sdt",
+          "md_path": "compiler-design/syntax-directed-translation-sdt.md",
+          "questions": [
+            "questions/2021-M/35/"
+          ]
+        },
+        {
+          "name": "data flow analysis constant propagation",
+          "id": "cs_subj_4_topic_11",
+          "slug": "data-flow-analysis-constant-propagation",
+          "md_path": "compiler-design/data-flow-analysis-constant-propagation.md",
+          "questions": [
+            "questions/2021-M/44/"
+          ]
+        },
+        {
+          "name": "parsing techniques lr1 lalr1",
+          "id": "cs_subj_4_topic_12",
+          "slug": "parsing-techniques-lr1-lalr1",
+          "md_path": "compiler-design/parsing-techniques-lr1-lalr1.md",
+          "questions": [
+            "questions/2022/7/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "algorithm",
+      "id": "cs_subj_5",
+      "slug": "algorithm",
+      "topics": [
+        {
+          "name": "asymptotic worst case time complexity",
+          "id": "cs_subj_5_topic_1",
+          "slug": "asymptotic-worst-case-time-complexity",
+          "md_path": "algorithm/asymptotic-worst-case-time-complexity.md",
+          "questions": [
+            "questions/2022/34/",
+            "questions/2023/44/"
+          ]
+        },
+        {
+          "name": "complexity analysis",
+          "id": "cs_subj_5_topic_2",
+          "slug": "complexity-analysis",
+          "md_path": "algorithm/complexity-analysis.md",
+          "questions": [
+            "questions/2024-M/17/",
+            "questions/2024-M/42/"
+          ]
+        },
+        {
+          "name": "searching",
+          "id": "cs_subj_5_topic_3",
+          "slug": "searching",
+          "md_path": "algorithm/searching.md",
+          "questions": [
+            "questions/2021-M/45/",
+            "questions/2021-N/15/"
+          ]
+        },
+        {
+          "name": "searching sorting hashing",
+          "id": "cs_subj_5_topic_4",
+          "slug": "searching-sorting-hashing",
+          "md_path": "algorithm/searching-sorting-hashing.md",
+          "questions": [
+            "questions/2021-N/20/"
+          ]
+        },
+        {
+          "name": "graph algorithm",
+          "id": "cs_subj_5_topic_5",
+          "slug": "graph-algorithm",
+          "md_path": "algorithm/graph-algorithm.md",
+          "questions": [
+            "questions/2021-M/5/"
+          ]
+        },
+        {
+          "name": "sorting",
+          "id": "cs_subj_5_topic_6",
+          "slug": "sorting",
+          "md_path": "algorithm/sorting.md",
+          "questions": [
+            "questions/2021-M/34/"
+          ]
+        },
+        {
+          "name": "minimum spanning tree",
+          "id": "cs_subj_5_topic_7",
+          "slug": "minimum-spanning-tree",
+          "md_path": "algorithm/minimum-spanning-tree.md",
+          "questions": [
+            "questions/2021-N/19/"
+          ]
+        },
+        {
+          "name": "asymptotic worst case time and space complexity",
+          "id": "cs_subj_5_topic_8",
+          "slug": "asymptotic-worst-case-time-and-space-complexity",
+          "md_path": "algorithm/asymptotic-worst-case-time-and-space-complexity.md",
+          "questions": [
+            "questions/2021-M/41/",
+            "questions/2024-N/15/"
+          ]
+        },
+        {
+          "name": "scheduling deadlock cpu and i o scheduling",
+          "id": "cs_subj_5_topic_9",
+          "slug": "scheduling-deadlock-cpu-and-i-o-scheduling",
+          "md_path": "algorithm/scheduling-deadlock-cpu-and-i-o-scheduling.md",
+          "questions": [
+            "questions/2021-M/9/"
+          ]
+        },
+        {
+          "name": "dynamic programming",
+          "id": "cs_subj_5_topic_10",
+          "slug": "dynamic-programming",
+          "md_path": "algorithm/dynamic-programming.md",
+          "questions": [
+            "questions/2021-M/6/"
+          ]
+        },
+        {
+          "name": "algorithm design techniques greedy dynamic programming and divide conquer",
+          "id": "cs_subj_5_topic_11",
+          "slug": "algorithm-design-techniques-greedy-dynamic-programming-and-divide-conquer",
+          "md_path": "algorithm/algorithm-design-techniques-greedy-dynamic-programming-and-divide-conquer.md",
+          "questions": [
+            "questions/2022/12/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "database",
+      "id": "cs_subj_6",
+      "slug": "database",
+      "topics": [
+        {
+          "name": "er model",
+          "id": "cs_subj_6_topic_1",
+          "slug": "er-model",
+          "md_path": "database/er-model.md",
+          "questions": [
+            "questions/2021-M/37/",
+            "questions/2022/51/",
+            "questions/2023/6/",
+            "questions/2024-M/20/",
+            "questions/2024-N/20/"
+          ]
+        },
+        {
+          "name": "transactions and concurrency control",
+          "id": "cs_subj_6_topic_2",
+          "slug": "transactions-and-concurrency-control",
+          "md_path": "database/transactions-and-concurrency-control.md",
+          "questions": [
+            "questions/2024-M/46/",
+            "questions/2024-N/27/"
+          ]
+        },
+        {
+          "name": "database design function",
+          "id": "cs_subj_6_topic_3",
+          "slug": "database-design-function",
+          "md_path": "database/database-design-function.md",
+          "questions": [
+            "questions/2024-M/22/"
+          ]
+        },
+        {
+          "name": "relational model relational algebra",
+          "id": "cs_subj_6_topic_4",
+          "slug": "relational-model-relational-algebra",
+          "md_path": "database/relational-model-relational-algebra.md",
+          "questions": [
+            "questions/2024-M/35/"
+          ]
+        },
+        {
+          "name": "file organization",
+          "id": "cs_subj_6_topic_5",
+          "slug": "file-organization",
+          "md_path": "database/file-organization.md",
+          "questions": [
+            "questions/2021-N/46/"
+          ]
+        },
+        {
+          "name": "er model relational model relational algebra tuple calculus sql",
+          "id": "cs_subj_6_topic_6",
+          "slug": "er-model-relational-model-relational-algebra-tuple-calculus-sql",
+          "md_path": "database/er-model-relational-model-relational-algebra-tuple-calculus-sql.md",
+          "questions": [
+            "questions/2021-N/49/",
+            "questions/2022/53/"
+          ]
+        },
+        {
+          "name": "concurrent control",
+          "id": "cs_subj_6_topic_7",
+          "slug": "concurrent-control",
+          "md_path": "database/concurrent-control.md",
+          "questions": [
+            "questions/2021-N/47/"
+          ]
+        },
+        {
+          "name": "relational database design",
+          "id": "cs_subj_6_topic_8",
+          "slug": "relational-database-design",
+          "md_path": "database/relational-database-design.md",
+          "questions": [
+            "questions/2021-N/48/"
+          ]
+        },
+        {
+          "name": "regular expressions and finite automata theory",
+          "id": "cs_subj_6_topic_9",
+          "slug": "regular-expressions-and-finite-automata-theory",
+          "md_path": "database/regular-expressions-and-finite-automata-theory.md",
+          "questions": [
+            "questions/2021-N/38/"
+          ]
+        },
+        {
+          "name": "er model and relational model",
+          "id": "cs_subj_6_topic_10",
+          "slug": "er-model-and-relational-model",
+          "md_path": "database/er-model-and-relational-model.md",
+          "questions": [
+            "questions/2024-N/56/"
+          ]
+        },
+        {
+          "name": "file structure",
+          "id": "cs_subj_6_topic_11",
+          "slug": "file-structure",
+          "md_path": "database/file-structure.md",
+          "questions": [
+            "questions/2024-N/26/",
+            "questions/2024-N/6/"
+          ]
+        },
+        {
+          "name": "relational model",
+          "id": "cs_subj_6_topic_12",
+          "slug": "relational-model",
+          "md_path": "database/relational-model.md",
+          "questions": [
+            "questions/2021-M/25/"
+          ]
+        },
+        {
+          "name": "database theory",
+          "id": "cs_subj_6_topic_13",
+          "slug": "database-theory",
+          "md_path": "database/database-theory.md",
+          "questions": [
+            "questions/2022/52/"
+          ]
+        },
+        {
+          "name": "sql and set operation",
+          "id": "cs_subj_6_topic_14",
+          "slug": "sql-and-set-operation",
+          "md_path": "database/sql-and-set-operation.md",
+          "questions": [
+            "questions/2022/55/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "programming and data structure",
+      "id": "cs_subj_7",
+      "slug": "programming-and-data-structure",
+      "topics": [
+        {
+          "name": "recursion",
+          "id": "cs_subj_7_topic_1",
+          "slug": "recursion",
+          "md_path": "programming-and-data-structure/recursion.md",
+          "questions": [
+            "questions/2021-M/10/",
+            "questions/2021-M/47/",
+            "questions/2021-N/11/",
+            "questions/2021-N/12/",
+            "questions/2021-N/39/",
+            "questions/2023/26/"
+          ]
+        },
+        {
+          "name": "arrays and stack",
+          "id": "cs_subj_7_topic_2",
+          "slug": "arrays-and-stack",
+          "md_path": "programming-and-data-structure/arrays-and-stack.md",
+          "questions": [
+            "questions/2023/31/"
+          ]
+        },
+        {
+          "name": "c programming",
+          "id": "cs_subj_7_topic_3",
+          "slug": "c-programming",
+          "md_path": "programming-and-data-structure/c-programming.md",
+          "questions": [
+            "questions/2024-M/19/"
+          ]
+        },
+        {
+          "name": "arrays stacks queues linked lists trees binary search trees binary heaps graph",
+          "id": "cs_subj_7_topic_4",
+          "slug": "arrays-stacks-queues-linked-lists-trees-binary-search-trees-binary-heaps-graph",
+          "md_path": "programming-and-data-structure/arrays-stacks-queues-linked-lists-trees-binary-search-trees-binary-heaps-graph.md",
+          "questions": []
+        },
+        {
+          "name": "arrays stacks queues linked list",
+          "id": "cs_subj_7_topic_5",
+          "slug": "arrays-stacks-queues-linked-list",
+          "md_path": "programming-and-data-structure/arrays-stacks-queues-linked-list.md",
+          "questions": [
+            "questions/2021-N/43/"
+          ]
+        },
+        {
+          "name": "array",
+          "id": "cs_subj_7_topic_6",
+          "slug": "array",
+          "md_path": "programming-and-data-structure/array.md",
+          "questions": [
+            "questions/2022/36/",
+            "questions/2024-N/42/"
+          ]
+        },
+        {
+          "name": "binary search tree",
+          "id": "cs_subj_7_topic_7",
+          "slug": "binary-search-tree",
+          "md_path": "programming-and-data-structure/binary-search-tree.md",
+          "questions": [
+            "questions/2021-M/38/"
+          ]
+        },
+        {
+          "name": "trees graph traversal",
+          "id": "cs_subj_7_topic_8",
+          "slug": "trees-graph-traversal",
+          "md_path": "programming-and-data-structure/trees-graph-traversal.md",
+          "questions": [
+            "questions/2021-M/53/"
+          ]
+        },
+        {
+          "name": "stack",
+          "id": "cs_subj_7_topic_9",
+          "slug": "stack",
+          "md_path": "programming-and-data-structure/stack.md",
+          "questions": [
+            "questions/2021-M/11/"
+          ]
+        },
+        {
+          "name": "data structures and algorithm",
+          "id": "cs_subj_7_topic_10",
+          "slug": "data-structures-and-algorithm",
+          "md_path": "programming-and-data-structure/data-structures-and-algorithm.md",
+          "questions": []
+        },
+        {
+          "name": "linked list",
+          "id": "cs_subj_7_topic_11",
+          "slug": "linked-list",
+          "md_path": "programming-and-data-structure/linked-list.md",
+          "questions": [
+            "questions/2022/40/"
+          ]
+        },
+        {
+          "name": "arrays stacks queue",
+          "id": "cs_subj_7_topic_12",
+          "slug": "arrays-stacks-queue",
+          "md_path": "programming-and-data-structure/arrays-stacks-queue.md",
+          "questions": [
+            "questions/2022/38/",
+            "questions/2022/41/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital logic",
+      "id": "cs_subj_8",
+      "slug": "digital-logic",
+      "topics": [
+        {
+          "name": "boolean algebra",
+          "id": "cs_subj_8_topic_1",
+          "slug": "boolean-algebra",
+          "md_path": "digital-logic/boolean-algebra.md",
+          "questions": [
+            "questions/2021-M/17/",
+            "questions/2021-M/29/",
+            "questions/2021-N/21/",
+            "questions/2024-M/33/",
+            "questions/2024-M/47/",
+            "questions/2024-M/52/",
+            "questions/2024-N/30/",
+            "questions/2024-N/36/",
+            "questions/2024-N/50/"
+          ]
+        },
+        {
+          "name": "combinational circuit",
+          "id": "cs_subj_8_topic_2",
+          "slug": "combinational-circuit",
+          "md_path": "digital-logic/combinational-circuit.md",
+          "questions": [
+            "questions/2024-M/64/"
+          ]
+        },
+        {
+          "name": "number representations and computer arithmetic fixed and floating point",
+          "id": "cs_subj_8_topic_3",
+          "slug": "number-representations-and-computer-arithmetic-fixed-and-floating-point",
+          "md_path": "digital-logic/number-representations-and-computer-arithmetic-fixed-and-floating-point.md",
+          "questions": [
+            "questions/2021-N/51/"
+          ]
+        },
+        {
+          "name": "combinational and sequential circuit",
+          "id": "cs_subj_8_topic_4",
+          "slug": "combinational-and-sequential-circuit",
+          "md_path": "digital-logic/combinational-and-sequential-circuit.md",
+          "questions": [
+            "questions/2021-M/16/",
+            "questions/2021-N/23/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer network",
+      "id": "cs_subj_9",
+      "slug": "computer-network",
+      "topics": [
+        {
+          "name": "transport layer flow control and congestion control udp tcp socket",
+          "id": "cs_subj_9_topic_1",
+          "slug": "transport-layer-flow-control-and-congestion-control-udp-tcp-socket",
+          "md_path": "computer-network/transport-layer-flow-control-and-congestion-control-udp-tcp-socket.md",
+          "questions": [
+            "questions/2024-M/16/"
+          ]
+        },
+        {
+          "name": "network layer",
+          "id": "cs_subj_9_topic_2",
+          "slug": "network-layer",
+          "md_path": "computer-network/network-layer.md",
+          "questions": [
+            "questions/2022/4/",
+            "questions/2024-M/31/",
+            "questions/2024-M/58/",
+            "questions/2024-M/65/"
+          ]
+        },
+        {
+          "name": "transport layer",
+          "id": "cs_subj_9_topic_3",
+          "slug": "transport-layer",
+          "md_path": "computer-network/transport-layer.md",
+          "questions": [
+            "questions/2022/3/",
+            "questions/2024-M/29/"
+          ]
+        },
+        {
+          "name": "transport layer protocol",
+          "id": "cs_subj_9_topic_4",
+          "slug": "transport-layer-protocol",
+          "md_path": "computer-network/transport-layer-protocol.md",
+          "questions": [
+            "questions/2021-M/46/"
+          ]
+        },
+        {
+          "name": "network protocol",
+          "id": "cs_subj_9_topic_5",
+          "slug": "network-protocol",
+          "md_path": "computer-network/network-protocol.md",
+          "questions": [
+            "questions/2021-M/54/",
+            "questions/2021-N/53/"
+          ]
+        },
+        {
+          "name": "routing protocol",
+          "id": "cs_subj_9_topic_6",
+          "slug": "routing-protocol",
+          "md_path": "computer-network/routing-protocol.md",
+          "questions": [
+            "questions/2021-N/50/"
+          ]
+        },
+        {
+          "name": "transport layer tcp",
+          "id": "cs_subj_9_topic_7",
+          "slug": "transport-layer-tcp",
+          "md_path": "computer-network/transport-layer-tcp.md",
+          "questions": [
+            "questions/2024-N/54/"
+          ]
+        },
+        {
+          "name": "ip addressing and cidr notation",
+          "id": "cs_subj_9_topic_8",
+          "slug": "ip-addressing-and-cidr-notation",
+          "md_path": "computer-network/ip-addressing-and-cidr-notation.md",
+          "questions": [
+            "questions/2024-N/38/"
+          ]
+        },
+        {
+          "name": "concept of layering osi and tcp ip protocol stack",
+          "id": "cs_subj_9_topic_9",
+          "slug": "concept-of-layering-osi-and-tcp-ip-protocol-stack",
+          "md_path": "computer-network/concept-of-layering-osi-and-tcp-ip-protocol-stack.md",
+          "questions": [
+            "questions/2021-M/55/"
+          ]
+        },
+        {
+          "name": "basics of packet circuit and virtual circuit switching",
+          "id": "cs_subj_9_topic_10",
+          "slug": "basics-of-packet-circuit-and-virtual-circuit-switching",
+          "md_path": "computer-network/basics-of-packet-circuit-and-virtual-circuit-switching.md",
+          "questions": [
+            "questions/2021-M/26/"
+          ]
+        },
+        {
+          "name": "computer networks fundamental",
+          "id": "cs_subj_9_topic_11",
+          "slug": "computer-networks-fundamental",
+          "md_path": "computer-network/computer-networks-fundamental.md",
+          "questions": [
+            "questions/2022/2/"
+          ]
+        },
+        {
+          "name": "routing protocols shortest path flooding distance vector and link state routing",
+          "id": "cs_subj_9_topic_12",
+          "slug": "routing-protocols-shortest-path-flooding-distance-vector-and-link-state-routing",
+          "md_path": "computer-network/routing-protocols-shortest-path-flooding-distance-vector-and-link-state-routing.md",
+          "questions": [
+            "questions/2022/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "cs_subj_10",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "random variables uniform normal exponential poisson and binomial distribution",
+          "id": "cs_subj_10_topic_1",
+          "slug": "random-variables-uniform-normal-exponential-poisson-and-binomial-distribution",
+          "md_path": "probability-and-statistic/random-variables-uniform-normal-exponential-poisson-and-binomial-distribution.md",
+          "questions": [
+            "questions/2021-M/49/",
+            "questions/2021-N/57/",
+            "questions/2022/61/"
+          ]
+        },
+        {
+          "name": "conditional probability and bayes theorem",
+          "id": "cs_subj_10_topic_2",
+          "slug": "conditional-probability-and-bayes-theorem",
+          "md_path": "probability-and-statistic/conditional-probability-and-bayes-theorem.md",
+          "questions": [
+            "questions/2024-M/27/"
+          ]
+        },
+        {
+          "name": "random variable",
+          "id": "cs_subj_10_topic_3",
+          "slug": "random-variable",
+          "md_path": "probability-and-statistic/random-variable.md",
+          "questions": [
+            "questions/2021-M/8/",
+            "questions/2021-N/54/"
+          ]
+        },
+        {
+          "name": "mean median mode and standard deviation",
+          "id": "cs_subj_10_topic_4",
+          "slug": "mean-median-mode-and-standard-deviation",
+          "md_path": "probability-and-statistic/mean-median-mode-and-standard-deviation.md",
+          "questions": []
+        },
+        {
+          "name": "covariance between random variables x and y",
+          "id": "cs_subj_10_topic_5",
+          "slug": "covariance-between-random-variables-x-and-y",
+          "md_path": "probability-and-statistic/covariance-between-random-variables-x-and-y.md",
+          "questions": [
+            "questions/2021-M/51/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "programming in c",
+      "id": "cs_subj_11",
+      "slug": "programming-in-c",
+      "topics": [
+        {
+          "name": "recursion arrays stacks queues linked lists trees binary search trees binary heaps graph",
+          "id": "cs_subj_11_topic_1",
+          "slug": "recursion-arrays-stacks-queues-linked-lists-trees-binary-search-trees-binary-hea",
+          "md_path": "programming-in-c/recursion-arrays-stacks-queues-linked-lists-trees-binary-search-trees-binary-hea.md",
+          "questions": [
+            "questions/2022/35/",
+            "questions/2022/37/"
+          ]
+        },
+        {
+          "name": "control structure",
+          "id": "cs_subj_11_topic_2",
+          "slug": "control-structure",
+          "md_path": "programming-in-c/control-structure.md",
+          "questions": [
+            "questions/2024-M/18/",
+            "questions/2024-M/48/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "operating",
+      "id": "cs_subj_12",
+      "slug": "operating",
+      "topics": [
+        {
+          "name": "process management ii",
+          "id": "cs_subj_12_topic_1",
+          "slug": "process-management-ii",
+          "md_path": "operating/process-management-ii.md",
+          "questions": [
+            "questions/2024-M/15/",
+            "questions/2024-M/24/",
+            "questions/2024-M/40/",
+            "questions/2024-M/57/"
+          ]
+        },
+        {
+          "name": "file system and device management",
+          "id": "cs_subj_12_topic_2",
+          "slug": "file-system-and-device-management",
+          "md_path": "operating/file-system-and-device-management.md",
+          "questions": [
+            "questions/2024-M/54/"
+          ]
+        },
+        {
+          "name": "memory management and virtual memory",
+          "id": "cs_subj_12_topic_3",
+          "slug": "memory-management-and-virtual-memory",
+          "md_path": "operating/memory-management-and-virtual-memory.md",
+          "questions": [
+            "questions/2024-M/62/"
+          ]
+        },
+        {
+          "name": "concurrency and synchronization",
+          "id": "cs_subj_12_topic_4",
+          "slug": "concurrency-and-synchronization",
+          "md_path": "operating/concurrency-and-synchronization.md",
+          "questions": [
+            "questions/2021-M/13/",
+            "questions/2021-M/4/",
+            "questions/2021-N/26/",
+            "questions/2021-N/28/",
+            "questions/2024-N/46/"
+          ]
+        },
+        {
+          "name": "deadlock cpu and i o scheduling",
+          "id": "cs_subj_12_topic_5",
+          "slug": "deadlock-cpu-and-i-o-scheduling",
+          "md_path": "operating/deadlock-cpu-and-i-o-scheduling.md",
+          "questions": [
+            "questions/2021-N/29/"
+          ]
+        },
+        {
+          "name": "memory management",
+          "id": "cs_subj_12_topic_6",
+          "slug": "memory-management",
+          "md_path": "operating/memory-management.md",
+          "questions": [
+            "questions/2024-N/24/"
+          ]
+        },
+        {
+          "name": "process management",
+          "id": "cs_subj_12_topic_7",
+          "slug": "process-management",
+          "md_path": "operating/process-management.md",
+          "questions": [
+            "questions/2024-N/25/"
+          ]
+        },
+        {
+          "name": "scheduling",
+          "id": "cs_subj_12_topic_8",
+          "slug": "scheduling",
+          "md_path": "operating/scheduling.md",
+          "questions": [
+            "questions/2024-N/37/"
+          ]
+        },
+        {
+          "name": "concurrency and synchronization deadlock cpu and i o scheduling",
+          "id": "cs_subj_12_topic_9",
+          "slug": "concurrency-and-synchronization-deadlock-cpu-and-i-o-scheduling",
+          "md_path": "operating/concurrency-and-synchronization-deadlock-cpu-and-i-o-scheduling.md",
+          "questions": [
+            "questions/2021-M/3/"
+          ]
+        },
+        {
+          "name": "process synchronization",
+          "id": "cs_subj_12_topic_10",
+          "slug": "process-synchronization",
+          "md_path": "operating/process-synchronization.md",
+          "questions": [
+            "questions/2022/42/"
+          ]
+        },
+        {
+          "name": "process scheduling",
+          "id": "cs_subj_12_topic_11",
+          "slug": "process-scheduling",
+          "md_path": "operating/process-scheduling.md",
+          "questions": [
+            "questions/2022/43/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mathematic",
+      "id": "cs_subj_13",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "probability",
+          "id": "cs_subj_13_topic_1",
+          "slug": "probability",
+          "md_path": "engineering-mathematic/probability.md",
+          "questions": [
+            "questions/2024-M/14/",
+            "questions/2024-N/3/",
+            "questions/2024-N/44/"
+          ]
+        },
+        {
+          "name": "probability and statistic",
+          "id": "cs_subj_13_topic_2",
+          "slug": "probability-and-statistic",
+          "md_path": "engineering-mathematic/probability-and-statistic.md",
+          "questions": [
+            "questions/2024-M/63/"
+          ]
+        },
+        {
+          "name": "limits continuity and differentiability",
+          "id": "cs_subj_13_topic_3",
+          "slug": "limits-continuity-and-differentiability",
+          "md_path": "engineering-mathematic/limits-continuity-and-differentiability.md",
+          "questions": [
+            "questions/2021-N/55/"
+          ]
+        },
+        {
+          "name": "combinatoric",
+          "id": "cs_subj_13_topic_4",
+          "slug": "combinatoric",
+          "md_path": "engineering-mathematic/combinatoric.md",
+          "questions": []
+        },
+        {
+          "name": "calculus",
+          "id": "cs_subj_13_topic_5",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": [
+            "questions/2021-M/18/",
+            "questions/2022/18/",
+            "questions/2022/20/",
+            "questions/2024-N/16/"
+          ]
+        },
+        {
+          "name": "linear algebra",
+          "id": "cs_subj_13_topic_6",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2022/23/",
+            "questions/2024-N/47/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data structure",
+      "id": "cs_subj_14",
+      "slug": "data-structure",
+      "topics": [
+        {
+          "name": "graph",
+          "id": "cs_subj_14_topic_1",
+          "slug": "graph",
+          "md_path": "data-structure/graph.md",
+          "questions": [
+            "questions/2024-M/51/"
+          ]
+        },
+        {
+          "name": "array",
+          "id": "cs_subj_14_topic_2",
+          "slug": "array",
+          "md_path": "data-structure/array.md",
+          "questions": [
+            "questions/2024-M/41/"
+          ]
+        },
+        {
+          "name": "graphs and tree",
+          "id": "cs_subj_14_topic_3",
+          "slug": "graphs-and-tree",
+          "md_path": "data-structure/graphs-and-tree.md",
+          "questions": [
+            "questions/2024-M/45/"
+          ]
+        },
+        {
+          "name": "tree",
+          "id": "cs_subj_14_topic_4",
+          "slug": "tree",
+          "md_path": "data-structure/tree.md",
+          "questions": [
+            "questions/2024-M/21/",
+            "questions/2024-M/43/"
+          ]
+        },
+        {
+          "name": "dynamic hashing approach for integer key",
+          "id": "cs_subj_14_topic_5",
+          "slug": "dynamic-hashing-approach-for-integer-key",
+          "md_path": "data-structure/dynamic-hashing-approach-for-integer-key.md",
+          "questions": [
+            "questions/2021-M/7/"
+          ]
+        },
+        {
+          "name": "linear list based directory implementation in a file",
+          "id": "cs_subj_14_topic_6",
+          "slug": "linear-list-based-directory-implementation-in-a-file",
+          "md_path": "data-structure/linear-list-based-directory-implementation-in-a-file.md",
+          "questions": [
+            "questions/2021-M/40/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "combinatoric",
+      "id": "cs_subj_15",
+      "slug": "combinatoric",
+      "topics": [
+        {
+          "name": "graph theory",
+          "id": "cs_subj_15_topic_1",
+          "slug": "graph-theory",
+          "md_path": "combinatoric/graph-theory.md",
+          "questions": [
+            "questions/2024-M/60/"
+          ]
+        },
+        {
+          "name": "counting",
+          "id": "cs_subj_15_topic_2",
+          "slug": "counting",
+          "md_path": "combinatoric/counting.md",
+          "questions": [
+            "questions/2024-N/10/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "discrete mathematic",
+      "id": "cs_subj_16",
+      "slug": "discrete-mathematic",
+      "topics": [
+        {
+          "name": "set theory and algebra",
+          "id": "cs_subj_16_topic_1",
+          "slug": "set-theory-and-algebra",
+          "md_path": "discrete-mathematic/set-theory-and-algebra.md",
+          "questions": [
+            "questions/2024-M/32/"
+          ]
+        },
+        {
+          "name": "graph theory",
+          "id": "cs_subj_16_topic_2",
+          "slug": "graph-theory",
+          "md_path": "discrete-mathematic/graph-theory.md",
+          "questions": [
+            "questions/2021-N/64/",
+            "questions/2024-M/34/"
+          ]
+        },
+        {
+          "name": "combinatoric",
+          "id": "cs_subj_16_topic_3",
+          "slug": "combinatoric",
+          "md_path": "discrete-mathematic/combinatoric.md",
+          "questions": [
+            "questions/2021-N/18/",
+            "questions/2021-N/62/"
+          ]
+        },
+        {
+          "name": "sets relations function",
+          "id": "cs_subj_16_topic_4",
+          "slug": "sets-relations-function",
+          "md_path": "discrete-mathematic/sets-relations-function.md",
+          "questions": [
+            "questions/2021-N/59/"
+          ]
+        },
+        {
+          "name": "graph",
+          "id": "cs_subj_16_topic_5",
+          "slug": "graph",
+          "md_path": "discrete-mathematic/graph.md",
+          "questions": [
+            "questions/2022/24/",
+            "questions/2022/28/",
+            "questions/2022/30/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "cs_subj_17",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "verbal ability",
+          "id": "cs_subj_17_topic_1",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2021-N/4/",
+            "questions/2022/60/",
+            "questions/2022/65/",
+            "questions/2024-M/1/",
+            "questions/2024-M/6/"
+          ]
+        },
+        {
+          "name": "spatial reasoning",
+          "id": "cs_subj_17_topic_2",
+          "slug": "spatial-reasoning",
+          "md_path": "general-aptitude/spatial-reasoning.md",
+          "questions": [
+            "questions/2021-N/8/"
+          ]
+        },
+        {
+          "name": "spatial reasoning and logic",
+          "id": "cs_subj_17_topic_3",
+          "slug": "spatial-reasoning-and-logic",
+          "md_path": "general-aptitude/spatial-reasoning-and-logic.md",
+          "questions": [
+            "questions/2021-N/58/",
+            "questions/2021-N/7/"
+          ]
+        },
+        {
+          "name": "unrelated to syllabus",
+          "id": "cs_subj_17_topic_4",
+          "slug": "unrelated-to-syllabus",
+          "md_path": "general-aptitude/unrelated-to-syllabus.md",
+          "questions": [
+            "questions/2021-N/2/",
+            "questions/2021-N/9/"
+          ]
+        },
+        {
+          "name": "numerical ability",
+          "id": "cs_subj_17_topic_5",
+          "slug": "numerical-ability",
+          "md_path": "general-aptitude/numerical-ability.md",
+          "questions": [
+            "questions/2021-N/3/"
+          ]
+        },
+        {
+          "name": "fare fair concept",
+          "id": "cs_subj_17_topic_6",
+          "slug": "fare-fair-concept",
+          "md_path": "general-aptitude/fare-fair-concept.md",
+          "questions": [
+            "questions/2022/56/"
+          ]
+        },
+        {
+          "name": "newly created subtopic",
+          "id": "cs_subj_17_topic_7",
+          "slug": "newly-created-subtopic",
+          "md_path": "general-aptitude/newly-created-subtopic.md",
+          "questions": []
+        },
+        {
+          "name": "organization behavior",
+          "id": "cs_subj_17_topic_8",
+          "slug": "organization-behavior",
+          "md_path": "general-aptitude/organization-behavior.md",
+          "questions": [
+            "questions/2022/62/"
+          ]
+        },
+        {
+          "name": "spatial aptitude",
+          "id": "cs_subj_17_topic_9",
+          "slug": "spatial-aptitude",
+          "md_path": "general-aptitude/spatial-aptitude.md",
+          "questions": [
+            "questions/2022/63/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "database design functional",
+      "id": "cs_subj_18",
+      "slug": "database-design-functional",
+      "topics": [
+        {
+          "name": "functional dependencie",
+          "id": "cs_subj_18_topic_1",
+          "slug": "functional-dependencie",
+          "md_path": "database-design-functional/functional-dependencie.md",
+          "questions": [
+            "questions/2024-M/44/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linear algebra",
+      "id": "cs_subj_20",
+      "slug": "linear-algebra",
+      "topics": [
+        {
+          "name": "matrix operation",
+          "id": "cs_subj_20_topic_1",
+          "slug": "matrix-operation",
+          "md_path": "linear-algebra/matrix-operation.md",
+          "questions": [
+            "questions/2021-N/60/",
+            "questions/2022/21/"
+          ]
+        },
+        {
+          "name": "eigenvalues and eigenvector",
+          "id": "cs_subj_20_topic_2",
+          "slug": "eigenvalues-and-eigenvector",
+          "md_path": "linear-algebra/eigenvalues-and-eigenvector.md",
+          "questions": [
+            "questions/2022/22/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data structures and algorithm",
+      "id": "cs_subj_21",
+      "slug": "data-structures-and-algorithm",
+      "topics": [
+        {
+          "name": "hashing",
+          "id": "cs_subj_21_topic_1",
+          "slug": "hashing",
+          "md_path": "data-structures-and-algorithm/hashing.md",
+          "questions": [
+            "questions/2022/39/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital logic and number representation",
+      "id": "cs_subj_22",
+      "slug": "digital-logic-and-number-representation",
+      "topics": [
+        {
+          "name": "arithmetic addition with overflow",
+          "id": "cs_subj_22_topic_1",
+          "slug": "arithmetic-addition-with-overflow",
+          "md_path": "digital-logic-and-number-representation/arithmetic-addition-with-overflow.md",
+          "questions": [
+            "questions/2022/49/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calculus",
+      "id": "cs_subj_23",
+      "slug": "calculus",
+      "topics": [
+        {
+          "name": "integration",
+          "id": "cs_subj_23_topic_1",
+          "slug": "integration",
+          "md_path": "calculus/integration.md",
+          "questions": [
+            "questions/2022/59/"
+          ]
+        }
+      ]
+    }
+  ]
+}

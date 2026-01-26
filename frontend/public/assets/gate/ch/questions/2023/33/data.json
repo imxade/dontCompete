@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "1.01 to 1.03 \nSol. \nFor Laminar flow, Hagen\u2019s Puisiule Equation \u2013\n\uf044\n\uf06d\n\uf06d\n\uf03d\n\uf03d\uf070\nP\nv\nQ\nL\nD\nD\n4\n32\n32\n2\n4\n\uf044\uf0d7\n\uf070\n\uf0e6\n\uf0f6\n\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf06d\uf03d\n\uf03d\n\uf0b4\n\uf0b4\nP\nD\nL\n1\n0.5 10\n10\n4\n4\n32\n1.5\n32 10\n\uf028\n\uf029\n4\n4\n3\n6\n\uf02d\n\n\uf02d\n6\nQ\n3\n1.022 10  Pa S\n\uf02d\n\uf06d\uf03d\n\uf0b4\n\uf0d7\n\uf0de\n \n1.0221\n\uf06d\uf03d",
+  "question_text": "Question 33 \n \nThe viscosity of an incompressible Newtonian fluid is measured using a capillary tube of diameter 0.5\nmm and length 1.5 m. The fluid flow is laminar, steady and fully developed. For a flow rate of \n3\n1\n1 cm s ,\n\uf02d\nthe pressure drop across the length of the tube is 1 MPa. If the viscosity of the fluid is \n3\n10 Pa.s,\nk\n\uf02d\n\uf0b4\n the\nvalue of \n\ud835\udc8c\n is ___________ (rounded off to two decimal places). \n[Fluid Mechanics, 1 Mark]",
+  "answer_text": "1.01 to 1.03 \nSol. \nFor Laminar flow, Hagen\u2019s Puisiule Equation \u2013\n\uf044\n\uf06d\n\uf06d\n\uf03d\n\uf03d\uf070\nP\nv\nQ\nL\nD\nD\n4\n32\n32\n2\n4\n\uf044\uf0d7\n\uf070\n\uf0e6\n\uf0f6\n\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf06d\uf03d\n\uf03d\n\uf0b4\n\uf0b4\nP\nD\nL\n1\n0.5 10\n10\n4\n4\n32\n1.5\n32 10\n\uf028\n\uf029\n4\n4\n3\n6\n\uf02d\n\n\uf02d\n6\nQ\n3\n1.022 10  Pa S\n\uf02d\n\uf06d\uf03d\n\uf0b4\n\uf0d7\n\uf0de\n \n1.0221\n\uf06d\uf03d",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 16\n\nPAGE\n13\n\nThe velocity field in an incompressible flow is \n\ud835\udc63= \ud835\udefc\ud835\udc65\ud835\udc66\ud835\udc56\u0302 + \ud835\udc63\n\ud835\udc66\n\ud835\udc57\u0302 + \ud835\udefd\ud835\udc58\n\u0302\n,\n where \n\ud835\udc56\u0302, \ud835\udc57\u0302\n and \n\ud835\udc58\n\u0302\n are unit-vectors in \nthe \n(\ud835\udc65, \ud835\udc66, \ud835\udc67)\n Cartesian coordinate system. Given that \n\ud835\udefc\n and \n\ud835\udefd\n are constants, and at \n\ud835\udc66\n = 0, the correct \nexpression for \n\ud835\udc63\n\ud835\udc66\n is \n \n  \n \n \n[Fluid Mechanics, 1 Marks]\n\u2212\ud835\udefc\ud835\udc66\n2\n\u2212\ud835\udefc\ud835\udc65\ud835\udc66\n(A)\n2\n \n \n(B)\n2\n\ud835\udefc\ud835\udc66\n2\n\ud835\udefc\ud835\udc65\ud835\udc66\n(C)\n2\n \n \n(D)\n2",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n \nGiven\n \n\ud835\udc63\u20d7= \ud835\udefc\ud835\udc65\ud835\udc66\ud835\udc56\u0302 + \ud835\udc49\n\ud835\udc66\n\ud835\udc57\u0302 + \ud835\udefd\ud835\udc58\n\u0302\n\ud835\udf15\ud835\udc63\n\ud835\udc66\n\ud835\udf15\ud835\udc63\n\ud835\udf15\ud835\udc63\n\ud835\udc67\nFor incompressible Flow;\n\ud835\udf15\ud835\udc67\n= 0\n  i.e  \n\ud835\udefb. \ud835\udc63= 0\n\ud835\udf15\ud835\udc65\n+\n\ud835\udf15\ud835\udc66\n+\n\ud835\udf15\n\ud835\udf15\n\ud835\udf15\n\n\ud835\udf15\ud835\udc67\n(\ud835\udefd) = 0\n\ud835\udf15\ud835\udc65\n(\ud835\udefc\ud835\udc65\ud835\udc66) +\n\ud835\udf15\ud835\udc66\n(\ud835\udc63\n\ud835\udc66\n) +\n\ud835\udf15\n\ud835\udefc\ud835\udc66+\n\ud835\udf15\ud835\udc66\n(\ud835\udc63\n\ud835\udc66\n) = 0\n\u2212\ud835\udefc\ud835\udc66\n2\n\ud835\udc63\n\ud835\udc66\n=\n2\n+ \ud835\udc50\nB.C at \n\ud835\udc66= 0\n \n\ud835\udc63\n\ud835\udc66\n= 0 \u21d2\ud835\udc50= 0\n\u2212\ud835\udefc\ud835\udc66\n2\n\u2234\n  \n\ud835\udc63\n\ud835\udc66\n=\n2"
+}

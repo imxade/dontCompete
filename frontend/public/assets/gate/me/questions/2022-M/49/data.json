@@ -1,0 +1,11 @@
+{
+  "id": "49",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "110",
+  "question_text": "Question 49\nThe product structure diagram shows the number of different components required\n \nat each level to produce \none unit of the final product \nP\n. If there are 50 units of on-hand\n \ninventory of component \nA\n, the number of \nadditional units of component \nA\n \nneeded to produce 10 units of product \nP\n is _________ (in integer).\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n52\n\nP\n (1)\nLevel 0\nA\n (4)\nB\n (2)\nLevel 1\nD\n (3)\nC\n (1)\nLevel 2\nA\n (2)\nLevel 3",
+  "answer_text": "110",
+  "explanation_text": "Sol. \nFinds unit of \nA\n required for production of 10 unit of \nP\nTotal Required number \nA\n120\n40\n\uf03d\n\uf02b\n160 50\n\uf03d\n\uf02d\n In hand inventory (Instock)\n110\n\uf03d\n unit of \nA\n required\nHence, the correct answer is 110."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 19 \n \n \nControl Systems\nThe open loop transfer function of a unity gain negative feedback system is given by,\n2\n( )\n4\n5\nK\nG s\ns\ns\n\uf03d\n\uf02b\n\uf02d\nThe range of \nK\n for which the system is stable, is\n(A) \n5\nK\n \uf03e\n \n(B) \n5\nK\n \uf03c\n(C) \n3\nK\n \uf03c\n \n(D) \n3\nK\n \uf03e",
+  "answer_text": "A",
+  "explanation_text": "Sol.\n \nGiven :\n2\n( )\n4\n5\nK\nG s\ns\ns\n\uf03d\n\uf02b\n\uf02d\nThe characteristic equation is given by,\n1\n( )\n0\nG s\n\uf02b\n\uf03d\n2\n1\n0\n4\n5\nK\ns\ns\n\uf02b\n\uf03d\n\uf02b\n\uf02d\n2\n4\n5\n0\ns\ns\nK\n\uf02b\n\uf02d\uf02b\n\uf03d\n2\n4\n5\n0\ns\ns\nK\n\uf02b\n\uf02b\n\uf02d\uf03d\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n18\n\nRouth tabulation :\nFor the system to be stable, all the roots must be in the left half of \ns\n \u2013 plane, thus all the coefficients in the \nfirst column of Routh tabulation must have the same sign. Therefore, the coefficient of first column of the \nRouth\u2019s table should be positive. \n \nTherefore for stability \n \n5\n0\nK\n \uf02d\uf03e\n \n \n5\nK\n \uf03e\n \n \nHence, the correct option is (A).\n\uf026\n Key Point\nFor stability of second order system all coefficient of characteristic equation should be positive."
+}

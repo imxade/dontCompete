@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MSQ",
+  "key": "(B)",
+  "question_text": "Question 44 \n[MSQ] \n \n  \n[Mathematics : Limit Series]\nConsider the function \n\uf028\n\uf029\n\uf028\n\uf029\n2\n( )\nmax 0,\nf t\nt\n\uf03d\n for \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n, where \n\uf028\n\uf029\nmax\n,\na b\n  denotes the maximum of \na\nand \nb\n.  Which of the following statements is/are true ? \n \n \n \n \n(2 Marks)\n(A) \n( )\nf t\n  is not differentiable\n\nPAGE\n46\n\n(B)  \n( )\nf t\n  is differentiable and its derivative is continuous\n(C) \n( )\nf t\n  is differentiable but its derivative is not continuous\n(D) \n( )\nf t\n  and its derivative are differentiable",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nGiven\n \n:\n \n\uf028\uf029\n\uf028\n\uf029\n2\nmax 0,\nf t\nt\n\uf03d\uf0e9\n\uf0f9\n\uf0eb\n\uf0fb\n \nFor, \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n\uf0ec\n\uf0fc\n\uf0b3\n\uf03d\uf0ed\n\uf0fd\n\uf03c\n\uf0ee\n\uf0fe\n2\n0\nt\nt\nf t\n\uf028\uf029\n\n0\n0\nt\n(i) \n\uf028\uf029\n2\nf t\nt\n\uf03d\n2\n( )\nf t\nt\n\uf03d\nt\n0\n(ii) \n\uf028\uf029\n'\n2\nf\nt\nt\n\uf03d\n'( )\nf\nt\nt\n0\n\uf028\uf029\n'\nf\nt\n\uf0de\n exists.  But this is not differentiable.\n\uf028\uf029\n''\nf\nt\n\uf0de\n does not exist.\n\uf028\uf029\nf t\n\uf0de\n is differentiable.\n\uf05c\n \n( )\nf t\n  is differentiable and \n'( )\nf\nt\n  is continuous. But \n\"( )\nf\nt\n  is not continuous.\nHence the correct option is (B)."
+}

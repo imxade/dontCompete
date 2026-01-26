@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 5 \n \nIn the vicinity of the triple point, the equation of liquid-vapour boundary in the P \u2013 T phase diagram \nfor ammonia is \nln\n24.38 3063/\nP\nT\n=\n\u2212\n, where \nP\n is pressure (in Pa) and \nT\n is temperature (in K). \nSimilarly, the solid-vapour boundary is given by \nln\n27.92 3754/\nP\nT\n=\n\u2212\n. The temperature at the triple \npoint is _______K (round off to one decimal place).\nEngineering Thermodynamic (Pure Substance) \nAns. \n195.19  \n \nSol.\n \nGiven: \nTriple point regime for ammonia (NH\n3\n)\n3063\nln\n24.38\nP\nT\n=\n\u2212\n\uf0de\nliquid vapour line  \n\u2026 (i)\n3754\nln\n27.92\nP\nT\n=\n\u2212\n\uf0de\nSolid - vapour line  \n\u2026 (ii)\nTriple point of any substance, all the three phases coexist with each other in phase equation. \n \n\u2234\n By equating (i) and (ii),\n3754\n3063\n27.92\n24.38\nT\nT\n\u2212\n=\n\u2212\n3754\n3063\n(27.92\n24.38)\nT\n\u2212\n\u2212\n=\n195.19 K\nT\n =",
+  "answer_text": "",
+  "explanation_text": ""
+}

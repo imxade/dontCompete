@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "8 to 8",
+  "question_text": "Question 32\nConsider a tank filled with 3 immiscible liquids \nA\n, \nB\n and \nC\n at static equilibrium, as shown in the figure. \nAt 2 cm below the liquid \nA\n \u2013 liquid \nB\n interface, a tube is connected from the side of the tank. Both the \ntank and the tube are open to the atmosphere.\nA\n4 cm\n0\n60\n2 cm\nL\nB\n2 cm\n2 cm\nC\n\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n31\n\nAt the operating temperature and pressure, the specific gravities of liquids \nA\n, \nB\n and \nC\n are 1, 2 and 4, \nrespectively. Neglect any surface tension effects in the calculations. The length of the tube \nL\n that is \nwetted by liquid \nB\n is _______ cm.",
+  "answer_text": "8 to 8",
+  "explanation_text": "Sol.\nh\n1\nh\nA\n4 cm\n0\n60\nL\n0\n30\n2\nh\nB\n2 cm\n2 cm\nC\n\n(\n)\n1,(\n)\n2,(\n)\n4\nA\nB\nC\nSG\nSG\nSG\n=\n=\n=\nPressure Balance\nA\nA\nB\nB\nB\nP gh\nP gh\nP gh\n+\n=\n \nBothside\nA\nA\nB\nB\nB\nP h\nP h\nP h\n+\n=\nP\nP h\nh\nh\nP\nP\n+\n=\nA\nB\nA\nB\nB\n2\n1\n4\n2\n2\nh\n\u00d7\n+\n=\n\n4\nh\n=\nIst  \n0\ncos60\n4\nh\nL\n=\n=\n0\n4\n8 cm\ncos60\nL\n =\n=\nIInd  \n0\nsin30\nh\nL\n=\n1\n4\n2\nL\n=\n\u00d7\n8 cm\nL\n ="
+}

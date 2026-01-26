@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 45 \n \n[Geotechnical Engineering : Seepage Analysis] \n \nConsider the statements \nP\n, \nQ\n, and \nR\n. \n \nP: Compacted fine-grained soils with flocculated structure have isotropic permeability. \n \nQ: Phreatic surface/line is the line along which the pore water pressure is always maximum. \n \nR: The piping phenomenon occurring below the dam foundation is typically known as blowout piping. \n \nWhich of the following option(s) is/are CORRECT? \n \n(A) Both P and R are TRUE \n(B) P is FALSE and Q is TRUE \n \n(C) P is TRUE and R is FALSE \n(D) Both Q and R are FALSE \nAns.\n \n(C, D)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nEffect of compaction on structure is found to be more prominent in fine grained soils in comparison to \ncoarse grained soils with increase in water content at a particular compactive effort, orientation of the soil \nparticles improves.  Hence structure on dry of optimum (\nOMC\nw\n \uf03c\n) is found to be flocculated and wet of \noptimum (\nOMC\nw\n \uf03e\n).\n\uf0b7\n \nCompacted fine grained soils with flocculated structure has isotropic permeability.\n\nPAGE\n40\n\n\uf0b7\n \nPhreatic line is the top most flow line in the body of the earth dam.  It separates the saturated soil \nmass from the unsaturated soil mass.\n\uf0b7\n \nPressure below the phreatic line is hydrostatic and above the phreatic line is atmospheric.\n\uf0b7\n \nHeave or blowout typically initiates when the reservoir reaches a critical elevation for the first time, \nbackward erosion piping can occur many years after initial impoundment due to progressive the \nmaterial transport.\nHence, the correct options are (C, D)."
+}

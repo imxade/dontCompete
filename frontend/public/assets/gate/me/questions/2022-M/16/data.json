@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A & B)",
+  "question_text": "Question 16\nAssuming the material considered in each statement is homogeneous, isotropic, linear\n \nelastic, and the \ndeformations are in the elastic range, which one or more of the\n \nfollowing statement(s) is/are TRUE?\n(A) A body subjected to hydrostatic pressure has no shear stress.\n(B) If a long solid steel rod is subjected to tensile load, then its volume increases.\n(C) Maximum shear stress theory is suitable for failure analysis of brittle materials.\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n18\n\n(D) If a portion of a beam has zero shear force, then the corresponding portion of the elastic curve of the\nbeam is always straight.",
+  "answer_text": "(A & B)",
+  "explanation_text": "Sol. \nFor homogeneous, isotropy & linear elastic.\n(A) A body is subjected to hydrostatic pressure has no shear stress.\n\uf074\n\uf073\n0\n\uf074\uf03d\n (In case of hydrostatic loading)\n(B) If a long solid rod is subjected to tensile load then volume increases.\n\uf073\uf02b\uf073\uf02b\uf073\uf0b4\n\uf02d\uf06d\uf03d\uf065\n         \n(\n0)\nz\ny\n\uf073\uf03d\uf073\uf03d\n \n \n \n\u2026. (i)\n(1 2 )\nx\ny\nz\nv\nE\nWe know that the value of Possions ratio for elastic material is less than 0.5\nFrom equation (i) The value of \n(1 2 )\nx\nE\n\uf073\n\uf0e9\n\uf0f9\n\uf02d\uf06d\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\nis positive when \n(\n0.5)\n\uf06d\uf03c\nso, \nv\n\uf065\n is also positive.\nHence, volume increases\nHence, the correct option is (A,B)."
+}

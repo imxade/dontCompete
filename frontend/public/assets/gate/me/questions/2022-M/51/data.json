@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "2624.375",
+  "question_text": "Question 51\nIn a steam power plant based on Rankine cycle, steam is initially expanded in a\n \nhigh-pressure turbine. The \nsteam is then reheated in a reheater and finally expanded\n \nin a low-pressure turbine. The expansion work \nin the high-pressure turbine is\n \n400 kJ/kg and in the low-pressure turbine is 850 kJ/kg, whereas the pump\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n54\n\nwork\n \nis 15 kJ/kg. If the cycle efficiency is 32%, the heat rejected in the condenser\n \nis ________ kJ/kg \n(round off to 2 decimal places).",
+  "answer_text": "2624.375",
+  "explanation_text": "Sol. \nGiven: -\nWork of turbine \n(\n)\n400kJ/kg\nt\nw\n \uf03d\nPump work \n(\n)\n15kJ/kg\np\nw\n\uf03d\nCycle efficiency \n32%\nrankine\n\uf068\n\uf03d\nWork of turbine in (low pressure) \n850 kJ/kg\n\uf03d\n\uf02d\n\uf068\uf03d\nw\nw\nT\np\n\nQ\nadd\nadd\nQ\n\uf02b\n\uf02d\n\uf03d\n(850\n400) 15\n0.32\n3859.37 kJ/kg\nadd\nQ\n\uf03d\nQ\nrejected\nQ\n\uf068\uf03d\uf02d\n1\nadded\nQ\nrejected\nQ\n\uf03d\uf02d\n0.32\n1\nadded\n0.68 3859.375\nrejected\nQ\n\uf0b4\n\uf03d\n2624.375 kJ/kg\nrej\nQ\n\uf03d\nHence, the correct answer is 2624.375"
+}

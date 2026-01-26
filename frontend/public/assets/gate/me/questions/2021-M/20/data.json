@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 20 \n \nA resistance spot welding of two 1.55 mm thick metal sheets is performed using welding current of \n10000 A for 0.25 second. The contact resistance at the interface of the metal sheets is 0.0001\u03a9. The \nvolume of weld nugget formed after welding is 70 mm\n3\n. Considering the heat required to melt unit \nvolume of metal is 12 J/mm\n3\n, the thermal efficiency of the welding process is_________ % \n \n(round off to one decimal place).\nProduction Engineering (Welding) \nAns. \n33.6 \nSol.\n \nGiven : \n1.55 mm\nt\n =\n, \n10000 A\nI\n =\n0.25 sec\nT\n =\n, \n0.0001\nR\n =\n\u03a9\n3\n70 mm\nV\n =\nSpecific heat required for melting \n3\n12 J/mm\n=\n2\n12 70 100\nth\nI RT\n\u00d7\n\u03b7 =\n\u00d7\n2\n12 70\n100\n33.6%\n10000\n0.0001 0.25\nth\n\u00d7\n\u03b7 =\n\u00d7\n=\n\u00d7\n\u00d7",
+  "answer_text": "",
+  "explanation_text": ""
+}

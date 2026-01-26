@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)\n\uf0e6\n\uf0f6\n\uf02b\n\uf02b\n\uf03d\n\uf0e7\n\uf0f7\n\uf02d\n\uf02b\n\uf0e8\n\uf0f8\n2\n2\n2\nlim\n2sin\nx\nx\nax\np\nx\nx\n\uf0ae",
+  "question_text": "Question 1\nThe limit\n\uf0e6\n\uf0f6\n\uf02b\n\uf02b\uf070\n\uf03d\n\uf0e7\n\uf0f7\n\uf02d\uf070\uf02b\n\uf0e8\n\uf0f8\n2\n2\n2\nlim\n2sin\nx\nx\nax\np\nx\nx\n\uf0ae\uf070\nhas a finite value for a real \n\uf061\n. The value of \n\uf061\n and the corresponding limit \np\n are\n\n(A) \n3 , and \np\n\uf061\uf03d\uf02d\uf070\n\uf03d\uf070\n   \n(B) \n2 , and \n2\np\n\uf061\uf03d\uf02d\uf070\n\uf03d\uf070\n(C) \n, and \np\n\uf061\uf03d\uf070\n\uf03d\uf070\n  \n \n(D) \n2 , and \n3\np\n\uf061\uf03d\uf070\n\uf03d\uf070",
+  "answer_text": "(A)\n\uf0e6\n\uf0f6\n\uf02b\n\uf02b\n\uf03d\n\uf0e7\n\uf0f7\n\uf02d\n\uf02b\n\uf0e8\n\uf0f8\n2\n2\n2\nlim\n2sin\nx\nx\nax\np\nx\nx\n\uf0ae",
+  "explanation_text": "Sol.\n \nGiven : \nThe limit\n\nIt has finite value for real \na\n.\n2\n2\n2\n2sin\na\np\n\uf02b\n\uf02b\n\uf03d\n\uf02d\n\uf02b\n\n\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n8\n\na\np\n\uf02b\n\uf03d\n\uf02b\uf0b4\n2\n3\n\n\n0\n2 0\na\np\n\uf02b\n\uf03d\n2\n3\n\n\n0\nIt becomes \n\uf0a5\n but according to question the limit has finite value.\n0\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nshould be zero to become \n0\nThat means, \n2\n3\na\n\uf02b\nform, so that we can apply L\u2019 hospital rule.\n2\n3\n0\na\n\uf070\uf02b\uf070\uf03d\n2\n3\na\n\uf070\uf03d\uf02d\uf070\n\n3\na\n \uf03d\uf02d\uf070\nNow, putting the value \n3 ,\na\n \uf03d\uf02d\uf070\n\uf02b\uf02d\uf070\n\uf02b\uf070\n\uf03d\n\uf02d\uf070\uf02b\n2\n2\n( 3 )\n2\nlim\n2sin\nx\nx\nx\np\nx\nx\n\uf0ae\uf070\n\n\n\uf02d\uf070\uf02b\uf070\n\uf0e6\n\uf0f6\n\uf03d\n\uf03d\uf0e7\n\uf0f7\n\uf02d\uf070\uf02b\n\uf0e8\n\uf0f8\n2\n2\n3\n2\n0\nlim\n2sin\n0\nx\nx\nx\np\nx\nx\n\uf0ae\uf070\n\nform\nWe can apply L\u2019 hospital rule,\n\uf02d\uf070\n\uf02d\uf070\n\uf03d\n\uf03d\n\uf02b\n\uf02b\n2\n3\n2\n3\nlim1 2cos\n1 2cos\nx\nx\nx\np\nx\nx\n\uf0ae\uf070\n1\n2 ( 1)\np\n\uf02d\uf070\n\uf03d\uf02b\uf0b4\uf02d\n1 2\np\n\uf02d\uf070\n\uf03d\uf02d\np\n \uf03d\uf070\nHence, the correct option is (A)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(C) \nSol. \n10\nS\nout\nh\nF\n\uf03d\uf062\n\uf03d\n10\n5\n4\n2\n\uf03d\uf062\uf0de\uf062\uf03d\nout\nF\nh\n\uf061\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n16\n\n1\nout\ndF\nR\ndh\n\uf03d\n1\n(\n)\nd\nh\nR\ndh\n\uf062\n\uf03d\n2\nSS\nR\nh\n\uf062\n\uf03d\n1\n\n\uf0b4\n2\nSS\nh\nR\n\uf0b4\n\uf03d\n\uf062\n\nTime constant , \nP\nA R\n\uf074\uf03d\n\uf0b4\n2\nS\nP\nh\nA\n\uf074\uf03d\n\uf0b4\n\uf062\n\n2 16\n20\n5\n2\nP\n\uf074\uf03d\n\uf0b4\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n64\nP\n\uf074\uf03d",
+  "question_text": "Question 25 \n \nA liquid surge tank has \nin\nF\n  and \nout\nF\n as the inlet and outlet flow rates respectively, as shown in the figure\nbelow. \nout\nF\n is proportional to the square root of the liquid level \u210e. The cross-sectional area of the tank is\n2\n20 cm .\n Density of the liquid is constant everywhere in the system. At steady state, \n3\n1\n10 cm s\nin\nout\nF\nF\n\uf02d\n\uf03d\n\uf03d\nand \u210e=16 cm. The variation of \u210e with \n\ud835\udc39\ud835\udc56\ud835\udc5b\n is approximated as a first order transfer function. Which one of \nthe following is the CORRECT value of the time constant (in seconds) of this system?\nF\nin\nh\nF\nout\n[Instrumentation and Process Control, 1 Mark]\n \n \n(A) 20 \n \n(B) 32 \n \n(C) 64 \n \n(D) 128",
+  "answer_text": "(C) \nSol. \n10\nS\nout\nh\nF\n\uf03d\uf062\n\uf03d\n10\n5\n4\n2\n\uf03d\uf062\uf0de\uf062\uf03d\nout\nF\nh\n\uf061\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n16\n\n1\nout\ndF\nR\ndh\n\uf03d\n1\n(\n)\nd\nh\nR\ndh\n\uf062\n\uf03d\n2\nSS\nR\nh\n\uf062\n\uf03d\n1\n\n\uf0b4\n2\nSS\nh\nR\n\uf0b4\n\uf03d\n\uf062\n\nTime constant , \nP\nA R\n\uf074\uf03d\n\uf0b4\n2\nS\nP\nh\nA\n\uf074\uf03d\n\uf0b4\n\uf062\n\n2 16\n20\n5\n2\nP\n\uf074\uf03d\n\uf0b4\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n64\nP\n\uf074\uf03d",
+  "explanation_text": ""
+}

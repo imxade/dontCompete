@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 41\nThe enthalpy \n1\n(\n,in J.mol )\nH\n\uf02d\nof a binary liquid system at constant temperature and pressure is given as  \n \n \n1\n2\n1 2\n1\n2\n40\n60\n(4\n2\n),\nH\nx\nx\nx x\nx\nx\n\uf03d\n\uf02b\n\uf02b\n\uf02b\nWhere \n1\nx\n  and \n2\nx\n  represent the mole fractions of species 1 and 2 in the liquid, respectively. Which one of\n\uf0a5\nthe following is the CORRECT value of the partial molar enthalpy of species 1 at infinite dilution, \n1\nH\n1\n(in J.mol )?\n\uf02d\n \n \n  \n  \n[Thermodynamics, 2 Marks]\n(A) 100 \n \n(B) 42 \n \n(C) 64 \n \n(D) 40 \nAns. \n(B)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nAt infinite Dilution \n\uf0ae\n \n1\n2\n0,\n1\nx\nx\n\uf03d\n\uf03d\nBy partial property of Diffusion \u2013\ndH\nH\nH\nx dx\n\uf03d\n\uf02d\n1\n2\n2\n1\n2\n1\nx\nx\n\uf02b\n\uf03d\n  \n\uf0de\n  \n1\n2\n1\nx\nx\n\uf03d\uf02d\n  \n\uf0de\n  \n1\n2\ndx\ndx\n\uf03d\uf02d\n1\n(1\n)\ndH\nH\nH\nx\ndx\n\uf0e6\n\uf0f6\n\uf02d\n\uf03d\n\uf02d\n\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1\n1\n\ndH\nH\nH\nx dx\n\uf03d\n\uf02b\n  \n \n \n \n \n \n\u2026 (i)\n1\n2\n1\nGiven \n\uf0ae\n \n1\n2\n1\n2\n1\n2\n40\n60\n(4\n2\n)\nH\nx\nx\nx x\nx\nx\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf028\n\uf029\n1\n1\n1\n1\n1\n2\n40\n60(1\n)\n(1\n) 4\n2(1\n)\nH\nx\nx\nx\nx\nx\nx\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n3\n1\n1\n1\n20\n60\n2\n2\nH\nx\nx\nx\n\uf03d\uf02d\n\uf02b\n\uf02b\n\uf02d\n  \n \n \n \n\u2026 (ii)\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n27\n\n20\n0\n2\n6\ndH\nx\ndx\n \n\uf03d\uf02d\n\uf02b\n\uf02b\n\uf02d\n2\n1\n1\n\n18\n6\ndH\nx\ndx\n \n\uf03d\uf02d\n\uf02d\n2\n1\n1\n\n(6\n18)\ndH\nx\ndx\n \n\uf03d\uf02d\n\uf02b\n \n \n \n \n \n \n\u2026 (iii)\n2\n1\n1\n\nBy equation (i) and equation (iii) \u2013\n\uf028\n\uf029\n2\n1\n2\n1\n(6\n18)\nH\nH\nx\nx\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf028\n\uf029\n3\n2\n1\n1\n1\n1\n1\n2\n2\n20\n60\n2\n2\n6\n18\nH\nx\nx\nx\nx x\nx\n\uf03d\uf02d\n\uf02b\n\uf02b\n\uf02d\n\uf02d\n\uf02d\nat infinite dilution \n\uf0ae\n \n1\n2\n0,\n1\nx\nx\n\uf03d\n\uf03d\n1\n60 18\nH\n \n\uf0a5\n\uf03d\n\uf02d\n1\n42\nH\n \n\uf0a5\n\uf03d"
+}

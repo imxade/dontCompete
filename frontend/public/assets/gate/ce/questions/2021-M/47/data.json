@@ -1,0 +1,11 @@
+{
+  "id": "47",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "1.22\nEffective stress in past (\n)\nEffective stress in present (\n)\nc\n\u03c3\n=\n\u03c3",
+  "question_text": "Question 47\nThe soil profile at a construction site is shown in the figure (not to scale). Ground water table (GWT) is \nat 5 m below the ground level at present. An old well data shows that the ground water table was as low \nas 10 m below the ground level in the past. Take unit weight of water, \n3\n9.81kN/m\nw\n\u03b3 =\nGround level\nSand\nPresent GWT\n5 m\n3\n17.5kN/m\n\u03b3 =\n3\n18.5kN/m\nsat\n\u03b3\n=\n15 m\nClay\n8 m\n3\n17 kN/m\nsat\n\u03b3\n=\nThe overconsolidation ratio (OCR) (round off to two decimal places) at the mid-point of the clay layer is \n_______.\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n31\n",
+  "answer_text": "1.22\nEffective stress in past (\n)\nEffective stress in present (\n)\nc\n\u03c3\n=\n\u03c3",
+  "explanation_text": "Sol. \nOver consolidation ratio\n0\n17.5 10\n(18.5\n9.81) 5\n(17\n9.81) 4\nc\n\u03c3 =\n\u00d7\n+\n\u2212\n\u00d7 +\n\u2212\n\u00d7\n2\n247.21 kN/m\nc\n\u03c3 =\n0\n17.5 5\n(18.5\n9.81) 10\n(17\n9.81) 4\n\u03c3 =\n\u00d7 +\n\u2212\n\u00d7\n+\n\u2212\n\u00d7\n2\n0\n203.16 kN/m\n\u03c3 =\n247.21\n1.22\n203.16\n=\n=\nc\n\u03c3\n= \u03c3\nOCR\n0"
+}

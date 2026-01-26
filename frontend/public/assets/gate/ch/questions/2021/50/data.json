@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 50\nIn reverse osmosis, the hydraulic pressure and osmotic pressure at the feed side of the membrane are \n1\np\nand \n1\n,\n\u03c0\n respectively. The corresponding values are \n2\np\n  and \n2\n\u03c0\n  at the permeate side. The membrane,\nfeed, and permeate are at the same temperature. For equilibrium to prevail, the general criterion that \nshould be satisfied is\n(A) \n1\n1\n2\n2\np\np\n+ \u03c0 =\n+ \u03c0\n   \n \n \n(B) \n1\n1\n2\n2\np\np\n\u2212\u03c0 =\n\u2212\u03c0\n(C) \n1\n2\np\np\n=\n  \n \n \n(D) \n1\n2\n\u03c0 = \u03c0",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nReverse Osmosis (RO) occurs when the difference in hydraulic pressure equals the osmotic pressure \ndifference across the membrane\ni.e., \n1\n2\n1\n2\np\np\n\u03c0 \u2212\u03c0 =\n\u2212\nor   \n1\n1\n2\n2\np\np\n\u2212\u03c0 =\n\u2212\u03c0"
+}

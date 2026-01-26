@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "D \nSol.\n \nWe know that, \n \n \n \nAX\nX\n= \u03bb\n  \n \n \n\u2026..(i) \n \nAccording to question, \n'\np\nAp\n=\n \n \n\u2026..(ii)\nP\n\u03b8\nBy equating (i) and (ii) we can see that direction will be same. \n \nHence, the correct option is (B). \nQuestion 25\nConsider the surface roughness profile as shown in the figure.\nRoughness Profile\nRoughness height ( m)\n\u03bc\n1\ny\n3\ny\n1\n0\ny\n4\ny\n2\n1\n\u2212\n4\nL\n4\nL\n4\nL\n4\nL\nThe centre line average roughness (\nR\na\n, in \u03bcm) of the measured length (L) is\nMechanical Measurement (Roughness) \n \n(A)  2 \n \n(B)  0 \n(C)  4 \n(D)  1\n \nD",
+  "question_text": "Question 24\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n23\n\nConsider a vector \np\n  in 2-dimensional space. Let its direction (counter-clockwise angle with the\npositive \nx\n -axis) be \n\u03b8\n . Let \np\n be an Eigen vector of  a \n2 2\n\u00d7\n  matrix \nA\n  with corresponding Eigen value \n\u03bb\n, \n0\n\u03bb >\n . If we denote the magnitude of \na\n vector \n\u03bd\n   by \n\u03bd\n , identify \nVALID \nstatement regarding \n'\np\n, where \n'\np\nAp\n=\nEngineering Mathematics (Eigen Values)\n(A)  Direction of \n'\n,\n'\np\np\np\n= \u03bb\u03b8\n=\n \n(B)  Direction of \n'\n,\n'\n/\np\np\np\n= \u03b8\n=\n\u03bb\n(C)  Direction of \n'\n,\n'\np\np\np\n= \u03bb\u03b8\n= \u03bb\n \n(D)  Direction of \n'\n,\n'\np\np\np\n= \u03b8\n= \u03bb",
+  "answer_text": "D \nSol.\n \nWe know that, \n \n \n \nAX\nX\n= \u03bb\n  \n \n \n\u2026..(i) \n \nAccording to question, \n'\np\nAp\n=\n \n \n\u2026..(ii)\nP\n\u03b8\nBy equating (i) and (ii) we can see that direction will be same. \n \nHence, the correct option is (B). \nQuestion 25\nConsider the surface roughness profile as shown in the figure.\nRoughness Profile\nRoughness height ( m)\n\u03bc\n1\ny\n3\ny\n1\n0\ny\n4\ny\n2\n1\n\u2212\n4\nL\n4\nL\n4\nL\n4\nL\nThe centre line average roughness (\nR\na\n, in \u03bcm) of the measured length (L) is\nMechanical Measurement (Roughness) \n \n(A)  2 \n \n(B)  0 \n(C)  4 \n(D)  1\n \nD",
+  "explanation_text": "Sol. \n \n \nTotal Area\nA\nR\nL\n=\n\uf0e6\n\uf0f6\n\u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n=\n=\n\u03bc\nL\n4\n1\n4\n1 m\nA\n\nR\nL"
+}

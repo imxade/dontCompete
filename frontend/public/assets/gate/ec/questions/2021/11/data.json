@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "56.548",
+  "question_text": "Question 11 \n \n \n \n \nElectromagnetic Theory (2M)\nFor a vector field \n2\n2\n2\n\u02c6\n\u02c6\ncos\nsin\nz\n\u03c6\n= \u03c1\n\u03c6\n+\n\u03c6\n\u03c1\nD\na\na\n\uf075\uf072\n in a cylindrical coordinate system \n( , , )\nz\n\u03c1 \u03c6\n with unit vector\n\uf024\n\uf024\n,\na a\n\u03c1\n\u03c6\n and \n\uf024\nz\na\n , the net flux of \nD\n\uf075\uf072\n leaving the closed surface of the cylinder \n(\n3,0\n2)\nz\n\u03c1 =\n\u2264\n\u2264\n(Round off to\n2 decimal places) is ______.",
+  "answer_text": "56.548",
+  "explanation_text": "Sol.\n \nGiven : \n2\n2\n2\n\u02c6\n\u02c6\ncos\nsin\nz\n\u03c6\n= \u03c1\n\u03c6\n+\n\u03c6\n\u03c1\nD\na\na\n\uf075\uf072\nCylinder \n(\n3,0\n2)\nz\n\u03c1 =\n\u2264\n\u2264\n is shown below,\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n16\n\nz\n2\nz\n =\n\u03c1\na\n\uf024\ny\n3\n\u03c1 =\nx\nFrom this given cylinder,\n3m,\n0to2m,\n0\n2\nz\nto\n\u03c1 =\n=\n\u03c6 =\n\u03c0\nShaded portion shows closed surface of cylinder and unit vector that is perpendicular this surface is \n\uf024\na\n\u03c1\nthus, net flux (\n\u03c8\n ) leaving the closed surface of cylinder is\n\u03c6\n\u03c1\n\u03c6=\n=\n\u03c8 =\n=\n\u03c1\n\u03c6\n+\n\u03c6\n\u22c5\u03c1 \u03c6\n\uf0f2\uf0f2\n\uf0f2\uf0f2\n\u03c1\nD s\na\na\na\n\uf075\uf072\uf075\uf075\uf072\n2\n2\n2\n2\n2\n\u03c0\n0\n0\n\u02c6\n\u02c6\n\u02c6\n.\n( cos\nsin\n) (\n)\nz\nd\nz\nd dz\n\n2\n2\n2\n2\n\u03c0\n\u03c6=\n=\n\u03c1=\n\u03c8 =\n\u03c1\n\u03c6 \u03c6\n\uf0f2\uf0f2\n  \n \n (\n\uf024\uf024\n\uf024\n\uf0b5\n.\n1 and\n.\n0)\na a\na\na\n\u03c1\n\u03c1\n\u03c1\n\u03c6\n=\n=\n\uf051\n0\n0\n3\ncos\nz\nd dz\n\n2\n2\n3\n(2\n0)\n2\n\u03c0\n\u03c8 =\n\u00d7\n\u2212\n\u00d7\n18\nC\n=\n\u03c0\n\n18\n56.548 C\n\u03c8 =\n\u03c0 =\nHence, total flux \n\u03c8\n  living closed surface of the given cylinder as 56.548 C."
+}

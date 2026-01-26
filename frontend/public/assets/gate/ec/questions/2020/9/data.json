@@ -1,0 +1,11 @@
+{
+  "id": "9",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 9\nA circle with center \nO\n is shown in the figure. A rectangle \nPQRS\n of maximum possible area is inscribed in \nthe circle. If the radius of the circle is \na\n, then the area of shaded portion is _________.\nP\nQ\nO\na\nR\nS\n\n(A) \n2\n2\na\na\n\uf070\n\uf02d\n \n(B) \n2\n2\n3\na\na\n\uf070\n\uf02d\n \n(C) \n2\n2\n2\na\na\n\uf070\n\uf02d\n \n(D) \n2\n2\n2\na\na\n\uf070\n\uf02d",
+  "answer_text": "(D)",
+  "explanation_text": "Sol.\n \nLet, \nl\n  and \nb\n  be the length and breadth of rectangle respectively.\nP\nQ\nO\na\nR\nS\nUsing Pythagoras theorem, we get\n2\n2\n2\n4\na\nl\nb\n\uf03d\n\uf02b\n2\n2\n4\nb\na\nl\n\uf03d\n\uf02d\nArea of rectangle is, \nA\nl\nb\n\uf03d\uf0b4\n2\n2\n4\nA\nl\nb\nl\na\nl\n\uf03d\uf0b4\n\uf03d\uf0b4\n\uf02d\nFor maxima or minima, \n0\ndA\ndl\n \n\uf03d\n2\n2\n1\n( 2 )\n4\n0\n2 4\nl\nl\na\nl\na\nl\n\uf0b4\n\uf0b4\uf02d\n\uf02b\n\uf02d\n\uf03d\n\uf02d\n2\n2\n2\n2\n2\nl\na\nl\na\nl\n\uf02d\n\uf03d\n\uf02d\n\n2\n2\n4\n4\n2\n2\n2\n4\na\nl\nl\n\uf02d\n\uf03d\n2\nl\na\n\uf03d\n2\n2\n4\n2\n2\nb\na\na\na\n\uf03d\n\uf02d\n\uf03d\n\uf05c\n Maximum area of rectangle \nPQRS\n is,\n2\n2\n2\n2\na\na\na\n\uf0b4\n\uf03d\nArea of shaded portion = (Area of circle) \u2013 (Area of rectangle)\n2\n2\n2\na\na\n\uf03d\uf070\n\uf02d\nHence, the correct option is (D).\n\nGATE 2020 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n6\n"
+}

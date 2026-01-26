@@ -1,0 +1,11 @@
+{
+  "id": "35",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "1852.00 to 1858.00",
+  "question_text": "Question 35 \n[Geotechnical Engineering : Effective Stress & Permeability] \n \nA 30 cm diameter well fully penetrates an unconfined aquifer of saturated thickness 20 m with hydraulic \nconductivity of 10 m/day.  Under the steady pumping rate for a long time, the drawdowns in two \nobservation wells located at 10 m and 100 m from the pumping well are 5 m and 1 m, respectively.   the\ncorresponding pumping rate (in \n3\nm / day\n) from the well is _________(rounded off to 2 decimal places).",
+  "answer_text": "1852.00 to 1858.00",
+  "explanation_text": "Sol. \nGiven,\nd\n30cm\n\uf03d\nH\n20m\n\uf03d\nK\n10m/day\n\uf03d\n1\nr\n10m\n\uf03d\n2\nr\n100m\n\uf03d\n1\nh\n20 1 19m\n\uf03d\n\uf02d\uf03d\n\nPAGE\n25\n\n2\nh\n20 5\n15m\n\uf03d\n\uf02d\uf03d\nPumping rate (discharge) of the unconfined aquifer is,\n\uf028\n\uf029\n2\n2\n1\n2\nk h\nh\n\uf070\n\uf02d\n\uf03d\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nQ\n\nr\nln r\n2\n1\n\uf028\n\uf029\n2\n2\n10 19\n15\nQ\n100\nln\n10\n\uf070\uf0b4\n\uf02d\n\uf03d\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\uf0b4\n\uf03d\n31.415 136\nQ\n2.30\n3\n1857.58m / day\n\uf03d\nQ.36 to Q.65 Carry TWO Marks Each"
+}

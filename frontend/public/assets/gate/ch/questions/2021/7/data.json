@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "2",
+  "question_text": "Question 7\nTo solve an algebraic equation \n( )\n0\nf x\n =\n, an iterative scheme of the type \n1\n(\n)\nn\nn\nx\ng x\n+\n \n=\n is proposed,\nwhere \n( )\n( )\n'( )\nf x\ng x\nx\nf\nx\n=\n\u2212\n. At the solution \n,\n'( )\n0\nx\ns g s\n=\n=\n and \n\"(s)\n0\ng\n\u2260\n.\nThe order of convergence for this iterative scheme near the solution is ______.",
+  "answer_text": "2",
+  "explanation_text": "Sol. \nGiven :\n An \nalgebraic\n equation \n( )\n0\nf x\n =\n1\n(\n)\nn\nn\nx\ng x\n+\n \n=\n( )\n( )\n'( )\nf x\ng x\nx\nf\nx\n=\n\u2212\nThe given iterative formula for \nalgebraic\n equation is known as Newton Raphson method for solution of \nalgebraic\n equation.\nThe order of convergence for this iterative scheme is 2.\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n11\n\nHence, the correct answer is 2.\n\uf026\n Key Point\n(i) Newton Raphson method does not converge when \n'( )\n0\nf\nx\n =\n.\n(ii) Order of convergence for Bisection method is 1.\n(iii) Order of convergence for Regula-Falsi method is 1.\n(iv) Order of convergence for Secant method is 1.62."
+}

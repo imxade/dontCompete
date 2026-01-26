@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34 \n \n \n \n \n \n \n[Geotechnical Engineering : Pile Foundation]\n  \n \nA reinforced concrete pile of 10 m length and 0.7 m diameter is embedded in a saturated pure clay with \nunit cohesion of 50 kPa. If the adhesion factor is 0.5, the net ultimate uplift pullout capacity (in kN) of \nthe pile is _________ (rounded off to the nearest integer). \nAns.\n \n545 to 555",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\n10 m\nL\n \uf03d\n0.7 m\nd\n \uf03d\n50 kPa\nC\n \uf03d\n0.5\n\uf061\uf03d\nNet ultimate uplift pullout capacity\nnet\nQ\nC dL\n\uf03d\uf061\uf070\n0.5 50\n0.7 10\n\uf03d\n\uf0b4\n\uf0b4\uf070\uf0b4\n\uf0b4\n549.78 kN/m\n\uf03d"
+}

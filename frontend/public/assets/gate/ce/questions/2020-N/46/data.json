@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "civil-engineering",
+  "packet": "2020-N",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "30",
+  "question_text": "Question\n 46\nThe plane truss has hinge supports at P and W and is subjected to the horizontal forces as shown in the \nfigure (\nnot drawn to the scale\n)\n\nGATE 2020 \n [Afternoon Session]\n \nCivil Engineering\nPAGE\n15\n\n2m\n2m\nZ\nS\nV\n10kN\n4m\nR\nU\nY\n10kN\n4m\nQ\nT\nX\n10kN\n4m\nW\nP\nRepresenting the tensile force with \u2018+\u2019 sign and the compressive force with \u2018\u2013\u2019 sign, the force in member \nXW (in kN\n, round off to the nearest integer\n) is _______",
+  "answer_text": "30",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 23\n                       \n \n \nA vertical shaft Francis turbine rotates at 300 rpm. The available head at the inlet to the turbine is 200 m. \nThe tip speed of the rotor is 40 m/s. Water leaves the runner of the turbine without whirl. Velocity at the \nexit of the draft tube is 3.5 m/s. The head losses in different components of the turbine are : (i) stator and \nguide vanes: 5.0 m,  (ii) Rotor: 10 m, and (iii) Draft tube: 2 m. Flow rate through the turbine is 20 m\n3\n/s. \nTake \n2\n9.8 m/s\ng\n =\n. The hydraulic efficiency of the turbine is ________ % (round off to one decimal\nplace).\nHydraulic Machinery (Turbine) \n \nAns. \n93.43",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\n \n300rpm\nN\n =\n, \n200m\nH\n =\n,\n1\n40 m/s\nu\n =\n, \n2\n0\nw\nV\n=\n and \n3.5m/sec\nV\n =\nLosses : \n \n \nStator and Guide vanes \n0.5m\n=\nRotor = 10 m \n \n \nDraft tube = 2 m \n \nApply energy balance :\ng\ng\n\uf0e6\n\uf0f6\n=\n+\n+\n+\n+\n\uf0e7\n\uf0f7\n\u00d7\n\uf0e8\n\uf0f8\nw\nV u\n1\n2\n1\n3.5\n200\n(10\n2\n0.5)\n2\n\n1\n1\n186.875m\nw\nV u\n\ng\n=\n/182.375 m\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n25\n\nny\nV u\n1\n1\n(\n)/ g\n\u03c9\n\u03b7\n=\n\nH\n186.075 100\n93.43%\n200\nny\n\u03b7\n=\n\u00d7\n=\n/91.18"
+}

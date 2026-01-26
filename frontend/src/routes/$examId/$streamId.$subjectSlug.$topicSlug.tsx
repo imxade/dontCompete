@@ -245,7 +245,7 @@ function TopicView() {
                             <h3 className="card-title text-xl font-bold">Question</h3>
                             {currentQuestionPath && (
                                 <figure className="bg-base-100 p-4 rounded-lg">
-                                    <img src={`/assets/${examId}/${streamId}/${currentQuestionPath}q.png`} alt="Question" />
+                                    <img src={`/assets/${examId}/${streamId}/${currentQuestionPath}q.webp`} alt="Question" />
                                 </figure>
                             )}
 
@@ -276,7 +276,7 @@ function TopicView() {
                                         <div>
                                             <h4 className="text-lg font-bold mb-2">Explanation</h4>
                                             <figure className="bg-base-100 p-4 rounded-lg">
-                                                <img src={`/assets/${examId}/${streamId}/${currentQuestionPath}exp.png`} alt="Explanation" />
+                                                <img src={`/assets/${examId}/${streamId}/${currentQuestionPath}exp.webp`} alt="Explanation" />
                                             </figure>
                                         </div>
                                     )}

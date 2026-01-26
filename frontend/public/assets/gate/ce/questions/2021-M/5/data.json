@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "15\nxyz dxdy dz\n\uf0f2\uf0f2\uf0f2",
+  "question_text": "Question 5\nv\nxyz dV forV\n =\n\u00d7\n\u00d7\n\uf0f2\uf0f2\uf0f2\n will be (in integer) _______.\nThe volume determined from \n[\n] [\n] [\n]\n8\n2,3\n1,2\n0,1",
+  "answer_text": "15\nxyz dxdy dz\n\uf0f2\uf0f2\uf0f2",
+  "explanation_text": "Sol.\n \nVolume\n \n=\n8\nv\n0\n1\n2\n8\nV\nz y xdxdy dz\n\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0f2\uf0f2\uf0f2\n1\n2\n3\n\n0\n1\n2\n8\nV\nzdz ydy xdx\n\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0f2\n\uf0f2\n\uf0f2\n1\n2\n3\n\n1\n2\n3\n2\n2\n2\n0\n1\n2\n8\n1\n3 5 15\n2\n2\n2\nz\ny\nx\nV\n\uf0e6\n\uf0f6\uf0e6\n\uf0f6\uf0e6\n\uf0f6\n=\n=\n\u00d7 \u00d7 =\n\uf0e7\n\uf0f7\uf0e7\n\uf0f7\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\uf0e8\n\uf0f8\uf0e8\n\uf0f8\n"
+}

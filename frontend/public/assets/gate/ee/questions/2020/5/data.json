@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "electrical-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "14\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n11",
+  "question_text": "Question 5\nThe Thevenin equivalent voltage, \nTH\nV\n, in V (rounded off to 2 decimal places) of the shown below network,\nis _______.\n2\n\uf057\n3\n\uf057\n4V\n3\n\uf057\n5A\nTH\nV",
+  "answer_text": "14\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n11",
+  "explanation_text": "Sol. \nGiven circuit is shown in figure,\nTH\nV\nV\n\uf03d\na\n3\n\uf057\n2\n\uf057\n4V\n3\n\uf057\n5A\nTH\nV\nb\n\nTo find open circuit voltage across terminals \na\n and \nb\n, which is named as \nTH\nV\n, applying KCL at node \nV\n,\nTH\nV\n\uf02d\n\uf02d\n\uf03d\n4\n5\n0\n2\nTH\nV\n\uf02d\n\uf03d\n4\n5\n2\n4\n10\nTH\nV\n\uf02d\n\uf03d\n14 V\nTH\nV\n\uf03d"
+}

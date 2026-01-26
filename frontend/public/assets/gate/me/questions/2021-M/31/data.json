@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 31\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n27\n\nA rigid insulated tank is initially evacuated.  It is connected through a valve to supply line that carries \nair at a constant pressure and temperature of 250 kPa and 400 K respectively. Now the valve is opened \nand air is allowed to flow into the tank until the pressure inside the tank reaches to 250 kPa at which \npoint the valve is closed. Assume that the air behaves as a perfect gas with constant properties \n(c\n1.005 kJ/kgK,\n0.718 kJ/kgK, \n0.287 kJ/kgK)\np\nv\nc\nR\n=\n=\n=\n. Final temperature of the air inside the\ntank is ___________ K (round off to one decimal place).\nEngineering Thermodynamics (Unsteady Flow Problem) \nAns. \n560 \nSol.\n \nGiven : \nInitially evacuated tank rigid and insulated.\nSupply line\n250 kPa,  400 K\nValve\ninside tank\n(\n)\n250 kPa\nF\nP\n=\n1.005 kJ/kg-K\nP\nC\n =\n0.718 kJ/kg-K\nV\nC\n =\nC\nC\n\u03b3 =\n=\n\uf03b\n1.39972\n1.4\nP\nV\nUsing unsteady flow energy equation :\nCV\ni\ni\ne\ne\ndU\nm h\nm h\ndQ\ndW\ndt\n=\n\u2212\n+\n\u2212\n\uf026\n\uf026\n\uf026\n\uf026\n\uf07b\n\uf07b\n\uf07b\nrigid\ninsulated\nno exit\nCV\ni\ni\ne\ne\ndU\nm h\nm h\ndQ\ndW\ndt\n=\n\u2212\n+\n\u2212\n\uf026\n\uf026\n\uf026\n\uf026\n\uf07b\n\uf07b\n\uf07b\nrigid(0)\ninsulated(0)\nno exit(0)\nCV\ni\ndU\ndm h\ndt\ndt\n\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\ninitially evacuated\n(\n)\ni\nU\nU\nm\nm\nh\n\u2212\n=\n\u2212\n\uf031\uf034\uf032\uf034\uf033\n2\n1\n2\n1\ninitially evacuated \n(\n)\nm u\n\uf07b\n1 1\n2\n2\n2\n2\ni\nV\nP\ni\nm u\nm h\nC T\nC T\n=\n\uf0de\n=\n2\n2\n1.4 (400)\ni\nT\nT\nT\n= \u03b3\n\uf0de\n=\n2\n560 K\nT\n =",
+  "answer_text": "",
+  "explanation_text": ""
+}

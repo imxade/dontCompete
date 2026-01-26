@@ -1,0 +1,11 @@
+{
+  "id": "35",
+  "stream": "mechanical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "NAT",
+  "key": "9.999 to 10.001",
+  "question_text": "Question 35 \n \n  \n \n \n[Heat Transfer]\nConsider a counter-flow heat exchanger with the inlet temperature of two fluids (1 and 2) being \n1,\nin\nT\n\uf03d\n300 K and \n2,\nin\nT\n\uf03d\n 350 K. The heat capacity rates of the two fluids are \n1\nC\n \uf03d\n1000 W/K and \n2\nC\n \uf03d\n400 W/K\nand the effectiveness of the heat exchanger is 0.5. The actual heat transfer rate is ________ kW. \n[NAT]",
+  "answer_text": "9.999 to 10.001",
+  "explanation_text": "Sol.\n\nGATE 2023 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n23\n\nT\nn\n1\n = 350 K\nT\nc\n0\nT\nn\n0\nT\nc\n1\n = 300 K\n\n\n(in)\n1\n300\nT\n\uf03d\nK\nInlet temperature of first fluid\n(in)\n2\n350\nT\n\uf03d\nK\nInlet temperature of second fluid\nHeat capacity of first fluid \n1\n1000\nC\n \uf03d\n W/k\nHeat capacity of second fluid \n2\n400\nC\n \uf03d\n W/k\nEffectiveness of heat exchanger (counter flow) \n0.5\n\uf065\uf03d\nAs we know,\nEffectiveness \nActual heat transfer\nmaximum possible heat transfer\n\uf065\uf03d\nActual heat transfer\n0.5\nC\nT\nT\n\uf03d\n\n\n\uf028\uf029\n\uf028\n\uf029\n(in)\nin\nmin\n2\n1\n\uf02d\nActual heat transfer \n0.5 400 (350 300)\n\uf03d\n\uf0b4\n\uf0b4\n\uf02d\n = 10 kW\nHence, the correct answer is 10 kW.\n..\nQ.36 to Q.65 Carry Two Marks Each\n.."
+}

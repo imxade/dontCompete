@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "instrumentation-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 15\nA set of linear equations is given in the form\n,\nAx\nb\n\uf03d\n where \nA\n is a \n2 4\n\uf0b4\n matrix with real number entries\nand \n0.\nb\n \uf0b9\n Will it be possible to solve for \nx\n and obtain a unique solution by multiplying both left and \nright sides of the equation by \nT\nA\n (the super script \nT\n denotes the transpose) and inverting the matrix\n?\nT\nA A\n  Answer is _______\n(A) Yes, can obtain a unique solution provided the matrix \nA\n is well conditioned\n(B) Yes, can obtain a unique solution provided the matrix \nT\nA A\n is well conditioned\n(C) No, it is not possible to get a unique solution for any \n2 4\n\uf0b4\n matrix A.\n(D) Yes, it is always possible to get a unique solution for any \n2 4\n\uf0b4\n matrix A.",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \nRank of matrix must be\nmin( ,\n)\nR C\n\uf0a3\n \n \nWhere \nR\n is row and \nC\n is Column  \n \nSo, rank of matrix \n2\nA\n\uf0a3\n \n \nLet, rank of matrix \n,\nA\nn\n\uf03d\n2\nn\n \uf0a3\nSince rank of \nA\n \uf03d\n rank of \nT\nA\n \uf03d\n rank of\nT\nA A\n \n \nRank of matrix \nT\nA\nn\n\uf03d\n \n \nRank of  \nT\nA A\nn\n\uf03d\n \n \nBut dimension of\nT\nA A\nis \n4 4\n\uf0b4\nSo, \n0\nT\nA A\n \uf03d\n as (Rank < Dimension)\nHence, system cannot have unique solution. \n \nHence, the correct option is (C)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "electrical-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "1.02",
+  "question_text": "Question 41\nA cylindrical rotor synchronous generator has steady state synchronous reactance of 0.7 pu and sub \ntransient reactance of 0.2 pu. It is operating at \n(1\n0) pu\nj\n\uf02b\n terminal voltage with an internal emf of \n(1\n0.7) pu\nj\n\uf02b\n. Following a \n3-\n\uf066\n solid short circuit fault at the terminal of the generator, the magnitude of\nthe subtransient internal emf (rounded off to 2 decimal places) is_______pu.",
+  "answer_text": "1.02",
+  "explanation_text": "Sol.\n \nGiven : \nCylindrical rotor synchronous generator\n(i) \n1\n0.7 pu\ng\nE\nj\n\uf03d\uf02b\n(ii) \n0.7pu\nd\nX\nj\n\uf03d\n(iii)\n\"\n0.2 pu\nd\nX\nj\n\uf03d\nCase-I :\n Prefault condition\n0.7pu\nj\n+\n1\n0\nt\nV\nj\n\u0004 \u0007\n1\n0.7\nj\n\u0007\n\u2013\n\n\uf02d\n\uf03d\n0\n1\n0.7\n1\n1 0 pu\n0.7\nj\nj\n\uf02b\n\uf02d\n\uf03d\n\uf03d\uf0d0\nE\nV\nI\nX\ng\nt\ng\nd\n\n1pu\ng\nI\n\uf03d\nCase-II :\n Post fault\n0.2pu\nj\n\"\nf\nI\n1\n0\nj\n\u0007\n\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n44\n\n0\n\"\n0\n1 0\n0.2 90\nf\nI\n\uf0d0\n\uf03d\n\uf0d0\n\n0\n5\n90\nf\nI\n \uf03d\uf0d0\uf02d\n\"\n(\n)\ng\ntotal\nf\nf\nI\nI\nI\n\uf03d\n\uf02b\n0\n0\n1 0\n5\n90\n\uf03d\uf0d0\n\uf02b\uf0d0\uf02d\n(\n)\n1\n5\ng\ntotal\nI\nj\n\uf03d\uf02d\nSub transient emf \n\"\n(\n)\ng\ntotal\nd\nI\nX\n\uf03d\n\uf0b4\n\"\n(1\n5)\n0.2\nf\nE\nj\nj\n\uf03d\n\uf02d\n\uf0b4\n\"\n1\n0.2\nf\nE\nj\n\uf03d\uf02b\n\"\n1.0198pu\nf\nE\n\uf03d"
+}

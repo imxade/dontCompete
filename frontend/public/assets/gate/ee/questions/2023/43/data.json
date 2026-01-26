@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "electrical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(B), (D)",
+  "question_text": "Question 43 \nMTA (Marks To All) \nElectromagnetic field ( magnetostatic )\nIn the figure, the electric field \nE\n and magnetic field \nB\n point to \nx\n and \nz\n directions, respectively, and have \nconstant magnitude. A positive charge \u2018\nq\n\u2019 is released from rest at the origin. Which of the following \nstatement(s) is/are true.\nz\n\uf072\nE\nq\ny\n\uf072\nx\nB\n(A) The charge will move in the direction of \nz\n with constant velocity.\n(B) The charge will always move on the \ny\n-\nz\n plane only.\n(C) The trajectory of the charge will be a circle.\n(D) The charge will progress in the direction of \ny\n.",
+  "answer_text": "(B), (D)",
+  "explanation_text": "Sol. \nNet force applied on charge, \ntotal\ne\nm\nF\nF\nF\n\uf03d\n\uf02b\n.\n.(\n)\nq E\nq V\nB\n\uf03d\n\uf02b\n\uf0b4\n\nInitially charge is at rest. No magnetic force is experienced, due to electric field charge moves in the z\ndirection with increasing velocity. Now because of increasing \nv \nm\nF\nincreases in perpendicular of velocity\nvector and creates a cycloid trajectory.\nz\nF\ne\nF\nm\nV\nV\n\n\u201c\nThere is miss match between statement and figure. As per the figure only (B) and (D) are the correct \nanswer. Must go for Marks To All\n\u201d."
+}

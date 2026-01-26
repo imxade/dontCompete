@@ -1,0 +1,11 @@
+{
+  "id": "64",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "MTA",
+  "question_text": "Question 64 \n[Transportation Engineering : Pavement Design]\n \nThe following data is obtained from an axle load survey at a site : \nAverage rear axle load =12000 kg \nNumber of commercial vehicles = 800 per day \nThe pavement at this site would be reconstructed over a period of 5 years from the date of survey.  The \ndesign life of the reconstructed pavement is 15 years.  Use the standard axle load as 8160 kg and the \nannual average vehicle growth rate as 4.0%. Assume that Equivalent Wheel Load Factor (EWLF) and \nVehicle Damage Factor (VDF) are equal. \n \n \nThe cumulative standard axle (in msa) for the pavement design is ________ (rounded off to 2 decimal \nplaces).\n\nPAGE\n55\n",
+  "answer_text": "MTA",
+  "explanation_text": "Sol.\n \nWe know that,\n\uf028\n\uf029\n\uf0e9\n\uf0f9\n\uf02d\n\uf0eb\n\uf0fb\n\uf03d\n\uf0b4\n\uf0b4\nn\n365A\n1+r\n1\nCSA\nLDF VDF\nr\n\nWhere,\nA\n \uf03d\nNumber of commercial vehicles after construction period\n\uf028\n\uf029\nA\np 1\nr\nx\n\uf03d\n\uf02b\n\uf028\n\uf029\n5\nA\n800\n1 0.4\n\uf03d\n\uf0b4\n\uf02b\nA\n937.322veh\n\uf03d\nVDF\n \uf03d\nVehicle damage factor\n\n4\naxleload\nstandardaxleload\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n4\n12000\n8160\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n4.67\n\uf03d\nLDF\n \uf03d\n Lane distribution factor \n1\n\uf03d\nCSA\n \uf03d\nCumulative standard axle in msa\n\uf028\n\uf029\n\uf0e9\n\uf0f9\n\uf0b4\n\uf02b\n\uf02d\n\uf0eb\n\uf0fb\n\uf03d\n\uf0b4\uf0b4\n15\n365 973.22\n1 0.04\n1\n1 4.67\n0.04\n\n6\n33217172.6 10\n\uf02d\n\uf03d\n\uf0b4\n33.217msa\n\uf03d"
+}

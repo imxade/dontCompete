@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 27  \n \n  \n \n \n[Power Electronics]\nIf the following switching devices have similar power ratings, which one of them is the fastest ? \n(A)\n \nSCR  \n(B) GTO \n \n(C) IGBT \n(D) Power MOSFET \nAns. \n(D) \nSol. \nPower MOSFET : \n \n(1) It has very fast switching speed  \n \n(2) A MOSFET has a shorter turn \u2013 OFF time than an IGBT  \n \n(3) Compared to IGBT. MOSFET has a larger forward voltage drop. \n \nHence the correct option is (D)",
+  "answer_text": "",
+  "explanation_text": ""
+}

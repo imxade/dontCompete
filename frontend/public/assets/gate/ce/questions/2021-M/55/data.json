@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 55\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n1\n2\n2\n3\n3\n4\n2\n5\n5\n6\n2\n7\n7\n8\n2\n9\nThe\n \nRank of matrix\nis\n(A) 4 \n \n(B) 3 \n(C) 2 \n(D) 1 \nAns. \nC",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \n2\n2\n1\n3\nR\nR\nR\n\u2192\n\u2192\n3\n3\n1\n5\nR\nR\nR\n\u2192\n\u2192\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\u2212\n\u2212\n\u2212\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\u2212\n\u2212\n\u2212\n\uf0ea\n\uf0fa\n\u2212\n\u2212\n\u2212\n\uf0eb\n\uf0fb\n1\n2\n2\n3\n0\n2\n4\n4\n0\n4\n8\n8\n0\n6\n12\n12\n\n\n3\n3\n2\n2\nR\nR\nR\n\u2192\n\u2192\n4\n4\n2\n3\nR\nR\nR\n\u2192\n\u2192\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n36\n\n\uf0e9\n\uf0f9\n\uf0ea\n\uf0fa\n\u2212\n\u2212\n\u2212\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n1\n2\n2\n3\n0\n2\n4\n4\n0\n0\n0\n0\n0\n0\n0\n0\n\n\n( )\n2\np A\n =\nHence, the correct option is (C).\n\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n37\n"
+}

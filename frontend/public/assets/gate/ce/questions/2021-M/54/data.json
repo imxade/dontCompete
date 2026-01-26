@@ -1,0 +1,11 @@
+{
+  "id": "54",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 54 \n \nRefer the truss a shown in the figure (not to scale).\nQ\nR\nE, A\n 2\nE, A\n \nE, A\nE, A\n \nE, A\nT\nP\nS\nE, A\n \nE, A\nL\nL\nIf load, \n10 3 kN\nF\n =\n, moment of inertia, \n6\n4\n8.33 10  mm\nI\n =\n\u00d7\n, area of cross-section, \n4\n2\n10  mm\nA\n =\n, and\nF\nlength, \n2 m\nL\n =\n for all the members of the truss, the compressive stress (in kN/m\n2\n, in integer) carried by \nthe member \nQ - R\n is ________. \nAns. \n500 \nSol.\n(1)\nQ\nE, A\n 2\nR\nE, A\nE, A\n3\n2\na\na\na\nE, A\n \nE, A\nT\nP\nS\na\nE, A\n \nE, A\n(1)\n10 3 kN\nF\n =\nS\nV\nP\nV\n5 3 kN\np\ns\nV\nV\n=\n=\nConsider equilibrium of LHS of section (1) - (1),\n\nGATE 2021 \n [Forenoon Session]\nCivil Engineering\nPAGE\n35\n\nQ\nF\nQR\nF\nQT\n3\n2\na\nT\nP\na\nF\nPT\n5 3\nTaking moment about (\nT\n ),\n(CW)\n0\nT\nM\n\u03a3\n=\n3\n(5 3\n)\n0\n2\nQR\na\na\nf\n\uf0e6\n\uf0f6\n\u00d7\n+\n=\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n10 kN\nQR\nF\n= \u2212\n or 10 kN (C)\nCompressive stress in member QR (\nc\n\u03c3\n )\nF\nQR\nc\n2\nA\n\u03c3 =\n2\n4\n6\n2\n10\n500 kN/m\n2(10\n10\n)m\nc\nkN\n\u2212\n\u03c3 =\n=\n\u00d7",
+  "answer_text": "",
+  "explanation_text": ""
+}

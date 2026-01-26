@@ -1,0 +1,11 @@
+{
+  "id": "17",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question\n \n17 \n \n \n  \n[Machine : Induction Machine]\nA three phase, 50 Hz, 6 pole induction motor runs at 960 rpm. The stator copper loss, core loss and the \nrotational loss of the motor can be neglected. The percentage efficiency of the motor is  \n \n(A) 92 \n(B) 94\n\nPAGE\n18\n\n(C) 96 \n(D) 98 \n \nAns. \n(C) \nSol. \nGiven :  \n \n \n(i) \n50\nf\nHz\n\uf03d\n(ii) \n6\nP\n \uf03d\n(iii)  \n960 rpm\nr\nN\n \uf03d\n(iv)  The stator copper loss and the rotational loss of the motor can be neglected.\n\uf02d\n\uf03d\nN\nN\ns\nN\nSlip ( )\ns\nr\ns\n\uf0b4\n\uf03d\n\uf03d\n\uf03d\n120\n120 50\n1000 rpm\n6\ns\nf\nN\nP\n1000\n960\nSlip ( )\n0.04\n1000\ns\n\uf02d\n\uf03d\n\uf03d\nP\ns\nP\n\uf068\uf03d\n\uf03d\n\uf02d\nEfficiency \n\uf028\uf029\n\uf028\n\uf029\n1\nout\nin\n\uf028\n\uf029\n1 0.04\n0.96\n\uf068\uf03d\n\uf02d\n\uf03d\n\uf028\uf029\n%\n96%\n\uf068\uf03d\nHence the correct option is (C).",
+  "answer_text": "",
+  "explanation_text": ""
+}

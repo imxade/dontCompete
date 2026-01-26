@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "218.33\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n25",
+  "question_text": "Question 25\nA flat plate made of cast iron is exposed to a solar flux of 600 W/m\n2\n at an ambient\n \ntemperature of \n0\n25\n C. \nAssume that the entire solar flux is absorbed by the plate.\nCast iron has a low temperature absorptivity of 0.21. Use Stefan-Boltzmann constant\n8\n2\n4\n5.669 10  W/m -K\n\uf02d\n\uf03d\n\uf0b4\n. Neglect all other modes of heat transfer except radiation.\nUnder the aforementioned conditions, the radiation equilibrium temperature of the plate is __________\n0\nC\n  (round off to the nearest integer).",
+  "answer_text": "218.33\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n25",
+  "explanation_text": "Sol. \nSolar flux  \n2\n(\n)\n600W/m\nenter\nQ\n\uf03d\nAbsorptivity \n( )\n0.21\n\uf061\uf03d\nAmbient temperature \n0\n(\n)\n25 C\n298 K\nT\n\uf0a5\n\uf03d\n\uf03d\n8\n2\n4\n( )\n5.66 10 W/m K\n\uf02d\n\uf073\uf03d\n\uf0b4\nStefan Boltzmann constant\n2\n600 W/m\nenter\nQ\n\uf03d\n4\n4\n2\n(\n)W/m\nleave\ns\nQ\nT\nT\n\uf0a5\n\uf03d\uf065\uf0b4\uf073\n\uf02d\nBecause all flux is absorbed by the plate, so, we can say that the value of absorptivity is equal to 1.\nFrom Kirchoff\u2019s law,\nEmissivity = absorptivity, \n0.21\n\uf065\uf03d\uf061\uf03d\nAt equilibrium, \nenter\nleave\nQ\nQ\n\uf03d\n4\n4\n600\n(\n)\ns\nT\nT\n\uf0a5\n\uf03d\uf073\uf065\n\uf02d\n8\n4\n4\n600\n0.21 5.669 10 (\n298 )\ns\nT\n\uf02d\n\uf03d\n\uf0b4\n\uf0b4\n\uf02d\n491.33K\ns\nT\n \uf03d\n0\n218.33 C\ns\nT\n \uf03d\nHence, the correct answer is 218.33."
+}

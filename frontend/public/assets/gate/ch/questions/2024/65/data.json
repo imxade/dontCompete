@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 65\n \n \nConsider a tray-column of diameter 120 cm.  Each downcomer has a cross-sectional area of \n575cm\n2\n.  For \na tray, the percentage column cross-sectional area not available for vapor flow due to the downcomers, \nrounded off to 1 decimal place, is ________. \n  \n \n \n[Mass transfer 2 marks]\n \nAns. 10.0 to 10.3 \nSol.\n \nGiven:\n\nPAGE\n66\n\nGas\n(outlet)\nD\nLiquid\n(inlet)\nAd\nAd\nGas\n(inlet)\nLiquid\n(outlet)\n\n\ud835\udc34\n\ud835\udc51\n=\nDown comer area\n\ud835\udc34\n\ud835\udc47\n=\nColumn area\n2\n =\n4\n \n(1.2)\n2\n = 11309.73cm\n2\n\ud835\udf0b\n\ud835\udf0b\n\ud835\udc34\n\ud835\udc47\n=\n4\n \n\ud835\udc37\n\ud835\udc47\n2\n = 575cm\n2\n\ud835\udf0b\n\ud835\udc34\n\ud835\udc51\n=\n4\n \n\ud835\udc37\n\ud835\udc51\n\u2235\n Down comer, only liquid allow to flow, NO VAPOR flow in downcomer.\n\ud835\udc34\n\ud835\udc51\n\ud835\udc34\n\ud835\udc47\n=\ndowncomer area available onTray\n\u2234\nTray column area\n2\u00d7575\n=\n11309.73\n \n\u00d7 100\n= 10.16\n\uf076\uf076\uf076\uf076\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

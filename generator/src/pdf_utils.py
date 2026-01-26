@@ -3,7 +3,15 @@ import os
 import logging
 import re
 from PIL import Image
-from generator.src.config import GATE_ASSETS_DIR, STREAM_ALIASES
+from generator.src.config import (
+    GATE_ASSETS_DIR, 
+    STREAM_ALIASES,
+    IMAGE_FORMAT,
+    IMAGE_QUALITY,
+    IMAGE_LOSSLESS,
+    PDF_ZOOM_LEVEL
+)
+from generator.src.image_utils import optimize_image, get_file_extension
 
 logger = logging.getLogger(__name__)
 
@@ -180,13 +188,16 @@ def save_question_data(stream, packet_id, year, q_data, doc):
     exp_text_full = "\n".join(q_data['exp_text'])
     
     # 2. Process Images (Stitching)
-    # Structure: assets/<stream_alias>/questions/<packet_id>/<id>/q.png
+    # Get file extension based on configured format
+    img_ext = get_file_extension(IMAGE_FORMAT)
+    
+    # Structure: assets/<stream_alias>/questions/<packet_id>/<id>/q.<ext>
     base_rel_path = f"{stream_alias}/questions/{packet_id}/{q_clean_id}"
     base_abs_path = os.path.join(GATE_ASSETS_DIR, base_rel_path)
     os.makedirs(base_abs_path, exist_ok=True)
     
-    q_img_rel_path = f"{base_rel_path}/q.png"
-    exp_img_rel_path = f"{base_rel_path}/exp.png"
+    q_img_rel_path = f"{base_rel_path}/q{img_ext}"
+    exp_img_rel_path = f"{base_rel_path}/exp{img_ext}"
     
     q_img_abs_path = os.path.join(GATE_ASSETS_DIR, q_img_rel_path)
     exp_img_abs_path = os.path.join(GATE_ASSETS_DIR, exp_img_rel_path)
@@ -248,7 +259,8 @@ def create_stitched_image(doc, rects_info, output_path):
         # FULL WIDTH as per spec
         rect = fitz.Rect(0, y_min, page.rect.width, y_max)
         
-        pix = page.get_pixmap(clip=rect, matrix=fitz.Matrix(2, 2)) # 2x zoom for quality
+        # Use configurable zoom level instead of hardcoded 2x
+        pix = page.get_pixmap(clip=rect, matrix=fitz.Matrix(PDF_ZOOM_LEVEL, PDF_ZOOM_LEVEL))
         img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         images.append(img)
         
@@ -263,8 +275,15 @@ def create_stitched_image(doc, rects_info, output_path):
         final_img.paste(img, (0, y_offset))
         y_offset += img.height
         
+    # Use image optimization module instead of direct save
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    final_img.save(output_path, "PNG")
+    optimize_image(
+        final_img, 
+        output_path, 
+        format=IMAGE_FORMAT,
+        quality=IMAGE_QUALITY,
+        lossless=IMAGE_LOSSLESS
+    )
 
 def sync_assets_to_db(con, stream_code):
     """Sync generated assets from filesystem to database."""
@@ -277,6 +296,9 @@ def sync_assets_to_db(con, stream_code):
     if not os.path.exists(assets_base):
         logger.warning(f"No assets found for {stream_code} at {assets_base}")
         return
+    
+    # Get file extension based on configured format
+    img_ext = get_file_extension(IMAGE_FORMAT)
     
     synced_count = 0
     for packet_dir in os.listdir(assets_base):
@@ -304,10 +326,9 @@ def sync_assets_to_db(con, stream_code):
                 exp_text = data.get('explanation_text', '')
                 
                 # Construct image paths (relative to frontend assets)
-                # assets/<stream>/questions/<packet>/<id>/q.png
-                # Relative for Frontend: <stream>/questions/<packet>/<id>/q.png
-                img_q = f"{stream_alias}/questions/{packet_dir}/{q_dir}/q.png"
-                img_exp = f"{stream_alias}/questions/{packet_dir}/{q_dir}/exp.png"
+                # Use dynamic extension based on IMAGE_FORMAT
+                img_q = f"{stream_alias}/questions/{packet_dir}/{q_dir}/q{img_ext}"
+                img_exp = f"{stream_alias}/questions/{packet_dir}/{q_dir}/exp{img_ext}"
                 
                 # Check if exp image exists
                 if not os.path.exists(os.path.join(GATE_ASSETS_DIR, img_exp)):

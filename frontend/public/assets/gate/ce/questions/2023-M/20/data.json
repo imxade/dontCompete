@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "civil-engineering",
+  "packet": "2023-M",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 20 \n[Environmental Engineering : Air Pollution]\nWhich one of the following statements is TRUE for Greenhouse Gas (GHG) in the atmosphere?\n(A) GHG absorbs the incoming short wavelength solar radiation to the earth surface, and allows the\nlong wavelength radiation coming from the earth surface to pass through\n\nGATE 2023 \n [Forenoon Session]\nCivil Engineering\nPAGE\n12\n\n(B) GHG allows the incoming long wavelength solar radiation to pass through to the earth surface, and\nabsorbs the short wavelength radiation coming from the earth surface\n(C) GHG allows the incoming long wavelength solar radiation to pass through to the earth surface, and\nallows the short wavelength radiation coming from the earth surface to pass through\n(D) GHG allows the incoming short wavelength solar radiation to pass through to the earth surface,\nand absorbs the long wavelength radiation coming from the earth surface",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nGreen House Gas allow short wave radiation to pass through to the earth surface and absorbs the long \nwavelength radiation coming from the earth surface. CO\n2\n, methane and nitrous oxide are the major \nGHGs.\nHence, the correct option is (D)."
+}

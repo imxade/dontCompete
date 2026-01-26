@@ -1,0 +1,11 @@
+{
+  "id": "29",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 29 \n \n \nDigital Electronics  \n \nThe maximum clock frequency in MHz of a 4-stage ripple counter, utilizing flip-flops, with each flip-flop \nhaving a propagation delay of 20 ns, is _______. (round off to one decimal place). \nAns. \n 12.5 (Range : 12.3 to 12.7)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\n  \n \n(i) \n4-stage ripple counter\n(ii) Number of bits \n4\nn\n \uf03d\n(iii) Propagation delay of each flip-flop \n20 nsec\npd\nt\n\uf03d\n(iv) Maximum clock frequency of \n-\nn\n state ripple counter,\n9\n1\n1\n12.5 MHz\n4 20 10\nCLK\npd\nf\nnt\n\uf02d\n\uf03d\n\uf03d\n\uf03d\n\uf0b4\n\uf0b4\nHence, the correct answer is 12.5.\n \nQuestion 30 \n \n \nPower System \n \nIf only 5% of the supplied power to a cable reaches the output terminal, the power loss in the cable, in \ndecibels, is _______. (round off to nearest integer)  \nAns. \n13 (Range : 13 to 13)\nSol.\n \nGiven :\nPower reaches at output terminal \n\uf028\n\uf029\n5%\nout\nP\n\uf03d\n of the supplied power \n(\n)\nin\nP\n.\nP\nP\n\uf0e6\n\uf0f6\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n10 log\n10 log\nin\nout\nP\nP\n\uf03d\n\uf02d\nPower loss in decibels (dB), in cable \n10 log\nin\nout\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n27\n\nP\nP\n\uf03d\n10 log20\n\uf03d\nPower loss in decibels (dB), in cable \n10 log 0.05\nin\nin\nPower loss in decibels (dB), in cable \n13.01dB\n\uf03d\n13 dB\n\uf0bb\nHence, the power loss in the cable, in decibels is 13 dB."
+}

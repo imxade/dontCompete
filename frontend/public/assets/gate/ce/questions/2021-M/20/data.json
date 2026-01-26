@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "4.90",
+  "question_text": "Question 20\nThe cohesion (\nc\n), angle of internal friction \n( )\n\u03c6\n  and unit weight (\n \u03b3\n ) of a soil are 15 kPa, \n0\n20\n  and\n3\n17.5 kN/m\n , respectively. The maximum depth of unsupported excavation in the soil (in m, round off to \ntwo decimal places) is _________.",
+  "answer_text": "4.90",
+  "explanation_text": "Sol.\n \n15 kPa\nC\n =\n, \n0\n20\n\u03c6 =\n, \n3\n17.5 kN/m\nT\n\u03b3 =\n?\nc\nH\n =\n4\nC\nH\nk\n=\n\u03b3\nc\na\n0\n1 sin\n1 sin\na\nk\n\u2212\n\u03c6\n= +\n\u03c6\n0\n1 sin 20\n0.4903\n1 sin 20\n\u2212\n=\n=\n+\n4 15\n17.5 0.4903\nc\nH\n\u00d7\n=\n4.89 m\n4.90 m\n=\n\u2248"
+}

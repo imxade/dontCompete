@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 12\nWhich one of the following is \nNOT \na form of inventory?\n(A) Raw materials \n \n \n(B) Work-in-process materials\n(C) Finished goods  \n \n(D) CNC Milling Machines",
+  "answer_text": "(D)",
+  "explanation_text": "Sol. \nCNC machines are not a form of inventory\nHence the correct option is (D)."
+}

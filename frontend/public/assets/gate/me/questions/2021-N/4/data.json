@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 4\n                                  \n \n \nA machine of mass 100 kg is subjected to an external harmonic force with a frequency of 40 rad/s. The \ndesigner decides to mount the machine on an isolator to reduce the force transmitted to the foundation. \nThe isolator can be considered as a combination of stiffness \n(\n)\nK\n  and damper (damping factor, \n\u03be\n ) in \nparallel. The designer has the following four isolators:\n1. \n640kN/m,\n0.70\nK\n =\n\u03be =\n2. \n640kN/m,\n0.07\nK\n =\n\u03be =\n3. \n22.5kN/m,\n0.70\nK\n =\n\u03be =\n4. \n22.5kN/m,\n0.07\nK\n =\n\u03be =\nArrange the isolators in the ascending order of the force transmitted to the foundation.\nTheory of Machines (Vibration)\n(A) \n4 3 1 2\n\u2212\u2212\u2212\n(B) \n3 1 2\n4\n\u2212\u2212\u2212\n(C) \n1 3 4\n2\n\u2212\u2212\u2212\n(D) \n1 3 2\n4\n\u2212\u2212\u2212",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nFor \n640000 N/m\nk\n =\n640000\n80 rad/s\n100\nn\nk\nm\n\u03c9 =\n=\n=\n40\n0.5\n80\nn\nr\n\u03c9\n=\n=\n=\n\u03c9\nFor \n22500 N/m\nk\n =\n22500\n15 rad/s\n100\nn\nk\nm\n\u03c9 =\n=\n=\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n10\n\n40\n2.667\n15\nn\nr\n\u03c9\n=\n=\n=\n\u03c9\nt\nF\nF\n\u2208=\n\n0\nSince \nt\nF\n\u2208\u221d\n. So, if \nthat means\n.\nt\nF\n \u2193\n\u2208\u2193\n\n0\n\u03b6 =\n0.07\n\u03b6 =\n0.7\n\u03b6 =\n0.7\n\u03b6 =\n3\n4\n0.07\n\u03b6 =\n1\n\u2208=\n0\n\u03b6 =\n2.667\nr\n =\n0.5\nr\n =\n2\nr\n =\n\n\n1\n\u2208>\nFor,\n2\nr\n <\n,\n\u03b6 \u2191\u2208\u2193\n\n1\n\u2208<\nFor,\n2\nr\n >\n,\n\u03b6 \u2191\u2208\u2191\nFrom figure :\n4\n3\n1\n2\n\u2208<\u2208<\u2208<\u2208\n4\n3\n1\n2\n<\n< <\nHence, the correct option is (A)."
+}

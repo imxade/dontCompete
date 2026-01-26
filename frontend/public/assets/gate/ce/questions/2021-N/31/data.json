@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "10 \nSol.\n \nGiven :\n   \n \nTotal lumped mass, \n10 kg\nm\n =\nWe know that, frequency \n1\n2\nn\nk\nf\nm\n= \u03c0\nWhere, \nk\n = Flexural stiffness and \nm\n = Total lumped mass\n2\n\u03c0\n=\n\u03c0\n1\n4000\n2\n10\nn\nf\n1\n20\n10 Hz\n2\nn\nf\n =\n\u00d7\n\u00d7\u03c0 =\n\u03c0",
+  "question_text": "Question 31\nA prismatic fixed-fixed beam, modelled with a total lumped mass of 10 kg as a single degree of \nfreedom system as shown in the figure. If the flexural stiffness of beam is \n2\n4\nkN/m\n\u03c0\n, its natural \nfrequency of vibration (in Hz, in integer) in the flexural mode will be :\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n17\n\nA\nB\nC\nm\n2\nL\nEI\nEI\nSDOF\n2\nL",
+  "answer_text": "10 \nSol.\n \nGiven :\n   \n \nTotal lumped mass, \n10 kg\nm\n =\nWe know that, frequency \n1\n2\nn\nk\nf\nm\n= \u03c0\nWhere, \nk\n = Flexural stiffness and \nm\n = Total lumped mass\n2\n\u03c0\n=\n\u03c0\n1\n4000\n2\n10\nn\nf\n1\n20\n10 Hz\n2\nn\nf\n =\n\u00d7\n\u00d7\u03c0 =\n\u03c0",
+  "explanation_text": ""
+}

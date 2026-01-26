@@ -1,0 +1,11 @@
+{
+  "id": "13",
+  "stream": "electrical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 13 \n \n \n \n \nEngineering Mathematics (2M)\nSuppose the probability that a coin toss shows \u201chead\u201d is \np\n, where \n0\n1\np\n<\n<\n . The coin is tossed\nrepeatedly until the first \u201chead\u201d appears. The expected number of tosses required is\n1\np\np\n\u2212\n \n(B) \n1\np\np\n\u2212\n \n(C) \n1\np\n \n(D)\n2\n1\np\n(A)",
+  "answer_text": "C",
+  "explanation_text": "Sol.\nNumber of tosses \n1 \n2 \n3 \n4 \n5\nProbability of outcomes \np \n(1\n)\np\np\n\u2212\n \n2\n(1\n)\np\np\n\u2212\n3\n(1\n)\np\np\n\u2212\n \n4\n(1\n)\np\np\n\u2212\n\u2234\n The expected number of tosses required is,\n2\n3\n[ ] 1\n2 (1\n) 3 (1\n)\n4 (1\n)\n......\nE X\np\np\np\np\np\np\np\n= \u00d7 +\n\u2212\n+\n\u2212\n+\n\u2212\n+\n2\n3\n[ ]\n[1 2(1\n) 3(1\n)\n4(1\n)\n.....]\nE X\np\np\np\np\n=\n+\n\u2212\n+\n\u2212\n+\n\u2212\n+\n2\n2\n[ ]\n(1 1\n)\n( )\nE X\np\np\np p\n\u2212\n\u2212\n= \u00d7 \u2212+\n=\n2\n1\n[\n]\np\nE X\np\np\n=\n=\n\nHence, the correct option is (C)."
+}

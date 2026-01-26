@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(B, D) \nSol. \nFor Carnot Engine,\n\uf028\n\uf029\n\uf028\n\uf029\nT\nP\nP\nW\nln\n/\n1\nln\n/\nQ\nT\nP\nPL\n\uf068\uf03d\n\uf03d\uf02b\nC\nD\nnet\n2\nh\nA\nB\n1\n1\n1\n1\nnet\nW\nT\nQ\nT\n\uf068\uf03d\n\uf03d\uf02d\n2\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n18\n\n\uf028\n\uf029\n1\n2\n,\nf T T\n\uf068\uf03d\nThus, option (B) is correct.\n\u2022 \nCarnot engine follows cyclic operation thus entropy will be constant.\nThus, option (D) also is correct.",
+  "question_text": "Question 28 \n \nConsider a system where a Carnot engine is operating between a source and a sink. Which of the following \nstatements about this system is/are NOT correct? \n \n \n \n[Thermodynamics, 1 Mark]\n \n \n(A) This engine is reversible. \n \n(B) The engine efficiency is independent of the source and sink temperatures. \n \n(C) This engine has the highest efficiency among all engines that operate between the same source and\nsink. \n \n(D) The total entropy of this system increases at the completion of each cycle of the engine.",
+  "answer_text": "(B, D) \nSol. \nFor Carnot Engine,\n\uf028\n\uf029\n\uf028\n\uf029\nT\nP\nP\nW\nln\n/\n1\nln\n/\nQ\nT\nP\nPL\n\uf068\uf03d\n\uf03d\uf02b\nC\nD\nnet\n2\nh\nA\nB\n1\n1\n1\n1\nnet\nW\nT\nQ\nT\n\uf068\uf03d\n\uf03d\uf02d\n2\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n18\n\n\uf028\n\uf029\n1\n2\n,\nf T T\n\uf068\uf03d\nThus, option (B) is correct.\n\u2022 \nCarnot engine follows cyclic operation thus entropy will be constant.\nThus, option (D) also is correct.",
+  "explanation_text": ""
+}

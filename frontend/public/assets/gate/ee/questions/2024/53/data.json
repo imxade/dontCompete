@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "2.0 to 2.0 \nSol. \nIt the Energy of a Continuous time signal \n( )\nx t\n  is \nE\n.\n(i) \n( )\nEnergy( )\nx t\nE\n\uf0be\uf0be\n\uf0ae\nE\nx\na\n\uf0b9\n\uf0be\uf0be\uf0ae\n(ii) \n0\n(at)\n a\n2\n(at)\nk E\nkx\na\n\uf0be\uf0be\n\uf0ae\n(iii)\n(iv) \n0\n(\n)\nx t\nt\nE\n\uf02d\n\uf0be\uf0be\n\uf0ae\nNow According to Given signal:\n2 (2\n1)\nx\nt\nCE\n\uf02d\n\uf0be\uf0be\n\uf0ae\n  \n \n \n \n \n\u2026(i)\n(\n1)\nx t\nE\n\uf02d\n\uf0be\uf0be\n\uf0ae\n(2\n1)\n2\n2\nE\nE\nx\nt\n \uf02d\n\uf0be\uf0be\uf0ae\n\uf03d\n2\n2 (2\n1)\n(2)\n2\n2\nE\nx\nt\nE\n\uf02d\n\uf0be\uf0be\uf0ae\n\uf03d\n \n \n \n \n\u2026(ii)\n\nAfter comparing we get\n\nPAGE\n58\n\nC\n = 2 \n \nHence the Correct Answer is (2)",
+  "question_text": "Question 53  \n \n  \n \n \n[Signals & Systems]\nIf the energy of a continuous-time signal \n( )\nx t\n  is \nE\n  and the energy of the signal \n\uf028\n\uf029\n2\n2\n1\nx\nt\n \uf02d\n is \ncE\n , then\nc\n  is _______ (rounded off to 1 decimal place).",
+  "answer_text": "2.0 to 2.0 \nSol. \nIt the Energy of a Continuous time signal \n( )\nx t\n  is \nE\n.\n(i) \n( )\nEnergy( )\nx t\nE\n\uf0be\uf0be\n\uf0ae\nE\nx\na\n\uf0b9\n\uf0be\uf0be\uf0ae\n(ii) \n0\n(at)\n a\n2\n(at)\nk E\nkx\na\n\uf0be\uf0be\n\uf0ae\n(iii)\n(iv) \n0\n(\n)\nx t\nt\nE\n\uf02d\n\uf0be\uf0be\n\uf0ae\nNow According to Given signal:\n2 (2\n1)\nx\nt\nCE\n\uf02d\n\uf0be\uf0be\n\uf0ae\n  \n \n \n \n \n\u2026(i)\n(\n1)\nx t\nE\n\uf02d\n\uf0be\uf0be\n\uf0ae\n(2\n1)\n2\n2\nE\nE\nx\nt\n \uf02d\n\uf0be\uf0be\uf0ae\n\uf03d\n2\n2 (2\n1)\n(2)\n2\n2\nE\nx\nt\nE\n\uf02d\n\uf0be\uf0be\uf0ae\n\uf03d\n \n \n \n \n\u2026(ii)\n\nAfter comparing we get\n\nPAGE\n58\n\nC\n = 2 \n \nHence the Correct Answer is (2)",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "civil-engineering",
+  "packet": "2023-M",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 5\nA line of symmetry is defined as a line that divides a figure into two parts in a way  such that each part is \na mirror image of the other part about that line.\nThe figure below consists of 20 unit squares arranged as shown. In addition to the given black squares, \nupto 5 more may be coloured black. Which one among the following options depicts the minimum \nnumber of boxes that must be coloured black to achieve two lines of symmetry? (The figure is \nrepresentative)\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\n(A) d \n \n(B)  c, d, i\n(C)  c, i \n \n(D)  c, d, i, f, g",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nGiven :\nA line of symmetry is defined as a line that divides a figure into two parts in a way  such that each part is \na mirror image of the other part about that line.\nThe figure below consists of 20 unit squares arranged as shown. In addition to the given black squares, \nupto 5 more may be coloured black.\n\nGATE 2023 \n [Forenoon Session]\nCivil Engineering\nPAGE\n3\n\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nIn the figure given below, MN is the vertical line of symmetry for the figure, for which we have to \ncolour the box \u2018i\u2019.\nM\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nIn the figure given below, PQ is the horizontal line of symmetry for the figure, for which we have to \ncolour box \u2018c\u2019 and \u2018d\u2019.\nN\na\nb\nc\nd\ne\nf\ng\nh\nP\nQ\ni\nj\nk\nTherefore, we have to colour 3 boxes c, d, i to achieve two line of symmetry MN and PQ.\nHence, the correct option is (B).\n..\nQ.6 to Q.10 Carry Two Marks Each\n.."
+}

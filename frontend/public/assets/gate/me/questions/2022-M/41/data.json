@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "0.25",
+  "question_text": "Question 41\nA cylindrical disc of mass \nm\n = 1 kg and radius \nr\n = 0.15 m was spinning at\n \n5\n\uf077\uf03d\n \nrad/s when it was placed \non a flat horizontal surface and released (refer to\n \nthe figure). Gravity \ng  \nacts vertically downwards as \nshown in the figure. The\n \ncoefficient of friction between the disc and the surface is finite and positive.\n \nDisregarding any other dissipation except that due to friction between the disc and\n \nthe surface, the \nhorizontal velocity of the center of the disc, when it starts rolling\n \nwithout slipping, will be _________ m/s \n(round off to 2 decimal places).\nr\nm\n\uf077\ng",
+  "answer_text": "0.25",
+  "explanation_text": "Sol. \nGiven data :\nMass of cylindrical disc \n( )\n1 kg\nm\n \uf03d\nRadius of disc \n( )\n0.15 m\nr\n \uf03d\nInitial angular velocity of disc \n0\n(\n)\n5 rad/s\n\uf077\n\uf03d\n2\n=\n(m/s )\ng\nGravitational acceleration\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n43\n\ng\n\uf077\nr\nm\nLet us horizontal velocity of disc\n m/s\nv\n\uf03d\nm\n\uf061\na\nF\n\uf077\nWe know,\nNewton\u2019s second law for linear motion\nF\nma\n\uf03d\n \n \n \n \n\u2026 (i)\nAnd Newton\u2019s second law for angular motion\n0\nT\nI\n\uf03d\n\uf0b4\uf061\n2\n2\nmr\nT\n \uf03d\n\uf0b4\uf061\n \n \n \n \n\u2026 (ii)\n\nNewton\u2019s 1\nst\n law of motion, for linear motion\nv\nu\nat\n\uf03d\n\uf02b\n \n \n[\n0\nu\n \uf03d\n, because when disc touches the ground initial velocity will be zero]\nF\nv\nt\nm\n\uf03d\n\uf0b4\nNewton\u2019s 1\nst\n law of motion for angular motion\n0\nt\n\uf077\uf03d\uf077\uf02d\uf061\n2\n5\nv\nF\nvm\nr\nmr\nF\n\uf03d\n\uf02d\n\uf0b4\n \n(From equation (ii))\n2\n5\nv\nv\nr\nr\n\uf03d\n\uf02d\n3\n5\nv\nr\n \n\uf03d\n3\nv\n\uf0b4\n\uf03d\n5 0.15\n0.25 m/s\nv\n \uf03d\nHence, the correct answer is 0.25.\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n44\n"
+}

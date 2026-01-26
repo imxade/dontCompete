@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "4 to 4",
+  "question_text": "Question 60\n \n \nA Venturi meter with a throat diameter \n\ud835\udc51= 2\ud835\udc50\ud835\udc5a\n measures the flow rate in a pipe of diameter \n\ud835\udc37= 6\ud835\udc50\ud835\udc5a\n, \nas shown in the figure.  A U-tube manometer is connected to measure the pressure drop.  Assume the \ndischarge coefficient is independent of the Reynolds number and geometric ratios.  If the volumetric flow \nrate through the pipe is doubled \n\ud835\udc44\n2\n = 2\ud835\udc44\n1\n, the corresponding ratio of the manometer readings \n\ud835\udee5\n\u210e\n2\n/\ud835\udee5\n\u210e\n1\n, \nrounded off to the nearest integer, is __________.   \n \n \n[Fluid mechanics 2 marks]\n6 cm\nD\n \uf03d\n2 cm\nd\n \uf03d\nwater\nh\n\uf044",
+  "answer_text": "4 to 4",
+  "explanation_text": "Sol.\n \nGiven :\nDiameter of pipe \n= 6cm\nDiameter of throat \n= 2cm\n\nPAGE\n58\n\n\ud835\udee5\n\u210e\n2\n\ud835\udee5\n\u210e\n1\n \n=?\n\ud835\udc44\n2\n = 2\ud835\udc44\n1\n,\nDischarge through venturi meter :-\n\ud835\udc36\n\ud835\udc51\n\ud835\udc34\n1\n\ud835\udc34\n2\n2\ud835\udee5\ud835\udc43\n\ud835\udc44=\n\ud835\udf0c\n\u221a\ud835\udc34\n1\n2\n\u2212\ud835\udc34\n2\n2\n \u221a\nWhere, \n\ud835\udc34\n1\n =\n Area of pipe\n\ud835\udc34\n2\n =\n Area of throat\nAs,\n\ud835\udc44\u221d\u221a\ud835\udee5\ud835\udc43\n\ud835\udc44\u221d\u221a\ud835\udee5\n\u210e\n\ud835\udee5\n\u210e\n2\n\ud835\udee5\n\u210e\n1\n\ud835\udc44\n2\n\ud835\udc44\n1\n \n= \u221a\n\n\ud835\udee5\n\u210e\n2\n\ud835\udee5\n\u210e\n1\n(2)\n2\n \n=\n\ud835\udee5\n\u210e\n2\n\ud835\udee5\n\u210e\n1\n \n= 4\n"
+}

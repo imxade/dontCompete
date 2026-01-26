@@ -1,0 +1,11 @@
+{
+  "id": "59",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 59 \n[Fluid Mechanics : Fluid Pressure & Measurement] \n \nA \n5\n5\nm\nm\n\uf0b4\nclosed tank of \n10\n m\n  height contains water and soil, and is connected to an overhead water\nreservoir as shown in the figure.  Use \n3\n10 kN/m\nw\n\uf067\uf03d\n and Specific gravity of oil \n0.8\n\uf03d\n.\n\n(Figure NOT to scale) \n \nThe total force (in kN) due to pressure on the side PQR of the tank is ________ (rounded off to nearest \ninteger). \nAns. 5575 to 5585",
+  "answer_text": "",
+  "explanation_text": "Sol.\n\nPAGE\n51\n\n68 kPa\nP\n4 m\nQ\n6 m\nR\n3\n(10 )(10)(6)\n3\n(10 )(10)(10)\n60kPa\n\uf03d\n100kPa\n\uf03d\n\n3\n(800)(10)(4)\n(10 )(10)(10),\nP\nP\n \uf02b\n\uf03d\n \nWhere \nP\nP\n  is pressure at \nP\n3\n3\n(32 10 )\n(100 10 )\nP\nP\n \uf02b\n\uf0b4\n\uf03d\n\uf0b4\n3\n68 10 Pa\nP\nP\n \uf03d\n\uf0b4\n68 kPa\nP\nP\n \uf03d\nNow, force on \nPQR\n,   \n1\n1\n(68 100)4\n(100 160)6 5\n2\n2\nF\n\uf0e9\n\uf0f9\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n\n(336\n780)5\n\uf03d\n\uf02b\n5580 kN\n\uf03d"
+}

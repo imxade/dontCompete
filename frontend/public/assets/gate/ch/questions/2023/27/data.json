@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 27\n0\n150 C\n  \nis shown in the figure below.\nAn isothermal jacketed continous stirred tank reactor (CSTR) operating at\nThe cold feed entering the system at \n0\n30 C\n \nis preheated to a temperature \n\ud835\udc47 \n0\n(\n150 C)\nT\n \uf03c\n \nusing a heat exchanger\n0\n150 C\n  to using the utility heater \n2\n.\nHX\n The mass flow rate and \nheat capacity are same for all the process streams, and the overall heat transfer coefficient is independent of \ntemperature. Which one of the following statements is the CORRECT action to take if it is desired to increase \nthe value of \nT\n?  \n \n \n \n[Heat Transfer, 1 Mark]\n1\n.\nHX\n  This preheated feed is further heated\n0\n150 C\nHX\n1\nHX\n2\n30 C\n0\n0\nT C\nCold\nfeed\nCSTR\n(A) Increase both heat transfer area of\n1\nHX\n and heat duty of \n2\n.\nHX\n0\n150 C\n(B) \nDecrease both heat transfer area of \n1\nHX\n and heat duty of \n2\n.\nHX\n \n \n(C) Increase the heat transfer area of \n1\nHX\n  and decrease the heat duty\n(D) \nDecrease the heat transfer area of \n1\nHX\n  \nand increase the heat duty of \n2\n.\nHX\n  \nAns. \n(C) \nSol.\n \nTo increase the value of T we should increase the heat transfer area of \n1\nHX\n  and decrease the heat duty\nof \n2\nHX",
+  "answer_text": "",
+  "explanation_text": ""
+}

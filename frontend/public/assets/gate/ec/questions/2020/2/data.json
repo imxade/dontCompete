@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 2\nIf \n1\nv\n , \n2\nv\n  \u2026\n6\nv\n  are six vectors in \n4\n\uf0a1\n, which one of the statements is FALSE?\n(A) Any four of these vectors form a basis for \n4\n\uf0a1\n.\n(B) It is not necessary that these vectors span \n4\n\uf0a1\n.\n(C) If \n1\n3\n5\n6\n{v ,v , v ,v }\n spans \n4\n\uf0a1\n, then it forms a basis of \n4\n\uf0a1\n.\n(D) These vectors are not linearly independent.",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n \nGiven : \n1\nv\n , \n2\nv\n  \u2026\n6\nv\n  are six vectors in \n4\n\uf0a1\n.\nFour vectors that form a basis for four dimensional space must be linearly independent to each other.\nHence, the correct option is (A)."
+}

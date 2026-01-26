@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MSQ",
+  "key": "(B)",
+  "question_text": "Question 43 \n[MSQ] \n \n  \n[Mathematics : Maxima Minima]\nLet \n( )\nf t\n  be a real-valued function whose second derivative is positive for \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n. Which of the\nfollowing is/are always true ? \n \n  \n \n \n \n \n(2 Marks)\n(A) \n( )\nf t\n has at least one local minimum\n(B) \n( )\nf t\n  cannot have two distinct local minima\n(C) \n( )\nf t\n  has at least one local maximum\n\nPAGE\n45\n\n(D) The minimum value of \n( )\nf t\n  cannot be negative",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nGiven \n:\n\uf028\uf029\nf t\n  \nis a real value function whose second derivative is positive for \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n.\nSuppose \n\uf028\uf029\nf t\nAbsolute maxima (Global maximum) (Also a local maxima)\nFrom option (A) :\nThis is correct statement.  \n\uf028\uf029\nf t\n has at least one local minimum.\nFrom option (B) :\nThis is wrong statement.  Because \n\uf028\uf029\nf t\n can have two distinct local minima.\nFrom option (C) : \nThis is wrong statement.  Because according to question second derivative is positive for \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n.  \nTherefore, there will not be local maxima.\n\uf026\n Key Point\nThe stationary points for finding the extreme value of a function \n( )\nf t\n  are given by \n'( )\n0\nf t\n \uf03d\ncondition for maxima : \n\uf028\uf029\n''\n0\nf\nt\n \uf03c\n\uf028\uf029\ncondition for minima : \n\uf028\uf029\n''\n0\nf\nt\n \uf03e\n\uf028\uf029\nFrom option (D) :\nThis is wrong statement.  The minimum value of \n\uf028\uf029\nf t\n  can be negative.  Hence the correct option is\n(B).\n"
+}

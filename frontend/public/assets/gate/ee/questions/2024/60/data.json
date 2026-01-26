@@ -1,0 +1,11 @@
+{
+  "id": "60",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "1.64 to 1.70 \nSol. \nGiven circuit is shown below.\nCase 1 :\n(i) \nAssume both diodes \n1\nD\n and \n2\nD\n  are ON.\n2\nD\nI\n should be greater than zero from \np\n  to \nn\n .\n1\nD\nI\n and\n(ii) For both diode to be ON.\nApplying nodal analysis at node \nx\n.\nx\nx\nx\nV\nV\nV\n\uf02d\n\uf02d\n\uf02b\n\uf02b\n\uf03d\n10\n3\n0\n1k\u03a9\n1k\u03a9\n1k\u03a9\n3\n13\n0\nx\nV\n \uf02d\n\uf03d\n\nPAGE\n71\n\n13\n4.33 volt\n3\nx\nV\n \uf03d\n\uf03d\nCurrent flowing diode \n2\nD\n  is\n2\nD\nI\n.\nV\nI\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n3\n4.33\n3\n1 k\u03a9\n1 k\u03a9\nx\nD\n\n2\n2\n1.33mA\nD\nI\n\uf03d\n\n3\n3 mA\n1\nI\nk\n\uf03d\n\uf03d\n\uf057\nCurrent \n\uf028\n\uf029\n3\nApplying KCL :\n2\n1\n3mA\nD\nD\nI\nI\n\uf02b\n\uf03d\n\n\uf028\n\uf029\n1\n3mA 1.33mA\nD\nI\nI\n\uf03d\n\uf03d\n\uf02d\n1\n1.67 mA\nD\nI\nI\n\uf03d\n\uf03d\n\n1\nD\nI\n  and\n2\nD\nI\nare greater than zero.  Our whole assumption is correct.\nSince\nHence the correct answer is 1.67.",
+  "question_text": "Question 60  \n \n \n[Analog Electronics : Diode Family]\nIn the given circuit, the diodes are ideal.  The current \nl\n  through the diode \n1\nD\n  in miliamperes is ________ \n(rounded off to 2 decimal places).\n\nPAGE\n70\n",
+  "answer_text": "1.64 to 1.70 \nSol. \nGiven circuit is shown below.\nCase 1 :\n(i) \nAssume both diodes \n1\nD\n and \n2\nD\n  are ON.\n2\nD\nI\n should be greater than zero from \np\n  to \nn\n .\n1\nD\nI\n and\n(ii) For both diode to be ON.\nApplying nodal analysis at node \nx\n.\nx\nx\nx\nV\nV\nV\n\uf02d\n\uf02d\n\uf02b\n\uf02b\n\uf03d\n10\n3\n0\n1k\u03a9\n1k\u03a9\n1k\u03a9\n3\n13\n0\nx\nV\n \uf02d\n\uf03d\n\nPAGE\n71\n\n13\n4.33 volt\n3\nx\nV\n \uf03d\n\uf03d\nCurrent flowing diode \n2\nD\n  is\n2\nD\nI\n.\nV\nI\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n3\n4.33\n3\n1 k\u03a9\n1 k\u03a9\nx\nD\n\n2\n2\n1.33mA\nD\nI\n\uf03d\n\n3\n3 mA\n1\nI\nk\n\uf03d\n\uf03d\n\uf057\nCurrent \n\uf028\n\uf029\n3\nApplying KCL :\n2\n1\n3mA\nD\nD\nI\nI\n\uf02b\n\uf03d\n\n\uf028\n\uf029\n1\n3mA 1.33mA\nD\nI\nI\n\uf03d\n\uf03d\n\uf02d\n1\n1.67 mA\nD\nI\nI\n\uf03d\n\uf03d\n\n1\nD\nI\n  and\n2\nD\nI\nare greater than zero.  Our whole assumption is correct.\nSince\nHence the correct answer is 1.67.",
+  "explanation_text": ""
+}

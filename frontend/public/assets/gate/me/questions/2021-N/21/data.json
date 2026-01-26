@@ -1,0 +1,11 @@
+{
+  "id": "21",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 21\n \n \nA steel cubic block of side 200 mm is subjected to hydrostatic pressure of 250 N/mm\n2\n. The elastic modulus \nis \n5\n2\n2 10 N/mm\n\u00d7\n and Poisson\u2019s ratio is 0.3 for steel. The side of the block is reduced by ________ mm.\n(round off to two decimal places).\nStrength of Material (Volumetric Strain) \n \nAns. \n0.1 \n \nSol.\n \nGiven : \n5\n2\n2 10 N/mm\nE\n =\n\u00d7\n\b\n = 250 MPa\n200 mm\n3 (1 2 )\nE\nK\n=\n\u2212\u03bc\n5\n5\n2\n2 10\n1.67 10 N/mm\n3(1\n2 0.3)\nk\n\u00d7\n=\n=\n\u00d7\n\u2212\u00d7\n\nWe can take as\n3\n5\n250\n1.497 10\n1.67 10\nb\nv\nv\nk\n\u2212\n\u03c3\n=\n= \u03b5 =\n=\n\u00d7\n\u03b5\n\u00d7\n\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n23\n\nv\nV\nV\n\u03b4\n\u03b5 =\nf\nv\nV\nV\nV\n=\n\u2212\n\u22c5\u03b5\n3\n3\n3\n3\n(L )\n200\n200\n1.497 10\n\u2212\n=\n\u2212\n\u00d7\n\u00d7\n'\n199.9mm\nL\n =\n'\n200 199.9\n0.1mm\nL\nL\nL\n\u03b4 =\n\u2212\n=\n\u2212\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

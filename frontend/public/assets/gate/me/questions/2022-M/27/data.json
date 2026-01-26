@@ -1,0 +1,11 @@
+{
+  "id": "27",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 27\nAn L-shaped elastic member \nABC\n with slender arms \nAB \nand \nBC\n of uniform cross-section\n \nis clamped at \nend \nA\n and connected to a pin at end \nC\n. The pin remains in\n \ncontinuous contact with and is constrained to\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n27\n\nmove in a smooth horizontal slot. The\n \nsection modulus of the member is same in both the arms. The end \nC\n is subjected to\n \na horizontal force \nP \nand all the deflections are in the plane of the figure. Given the\n \nlength \nAB\n is 4\n\ud835\udc4e\n and length \nBC\n is \n\ud835\udc4e\n, the magnitude and direction of the normal force\n \non the pin from the slot, \nrespectively, are\n4 \na\nB\nA\na\nP\n(A) 3\n\ud835\udc43\n/8, and downwards  \n(B) 5\n\ud835\udc43\n/8, and upwards\nC\n(C) \n\ud835\udc43\n/4, and downwards  \n(D) 3\n\ud835\udc43\n/4, and upwards",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n4 a\nA\nB\na\nP\nDeflection in x-direction due to load P \nDeflection in y-direction due to load P\n\n\n2\n3\n(4 )\n2\nPa\na\nC\nEI\n\uf044\n\uf03d\n(4 )\n3\nF\na\nC\nEI\n\uf044\n\uf03d\n\n1\n2\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n28\n\n3\n3\n8\nPa\nC\nEI\n\uf044\n\uf03d\n \n \n\u2026 (i)\nFa\nC\nEI\n\uf044\n\uf03d\n \n \n \n\u2026 (ii)\n64\n\n1\n2\n3\nFrom equation (i) and (ii)\n\uf0b4\n\uf03d\n3\n3\n8\n64\n3\nPa\na\nF\nEI\nEI\n\n3\nP\nF\n \uf03d\n downward.\n8\nHence, the correct option is (A)."
+}

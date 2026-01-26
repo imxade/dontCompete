@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 65 \n \n  \n[Geomatics Engineering : Levelling]\n \n \nDifferential levelling is carried out from point P (BM: +200.000 m) to point R. The readings taken are \ngiven in the table.\nPoints \nStaff readings (m) \nRemarks \nBack Sight \nFore Sight \nP \n( )2.050\n\uf02d\n \n \nBM: 200.000 m\n\uf02b\nQ \n1.050 \n0.950 \nQ is a change point\nR \n \n( )1.655\n\uf02d\nReduced Level (in meters) of the point \nR\n is _____ (rounded off to 3 decimal places). \nAns. 199.704 to 199.706\n\nPAGE\n58\n",
+  "answer_text": "",
+  "explanation_text": "Sol.\nR\nP\n1.05\n1.655\n2.05\n0.95\n200m\nQ\nDatum\n\nUsing go through line (starting from \nP\n)\n2.05 (1.05 0.95) 1.655\n0.295\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf03d\uf02d\n(Means \nR\n is 0.295 lower than \nP\n)\n\uf05c\n \n200\n0.295\n199.705\nRLof R\n \uf03d\n\uf02d\n\uf03d\n\uf076\uf076\uf076\uf076\n"
+}

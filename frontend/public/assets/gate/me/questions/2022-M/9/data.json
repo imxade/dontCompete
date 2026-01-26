@@ -1,0 +1,11 @@
+{
+  "id": "9",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 9\nA CNC worktable is driven in a linear direction by a lead screw connected\n \ndirectly to a stepper motor. \nThe pitch of the lead screw is 5 mm. The stepper\n \nmotor completes one full revolution upon receiving 600 \npulses. If the worktable\n \nspeed is 5 m/minute and there is no missed pulse, then the pulse rate being\n \nreceived \nby the stepper motor is\n(A) 20 kHz \n(B) 10 kHz \n(C) 3 kHz \n(D) 15 kHz",
+  "answer_text": "(B)",
+  "explanation_text": "Sol.\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n15\n\n\n1\nBLU\n600\nPitch\n\uf0b4\n\uf03d\n5 mm\nBLU\n600\n\uf03d\n\uf05c\n  \n5 mm\n1 pulse\n600\n\uf0ae\nOr,  \n1 mm\n1\n600 pulse\n5/ 600\n5\n\uf0ae\n\uf03d\nmm\n600 5000 Pulse\n5000 min\n5\nmin\n\uf0b4\n\uf0ae\n600 5000\n1 pulse/sec\n5\n60\n\uf0b4\n\uf03d\n\uf0b4\n10,000 Hz\n10 kHz\n\uf03d\n\uf03d\nHence, the correct option is (B)."
+}

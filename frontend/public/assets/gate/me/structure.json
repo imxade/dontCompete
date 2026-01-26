@@ -1,0 +1,1064 @@
+{
+  "stream": "me",
+  "stream_code": "mechanical-engineering",
+  "subjects": [
+    {
+      "name": "engineering mathematic",
+      "id": "me_subj_1",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "linear algebra",
+          "id": "me_subj_1_topic_1",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2022-M/5/"
+          ]
+        },
+        {
+          "name": "calculus",
+          "id": "me_subj_1_topic_2",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": []
+        },
+        {
+          "name": "differential equation",
+          "id": "me_subj_1_topic_3",
+          "slug": "differential-equation",
+          "md_path": "engineering-mathematic/differential-equation.md",
+          "questions": [
+            "questions/2021-M/38/",
+            "questions/2021-M/55/",
+            "questions/2021-N/2/",
+            "questions/2023/36/"
+          ]
+        },
+        {
+          "name": "multiple integral",
+          "id": "me_subj_1_topic_4",
+          "slug": "multiple-integral",
+          "md_path": "engineering-mathematic/multiple-integral.md",
+          "questions": [
+            "questions/2021-N/28/"
+          ]
+        },
+        {
+          "name": "cutting force",
+          "id": "me_subj_1_topic_5",
+          "slug": "cutting-force",
+          "md_path": "engineering-mathematic/cutting-force.md",
+          "questions": [
+            "questions/2021-N/5/"
+          ]
+        },
+        {
+          "name": "definite integral",
+          "id": "me_subj_1_topic_6",
+          "slug": "definite-integral",
+          "md_path": "engineering-mathematic/definite-integral.md",
+          "questions": [
+            "questions/2021-N/10/"
+          ]
+        },
+        {
+          "name": "fourier serie",
+          "id": "me_subj_1_topic_7",
+          "slug": "fourier-serie",
+          "md_path": "engineering-mathematic/fourier-serie.md",
+          "questions": [
+            "questions/2021-N/55/"
+          ]
+        },
+        {
+          "name": "matrix algebra",
+          "id": "me_subj_1_topic_8",
+          "slug": "matrix-algebra",
+          "md_path": "engineering-mathematic/matrix-algebra.md",
+          "questions": [
+            "questions/2021-N/36/"
+          ]
+        },
+        {
+          "name": "vector analysis",
+          "id": "me_subj_1_topic_9",
+          "slug": "vector-analysis",
+          "md_path": "engineering-mathematic/vector-analysis.md",
+          "questions": [
+            "questions/2021-N/26/"
+          ]
+        },
+        {
+          "name": "heat transfer",
+          "id": "me_subj_1_topic_10",
+          "slug": "heat-transfer",
+          "md_path": "engineering-mathematic/heat-transfer.md",
+          "questions": [
+            "questions/2021-M/51/"
+          ]
+        },
+        {
+          "name": "probability and statistic",
+          "id": "me_subj_1_topic_11",
+          "slug": "probability-and-statistic",
+          "md_path": "engineering-mathematic/probability-and-statistic.md",
+          "questions": [
+            "questions/2021-M/48/",
+            "questions/2022-M/37/"
+          ]
+        },
+        {
+          "name": "complex variable",
+          "id": "me_subj_1_topic_12",
+          "slug": "complex-variable",
+          "md_path": "engineering-mathematic/complex-variable.md",
+          "questions": [
+            "questions/2021-M/45/"
+          ]
+        },
+        {
+          "name": "vector operation",
+          "id": "me_subj_1_topic_13",
+          "slug": "vector-operation",
+          "md_path": "engineering-mathematic/vector-operation.md",
+          "questions": [
+            "questions/2022-M/38/"
+          ]
+        },
+        {
+          "name": "vector calculus",
+          "id": "me_subj_1_topic_14",
+          "slug": "vector-calculus",
+          "md_path": "engineering-mathematic/vector-calculus.md",
+          "questions": [
+            "questions/2022-M/3/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "applied mechanics and design",
+      "id": "me_subj_2",
+      "slug": "applied-mechanics-and-design",
+      "topics": [
+        {
+          "name": "engineering mechanic",
+          "id": "me_subj_2_topic_1",
+          "slug": "engineering-mechanic",
+          "md_path": "applied-mechanics-and-design/engineering-mechanic.md",
+          "questions": [
+            "questions/2022-M/29/",
+            "questions/2022-M/6/",
+            "questions/2023/58/",
+            "questions/2023/59/"
+          ]
+        },
+        {
+          "name": "mechanics of material",
+          "id": "me_subj_2_topic_2",
+          "slug": "mechanics-of-material",
+          "md_path": "applied-mechanics-and-design/mechanics-of-material.md",
+          "questions": [
+            "questions/2022-M/10/",
+            "questions/2022-M/30/",
+            "questions/2022-M/42/",
+            "questions/2023/40/"
+          ]
+        },
+        {
+          "name": "theory of machine",
+          "id": "me_subj_2_topic_3",
+          "slug": "theory-of-machine",
+          "md_path": "applied-mechanics-and-design/theory-of-machine.md",
+          "questions": []
+        },
+        {
+          "name": "vibration",
+          "id": "me_subj_2_topic_4",
+          "slug": "vibration",
+          "md_path": "applied-mechanics-and-design/vibration.md",
+          "questions": []
+        },
+        {
+          "name": "kinematics and dynamics of rigid bodies in plane motion",
+          "id": "me_subj_2_topic_5",
+          "slug": "kinematics-and-dynamics-of-rigid-bodies-in-plane-motion",
+          "md_path": "applied-mechanics-and-design/kinematics-and-dynamics-of-rigid-bodies-in-plane-motion.md",
+          "questions": [
+            "questions/2021-N/1/"
+          ]
+        },
+        {
+          "name": "dynamics and vibration analysis",
+          "id": "me_subj_2_topic_6",
+          "slug": "dynamics-and-vibration-analysis",
+          "md_path": "applied-mechanics-and-design/dynamics-and-vibration-analysis.md",
+          "questions": [
+            "questions/2021-N/11/"
+          ]
+        },
+        {
+          "name": "machine elements and kinematic",
+          "id": "me_subj_2_topic_7",
+          "slug": "machine-elements-and-kinematic",
+          "md_path": "applied-mechanics-and-design/machine-elements-and-kinematic.md",
+          "questions": [
+            "questions/2021-M/47/"
+          ]
+        },
+        {
+          "name": "machine design",
+          "id": "me_subj_2_topic_8",
+          "slug": "machine-design",
+          "md_path": "applied-mechanics-and-design/machine-design.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "materials manufacturing and industrial engineering",
+      "id": "me_subj_3",
+      "slug": "materials-manufacturing-and-industrial-engineering",
+      "topics": [
+        {
+          "name": "casting forming and joining processe",
+          "id": "me_subj_3_topic_1",
+          "slug": "casting-forming-and-joining-processe",
+          "md_path": "materials-manufacturing-and-industrial-engineering/casting-forming-and-joining-processe.md",
+          "questions": []
+        },
+        {
+          "name": "machining and machine tool operation",
+          "id": "me_subj_3_topic_2",
+          "slug": "machining-and-machine-tool-operation",
+          "md_path": "materials-manufacturing-and-industrial-engineering/machining-and-machine-tool-operation.md",
+          "questions": [
+            "questions/2022-M/44/"
+          ]
+        },
+        {
+          "name": "metrology and inspection",
+          "id": "me_subj_3_topic_3",
+          "slug": "metrology-and-inspection",
+          "md_path": "materials-manufacturing-and-industrial-engineering/metrology-and-inspection.md",
+          "questions": [
+            "questions/2023/54/"
+          ]
+        },
+        {
+          "name": "computer integrated manufacturing",
+          "id": "me_subj_3_topic_4",
+          "slug": "computer-integrated-manufacturing",
+          "md_path": "materials-manufacturing-and-industrial-engineering/computer-integrated-manufacturing.md",
+          "questions": []
+        },
+        {
+          "name": "production planning and control",
+          "id": "me_subj_3_topic_5",
+          "slug": "production-planning-and-control",
+          "md_path": "materials-manufacturing-and-industrial-engineering/production-planning-and-control.md",
+          "questions": []
+        },
+        {
+          "name": "inventory control",
+          "id": "me_subj_3_topic_6",
+          "slug": "inventory-control",
+          "md_path": "materials-manufacturing-and-industrial-engineering/inventory-control.md",
+          "questions": [
+            "questions/2022-M/12/"
+          ]
+        },
+        {
+          "name": "operations research",
+          "id": "me_subj_3_topic_7",
+          "slug": "operations-research",
+          "md_path": "materials-manufacturing-and-industrial-engineering/operations-research.md",
+          "questions": []
+        },
+        {
+          "name": "engineering material",
+          "id": "me_subj_3_topic_8",
+          "slug": "engineering-material",
+          "md_path": "materials-manufacturing-and-industrial-engineering/engineering-material.md",
+          "questions": [
+            "questions/2022-M/31/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fluid mechanics and thermal science",
+      "id": "me_subj_4",
+      "slug": "fluid-mechanics-and-thermal-science",
+      "topics": [
+        {
+          "name": "fluid mechanic",
+          "id": "me_subj_4_topic_1",
+          "slug": "fluid-mechanic",
+          "md_path": "fluid-mechanics-and-thermal-science/fluid-mechanic.md",
+          "questions": []
+        },
+        {
+          "name": "heat transfer",
+          "id": "me_subj_4_topic_2",
+          "slug": "heat-transfer",
+          "md_path": "fluid-mechanics-and-thermal-science/heat-transfer.md",
+          "questions": [
+            "questions/2021-M/34/",
+            "questions/2021-N/6/",
+            "questions/2022-M/35/",
+            "questions/2022-M/50/",
+            "questions/2022-M/54/"
+          ]
+        },
+        {
+          "name": "thermodynamic",
+          "id": "me_subj_4_topic_3",
+          "slug": "thermodynamic",
+          "md_path": "fluid-mechanics-and-thermal-science/thermodynamic.md",
+          "questions": [
+            "questions/2022-M/14/",
+            "questions/2022-M/15/",
+            "questions/2022-M/17/",
+            "questions/2022-M/24/",
+            "questions/2023/42/"
+          ]
+        },
+        {
+          "name": "turbomachinery",
+          "id": "me_subj_4_topic_4",
+          "slug": "turbomachinery",
+          "md_path": "fluid-mechanics-and-thermal-science/turbomachinery.md",
+          "questions": [
+            "questions/2021-N/23/"
+          ]
+        },
+        {
+          "name": "fluid flow",
+          "id": "me_subj_4_topic_5",
+          "slug": "fluid-flow",
+          "md_path": "fluid-mechanics-and-thermal-science/fluid-flow.md",
+          "questions": [
+            "questions/2021-N/48/"
+          ]
+        },
+        {
+          "name": "applications of fluid mechanic",
+          "id": "me_subj_4_topic_6",
+          "slug": "applications-of-fluid-mechanic",
+          "md_path": "fluid-mechanics-and-thermal-science/applications-of-fluid-mechanic.md",
+          "questions": [
+            "questions/2021-M/43/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "me_subj_5",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "verbal ability",
+          "id": "me_subj_5_topic_1",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2022-N/6/",
+            "questions/2023/1/"
+          ]
+        },
+        {
+          "name": "numerical ability",
+          "id": "me_subj_5_topic_2",
+          "slug": "numerical-ability",
+          "md_path": "general-aptitude/numerical-ability.md",
+          "questions": [
+            "questions/2022-N/8/"
+          ]
+        },
+        {
+          "name": "spatial aptitude",
+          "id": "me_subj_5_topic_3",
+          "slug": "spatial-aptitude",
+          "md_path": "general-aptitude/spatial-aptitude.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "mechanical engineering",
+      "id": "me_subj_6",
+      "slug": "mechanical-engineering",
+      "topics": [
+        {
+          "name": "rotational mechanics and dynamic",
+          "id": "me_subj_6_topic_1",
+          "slug": "rotational-mechanics-and-dynamic",
+          "md_path": "mechanical-engineering/rotational-mechanics-and-dynamic.md",
+          "questions": [
+            "questions/2022-N/43/"
+          ]
+        },
+        {
+          "name": "forces and stresses on string",
+          "id": "me_subj_6_topic_2",
+          "slug": "forces-and-stresses-on-string",
+          "md_path": "mechanical-engineering/forces-and-stresses-on-string.md",
+          "questions": [
+            "questions/2022-N/41/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mechanical measurement and meterology",
+      "id": "me_subj_7",
+      "slug": "mechanical-measurement-and-meterology",
+      "topics": [
+        {
+          "name": "sine bar",
+          "id": "me_subj_7_topic_1",
+          "slug": "sine-bar",
+          "md_path": "mechanical-measurement-and-meterology/sine-bar.md",
+          "questions": [
+            "questions/2021-N/24/",
+            "questions/2021-N/54/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "me_subj_8",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "binomial distribution",
+          "id": "me_subj_8_topic_1",
+          "slug": "binomial-distribution",
+          "md_path": "probability-and-statistic/binomial-distribution.md",
+          "questions": [
+            "questions/2021-N/49/"
+          ]
+        },
+        {
+          "name": "random variables and distribution",
+          "id": "me_subj_8_topic_2",
+          "slug": "random-variables-and-distribution",
+          "md_path": "probability-and-statistic/random-variables-and-distribution.md",
+          "questions": [
+            "questions/2021-M/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "manufacturing science and engineering processe",
+      "id": "me_subj_9",
+      "slug": "manufacturing-science-and-engineering-processe",
+      "topics": [
+        {
+          "name": "grinding operation",
+          "id": "me_subj_9_topic_1",
+          "slug": "grinding-operation",
+          "md_path": "manufacturing-science-and-engineering-processe/grinding-operation.md",
+          "questions": [
+            "questions/2021-N/40/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "theory of machine",
+      "id": "me_subj_10",
+      "slug": "theory-of-machine",
+      "topics": [
+        {
+          "name": "instantaneous centres in mechanism",
+          "id": "me_subj_10_topic_1",
+          "slug": "instantaneous-centres-in-mechanism",
+          "md_path": "theory-of-machine/instantaneous-centres-in-mechanism.md",
+          "questions": [
+            "questions/2021-N/7/"
+          ]
+        },
+        {
+          "name": "flywheel design",
+          "id": "me_subj_10_topic_2",
+          "slug": "flywheel-design",
+          "md_path": "theory-of-machine/flywheel-design.md",
+          "questions": [
+            "questions/2021-N/22/"
+          ]
+        },
+        {
+          "name": "displacement analysis",
+          "id": "me_subj_10_topic_3",
+          "slug": "displacement-analysis",
+          "md_path": "theory-of-machine/displacement-analysis.md",
+          "questions": [
+            "questions/2022-M/28/"
+          ]
+        },
+        {
+          "name": "gears and gear train",
+          "id": "me_subj_10_topic_4",
+          "slug": "gears-and-gear-train",
+          "md_path": "theory-of-machine/gears-and-gear-train.md",
+          "questions": [
+            "questions/2022-M/43/"
+          ]
+        },
+        {
+          "name": "gyroscopes and rotating",
+          "id": "me_subj_10_topic_5",
+          "slug": "gyroscopes-and-rotating",
+          "md_path": "theory-of-machine/gyroscopes-and-rotating.md",
+          "questions": [
+            "questions/2022-M/21/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "material and manufacturing processe",
+      "id": "me_subj_11",
+      "slug": "material-and-manufacturing-processe",
+      "topics": [
+        {
+          "name": "solidification",
+          "id": "me_subj_11_topic_1",
+          "slug": "solidification",
+          "md_path": "material-and-manufacturing-processe/solidification.md",
+          "questions": [
+            "questions/2021-N/42/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "machine design",
+      "id": "me_subj_12",
+      "slug": "machine-design",
+      "topics": [
+        {
+          "name": "fatigue analysis",
+          "id": "me_subj_12_topic_1",
+          "slug": "fatigue-analysis",
+          "md_path": "machine-design/fatigue-analysis.md",
+          "questions": [
+            "questions/2021-N/18/"
+          ]
+        },
+        {
+          "name": "theory of failure",
+          "id": "me_subj_12_topic_2",
+          "slug": "theory-of-failure",
+          "md_path": "machine-design/theory-of-failure.md",
+          "questions": [
+            "questions/2021-N/43/"
+          ]
+        },
+        {
+          "name": "design for static and dynamic loading",
+          "id": "me_subj_12_topic_3",
+          "slug": "design-for-static-and-dynamic-loading",
+          "md_path": "machine-design/design-for-static-and-dynamic-loading.md",
+          "questions": [
+            "questions/2022-M/8/"
+          ]
+        },
+        {
+          "name": "welding",
+          "id": "me_subj_12_topic_4",
+          "slug": "welding",
+          "md_path": "machine-design/welding.md",
+          "questions": [
+            "questions/2022-M/47/"
+          ]
+        },
+        {
+          "name": "fatigue strength and s n diagram",
+          "id": "me_subj_12_topic_5",
+          "slug": "fatigue-strength-and-s-n-diagram",
+          "md_path": "machine-design/fatigue-strength-and-s-n-diagram.md",
+          "questions": [
+            "questions/2022-M/19/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strength of materials theory of column",
+      "id": "me_subj_13",
+      "slug": "strength-of-materials-theory-of-column",
+      "topics": [
+        {
+          "name": "critical buckling load",
+          "id": "me_subj_13_topic_1",
+          "slug": "critical-buckling-load",
+          "md_path": "strength-of-materials-theory-of-column/critical-buckling-load.md",
+          "questions": [
+            "questions/2021-N/9/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production engineering",
+      "id": "me_subj_14",
+      "slug": "production-engineering",
+      "topics": [
+        {
+          "name": "non conventional machining method",
+          "id": "me_subj_14_topic_1",
+          "slug": "non-conventional-machining-method",
+          "md_path": "production-engineering/non-conventional-machining-method.md",
+          "questions": [
+            "questions/2021-N/38/"
+          ]
+        },
+        {
+          "name": "powder metallurgy",
+          "id": "me_subj_14_topic_2",
+          "slug": "powder-metallurgy",
+          "md_path": "production-engineering/powder-metallurgy.md",
+          "questions": [
+            "questions/2021-N/19/"
+          ]
+        },
+        {
+          "name": "grinding",
+          "id": "me_subj_14_topic_3",
+          "slug": "grinding",
+          "md_path": "production-engineering/grinding.md",
+          "questions": [
+            "questions/2021-M/26/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "material science",
+      "id": "me_subj_15",
+      "slug": "material-science",
+      "topics": [
+        {
+          "name": "structure of material",
+          "id": "me_subj_15_topic_1",
+          "slug": "structure-of-material",
+          "md_path": "material-science/structure-of-material.md",
+          "questions": [
+            "questions/2021-N/25/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "refrigeration and air conditioning",
+      "id": "me_subj_16",
+      "slug": "refrigeration-and-air-conditioning",
+      "topics": [
+        {
+          "name": "vapor compression refrigeration",
+          "id": "me_subj_16_topic_1",
+          "slug": "vapor-compression-refrigeration",
+          "md_path": "refrigeration-and-air-conditioning/vapor-compression-refrigeration.md",
+          "questions": [
+            "questions/2021-N/53/"
+          ]
+        },
+        {
+          "name": "psychrometry",
+          "id": "me_subj_16_topic_2",
+          "slug": "psychrometry",
+          "md_path": "refrigeration-and-air-conditioning/psychrometry.md",
+          "questions": [
+            "questions/2021-M/9/",
+            "questions/2021-N/34/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strength of material",
+      "id": "me_subj_17",
+      "slug": "strength-of-material",
+      "topics": [
+        {
+          "name": "volumetric strain",
+          "id": "me_subj_17_topic_1",
+          "slug": "volumetric-strain",
+          "md_path": "strength-of-material/volumetric-strain.md",
+          "questions": [
+            "questions/2021-N/21/"
+          ]
+        },
+        {
+          "name": "bending stresse",
+          "id": "me_subj_17_topic_2",
+          "slug": "bending-stresse",
+          "md_path": "strength-of-material/bending-stresse.md",
+          "questions": [
+            "questions/2021-M/11/",
+            "questions/2021-M/32/"
+          ]
+        },
+        {
+          "name": "deformation due to self weight",
+          "id": "me_subj_17_topic_3",
+          "slug": "deformation-due-to-self-weight",
+          "md_path": "strength-of-material/deformation-due-to-self-weight.md",
+          "questions": [
+            "questions/2021-M/19/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "thermodynamic",
+      "id": "me_subj_18",
+      "slug": "thermodynamic",
+      "topics": [
+        {
+          "name": "properties of pure substances behavior of ideal and real gases zeroth and first laws of thermodynamic",
+          "id": "me_subj_18_topic_1",
+          "slug": "properties-of-pure-substances-behavior-of-ideal-and-real-gases-zeroth-and-first",
+          "md_path": "thermodynamic/properties-of-pure-substances-behavior-of-ideal-and-real-gases-zeroth-and-first.md",
+          "questions": [
+            "questions/2021-N/3/"
+          ]
+        },
+        {
+          "name": "application of thermodynamic",
+          "id": "me_subj_18_topic_2",
+          "slug": "application-of-thermodynamic",
+          "md_path": "thermodynamic/application-of-thermodynamic.md",
+          "questions": [
+            "questions/2022-M/20/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "industrial engineering production planning and control",
+      "id": "me_subj_19",
+      "slug": "industrial-engineering-production-planning-and-control",
+      "topics": [
+        {
+          "name": "forecasting model",
+          "id": "me_subj_19_topic_1",
+          "slug": "forecasting-model",
+          "md_path": "industrial-engineering-production-planning-and-control/forecasting-model.md",
+          "questions": [
+            "questions/2021-N/50/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fluid mechanic",
+      "id": "me_subj_20",
+      "slug": "fluid-mechanic",
+      "topics": [
+        {
+          "name": "pressure measurement",
+          "id": "me_subj_20_topic_1",
+          "slug": "pressure-measurement",
+          "md_path": "fluid-mechanic/pressure-measurement.md",
+          "questions": [
+            "questions/2021-M/31/",
+            "questions/2021-M/33/"
+          ]
+        },
+        {
+          "name": "rotation and torque",
+          "id": "me_subj_20_topic_2",
+          "slug": "rotation-and-torque",
+          "md_path": "fluid-mechanic/rotation-and-torque.md",
+          "questions": [
+            "questions/2022-M/41/"
+          ]
+        },
+        {
+          "name": "fluid properties and kinematic",
+          "id": "me_subj_20_topic_3",
+          "slug": "fluid-properties-and-kinematic",
+          "md_path": "fluid-mechanic/fluid-properties-and-kinematic.md",
+          "questions": [
+            "questions/2022-M/53/"
+          ]
+        },
+        {
+          "name": "compressible flow",
+          "id": "me_subj_20_topic_4",
+          "slug": "compressible-flow",
+          "md_path": "fluid-mechanic/compressible-flow.md",
+          "questions": [
+            "questions/2022-M/34/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mechanics of material",
+      "id": "me_subj_21",
+      "slug": "mechanics-of-material",
+      "topics": [
+        {
+          "name": "axial loading",
+          "id": "me_subj_21_topic_1",
+          "slug": "axial-loading",
+          "md_path": "mechanics-of-material/axial-loading.md",
+          "questions": [
+            "questions/2021-M/39/"
+          ]
+        },
+        {
+          "name": "stress and strain",
+          "id": "me_subj_21_topic_2",
+          "slug": "stress-and-strain",
+          "md_path": "mechanics-of-material/stress-and-strain.md",
+          "questions": [
+            "questions/2022-M/16/"
+          ]
+        },
+        {
+          "name": "deflection",
+          "id": "me_subj_21_topic_3",
+          "slug": "deflection",
+          "md_path": "mechanics-of-material/deflection.md",
+          "questions": [
+            "questions/2021-M/6/"
+          ]
+        },
+        {
+          "name": "stress analysis",
+          "id": "me_subj_21_topic_4",
+          "slug": "stress-analysis",
+          "md_path": "mechanics-of-material/stress-analysis.md",
+          "questions": [
+            "questions/2022-M/27/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "applications of thermodynamic",
+      "id": "me_subj_22",
+      "slug": "applications-of-thermodynamic",
+      "topics": [
+        {
+          "name": "thermodynamic cycle",
+          "id": "me_subj_22_topic_1",
+          "slug": "thermodynamic-cycle",
+          "md_path": "applications-of-thermodynamic/thermodynamic-cycle.md",
+          "questions": [
+            "questions/2021-M/23/"
+          ]
+        },
+        {
+          "name": "power engineering",
+          "id": "me_subj_22_topic_2",
+          "slug": "power-engineering",
+          "md_path": "applications-of-thermodynamic/power-engineering.md",
+          "questions": [
+            "questions/2021-M/20/",
+            "questions/2021-M/27/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "machining and machine tool operation",
+      "id": "me_subj_23",
+      "slug": "machining-and-machine-tool-operation",
+      "topics": [
+        {
+          "name": "cutting processe",
+          "id": "me_subj_23_topic_1",
+          "slug": "cutting-processe",
+          "md_path": "machining-and-machine-tool-operation/cutting-processe.md",
+          "questions": [
+            "questions/2021-M/53/"
+          ]
+        },
+        {
+          "name": "cutting energy",
+          "id": "me_subj_23_topic_2",
+          "slug": "cutting-energy",
+          "md_path": "machining-and-machine-tool-operation/cutting-energy.md",
+          "questions": [
+            "questions/2022-M/45/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering thermodynamic",
+      "id": "me_subj_24",
+      "slug": "engineering-thermodynamic",
+      "topics": [
+        {
+          "name": "pure substance",
+          "id": "me_subj_24_topic_1",
+          "slug": "pure-substance",
+          "md_path": "engineering-thermodynamic/pure-substance.md",
+          "questions": [
+            "questions/2021-M/35/"
+          ]
+        },
+        {
+          "name": "second law",
+          "id": "me_subj_24_topic_2",
+          "slug": "second-law",
+          "md_path": "engineering-thermodynamic/second-law.md",
+          "questions": [
+            "questions/2022-M/13/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "heat transfer",
+      "id": "me_subj_25",
+      "slug": "heat-transfer",
+      "topics": [
+        {
+          "name": "unsteady heat conduction",
+          "id": "me_subj_25_topic_1",
+          "slug": "unsteady-heat-conduction",
+          "md_path": "heat-transfer/unsteady-heat-conduction.md",
+          "questions": [
+            "questions/2021-M/21/"
+          ]
+        },
+        {
+          "name": "modes of heat transfer",
+          "id": "me_subj_25_topic_2",
+          "slug": "modes-of-heat-transfer",
+          "md_path": "heat-transfer/modes-of-heat-transfer.md",
+          "questions": [
+            "questions/2022-M/52/"
+          ]
+        },
+        {
+          "name": "radiative heat transfer",
+          "id": "me_subj_25_topic_3",
+          "slug": "radiative-heat-transfer",
+          "md_path": "heat-transfer/radiative-heat-transfer.md",
+          "questions": [
+            "questions/2022-M/25/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer integrated manufacturing",
+      "id": "me_subj_26",
+      "slug": "computer-integrated-manufacturing",
+      "topics": [
+        {
+          "name": "additive manufacturing",
+          "id": "me_subj_26_topic_1",
+          "slug": "additive-manufacturing",
+          "md_path": "computer-integrated-manufacturing/additive-manufacturing.md",
+          "questions": [
+            "questions/2022-M/18/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production planning and control",
+      "id": "me_subj_27",
+      "slug": "production-planning-and-control",
+      "topics": [
+        {
+          "name": "scheduling",
+          "id": "me_subj_27_topic_1",
+          "slug": "scheduling",
+          "md_path": "production-planning-and-control/scheduling.md",
+          "questions": [
+            "questions/2022-M/48/"
+          ]
+        },
+        {
+          "name": "project scheduling",
+          "id": "me_subj_27_topic_2",
+          "slug": "project-scheduling",
+          "md_path": "production-planning-and-control/project-scheduling.md",
+          "questions": [
+            "questions/2022-M/32/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calculus",
+      "id": "me_subj_28",
+      "slug": "calculus",
+      "topics": [
+        {
+          "name": "limit continuity and differentiability",
+          "id": "me_subj_28_topic_1",
+          "slug": "limit-continuity-and-differentiability",
+          "md_path": "calculus/limit-continuity-and-differentiability.md",
+          "questions": [
+            "questions/2022-M/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "operations research",
+      "id": "me_subj_29",
+      "slug": "operations-research",
+      "topics": [
+        {
+          "name": "linear programming and optimization method",
+          "id": "me_subj_29_topic_1",
+          "slug": "linear-programming-and-optimization-method",
+          "md_path": "operations-research/linear-programming-and-optimization-method.md",
+          "questions": [
+            "questions/2022-M/11/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mechanic",
+      "id": "me_subj_30",
+      "slug": "engineering-mechanic",
+      "topics": [
+        {
+          "name": "kinematics and dynamics of rigid bodies in plane motion",
+          "id": "me_subj_30_topic_1",
+          "slug": "kinematics-and-dynamics-of-rigid-bodies-in-plane-motion",
+          "md_path": "engineering-mechanic/kinematics-and-dynamics-of-rigid-bodies-in-plane-motion.md",
+          "questions": [
+            "questions/2022-M/22/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "numerical method",
+      "id": "me_subj_31",
+      "slug": "numerical-method",
+      "topics": [
+        {
+          "name": "solutions of linear algebraic equation",
+          "id": "me_subj_31_topic_1",
+          "slug": "solutions-of-linear-algebraic-equation",
+          "md_path": "numerical-method/solutions-of-linear-algebraic-equation.md",
+          "questions": [
+            "questions/2022-M/36/"
+          ]
+        }
+      ]
+    }
+  ]
+}

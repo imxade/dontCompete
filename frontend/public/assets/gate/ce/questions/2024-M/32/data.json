@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "NAT",
+  "key": "",
+  "question_text": "Question 32\n  \n \n[Engineering Mathematics : Numerical Methods] \n \nConsider the data of \n( )\nf x\n  given in the table.\ni\n  \n0 \n1 \n2\ni\nx\n  \n1 \n2 \n3\n\uf028\uf029\ni\nf x\n \n0 \n0.3010 0.4771\nThe value of \n\uf028\n\uf029\n1.5\nf\n estimated using second-order Newton\u2019s interpolation formula is __________\n(rounded off to 2 decimal places). \nAns. 0.16 to 0.18",
+  "answer_text": "",
+  "explanation_text": "Sol. \nIt is based on 2\nnd\n order interpolation\ny\ny\nf(x)\ny\nx\nx\nx\nx\n\uf02d\n\uf03d\n\uf02b\n\uf02d\n\uf02d\n\uf028\n\uf029\n2\n1\n1\n1\n2\n1\n\nPAGE\n22\n\n\uf02d\n\uf02d\n\uf02d\n\uf02d\n\uf02d\n\uf02d\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf02d\n\uf02d\n\uf02d\ny\ny\ny\ny\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\n3\n2\n2\n1\ny\ny\nf(x)\ny\nx\nx\nx\nx\n\uf028\n\uf029\n\uf028\n\uf029\uf028\n\uf029\n3\n2\n2\n1\n2\n1\n1\n1\n1\n2\n2\n1\n3\n1\nHere,\n0\n0.3010\n0.4771\n1\n2\n3\ny\ny\ny\nx\nx\nx\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n\uf03d\n1\n2\n3\n\n1\n2\n2\n\uf02d\n\uf02d\n\uf0e9\n\uf0f9\n\uf02d\n\uf0ea\n\uf0fa\n\uf02d\n\uf0e9\n\uf0f9\n\uf02d\n\uf02d\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf02d\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf02d\n\uf02d\n\uf0eb\n\uf0fb\n\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\n0.4771 0.3010\n0.3010\n0\n0.3010\n0\n3\n2\n2 1\n( )\n0\n(\n1)\n(\n1)(\n2)\n2 1\n3 1\nf x\nx\nx\nx\n\n\n0.1249\nf(x)\n0.3010(\n1)\n(\n1)(\n2)\n2\nx\nx\nx\n\uf02d\n\uf0e6\n\uf0f6\n\uf03d\n\uf02d\n\uf02b\n\uf02d\n\uf02d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n0.1249\nf(x)\n0.3010(1.5 1)\n(1.5 1)(1.5\n2)\n2\n\uf02d\n\uf03d\n\uf02d\n\uf02b\n\uf02d\n\uf02d\nf(1.5)\n0.1505 0.0156\n0.1661\n\uf03d\n\uf02b\n\uf03d"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 34\nThe opposite faces of a metal slab of thickness 5 cm and thermal conductivity \n400\ud835\udc4a\ud835\udc5a\n\u221210\n\ud835\udc36\n\u22121\n are \nmaintained at \n500\n0\n\ud835\udc36\n and \n200\n0\n\ud835\udc36\n.  The area of each face is \n0.02\ud835\udc5a\n2\n.  Assume that the heat transfer is steady \nand occurs only in the direction perpendicular to the faces.  The magnitude of the heat transfer rate, in \nkW, rounded off to the nearest integer, is ________. \n \n \n[Heat Transfer, 1 Marks]\n \nAns. 48 to 48",
+  "answer_text": "",
+  "explanation_text": "Sol.           \nGiven:\n0\n500 C\n400W/mk\nK\n \uf03d\n0\n200 C\n5cm\n\nFrom Fourier law of heat conduction\n\ud835\udee5\ud835\udc47\n\ud835\udc44=\n\ud835\udc3e\ud835\udc34\n)\n(\n \n\ud835\udc3f\n\ud835\udee5\ud835\udc47= 500 \u2212200 = 300\n0\n\ud835\udc36\n\ud835\udc3f= 0.05 m\n\ud835\udc34= 0.02 m\n2\n\ud835\udc3e= 400 W/m\n0\n\ud835\udc36\n300\n\ud835\udc44=\n(\n0.05\n400\u00d70.02\n)\n = 48000 = 48 kW"
+}

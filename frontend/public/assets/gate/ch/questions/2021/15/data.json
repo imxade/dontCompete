@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.83 to 0.85",
+  "question_text": "Question 15\nThe van der Waals equation of state is given by\n2\n8\n3\n3\n1\nT\nP\nv\nv\n=\n\u2212\n\u2212\nr\nr\nr\nr\nWhen \n,\nr\nr\nP T\n  and \nr\nv\n  represent reduced pressure, reduced temperature and reduced molar volume\nrespectively. The compressibility factor at critical point \n(\n)\nc\nz\n is \n3\n8\n \n.\nIf \n3\nr\nv\n =\n and \n4\n3\nr\nT\n =\n, then the compressibility factor based on the van der Waals equation of state is\n_______. (round off to 2 decimal places)",
+  "answer_text": "0.83 to 0.85",
+  "explanation_text": "Sol. \n \n \n2\n8\n3\n3\n1\nT\nP\nV\nV\n=\n\u2212\n\u2212\nr\nr\nr\nr\nGiven, \n3\n4\n,\n,\n3\n8\n3\nc\nr\nr\nZ\nT\nV\n=\n=\n=\n4\n8\n3\n3\n3 3 1\n3\nr\nP\n\u00d7\n=\n\u2212\n\u00d7 \u2212\n2\n1\nr\nP\n =\nPV\nZ\nRT\n=\n  \n \n \n \n \n\u2026 (i)\nPV\nZ\nRT\n=\n  \n \n \n \n \n\u2026 (ii)\nc\nc\nc\nc\n\uf0e6\n\uf0f6\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\uf0e8\n\uf0f8\n=\n=\n=\nP\nV\nP\nV\nPV\nZ\nZ\nT\nZ\nT\nT\nc\nc\nr\nR\nr\nc\nr\n\nc\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n17\n\n1 3\n9\n4\n4\n3\nr\nZ\n\u00d7\n=\n=\n9\n9\n3\n27\n4\n4\n8\n32\nc\nZ\nZ\n=\n\u00d7\n=\n\u00d7\n=\n0.84\nZ\n =\n  \n \n \n \n \n \nAns."
+}

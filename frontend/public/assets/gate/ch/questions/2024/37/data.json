@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 37\n \n \n \nThe temperatures of two large parallel plates of equal emissivity are 900 K and 300 K.  a reflection \nradiation shield of low emissivity and negligible conductive resistance is placed parallelly between them.  \nThe steady-state temperature of the shield, in \n\ud835\udc3e\n, is  \n \n \n[Heat Transfer, 2 Marks] \n \n \n(A) 759 \n(B) 559 \n \n(C) 659 \n(D) 859 \nAns. \n(A)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven:\n\nPAGE\n30\n\nRadiation\n1\n2\nshield\n3\n300K\n900K\nS\nT\n\n\nSince the shield does not deliver or remove heat from the system, the heat transfer between plate (1) and \nshield mush be same as that between shield and plate (2)\n\ud835\udc5e\n\ud835\udc5e\n(\n3\u22122\n\ud835\udc34\n)\n1\u22123\n \n= (\n\ud835\udc34\n)\nT\nT\nT\nT\n\uf073\n\uf02d\n\uf073\n\uf02d\n\uf03d\n\uf02b\n\uf02d\n\uf02b\n\uf02d\n\uf065\n\uf065\n\uf065\n\uf065\n4\n4\n4\n4\n1\n3\n3\n2\n(\n)\n(\n)\n1\n1\n1\n1\n1\n1\n\n\n1\n3\n3\n2\n\ud835\udf00\n1\n = \ud835\udf00\n2\n = \ud835\udf00\n3\n \nSo denominator cancelled\n4\n \u2212\ud835\udc47\n3\n4\n = \ud835\udc47\n3\n4\n \u2212\ud835\udc47\n2\n4\n\ud835\udc47\n1\n4\n =\n4\n + \ud835\udc47\n2\n1\n4\n)\n\ud835\udc47\n3\n2\n \n(\ud835\udc47\n1\n4\n =\n2\n \n[(900)\n4\n + (300)\n4\n]\n1\n\ud835\udc47\n3\n\ud835\udc47\n3\n = 759.14\ud835\udc3e\nRemark:\n Always Put temp in kelvin"
+}

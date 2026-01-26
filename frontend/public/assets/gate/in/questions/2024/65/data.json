@@ -1,0 +1,11 @@
+{
+  "id": "65",
+  "stream": "instrumentation-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "0.130 to 0.140\n\uf02d\n\uf0e9\n\uf0b3\n\uf03d\uf0ea\nx",
+  "question_text": "Question 65\nA random variable \nX\n has a probability density function\n\nPAGE\n41\n\n\uf02d\n\uf0ec\n\uf0b3\n\uf03d\uf0ed\nx\n\uf028\uf029\n,\n0\n0,\notherwise\ne\nx\nf\nx\n\nx\n\uf0ee\nThe probability of \n2\nX\n \uf03e\n is _________ (rounded off to three decimal places). \n \n(2 Marks)",
+  "answer_text": "0.130 to 0.140\n\uf02d\n\uf0e9\n\uf0b3\n\uf03d\uf0ea\nx",
+  "explanation_text": "Sol.\n \nGiven :\n \n,\n0\n( )\ne\nx\nf\nx\n\nx\n0,\notherwise\n\uf0eb\nThe probability is given by\n\uf028\n\uf029\n\uf028\uf029\nx\nP\nX\nf\nx dx\n\uf0a5\n\uf02d\uf0a5\n\uf02d\uf0a5\uf0a3\n\uf0a3\uf0a5\uf03d\uf0f2\n\uf0a5\n\uf0a5\n\uf02d\n\uf03e\n\uf03d\n\uf03d\n\uf0f2\n\uf0f2\nHence \n\uf028\n\uf029\n2\n2\n2\n( )\nx\nx\nP X\nf\nx dx\ne dx\nx\ne\ne\ne\n\uf0a5\n\uf02d\n\uf02d\uf0a5\n\uf02d\n\uf0e9\n\uf0f9\n\uf02d\n\uf03d\n\uf03d\n\uf0ea\n\uf0fa\n\uf02d\n\uf02d\n\uf0eb\n\uf0fb\n2\n\uf028\n\uf029\n\n2\n1\n( 1)\n\uf02d\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n\uf03d\n\uf02d\n2\n2\n0\n1\n1\ne\ne\ne\n2\n\uf028\n\uf029\n\n\uf028\n\uf029\n2\n0.13533\n0.135\nP X\n \uf03e\n\uf03d\n\uf0bb\nHence, probability of \nX\n > 2 is 0.135\n\n"
+}

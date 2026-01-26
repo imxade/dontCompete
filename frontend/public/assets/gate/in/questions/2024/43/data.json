@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "instrumentation-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 43 \n \n  \n \n \n \n[Analog Electronics]\n \n \nIn the figure shown, \n1\nR\nk\n\uf03d\n\uf057\n and \n0.1\nC\nF\n\uf03d\n\uf06d\n.  For a dc gain of \n10\n\uf02d\n, the 3 dB cut-off frequency (rounded\noff to one decimal place) is \n \n \nAssume the op-amp is ideal.\n(A) 159.1 Hz \n(B) 1591.5 Hz \n \n(C) 1750.7 Hz \n(D) 175.0 Hz \nAns. \n(A) \nSol. \nGiven circuit with ideal op-amp is shown below.\n\n(i) \n1\nR\nK\n\uf03d\n\uf057\n    and   \n0.1\nC\nF\n\uf03d\n\uf06d\n(ii) dc gain = \u201310\n(iii) 3dB cut-off frequency = ?\nNote :\n This is practical integrator circuit and practical integrator circuit is more stable compare to ideal \nintegrator circuit.\nV\nV\n\uf03d\nTransfer function (T.F.) \nout\nin\n\nPAGE\n29\n\n\uf0e9\n\uf0f9\n\uf0b4\n\uf0ea\n\uf0fa\n\uf02d\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf02b\n\uf02d\n\uf0eb\n\uf0fb\n\uf03d\n\uf03d\n1\nR\nCS\nf\n1\nR\nV\nz\nCS\nV\nz\nR\nf\nout\n2\nin\n1\n\uf02d\n\uf03d\nR\nV\nf\nout\n\uf028\n\uf029\n1\n\n\uf02b\nV\nR\nSCR\nin\nf\n\uf05c\n \nFor dc gain \n\uf05b\n\uf05d\n0\ns\n \uf03d\n\uf02d\n\uf03d\uf02d\n\uf03d\nR\nR\nV\nf\nf\nout\n1\nV\nR\nK\nin\n\uf02d\n\uf03d\uf02d\n [Given]\nf\nR\n10\n1\nK\n10\nf\nR\nk\n\uf03d\n\uf057\nAs we know that practical integrator circuit is also referred as first, order low pass fitter with upper 3-dB \ncut-frequency.\n1\n2\nr\nf\nf\nf\nHz\nR C\n\uf03d\uf070\n3\n6\n1\n2\n10 10\n0.1 10\nH\nf\n\uf02d\n\uf03d\n\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n3\n10\n2\nH\nf\nHz\n\uf03d\n\uf070\n\n159.155\nH\nf\nHz\n\uf03d\nHence the correct option is (A).",
+  "answer_text": "",
+  "explanation_text": ""
+}

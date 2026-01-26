@@ -1,0 +1,11 @@
+{
+  "id": "42",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 42\n                                  \n \n \nA cast product of a particular material has dimensions, 75 mm\n\u00d7\n 125 mm \n\u00d7\n 20 mm. The total  \nsolidification time for the cast product is found to be 2.0 minutes as calculated using Chvorinov's rule \nhaving the index \n2\nn\n =\n. If under the identical casting conditions, the cast product shape is changed to a \ncylinder having diameter = 50 mm and height = 50 mm, the total solidification time will be \n______minutes(round off to the two decimal places). \n \nProduction Engineering (Casting) \n \nAns. \n2.82 \nSol.\n \nGiven : \nSlab\n3\n75 125\n20 mm\n=\n\u00d7\n\u00d7\n( )\n2 min\ns\nslab\nt\n=\nCylinder \n\uf0de\n50 mm\nd\nh\n=\n=\n2\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n=\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nd\nt\n2\n( )\n6\n( )\ns\ncylinder\n\n\nt\nV\nSA\ns\nslab\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n36\n\n2\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n=\n\uf0e6\n\uf0f6\n\u00d7\n\u00d7\n\uf0e7\n\uf0f7\n\u00d7\n+\n\u00d7\n+\n\u00d7\n\uf0e8\n\uf0f8\n50\n( )\n6\n( )\n75 125 20\n2(75 125\n20 125\n20 75\nt\ns\ncylinder\n\n\n2\nt\ns\nslab\n( )\n2.82 min\ns\ncylinder\nt\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

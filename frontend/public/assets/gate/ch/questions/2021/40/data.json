@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(A)\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n36",
+  "question_text": "Question 40\nA three dimensional velocity field is given by \n2\n5\n10\nV\nx yi\nCyj\nxyzk\n=\n+\n\u2212\n, where i, j, k are the unit vectors\nin x, y, z directions, respectively, describing a cartesian coordinate system. The coefficient C is a \nconstant. If V describes an incompressible fluid flow, the value of C is\n(A) 0 \n \n(B) 1 \n(C) 5 \n(D) -1",
+  "answer_text": "(A)\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n36",
+  "explanation_text": "Sol. \nGiven,\n2\n5\n10\nV\nx yi\ncyj\nxyzk\n=\n+\n\u2212\nFor an incompressible flow\n2\n2\n2\n0\n2\n2\n2\nU\nV\nW\nx\ny\nz\n+\n+\n=\n2\n5\n,\n,\n10\nU\nx y V\ncy W\nxyz\n=\n=\n= \u2212\n10\n10\n0\nxy\nC\nxy\n+\n\u2212\n=\nHence value of \n0\nC\n ="
+}

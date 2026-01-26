@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 16\nAmmonia nitrogen is present in a given waste water sample as the ammonium ion \n4\n(\n)\nNH\n \n+\n \n and ammonia\n3\n(\n)\nNH\n. If pH is the only deciding factor for the proportion of these two constituents, which of the\nfollowing is correct statement?\n(A) At pH below 9.25, \n3\nNH\n  will be predominant\n(B) At \n4\n7,\npH\nNH\n \n+\n=\n and \n3\nNH\n  will be found in equal measures.\n(C) At \n4\n7,\npH\nNH\n \n+\n=\n will be predominant.\n(D) At pH above 9.25, only \n4\nNH\n \n+\n \n will be present.",
+  "answer_text": "C",
+  "explanation_text": "Sol.\n \nAmmonia exist in the form of NH\n4\n+\n & NH\n3\n\u2022\n At pH < 8, all ammonia is in the form of NH\n4\n+\n\u2022\n At pH = 9.5, there are 50% NH\n3\n & 50% NH4\n4\n+\n\u2022\n At pH > 11, all ammonia is in the form of NH\n3\nHence, option (C) is correct that at pH = 7, + NH\n4\n+\n will be predominant.\nHence, the correct option is (C)."
+}

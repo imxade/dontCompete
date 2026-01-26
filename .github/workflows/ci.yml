@@ -1,8 +1,6 @@
 name: Docker CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -12,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v3
 
       - name: Build Services
         run: docker compose build
@@ -31,17 +29,9 @@ jobs:
           timeout 60s bash -c 'until curl --silent -f http://localhost:3000 > /dev/null; do echo "Waiting for frontend..."; sleep 2; done'
 
       - name: Run Playwright Tests (Frontend)
-        # Uses the official Playwright container joined to the app network
-        # Mounts the checkout workspace to /app so tests are available
-        run: |
-          docker run --rm --network gatebuster_app_network \
-          -e BASE_URL=http://frontend:3000 \
-          -v ${{ github.workspace }}/frontend:/app \
-          -w /app \
-          mcr.microsoft.com/playwright:v1.58.0-jammy \
-          /bin/sh -c "npm ci && npx playwright test"
+        run: docker compose run --rm playwright /bin/sh -c "npm ci && npx playwright test"
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: playwright-report

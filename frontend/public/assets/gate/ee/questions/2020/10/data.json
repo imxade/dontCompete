@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "electrical-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 10\nGiven a semicircle with \nO\n as the centre, as shown in the figure, the ratio \nAC\nCB\nAB\n\uf02b\n is _______.\nwhere \nAC\n , \nCB\n and \nAB\n  are chords.\nC\n\nA\nB\nO\n(A) \n3\n  \n(B) 3 \n(C) 2 \n(D) \n2",
+  "answer_text": "(D)",
+  "explanation_text": "Sol.\n \nGiven figure is as shown below\nC\n\nA\nB\nO\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n6\n\nLet \u2018r\u2019 be the radius of the semicircle\n\uf0de\n  \nAO\nOB\nOC\nr\n\uf03d\n\uf03d\n\uf03d\nUsing phythogores theorem\n2\n2\n2\nAC\nAO\nOC\n\uf03d\n\uf02b\n\n2\n2\n2\n2\n2\nAC\nr\nr\nr\n\uf03d\n\uf02b\n\uf03d\n\uf0de\n\uf0de\n  \n2\nAC\nr\n\uf03d\nSimilarly \n2\nBC\nr\n\uf03d\n\uf05c\n  \n2\n2\n2\nAC\nCB\nr\nr\nr\nAB\n\uf02b\n\uf02b\n\uf03d\n\uf0de\n  \n2\nAC\nCB\nAB\n\uf02b\n\uf03d\n\n\nGATE 2020 \n [Forenoon Session]\n \nElectrical Engineering\nPAGE\n7\n\n.\nTechnical Section\n.\nQ.1 to Q.25 Carry one mark each"
+}

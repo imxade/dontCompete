@@ -1,0 +1,11 @@
+{
+  "id": "51",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 51 \n \nAn uninsulated cylindrical wire of radius 1.0 mm produces electric heating at the rate of 5.0 W/m. The\ntemperature of the surface of the wire is \n0\n75 C\n  when placed in air at \n0\n25 C\n. When the wire is coated\nwith PVC of thickness 1.0 mm, the temperature of the surface of the wire reduces to \n0\n55 C\n . Assuming \nthat the heat generation rate from the wire and the convective heat transfer coefficient are same for \nboth uninsulated wire and the coated wire. The thermal conductivity of PVC is ______ W/m.K (round \noff to two decimal places)\nHeat Transfer (Conduction) \nAns. \n0.1103 \nSol.\n \nGiven : \n5 W/m\ngen\nQ\n=\nTemperature of air \n0\n25 C\n=\nTemperature of wire surface when placed in air \n0\n75 C\n=\n \n \nThickness of \nPVC \n= 1 mm\nAfter coating wire with PVC, final temperature \n0\n55 C\n=\n \n \nCase 1 :\n75 C\n0\n25 C\n0\nh\n1 mm\n.\n1\nconv\nQ\nhA\nT\n=\n\u0394\n1\n5\ngen\nconv\nQ\nQ\nh\nA\nT\n=\n\uf0de\n=\n\u00d7\n\u0394\n \n \n(\n)\n1\n2 0.001\nA\n = \u03c0\n0\n0\n5\n2\n0.001 (75\n25 )\nh\n =\n\u00d7 \u03c0\u00d7\n\u00d7\n\u2212\n2\n15.915 W/m K\nh\n =\nCase 2 :\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n42\n\n0\n2\n25\n15.915 W/m K\nh\n =\n2 0.002 1\ns\nA\n =\n\u03c0\n\u00d7\n55\nC\nr\n = 1 mm\n1 mm\n\n0\n0\n55\n25\n5 W/m\n1\n2\n1\nln\n2\n1\n1\n15.915 2 0.002\nT\nQ\nR\nK\n\u0394\n\u2212\n=\n=\n=\n\u03a3\n\uf0e6\n\uf0f6\n\u00d7\n+\n\uf0e7\n\uf0f7\n\u03c0\n\u00d7\n\uf0e8\n\uf0f8\n\u00d7 \u03c0\n\n\ngen\nth\nOn solving  \n \n \n \n0.1103 W/mK\nK\n =\n \nQuestion 52 \n \nIn a machining operation, if a cutting tool traces the workpiece such that directrix is perpendicular to \nthe plane of the generatrix as shown in figure, the surface generated is\nDirectrix\n\nGeneratrix\nProduction Engineering (Machining) \n \n(A) spherical  \n \n \n(B) cylindrical  \n \n(C) a surface of revolutions \n \n(D) plane  \nAns. \nB \nSol.\nDirectrix\nCylindrical surface generated.\nGeneratrix",
+  "answer_text": "",
+  "explanation_text": ""
+}

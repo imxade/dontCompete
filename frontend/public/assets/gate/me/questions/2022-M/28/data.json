@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 28\nA planar four-bar linkage mechanism with 3 revolute kinematic pairs and 1\n \nprismatic kinematic pair is \nshown in the figure, where \nAB\nCE\n\uf05e\n and \nFD\nCE\n\uf05e\n. The\n \nT-shaped link \nCDEF\n is constructed such that \nthe slider \nB\n can cross the point \nD\n, and\n \nCE\n is sufficiently long. For the given lengths as shown, the \nmechanism is\nE\n3 cm\nG\n1.5 cm\nD\nF\n5 cm\nB\n3 cm\nA\n(A) a Grashof chain with links \nAG\n, \nAB\n, and \nCDEF\n completely rotatable about the ground link \nFG\nC\n(B) a non-Grashof chain with all oscillating links\n(C) a Grashof chain with \nAB\n completely rotatable about the ground link \nFG\n, and oscillatory links \nAG\n and\nCDEF\n(D) on the border of Grashof and non-Grashof chains with uncertain configuration(\ns\n)",
+  "answer_text": "(A)",
+  "explanation_text": "Sol.\n1\nE\n3 cm\nG\n1.5 cm\n4\nD\n\uf0a5\nF\nx\nL\n5 cm\n2\n\uf0a5\nA\n3 cm\nB\nx\nL\n3\n\nLink (1) \n\uf03d\n3 cm\n \uf0ae\nshortest\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n29\n\nLink (2) \n\uf03d\n5 cm\nLink (3) \n\uf03d\n3 cm + \nx\nL\n \uf0ae\nLongest\nLink (4) \n\uf03d\n1.5cm\nx\nL\n\uf02b\nS\nl\np\nq\n\uf02b\uf0a3\n\uf02b\n3\n3\n5 1.5\nx\nx\nL\nL\n\uf02b\uf02b\n\uf0a3\n\uf02b\n\uf02b\n6\n6.5\n\uf0a3\nLaw satisfied and shortest link is fixed\n \uf0ae\nDouble crank\nHence, the correct option is (A)."
+}

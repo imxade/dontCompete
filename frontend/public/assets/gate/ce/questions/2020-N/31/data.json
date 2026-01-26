@@ -1,0 +1,11 @@
+{
+  "id": "31",
+  "stream": "civil-engineering",
+  "packet": "2020-N",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "15.873",
+  "question_text": "Question\n 31\nA concrete dam holds 10 m of static water as shown in the figure (not drawn to the scale). The uplift is \nassumed to vary linearly from full hydrostatic head at the heel, to zero at the toe of dam. The coefficient \nof friction between the dam and foundation soil is 0.45. Specific weights of concrete and water are\n3\n24 kN/m\n  and \n3\n9.81 kN/m\n , respectively.\nDam\n10.0 m\nSoil\nB\nFor  NO  sliding condition, the required minimum base width B (in m\n, round off  to  two decimal places\n) \nis__________.",
+  "answer_text": "15.873",
+  "explanation_text": ""
+}

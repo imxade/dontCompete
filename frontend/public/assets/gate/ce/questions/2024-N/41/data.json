@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 41 \n \n  \n[Fluid Mechanics : Open Channel Flow]\n \n \nA round-bottom triangular lined canal is to be laid at a slope of 1 in 1500, to carry a discharge of\n3\n25 m /s\n . The side slopes of the canal cross-section are to be kept at 1.25H \n\u2236\n 1V. If Manning\u2019s roughness \ncoefficient is 0.013, the flow depth (in meters) will be in the range of \n \n(A) 2.39 to 2.42 \n(B) 1.94 to 1.97 \n \n(C) 2.24 to 2.27 \n(D) 2.61 to 2.64 \nAns.\n \n(A)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\n3\n1\n,\n25 m /s\n1500\nS\nQ\n\uf03d\n\uf03d\n0.013\nn\n \uf03d\nSide slope \n1.25H:1V\n\uf03d\n\uf071\n\uf071\n0\n90\ny\ny\n0\n90\n1\n1.25\n\ncot\n1.25\n\uf071\uf03d\n1\ntan\n1.25\n\uf071\uf03d\n0\n38.659\n38.66\n\uf071\uf03d\n\uf0bb\n0.6747\n0.675 radian\n\uf071\uf03d\n\uf0bb\nWe know that,\n2/3\n1/2\n1\nQ\nA\nR\nS\nn\n\uf03d\n\uf0b4\n\uf0b4\n\uf0b4\nWhere,\nQ\n \uf03d\n Discharge\nCross Sectional Area\nA\n \uf03d\n2\n(\ncot )\ny\n\uf03d\n\uf071\uf02b\n\uf071\n2\n(0.675 1.25)\ny\n\uf03d\n\uf02b\n2\n1.925\ny\n\uf03d\n\nPAGE\n34\n\nR\n \uf03d\n Hydraulic radius \nA\nP\n\uf03d\nP\n \uf03d\n Perimeter\n2 (\ncot )\ny\n\uf03d\n\uf071\uf02b\n\uf071\n\uf071\uf02b\n\uf071\n\uf03d\n\uf071\uf02b\n\uf071\n2\n(\ncot )\n2 (\ncot )\ny\nR\ny\n\ny\n\uf03d\n2\n\uf05c\n \n2/3\n1/2\n1\nQ\nA R\nS\nn\n\uf03d\n\uf0b4\n\uf0b4\n\uf0b4\n2/3\n1/2\n2\n1\n1\n25\n1.925\n0.013\n2\n1500\ny\ny\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\n2/3\n2\n2/3\n1\n25\n76.923 1.925\n0.0258\n2\ny\ny\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n2/3\n8/3\n1\n25\n3.820\n2\ny\n\uf0e6\n\uf0f6\n\uf03d\n\uf0b4\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n8/3\n25\n3.820 0.6299\ny\n\uf03d\n\uf0b4\n\uf0b4\n8/3\n25\n3.820 0.6299\ny\n\uf03d\n\uf0b4\n8/3\n10.389\ny\n\uf03d\n3\n8\n10.389\ny\n \uf03d\n\uf028\n\uf029\n2.40 m\ny\n \uf03d\nHence, the correct option is (A)."
+}

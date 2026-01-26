@@ -1,0 +1,11 @@
+{
+  "id": "16",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 16\nThe heat of combustion of methane, carbon monoxide and hydrogen are P, Q and R respectively. For the \nreaction below,\n4\n2\n2\n3\nCH\nH O\nCO\nH\n+\n\u2192\n+\nThe heat of reaction is given by\n(A) \n3\nQ\nR\nP\n+\n\u2212\n \n(B) \nQ\nR\nP\n+\n\u2212\n \n(C) \n3\nP\nQ\nR\n\u2212\n\u2212\n \n(D) \nP\nQ\nR\n\u2212\n\u2212",
+  "answer_text": "(C)",
+  "explanation_text": "Sol."
+}

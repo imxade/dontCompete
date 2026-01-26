@@ -1,0 +1,11 @@
+{
+  "id": "34",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "8.9 to 9.1",
+  "question_text": "Question 34\nThe combustion of carbon monoxide is carried out in a closed, rigid and insulated vessel, 1 mol of CO, \n0.5 mol of \n2\nO\n  and 2 mol of \n2\nN\n  are taken initially at 1 bar and 298 K, and the combustion is carried out\nto completion.\nThe standard molar internal energy change of reaction \n(\n)\no\nR\nu\n\u0394\n for the combustion of carbon monoxide at\n1\n298 K\n282 kJ mol .\n\u2212\n= \u2212\nAt constant pressure, the molar heat capacities of \n2\nN\n  and \n2\nCO\n  are\n1\n1\n33.314 J mol K\n\u2212\n\u2212\n and \n1\n1\n58.314 J mol K ,\n\u2212\n\u2212\nrespectively. Assume the heat capacities to be independent of\ntemperature, and the gases are ideal. Take \n1\n1\n8.314 J mol K .\nR\n\u2212\n\u2212\n=\nThe final pressure in the vessel at the completion of the reaction is _______ bar. (round off to 1 decimal \nplace)",
+  "answer_text": "8.9 to 9.1",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "55",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 55 \n[Geotechnical Engineering : Shear Strength of Soil] \n \nA drained triaxial test was conducted on a saturated sand specimen using a stress-path triaxial testing \nsystem. The specimen failed when the axial stress reached a value of \n2\n100 kN/m\n  from an initial confining\npressure of \n2\n300 kN/m\n . The angle of shearing plane (in degrees) with respect to horizontal is \n________________ (rounded off to the nearest integer). \nAns. 30 to 30",
+  "answer_text": "",
+  "explanation_text": "Sol. \nIn stress-path triaxial testing, we can control both radial and axial stress.\nFailure situation\n\nPAGE\n48\n\n2\n100kN/m\n3\nMinor principalstress\n\uf03d\uf073\uf03d\nMinor plane\n2\n300kN/m\n1\nMajor principalstress\n\uf03d\uf073\uf03d\n\nMajor plane\n2\n0\n0\n1\n3\n \ntan\n45\n2\ntan 45\n2\n2\nC\n\uf066\n\uf066\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf073\uf03d\uf073\n\uf02b\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\n\n2\n0\n300\n100tan\n45\n0\n2\n\uf066\n\uf0e6\n\uf0f6\n\uf03d\n\uf02b\n\uf02b\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\n\n[Since for drained test \n0\nC\n \uf03d\n]\n\uf0de\n \n0\n30\n\uf066\uf03d\nAngle between normal to major plane and failure plane is \n45\n2\n\uf066\n\uf02b\n.\nAngle between normal to minor plane and failure plane is \n0\n45\n2\n\uf066\n\uf02d\n.\n\uf0de\n Angle between minor plane and failure plane\n0\n0\n0\n0\n30\n45\n45\n30\n2\n2\n\uf066\n\uf03d\n\uf02d\n\uf03d\n\uf02d\n\uf03d\n"
+}

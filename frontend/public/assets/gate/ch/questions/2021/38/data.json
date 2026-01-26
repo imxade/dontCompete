@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.069 to 0.071",
+  "question_text": "Question 38\nThe probability distribution function of a random variable \nX\n is shown in the following figure.\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n35\n\n( )\nf x\n0.5\nx\n\n1 \n3\nFrom this distribution, random samples with sample size \n68\nn\n =\n are taken. If \nX\n  is the sample mean, the\nstandard deviation of the probability distribution of\n,\nX\n i.e. \nX\n\u03c3\n  is _______. (round off to 3 decimal\nplaces)",
+  "answer_text": "0.069 to 0.071",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "civil-engineering",
+  "packet": "2020-M",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 1\n2\n2\n5\n4\nlim 4\n2\nx\nx\nx\nx\nx\n\u2192\u221e\n\u2212\n+\n+\n is\nThe value of\n(A) \n1\n4\n \n \n \n(B) 1 \n(C) \n1\n2\n \n \n(D) 0",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \nApplying L-hospital rule\n2\n5\nlim 8\n5\nx\nx\nx\n\u2192\u221e\n\u2212\n\u221e\n\uf0e6\n\uf0f6\n=\n=\n\uf0e7\n\uf0f7\n+\n\u221e\n\uf0e8\n\uf0f8\n2\n1\nlim 8\n4\nx\n\u2192\u221e\n\uf0e6\n\uf0f6\n=\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8"
+}

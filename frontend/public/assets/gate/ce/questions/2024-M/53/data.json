@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 53 \n[Geotechnical Engineering : Compressibility & Consolidation]\nThe total primary consolidation settlement \n\uf028\n\uf029\nc\nS\n of a building constructed on a 10 m thick saturated clay\nlayer is estimated to be 50 mm. After 300 days of the construction of the building, primary consolidation \nsettlement was reported as 10 mm. The additional time (in days) required to achieve 50% of \nc\nS\n  will be\n____________ (rounded off to nearest integer). \nAns. 1550 to 1600",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven that,\nH\n10m\n\uf03d\nc\nS\n50mm\n\uf03d\ni\nS\n10mm\n\uf03d\nWe know that, time factor\nt\n\uf0b4\n\uf03d\n2\nC\nT\nd\nv\nv\nFor degree of consolidation \n50%\n\uf03d\n\uf0b4\n\uf03d\nC\nt\nT\nd\n\uf028\n\uf029\n2\n50\nv\nv\nWhere,\n2\nv\nT\n4\n \nU\n\uf070\n\uf03d\n\uf0b4\nU\n \uf03d\nDegree of consolidation\nt\n \uf03d\n Time\nC\nv\n \uf03d\nCoefficient of consolidation\nv\n \n\uf0b4\n\uf070\uf0b4\n\uf03d\n \n \n \n\u2026..(1)\n\uf05c\n  \n2\n2\n2\nC\nt\n0.5\n4\nd\nDegree of consolidation for 10 mm Settlement\n\nPAGE\n45\n\nh\nU\n100\nH\n\uf044\n\uf03d\n\uf0b4\n\uf044\n10 100\n50\n\uf03d\n\uf0b4\n20%\n\uf03d\n\uf0b4\n\uf03d\nC\nt\nT\nd\n\uf05c\n \n\uf028\n\uf029\n2\n20\nv\nv\nv\n \n\uf0b4\n\uf070\uf0b4\n\uf03d\n \n \n\u2026\u2026(2)\n2\nC\n300\n0.2\n4\nd\nt\n300days\n\uf03d\n2\nFrom equation (1) and (2)\n\uf070\uf0b4\nC \u00d7t\n0.5\nd\n4\n2\n2\n2\nv\n\uf03d\n\uf070\uf0b4\n\n\nC \u00d7300\n0.2\n4\nd\n2\nv\n2\n\uf070\uf0b4\n\uf03d\n\uf0b4\n\uf03d\n\uf070\uf0b4\n2\n0.5\n4\nt\n300\n1875days\n0.2\n4\n\n\n2\n2\nAdditional time required \n1875 300\n\uf03d\n\uf02d\n1575days\n\uf03d"
+}

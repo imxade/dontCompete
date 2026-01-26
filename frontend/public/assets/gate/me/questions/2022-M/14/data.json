@@ -1,0 +1,11 @@
+{
+  "id": "14",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(C)\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n17",
+  "question_text": "Question 14\nA tiny temperature probe is fully immersed in a flowing fluid and is moving with\n \nzero relative velocity\nwith respect to the fluid. The velocity field in the fluid is \n\u02c6\n\u02c6\n(2 )\n(\n3 )\nV\nx i\ny\nt j\n\uf03d\n\uf02b\n\uf02b\n, and the temperature field\n2\n2\n4\nT\nx\nxy\nt\n\uf03d\n\uf02b\n\uf02b\n, where \nx\n and \ny\n are the spatial coordinates, and \nt\n is the time. The\n \ntime rate\nin the fluid is\nof change of temperature recorded by the probe at\n \n(\n\ud835\udc65\n = 1, \n\ud835\udc66\n = 1, \n\ud835\udc61\n = 1) is _______.\n(A) 4 \n(B) 0 \n(C) 18 \n(D) 14",
+  "answer_text": "(C)\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n17",
+  "explanation_text": "Sol. \n \n \n\u02c6\n\u02c6\n2\n(\n3 )\nV\nxi\ny\nt j\n\uf03d\n\uf02b\n\uf02b\n\n\uf067\n at \n1,\n1,\n1\nx\nt\n\uf03d\n\uf067\uf03d\n\uf03d\n2\n2\n4\nT\nx\nxy\nt\n\uf03d\n\uf02b\n\uf02b\n  Find \nd\n\ndt\nUsing relation \u2013\ndT\nT\nT\nT\nu\nU\ndt\nt\nx\ny\n\uf0b6\n\uf0b6\n\uf0b6\n\uf03d\n\uf02b\n\uf02b\n\uf0b6\n\uf0b6\n\uf0b6\n4\n2(4 1)\n(1 3) 1\n\uf03d\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf0b4\n4 10\n4\n\uf03d\n\uf02b\n\uf02b\n18\n\uf03d\nHence, the correct option is (C)."
+}

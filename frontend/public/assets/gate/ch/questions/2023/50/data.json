@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "0.59 to 0.62\n \nSol. \nLet 100 mol of stack Gas\n2\nN\n65 mol\n\uf03d\n2\nCO\n15 mol\n\uf03d\nCO\n10 mol\n\uf03d\n2\nO\n10 mol\n\uf03d\nLet \nx\n mols of \n2\nH O\nTotal mols of wet Gas \n100\nx\n\uf03d\n\uf02b\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n34\n\nx\nx\n \n\uf03d\n\uf02b\nGiven \n\uf0ae\n \n0.07\n100\n7\n0.07\nx\nx\n\uf03d\n\uf02b\n7.5268\nx\n \uf03d\n65\nH\n100\n7.5268\n\uf03d\n\uf02b\nmol fraction of \n2\n0.6045\n\uf03d",
+  "question_text": "Question 50 \n \nOrsat analysis showing the composition (in mol%, on a dry basis) of a stack gas is given in the table \nbelow. The humidity measurement reveals that the mole fraction of \n2\nH O\n  in the stack gas is 0.07. The\nmole fraction of \n2\nN\n  calculated on a wet basis is ________ (rounded off to two decimal places).\n[Process Calculation, 2 Marks]\nSpecies \n2\nN\n  \n2\nCO\n  \nCO\n \n2\nO\nmol% \n65 \n15 \n10 \n10",
+  "answer_text": "0.59 to 0.62\n \nSol. \nLet 100 mol of stack Gas\n2\nN\n65 mol\n\uf03d\n2\nCO\n15 mol\n\uf03d\nCO\n10 mol\n\uf03d\n2\nO\n10 mol\n\uf03d\nLet \nx\n mols of \n2\nH O\nTotal mols of wet Gas \n100\nx\n\uf03d\n\uf02b\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n34\n\nx\nx\n \n\uf03d\n\uf02b\nGiven \n\uf0ae\n \n0.07\n100\n7\n0.07\nx\nx\n\uf03d\n\uf02b\n7.5268\nx\n \uf03d\n65\nH\n100\n7.5268\n\uf03d\n\uf02b\nmol fraction of \n2\n0.6045\n\uf03d",
+  "explanation_text": ""
+}

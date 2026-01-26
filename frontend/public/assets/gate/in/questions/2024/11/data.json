@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "instrumentation-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 11\n2\n2\n2\nz\nz\n\uf02b\n\uf03d\n represents\nLet \nz\nx\niy\n\uf03d\n\uf02b\nbe a complex variable and \nz\n  be its complex conjugate.  The equation\na  \n \n \n  \n \n \n \n \n(1 Mark)\n(A) parabola \n(B) hyperbola\n(C) ellipse \n(D) circle",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nGiven\n \n:\n \n \n \n \nz\nx\niy\n\uf03d\n\uf02b\nz\nx\niy\n\uf03d\n\uf02d\n\uf028\uf029\n\uf028\n\uf029\n2\n2\nz\nx\niy\n\uf03d\n\uf02d\n\uf028\uf029\n2\n2\n2\nx\niy\nixy\n\uf03d\n\uf02b\n\uf02d\n\uf0de\n  \n\uf028\uf029\n2\n2\n2\n2\nz\nx\ny\nixy\n\uf03d\n\uf02d\n\uf02d\n\uf0de\n  \n\uf028\uf029\n\uf028\n\uf029\n2\n2\nz\nx\niy\n\uf03d\n\uf02b\n\uf028\uf029\n2\n2\n2\nx\niy\nixy\n\uf03d\n\uf02b\n\uf02b\n\uf028\uf029\n2\n2\n2\n2\nz\nx\ny\nixy\n\uf03d\n\uf02d\n\uf02b\nThe equation\n\uf028\uf029\n2\n2\n2\nz\nz\n\uf02b\n\uf03d\n\uf028\n\uf029\uf028\n\uf029\n2\n2\n2\n2\n2\n2\n2\nx\ny\nixy\nx\ny\nixy\n\uf02d\n\uf02d\n\uf02b\n\uf02d\n\uf02b\n\uf03d\n2\n2\n2\n2\n2\nx\ny\n\uf02d\n\uf03d\n2\n2\n1\nx\ny\n\uf02d\n\uf03d\n\nPAGE\n5\n\nThe above eqaution represents the equation of rectangular hyperbola.\nHence the correct option is (B).\n\uf026\n Key Point\n2\n2\n2\n2\n1\nx\ny\na\nb\n\uf02b\n\uf03d\n : Ellipse with centre at \n\uf028\n\uf029\n0,0\n  and major axis = 2a and minor axis = 2b\n(i)\n(ii) \nHyperbola :\n2\n2\n2\n2\n1\nx\ny\na\nb\n\uf02d\n\uf03d\n : Hyperbola with vertex at \n\uf028\n\uf029\n,0\na\nand \n\uf028\n\uf029\n,0\na\n\uf02d\n.\n\n(iii) \nRectangular Hyperbola :\n\uf0b7\n \n2\n2\n2\nx\ny\na\n\uf02d\n\uf03d\n\uf0b7\n \n2\nxy\na\n\uf03d"
+}

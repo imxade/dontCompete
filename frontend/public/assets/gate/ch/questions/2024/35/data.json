@@ -1,0 +1,11 @@
+{
+  "id": "35",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 35\n\nPAGE\n27\n\nThe capital cost of a distillation column is Rs. 90 lakhs.  The cost is to be fully depreciated (salvage value \nis zero) using the double-declining balance method over 10 years.  At the end of two years of continuous \noperation, the book-value of the column, in lakhs of rupees, rounded off to 1 decimal place, is ________.\n[Plant Design and Economic, 1 Marks]\n \nAns. 57.5 to 57.7",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\n\ud835\udc63\n0\n = 90 \nLakh = initial value\n\ud835\udc63\n\ud835\udc60\n= 0 =\n salvage value\nn\n = 10 years = service time\n\ud835\udc49\n2\n =?\nFrom double declining balance method book value for a\nth\n year\n\ud835\udc63\n\ud835\udc4e\n= \ud835\udc63\n0\n(1 \u2212\ud835\udc53)\n\ud835\udc4e\n2\nWhere \n\ud835\udc53=\n\ud835\udc5b\n2\n\u2234\n \n\ud835\udc53=\n10\n \n= 0.2\nAnd \n\ud835\udc63\n\ud835\udc4e\n= \ud835\udc63\n0\n(1 \u2212\ud835\udc53)\n\ud835\udc4e\nSo \n\ud835\udc63\n2\n = 90(1 \u22120.2)\n2\n\ud835\udc63\n2\n = 57.6\n Lakhs\nQ.36 to Q.65 Carry TWO Marks Each"
+}

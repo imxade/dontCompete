@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "civil-engineering",
+  "packet": "2023-M",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(B), (C)",
+  "question_text": "Question 24 \n \n[Engineering Mathematics : Linear Algebra]\nIf \nM\n is an arbitrary real \n\ud835\udc5b\n\u00d7\n\ud835\udc5b\n matrix, then which of the following matrices will have non-negative \neigenvalues?\n(A) \nM\n 2\n \n \n(B) \nMM\n \n\ud835\udc47\n(C) \nM\n \n\ud835\udc47\nM\n \n \n(D) (\nM\n \n\ud835\udc47\n)\n2",
+  "answer_text": "(B), (C)",
+  "explanation_text": "Sol.\n \nMX\nX\n\uf03d\uf06c\n \n \n \n...(i) \n \n[\n\uf06c\n is Eigen value of (M)]\nMMx\nMX\n\uf03d\uf06c\n2\nM X\nX\n\uf03d\uf06c\uf028\uf06c\uf029\n\n2\n2\nM X\nX\n\uf03d\uf06c\n  \n \n...(ii)  \n[\n2\n\uf06c\n(non negative) is Eigen value of \nM\n2\n]\nMX\nX\n\uf03d\uf06c\n\nGATE 2023 \n [Forenoon Session]\nCivil Engineering\nPAGE\n14\n\nT\nM X\nX\n\uf03d\uf06c\n \n \n \n.... (iii)  \n[\nM, MT\n have same Eigen values]\nT\nMM X\nMX\n\uf03d\uf06c\nT\nMM X\nX\n\uf03d\uf06c\uf028\uf06c\uf029\n\n2\nT\nMM X\nX\n\uf03d\uf06c\n \n \n....(iv)  \n[\n2\n\uf06c\n(none negative) is Eigen value of \nMM\nT\n]\nMX\nX\n\uf03d\uf06c\nT\nM X\nX\n\uf03d\uf06c\nT\nM MX\nMX\n\uf03d\uf06c\n(\n)\nT\nM MX\nX\n\uf03d\uf06c\uf06c\n2\nT\nM MX\nX\n\uf03d\uf06c\n \n \n...(v) \n \n[\n2\n\uf06c\n (non negative) is Eigen value of\nT\nM M\n ]\nMX\nX\n\uf03d\uf06c\nMMx\nMX\n\uf03d\uf06c\n2\n)\nM X\nX\n\uf03d\uf06c\uf028\uf06c\n\n2\n(\n)\nT\nM\nX\n\uf032\n\uf03d\uf06c\n  \n \n \n \n[\n,\nT\nM M\n\nhave same Eigen value]\n2\n2\n(\n)\nT\nM\nX\nX\n\uf03d\uf06c\n \n \n\u2026(vi)      \n[\n2\n\uf06c\n is Eigen value of\n2\n(\n)\nT\nM\n which non negative]\n\nHence, the correct options are (B) & (C)."
+}

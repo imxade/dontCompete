@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 12  \n \n[Network Theory : Basic of Network]\nThe number of junctions in the circuit is\n(A) 6 \n(B) 7 \n \n(C) 8 \n(D) 9 \nAns. \n(A) \nSol.\n \nGiven : \n \nGiven circuit is shown below.\n\nPAGE\n12\n\nConcept :  \n \n\u2022 \nIn an electrical network the junction of branches at a common point is called Node.  \n \n \nA junction is a point where at three circuit path meet.  \n \n\u2022 \nBranch : A branch is a single element (or) component in a circuit.  \n \nIf several elements in the circuit carrying same circuit they can also reffered as branch.  \n \nExample :\n1.\n\n\n2.\n\n\n3.\n\nNote :\n A node is a point in a network where two or more elements are joined.  \n \nPrinciple node : Junction of three or more elements. \n \nExample :\n\nPAGE\n13\n\n( )\nBranches = 6\n( )\nNode = 2\n( )\nPrinciple Node = 4\nKey Point : \n \nA principal node is a junction where current can combine or divide. \n \nGiven : Circuit shown in below figure.\nB\nC\nA\nD\nD\nNumber of branches \n( )\n10\nb\n \uf03d\nE\nF\nNumber of Node \n(\n)\n3\nN\n \uf03d\nNumber of principal node (or) junction = 6 \n \nA node is a point where two or more circuit elements are connected to it. If only two circuit elements are \nconnected to node, then it is said to be simple node. \n \nIt three or more circuit elements are connected to a node then it is said to be principal node.",
+  "answer_text": "",
+  "explanation_text": ""
+}

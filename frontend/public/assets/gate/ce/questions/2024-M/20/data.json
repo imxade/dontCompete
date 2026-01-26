@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 20 \n \n  \n[Fluid Mechanics : Open Channel Flow]\nThe number of degrees of freedom for a natural open channel flow with a mobile bed is\n(A) 2 \n(B) 3\n(C) 4 \n(D) 5  \n \nAns. (C) \nSol. \n\u2022  \nIf a channel boundary is composed of sedimentary particles moving under the action of flowing \nwater, the channel is called mobile boundary channel. Example \u2013 an alluvial channel is a mobile \nboundary channel transporting the same type of material comprising the channel perimeter. \n\u2022\n \nIn mobile channels, depth of flow, bed width, bed slopes and layout changes with space and time. \n\u2022\n \nHence, mobile boundary channels have 4 degree of freedom. \nNote\n : Type of open channel \nClassification type -1 \n(1)\n \nNatural channel (2) Artificial channel \nClassification type -2  \n(1)\n \nPrismatic channel (2) Non prismatic channel\n\nPAGE\n15\n\nClassification type -3 \n(1)\n \nRigid boundary channel (2) Mobile boundary channel \nClassification type \u2013 4 \n(1)\n \nSmall slope channel (2) Large slope channel \n \n \n   Hence, the correct option is (C).",
+  "answer_text": "",
+  "explanation_text": ""
+}

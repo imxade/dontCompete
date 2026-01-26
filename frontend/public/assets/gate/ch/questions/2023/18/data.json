@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A)  \nSol. \nAs entropy is a state function\n\uf028\n\uf029\n0\ncycle\nds\nS\n\uf03d\uf044\n\uf03d\n\uf0f2\n\nFor a cyclic operation, entropy change is zero.\n\uf028\n\uf029\n\uf028\n\uf029\n.\nrev\nirr\nS\nS\n\uf044\n\uf03d\uf044",
+  "question_text": "Question 18 \n \nNitrile rubber is manufactured via polymerization process. Which one of the following options is the \nCORRECT pair of monomers used in this process?  \n \n[Chemical Technology, 1 Marks] \n \n(A) \nAcrylonitrile and styrene  \n \n(B) \nAcrylonitrile and butadiene\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n12\n\n(C) \nButadiene and styrene  \n \n(D) \nButadiene and isoprene  \nAns. \n(B) \nSol. \nAcrylonitrile + Butadiene \n\uf0ae\nNitrile Rubber\n \nQuestion 19 \n \nJohn and Jane independently performed a thermodynamic experiment, in which \nX\n \nand \nY\n \nrepresent the initial \nand final thermodynamic states of the system, respectively. John performed the experiment under reversible \nconditions, for which the change in entropy of the system was \n \n. Jane performed the experiment under \nirreversible conditions, for which the change in entropy of the system was \n \n. Which one of the following \nrelationships is CORRECT?  \n \n \n \n[Thermodynamics, 1 Marks] \n \n(A)  \nrev\nirr\nS\nS\n\uf044\n\uf03d\uf044\n(B) \nrev\nirr\nS\nS\n\uf044\n\uf03e\uf044\n(C) \nrev\nirr\nS\nS\n\uf044\n\uf03c\uf044\n(D) \n2\nrev\nirr\nS\nS\n\uf044\n\uf03d\uf044",
+  "answer_text": "(A)  \nSol. \nAs entropy is a state function\n\uf028\n\uf029\n0\ncycle\nds\nS\n\uf03d\uf044\n\uf03d\n\uf0f2\n\nFor a cyclic operation, entropy change is zero.\n\uf028\n\uf029\n\uf028\n\uf029\n.\nrev\nirr\nS\nS\n\uf044\n\uf03d\uf044",
+  "explanation_text": ""
+}

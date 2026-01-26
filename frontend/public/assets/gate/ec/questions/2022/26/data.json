@@ -1,0 +1,11 @@
+{
+  "id": "26",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MSQ",
+  "key": "C, D",
+  "question_text": "Question 26 \n(MSQ)\n \n \n \nAnalog Electronics\nAn ideal OPAMP circuit with a sinusoidal input is shown in the figure. The 3 dB frequency is the \nfrequency at which the magnitude of the voltage gain decreases by 3 dB from the maximum value. Which \nof the options is/are correct?\n2k\n\uf057\n1 F\n\uf06d\n15 V\n\uf02b\n1 k\n\uf057\nin\nV\nout\nV\n15 V\n\uf02d\n\n(A) The circuit is a low pass filter \n(B) The 3-dB frequency is \n1000\n3\nrad/s\n(C) The 3-dB frequency is 1000 rad/s \n(D) The circuit is a high pass filter",
+  "answer_text": "C, D",
+  "explanation_text": "Sol.\n \nGiven circuit is shown below,\n( )\nf\nZ\ns\n1\nrad/sec\nL\ndB\nR C\n\uf077\uf03d\uf077\n\uf03d\n2k\n\uf057\n3\n1\n1\n2\nR\n1\n( )\nZ s\n1 F\n\uf06d\n15 V\n\uf02b\n1\nR\nout\nV\nin\nV\n1k\n\uf057\nC\n1\n15 V\n\uf02d\nFig. Practical differentiator circuit \n \nThe transfer function of above circuit,\n\uf02d\n\uf02d\n\uf03d\n\uf03d\n\uf02b\nZ\ns\nV\ns\nR\nV\ns\nZ s\nR\nC s\n( )\n( )\n1\n( )\n( )\n1\n1\n1\nsC R\nsC R\n\uf02d\n\uf03d\uf02b\nf\nout\n2\n1\n2\nin\n1\n1\n1\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n32\n\nZ\ns\nV\ns\nT s\nV\ns\nZ s\n\uf03d\n\uf03d\n1\n2\n( )\n( )\n( )\n( )\n( )\n1\n1\n1\nsC R\nsC R\n\uf03d\uf02b\nf\nout\n\n\nin\n1\nPut \ns\nj\n\uf03d\uf077\n,\n1\n1\n(\n)\n1\nj C R\nT j\nj C R\n\uf077\n\uf077\uf03d\uf02b\uf077\n1\n2\n\nAt \n0,\n\uf077\uf03d\n \n(0)\n0\nT\n\uf03d\n1\n( )\nR\nT\nR\n\uf0a5\uf03d\nAt \n,\n\uf077\uf03d\uf0a5\n \n2\nSo, circuit behave as HPF, because it passes only high frequency and block low frequency.\nThe 3 dB frequency of practical differentiator circuit is,\n1\nRC\n\uf077\n\uf03d\n1\n1000 rad/sec\n1000 1 F\n\uf03d\n\uf03d\n\uf0b4\uf06d\n3 dB\n1\n1\nHence, the correct options are (C) & (D).\n\uf026\n Key Point\nThis circuit represent practical differentiator circuit which will act as a high pass filter."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "62",
+  "stream": "civil-engineering",
+  "packet": "2023-N",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "912.55 (912.28 to 912.82)",
+  "question_text": "Question 62 \n[Engineering Hydrology : Precipitation & Frequency of Rainfall Data]\nA catchment may be idealized as a circle of radius 30 km. There are five rain gauges, one at the center \nof the catchment and four on the boundary (equi-spaced), as shown in the figure (not to scale).\nThe annual rainfall recorded at these gauges in a particular year are given below.\n\nGATE 2023 \n [Afternoon Session]\nCivil Engineering\nPAGE\n38\n\nGauge \nG\n1 \nG\n2\n \nG\n3\n \nG\n4\n \nG\n5\nRainfall (mm) \n910 \n930 \n925 \n895 \n905\nUsing the Thiessen polygon method, what is the average rainfall (in mm, rounded off to two decimal \nplaces) over the catchment in that year?\n2\nG\n0\n90\n1\nG\n5\nG\n3\nG\n4\nG",
+  "answer_text": "912.55 (912.28 to 912.82)",
+  "explanation_text": "Sol.\n5\nG\n4\nG\n3\nG\n1\nG\n910 mm\n2\nG\n\nGiven : \n30 km\nR\n \uf03d\n, \n1\n910 mm\nG\n \uf03d\n, \n2\n930 mm\nG\n \uf03d\n, \n3\n925 mm\nG\n \uf03d\n, \n4\n895 mm\nG\n \uf03d\n, \n5\n905 mm\nG\n \uf03d\n2\n1\n30 30\n900 km\nA\n \uf03d\n\uf0b4\n\uf03d\nArea under station \n1\nG\n ;\nArea under influence of stations \n2\n3\n4\n5\n,\n,\n,\nG G G G\n ,\n2\n30\n900\n4\n\uf070\uf0b4\n\uf02d\n\uf03d\n2\n481.86 km\n\uf03d\n2\n3\n4\n5\nA\nA\nA\nA\n\uf03d\n\uf03d\n\uf03d\nAverage rainfall = \n1\n1\n2\n2\n3\n3\n4\n4\n5\n5\nG A\nG A\nG A\nG A\nG A\nP\nA\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf0de\n     \n2\n910 900\n481.86[930\n925\n895\n905]\n30\nAvg\nP\n\uf0b4\n\uf02b\n\uf02b\n\uf02b\n\uf02b\n\uf03d\n\uf070\uf0b4\n\uf05c\n                    \nAvg\nP\n\uf03d\n912.556 mm\nHence, the average rainfall is 912.55 mm."
+}

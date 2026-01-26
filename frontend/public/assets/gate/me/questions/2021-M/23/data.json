@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 23 \n \nIn which of the following pairs of cycles, both cycles have at least one isothermal process?\nApplication of Thermodynamics (Thermodynamic cycles) \n \n(A) Bell-Coleman cycle and Vapour compression refrigeration cycle \n \n(B) Carnot cycle and Stirling cycle \n \n(C) Brayton cycle and Rankine cycle \n \n(D) Diesel cycle and Otto cycle \nAns. \nB \nSol.\n \nBoth carnot cycle and stirling cycle include atleast one isothermal process.\nT\nT\n1\n1\n2\n2\n4\n4\n3\n3\nS\nS\ncarnot cycle \nStirling cycle",
+  "answer_text": "",
+  "explanation_text": ""
+}

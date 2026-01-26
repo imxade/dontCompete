@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 11 \n \nA small project has 12 activities \u2013 N, P, Q, R, S, T, U, V, W, X, Y and Z. The relationship among these \nactivities and the duration of these activities are given in the Table.\nActivity \nDuration (in weeks) \nDepends upon \nN \n2 \n- \nP \n5 \nN \nQ \n3 \nN \nR \n4 \nP \nS \n5 \nQ \nT \n8 \nR \nU \n7 \nR, S \nV \n2 \nU \nW \n3 \nU \nX \n5 \nT, V \nY \n1 \nW \nZ \n3 \nX, Y \n \nThe total float of the activity \u201cV\u201d (in weeks, in integer) is ________. \nAns. \n0 \nSol.\n11\n7\nR\nX\n20\nT\n3\n5\n25\nZ\n3\n28\n28\n4\n8\n10\n11\n8\nEarliest\nP\n20\n5\n5\n2\nN\n0\nV\n2\n25\nY\n1\n1\nD\n2\n1\n22\n18\nW\n2\n2\n3\nQ\n5\n0\n7\n9\nU\nS\n11\n3\n24\nLatest\n4\n6\n18\n11\n7\nCritical Path = N-P-R-D\n1\n-U-V-X-Z = 28 weeks \n \nFor any critical activity all floats are 0 \n \nSo for \nV\n activity total float = 0 \n \nBy formula,  \n \nTotal float \nj\ni\nij\nL\nE\nt\n=\n\u2212\n\u2212\n20 18\n2\n=\n\u2212\n\u2212\n= 0\n6\n5",
+  "answer_text": "",
+  "explanation_text": ""
+}

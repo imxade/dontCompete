@@ -1,0 +1,11 @@
+{
+  "id": "32",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 32\nA rectangular open channel of 6 m width is carrying discharge of \n3\n20m /s\n . Consider the acceleration\ndue to gravity as \n2\n9.81m/s\n  and assume water as incompressible and inviscid. The depth of flow in the\nchannel at which the specific energy of the flowing water is minimum for given discharge will then \nbe: \n \n(A) 2.56 m \n \n(B) 0.82 m \n(C) 1.04 m \n(D) 3.18 m \nAns. \nC \nSol.\n \nGiven :   \n \nWidth of channel,\n( )\n6 m\nB\n =\nDischarge of channel, \n3\n( )\n20 m /sec\nQ\n =\n1\n2\n3\n\uf0e6\n\uf0f6\n=\n \uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nc\nq\nY\ng\n\u2234\n Critical depth,\n1\n2\n3\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n=\n=\n\uf0e8\n\uf0f8\n2\n20\n6\n1.04 m\n9.81\nc\nY\n\n\u2234\n Depth of flow at which SE will be minimum is critical depth and is value 1.04 m.\n \n \nHence, the correct option is (C). \nQuestion 33\n \n \nStrain hardening of structural steel means  \n \n(A) Strengthening steel member externally for reducing strain experienced \n \n(B) Experiencing higher stress than yield stress with increases deformation \n \n(C) Decreases in the stress experienced with increases strain \n \n(D) Strain occurring before plastic flow of steel material \nAns. \nD\n\nGATE 2021 \n [Afternoon Session]\nCivil Engineering\nPAGE\n18\n",
+  "answer_text": "",
+  "explanation_text": ""
+}

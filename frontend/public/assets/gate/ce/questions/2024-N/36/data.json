@@ -1,0 +1,11 @@
+{
+  "id": "36",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 36 \n[Engineering Mathematics : Probability & Statistics] \n \nIn a sample of 100 heart patients, each patient has 80% chance of having a heart attack without medicine \nX. It is clinically known that medicine X reduces the probability of having a heart attack by 50%. Medicine \nX is taken by 50 of these 100 patients. The probability that a randomly selected patient, out of the 100 \npatients, takes medicine X and has a heart attack is \n \n(A) 40% \n(B) 60% \n \n(C) 20% \n(D) 30% \nAns.\n \n(C)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\nProbability of having heart attack without medicine X = 80 %\nSince, medicine X reduces the probability of having a heart attack by 50 %\nTherefore, probability\n \nof having a heart attack with medicine X.\n(80%) 0.5\n\uf03d\n\uf0b4\n40%\n\uf03d\n\nPAGE\n29\n\nTotal patients = 100\n50%\n50 %\nE\n1\n : With medicine\nE\n2\n : Without medicine\nX = 50 patients\nX = 50 patients\n40 %\n[  : Having \nA\nheart attack \nwith medicine X]\n60 %\n[  : Not having \nB\n80 %\n[  : Having \nC\nheart attack \nwithout medicine X]\n20 %\n[  : Not having \nD\nheart attack \nwith medicine X]\nheart attack \nwithout medicine X]\nHence, probability that a random selected patient, out of 100 patients, takes medicine X and has heart \nattack is\n\uf0e6\n\uf0f6\uf03d\n\uf0b4\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n50% 40%\nA\nP E\n\n\n1\n50\n40\n20\n100\n100\n100\n\uf03d\n\uf0b4\n\uf03d\n20%\n\uf03d\nHence, correct option is (C)."
+}

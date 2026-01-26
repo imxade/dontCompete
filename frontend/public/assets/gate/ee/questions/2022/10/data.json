@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 10\nAn ant is at the bottom-left corner of a grid (point P) as shown above. It aims to move to the top right \ncorner of the grid. The ant moves only along the lines marked in the grid such that the current distance to \nthe top-right corner strictly decreases.\nP\nWhich one of the following is a part of a possible trajectory of the ant during the movement?\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n7\n\n(A) \n \n(B)\nP\nP\n(C) \n \n(D) \n \nAns. \nB \nSol.\n \nGiven : \n \nAn ant is at the bottom left corner of a grid (point p)\nP\nP\nAnt aims to move to the top right corner of the grid. \n \nIf the ant moves only along the lines marked in the grid so that the current distance to the top right corner \nstrictly decreases. \n \nAnt has to move according to the path given in option (B). \n \nHence, the correct option is (B).\nP\n\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n8\n\n.\nTechnical Section\n.\nQ.11 to Q.35 Carry ONE Mark Each",
+  "answer_text": "",
+  "explanation_text": ""
+}

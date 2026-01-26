@@ -1,0 +1,11 @@
+{
+  "id": "15",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 15  \n \n \n[Signals & Systems : Convolution]\nSuppose signal \n( )\ny t\n  is obtained by the time-reversal of signal \n( )\nx t\n . i.e., \n( )\n(\n),\ny t\nx\nt\nt\n\uf03d\n\uf02d\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n. Which\none of the following options is always true for the convolution of \nx\n(\nt\n) and \ny\n(\nt\n) ? \n(A)\n \nIt is an even signal \n(B) It is an odd signal  \n \n(C) It is a causal signal  \n(D) It is an anti - causal signal  \nAns. \n(A) \nSol. \nGiven :\nIf \n\uf028\uf029\n\uf028\n\uf029\ny t\nx\nt\n\uf03d\n\uf02d\n, then\n\uf028\uf029\n\uf028\uf029\n?\ny t\nx t\n\uf02a\n\uf03d\nLet :\n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nz t\ny t\nx t\n\uf03d\n\uf02a\n \n \n  \n \n \n\u2026 (1)\n(i) \nTime scaling property :\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\n1\nx at\ny at\nz at\na\n\uf02a\n\uf03d\nPut, \n1\na\n \uf03d\uf02d\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\nx\nt\ny\nt\nz\nt\n\uf02d\n\uf02a\n\uf02d\n\uf03d\n\uf02d\n(ii) Commutative property :\n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nx t\ny t\ny t\nx t\n\uf02a\n\uf03d\n\uf02a\nFrom equation (1)\n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\n\uf028\n\uf029\n\uf028\uf029\nz t\ny t\nx t\nx\nt\nx t\n\uf03d\n\uf02a\n\uf03d\n\uf02d\n\uf02a\n \n \n  \n \n\u2026. (2)\nPut,  \nt\nt\n\uf03d\uf02d\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\nz\nt\ny\nt\nx\nt\n\uf02d\n\uf03d\n\uf02d\n\uf02a\n\uf02d\n\nPAGE\n17\n\n\uf028\n\uf029\n\uf028\uf029\n\uf028\n\uf029\nz\nt\nx t\nx\nt\n\uf02d\n\uf03d\n\uf02a\n\uf02d\nFrom commutative property :\n\uf028\n\uf029\n\uf028\n\uf029\n\uf028\uf029\nz\nt\nx\nt\nx t\n\uf02d\n\uf03d\n\uf02d\n\uf02a\n \n \n  \n \n \n \n\u2026. (3)\nFrom equation (2) and (3)\n\uf028\uf029\n\uf028\n\uf029\nz t\nz\nt\n\uf03d\n\uf02d\nHence the correct option is (A).",
+  "answer_text": "",
+  "explanation_text": ""
+}

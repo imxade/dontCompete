@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2020",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(6.25)",
+  "question_text": "Question 10\nA transmission line of length \n3 / 4\n\uf06c\n and having a characteristic impedance of \n50\n \uf057\n is terminated with a\nload of \n400\n.\n\uf057\n The impedance (rounded off to two decimal places) seen at the input end of the\ntransmission line is ________ \n.\n\uf057",
+  "answer_text": "(6.25)",
+  "explanation_text": "Sol.\n \nGiven : \nLength of transmission line, \n3\n4\nl\n\uf06c\n\uf03d\nCharacteristic impedance, \n0\n50\nZ\n \uf03d\n\uf057\nLoad of transmission line, \n400\nL\nZ\n \uf03d\n\uf057\n3 / 4\nl\n \u0003 \u0004\n400\nL\nZ\n \u0003\n\u0005\n0\n50\nZ\n \u0003\n\u0005\nin\nZ\nFor a lossless transmission line the input impedance is given by,\nZ\nj Z\nZ\nZ\nZ\njZ\n\uf0e9\n\uf0f9\n\uf02b\n\uf062\n\uf03d\n\uf0ea\n\uf0fa\n\uf02b\n\uf062\n\uf0eb\n\uf0fb\n\uf06c\n\uf06c\n \n \n \n \n \n\u2026(i)\ntan\ntan\n0\n0\n0\nL\nin\nL\nFor \n3\n4\n\uf06c\n transmission line,\n0\n2\n3\n3\n.\n270\n4\n2\n\uf070\n\uf06c\n\uf070\n\uf062\uf03d\n\uf03d\n\uf03d\n\uf06c\n\uf06c\n0\nsin 270\n1\ntan\ntan 270\ncos270\n0\n\uf02d\n\uf062\uf03d\n\uf03d\n\uf03d\n\uf03d\uf0a5\n\uf06c\nFrom, equation (i) \ntan\n\uf062\n\uf06c\nwill be common from numerator and denominator,\n\uf0e9\n\uf0f9\n\uf02b\n\uf0ea\n\uf0fa\n\uf062\n\uf03d\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf02b\n\uf0ea\n\uf0fa\n\uf062\n\uf0eb\n\uf0fb\nZ\njZ\nZ\nZ\nZ\njZ\nL\n0\n\uf06c\n0\n0\ntan\n\n\nin\nL\n\uf06c\ntan\n\uf0e9\n\uf0f9\n\uf02b\n\uf0ea\n\uf0fa\n\uf03d\n\uf0ea\n\uf0fa\n\uf0ea\n\uf0fa\n\uf02b\n\uf0eb\n\uf0fb\nZ\njZ\nZ\nZ\nZ\njZ\nL\n0\n0\n0\ntan 270\n\n\nin\nL\ntan 270\n\nGATE 2020 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n16\n\njZ\nZ\nZ\njZ\n\uf0e9\n\uf0f9\n\uf02b\n\uf03d\n\uf0ea\n\uf0fa\n\uf02b\n\uf0eb\n\uf0fb\n0\n0\n0\n0\nin\nL\n2\n0\nin\nL\nZ\nZ\nZ\n\uf03d\n\n2\n50\n50 50\n400\n400\nin\nZ\n\uf0b4\n\uf03d\n\uf03d\n\n6.25\nin\nZ\n \uf03d\n\uf057\nHence, the impedance seen at the input end of the transmission line is \n6.25\n\uf057"
+}

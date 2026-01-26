@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 3\n                         \n \n \nA rigid tank of volume 50 m\n3\n contains a pure substance as a saturated liquid vapour mixture at 400 kPa. \nOf the total mass of the mixture, 20% mass is liquid and 80% mass is vapour. Properties at 400 kPa are :\nSaturation \ntemperature, \n0\n3\n143.61 C; Specific volume of Saturated liquid,\n0.001084m /kg;\nsat\nf\nT\nv\n=\n=\nSpecific volume of saturated vapour, \n3\n0.46242m /kg\ng\nv\n =\n. The total mass of liquid vapour mixture in the\ntank is _______ kg (round off to the nearest integer).\nEngineering Thermodynamics (Pure Substance) \n \nAns. \n135.08",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven : \n3\n50m\nV\n =\n, \n400kPa\nP\n =\nLiquid \n20%\n=\n, Vapor \n80%\n=\n0.8\n0.8\n0.2\n0.8\nx\n =\n=\n+\n3\n0.001084m / kg\nf\nv\n =\n3\n0.46242m /kg\ng\nv\n =\n(\n)\nf\ng\nf\nv\nv\nx v\nv\n=\n+\n\u2212\n0.001084\n0.8(0.46242 0.001084)\nv\n =\n+\n\u2212\n\nGATE 2021 \n [Afternoon Session]\nMechanical Engineering\nPAGE\n9\n\n3\n0.37015 m / kg\nv\n =\nV\nv\nm\n=\n50\n135.08 kg\n0.37015\nm\n =\n="
+}

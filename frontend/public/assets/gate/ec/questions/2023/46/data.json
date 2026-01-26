@@ -1,0 +1,11 @@
+{
+  "id": "46",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A) \n[MTA]\nV\nh\nR\nV\nh\n\uf02d\n\uf0b4\n\uf03d",
+  "question_text": "Question 46 \n  \n \n \n \n \n \nNetwork Theory : Two port Networks\n \n \nThe h-parameters of a two-port network are shown below. The condition for the maximum small signal\nV\nvoltage gain \nout\nV\n is\ns\ni\n2\ni\n1\nh\n11\nV\ns\nV\n1\nh V\n12\n2\nh V\n21\n1\nh\n22\nV\n2\nR\nL\nV\nout\n(A) \n11\n12\n21\n0,\n0,\nh\nh\nh\n\uf03d\n\uf03d\n\uf03d\n very high and \n22\n0\nh\n \uf03d\n(B) \n11\nh\n \uf03d\n very high, \n12\n21\n0,\nh\nh\n\uf03d\n\uf03d\n very high and \n22\n0\nh\n \uf03d\n(C) \n11\n12\n0,\nh\nh\n\uf03d\n\uf03d\n very high, \n21\nh\n \uf03d\n very high and \n22\n0\nh\n \uf03d\n(D) \n11\n12\n21\n0,\n0,\nh\nh\nh\n\uf03d\n\uf03d\n\uf03d\n very high and \n22\nh\n \uf03d\n very high",
+  "answer_text": "(A) \n[MTA]\nV\nh\nR\nV\nh\n\uf02d\n\uf0b4\n\uf03d",
+  "explanation_text": "Sol. \n0\n21\nL\ns\n11\nV\nh\nR\nV\nh\n\uf02d\n\uf0b4\n\uf03d\n to be maximum, \n11\n0\nh\n \uf03d\n and \n21\nh\n   should be very high. Ideally \n12\nh\n  and \n22\nh\n  should be\nFor \n0\n21\nL\ns\n11\nzero.  \n \nIn the figure of the given question the current source is modelled as \n21\n1\nh V\n . But according to the h-\nparameter model, it should be \n21\n1\nh I\n . Hence, it should be marks to all question (MTA). If \n21\n1\nh I\n  had\nbeen given instead of \n21\n1\nh V\n , then option (A) would have been correct."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "47",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MSQ",
+  "key": "B, C\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n68",
+  "question_text": "Question 47 \n(MSQ)\n \n \n \nElectronic Devices\nSelect the CORRECT statement(s) regarding semiconductor devices\n(A) Mobility of electrons always increases with temperature in Silicon beyond 300 K.\n(B) Electrons and holes are of equal density in an intrinsic semiconductor at equilibrium.\n(C) Total current is spatially constant in a two terminal electronic device in dark under steady state \ncondition.\n(D) Collector region is generally more heavily doped than Base region in a BJT.",
+  "answer_text": "B, C\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n68",
+  "explanation_text": "Sol.\n \nFrom option (A) :\nThe mobility verses temperature diagram is given by,\nMobility (cm /V-s) \n2\n1500\n1000\n500\nTemperature (K)\n0 100\n200\n300\n400\n500\nThe mobility of electrons increases upto 300 K temperature. If we increases temperature beyond 300 K \nthen mobility of electrons start decreasing.\nHence, option (A) is incorrect.\nFrom option (B) :\nElectrons and holes are of equal density in an intrinsic semiconductor at equilibrium\ni.e. \ni\nn\np\nn\n\uf03d\n\uf03d\nHence, option (B) is correct.\nForm option (C) :\nUnder dark: \nWhen there is no external illumination of light in two terminal electronic devices and in \nsuch condition only current flow due to minority charge carriers.\nV\nI\n\uf02d\n characteristic of two terminal device in dark under steady state condition is given by.\n\nIn under dark, \n0\n0\ndI\ndV\n \n\uf03d\nThe total current is constant in a two terminal electronic device in dark under steady state condition.\nHence, option (C) is correct.\nForm option (D) : \nIn BJT the emitter region has the highest doping, the collector region is doped the \nlowest, the doping level in the base region is smaller than that in the emitter region but higher than that in \nthe collector region.\nE\nB\nC\nN\nN\nN\n\uf03e\uf03e\n\uf03e\uf03e\nHence, the correct options are (B) and (C).\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n69\n"
+}

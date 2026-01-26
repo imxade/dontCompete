@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(B)",
+  "question_text": "Question 10\n\uf02b\n\uf02d\n mm \nis __________.\n\uf02b\n\uf02d\n mm and a hole of\n \ndiameter\n0.010\n0.010\n25.0\n0.015\n0.015\n25.015\nThe type of fit between a mating shaft of diameter\n(A) Clearance \n \n \n(B) Transition\n(C) Interference \n \n \n(D) Linear",
+  "answer_text": "(B)",
+  "explanation_text": "Sol. \nShaft \n0.01\n25\nmm\n0.01\n\uf02b\n\uf03d\n\uf02d\n Hole \n0.015\n25.015 0.015\n\uf02b\n\uf03d\n\uf02d\nFor shaft, Upper limit \n25.01\n\uf03d\nLower limit \n24.99\n\uf03d\nFor hole\nUpper limit \n25.03\n\uf03d\nLower limit \n25\n\uf03d\n\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n16\n\nIt is a transition fit.\nHence, the correct option is (B)."
+}

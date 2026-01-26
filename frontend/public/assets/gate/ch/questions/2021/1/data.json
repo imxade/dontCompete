@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "89 to 91",
+  "question_text": "Question 1\nA double-effect evaporator is used to concentrate a solution. Steam is sent to the first effect at \n0\n110 C\nand the boiling point of the solution in the second effect is \n0\n63.3 C\n. The overall heat transfer coefficient\nin the first effect and second effect are \n2\n1\n2000 Wm K\n\u2212\n\u2212\n and \n2\n1\n1500 Wm K ,\n\u2212\n\u2212\n respectively. The heat\nrequired to raise the temperature of the feed to the boiling point can be neglected. The heat flux in the \ntwo evaporators can be assumed to be equal.\nThe temperature at which the solution boils in the first effect is _______\n \n0\nC.\n (round off to nearest \ninteger)",
+  "answer_text": "89 to 91",
+  "explanation_text": "Sol.\n1\nV\n2\nV\n1\nF\nT\nT\n\u0002\n1\nT\n0\n2\n63.3 C\nT\n \u0002\n110 C\ns\nT\n\u0003\n\u0002\n2\nL\n1\nL\n\nLMTD \n2\n2\n1\n2\n2000 W/m K,\n1500 W/m K\nU\nU\n=\n=\n1\n2\nq\nq\n=\nQ\nUA T\n=\n\u0394\n  \n\uf0de\n   \nQ\nq\nU T\nA\n \n=\n=\n\u0394\nas   \n1\n2\nq\nq\n=\n1\n1\n2\n2\n(\n)\n(\n)\nU\nT\nU\nT\n\u0394\n=\n\u0394\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n8\n\n1\n1\n2\n2000(\n)\n1500(\n)\ns\nT\nT\nT\nT\n\u2212\n=\n\u2212\n1\n1\n2000(110\n)\n1500(\n63.3)\nT\nT\n\u2212\n=\n\u2212\n1\n1\n440\n4\n3\n189.9\nT\nT\n\u2212\n=\n\u2212\n1\n7\n629.9\nT\n =\n0\n1\n89.98 C\nT\n =\n \n \n \n \n \n \n \nAns."
+}

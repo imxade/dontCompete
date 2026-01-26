@@ -1,0 +1,11 @@
+{
+  "id": "41",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 41 \n[Geotechnical Engineering : Retaining Wall & Earth Pressure]\n \n \nA vertical smooth rigid retaining wall is supporting horizontal ground with dry cohesionless backfill\nhaving a friction angle of \n0\n30\n .  The inclinations of failure planes with respect to the major principal plane \nfor Rankine\u2019s active and passive earth pressure conditions, respectively, are\n(A) \n0\n30\n  and \n0\n30\n  \n(B) \n0\n60\n  and \n0\n60\n(C) \n0\n30\n  and \n0\n60\n  \n(D) \n0\n60\n  and \n0\n30\n  \nAns. (B)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nFor Rankine\u2019s active pressure condition\nv\n\uf073\n(Major principle plane)\nf\n\uf071\nn\n\uf073\n(Minor principle plane\n\n30\n45\n45\n60\n2\n2\n\uf066\n\uf071\uf03d\n\uf02b\n\uf03d\n\uf02b\n\uf03d\n0\n0\n0\n0\nf\nWhere,\nFor Rankine\u2019s passive pressure condition\nv\n\uf073\n(Minor principle plane)\nf\n\uf071\nh\n\uf073\n(Major principle plane\n\n30\n45\n45\n60\n2\n2\n\uf066\n\uf071\uf03d\n\uf02b\n\uf03d\n\uf02b\n\uf03d\n0\n0\n0\n0\nf\nWhere,\nHence, the correct options is (B).\n\nPAGE\n33\n"
+}

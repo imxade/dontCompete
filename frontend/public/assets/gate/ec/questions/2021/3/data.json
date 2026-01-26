@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "A",
+  "question_text": "Question 3 \n \n \n \n \nAnalog Electronics (1M)\nConsider the circuit with an ideal Op-Amp shown in figure,\nR\nF\nR\nCC\nV\n+\nR\nIN\nV\nout\nV\nREF\nV\nCC\nV\n\u2212\nAssuming \nIN\nCC\nV\nV\n<<\n and \nREF\nCC\nV\nV\n<<\n. The condition at which \nout\nV\n equal to zero is\n(A) \nIN\nREF\nV\nV\n=\n \n(B) \n0.5\nIN\nREF\nV\nV\n=\n \n(C) \n2\nIN\nREF\nV\nV\n=\n \n(D) \n2\nIN\nREF\nV\nV\n=\n+",
+  "answer_text": "A",
+  "explanation_text": "Sol. \nGiven circuit is shown below,\n0V\n0V\nR\nR\nF\nN\nR\n+\nV\nCC\nV\nIN\nV = \nout \n0 V\nV\nREF\n0V\n+\nV\nCC\nAccording to question, \nIN\nCC\nV\nV\n<<\n and \nREF\nCC\nV\nV\n<<\nHere, Op-Amp is ideal and -ve feedback is present so virtual ground concept is applicable.\nSo,   \n                          \n0\nV\nV\n+\n\u2212\n=\n=\nThus applying KCL at node \nN\n,\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n5\n\n\n0\n0\n0\n0\nIN\nout\nREF\nV\nV\nV\nR\nR\nR\n\u2212\n\u2212\n+\n+\n+\n=\nF\nV\nV\nV\nR\nR\n\u2212\n=\nout\nREF\nIN\nF\n[\n]\nF\nout\nREF\nIN\nR\nV\nV\nV\nR\n=\n\u2212\nAccording to question, \n0\nout\nV\n=\n[\n]\n0\nF\nREF\nIN\nR\nV\nV\nR\n=\n\u2212\n0\nREF\nIN\nV\nV\n\u2212\n=\nREF\nIN\nV\nV\n=\nHence, the correct answer is option (A)."
+}

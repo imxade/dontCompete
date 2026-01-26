@@ -1,0 +1,11 @@
+{
+  "id": "37",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 37  \n \n  \n \n \n[Signals & Systems]\nThe input\n \n( )\nx t\n  \nand the output\n \n( )\ny t\n  \nof a system are related as\n\uf028\uf029\n( )\n,\nt\nt\ny t\ne\ne x\nd\n\uf02d\n\uf074\n\uf02d\uf0a5\n\uf03d\n\uf074\n\uf074\n\uf0f2\n             \nt\n\uf02d\uf0a5\uf03c\uf03c\uf0a5\n.\nThe system is \n \n(A) Nonlinear \n(B) Linear and time-invariant \n \n(C) Linear but not time-invariant \n(D) Noncausal \nAns. \n(B)",
+  "answer_text": "",
+  "explanation_text": ""
+}

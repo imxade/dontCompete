@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 18 \n \n \n \n \nConsider a vapour-liquid mixture of components \nA\n and \nB\n that obeys Raoult\u2019s law. The vapour pressure of \nA\n is half that of \nB\n. The vapour phase concentrations of \nA\n and \nB\n are \n3 mol\ud835\udc5a\n\u22123\n,\n and \n6 mol\ud835\udc5a\n\u22123\n,\n respectively. \nAt equilibrium, the ratio of the liquid phase concentration of \nA\n to that of \nB\n is \n \n[Mass Transfer, 1 Marks] \n \n \n(A) 1.0 \n(B) 0.5 \n \n \n(C) 2.0 \n(D) 1.5 \n \nAns. \n(A)\n1\n\ud835\udc63\n=\n\ud835\udc63",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven\n: \n\ud835\udc43\n\ud835\udc34\n2\n \n\ud835\udc43\n\ud835\udc35\n\nPAGE\n15\n\n3\n3mol/m\nV\nA\nC\n\uf03d\nVapour phase concentration\n3\n6mol/m\nV\nB\nC\n\uf03d\n\nY\nA \nY\nB \n, \n Vapor\nLiquid\nX , X\nA\nB\n\nRaoult\u2019s Law state that Partial pressure of component A in vapor phase is directly proportional to mole \nfraction of that component in Liquid phase.\n\ud835\udc43\n\ud835\udc34\n\u221d\ud835\udc65\n\ud835\udc34\n\ud835\udc49\n, \n                \ud835\udc66\n\ud835\udc35\n\ud835\udc43\n\ud835\udc47\n= \ud835\udc65\n\ud835\udc34\n\ud835\udc43\n\ud835\udc35\n\ud835\udc60\ud835\udc4e\ud835\udc61\n,\n\ud835\udc43\n\ud835\udc47\n\ud835\udc66\n\ud835\udc34\n= \ud835\udc65\n\ud835\udc34\n\ud835\udc43\n\ud835\udc34\nsat\ny\nx P\ny\nx P\n\uf03d\ns t\nA\nA\na\nA\n\nB\nB\nB\nV\nT\nL\nT\nA\nA\nV\nT\nL\nT\nB\nB\n/\n/\n0.5\n/\n/\nC\nC\nC\nC\nC\nC\nC\nC\n\uf03d\n\uf0b4\nL\nA\nC\nC\n\uf03d\n\uf03d\n\uf0b4\n3\n0.5\n0.5\n6\nL\nB\nL\nA\nC\nC\n\uf03d\n1\nL\nB"
+}

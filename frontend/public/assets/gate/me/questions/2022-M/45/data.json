@@ -1,0 +1,11 @@
+{
+  "id": "45",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "31.4159",
+  "question_text": "Question 45\nA 1 mm thick cylindrical tube, 100 mm in diameter, is orthogonally turned such\n \nthat the entire wall \nthickness of the tube is cut in a single pass. The axial feed of the\n \ntool is 1 m/minute and the specific cutting \nenergy (\nu\n) of the tube material is 6 J/mm\n3\n. Neglect contribution of feed force towards power. The power \nrequired to carry out this operation is ________ kW (round off to one decimal place).",
+  "answer_text": "31.4159",
+  "explanation_text": "Sol. \nGiven :\nThickness \n( )\n1 mm\nt\n \uf03d\nDiameter \n( )\n100 mm\nD\n \uf03d\nAxial feed \n1000\n( )\n1 m/min\n mm/sec\n60\nF\nfN\n\uf03d\n\uf03d\n\uf03d\n3\n( )\n6 J/mm\nG\n \uf03d\nSpecific cutting energy\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n48\n\nFor cylindrical tube,\nArea of cut \n( )\nA\nDt\n\uf03d\uf070\nNow,\nSpecific cutting energy \nPower\nMaterial removal rate\n\uf03d\n6\nP\nA\nfN\n\uf03d\n\uf0b4\nP\nDt\n\uf03d\n\uf0e6\n\uf0f6\n\uf070\n\uf0b4\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n6\n1000\n\n60\nP\n\uf03d\n6\n1000\n100 1\n60\n\n\uf070\uf0b4\n\uf0b4\uf0b4\nPower required, \n31415.9 W\nP\n \uf03d\nP\n31.4159 kW\n\uf03d\nHence, the correct answer is 31.4159"
+}

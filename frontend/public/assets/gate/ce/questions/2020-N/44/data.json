@@ -1,0 +1,11 @@
+{
+  "id": "44",
+  "stream": "civil-engineering",
+  "packet": "2020-N",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question\n 44\nA 10 m high slope of dry clay soil (unit weight \n3\n20kN/m\n\uf03d\n), with a slope angle of \n0\n45\n and the circular \nslip surface, is shown in the figure (\nnot drawn to the scale\n) . The weight of the slip wedge is denoted by \nW. The untrained unit cohesion \n(\n)\nu\nc\nis 60 kPa.\n10m\nUnit weight = 20 kN/m\n3\n= 60 kPa\nc\nu\n10m\n4.48m\nW\n45\n0\n\nThe factor of safety of the slope against slip failure, is\n(A) \n0.58 \n(B) 1.57 \n(C) 1.67 \n(D) 1.84",
+  "answer_text": "(D)",
+  "explanation_text": ""
+}

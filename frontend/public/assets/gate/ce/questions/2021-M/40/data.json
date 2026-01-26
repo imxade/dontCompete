@@ -1,0 +1,11 @@
+{
+  "id": "40",
+  "stream": "civil-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 40 \n \nThe state of stress in a deformable body is shown in the figure. Consider trAns.formation of the stress \nfrom the \nx\ny\n\u2212\ncoordinate system to the \nX\nY\n\u2212\ncoordinate system. The angle\n\u03b8\n , locating the \nX\n-axis, is\nassumed to be positive when measured from the axis in counter-clockwise direction.\ny\nX\nY\n\u03c3\nxx\n = 120 MPa\n\u03c3\nxy\n = 50 MPa\n\u03c3\nxy\n30\n0\n\u03b8\nx\n\u03c3\nyy\n = 35.6 MPa\nThe absolute magnitude of the shear stress component \nxy\n\u03c3\n(in MPa, round off to one decimal place) in\nx\ny\n\u2212\n coordinate system is ____. \nAns. \n96.186 \nSol. \nGiven :\ny\n\u03c3\nxy\n\u03c4\n120 MPa\n'\nx\n\u03c3\n'\nxy\n\u03c4\nx\n\u03c3\nx\n\u03c3\n40 MPa\n60\n0\n50 MPa\n30\n0\nxy\n\u03c4\n30\n0\ny\n\u03c3\n2\n2\n'\ncos\nsin\n2\nsin\ncos\nx\nx\ny\nxy\nz\n\u03c3\n= \u03c3\n\u03b8 + \u03c3\n\u03b8 +\n\u03b8\n\u03b8\n35.6 MPa\nx\ny\nx\ny\nx\nxy\nz\n\u03c3 + \u03c3\n\u03c3 \u2212\u03c3\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\u03c3\n=\n+\n\u03b8+\n\u03b8\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\nOr   \n'\ncos2\nsin 2\n2\n2\n\uf051\n  \n40 MPa\nx\n\u03c3 =\n, \n35.6 MPa\ny\n\u03c3 =\n, \n0\n60\nQ\n =\n(from vertical)\n\u2234\n  \n'\n120 MPa\nx\n\u03c3\n=\n' '\n50\nx y\nz\n= \u2212\n\u2234\n On substituting value in formula,\n40\n35.6\n40\n35.6\n120\ncos(120)\nsin(120)\n2\n2\nxy\nz\n+\n\u2212\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n=\n+\n+\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\u2234\n  \n96.186 MPa\nxy\nz\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 11\nIn a linear programming problem, if a resource is not fully utilized, the shadow\n \nprice of that resource is\n(A) Positive \n(B) Negative \n(C) Zero \n(D) Infinity",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \nIn linear programming problem, if a resource is not fully utilized, the shadow price of that resource will \nbe zero.\nHence the correct option is (C)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 8 \n \nThe chart given below compares the Installed Capacity (MW) of four power generation technologies, \n\ud835\udc47\n1\n, \ud835\udc47\n2\n, \ud835\udc47\n3\n and \n\ud835\udc47\n4\n and their Electricity Generation (MWh) in a time of 1000 hours (h).\nInstalled Capacity\nElectricity Generation\n14000\n70\n65\n60\n55\n50\n45\n40\n35\n30\n25\n13000\n12000\n11000\n10000\nElectricity Generation (MWh)\nInstalled Capacity (MW)\n9000\n8000\n7000\n6000\n5000\n4000\n3000\n0\n5\n10\n15\n20\n2000\n1000\n0\n1\nT\n2\nT\n3\nT\n4\nT\nPower Generation Technology\nThe Capacity Factor of a power generation technology is:\nElectricity Generation (MWh)\nCapacity Factor \n=\nInstalled Capacity (MW)\u00d71000(\n\u210e\n)\nWhich one of the given technologies has the highest Capacity Factor? \n[Logical Reasoning, 1] \n \n(A) \n\ud835\udc47\n1\n \n(B) \n\ud835\udc47\n2\n \n \n(C) \n\ud835\udc47\n3\n \n(D) \n\ud835\udc47\n4\n \nAns. (A)\n\nPAGE\n6\n",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\nElectricity Generation (Mwh)\nCapacity factor \n=\nInstalled capacity(Mw)\u00d71000(\n\u210e\n)\nFrom option (A) : The capacity factor of a power Generation technology \n(\ud835\udc47\n1\n)\n is\n10,000\nCapacity factor \n=\n20\u00d71000\nCapacity factor \n= 0.5\nFrom option (B) : The capacity of a power Generation technology \n(\ud835\udc47\n2\n)\n is\n9,000\n9\nCapacity factor \n=\n30\n \n= 0.3\n30\u00d71000\n \n=\nFrom option (C) : The capacity of a power Generation technology \n(\ud835\udc47\n3\n)\n is\n7,000\n7\nCapacity factor \n=\n15\n \n= 0.466\n15\u00d71000\n \n=\nFrom option (D) : The capacity of a power generation technology \n(\ud835\udc47\n4\n)\n is\n12,000\nCapacity factor \n=\n40\u00d71000\n \n= 0.3\nThe highest capacity factor of a power generation is \n\ud835\udc47\n1\n.\nHence the correct option is (A)."
+}

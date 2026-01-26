@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "civil-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "B",
+  "question_text": "Question 7\n1. \nSome football players play cricket\n2. \nAll cricket players play hockey\nAmong the options given below, the statement that logically follows from the two statements 1 and 2 \nabove, is :\n(A) All football players play hockey  \n(B) Some football players play hockey\n(C) No football player plays hockey \n(D) All hockey players play football",
+  "answer_text": "B",
+  "explanation_text": "Sol.\nHockey\nFootball\nCricket\nHence, the correct option is (B)."
+}

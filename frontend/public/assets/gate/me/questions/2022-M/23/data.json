@@ -1,0 +1,11 @@
+{
+  "id": "23",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "28.5",
+  "question_text": "Question 23\nElectrochemical machining operations are performed with tungsten as the tool, and\n \ncopper and aluminum \nas two different workpiece materials. Properties of copper\n \nand aluminum are given in the table below.\nMaterial \nAtomic mass (amu) Valency Density (g/cm\n3\n)\nCopper \n63 \n2 \n9\nAluminum \n27 \n3 \n2.7\nIgnore overpotentials, and assume that current efficiency is 100% for both the workpiece materials. Under \nidentical conditions, if the material removal rate (MRR) of copper is 100 mg/s, the MRR of aluminum \nwill be ___________ mg/s (round-off to two decimal places).",
+  "answer_text": "28.5",
+  "explanation_text": "Sol. \nGiven :\nFaraday\u2019s constant \n( )\n96500\nF\n \uf03d\nCurrent efficiency \n100%\n\uf03d\nMaterial removal rate of Cu \n(\n)\n100 mg/s\nCu\nMRR\n\uf03d\n3\n100 10  g/s\n\uf02d\n\uf03d\n\uf0b4\n\nMaterial \nAtomic Mass\nValency (z) \n3\n(g/cm )\n\uf072\n(A)\nCu \n63 \n2 \n9\nAl \n27 \n3 \n2.7\n\nMaterial removal rate,\nAI\nMRR\nZF\n\uf03d\nAI\nMRR\nZF\n\uf0e6\n\uf0f6\n\uf03d\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\nFor Cu, \nCu\n\nCu\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n24\n\nI\n\uf02d\n\uf0b4\n\uf0b4\n\uf03d\n\uf0b4\n3\n63\n100 10\n2 96500\n306.34 Amp\nI\n \uf03d\n\uf0b4\n\uf0e6\n\uf0f6\n\uf03d\n\uf03d\n\uf0e7\n\uf0f7\n\uf0b4\n\uf0e8\n\uf0f8\nFor Al, \n27 306.34\nAI\nMRR\nZF\n\n3 96500\nAL\nAL\n0.0285 g/sec\n28.5 mg/s\nAL\nMRR\n\uf03d\uf03d\n\uf03d\nHence, the correct answer is 28.5"
+}

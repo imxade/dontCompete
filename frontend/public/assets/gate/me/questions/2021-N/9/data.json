@@ -1,0 +1,11 @@
+{
+  "id": "9",
+  "stream": "mechanical-engineering",
+  "packet": "2021-N",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 9\n                                  \n \n \nA column with one end fixed and one end free has a critical buckling load of 100 N. For the same column \nif free end is replaced with a pinned end then critical buckling load will be ______ N (round off to the \nnearest integer).\nStrength of Material (Theory of Column) \n \nAns. \n800 \nSol.\n \nGiven :\n \n1\n100N\ncr\nP\n =\nP\nL\nP\nL\n=\n2\n1\n2\n2\ncr\ne\n\n2\ncr\ne\n1\nP\nL\nL\nL\nP\nL\n=\n=\n=\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n2\n2\n2\n2\n(2 )\n4\n8\ncr\n\n\n2\ncr\n1\n2\n2\n2\n1\n8\n800N\ncr\ncr\nP\nP\n=\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

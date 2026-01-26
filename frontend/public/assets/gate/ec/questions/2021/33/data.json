@@ -1,0 +1,11 @@
+{
+  "id": "33",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 33 \n \n \n \n \nComputer Organization (1M)\n\nGATE 2021 \n [Afternoon Session]\nElectronics & Communication Engineering\nPAGE\n51\n\nAddressing of a \n32 K 16\n\u00d7\n memory is realized using a single decoder. The minimum number of AND\ngate required for the decoder is\n(A) 2\n8 \n(B) 2\n32 \n(C) 2\n15 \n(D) 2\n19\n \nAns. \nC",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nGiven :\nAddressing of memory = \n32 K 16\n\u00d7\nAddressing of memory = \n5\n10\n2\n2\n16\n\u00d7\n\u00d7\n \n \n10\n(\n2 )\nK\n =\n\uf051\nAddressing of memory = \n15\n2\n16\n\u00d7\nSo \n32 K 16\n\u00d7\n memory needs 15 address lines\nSo it will need decoder of size \n15\n15 2\n\u00d7\n, which will need \n15\n2\n  AND gates.\nHence, the correct option is (C)."
+}

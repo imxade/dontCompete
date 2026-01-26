@@ -1,0 +1,11 @@
+{
+  "id": "18",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(B & D)",
+  "question_text": "Question 18\nWhich of the following additive manufacturing technique(\ns\n) can use a wire as a\n \nfeedstock material?\n(A) Stereolithography \n \n(B) Fused deposition modeling\n(C) Selective laser sintering \n(D) Directed energy deposition processes\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n19\n",
+  "answer_text": "(B & D)",
+  "explanation_text": "Sol. \nWire is used as feed stock material in two manufacturing technique which are :\n\uf0b7\n \nFused deposition modelling\n\uf0b7\n \nDirected energy deposition processes.\nHence, the correct option is (B,D)."
+}

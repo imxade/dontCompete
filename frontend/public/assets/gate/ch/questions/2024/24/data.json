@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 24 \n \n \n \n \nWhich one of the given statements is correct with reference to gas-liquid contactors for mass transfer \napplications?\n \n \n \n(A) A tray tower is more suitable for foaming systems than a packed tower. \n \n \n(B) Tray towers are preferred over packed towers for systems requiring frequent cleaning.\n\nPAGE\n21\n\n(C) For a given liquid flow rate, the gas flow rate in the loading region is greater than that in the flooding\nregion. \n \n \n(D) Flooding can never occur for counter-current contact.\n[Mass Transfer, 1 Marks]\n \nAns. (B)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven:\n for given gas liquid contractors.\nTray tower is preferred over packed tower for system requiring frequent cleaning.\nBecause for such fouling fluid, if it is passed over packed section than pore at packed section might be \nclogged that result in poor redistribution of liquid and result in channeling in the tower so interfacial \ncontact got decrease and mass transfer also got decreased."
+}

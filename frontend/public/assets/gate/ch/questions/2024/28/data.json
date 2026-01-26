@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 28 \n \n \n \n \nFor the electrolytic cell in a chlor-alkali plant, which of the following statements is/are correct?  \n \n(A) A membrane cell operates at a higher brine concentration than a diaphragm cell.\n\nPAGE\n23\n\n(B) Chlorine gas is produced at the cathode. \n \n(C) Hydrogen gas is produced at the cathode. \n \n(D) The caustic product stream exits the cathode compartment. \n [Chemical Technology, 1 Marks] \nAns. \n(A, C, D)",
+  "answer_text": "",
+  "explanation_text": "Sol.\n \nOption (A) :  \nCorrect\nIn a membrane cell the electrolysis of brine (NaCl) solution occur according to following equation\n2\n2\n2\n2NaCl\n2H O\nCl\nH\n2NaOH\n\uf02b\n\uf0be\uf0be\uf0ae\n\uf0ad\uf02b\n\uf0ad\uf02b\nat anode\nat cathode\n2\n2Cl\nCl\n2e\n\uf02d\n\uf0ae\n\uf02b\n2\n2\n2H O\n2e\nH\n2OH\n\uf02d\n\uf02b\n\uf0ae\n\uf02b\n\na higher concentration of brine may be used in a membrane cell, because the membrane prevents mixing \nof the product allowing for better control for production of \n\ud835\udc3b\n2\n,Cl\n2\n and NaOH.\nOption (B) :\n Incorrect\nCl\n2\n gas is produced at anode.\nOption (C) :\n Correct\n\ud835\udc3b\n2\ngas is produced at cathode.\nOption (D) :\n Correct\nIn both membrane and diaphragm cells, the caustic (NaOH) product stream exit the cathode compartment."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "12",
+  "stream": "electrical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "D\n\nGATE 2021 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n10",
+  "question_text": "Question 12 \n \n \n \n \nEngineering Mathematics (1M)\nLet \n3\n2\n( )\n(1\n)\n(2\n)\n3\nP z\nz\nj z\nj z\n=\n+ +\n+\n+\n+\n , where \nz\n is complex number. Which one of the following is\ntrue?\n(A) Conjugate \n{\n}\n( )\nP z\nP\n=\n(Conjugate {\nz\n})\n \nfor all \nz\n(B) The sum of the roots of \n( )\n0\nP z\n =\n is a real number\n(C) The complex roots of the equation \n( )\n0\nP z\n =\ncome in conjugate pairs.\n(D) All the roots cannot be real",
+  "answer_text": "D\n\nGATE 2021 \n [Forenoon Session]\nElectrical Engineering\nPAGE\n10",
+  "explanation_text": "Sol. \nGiven : \n3\n2\n( )\n(1\n)\n(2\n)\n3\nP z\nz\nj z\nj z\n=\n+ +\n+\n+\n+\nFor standard 3\nrd\n order equation of the from\n3\n2\n0\nx\nx\nx\n\u03b1 +\u03b2\n+\u03b3 +\u03b4=\nIf the roots are \na\n, \nb\n and \nc\n then\nSum of roots \na\nb\nc\n\u2212\u03b2\n+\n+\n= \u03b1\nProduct of roots \na b\n\u2212\u03b4\n\u22c5\n= \u03b1\nand \nab\nbc\nca\n\u03b3\n+\n+\n= \u03b1\nFor given equation,\n(1\n)\n(1\n)\n1\nj\na\nb\nc\nj\n\u2212\u03b2\n\u2212\n+\n+\n+\n=\n=\n= \u2212\n+\n\u03b1\nHence all the roots cannot be real.\n3\n3\n1\na b c\n\u2212\u03b4\n\u2212\n\u22c5\n\u22c5\n=\n=\n= \u2212\n\u03b1\nComplex roots can\u2019t be conjugate because sum of complex conjugate roots must be real.\nHence, the correct option is (D)."
+}

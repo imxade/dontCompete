@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 43\n\nGATE 2021 \n [Forenoon Session]\nChemical Engineering\nPAGE\n37\n\nIn a double pipe heat exchanger of 10 m length, a hot fluid flows in the annulus and a cold fluid flows in \nthe inner pipe. The temperature profiles of the hot \n(\n)\nh\nT\n and cold \n(\n)\nc\nT\n fluid along the length of the heat\nexchanger (x, such that \n0\nx\n \u2265\n), are given by\n( )\n80\n3\nh\nT x\nx\n=\n\u2212\n( )\n20\n2\nc\nT x\nx\n=\n+\nWhere \nh\nT\n  and \nc\nT\n  are in \n0\nC\n , and \nx\n is in meter.\nThe logarithmic mean temperature difference (in \n0\nC\n ) is\n(A) 50.0 \n \n(B) 24.6 \n(C) 27.9 \n(D) 30.0",
+  "answer_text": "(C)",
+  "explanation_text": "Sol.\nSol. \n \n \n( )\n80\n3\nh\nT x\nx\n=\n\u2212\n( )\n20\n2\nc\nT x\nx\n=\n+\nFor hot fluid \u2013\n(0)\n80\n3(0)\nh\nT\n=\n\u2212\n \n\uf0de\n   \n(0)\n80\nh\nT\n=\n(10)\n80\n3(10)\nh\nT\n=\n\u2212\n  \n\uf0de\n \n(10)\n50\nh\nT\n=\n(0)\n20\n2(0)\nc\nT\n=\n+\n      \n\uf0de\n   \n(0)\n40\nc\nT\n=\n(10)\n20\n2(10)\nc\nT\n=\n+\n  \n\uf0de\n  \n(10)\n40\nc\nT\n=\n80\n50\n40\n20\n0\nx\n \u0002\n10m\nL\n \u0002\n\nLMTD \n60 10\n60\nln 10\n\u2212\n=\n\uf0e6\n\uf0f6\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\nLMTD \n27.90\n=\nThus option (3) is correct."
+}

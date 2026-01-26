@@ -1,0 +1,11 @@
+{
+  "id": "39",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "0.5 to 0.5\nC\nK\nK\nC\nK\n=\n=\n\u00d7\n1\nC",
+  "question_text": "Question 39\nThe following homogeneous liquid phase reactions are at equilibrium.\n1\nk\nA\nB\n1\nk\n\u2212\n3\nk\n\u2212\n3\nk\n2\nk\n2\nk\n\u2212\nC\n\nThe values of rate constants are given by : \n1\n1\n1\n1\n1\n1\n1\n2\n2\n3\n0.1 s ,\n0.2 s ,\n1 s ,\n10\n,\n 10 s .\nk\nk\nk\nk\ns\nk\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n=\n=\n=\n=\n=\nThe value of rate constant \n3\nk\n\u2212\n is _______\n1\ns .\n\u2212\n (correct to 1 decimal place).",
+  "answer_text": "0.5 to 0.5\nC\nK\nK\nC\nK\n=\n=\n\u00d7\n1\nC",
+  "explanation_text": "Sol. \n \n \n1\n2\n3\nA\nP\nP\nP\nP\nP\nP\n\uf0de\n  \n2 3\n21\n22\n\u2212\n\u2212\n=\n\u00d7\n\u2212\n23\n2 1\n2 2\n2 3\n0.1\n1\n10 0.2\n10\nP\n \u2212\n\uf0e6\n\uf0f6\uf0e6\n\uf0f6\n=\n\uf0e7\n\uf0f7\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\uf0e8\n\uf0f8\n2 3\n0.5\nP\n \u2212\n="
+}

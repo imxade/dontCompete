@@ -1,0 +1,11 @@
+{
+  "id": "19",
+  "stream": "civil-engineering",
+  "packet": "2023-N",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 19 \n \n[Geotechnical Engineering : Effective Stress & Permeability]\nA vertical sheet pile wall is installed in an anisotropic soil having coefficient of horizontal permeability,\nH\nk\n  and coefficient of vertical permeability,\nV\nk\n . In order to draw the flow net for the isotropic condition,\nthe embedment depth of the wall should be scaled by a factor of___________ \n, without changing the \nhorizontal scale.\nk\nk\nk\n(A) \nH\n(B) \nV\n\nk\nV\nH\nk\n(C) 1.0 \n \n(D) \nH\nk\nV",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \nIn order to draw the flow net for the isotropic condition, the embedment depth of the wall should be\nk\nscaled by a factor of \nH\nk\n.\nV\n\nGATE 2023 \n [Afternoon Session]\nCivil Engineering\nPAGE\n10\n\nHence, the correct option is (A)."
+}

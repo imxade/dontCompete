@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "stream": "civil-engineering",
+  "packet": "2020-M",
+  "year": "2020",
+  "type": "MCQ",
+  "key": "(C)",
+  "question_text": "Question 7\nThe unit\u2019s place in \n110016\n26591749\n is _______.\n(A) 9 \n \n(B) 3 \n(C) 1 \n(D) 6",
+  "answer_text": "(C)",
+  "explanation_text": "Sol. \n \n110016\n2\n(26591749)\n(26591749)\n \nk\n=\n2\n9\n=\n81\n=\nSo, the unit digit is 1\nHence, the correct option is (C)."
+}

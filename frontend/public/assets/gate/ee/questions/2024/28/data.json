@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(B) \nSol. \nGiven :  \n \n(i) \n10\nR\n \uf03d\n\uf057\n(ii) \n18.37mH\nL\n \uf03d\n\nPAGE\n30\n\n(iii)\n50Hz\nf\n \uf03d\n(iv) AC supply = 230 V \n \nRL \u2013 Load \n \nCase 1 : \n(\n)\n\uf061\uf03e\uf066\n, \n0\nV\n  is controlled .\nIn steady state current will lag voltage by certain angle \n\uf066\nas shown in figure below\n\n\uf02d\n\uf077\n\uf0e6\n\uf0f6\n\uf066\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1\ntan\nL\nR\nWhere\n\n\uf02d\n\uf02d\n\uf0e6\n\uf0f6\n\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf066\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n3\n1\n \n2\n50 18.37 10\ntan\n10\n\n\n0\n29.989\n\uf066\uf03d\nHence the correct option is (B)",
+  "question_text": "Question 28  \n[Power Electronics : AC Voltage Controller]\nA single - phase triac based AC voltage controller feeds a series RL load. The input AC supply is 230 V, \n50 Hz. The values of \nR\n and \nL\n are \n10\n\uf057\n and 18.37 mH, respectively. The minimum triggering angle of the\ntriac to obtain controllable output voltage is\n(A) \n0\n15\n  \n(B) \n0\n30\n(C) \n0\n45\n  \n(D) \n0\n60",
+  "answer_text": "(B) \nSol. \nGiven :  \n \n(i) \n10\nR\n \uf03d\n\uf057\n(ii) \n18.37mH\nL\n \uf03d\n\nPAGE\n30\n\n(iii)\n50Hz\nf\n \uf03d\n(iv) AC supply = 230 V \n \nRL \u2013 Load \n \nCase 1 : \n(\n)\n\uf061\uf03e\uf066\n, \n0\nV\n  is controlled .\nIn steady state current will lag voltage by certain angle \n\uf066\nas shown in figure below\n\n\uf02d\n\uf077\n\uf0e6\n\uf0f6\n\uf066\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n1\ntan\nL\nR\nWhere\n\n\uf02d\n\uf02d\n\uf0e6\n\uf0f6\n\uf070\uf0b4\n\uf0b4\n\uf0b4\n\uf066\uf03d\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n3\n1\n \n2\n50 18.37 10\ntan\n10\n\n\n0\n29.989\n\uf066\uf03d\nHence the correct option is (B)",
+  "explanation_text": ""
+}

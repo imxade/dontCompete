@@ -1,0 +1,11 @@
+{
+  "id": "28",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 28 \n \nIn modern CNC machine tools, the backlash has been eliminated by\nProduction Engineering (CNC) \n \n(A)  ratchet and pinion \n \n \n(B)  rack and pinion \n \n(C)  preloaded ballscrews  \n \n(D)  slider crank mechanism \nAns. \nC  \nQuestion 29 \n \nActivities A, B, C and D form the critical path for a project with a PERT network. The means and \nvariances of the activity duration for each activity are given below. All activity durations follow the \nGaussian (normal) distribution, and are independent of each other. \nActivity \nA \nB \nC \nD \nMean (days) \n6 \n11 \n8 \n15 \nVariance (days\n2\n) \n4 \n9 \n4 \n9\n\n\nGATE 2021\n [Forenoon Session]\nMechanical Engineering\nPAGE\n26\n\nThe probability that project will be completed within 40 days is_______(round off to two decimal \nplaces).\nIndustrial Engineering (CPM & PERT) \n \n \n(Note: Probability is a number between 0 and 1). \nAns. \n0.5 \nSol.\n \n \nActivity \nA \nB \nC \nD \nMean (days) \n6 \n11 \n8 \n15 \nVariance (days\n2\n) \n4 \n9 \n4 \n9\nA, B, C, D are critical activities \n \nProject duration :\n 40 days  \n \nProbability that project will be completed in \n40 days \nis\n40\n40\nS\nE\nT\nT\nZ\n\u2212\n\u2212\n=\n=\n\u03c3\n\u03c3\n \n[\n]\n40 given\nS\nT\n =\n0\nZ\n =\n(\n)\n0\n50%\n0.5\nP Z\n =\n=\n=",
+  "answer_text": "",
+  "explanation_text": ""
+}

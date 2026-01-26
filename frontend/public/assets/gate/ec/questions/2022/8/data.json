@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "stream": "electronics-and-communication-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 8 \n \nFour points \nP\n(0, 1), \nQ\n(0, \u20133), \nR\n(\u20132, \u20131) and \nS\n(2 , \u20131) represent the vertices of a quadrilateral.  \n \nWhat is the area enclosed by the quadrilateral?\n(A) \n8 2\n  \n(B) 4\n(C) 8 \n(D) \n4 2\n  \nAns. \nC \n \nSol.\n \nGiven : \nThe vertices of a Quadrilateral have four points \nP\n(0, 1), \nQ\n(0, \u20133), \nR\n(\u20132, \u20131) \nand \nS\n(2 , \u20131)\n. \n \nOn plotting points on graph, \n \nAccording to the given data a Quadrilateral \nPSQR \nwill form as shown in below figure,\nP\n(0, 1)\n1\n\uf02d\n2\n\uf02d\n1\n1 \n2\nR\n( 2,\n1)\n\uf02d \uf02d\n\uf02d\n1\nS\n(2,\n1)\n \uf02d\n\uf02d \n2\n\uf02d \n3\nQ\n(0, \u20133)\n\n2\n2\n2\n1\n2\n1\n(\n)\n(\n)\nx\nx\ny\ny\n\uf02d\n\uf02b\n\uf02d\nThe distance formula between two points =\nLength of side \n2\n2\n(2 0)\n( 1 1)\n4 4\n8\nPS\n \uf03d\n\uf02d\n\uf02b\uf02d\uf02d\n\uf03d\n\uf02b\n\uf03d\nLength of side \n2\n2\n(2 0)\n( 1 3)\n4 4\n8\nQS\n \uf03d\n\uf02d\n\uf02b\uf02d\uf02b\n\uf03d\n\uf02b\n\uf03d\nLength of side \n2\n2\n(0 ( 2))\n( 3 ( 1))\n4 4\n8\nQR\n \uf03d\n\uf02d\uf02d\n\uf02b\n\uf02d\uf02d\uf02d\n\uf03d\n\uf02b\n\uf03d\nLength of side \n2\n2\n(0 ( 2))\n(1 ( 1))\n4 4\n8\nPR\n \uf03d\n\uf02d\uf02d\n\uf02b\n\uf02d\uf02d\n\uf03d\n\uf02b\n\uf03d\nLength of side \nPS\nQS\nQR\nPR\n\uf03d\n\uf03d\n\uf03d\nand, length of diagonal \n2\n2\n(0 0)\n(1 ( 3))\n4\nPQ\n \uf03d\n\uf02d\n\uf02b\n\uf02d\uf02d\n\uf03d\nLength of diagonal \n2\n2\n(2 ( 2))\n( 1 ( 1))\n4\nRS\n \uf03d\n\uf02d\uf02d\n\uf02b\uf02d\uf02d\uf02d\n\uf03d\nWe can see clearly,\nLength of diagonal \nPQ\nRS\n\uf03d\nSo, Quadrilateral \nPSQR \nfollows property of square. \n \nArea of Quadrilateral \nPSQR\n = Side\n2\nArea of Quadrilateral \n2\n( 8)\nPSQR\n \uf03d\n\uf03d\n 8 Sq. unit\n\nGATE 2022 \n [Forenoon Session]\nElectronics & Communication Engineering\nPAGE\n7\n\nand also by,\nArea of Rhombus = \n1\n2\n \n(product of both diagonals)\n=\n \n1 \n(4 4)\n2\n\uf0b4\nSq. unit = 8 Sq. unit\nHence, the correct option is (C).",
+  "answer_text": "",
+  "explanation_text": ""
+}

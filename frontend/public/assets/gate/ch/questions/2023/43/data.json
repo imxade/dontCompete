@@ -1,0 +1,11 @@
+{
+  "id": "43",
+  "stream": "chemical-engineering",
+  "packet": "2023",
+  "year": "2023",
+  "type": "MCQ",
+  "key": "(A)",
+  "question_text": "Question 43\nCO \nand \n2\nH\n  \nparticipate in a catalytic reaction. The partial pressures (in \natm\n) of the reacting species \nCO \nand \n2\nH\nin the feed stream are \nCO\np\n \nand\n2\nH\n \n,\np\n respectively. While \nCO \nundergoes molecular adsorption, \nH\n2 \nadsorbs via\ndissociative adsorption, that is, as hydrogen atoms. The equilibrium constants \n1\n(in atm )\n\uf02d\ncorresponding to\nadsorption of \nCO \nand \n2\nH\n  \nto the catalyst sites are \nCO\nK\n and\n2\n \n,\nH\nK\nrespectively. Total molar concentration of\nactive sites per unit mass of the catalyst is \nt\nC\n  \n1\n(in mol.(g cat) ).\n\uf02d\n Both the adsorption steps are at equilibrium. \nWhich one of the following expressions is the CORRECT ratio of the concentration of catalyst sites occupied \nby \nCO \nto that by hydrogen atoms?  \n  \n \n[Chemical Reaction Engineering, 2 Marks]\nK\np\nCO\nCO\n(A)\n\nK\np\nH\nH\n2\n2\n\nGATE 2023 \n [Afternoon Session]\nChemical Engineering\nPAGE\n28\n\nK\nCO\n(B)\n\nK\nH\n2\np\nCO\n(C)\n\np\nH\n2\nK\np\nCO\nCO\n(D)\n\nK\np\nH\nH\n2\n2",
+  "answer_text": "(A)",
+  "explanation_text": "Sol. \n(1) \nCO(g)\nCO S\n\uf0ae\n\uf0d7\n\uf0d7\n\uf03d\n\uf03d\nK\nK\nK\nS\n\uf02d\n[CO S]\nCO\n[ ]\n1\nCO\nP\nCO\nCO\n[CO S]\n[ ]\nK\nP\nS\n\uf0d7\n\uf03d\n\uf02d\n  \n \n \n \n \n\u2026 (i)\n(2) \n2\nH (g)\n2S\n2H.S\n\uf02b\n\uf0ae\n\uf0d7\n\uf03d\n\uf03d\n\uf0d7\n2\n2\nK\nH S\nK\nK\nP\nS\n\uf02d\n[\n]\n[ ]\nH\n\n2\n2\n2\nH\n2\n2\n2\n2\n[\n]\n[ ]\nH\nH S\nKH\nP\nS\n\uf0d7\n\uf03d\n\uf0d7\n\n2\n2\n[\n]\n[ ]\nH\nH S\nKH P\nS\n\uf0d7\n\uf03d\n  \n \n \n \n \n\u2026 (ii)\n\nFrom equation (i) and (ii)\nH S\nK P\nS\nK P\n\uf0d7\n\uf03d\n\uf03d\n\uf0d7\n[ ]\n[\n]\n[\n]\n[ ]\nK\nP\nS\nK\nP\nCO S\n\nCO\nCO\nCO\nCO\nH\nH\nH\nH\n2\n2"
+}

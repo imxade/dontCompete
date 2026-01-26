@@ -1,0 +1,1001 @@
+{
+  "stream": "ec",
+  "stream_code": "electronics-and-communication-engineering",
+  "subjects": [
+    {
+      "name": "electronic device",
+      "id": "ec_subj_1",
+      "slug": "electronic-device",
+      "topics": [
+        {
+          "name": "energy bands in intrinsic and extrinsic semiconductor",
+          "id": "ec_subj_1_topic_1",
+          "slug": "energy-bands-in-intrinsic-and-extrinsic-semiconductor",
+          "md_path": "electronic-device/energy-bands-in-intrinsic-and-extrinsic-semiconductor.md",
+          "questions": [
+            "questions/2020/30/",
+            "questions/2022/47/",
+            "questions/2023/16/"
+          ]
+        },
+        {
+          "name": "pn junction diode",
+          "id": "ec_subj_1_topic_2",
+          "slug": "pn-junction-diode",
+          "md_path": "electronic-device/pn-junction-diode.md",
+          "questions": [
+            "questions/2020/45/"
+          ]
+        },
+        {
+          "name": "solar cell",
+          "id": "ec_subj_1_topic_3",
+          "slug": "solar-cell",
+          "md_path": "electronic-device/solar-cell.md",
+          "questions": []
+        },
+        {
+          "name": "carrier transport characteristic",
+          "id": "ec_subj_1_topic_4",
+          "slug": "carrier-transport-characteristic",
+          "md_path": "electronic-device/carrier-transport-characteristic.md",
+          "questions": [
+            "questions/2020/26/"
+          ]
+        },
+        {
+          "name": "semiconductor propertie",
+          "id": "ec_subj_1_topic_5",
+          "slug": "semiconductor-propertie",
+          "md_path": "electronic-device/semiconductor-propertie.md",
+          "questions": [
+            "questions/2022/16/",
+            "questions/2022/56/"
+          ]
+        },
+        {
+          "name": "logic gate",
+          "id": "ec_subj_1_topic_6",
+          "slug": "logic-gate",
+          "md_path": "electronic-device/logic-gate.md",
+          "questions": [
+            "questions/2022/28/"
+          ]
+        },
+        {
+          "name": "ideal long channel nmosfet and pmosfet device",
+          "id": "ec_subj_1_topic_7",
+          "slug": "ideal-long-channel-nmosfet-and-pmosfet-device",
+          "md_path": "electronic-device/ideal-long-channel-nmosfet-and-pmosfet-device.md",
+          "questions": [
+            "questions/2022/20/"
+          ]
+        },
+        {
+          "name": "mos capacitor",
+          "id": "ec_subj_1_topic_8",
+          "slug": "mos-capacitor",
+          "md_path": "electronic-device/mos-capacitor.md",
+          "questions": [
+            "questions/2022/34/"
+          ]
+        },
+        {
+          "name": "carrier transport",
+          "id": "ec_subj_1_topic_9",
+          "slug": "carrier-transport",
+          "md_path": "electronic-device/carrier-transport.md",
+          "questions": [
+            "questions/2021/7/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "communication",
+      "id": "ec_subj_2",
+      "slug": "communication",
+      "topics": [
+        {
+          "name": "random variables and random processe",
+          "id": "ec_subj_2_topic_1",
+          "slug": "random-variables-and-random-processe",
+          "md_path": "communication/random-variables-and-random-processe.md",
+          "questions": [
+            "questions/2023/30/",
+            "questions/2023/59/"
+          ]
+        },
+        {
+          "name": "solar cell",
+          "id": "ec_subj_2_topic_2",
+          "slug": "solar-cell",
+          "md_path": "communication/solar-cell.md",
+          "questions": [
+            "questions/2020/44/"
+          ]
+        },
+        {
+          "name": "pre emphasis de emphasis filter",
+          "id": "ec_subj_2_topic_3",
+          "slug": "pre-emphasis-de-emphasis-filter",
+          "md_path": "communication/pre-emphasis-de-emphasis-filter.md",
+          "questions": [
+            "questions/2022/51/"
+          ]
+        },
+        {
+          "name": "probability theory",
+          "id": "ec_subj_2_topic_4",
+          "slug": "probability-theory",
+          "md_path": "communication/probability-theory.md",
+          "questions": [
+            "questions/2022/48/"
+          ]
+        },
+        {
+          "name": "discrete memoryless channel",
+          "id": "ec_subj_2_topic_5",
+          "slug": "discrete-memoryless-channel",
+          "md_path": "communication/discrete-memoryless-channel.md",
+          "questions": []
+        },
+        {
+          "name": "channel capacity theorem",
+          "id": "ec_subj_2_topic_6",
+          "slug": "channel-capacity-theorem",
+          "md_path": "communication/channel-capacity-theorem.md",
+          "questions": [
+            "questions/2022/61/"
+          ]
+        },
+        {
+          "name": "super heterodyne receiver",
+          "id": "ec_subj_2_topic_7",
+          "slug": "super-heterodyne-receiver",
+          "md_path": "communication/super-heterodyne-receiver.md",
+          "questions": [
+            "questions/2021/46/"
+          ]
+        },
+        {
+          "name": "pulse code modulation pcm",
+          "id": "ec_subj_2_topic_8",
+          "slug": "pulse-code-modulation-pcm",
+          "md_path": "communication/pulse-code-modulation-pcm.md",
+          "questions": [
+            "questions/2021/39/"
+          ]
+        },
+        {
+          "name": "digital modulation scheme",
+          "id": "ec_subj_2_topic_9",
+          "slug": "digital-modulation-scheme",
+          "md_path": "communication/digital-modulation-scheme.md",
+          "questions": [
+            "questions/2021/40/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "networks signal",
+      "id": "ec_subj_3",
+      "slug": "networks-signal",
+      "topics": [
+        {
+          "name": "linear 2 port network parameter",
+          "id": "ec_subj_3_topic_1",
+          "slug": "linear-2-port-network-parameter",
+          "md_path": "networks-signal/linear-2-port-network-parameter.md",
+          "questions": [
+            "questions/2023/46/"
+          ]
+        },
+        {
+          "name": "continuous time signals fourier series and fourier transform",
+          "id": "ec_subj_3_topic_2",
+          "slug": "continuous-time-signals-fourier-series-and-fourier-transform",
+          "md_path": "networks-signal/continuous-time-signals-fourier-series-and-fourier-transform.md",
+          "questions": [
+            "questions/2023/47/"
+          ]
+        },
+        {
+          "name": "circuit analysis node and mesh analysis",
+          "id": "ec_subj_3_topic_3",
+          "slug": "circuit-analysis-node-and-mesh-analysis",
+          "md_path": "networks-signal/circuit-analysis-node-and-mesh-analysis.md",
+          "questions": []
+        },
+        {
+          "name": "circuits analysis",
+          "id": "ec_subj_3_topic_4",
+          "slug": "circuits-analysis",
+          "md_path": "networks-signal/circuits-analysis.md",
+          "questions": [
+            "questions/2020/21/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital circuit",
+      "id": "ec_subj_4",
+      "slug": "digital-circuit",
+      "topics": [
+        {
+          "name": "data converter",
+          "id": "ec_subj_4_topic_1",
+          "slug": "data-converter",
+          "md_path": "digital-circuit/data-converter.md",
+          "questions": [
+            "questions/2023/31/"
+          ]
+        },
+        {
+          "name": "sequential circuit",
+          "id": "ec_subj_4_topic_2",
+          "slug": "sequential-circuit",
+          "md_path": "digital-circuit/sequential-circuit.md",
+          "questions": [
+            "questions/2021/21/"
+          ]
+        },
+        {
+          "name": "combinatorial circuit",
+          "id": "ec_subj_4_topic_3",
+          "slug": "combinatorial-circuit",
+          "md_path": "digital-circuit/combinatorial-circuit.md",
+          "questions": [
+            "questions/2020/5/"
+          ]
+        },
+        {
+          "name": "discrete time",
+          "id": "ec_subj_4_topic_4",
+          "slug": "discrete-time",
+          "md_path": "digital-circuit/discrete-time.md",
+          "questions": [
+            "questions/2020/3/"
+          ]
+        },
+        {
+          "name": "boolean algebra",
+          "id": "ec_subj_4_topic_5",
+          "slug": "boolean-algebra",
+          "md_path": "digital-circuit/boolean-algebra.md",
+          "questions": [
+            "questions/2022/27/",
+            "questions/2022/40/"
+          ]
+        },
+        {
+          "name": "digital logic",
+          "id": "ec_subj_4_topic_6",
+          "slug": "digital-logic",
+          "md_path": "digital-circuit/digital-logic.md",
+          "questions": [
+            "questions/2022/9/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electromagnetic",
+      "id": "ec_subj_5",
+      "slug": "electromagnetic",
+      "topics": [
+        {
+          "name": "transmission line",
+          "id": "ec_subj_5_topic_1",
+          "slug": "transmission-line",
+          "md_path": "electromagnetic/transmission-line.md",
+          "questions": [
+            "questions/2020/10/",
+            "questions/2023/51/"
+          ]
+        },
+        {
+          "name": "plane waves and propertie",
+          "id": "ec_subj_5_topic_2",
+          "slug": "plane-waves-and-propertie",
+          "md_path": "electromagnetic/plane-waves-and-propertie.md",
+          "questions": [
+            "questions/2020/40/"
+          ]
+        },
+        {
+          "name": "maxwells equation",
+          "id": "ec_subj_5_topic_3",
+          "slug": "maxwells-equation",
+          "md_path": "electromagnetic/maxwells-equation.md",
+          "questions": [
+            "questions/2022/65/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mathematic",
+      "id": "ec_subj_6",
+      "slug": "mathematic",
+      "topics": [
+        {
+          "name": "vector analysis vectors in plane and space vector operation",
+          "id": "ec_subj_6_topic_1",
+          "slug": "vector-analysis-vectors-in-plane-and-space-vector-operation",
+          "md_path": "mathematic/vector-analysis-vectors-in-plane-and-space-vector-operation.md",
+          "questions": [
+            "questions/2023/43/"
+          ]
+        },
+        {
+          "name": "differential equations first order equations linear and nonlinear",
+          "id": "ec_subj_6_topic_2",
+          "slug": "differential-equations-first-order-equations-linear-and-nonlinear",
+          "md_path": "mathematic/differential-equations-first-order-equations-linear-and-nonlinear.md",
+          "questions": [
+            "questions/2023/32/"
+          ]
+        },
+        {
+          "name": "multiple integral",
+          "id": "ec_subj_6_topic_3",
+          "slug": "multiple-integral",
+          "md_path": "mathematic/multiple-integral.md",
+          "questions": [
+            "questions/2022/53/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "analog circuit",
+      "id": "ec_subj_7",
+      "slug": "analog-circuit",
+      "topics": [
+        {
+          "name": "op amp circuit",
+          "id": "ec_subj_7_topic_1",
+          "slug": "op-amp-circuit",
+          "md_path": "analog-circuit/op-amp-circuit.md",
+          "questions": [
+            "questions/2020/8/",
+            "questions/2021/3/"
+          ]
+        },
+        {
+          "name": "microprocessor",
+          "id": "ec_subj_7_topic_2",
+          "slug": "microprocessor",
+          "md_path": "analog-circuit/microprocessor.md",
+          "questions": [
+            "questions/2020/12/"
+          ]
+        },
+        {
+          "name": "diode circuit",
+          "id": "ec_subj_7_topic_3",
+          "slug": "diode-circuit",
+          "md_path": "analog-circuit/diode-circuit.md",
+          "questions": [
+            "questions/2022/57/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "ec_subj_8",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "random variable",
+          "id": "ec_subj_8_topic_1",
+          "slug": "random-variable",
+          "md_path": "probability-and-statistic/random-variable.md",
+          "questions": [
+            "questions/2020/17/",
+            "questions/2023/36/"
+          ]
+        },
+        {
+          "name": "distribution",
+          "id": "ec_subj_8_topic_2",
+          "slug": "distribution",
+          "md_path": "probability-and-statistic/distribution.md",
+          "questions": []
+        },
+        {
+          "name": "combinatorial probability",
+          "id": "ec_subj_8_topic_3",
+          "slug": "combinatorial-probability",
+          "md_path": "probability-and-statistic/combinatorial-probability.md",
+          "questions": [
+            "questions/2021/31/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "network theory",
+      "id": "ec_subj_9",
+      "slug": "network-theory",
+      "topics": [
+        {
+          "name": "transient analysis",
+          "id": "ec_subj_9_topic_1",
+          "slug": "transient-analysis",
+          "md_path": "network-theory/transient-analysis.md",
+          "questions": [
+            "questions/2023/35/"
+          ]
+        },
+        {
+          "name": "circuit analysis",
+          "id": "ec_subj_9_topic_2",
+          "slug": "circuit-analysis",
+          "md_path": "network-theory/circuit-analysis.md",
+          "questions": [
+            "questions/2022/13/",
+            "questions/2022/14/",
+            "questions/2022/39/"
+          ]
+        },
+        {
+          "name": "linear 2 port network",
+          "id": "ec_subj_9_topic_3",
+          "slug": "linear-2-port-network",
+          "md_path": "network-theory/linear-2-port-network.md",
+          "questions": [
+            "questions/2022/54/"
+          ]
+        },
+        {
+          "name": "admittance parameter",
+          "id": "ec_subj_9_topic_4",
+          "slug": "admittance-parameter",
+          "md_path": "network-theory/admittance-parameter.md",
+          "questions": [
+            "questions/2021/55/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "signal",
+      "id": "ec_subj_10",
+      "slug": "signal",
+      "topics": [
+        {
+          "name": "classification of",
+          "id": "ec_subj_10_topic_1",
+          "slug": "classification-of",
+          "md_path": "signal/classification-of.md",
+          "questions": [
+            "questions/2023/26/"
+          ]
+        },
+        {
+          "name": "fourier series and fourier transform",
+          "id": "ec_subj_10_topic_2",
+          "slug": "fourier-series-and-fourier-transform",
+          "md_path": "signal/fourier-series-and-fourier-transform.md",
+          "questions": [
+            "questions/2020/28/"
+          ]
+        },
+        {
+          "name": "fourier transform",
+          "id": "ec_subj_10_topic_3",
+          "slug": "fourier-transform",
+          "md_path": "signal/fourier-transform.md",
+          "questions": [
+            "questions/2022/15/"
+          ]
+        },
+        {
+          "name": "discrete fourier transform dft",
+          "id": "ec_subj_10_topic_4",
+          "slug": "discrete-fourier-transform-dft",
+          "md_path": "signal/discrete-fourier-transform-dft.md",
+          "questions": [
+            "questions/2022/55/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "ec_subj_11",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "numerical ability",
+          "id": "ec_subj_11_topic_1",
+          "slug": "numerical-ability",
+          "md_path": "general-aptitude/numerical-ability.md",
+          "questions": [
+            "questions/2020/4/"
+          ]
+        },
+        {
+          "name": "geometry and computation",
+          "id": "ec_subj_11_topic_2",
+          "slug": "geometry-and-computation",
+          "md_path": "general-aptitude/geometry-and-computation.md",
+          "questions": [
+            "questions/2022/8/"
+          ]
+        },
+        {
+          "name": "verbal ability",
+          "id": "ec_subj_11_topic_3",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2022/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "control",
+      "id": "ec_subj_12",
+      "slug": "control",
+      "topics": [
+        {
+          "name": "state variable model and solution of state equation",
+          "id": "ec_subj_12_topic_1",
+          "slug": "state-variable-model-and-solution-of-state-equation",
+          "md_path": "control/state-variable-model-and-solution-of-state-equation.md",
+          "questions": [
+            "questions/2020/31/"
+          ]
+        },
+        {
+          "name": "steady state error",
+          "id": "ec_subj_12_topic_2",
+          "slug": "steady-state-error",
+          "md_path": "control/steady-state-error.md",
+          "questions": [
+            "questions/2020/51/"
+          ]
+        },
+        {
+          "name": "root locus plot",
+          "id": "ec_subj_12_topic_3",
+          "slug": "root-locus-plot",
+          "md_path": "control/root-locus-plot.md",
+          "questions": [
+            "questions/2020/38/",
+            "questions/2022/22/"
+          ]
+        },
+        {
+          "name": "transfer function",
+          "id": "ec_subj_12_topic_4",
+          "slug": "transfer-function",
+          "md_path": "control/transfer-function.md",
+          "questions": []
+        },
+        {
+          "name": "time invariant",
+          "id": "ec_subj_12_topic_5",
+          "slug": "time-invariant",
+          "md_path": "control/time-invariant.md",
+          "questions": [
+            "questions/2022/50/"
+          ]
+        },
+        {
+          "name": "polynomial roots on imaginary axis",
+          "id": "ec_subj_12_topic_6",
+          "slug": "polynomial-roots-on-imaginary-axis",
+          "md_path": "control/polynomial-roots-on-imaginary-axis.md",
+          "questions": [
+            "questions/2022/44/"
+          ]
+        },
+        {
+          "name": "pi control parameter",
+          "id": "ec_subj_12_topic_7",
+          "slug": "pi-control-parameter",
+          "md_path": "control/pi-control-parameter.md",
+          "questions": [
+            "questions/2021/30/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "semiconductor device",
+      "id": "ec_subj_13",
+      "slug": "semiconductor-device",
+      "topics": [
+        {
+          "name": "recombination process",
+          "id": "ec_subj_13_topic_1",
+          "slug": "recombination-process",
+          "md_path": "semiconductor-device/recombination-process.md",
+          "questions": [
+            "questions/2020/14/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vector analysis and calculus",
+      "id": "ec_subj_14",
+      "slug": "vector-analysis-and-calculus",
+      "topics": [
+        {
+          "name": "solving differential equation",
+          "id": "ec_subj_14_topic_1",
+          "slug": "solving-differential-equation",
+          "md_path": "vector-analysis-and-calculus/solving-differential-equation.md",
+          "questions": [
+            "questions/2020/7/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "differential equation",
+      "id": "ec_subj_15",
+      "slug": "differential-equation",
+      "topics": [
+        {
+          "name": "higher order linear des",
+          "id": "ec_subj_15_topic_1",
+          "slug": "higher-order-linear-des",
+          "md_path": "differential-equation/higher-order-linear-des.md",
+          "questions": [
+            "questions/2020/49/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calculus",
+      "id": "ec_subj_16",
+      "slug": "calculus",
+      "topics": [
+        {
+          "name": "partial derivative",
+          "id": "ec_subj_16_topic_1",
+          "slug": "partial-derivative",
+          "md_path": "calculus/partial-derivative.md",
+          "questions": [
+            "questions/2020/23/"
+          ]
+        },
+        {
+          "name": "integration",
+          "id": "ec_subj_16_topic_2",
+          "slug": "integration",
+          "md_path": "calculus/integration.md",
+          "questions": []
+        },
+        {
+          "name": "partial differential equation",
+          "id": "ec_subj_16_topic_3",
+          "slug": "partial-differential-equation",
+          "md_path": "calculus/partial-differential-equation.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "vector analysis and geometry",
+      "id": "ec_subj_17",
+      "slug": "vector-analysis-and-geometry",
+      "topics": [
+        {
+          "name": "areas of shape",
+          "id": "ec_subj_17_topic_1",
+          "slug": "areas-of-shape",
+          "md_path": "vector-analysis-and-geometry/areas-of-shape.md",
+          "questions": [
+            "questions/2020/9/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linear algebra",
+      "id": "ec_subj_18",
+      "slug": "linear-algebra",
+      "topics": [
+        {
+          "name": "vector spaces and basis",
+          "id": "ec_subj_18_topic_1",
+          "slug": "vector-spaces-and-basis",
+          "md_path": "linear-algebra/vector-spaces-and-basis.md",
+          "questions": [
+            "questions/2020/2/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "network analysis",
+      "id": "ec_subj_19",
+      "slug": "network-analysis",
+      "topics": [
+        {
+          "name": "inductor and capacitor value",
+          "id": "ec_subj_19_topic_1",
+          "slug": "inductor-and-capacitor-value",
+          "md_path": "network-analysis/inductor-and-capacitor-value.md",
+          "questions": [
+            "questions/2020/20/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mathematic",
+      "id": "ec_subj_20",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "complex analysis",
+          "id": "ec_subj_20_topic_1",
+          "slug": "complex-analysis",
+          "md_path": "engineering-mathematic/complex-analysis.md",
+          "questions": [
+            "questions/2020/1/"
+          ]
+        },
+        {
+          "name": "vector analysis",
+          "id": "ec_subj_20_topic_2",
+          "slug": "vector-analysis",
+          "md_path": "engineering-mathematic/vector-analysis.md",
+          "questions": [
+            "questions/2022/25/"
+          ]
+        },
+        {
+          "name": "linear algebra",
+          "id": "ec_subj_20_topic_3",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2022/12/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vector analysis geometric calculus",
+      "id": "ec_subj_21",
+      "slug": "vector-analysis-geometric-calculus",
+      "topics": [
+        {
+          "name": "triple integral",
+          "id": "ec_subj_21_topic_1",
+          "slug": "triple-integral",
+          "md_path": "vector-analysis-geometric-calculus/triple-integral.md",
+          "questions": [
+            "questions/2020/37/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electromagnetic theory",
+      "id": "ec_subj_22",
+      "slug": "electromagnetic-theory",
+      "topics": [
+        {
+          "name": "wave equation and solution",
+          "id": "ec_subj_22_topic_1",
+          "slug": "wave-equation-and-solution",
+          "md_path": "electromagnetic-theory/wave-equation-and-solution.md",
+          "questions": [
+            "questions/2022/30/"
+          ]
+        },
+        {
+          "name": "impedance matching network",
+          "id": "ec_subj_22_topic_2",
+          "slug": "impedance-matching-network",
+          "md_path": "electromagnetic-theory/impedance-matching-network.md",
+          "questions": [
+            "questions/2021/16/"
+          ]
+        },
+        {
+          "name": "radiation pattern",
+          "id": "ec_subj_22_topic_3",
+          "slug": "radiation-pattern",
+          "md_path": "electromagnetic-theory/radiation-pattern.md",
+          "questions": [
+            "questions/2021/10/"
+          ]
+        },
+        {
+          "name": "waveguide",
+          "id": "ec_subj_22_topic_4",
+          "slug": "waveguide",
+          "md_path": "electromagnetic-theory/waveguide.md",
+          "questions": [
+            "questions/2021/54/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spatial aptitude",
+      "id": "ec_subj_23",
+      "slug": "spatial-aptitude",
+      "topics": [
+        {
+          "name": "transformation of shape",
+          "id": "ec_subj_23_topic_1",
+          "slug": "transformation-of-shape",
+          "md_path": "spatial-aptitude/transformation-of-shape.md",
+          "questions": [
+            "questions/2022/5/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vector analysis",
+      "id": "ec_subj_24",
+      "slug": "vector-analysis",
+      "topics": [
+        {
+          "name": "vectors in plane and space",
+          "id": "ec_subj_24_topic_1",
+          "slug": "vectors-in-plane-and-space",
+          "md_path": "vector-analysis/vectors-in-plane-and-space.md",
+          "questions": [
+            "questions/2022/10/"
+          ]
+        },
+        {
+          "name": "contour integration",
+          "id": "ec_subj_24_topic_2",
+          "slug": "contour-integration",
+          "md_path": "vector-analysis/contour-integration.md",
+          "questions": [
+            "questions/2022/32/"
+          ]
+        },
+        {
+          "name": "line integral",
+          "id": "ec_subj_24_topic_3",
+          "slug": "line-integral",
+          "md_path": "vector-analysis/line-integral.md",
+          "questions": [
+            "questions/2022/11/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "analog electronic",
+      "id": "ec_subj_25",
+      "slug": "analog-electronic",
+      "topics": [
+        {
+          "name": "op amp circuit",
+          "id": "ec_subj_25_topic_1",
+          "slug": "op-amp-circuit",
+          "md_path": "analog-electronic/op-amp-circuit.md",
+          "questions": [
+            "questions/2022/42/",
+            "questions/2022/58/"
+          ]
+        },
+        {
+          "name": "opamp circuit",
+          "id": "ec_subj_25_topic_2",
+          "slug": "opamp-circuit",
+          "md_path": "analog-electronic/opamp-circuit.md",
+          "questions": [
+            "questions/2021/4/",
+            "questions/2022/26/",
+            "questions/2022/41/"
+          ]
+        },
+        {
+          "name": "ideal op amp circuits and voltage transfer function",
+          "id": "ec_subj_25_topic_3",
+          "slug": "ideal-op-amp-circuits-and-voltage-transfer-function",
+          "md_path": "analog-electronic/ideal-op-amp-circuits-and-voltage-transfer-function.md",
+          "questions": [
+            "questions/2021/5/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital communication",
+      "id": "ec_subj_26",
+      "slug": "digital-communication",
+      "topics": [
+        {
+          "name": "error correction",
+          "id": "ec_subj_26_topic_1",
+          "slug": "error-correction",
+          "md_path": "digital-communication/error-correction.md",
+          "questions": [
+            "questions/2022/62/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "geometric calculation",
+      "id": "ec_subj_27",
+      "slug": "geometric-calculation",
+      "topics": [
+        {
+          "name": "shortest distance",
+          "id": "ec_subj_27_topic_1",
+          "slug": "shortest-distance",
+          "md_path": "geometric-calculation/shortest-distance.md",
+          "questions": [
+            "questions/2022/3/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "signal processing",
+      "id": "ec_subj_28",
+      "slug": "signal-processing",
+      "topics": [
+        {
+          "name": "linear convolution of discrete time signal",
+          "id": "ec_subj_28_topic_1",
+          "slug": "linear-convolution-of-discrete-time-signal",
+          "md_path": "signal-processing/linear-convolution-of-discrete-time-signal.md",
+          "questions": [
+            "questions/2021/28/"
+          ]
+        },
+        {
+          "name": "exponential fourier series representation of continuous time periodic signal",
+          "id": "ec_subj_28_topic_2",
+          "slug": "exponential-fourier-series-representation-of-continuous-time-periodic-signal",
+          "md_path": "signal-processing/exponential-fourier-series-representation-of-continuous-time-periodic-signal.md",
+          "questions": [
+            "questions/2021/24/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer organization",
+      "id": "ec_subj_29",
+      "slug": "computer-organization",
+      "topics": [
+        {
+          "name": "addressing mode",
+          "id": "ec_subj_29_topic_1",
+          "slug": "addressing-mode",
+          "md_path": "computer-organization/addressing-mode.md",
+          "questions": [
+            "questions/2021/33/"
+          ]
+        },
+        {
+          "name": "instruction pipelining",
+          "id": "ec_subj_29_topic_2",
+          "slug": "instruction-pipelining",
+          "md_path": "computer-organization/instruction-pipelining.md",
+          "questions": [
+            "questions/2021/23/"
+          ]
+        }
+      ]
+    }
+  ]
+}

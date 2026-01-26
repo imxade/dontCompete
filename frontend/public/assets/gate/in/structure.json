@@ -1,0 +1,803 @@
+{
+  "stream": "in",
+  "stream_code": "instrumentation-engineering",
+  "subjects": [
+    {
+      "name": "engineering mathematic",
+      "id": "in_subj_1",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "linear algebra",
+          "id": "in_subj_1_topic_1",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2020/15/",
+            "questions/2020/52/",
+            "questions/2023/11/"
+          ]
+        },
+        {
+          "name": "calculus",
+          "id": "in_subj_1_topic_2",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": []
+        },
+        {
+          "name": "differential equation",
+          "id": "in_subj_1_topic_3",
+          "slug": "differential-equation",
+          "md_path": "engineering-mathematic/differential-equation.md",
+          "questions": []
+        },
+        {
+          "name": "analysis of complex variable",
+          "id": "in_subj_1_topic_4",
+          "slug": "analysis-of-complex-variable",
+          "md_path": "engineering-mathematic/analysis-of-complex-variable.md",
+          "questions": [
+            "questions/2023/39/"
+          ]
+        },
+        {
+          "name": "complex analysis",
+          "id": "in_subj_1_topic_5",
+          "slug": "complex-analysis",
+          "md_path": "engineering-mathematic/complex-analysis.md",
+          "questions": [
+            "questions/2021/14/"
+          ]
+        },
+        {
+          "name": "matrix algebra",
+          "id": "in_subj_1_topic_6",
+          "slug": "matrix-algebra",
+          "md_path": "engineering-mathematic/matrix-algebra.md",
+          "questions": [
+            "questions/2021/15/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electricity and magnetism",
+      "id": "in_subj_2",
+      "slug": "electricity-and-magnetism",
+      "topics": [
+        {
+          "name": "magnetic circuit",
+          "id": "in_subj_2_topic_1",
+          "slug": "magnetic-circuit",
+          "md_path": "electricity-and-magnetism/magnetic-circuit.md",
+          "questions": [
+            "questions/2023/55/"
+          ]
+        },
+        {
+          "name": "hall effect sensor",
+          "id": "in_subj_2_topic_2",
+          "slug": "hall-effect-sensor",
+          "md_path": "electricity-and-magnetism/hall-effect-sensor.md",
+          "questions": [
+            "questions/2020/16/"
+          ]
+        },
+        {
+          "name": "electric field intensity",
+          "id": "in_subj_2_topic_3",
+          "slug": "electric-field-intensity",
+          "md_path": "electricity-and-magnetism/electric-field-intensity.md",
+          "questions": [
+            "questions/2024/20/"
+          ]
+        },
+        {
+          "name": "electromagnetic force",
+          "id": "in_subj_2_topic_4",
+          "slug": "electromagnetic-force",
+          "md_path": "electricity-and-magnetism/electromagnetic-force.md",
+          "questions": [
+            "questions/2021/54/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "signal",
+      "id": "in_subj_3",
+      "slug": "signal",
+      "topics": [
+        {
+          "name": "discrete time",
+          "id": "in_subj_3_topic_1",
+          "slug": "discrete-time",
+          "md_path": "signal/discrete-time.md",
+          "questions": [
+            "questions/2023/36/",
+            "questions/2023/6/"
+          ]
+        },
+        {
+          "name": "transfer function frequency response of \ufb01rst and second order linear time invariant",
+          "id": "in_subj_3_topic_2",
+          "slug": "transfer-function-frequency-response-of-rst-and-second-order-linear-time-invaria",
+          "md_path": "signal/transfer-function-frequency-response-of-rst-and-second-order-linear-time-invaria.md",
+          "questions": []
+        },
+        {
+          "name": "transfer function",
+          "id": "in_subj_3_topic_3",
+          "slug": "transfer-function",
+          "md_path": "signal/transfer-function.md",
+          "questions": [
+            "questions/2020/10/"
+          ]
+        },
+        {
+          "name": "fourier transform",
+          "id": "in_subj_3_topic_4",
+          "slug": "fourier-transform",
+          "md_path": "signal/fourier-transform.md",
+          "questions": [
+            "questions/2020/7/"
+          ]
+        },
+        {
+          "name": "laplace transform",
+          "id": "in_subj_3_topic_5",
+          "slug": "laplace-transform",
+          "md_path": "signal/laplace-transform.md",
+          "questions": [
+            "questions/2021/32/",
+            "questions/2024/40/"
+          ]
+        },
+        {
+          "name": "sampling frequency",
+          "id": "in_subj_3_topic_6",
+          "slug": "sampling-frequency",
+          "md_path": "signal/sampling-frequency.md",
+          "questions": [
+            "questions/2024/27/"
+          ]
+        },
+        {
+          "name": "lti system and impulse response",
+          "id": "in_subj_3_topic_7",
+          "slug": "lti-system-and-impulse-response",
+          "md_path": "signal/lti-system-and-impulse-response.md",
+          "questions": [
+            "questions/2021/28/"
+          ]
+        },
+        {
+          "name": "periodicity of signal",
+          "id": "in_subj_3_topic_8",
+          "slug": "periodicity-of-signal",
+          "md_path": "signal/periodicity-of-signal.md",
+          "questions": [
+            "questions/2021/30/"
+          ]
+        },
+        {
+          "name": "filter design",
+          "id": "in_subj_3_topic_9",
+          "slug": "filter-design",
+          "md_path": "signal/filter-design.md",
+          "questions": [
+            "questions/2021/27/"
+          ]
+        },
+        {
+          "name": "sequences and discrete time signal",
+          "id": "in_subj_3_topic_10",
+          "slug": "sequences-and-discrete-time-signal",
+          "md_path": "signal/sequences-and-discrete-time-signal.md",
+          "questions": [
+            "questions/2021/29/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "control",
+      "id": "in_subj_4",
+      "slug": "control",
+      "topics": [
+        {
+          "name": "design of lead lag and lead lag compensator",
+          "id": "in_subj_4_topic_1",
+          "slug": "design-of-lead-lag-and-lead-lag-compensator",
+          "md_path": "control/design-of-lead-lag-and-lead-lag-compensator.md",
+          "questions": [
+            "questions/2020/13/"
+          ]
+        },
+        {
+          "name": "root locus",
+          "id": "in_subj_4_topic_2",
+          "slug": "root-locus",
+          "md_path": "control/root-locus.md",
+          "questions": [
+            "questions/2020/40/"
+          ]
+        },
+        {
+          "name": "state space representation",
+          "id": "in_subj_4_topic_3",
+          "slug": "state-space-representation",
+          "md_path": "control/state-space-representation.md",
+          "questions": [
+            "questions/2020/36/",
+            "questions/2024/17/"
+          ]
+        },
+        {
+          "name": "stability analysis",
+          "id": "in_subj_4_topic_4",
+          "slug": "stability-analysis",
+          "md_path": "control/stability-analysis.md",
+          "questions": [
+            "questions/2020/37/",
+            "questions/2021/10/"
+          ]
+        },
+        {
+          "name": "torque speed characteristic",
+          "id": "in_subj_4_topic_5",
+          "slug": "torque-speed-characteristic",
+          "md_path": "control/torque-speed-characteristic.md",
+          "questions": [
+            "questions/2024/62/"
+          ]
+        },
+        {
+          "name": "transfer function gs",
+          "id": "in_subj_4_topic_6",
+          "slug": "transfer-function-gs",
+          "md_path": "control/transfer-function-gs.md",
+          "questions": [
+            "questions/2021/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "analog electronic",
+      "id": "in_subj_5",
+      "slug": "analog-electronic",
+      "topics": [
+        {
+          "name": "characteristics of ideal and practical operational amplifier",
+          "id": "in_subj_5_topic_1",
+          "slug": "characteristics-of-ideal-and-practical-operational-amplifier",
+          "md_path": "analog-electronic/characteristics-of-ideal-and-practical-operational-amplifier.md",
+          "questions": [
+            "questions/2020/8/"
+          ]
+        },
+        {
+          "name": "capacitors and capacitance",
+          "id": "in_subj_5_topic_2",
+          "slug": "capacitors-and-capacitance",
+          "md_path": "analog-electronic/capacitors-and-capacitance.md",
+          "questions": [
+            "questions/2020/46/"
+          ]
+        },
+        {
+          "name": "transistors and current gain",
+          "id": "in_subj_5_topic_3",
+          "slug": "transistors-and-current-gain",
+          "md_path": "analog-electronic/transistors-and-current-gain.md",
+          "questions": [
+            "questions/2021/7/"
+          ]
+        },
+        {
+          "name": "transistor",
+          "id": "in_subj_5_topic_4",
+          "slug": "transistor",
+          "md_path": "analog-electronic/transistor.md",
+          "questions": [
+            "questions/2021/12/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general aptitude",
+      "id": "in_subj_6",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "verbal ability",
+          "id": "in_subj_6_topic_1",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2020/2/",
+            "questions/2020/4/",
+            "questions/2023/1/"
+          ]
+        },
+        {
+          "name": "numerical ability",
+          "id": "in_subj_6_topic_2",
+          "slug": "numerical-ability",
+          "md_path": "general-aptitude/numerical-ability.md",
+          "questions": [
+            "questions/2020/42/"
+          ]
+        },
+        {
+          "name": "spatial aptitude",
+          "id": "in_subj_6_topic_3",
+          "slug": "spatial-aptitude",
+          "md_path": "general-aptitude/spatial-aptitude.md",
+          "questions": [
+            "questions/2021/56/"
+          ]
+        },
+        {
+          "name": "abstract algebra",
+          "id": "in_subj_6_topic_4",
+          "slug": "abstract-algebra",
+          "md_path": "general-aptitude/abstract-algebra.md",
+          "questions": [
+            "questions/2021/57/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electrical circuits and machine",
+      "id": "in_subj_7",
+      "slug": "electrical-circuits-and-machine",
+      "topics": [
+        {
+          "name": "analysis of rlc circuits with dc excitation",
+          "id": "in_subj_7_topic_1",
+          "slug": "analysis-of-rlc-circuits-with-dc-excitation",
+          "md_path": "electrical-circuits-and-machine/analysis-of-rlc-circuits-with-dc-excitation.md",
+          "questions": [
+            "questions/2020/5/"
+          ]
+        },
+        {
+          "name": "analysis of rlc circuits with ac excitation",
+          "id": "in_subj_7_topic_2",
+          "slug": "analysis-of-rlc-circuits-with-ac-excitation",
+          "md_path": "electrical-circuits-and-machine/analysis-of-rlc-circuits-with-ac-excitation.md",
+          "questions": [
+            "questions/2020/54/"
+          ]
+        },
+        {
+          "name": "transient analysis of rlc circuits with dc excitation",
+          "id": "in_subj_7_topic_3",
+          "slug": "transient-analysis-of-rlc-circuits-with-dc-excitation",
+          "md_path": "electrical-circuits-and-machine/transient-analysis-of-rlc-circuits-with-dc-excitation.md",
+          "questions": [
+            "questions/2024/31/"
+          ]
+        },
+        {
+          "name": "voltage and current source",
+          "id": "in_subj_7_topic_4",
+          "slug": "voltage-and-current-source",
+          "md_path": "electrical-circuits-and-machine/voltage-and-current-source.md",
+          "questions": [
+            "questions/2024/51/"
+          ]
+        },
+        {
+          "name": "power measurement",
+          "id": "in_subj_7_topic_5",
+          "slug": "power-measurement",
+          "md_path": "electrical-circuits-and-machine/power-measurement.md",
+          "questions": [
+            "questions/2024/47/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "optic",
+      "id": "in_subj_8",
+      "slug": "optic",
+      "topics": [
+        {
+          "name": "refractive index calculation",
+          "id": "in_subj_8_topic_1",
+          "slug": "refractive-index-calculation",
+          "md_path": "optic/refractive-index-calculation.md",
+          "questions": [
+            "questions/2020/26/",
+            "questions/2020/32/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sensors and industrial instrumentation",
+      "id": "in_subj_9",
+      "slug": "sensors-and-industrial-instrumentation",
+      "topics": [
+        {
+          "name": "resistive capacitive sensor",
+          "id": "in_subj_9_topic_1",
+          "slug": "resistive-capacitive-sensor",
+          "md_path": "sensors-and-industrial-instrumentation/resistive-capacitive-sensor.md",
+          "questions": [
+            "questions/2020/3/"
+          ]
+        },
+        {
+          "name": "temperature measurement",
+          "id": "in_subj_9_topic_2",
+          "slug": "temperature-measurement",
+          "md_path": "sensors-and-industrial-instrumentation/temperature-measurement.md",
+          "questions": [
+            "questions/2021/46/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spatial aptitude",
+      "id": "in_subj_10",
+      "slug": "spatial-aptitude",
+      "topics": [
+        {
+          "name": "3d visualization",
+          "id": "in_subj_10_topic_1",
+          "slug": "3d-visualization",
+          "md_path": "spatial-aptitude/3d-visualization.md",
+          "questions": [
+            "questions/2024/10/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "measurement",
+      "id": "in_subj_11",
+      "slug": "measurement",
+      "topics": [
+        {
+          "name": "galvanometer",
+          "id": "in_subj_11_topic_1",
+          "slug": "galvanometer",
+          "md_path": "measurement/galvanometer.md",
+          "questions": [
+            "questions/2024/54/"
+          ]
+        },
+        {
+          "name": "ac circuits and power",
+          "id": "in_subj_11_topic_2",
+          "slug": "ac-circuits-and-power",
+          "md_path": "measurement/ac-circuits-and-power.md",
+          "questions": [
+            "questions/2021/5/"
+          ]
+        },
+        {
+          "name": "power factor calculation",
+          "id": "in_subj_11_topic_3",
+          "slug": "power-factor-calculation",
+          "md_path": "measurement/power-factor-calculation.md",
+          "questions": [
+            "questions/2021/51/"
+          ]
+        },
+        {
+          "name": "rectifier type digital meter",
+          "id": "in_subj_11_topic_4",
+          "slug": "rectifier-type-digital-meter",
+          "md_path": "measurement/rectifier-type-digital-meter.md",
+          "questions": [
+            "questions/2021/48/"
+          ]
+        },
+        {
+          "name": "systematic and random error",
+          "id": "in_subj_11_topic_5",
+          "slug": "systematic-and-random-error",
+          "md_path": "measurement/systematic-and-random-error.md",
+          "questions": []
+        },
+        {
+          "name": "error analysis",
+          "id": "in_subj_11_topic_6",
+          "slug": "error-analysis",
+          "md_path": "measurement/error-analysis.md",
+          "questions": [
+            "questions/2021/21/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "analysis of complex variable",
+      "id": "in_subj_12",
+      "slug": "analysis-of-complex-variable",
+      "topics": [
+        {
+          "name": "cauchys integral theorem and formula",
+          "id": "in_subj_12_topic_1",
+          "slug": "cauchys-integral-theorem-and-formula",
+          "md_path": "analysis-of-complex-variable/cauchys-integral-theorem-and-formula.md",
+          "questions": [
+            "questions/2024/49/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "in_subj_13",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "random variable",
+          "id": "in_subj_13_topic_1",
+          "slug": "random-variable",
+          "md_path": "probability-and-statistic/random-variable.md",
+          "questions": [
+            "questions/2024/65/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "verbal ability",
+      "id": "in_subj_14",
+      "slug": "verbal-ability",
+      "topics": [
+        {
+          "name": "language comprehension",
+          "id": "in_subj_14_topic_1",
+          "slug": "language-comprehension",
+          "md_path": "verbal-ability/language-comprehension.md",
+          "questions": [
+            "questions/2024/6/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "numerical ability",
+      "id": "in_subj_15",
+      "slug": "numerical-ability",
+      "topics": [
+        {
+          "name": "probability and statistic",
+          "id": "in_subj_15_topic_1",
+          "slug": "probability-and-statistic",
+          "md_path": "numerical-ability/probability-and-statistic.md",
+          "questions": [
+            "questions/2024/35/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital logic",
+      "id": "in_subj_16",
+      "slug": "digital-logic",
+      "topics": [
+        {
+          "name": "boolean algebra",
+          "id": "in_subj_16_topic_1",
+          "slug": "boolean-algebra",
+          "md_path": "digital-logic/boolean-algebra.md",
+          "questions": [
+            "questions/2021/8/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sensor and industrial instrumentation",
+      "id": "in_subj_17",
+      "slug": "sensor-and-industrial-instrumentation",
+      "topics": [
+        {
+          "name": "strain gauges and measurement",
+          "id": "in_subj_17_topic_1",
+          "slug": "strain-gauges-and-measurement",
+          "md_path": "sensor-and-industrial-instrumentation/strain-gauges-and-measurement.md",
+          "questions": [
+            "questions/2021/13/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "communication",
+      "id": "in_subj_18",
+      "slug": "communication",
+      "topics": [
+        {
+          "name": "continuous random variable",
+          "id": "in_subj_18_topic_1",
+          "slug": "continuous-random-variable",
+          "md_path": "communication/continuous-random-variable.md",
+          "questions": [
+            "questions/2021/24/"
+          ]
+        },
+        {
+          "name": "amplitude modulation",
+          "id": "in_subj_18_topic_2",
+          "slug": "amplitude-modulation",
+          "md_path": "communication/amplitude-modulation.md",
+          "questions": [
+            "questions/2021/25/"
+          ]
+        },
+        {
+          "name": "pulse code modulation",
+          "id": "in_subj_18_topic_3",
+          "slug": "pulse-code-modulation",
+          "md_path": "communication/pulse-code-modulation.md",
+          "questions": [
+            "questions/2021/26/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "network theory",
+      "id": "in_subj_19",
+      "slug": "network-theory",
+      "topics": [
+        {
+          "name": "bridge circuit",
+          "id": "in_subj_19_topic_1",
+          "slug": "bridge-circuit",
+          "md_path": "network-theory/bridge-circuit.md",
+          "questions": [
+            "questions/2021/42/"
+          ]
+        },
+        {
+          "name": "air core coil",
+          "id": "in_subj_19_topic_2",
+          "slug": "air-core-coil",
+          "md_path": "network-theory/air-core-coil.md",
+          "questions": [
+            "questions/2021/47/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electrical machine",
+      "id": "in_subj_20",
+      "slug": "electrical-machine",
+      "topics": [
+        {
+          "name": "transformer analysis",
+          "id": "in_subj_20_topic_1",
+          "slug": "transformer-analysis",
+          "md_path": "electrical-machine/transformer-analysis.md",
+          "questions": [
+            "questions/2021/55/"
+          ]
+        },
+        {
+          "name": "magnetic circuit",
+          "id": "in_subj_20_topic_2",
+          "slug": "magnetic-circuit",
+          "md_path": "electrical-machine/magnetic-circuit.md",
+          "questions": [
+            "questions/2021/36/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "aptitude",
+      "id": "in_subj_21",
+      "slug": "aptitude",
+      "topics": [
+        {
+          "name": "general reasoning",
+          "id": "in_subj_21_topic_1",
+          "slug": "general-reasoning",
+          "md_path": "aptitude/general-reasoning.md",
+          "questions": [
+            "questions/2021/60/",
+            "questions/2021/62/",
+            "questions/2021/63/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "optical and communication",
+      "id": "in_subj_22",
+      "slug": "optical-and-communication",
+      "topics": [
+        {
+          "name": "multimode fiber",
+          "id": "in_subj_22_topic_1",
+          "slug": "multimode-fiber",
+          "md_path": "optical-and-communication/multimode-fiber.md",
+          "questions": [
+            "questions/2021/41/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "geometric transformation",
+      "id": "in_subj_23",
+      "slug": "geometric-transformation",
+      "topics": [
+        {
+          "name": "seating arrangement",
+          "id": "in_subj_23_topic_1",
+          "slug": "seating-arrangement",
+          "md_path": "geometric-transformation/seating-arrangement.md",
+          "questions": [
+            "questions/2021/61/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "electromagnetic theory",
+      "id": "in_subj_24",
+      "slug": "electromagnetic-theory",
+      "topics": [
+        {
+          "name": "electric field",
+          "id": "in_subj_24_topic_1",
+          "slug": "electric-field",
+          "md_path": "electromagnetic-theory/electric-field.md",
+          "questions": [
+            "questions/2021/43/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "optical instrumentation",
+      "id": "in_subj_25",
+      "slug": "optical-instrumentation",
+      "topics": [
+        {
+          "name": "interferometry",
+          "id": "in_subj_25_topic_1",
+          "slug": "interferometry",
+          "md_path": "optical-instrumentation/interferometry.md",
+          "questions": [
+            "questions/2021/22/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital electronic",
+      "id": "in_subj_26",
+      "slug": "digital-electronic",
+      "topics": [
+        {
+          "name": "combinational logic",
+          "id": "in_subj_26_topic_1",
+          "slug": "combinational-logic",
+          "md_path": "digital-electronic/combinational-logic.md",
+          "questions": [
+            "questions/2021/3/"
+          ]
+        }
+      ]
+    }
+  ]
+}

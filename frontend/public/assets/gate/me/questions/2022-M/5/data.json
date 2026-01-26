@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "(A)\n\uf02b\n\uf0e9\n\uf0f9\n\uf03d\uf0ea\n\uf0fa\n\uf02d\n\uf02b\n\uf0eb\n\uf0fb",
+  "question_text": "Question 5\n\uf02b\n\uf0e9\n\uf0f9\n\uf03d\uf0ea\n\uf0fa\n\uf02d\n\uf02b\n\uf0eb\n\uf0fb\nIf \n 10         2\n5\nk\nA\nk\nk\nis a symmetric matrix, the value of \nk\n is ___________.\n3\n3     \n5\n(A) 8 \n(B) 5 \n(C) -0.4 \n(D) \n1\n1561\n12\n\uf02b",
+  "answer_text": "(A)\n\uf02b\n\uf0e9\n\uf0f9\n\uf03d\uf0ea\n\uf0fa\n\uf02d\n\uf02b\n\uf0eb\n\uf0fb",
+  "explanation_text": "Sol.\n \nGiven :\n Matrix \n10\n2\n5\n3\n3\n5\nK\nA\nK\nK\nis symmetric matrix.\na\na\nA\na\na\n\uf0e9\n\uf0f9\n\uf03d\uf0ea\n\uf0fa\n\uf0eb\n\uf0fb\nA matrix \n\uf05b\uf05d\nis to be symmetric if \n\uf05b\uf05d\nT\nA\nA\n\uf0e9\n\uf0f9\n\uf03d\uf0eb\n\uf0fb\n or \n12\n21\na\na\n\uf03d\n11\n12\n21\n22\nThat means, \n2\n5\n3\n3\nK\nK\n\uf02b\uf03d\n\uf02d\n5 3\n3\n2\nK\nK\n\uf02b\uf03d\n\uf02d\n8\nK\n \uf03d\nHence, the correct option is (A)."
+}

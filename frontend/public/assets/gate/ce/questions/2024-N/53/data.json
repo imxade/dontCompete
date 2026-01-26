@@ -1,0 +1,11 @@
+{
+  "id": "53",
+  "stream": "civil-engineering",
+  "packet": "2024-N",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 53 \n \n[Geotechnical Engineering : Seepage Analysis]\n \n \nA homogeneous earth dam has a maximum water head difference of 15 m between the upstream and \ndownstream sides. A flownet was drawn with the number of potential drops as 10 and the average length \nof the element as 3 m. Specific gravity of the soil is 2.65. For a factor of safety of 2.0 against piping \nfailure, void ratio of the soil is ______________ (rounded off to 2 decimal places) \nAns. 0.63 to 0.67",
+  "answer_text": "",
+  "explanation_text": "Sol. \nGiven,\n15m,\n2.65\nH\nG\n\uf044\n\uf03d\n\uf03d\n10, FOS\n2\nd\nN\n \uf03d\n\uf03d\n3 m,\n?\nL\ne\n\uf03d\n\uf03d\nWe know that,\nG\ni\ne\n\uf02d\n\uf03d\n\uf02b\n1\n1\nc\nWhere,\ncritical hydraulic gradient\nc\ni\n \uf03d\nvoid ratio\ne\n \uf03d\n\uf05c\n \n\u0394\n15\n1.5 m\n10\nd\nH\nh\nN\n\uf044\uf03d\n\uf03d\n\uf03d\n\nPAGE\n46\n\n1.5\n0.5\n3\nh\ni\nL\n\uf044\n\uf03d\n\uf03d\n\uf03d\n\uf05c\n \nFOS\ncr\ni\ni\n\uf03d\ncr\ni\n\uf03d\n2\n0.5\n1\ncr\ni\n \uf03d\nG\ni\ne\n\uf02d\n\uf03d\n\uf02b\n1\n1\nc\n\uf02d\n\uf03d\n\uf02b\n2.65 1\n1\n1\n e\n1.65\n1\n1\ne\n\uf02b\n\uf03d\n1.65 1\ne\n \uf03d\n\uf02d\n0.65\ne\n \uf03d"
+}

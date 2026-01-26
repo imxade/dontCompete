@@ -1,0 +1,11 @@
+{
+  "id": "50",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "1.1821",
+  "question_text": "Question 50\nConsider a one-dimensional steady heat conduction process through a solid slab of\n \nthickness 0.1 m. The \nhigher temperature side \nA\n has a surface temperature of \n0\n80\n C,\n \nand the heat transfer rate per unit area to \nlow temperature side \nB\n is 4.5 kW/m\n2\n. The\n \nthermal conductivity of the slab is 15 W/m.K. The rate of \nentropy generation per\n \nunit area during the heat transfer process is ________ W/m\n2\n.K (round off to 2\n \ndecimal places).",
+  "answer_text": "1.1821",
+  "explanation_text": "Sol. \nThickness \n( )\n0.1 m\nt\n \uf03d\n\nGATE 2022 \n [Forenoon Session]\nMechanical Engineering\nPAGE\n53\n\nTemperature \n0\n2\n(\n)\n80 C\n353 k\nT\n\uf03d\n\uf03d\n2\n( )\n4.5 kW/m\nQ\n \uf03d\nHeat transfer rate per unit area\nThermal conductivity \n( )\n15 W/mk\nk\n \uf03d\n\nT\nq\nR\n\uf044\n\uf03d\n\nth\nL\nR\nk\n\uf03d\n.A\nth\n\nT\n\uf02d\n\uf0b4\n\uf03d\n3\n1\n(80\n)15\n4.5 10\n0.1\n1\n4.5 10\n0.1\n80\n15\nT\n\uf0b4\n\uf0b4\n\uf03d\n\uf02d\n3\n\uf0de\n\uf0de\n  \n1\n30\n80\n T\n\uf03d\n\uf02d\n\uf0de\n  \n0\n1\n50 C\nT\n \uf03d\nNow, Entropy generation\ndQ\nd\nT\n\uf03d\nS\nQ\nQ\nd\nT\nT\n\uf03d\n\uf02d\n\n1\n2\nS\n3\n3\n4.5 10\n4.5 10\n323\n353\nS\nd\n\uf0b4\n\uf0b4\n\uf03d\n\uf02d\n\n2\n1.184 W/m\nk\nS\nd\n \uf03d\n\uf02d\nHence, the correct answer is 1.184."
+}

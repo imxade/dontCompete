@@ -1,0 +1,11 @@
+{
+  "id": "20",
+  "stream": "chemical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(A)\n\n\ud835\udc58 \n\u2192   \ud835\udc35",
+  "question_text": "Question 20\nThe rate of a reaction \n\ud835\udc34\u2192\ud835\udc35\n is \n0.2 mol\ud835\udc5a\n\u22123\n\ud835\udc60\n\u22121\n at a particular concentration  \n\ud835\udc36\n\ud835\udc341\n.\n The rate constant of the \nreaction at a given temperature is \n0.1 m\n3\nmol\n\u22121\n\ud835\udc60\n\u22121\n.\n If the reactant concentration is increased to \n10\ud835\udc36\n\ud835\udc341\nat \nthe same temperature, the reaction rate, in \nmol\ud835\udc5a\n\u22123\n\ud835\udc60\n\u22121\n,\n is\n[Chemical reaction Engineering, 1 Marks]\n \n \n(A) 20 \n(B) 10\n(C) 100 \n(D) 50",
+  "answer_text": "(A)\n\n\ud835\udc58 \n\u2192   \ud835\udc35",
+  "explanation_text": "Sol.\n \nGiven:       \n \n\ud835\udc34\n\u2212\ud835\udc5f\n\ud835\udc34\n1\n = 0.2\nmol/m\n3\nsec at \n\ud835\udc36\n\ud835\udc34\n1\n\ud835\udc58= 0.1\ud835\udc5a\n3\n/mol.sec, find \n\ud835\udc5f\n\ud835\udc34\n2\nat \n10\ud835\udc36\n\ud835\udc34\n1\nFrom the rate constant unit, we can come to know order is 2\n1\u2212\ud835\udc5b\nmol\nsec\n\u22121\nK\n unit \n= (\nlit\n \n)\n1 \u2013 n = \u20131,  n = 2\n2\n\u2234\n \n\u2212\ud835\udc5f\n\ud835\udc34\n1\n = 0.1\ud835\udc36\n\ud835\udc34\n\nPAGE\n17\n\n0.1\ud835\udc36\ud835\udc34\n2\n2\n\u2212\ud835\udc5f\n\ud835\udc342\n\u2212\ud835\udc5f\n\ud835\udc341\n \n=\n\n0.1\ud835\udc36\ud835\udc34\n1\n2\n {\nK\n remain same as the Temp remain same}\n\ud835\udc36\n\ud835\udc34\n2\n = 10\ud835\udc36\n\ud835\udc341\n2\n\u2212\ud835\udc5f\n\ud835\udc342\n10\ud835\udc36\n\ud835\udc341\n\n\n0.2\n \n= (\n\ud835\udc36\n\ud835\udc341\n \n)\n\u2212\ud835\udc5f\n\ud835\udc34\n2\n = 20mol/m\n3\nsec"
+}

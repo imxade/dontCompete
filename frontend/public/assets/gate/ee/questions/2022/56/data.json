@@ -1,0 +1,11 @@
+{
+  "id": "56",
+  "stream": "electrical-engineering",
+  "packet": "2022",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "200 (Range : 188 to 192 or 198 to 202)",
+  "question_text": "Question 56 \n \n \nElectrical Machine\nTwo generating units rated for 250 MW and 400 MW have governor speed regulations of 6% and 6.4%, \nrespectively, from no load to full load. Both the generating units are operating in parallel to share a load \nof 500 MW. Assuming free governor action, the load shared in MW, by the 250 MW generating unit is \n______.  (round off to nearest integer)",
+  "answer_text": "200 (Range : 188 to 192 or 198 to 202)",
+  "explanation_text": "Sol.\n \nGiven :\n(i) \nGenerating unit 1 :\n1\n250 MW\nr\nP\n \uf03d\nSpeed regulations \n6%\n\uf03d\nGenerating unit 2 :\n2\n400 MW\nr\nP\n \uf03d\nSpeed regulation \n6.4%\n\uf03d\n(ii) Load \n500 MW\n\uf03d\n1\n2\n500 MW\nP\nP\n\uf02b\n\uf03d\n \n \n \n\u2026(i)\nLoad shared by 250 MW generating unit \n1\n( )\nP\n .\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n58\n\n\n0.06\ntan\n250\n250\nf\nf\nf\n\uf02d\n\uf061\uf03d\n\uf03d\n0\n1\n0\n1\n0.064\ntan\n400\n400\nf\nf\nf\n\uf02d\n\uf061\uf03d\n\uf03d\n0\n1\n0\n2\nWhen sharing, \n500 MW\nL\nP\n \uf03d\n\nf\nf\nP\n\uf044\n\uf061\uf03d\n\uf03d\n  \n \n \n\u2026 (ii)\n0.06\ntan\n250\n0\n1\n1\nf\nf\nP\n\uf044\n\uf061\uf03d\n\uf03d\n \n \n \n\u2026 (iii)\n0.064\ntan\n400\n0\n2\n2\nEquating equation (ii) and (iii),\n0 1\n0\n2\n0.06\n0.064\n250\n400\nf P\nf P\n\uf03d\n\uf0de\n \n1\n2\n0.66\nP\nP\n\uf03d\n \n \n \n \n\u2026(iv)\nand \n1\n2\n500\nP\nP\n\uf02b\n\uf03d\nFrom equation (i) and (iv), we get\n\uf0de\n \n1\n199.9 MW\n200 MW\nP\n \uf03d\n\uf0bb\nHence, the correct answer is 200 MW.\n\nGATE 2022 \n [Afternoon Session]\nElectrical Engineering\nPAGE\n59\n"
+}

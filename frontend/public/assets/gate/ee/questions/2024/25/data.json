@@ -1,0 +1,11 @@
+{
+  "id": "25",
+  "stream": "electrical-engineering",
+  "packet": "2024",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "(C) \nSol. \nGiven circuit is shown below.\n\uf0b7\n \nInitially \n\ud835\udc67= 1\n\ud835\udc46= \ud835\udc65\u2295\ud835\udc66\u2295\ud835\udc67\n\ud835\udc46= (\ud835\udc65\u2295\ud835\udc66) \u2295\ud835\udc67\n\ud835\udc46= (\ud835\udc65\ud835\udc66\u203e + \ud835\udc65\u203e\ud835\udc66) \u2295\ud835\udc67\n[\u2234\ud835\udc65= 1, \ud835\udc66= 0, \ud835\udc67= 1]\n\nPAGE\n28\n\n\ud835\udc46= (1 \u2295\ud835\udc67) = (1\ud835\udc67\u203e + 0)\n\ud835\udc46= \ud835\udc67\u203e = 0\n\uf0b7\n \nOne clock pulse :\n\ud835\udc44= \ud835\udc37= \ud835\udc46= 0\n \n \nHence the Correct option is (C).",
+  "question_text": "Question 25  \n \n  \n \n \n[Digital Electronics]\nIn the circuit, the present value of \nZ\n  is 1. Neglecting the delay in the combinatorial circuit, the values of\nS\n  and \nZ\n respectively, after the application of the clock will be\n(A) \n0,\n0\nS\nZ\n\uf03d\n\uf03d\n \n(B) \n0,\n1\nS\nZ\n\uf03d\n\uf03d\n(C) \n1,\n0\nS\nZ\n\uf03d\n\uf03d\n \n(D) \n1,\n1\nS\nZ\n\uf03d\n\uf03d",
+  "answer_text": "(C) \nSol. \nGiven circuit is shown below.\n\uf0b7\n \nInitially \n\ud835\udc67= 1\n\ud835\udc46= \ud835\udc65\u2295\ud835\udc66\u2295\ud835\udc67\n\ud835\udc46= (\ud835\udc65\u2295\ud835\udc66) \u2295\ud835\udc67\n\ud835\udc46= (\ud835\udc65\ud835\udc66\u203e + \ud835\udc65\u203e\ud835\udc66) \u2295\ud835\udc67\n[\u2234\ud835\udc65= 1, \ud835\udc66= 0, \ud835\udc67= 1]\n\nPAGE\n28\n\n\ud835\udc46= (1 \u2295\ud835\udc67) = (1\ud835\udc67\u203e + 0)\n\ud835\udc46= \ud835\udc67\u203e = 0\n\uf0b7\n \nOne clock pulse :\n\ud835\udc44= \ud835\udc37= \ud835\udc46= 0\n \n \nHence the Correct option is (C).",
+  "explanation_text": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "43",
+  "question_text": "Question 10\nA straight fin of uniform circular cross section and adiabatic tip has an aspect ratio (length/diameter) of \n4. If the Biot number (based on radius of the fin as the characteristic length) is 0.04, the fin efficiency is \n_______ %. (round off to nearest integer)",
+  "answer_text": "43",
+  "explanation_text": "Sol. \n \n \n4 2 4\nhr\nL\nmL\nK\nD\n\uf0e6\n\uf0f6\n=\n\u00d7 \u00d7 \u00d7 \u00d7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(0.04) 4 2 4(4)\nmL\n =\n\u00d7 \u00d7 \u00d7\n2.2627\nmL\n =\ntanh (\n)\n(\n)\nfin\nmL\nmL\n\u03b7\n=\ntanh(2.2627)\n2.2627\nfin\n\u03b7\n=\n0.43\nfin\n\u03b7\n=\n43%\nfin\n\u03b7\n=\n \n \n \n \n \n \n \nAns."
+}

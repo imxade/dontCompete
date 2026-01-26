@@ -1,0 +1,11 @@
+{
+  "id": "30",
+  "stream": "civil-engineering",
+  "packet": "2024-M",
+  "year": "2024",
+  "type": "MCQ",
+  "key": "",
+  "question_text": "Question 30 \n[RCC Structures : Design & Analysis of Beam and Slab]\nConsider a balanced doubly-reinforced concrete section. If the material and other sectional properties \nremain unchanged, for which of the following cases will the section becomes under-reinforced?\n(A) Area of tension reinforcement is increased.\n(B) Area of compression reinforcement is increased.\n(C) Area of tension reinforcement is decreased.\n(D) Area of compression reinforcement is decreased. \nAns. (B, C)",
+  "answer_text": "",
+  "explanation_text": "Sol. \nIn a doubly reinforced balance section, the \nst\nA\n  and \nsc\nA\n  are such that the depth of neutral axis is\nu,lim\nx\n or\nbal\nx\n.\nTo make the above section an under-reinforced section, the strength of compression side has to be \nincreased compared to that of tension side.\nThis can be done by either increasing the amount of compression reinforcement or decreasing the \namount of tension reinforcement.\nHence, the correct options are (B) and (C)."
+}

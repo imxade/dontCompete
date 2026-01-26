@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "stream": "chemical-engineering",
+  "packet": "2021",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "(D)",
+  "question_text": "Question 4\nWhich of the following is NOT a standard to transmit measurement and control signals?\n(A) 3-15 psig   \n(B) 4-20 mA \n(C) 1-5 VDC \n(D) 0-100 %",
+  "answer_text": "(D)",
+  "explanation_text": ""
+}

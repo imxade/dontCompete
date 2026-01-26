@@ -1,0 +1,11 @@
+{
+  "id": "38",
+  "stream": "mechanical-engineering",
+  "packet": "2021-M",
+  "year": "2021",
+  "type": "MCQ",
+  "key": "C",
+  "question_text": "Question 38\nThe ordinary differential equation\n \ndy\ny\ndt\n \n= \u2212\u03c0\n subject to an initial condition \n(0)\n1\ny\n=\n  is solved\nnumerically using the following scheme:\n1\n(\n)\n( )\n( )\nn\nn\nn\ny t\ny t\ny t\nh\n+\n \n\u2212\n= \u2212\u03c0\nWhere \nh\n is the time step, \nn\nt\nnh\n=\n, and \nn\n = 0, 1, 2, \u2026\u2026. This numerical scheme is stable for all values\nof \nh \nin the interval______.\nEngineering Mathematics (Differential Equations) \n \n(A) For all \n0\nh\n >\n \n(B) \n0\n1\nh\n<\n<\n  \n(C) \n0\n2 /\nh\n<\n<\n\u03c0\n  \n(D) \n0\n/ 2\nh\n<\n< \u03c0",
+  "answer_text": "C",
+  "explanation_text": "Sol.\n \n(\n)\n1\n,\nn\nn\nn\nn\ny\ny\nhf x\ny\n+\n \n=\n+\n(\n)\n1\nn\nn\nn\ny\ny\nh\ny\n+\n \n=\n+\n\u2212\u03c0\n(\n)\n1\n1\nn\nn\ny\ny\nh\n+\n \n=\n\u2212\u2212\u03c0\nFor stable system: \n1\n1\nh\n\u2212\u03c0\n<\n(\n)\n1\n1\n1\nh\n\u2212<\n\u2212\u03c0\n<\n(\n)\n2\n0\nh\n\u2212< \u2212\u03c0\n<\n2\n0\nh\n>\n>\n\u03c0\nHence, the correct option is (C)"
+}

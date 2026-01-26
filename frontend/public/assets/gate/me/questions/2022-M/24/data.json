@@ -1,0 +1,11 @@
+{
+  "id": "24",
+  "stream": "mechanical-engineering",
+  "packet": "2022-M",
+  "year": "2022",
+  "type": "MCQ",
+  "key": "408.912",
+  "question_text": "Question 24\nA polytropic process is carried out from an initial pressure of 110 kPa and volume\n \nof 5 m\n3\n to a final \nvolume of 2.5 m\n3\n. The polytropic index is given by \nn\n = 1.2. The\n \nabsolute value of the work done during \nthe process is _______ kJ (round off to 2\n \ndecimal places).",
+  "answer_text": "408.912",
+  "explanation_text": "Sol. \nGiven\nInitial pressure \n1\n110 kPa\nP\n \uf03d\nInitial volume \n3\n1\n( )\n5 m\nV\n \uf03d\nPolytrophic index \n( )\n1.2\n\uf068\uf03d\nFinal volume\n3\n2\n(\n)\n2.5 m\nV\n\uf03d\nFrom polytropic process,\n1 1\n2\n2\nPV\nPV\n\uf068\n\uf068\n\uf03d\n2\n140 5\n(2.5)\nP\n\uf068\n\uf0b4\n\uf03d\n3\n2\n252.713 kPa\nP\n \uf03d\nWork done \n1 1\n2\n2\n110 5\n252.713 2.5\n408.912 kJ\n1\n0.2\nPV\nPV\n\uf02d\n\uf0b4\uf02d\n\uf0b4\n\uf03d\n\uf03d\n\uf03d\n\uf068\uf02d\n(absolute value)\nHence, the correct answer is 408.912."
+}

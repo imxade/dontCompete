@@ -1,0 +1,1594 @@
+{
+  "stream": "ce",
+  "stream_code": "civil-engineering",
+  "subjects": [
+    {
+      "name": "general aptitude",
+      "id": "ce_subj_1",
+      "slug": "general-aptitude",
+      "topics": [
+        {
+          "name": "verbal ability",
+          "id": "ce_subj_1_topic_1",
+          "slug": "verbal-ability",
+          "md_path": "general-aptitude/verbal-ability.md",
+          "questions": [
+            "questions/2021-M/10/",
+            "questions/2021-M/7/",
+            "questions/2023-M/1/",
+            "questions/2023-N/1/",
+            "questions/2023-N/6/"
+          ]
+        },
+        {
+          "name": "hydrology",
+          "id": "ce_subj_1_topic_2",
+          "slug": "hydrology",
+          "md_path": "general-aptitude/hydrology.md",
+          "questions": [
+            "questions/2024-M/47/"
+          ]
+        },
+        {
+          "name": "permutations and combination",
+          "id": "ce_subj_1_topic_3",
+          "slug": "permutations-and-combination",
+          "md_path": "general-aptitude/permutations-and-combination.md",
+          "questions": [
+            "questions/2021-N/8/"
+          ]
+        },
+        {
+          "name": "probability",
+          "id": "ce_subj_1_topic_4",
+          "slug": "probability",
+          "md_path": "general-aptitude/probability.md",
+          "questions": [
+            "questions/2021-N/4/"
+          ]
+        },
+        {
+          "name": "logical reasoning",
+          "id": "ce_subj_1_topic_5",
+          "slug": "logical-reasoning",
+          "md_path": "general-aptitude/logical-reasoning.md",
+          "questions": [
+            "questions/2023-N/10/"
+          ]
+        },
+        {
+          "name": "numerical ability",
+          "id": "ce_subj_1_topic_6",
+          "slug": "numerical-ability",
+          "md_path": "general-aptitude/numerical-ability.md",
+          "questions": [
+            "questions/2020-M/7/",
+            "questions/2023-N/9/"
+          ]
+        },
+        {
+          "name": "sentence completion",
+          "id": "ce_subj_1_topic_7",
+          "slug": "sentence-completion",
+          "md_path": "general-aptitude/sentence-completion.md",
+          "questions": [
+            "questions/2024-N/6/"
+          ]
+        },
+        {
+          "name": "verbal ability language comprehension vocabulary grammar and reading comprehension",
+          "id": "ce_subj_1_topic_8",
+          "slug": "verbal-ability-language-comprehension-vocabulary-grammar-and-reading-comprehensi",
+          "md_path": "general-aptitude/verbal-ability-language-comprehension-vocabulary-grammar-and-reading-comprehensi.md",
+          "questions": [
+            "questions/2021-M/48/",
+            "questions/2021-M/9/"
+          ]
+        },
+        {
+          "name": "numerical ability numerical computation numerical estimation numerical reasoning and data interpretation",
+          "id": "ce_subj_1_topic_9",
+          "slug": "numerical-ability-numerical-computation-numerical-estimation-numerical-reasoning",
+          "md_path": "general-aptitude/numerical-ability-numerical-computation-numerical-estimation-numerical-reasoning.md",
+          "questions": []
+        },
+        {
+          "name": "spatial aptitude transformation of shapes translation rotation scaling mirroring assembling grouping paper folding cutting and patterns in 2d and 3d",
+          "id": "ce_subj_1_topic_10",
+          "slug": "spatial-aptitude-transformation-of-shapes-translation-rotation-scaling-mirroring",
+          "md_path": "general-aptitude/spatial-aptitude-transformation-of-shapes-translation-rotation-scaling-mirroring.md",
+          "questions": [
+            "questions/2021-M/3/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mathematic",
+      "id": "ce_subj_2",
+      "slug": "engineering-mathematic",
+      "topics": [
+        {
+          "name": "linear algebra",
+          "id": "ce_subj_2_topic_1",
+          "slug": "linear-algebra",
+          "md_path": "engineering-mathematic/linear-algebra.md",
+          "questions": [
+            "questions/2021-M/55/",
+            "questions/2021-N/18/",
+            "questions/2023-M/24/",
+            "questions/2024-M/36/"
+          ]
+        },
+        {
+          "name": "transform theory and fourier serie",
+          "id": "ce_subj_2_topic_2",
+          "slug": "transform-theory-and-fourier-serie",
+          "md_path": "engineering-mathematic/transform-theory-and-fourier-serie.md",
+          "questions": [
+            "questions/2023-M/25/"
+          ]
+        },
+        {
+          "name": "probability and statistic",
+          "id": "ce_subj_2_topic_3",
+          "slug": "probability-and-statistic",
+          "md_path": "engineering-mathematic/probability-and-statistic.md",
+          "questions": [
+            "questions/2021-M/15/",
+            "questions/2022-N/40/",
+            "questions/2024-M/13/"
+          ]
+        },
+        {
+          "name": "partial differential equation pde",
+          "id": "ce_subj_2_topic_4",
+          "slug": "partial-differential-equation-pde",
+          "md_path": "engineering-mathematic/partial-differential-equation-pde.md",
+          "questions": [
+            "questions/2024-M/28/"
+          ]
+        },
+        {
+          "name": "calculus",
+          "id": "ce_subj_2_topic_5",
+          "slug": "calculus",
+          "md_path": "engineering-mathematic/calculus.md",
+          "questions": [
+            "questions/2021-N/30/"
+          ]
+        },
+        {
+          "name": "numerical method",
+          "id": "ce_subj_2_topic_6",
+          "slug": "numerical-method",
+          "md_path": "engineering-mathematic/numerical-method.md",
+          "questions": [
+            "questions/2021-M/30/",
+            "questions/2024-M/32/",
+            "questions/2024-N/13/"
+          ]
+        },
+        {
+          "name": "differential equation",
+          "id": "ce_subj_2_topic_7",
+          "slug": "differential-equation",
+          "md_path": "engineering-mathematic/differential-equation.md",
+          "questions": [
+            "questions/2023-N/36/",
+            "questions/2024-M/12/",
+            "questions/2024-N/11/",
+            "questions/2024-N/15/"
+          ]
+        },
+        {
+          "name": "ordinary differential equation ode",
+          "id": "ce_subj_2_topic_8",
+          "slug": "ordinary-differential-equation-ode",
+          "md_path": "engineering-mathematic/ordinary-differential-equation-ode.md",
+          "questions": [
+            "questions/2021-M/29/",
+            "questions/2021-N/34/",
+            "questions/2024-M/11/"
+          ]
+        },
+        {
+          "name": "vector calculus",
+          "id": "ce_subj_2_topic_9",
+          "slug": "vector-calculus",
+          "md_path": "engineering-mathematic/vector-calculus.md",
+          "questions": [
+            "questions/2023-N/11/",
+            "questions/2024-M/37/",
+            "questions/2024-N/44/"
+          ]
+        },
+        {
+          "name": "linear algebra matrix algebra systems of linear equation",
+          "id": "ce_subj_2_topic_10",
+          "slug": "linear-algebra-matrix-algebra-systems-of-linear-equation",
+          "md_path": "engineering-mathematic/linear-algebra-matrix-algebra-systems-of-linear-equation.md",
+          "questions": [
+            "questions/2021-N/40/"
+          ]
+        },
+        {
+          "name": "maxima and minima",
+          "id": "ce_subj_2_topic_11",
+          "slug": "maxima-and-minima",
+          "md_path": "engineering-mathematic/maxima-and-minima.md",
+          "questions": [
+            "questions/2024-N/14/"
+          ]
+        },
+        {
+          "name": "numerical methods error analysis numerical solutions of linear and non linear algebraic equations newtons and lagrange polynomials numerical differentiation integration by trapezoidal and simpsons rule single and multi step methods for first order differential equation",
+          "id": "ce_subj_2_topic_12",
+          "slug": "numerical-methods-error-analysis-numerical-solutions-of-linear-and-non-linear-al",
+          "md_path": "engineering-mathematic/numerical-methods-error-analysis-numerical-solutions-of-linear-and-non-linear-al.md",
+          "questions": [
+            "questions/2021-M/25/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "structural analysis",
+      "id": "ce_subj_3",
+      "slug": "structural-analysis",
+      "topics": [
+        {
+          "name": "rcc structure",
+          "id": "ce_subj_3_topic_1",
+          "slug": "rcc-structure",
+          "md_path": "structural-analysis/rcc-structure.md",
+          "questions": [
+            "questions/2023-M/14/"
+          ]
+        },
+        {
+          "name": "determinacy and indeterminacy static and kinematic",
+          "id": "ce_subj_3_topic_2",
+          "slug": "determinacy-and-indeterminacy-static-and-kinematic",
+          "md_path": "structural-analysis/determinacy-and-indeterminacy-static-and-kinematic.md",
+          "questions": [
+            "questions/2024-M/33/"
+          ]
+        },
+        {
+          "name": "analysis of trusse",
+          "id": "ce_subj_3_topic_3",
+          "slug": "analysis-of-trusse",
+          "md_path": "structural-analysis/analysis-of-trusse.md",
+          "questions": [
+            "questions/2024-M/49/"
+          ]
+        },
+        {
+          "name": "influence line diagram and rolling load",
+          "id": "ce_subj_3_topic_4",
+          "slug": "influence-line-diagram-and-rolling-load",
+          "md_path": "structural-analysis/influence-line-diagram-and-rolling-load.md",
+          "questions": [
+            "questions/2024-N/50/"
+          ]
+        },
+        {
+          "name": "statically determinate and indeterminate structures by force energy method",
+          "id": "ce_subj_3_topic_5",
+          "slug": "statically-determinate-and-indeterminate-structures-by-force-energy-method",
+          "md_path": "structural-analysis/statically-determinate-and-indeterminate-structures-by-force-energy-method.md",
+          "questions": [
+            "questions/2020-M/3/",
+            "questions/2020-N/27/",
+            "questions/2020-N/40/"
+          ]
+        },
+        {
+          "name": "displacement methods slope deflection and moment distribution method",
+          "id": "ce_subj_3_topic_6",
+          "slug": "displacement-methods-slope-deflection-and-moment-distribution-method",
+          "md_path": "structural-analysis/displacement-methods-slope-deflection-and-moment-distribution-method.md",
+          "questions": [
+            "questions/2021-M/21/"
+          ]
+        },
+        {
+          "name": "statically indeterminate structures by force energy method",
+          "id": "ce_subj_3_topic_7",
+          "slug": "statically-indeterminate-structures-by-force-energy-method",
+          "md_path": "structural-analysis/statically-indeterminate-structures-by-force-energy-method.md",
+          "questions": [
+            "questions/2020-N/24/"
+          ]
+        },
+        {
+          "name": "method of superposition analysis of trusses arches beams cables and frame",
+          "id": "ce_subj_3_topic_8",
+          "slug": "method-of-superposition-analysis-of-trusses-arches-beams-cables-and-frame",
+          "md_path": "structural-analysis/method-of-superposition-analysis-of-trusses-arches-beams-cables-and-frame.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "geotechnical engineering",
+      "id": "ce_subj_4",
+      "slug": "geotechnical-engineering",
+      "topics": [
+        {
+          "name": "soil mechanics and foundation engineering",
+          "id": "ce_subj_4_topic_1",
+          "slug": "soil-mechanics-and-foundation-engineering",
+          "md_path": "geotechnical-engineering/soil-mechanics-and-foundation-engineering.md",
+          "questions": [
+            "questions/2023-M/58/"
+          ]
+        },
+        {
+          "name": "stress distribution of soil",
+          "id": "ce_subj_4_topic_2",
+          "slug": "stress-distribution-of-soil",
+          "md_path": "geotechnical-engineering/stress-distribution-of-soil.md",
+          "questions": [
+            "questions/2023-M/41/"
+          ]
+        },
+        {
+          "name": "soil mechanic",
+          "id": "ce_subj_4_topic_3",
+          "slug": "soil-mechanic",
+          "md_path": "geotechnical-engineering/soil-mechanic.md",
+          "questions": [
+            "questions/2020-N/44/",
+            "questions/2021-M/17/",
+            "questions/2021-M/50/",
+            "questions/2021-N/5/",
+            "questions/2024-M/34/",
+            "questions/2024-M/35/"
+          ]
+        },
+        {
+          "name": "foundation engineering",
+          "id": "ce_subj_4_topic_4",
+          "slug": "foundation-engineering",
+          "md_path": "geotechnical-engineering/foundation-engineering.md",
+          "questions": [
+            "questions/2022-N/6/"
+          ]
+        },
+        {
+          "name": "origin of soil and their propertie",
+          "id": "ce_subj_4_topic_5",
+          "slug": "origin-of-soil-and-their-propertie",
+          "md_path": "geotechnical-engineering/origin-of-soil-and-their-propertie.md",
+          "questions": [
+            "questions/2024-M/19/",
+            "questions/2024-M/46/"
+          ]
+        },
+        {
+          "name": "stability of slope",
+          "id": "ce_subj_4_topic_6",
+          "slug": "stability-of-slope",
+          "md_path": "geotechnical-engineering/stability-of-slope.md",
+          "questions": [
+            "questions/2024-M/54/"
+          ]
+        },
+        {
+          "name": "shear strength of soil",
+          "id": "ce_subj_4_topic_7",
+          "slug": "shear-strength-of-soil",
+          "md_path": "geotechnical-engineering/shear-strength-of-soil.md",
+          "questions": [
+            "questions/2024-M/55/",
+            "questions/2024-N/55/"
+          ]
+        },
+        {
+          "name": "retaining wall and earth pressure",
+          "id": "ce_subj_4_topic_8",
+          "slug": "retaining-wall-and-earth-pressure",
+          "md_path": "geotechnical-engineering/retaining-wall-and-earth-pressure.md",
+          "questions": [
+            "questions/2024-M/41/",
+            "questions/2024-N/40/"
+          ]
+        },
+        {
+          "name": "compressibility and consolidation",
+          "id": "ce_subj_4_topic_9",
+          "slug": "compressibility-and-consolidation",
+          "md_path": "geotechnical-engineering/compressibility-and-consolidation.md",
+          "questions": [
+            "questions/2023-N/61/",
+            "questions/2024-M/53/"
+          ]
+        },
+        {
+          "name": "construction materials and management",
+          "id": "ce_subj_4_topic_10",
+          "slug": "construction-materials-and-management",
+          "md_path": "geotechnical-engineering/construction-materials-and-management.md",
+          "questions": [
+            "questions/2021-N/49/"
+          ]
+        },
+        {
+          "name": "effective stress and permeability",
+          "id": "ce_subj_4_topic_11",
+          "slug": "effective-stress-and-permeability",
+          "md_path": "geotechnical-engineering/effective-stress-and-permeability.md",
+          "questions": [
+            "questions/2023-N/19/"
+          ]
+        },
+        {
+          "name": "seepage analysis",
+          "id": "ce_subj_4_topic_12",
+          "slug": "seepage-analysis",
+          "md_path": "geotechnical-engineering/seepage-analysis.md",
+          "questions": [
+            "questions/2024-N/45/",
+            "questions/2024-N/53/"
+          ]
+        },
+        {
+          "name": "pile foundation",
+          "id": "ce_subj_4_topic_13",
+          "slug": "pile-foundation",
+          "md_path": "geotechnical-engineering/pile-foundation.md",
+          "questions": [
+            "questions/2024-N/34/"
+          ]
+        },
+        {
+          "name": "soil mechanics three phase system and phase relationships index properties unified and indian standard soil classification system permeability one dimensional flow seepage through soils two dimensional flow flow nets uplift pressure piping capillarity seepage force principle of effective stress and quicksand condition compaction of soils one dimensional consolidation time rate of consolidation shear strength mohrs circle effective and total shear strength parameters stress strain characteristics of clays and sand stress path",
+          "id": "ce_subj_4_topic_14",
+          "slug": "soil-mechanics-three-phase-system-and-phase-relationships-index-properties-unifi",
+          "md_path": "geotechnical-engineering/soil-mechanics-three-phase-system-and-phase-relationships-index-properties-unifi.md",
+          "questions": [
+            "questions/2021-M/2/",
+            "questions/2021-M/20/"
+          ]
+        },
+        {
+          "name": "foundation engineering sub surface investigations drilling bore holes sampling plate load test standard penetration and cone penetration tests earth pressure theories rankine and coulomb stability of slopes finite and infinite slopes bishops method stress distribution in soils boussinesqs theory pressure bulbs shallow foundations terzaghis and meyerhoffs bearing capacity theories effect of water table combined footing and raft foundation contact pressure settlement analysis in sands and clays deep foundations dynamic and static formulae axial load capacity of piles in sands and clays pile load test pile under lateral loading pile group efficiency negative skin friction",
+          "id": "ce_subj_4_topic_15",
+          "slug": "foundation-engineering-sub-surface-investigations-drilling-bore-holes-sampling-p",
+          "md_path": "geotechnical-engineering/foundation-engineering-sub-surface-investigations-drilling-bore-holes-sampling-p.md",
+          "questions": [
+            "questions/2021-M/47/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strength of material",
+      "id": "ce_subj_5",
+      "slug": "strength-of-material",
+      "topics": [
+        {
+          "name": "bending and shear stresse",
+          "id": "ce_subj_5_topic_1",
+          "slug": "bending-and-shear-stresse",
+          "md_path": "strength-of-material/bending-and-shear-stresse.md",
+          "questions": [
+            "questions/2023-M/55/"
+          ]
+        },
+        {
+          "name": "torsion of shafts and pressure vessel",
+          "id": "ce_subj_5_topic_2",
+          "slug": "torsion-of-shafts-and-pressure-vessel",
+          "md_path": "strength-of-material/torsion-of-shafts-and-pressure-vessel.md",
+          "questions": [
+            "questions/2024-M/40/"
+          ]
+        },
+        {
+          "name": "theory of column",
+          "id": "ce_subj_5_topic_3",
+          "slug": "theory-of-column",
+          "md_path": "strength-of-material/theory-of-column.md",
+          "questions": [
+            "questions/2024-N/39/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "environmental engineering",
+      "id": "ce_subj_6",
+      "slug": "environmental-engineering",
+      "topics": [
+        {
+          "name": "air pollution",
+          "id": "ce_subj_6_topic_1",
+          "slug": "air-pollution",
+          "md_path": "environmental-engineering/air-pollution.md",
+          "questions": [
+            "questions/2020-N/48/",
+            "questions/2022-N/12/",
+            "questions/2023-M/20/",
+            "questions/2024-M/31/",
+            "questions/2024-N/26/"
+          ]
+        },
+        {
+          "name": "water and waste water quality and treatment",
+          "id": "ce_subj_6_topic_2",
+          "slug": "water-and-waste-water-quality-and-treatment",
+          "md_path": "environmental-engineering/water-and-waste-water-quality-and-treatment.md",
+          "questions": [
+            "questions/2020-N/26/",
+            "questions/2021-N/16/",
+            "questions/2021-N/9/",
+            "questions/2022-M/22/",
+            "questions/2024-M/48/",
+            "questions/2024-M/60/",
+            "questions/2024-M/61/",
+            "questions/2024-N/60/"
+          ]
+        },
+        {
+          "name": "municipal solid waste",
+          "id": "ce_subj_6_topic_3",
+          "slug": "municipal-solid-waste",
+          "md_path": "environmental-engineering/municipal-solid-waste.md",
+          "questions": [
+            "questions/2024-M/21/"
+          ]
+        },
+        {
+          "name": "water treatment",
+          "id": "ce_subj_6_topic_4",
+          "slug": "water-treatment",
+          "md_path": "environmental-engineering/water-treatment.md",
+          "questions": [
+            "questions/2024-N/42/"
+          ]
+        },
+        {
+          "name": "water and waste water quality and treatment basics of water quality standards physical chemical and biological parameters water quality index unit processes and operations water requirement water distribution system drinking water treatment sewerage system design quantity of domestic wastewater primary and secondary treatment effluent discharge standards sludge disposal reuse of treated sewage for different application",
+          "id": "ce_subj_6_topic_5",
+          "slug": "water-and-waste-water-quality-and-treatment-basics-of-water-quality-standards-ph",
+          "md_path": "environmental-engineering/water-and-waste-water-quality-and-treatment-basics-of-water-quality-standards-ph.md",
+          "questions": []
+        },
+        {
+          "name": "water quality treatment",
+          "id": "ce_subj_6_topic_6",
+          "slug": "water-quality-treatment",
+          "md_path": "environmental-engineering/water-quality-treatment.md",
+          "questions": [
+            "questions/2020-N/30/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "structural engineering",
+      "id": "ce_subj_7",
+      "slug": "structural-engineering",
+      "topics": [
+        {
+          "name": "structural analysis",
+          "id": "ce_subj_7_topic_1",
+          "slug": "structural-analysis",
+          "md_path": "structural-engineering/structural-analysis.md",
+          "questions": [
+            "questions/2021-M/54/",
+            "questions/2022-N/17/",
+            "questions/2022-N/31/"
+          ]
+        },
+        {
+          "name": "engineering mechanic",
+          "id": "ce_subj_7_topic_2",
+          "slug": "engineering-mechanic",
+          "md_path": "structural-engineering/engineering-mechanic.md",
+          "questions": [
+            "questions/2022-M/20/",
+            "questions/2024-M/65/"
+          ]
+        },
+        {
+          "name": "solid mechanic",
+          "id": "ce_subj_7_topic_3",
+          "slug": "solid-mechanic",
+          "md_path": "structural-engineering/solid-mechanic.md",
+          "questions": [
+            "questions/2021-M/31/",
+            "questions/2021-M/52/",
+            "questions/2021-N/31/",
+            "questions/2021-N/48/"
+          ]
+        },
+        {
+          "name": "concrete structures design and analysis",
+          "id": "ce_subj_7_topic_4",
+          "slug": "concrete-structures-design-and-analysis",
+          "md_path": "structural-engineering/concrete-structures-design-and-analysis.md",
+          "questions": [
+            "questions/2024-N/51/"
+          ]
+        },
+        {
+          "name": "engineering mechanics system of forces free body diagrams equilibrium equations internal forces in structures frictions and its applications centre of mass free vibrations of undamped sdof",
+          "id": "ce_subj_7_topic_5",
+          "slug": "engineering-mechanics-system-of-forces-free-body-diagrams-equilibrium-equations",
+          "md_path": "structural-engineering/engineering-mechanics-system-of-forces-free-body-diagrams-equilibrium-equations.md",
+          "questions": []
+        },
+        {
+          "name": "solid mechanics bending moment and shear force in statically determinate beams simple stress and strain relationships simple bending theory flexural and shear stresses shear centre uniform torsion transformation of stress buckling of column combined and direct bending stresse",
+          "id": "ce_subj_7_topic_6",
+          "slug": "solid-mechanics-bending-moment-and-shear-force-in-statically-determinate-beams-s",
+          "md_path": "structural-engineering/solid-mechanics-bending-moment-and-shear-force-in-statically-determinate-beams-s.md",
+          "questions": [
+            "questions/2021-M/40/"
+          ]
+        },
+        {
+          "name": "structural analysis statically determinate and indeterminate structures by force energy methods method of superposition analysis of trusses arches beams cables and frames displacement methods slope deflection and moment distribution methods influence lines stiffness and flexibility methods of structural analysis",
+          "id": "ce_subj_7_topic_7",
+          "slug": "structural-analysis-statically-determinate-and-indeterminate-structures-by-force",
+          "md_path": "structural-engineering/structural-analysis-statically-determinate-and-indeterminate-structures-by-force.md",
+          "questions": []
+        },
+        {
+          "name": "prestressed concrete",
+          "id": "ce_subj_7_topic_8",
+          "slug": "prestressed-concrete",
+          "md_path": "structural-engineering/prestressed-concrete.md",
+          "questions": [
+            "questions/2020-N/38/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "water resources engineering",
+      "id": "ce_subj_8",
+      "slug": "water-resources-engineering",
+      "topics": [
+        {
+          "name": "fluid mechanic",
+          "id": "ce_subj_8_topic_1",
+          "slug": "fluid-mechanic",
+          "md_path": "water-resources-engineering/fluid-mechanic.md",
+          "questions": [
+            "questions/2020-N/1/",
+            "questions/2020-N/3/",
+            "questions/2020-N/45/",
+            "questions/2021-N/45/",
+            "questions/2022-N/1/",
+            "questions/2024-M/20/"
+          ]
+        },
+        {
+          "name": "hydraulic",
+          "id": "ce_subj_8_topic_2",
+          "slug": "hydraulic",
+          "md_path": "water-resources-engineering/hydraulic.md",
+          "questions": [
+            "questions/2020-N/43/",
+            "questions/2021-N/32/",
+            "questions/2021-N/53/",
+            "questions/2022-M/45/"
+          ]
+        },
+        {
+          "name": "hydrology",
+          "id": "ce_subj_8_topic_3",
+          "slug": "hydrology",
+          "md_path": "water-resources-engineering/hydrology.md",
+          "questions": [
+            "questions/2020-N/11/",
+            "questions/2021-N/15/",
+            "questions/2022-M/21/"
+          ]
+        },
+        {
+          "name": "probability and statistic",
+          "id": "ce_subj_8_topic_4",
+          "slug": "probability-and-statistic",
+          "md_path": "water-resources-engineering/probability-and-statistic.md",
+          "questions": []
+        },
+        {
+          "name": "fluid mechanics properties of fluids fluid statics continuity momentum and energy equations and their applications potential flow laminar and turbulent flow",
+          "id": "ce_subj_8_topic_5",
+          "slug": "fluid-mechanics-properties-of-fluids-fluid-statics-continuity-momentum-and-energ",
+          "md_path": "water-resources-engineering/fluid-mechanics-properties-of-fluids-fluid-statics-continuity-momentum-and-energ.md",
+          "questions": []
+        },
+        {
+          "name": "hydraulics forces on immersed bodies flow measurement in channels and pipes dimensional analysis and hydraulic similitude channel hydraulics energy depth relationships specific energy critical flow hydraulic jump uniform flow gradually varied flow and water surface profile",
+          "id": "ce_subj_8_topic_6",
+          "slug": "hydraulics-forces-on-immersed-bodies-flow-measurement-in-channels-and-pipes-dime",
+          "md_path": "water-resources-engineering/hydraulics-forces-on-immersed-bodies-flow-measurement-in-channels-and-pipes-dime.md",
+          "questions": [
+            "questions/2021-M/51/"
+          ]
+        },
+        {
+          "name": "hydrology hydrologic cycle precipitation evaporation evapo transpiration watershed infiltration unit hydrographs hydrograph analysis reservoir capacity flood estimation and routing surface run off models ground water hydrology steady state well hydraulics and aquifers application of darcys law",
+          "id": "ce_subj_8_topic_7",
+          "slug": "hydrology-hydrologic-cycle-precipitation-evaporation-evapo-transpiration-watersh",
+          "md_path": "water-resources-engineering/hydrology-hydrologic-cycle-precipitation-evaporation-evapo-transpiration-watersh.md",
+          "questions": []
+        },
+        {
+          "name": "irrigation types of irrigation systems and methods crop water requirements duty delta evapo transpiration gravity dams and spillways lined and unlined canals design of weirs on permeable foundation cross drainage structure",
+          "id": "ce_subj_8_topic_8",
+          "slug": "irrigation-types-of-irrigation-systems-and-methods-crop-water-requirements-duty",
+          "md_path": "water-resources-engineering/irrigation-types-of-irrigation-systems-and-methods-crop-water-requirements-duty.md",
+          "questions": [
+            "questions/2021-M/41/"
+          ]
+        },
+        {
+          "name": "hydrologic channel routing",
+          "id": "ce_subj_8_topic_9",
+          "slug": "hydrologic-channel-routing",
+          "md_path": "water-resources-engineering/hydrologic-channel-routing.md",
+          "questions": [
+            "questions/2020-N/10/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "geomatics engineering",
+      "id": "ce_subj_9",
+      "slug": "geomatics-engineering",
+      "topics": [
+        {
+          "name": "principles of surveying",
+          "id": "ce_subj_9_topic_1",
+          "slug": "principles-of-surveying",
+          "md_path": "geomatics-engineering/principles-of-surveying.md",
+          "questions": [
+            "questions/2020-N/37/",
+            "questions/2021-N/23/",
+            "questions/2024-M/26/"
+          ]
+        },
+        {
+          "name": "photogrammetry and remote sensing",
+          "id": "ce_subj_9_topic_2",
+          "slug": "photogrammetry-and-remote-sensing",
+          "md_path": "geomatics-engineering/photogrammetry-and-remote-sensing.md",
+          "questions": [
+            "questions/2022-M/17/",
+            "questions/2022-N/9/"
+          ]
+        },
+        {
+          "name": "geomatics engineering theodolites and plane table surveying",
+          "id": "ce_subj_9_topic_3",
+          "slug": "geomatics-engineering-theodolites-and-plane-table-surveying",
+          "md_path": "geomatics-engineering/geomatics-engineering-theodolites-and-plane-table-surveying.md",
+          "questions": [
+            "questions/2024-M/27/"
+          ]
+        },
+        {
+          "name": "levelling",
+          "id": "ce_subj_9_topic_4",
+          "slug": "levelling",
+          "md_path": "geomatics-engineering/levelling.md",
+          "questions": [
+            "questions/2024-M/45/",
+            "questions/2024-N/65/"
+          ]
+        },
+        {
+          "name": "principles of surveying errors and their adjustment",
+          "id": "ce_subj_9_topic_5",
+          "slug": "principles-of-surveying-errors-and-their-adjustment",
+          "md_path": "geomatics-engineering/principles-of-surveying-errors-and-their-adjustment.md",
+          "questions": [
+            "questions/2021-N/1/"
+          ]
+        },
+        {
+          "name": "traversing",
+          "id": "ce_subj_9_topic_6",
+          "slug": "traversing",
+          "md_path": "geomatics-engineering/traversing.md",
+          "questions": [
+            "questions/2024-N/64/"
+          ]
+        },
+        {
+          "name": "principles of surveying errors and their adjustment maps scale coordinate",
+          "id": "ce_subj_9_topic_7",
+          "slug": "principles-of-surveying-errors-and-their-adjustment-maps-scale-coordinate",
+          "md_path": "geomatics-engineering/principles-of-surveying-errors-and-their-adjustment-maps-scale-coordinate.md",
+          "questions": [
+            "questions/2021-M/49/"
+          ]
+        },
+        {
+          "name": "photogrammetry and remote sensing scale flying height basics of remote sensing and gis",
+          "id": "ce_subj_9_topic_8",
+          "slug": "photogrammetry-and-remote-sensing-scale-flying-height-basics-of-remote-sensing-a",
+          "md_path": "geomatics-engineering/photogrammetry-and-remote-sensing-scale-flying-height-basics-of-remote-sensing-a.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "construction materials and management",
+      "id": "ce_subj_10",
+      "slug": "construction-materials-and-management",
+      "topics": [
+        {
+          "name": "construction material",
+          "id": "ce_subj_10_topic_1",
+          "slug": "construction-material",
+          "md_path": "construction-materials-and-management/construction-material.md",
+          "questions": [
+            "questions/2024-M/16/"
+          ]
+        },
+        {
+          "name": "cost estimation",
+          "id": "ce_subj_10_topic_2",
+          "slug": "cost-estimation",
+          "md_path": "construction-materials-and-management/cost-estimation.md",
+          "questions": [
+            "questions/2024-M/51/"
+          ]
+        },
+        {
+          "name": "project planning",
+          "id": "ce_subj_10_topic_3",
+          "slug": "project-planning",
+          "md_path": "construction-materials-and-management/project-planning.md",
+          "questions": [
+            "questions/2024-N/52/"
+          ]
+        },
+        {
+          "name": "economic analysis in construction project",
+          "id": "ce_subj_10_topic_4",
+          "slug": "economic-analysis-in-construction-project",
+          "md_path": "construction-materials-and-management/economic-analysis-in-construction-project.md",
+          "questions": [
+            "questions/2024-N/38/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rcc structures design and analysis of beam and slab",
+      "id": "ce_subj_11",
+      "slug": "rcc-structures-design-and-analysis-of-beam-and-slab",
+      "topics": [
+        {
+          "name": "design and analysis of beam and slab",
+          "id": "ce_subj_11_topic_1",
+          "slug": "design-and-analysis-of-beam-and-slab",
+          "md_path": "rcc-structures-design-and-analysis-of-beam-and-slab/design-and-analysis-of-beam-and-slab.md",
+          "questions": [
+            "questions/2024-M/30/",
+            "questions/2024-M/52/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering hydrology",
+      "id": "ce_subj_12",
+      "slug": "engineering-hydrology",
+      "topics": [
+        {
+          "name": "hydrograph",
+          "id": "ce_subj_12_topic_1",
+          "slug": "hydrograph",
+          "md_path": "engineering-hydrology/hydrograph.md",
+          "questions": [
+            "questions/2024-M/56/"
+          ]
+        },
+        {
+          "name": "precipitation and frequency of rainfall data",
+          "id": "ce_subj_12_topic_2",
+          "slug": "precipitation-and-frequency-of-rainfall-data",
+          "md_path": "engineering-hydrology/precipitation-and-frequency-of-rainfall-data.md",
+          "questions": [
+            "questions/2023-N/62/"
+          ]
+        },
+        {
+          "name": "infiltration",
+          "id": "ce_subj_12_topic_3",
+          "slug": "infiltration",
+          "md_path": "engineering-hydrology/infiltration.md",
+          "questions": [
+            "questions/2024-N/56/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fluid mechanic",
+      "id": "ce_subj_13",
+      "slug": "fluid-mechanic",
+      "topics": [
+        {
+          "name": "fluid kinematics and fluid in relative equilibrium",
+          "id": "ce_subj_13_topic_1",
+          "slug": "fluid-kinematics-and-fluid-in-relative-equilibrium",
+          "md_path": "fluid-mechanic/fluid-kinematics-and-fluid-in-relative-equilibrium.md",
+          "questions": [
+            "questions/2024-M/42/"
+          ]
+        },
+        {
+          "name": "open channel flow",
+          "id": "ce_subj_13_topic_2",
+          "slug": "open-channel-flow",
+          "md_path": "fluid-mechanic/open-channel-flow.md",
+          "questions": [
+            "questions/2023-N/63/",
+            "questions/2024-M/57/",
+            "questions/2024-M/58/",
+            "questions/2024-N/35/",
+            "questions/2024-N/41/",
+            "questions/2024-N/59/"
+          ]
+        },
+        {
+          "name": "fluid pressure and measurement",
+          "id": "ce_subj_13_topic_3",
+          "slug": "fluid-pressure-and-measurement",
+          "md_path": "fluid-mechanic/fluid-pressure-and-measurement.md",
+          "questions": [
+            "questions/2024-M/59/"
+          ]
+        },
+        {
+          "name": "fluid dynamic",
+          "id": "ce_subj_13_topic_4",
+          "slug": "fluid-dynamic",
+          "md_path": "fluid-mechanic/fluid-dynamic.md",
+          "questions": [
+            "questions/2024-N/58/"
+          ]
+        },
+        {
+          "name": "flow through pipe",
+          "id": "ce_subj_13_topic_5",
+          "slug": "flow-through-pipe",
+          "md_path": "fluid-mechanic/flow-through-pipe.md",
+          "questions": [
+            "questions/2024-N/57/"
+          ]
+        },
+        {
+          "name": "flow in pipes pipe networks concept of boundary layer and its growth",
+          "id": "ce_subj_13_topic_6",
+          "slug": "flow-in-pipes-pipe-networks-concept-of-boundary-layer-and-its-growth",
+          "md_path": "fluid-mechanic/flow-in-pipes-pipe-networks-concept-of-boundary-layer-and-its-growth.md",
+          "questions": [
+            "questions/2021-M/34/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rcc structure",
+      "id": "ce_subj_14",
+      "slug": "rcc-structure",
+      "topics": [
+        {
+          "name": "is recommendations and fundamental",
+          "id": "ce_subj_14_topic_1",
+          "slug": "is-recommendations-and-fundamental",
+          "md_path": "rcc-structure/is-recommendations-and-fundamental.md",
+          "questions": [
+            "questions/2024-M/15/",
+            "questions/2024-N/21/"
+          ]
+        },
+        {
+          "name": "prestress concrete",
+          "id": "ce_subj_14_topic_2",
+          "slug": "prestress-concrete",
+          "md_path": "rcc-structure/prestress-concrete.md",
+          "questions": [
+            "questions/2024-M/50/"
+          ]
+        },
+        {
+          "name": "column and footing",
+          "id": "ce_subj_14_topic_3",
+          "slug": "column-and-footing",
+          "md_path": "rcc-structure/column-and-footing.md",
+          "questions": [
+            "questions/2024-M/17/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "transportation engineering",
+      "id": "ce_subj_15",
+      "slug": "transportation-engineering",
+      "topics": [
+        {
+          "name": "railway runway and taxiway design",
+          "id": "ce_subj_15_topic_1",
+          "slug": "railway-runway-and-taxiway-design",
+          "md_path": "transportation-engineering/railway-runway-and-taxiway-design.md",
+          "questions": [
+            "questions/2024-M/23/",
+            "questions/2024-N/27/",
+            "questions/2024-N/62/"
+          ]
+        },
+        {
+          "name": "transportation infrastructure",
+          "id": "ce_subj_15_topic_2",
+          "slug": "transportation-infrastructure",
+          "md_path": "transportation-engineering/transportation-infrastructure.md",
+          "questions": [
+            "questions/2024-M/62/"
+          ]
+        },
+        {
+          "name": "highway pavement",
+          "id": "ce_subj_15_topic_3",
+          "slug": "highway-pavement",
+          "md_path": "transportation-engineering/highway-pavement.md",
+          "questions": [
+            "questions/2023-N/51/",
+            "questions/2024-M/64/"
+          ]
+        },
+        {
+          "name": "traf\ufb01c engineering",
+          "id": "ce_subj_15_topic_4",
+          "slug": "traf-c-engineering",
+          "md_path": "transportation-engineering/traf-c-engineering.md",
+          "questions": []
+        },
+        {
+          "name": "traffic engineering",
+          "id": "ce_subj_15_topic_5",
+          "slug": "traffic-engineering",
+          "md_path": "transportation-engineering/traffic-engineering.md",
+          "questions": [
+            "questions/2021-M/53/",
+            "questions/2022-M/43/",
+            "questions/2024-M/44/",
+            "questions/2024-M/63/",
+            "questions/2024-N/43/"
+          ]
+        },
+        {
+          "name": "geometric design of highway",
+          "id": "ce_subj_15_topic_6",
+          "slug": "geometric-design-of-highway",
+          "md_path": "transportation-engineering/geometric-design-of-highway.md",
+          "questions": [
+            "questions/2021-N/10/",
+            "questions/2023-N/7/",
+            "questions/2024-M/22/"
+          ]
+        },
+        {
+          "name": "canal design",
+          "id": "ce_subj_15_topic_7",
+          "slug": "canal-design",
+          "md_path": "transportation-engineering/canal-design.md",
+          "questions": [
+            "questions/2023-N/20/"
+          ]
+        },
+        {
+          "name": "highway material",
+          "id": "ce_subj_15_topic_8",
+          "slug": "highway-material",
+          "md_path": "transportation-engineering/highway-material.md",
+          "questions": [
+            "questions/2024-N/46/"
+          ]
+        },
+        {
+          "name": "transportation infrastructure geometric design of highways cross sectional elements sight distances horizontal and vertical alignments geometric design of railway track speed and cant concept of airport runway length calculations and corrections taxiway and exit taxiway design highway materials desirable properties and tests desirable properties of bituminous paving mixes design factors for flexible and rigid pavements design of flexible and rigid pavement using irc code",
+          "id": "ce_subj_15_topic_9",
+          "slug": "transportation-infrastructure-geometric-design-of-highways-cross-sectional-eleme",
+          "md_path": "transportation-engineering/transportation-infrastructure-geometric-design-of-highways-cross-sectional-eleme.md",
+          "questions": []
+        },
+        {
+          "name": "geomatics engineering",
+          "id": "ce_subj_15_topic_10",
+          "slug": "geomatics-engineering",
+          "md_path": "transportation-engineering/geomatics-engineering.md",
+          "questions": []
+        },
+        {
+          "name": "traffic studies on flow and speed",
+          "id": "ce_subj_15_topic_11",
+          "slug": "traffic-studies-on-flow-and-speed",
+          "md_path": "transportation-engineering/traffic-studies-on-flow-and-speed.md",
+          "questions": [
+            "questions/2020-N/13/"
+          ]
+        },
+        {
+          "name": "geometric design",
+          "id": "ce_subj_15_topic_12",
+          "slug": "geometric-design",
+          "md_path": "transportation-engineering/geometric-design.md",
+          "questions": [
+            "questions/2022-M/44/"
+          ]
+        },
+        {
+          "name": "highway pavements and traffic engineering",
+          "id": "ce_subj_15_topic_13",
+          "slug": "highway-pavements-and-traffic-engineering",
+          "md_path": "transportation-engineering/highway-pavements-and-traffic-engineering.md",
+          "questions": [
+            "questions/2020-N/12/",
+            "questions/2020-N/32/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "verbal ability",
+      "id": "ce_subj_16",
+      "slug": "verbal-ability",
+      "topics": [
+        {
+          "name": "sentence completion",
+          "id": "ce_subj_16_topic_1",
+          "slug": "sentence-completion",
+          "md_path": "verbal-ability/sentence-completion.md",
+          "questions": [
+            "questions/2024-M/6/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "steel structure",
+      "id": "ce_subj_17",
+      "slug": "steel-structure",
+      "topics": [
+        {
+          "name": "general design requirement",
+          "id": "ce_subj_17_topic_1",
+          "slug": "general-design-requirement",
+          "md_path": "steel-structure/general-design-requirement.md",
+          "questions": [
+            "questions/2024-M/29/"
+          ]
+        },
+        {
+          "name": "design of tension and compression members beams and beam column",
+          "id": "ce_subj_17_topic_2",
+          "slug": "design-of-tension-and-compression-members-beams-and-beam-column",
+          "md_path": "steel-structure/design-of-tension-and-compression-members-beams-and-beam-column.md",
+          "questions": [
+            "questions/2020-N/39/"
+          ]
+        },
+        {
+          "name": "concept of plastic analysis beams and frame",
+          "id": "ce_subj_17_topic_3",
+          "slug": "concept-of-plastic-analysis-beams-and-frame",
+          "md_path": "steel-structure/concept-of-plastic-analysis-beams-and-frame.md",
+          "questions": [
+            "questions/2020-N/18/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "new subtopic",
+      "id": "ce_subj_18",
+      "slug": "new-subtopic",
+      "topics": [
+        {
+          "name": "logical reasoning",
+          "id": "ce_subj_18_topic_1",
+          "slug": "logical-reasoning",
+          "md_path": "new-subtopic/logical-reasoning.md",
+          "questions": [
+            "questions/2021-N/7/"
+          ]
+        },
+        {
+          "name": "atmospheric science",
+          "id": "ce_subj_18_topic_2",
+          "slug": "atmospheric-science",
+          "md_path": "new-subtopic/atmospheric-science.md",
+          "questions": [
+            "questions/2021-N/20/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "civil engineering",
+      "id": "ce_subj_19",
+      "slug": "civil-engineering",
+      "topics": [
+        {
+          "name": "structural engineering",
+          "id": "ce_subj_19_topic_1",
+          "slug": "structural-engineering",
+          "md_path": "civil-engineering/structural-engineering.md",
+          "questions": []
+        },
+        {
+          "name": "construction management",
+          "id": "ce_subj_19_topic_2",
+          "slug": "construction-management",
+          "md_path": "civil-engineering/construction-management.md",
+          "questions": [
+            "questions/2021-N/35/"
+          ]
+        },
+        {
+          "name": "water resources engineering",
+          "id": "ce_subj_19_topic_3",
+          "slug": "water-resources-engineering",
+          "md_path": "civil-engineering/water-resources-engineering.md",
+          "questions": []
+        },
+        {
+          "name": "probability and statistic",
+          "id": "ce_subj_19_topic_4",
+          "slug": "probability-and-statistic",
+          "md_path": "civil-engineering/probability-and-statistic.md",
+          "questions": []
+        },
+        {
+          "name": "numerical method",
+          "id": "ce_subj_19_topic_5",
+          "slug": "numerical-method",
+          "md_path": "civil-engineering/numerical-method.md",
+          "questions": [
+            "questions/2022-M/18/"
+          ]
+        },
+        {
+          "name": "engineering mathematic",
+          "id": "ce_subj_19_topic_6",
+          "slug": "engineering-mathematic",
+          "md_path": "civil-engineering/engineering-mathematic.md",
+          "questions": [
+            "questions/2022-M/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "engineering mechanic",
+      "id": "ce_subj_20",
+      "slug": "engineering-mechanic",
+      "topics": [
+        {
+          "name": "rigid bodie",
+          "id": "ce_subj_20_topic_1",
+          "slug": "rigid-bodie",
+          "md_path": "engineering-mechanic/rigid-bodie.md",
+          "questions": [
+            "questions/2024-N/16/"
+          ]
+        },
+        {
+          "name": "simple harmonic motion and damped oscillation",
+          "id": "ce_subj_20_topic_2",
+          "slug": "simple-harmonic-motion-and-damped-oscillation",
+          "md_path": "engineering-mechanic/simple-harmonic-motion-and-damped-oscillation.md",
+          "questions": [
+            "questions/2024-N/37/"
+          ]
+        },
+        {
+          "name": "system of forces free body diagrams equilibrium equations internal forces in structures frictions and its application",
+          "id": "ce_subj_20_topic_3",
+          "slug": "system-of-forces-free-body-diagrams-equilibrium-equations-internal-forces-in-str",
+          "md_path": "engineering-mechanic/system-of-forces-free-body-diagrams-equilibrium-equations-internal-forces-in-str.md",
+          "questions": [
+            "questions/2021-M/22/"
+          ]
+        },
+        {
+          "name": "solid mechanic",
+          "id": "ce_subj_20_topic_4",
+          "slug": "solid-mechanic",
+          "md_path": "engineering-mechanic/solid-mechanic.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "probability and statistic",
+      "id": "ce_subj_21",
+      "slug": "probability-and-statistic",
+      "topics": [
+        {
+          "name": "ce 2024 n 36",
+          "id": "ce_subj_21_topic_1",
+          "slug": "ce-2024-n-36",
+          "md_path": "probability-and-statistic/ce-2024-n-36.md",
+          "questions": []
+        },
+        {
+          "name": "sampling theorems conditional probability",
+          "id": "ce_subj_21_topic_2",
+          "slug": "sampling-theorems-conditional-probability",
+          "md_path": "probability-and-statistic/sampling-theorems-conditional-probability.md",
+          "questions": [
+            "questions/2021-M/32/"
+          ]
+        },
+        {
+          "name": "descriptive statistic",
+          "id": "ce_subj_21_topic_3",
+          "slug": "descriptive-statistic",
+          "md_path": "probability-and-statistic/descriptive-statistic.md",
+          "questions": [
+            "questions/2021-M/6/",
+            "questions/2022-M/8/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "transportation infrastructure",
+      "id": "ce_subj_22",
+      "slug": "transportation-infrastructure",
+      "topics": [
+        {
+          "name": "geometric design of highways cross sectional element",
+          "id": "ce_subj_22_topic_1",
+          "slug": "geometric-design-of-highways-cross-sectional-element",
+          "md_path": "transportation-infrastructure/geometric-design-of-highways-cross-sectional-element.md",
+          "questions": [
+            "questions/2020-M/4/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "water and waste water quality and treatment",
+      "id": "ce_subj_23",
+      "slug": "water-and-waste-water-quality-and-treatment",
+      "topics": [
+        {
+          "name": "basics of water quality standards physical chemical and biological parameter",
+          "id": "ce_subj_23_topic_1",
+          "slug": "basics-of-water-quality-standards-physical-chemical-and-biological-parameter",
+          "md_path": "water-and-waste-water-quality-and-treatment/basics-of-water-quality-standards-physical-chemical-and-biological-parameter.md",
+          "questions": [
+            "questions/2020-M/6/"
+          ]
+        },
+        {
+          "name": "unit processes and operation",
+          "id": "ce_subj_23_topic_2",
+          "slug": "unit-processes-and-operation",
+          "md_path": "water-and-waste-water-quality-and-treatment/unit-processes-and-operation.md",
+          "questions": [
+            "questions/2020-M/2/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "solid mechanic",
+      "id": "ce_subj_24",
+      "slug": "solid-mechanic",
+      "topics": [
+        {
+          "name": "bending moment and shear force in statically determinate beam",
+          "id": "ce_subj_24_topic_1",
+          "slug": "bending-moment-and-shear-force-in-statically-determinate-beam",
+          "md_path": "solid-mechanic/bending-moment-and-shear-force-in-statically-determinate-beam.md",
+          "questions": [
+            "questions/2020-M/5/",
+            "questions/2020-M/9/"
+          ]
+        },
+        {
+          "name": "analysis of trusses arches beams cables and frame",
+          "id": "ce_subj_24_topic_2",
+          "slug": "analysis-of-trusses-arches-beams-cables-and-frame",
+          "md_path": "solid-mechanic/analysis-of-trusses-arches-beams-cables-and-frame.md",
+          "questions": [
+            "questions/2020-N/46/"
+          ]
+        },
+        {
+          "name": "stress transformation",
+          "id": "ce_subj_24_topic_3",
+          "slug": "stress-transformation",
+          "md_path": "solid-mechanic/stress-transformation.md",
+          "questions": [
+            "questions/2020-N/8/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calculus",
+      "id": "ce_subj_25",
+      "slug": "calculus",
+      "topics": [
+        {
+          "name": "mean value theorems local maxima and minima taylor serie",
+          "id": "ce_subj_25_topic_1",
+          "slug": "mean-value-theorems-local-maxima-and-minima-taylor-serie",
+          "md_path": "calculus/mean-value-theorems-local-maxima-and-minima-taylor-serie.md",
+          "questions": [
+            "questions/2020-M/1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "numerical method",
+      "id": "ce_subj_26",
+      "slug": "numerical-method",
+      "topics": [
+        {
+          "name": "error analysis",
+          "id": "ce_subj_26_topic_1",
+          "slug": "error-analysis",
+          "md_path": "numerical-method/error-analysis.md",
+          "questions": [
+            "questions/2020-N/55/",
+            "questions/2021-M/1/"
+          ]
+        },
+        {
+          "name": "numerical solutions of linear and non linear algebraic equations newtons and lagrange polynomial",
+          "id": "ce_subj_26_topic_2",
+          "slug": "numerical-solutions-of-linear-and-non-linear-algebraic-equations-newtons-and-lag",
+          "md_path": "numerical-method/numerical-solutions-of-linear-and-non-linear-algebraic-equations-newtons-and-lag.md",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "name": "construction management",
+      "id": "ce_subj_27",
+      "slug": "construction-management",
+      "topics": [
+        {
+          "name": "cost estimation",
+          "id": "ce_subj_27_topic_1",
+          "slug": "cost-estimation",
+          "md_path": "construction-management/cost-estimation.md",
+          "questions": [
+            "questions/2021-M/12/"
+          ]
+        },
+        {
+          "name": "project planning and network analysis pert and cpm",
+          "id": "ce_subj_27_topic_2",
+          "slug": "project-planning-and-network-analysis-pert-and-cpm",
+          "md_path": "construction-management/project-planning-and-network-analysis-pert-and-cpm.md",
+          "questions": [
+            "questions/2021-M/11/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "concrete structure",
+      "id": "ce_subj_28",
+      "slug": "concrete-structure",
+      "topics": [
+        {
+          "name": "working stress and limit state design concept",
+          "id": "ce_subj_28_topic_1",
+          "slug": "working-stress-and-limit-state-design-concept",
+          "md_path": "concrete-structure/working-stress-and-limit-state-design-concept.md",
+          "questions": [
+            "questions/2021-M/43/"
+          ]
+        },
+        {
+          "name": "design of beams slabs column",
+          "id": "ce_subj_28_topic_2",
+          "slug": "design-of-beams-slabs-column",
+          "md_path": "concrete-structure/design-of-beams-slabs-column.md",
+          "questions": [
+            "questions/2020-N/54/"
+          ]
+        },
+        {
+          "name": "working stress and limit state design concepts design of beams slabs column",
+          "id": "ce_subj_28_topic_3",
+          "slug": "working-stress-and-limit-state-design-concepts-design-of-beams-slabs-column",
+          "md_path": "concrete-structure/working-stress-and-limit-state-design-concepts-design-of-beams-slabs-column.md",
+          "questions": [
+            "questions/2020-N/2/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "civil engineering general",
+      "id": "ce_subj_29",
+      "slug": "civil-engineering-general",
+      "topics": [
+        {
+          "name": "surveying and geomatic",
+          "id": "ce_subj_29_topic_1",
+          "slug": "surveying-and-geomatic",
+          "md_path": "civil-engineering-general/surveying-and-geomatic.md",
+          "questions": [
+            "questions/2021-M/37/"
+          ]
+        },
+        {
+          "name": "chemistry and water resource",
+          "id": "ce_subj_29_topic_2",
+          "slug": "chemistry-and-water-resource",
+          "md_path": "civil-engineering-general/chemistry-and-water-resource.md",
+          "questions": [
+            "questions/2022-M/23/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "numerical ability",
+      "id": "ce_subj_30",
+      "slug": "numerical-ability",
+      "topics": [
+        {
+          "name": "data interpretation",
+          "id": "ce_subj_30_topic_1",
+          "slug": "data-interpretation",
+          "md_path": "numerical-ability/data-interpretation.md",
+          "questions": [
+            "questions/2020-N/4/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "soil mechanic",
+      "id": "ce_subj_31",
+      "slug": "soil-mechanic",
+      "topics": [
+        {
+          "name": "three phase system and phase relationship",
+          "id": "ce_subj_31_topic_1",
+          "slug": "three-phase-system-and-phase-relationship",
+          "md_path": "soil-mechanic/three-phase-system-and-phase-relationship.md",
+          "questions": [
+            "questions/2020-N/31/"
+          ]
+        },
+        {
+          "name": "permeability one dimensional flow seepage through soils two dimensional flow",
+          "id": "ce_subj_31_topic_2",
+          "slug": "permeability-one-dimensional-flow-seepage-through-soils-two-dimensional-flow",
+          "md_path": "soil-mechanic/permeability-one-dimensional-flow-seepage-through-soils-two-dimensional-flow.md",
+          "questions": [
+            "questions/2020-N/49/"
+          ]
+        }
+      ]
+    }
+  ]
+}
