@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Change this if your default branch is different
+      - feat/exclude-empty-subs
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: |
+          cd frontend
+          npm install
+
+      - name: Build
+        run: |
+          cd frontend
+          npm run build:static
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: frontend/.output/public # Nitro static output
+          branch: gh-pages

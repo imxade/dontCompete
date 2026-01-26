@@ -12,6 +12,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { APP_CONFIG } from './src/config'
 
 const config = defineConfig({
+  base: '/dontcompete/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
