@@ -2,7 +2,6 @@ import os
 import logging
 import fitz
 from generator.src.config import CLASSIFICATION_BATCH_SIZE
-from generator.src.text_utils import slugify
 
 logger = logging.getLogger(__name__)
 
@@ -81,60 +80,54 @@ def generate_classification_prompts(con, stream_code, batch_size=None, max_batch
         q_context = "\n\n".join(q_list)
         all_question_ids = [q[0].rstrip('.') for q in batch]
         
-        prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize every single question provided into the provided syllabus structure.
+        prompt = f"""You are classifying GATE CS exam questions. Read the syllabus and classify each question.
 
 SYLLABUS:
 {syllabus_text}
 
-
-Additional Section: General Aptitude
-- STRICT WARNING: Think carefully before using this category, use ONLY if the question is completely irrelevant to the syllabus
-- Verbal Ability: Language comprehension, vocabulary, grammar, and reading comprehension.
+ADDITIONAL VALID CATEGORIES:
+Section GA: General Aptitude
+- Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction.
 - Numerical Ability: Numerical computation, numerical estimation, numerical reasoning and data interpretation.
 - Spatial Aptitude: Transformation of shapes (translation, rotation, scaling, mirroring, assembling, grouping), paper folding, cutting, and patterns in 2D and 3D.
 
-QUESTIONS TO CLASSIFY (TotalCount={len(batch)}):
+Section Other: Unclassifiable
+- Use this category ONLY if the question clearly does not fit into any Computer Science or General Aptitude topic.
+
+QUESTIONS TO CLASSIFY:
 {q_context}
 
 YOUR TASK:
-For each and every question listed above:
-1. **Analyze (Thinking)**: Break down the question, identify core concepts, and match them against the syllabus. Note that the question can't be out of syllabus except for general aptitude; if needed, search the depth of subtopic online to find the best match.
-2. **Handle Special Cases**: 
-   - If a question is even remotely related to a syllabus topic, categorize it there forcefully. 
-   - "General Aptitude" should be a final resort only for truly unrelated content.
-   - If it truly does not fit any existing subtopic, **create a new subtopic** for it.
-3. **Classify**: Map it to a Subject and a specific Subtopic (either from syllabus or newly created).
-4. **Format**: Use the exact question ID (the ID= value shown above).
+Classify all {len(batch)} questions above. For each question:
+1. Find the matching subject (CS Subject, "General Aptitude", or "Other").
+2. Find the specific subtopic (if General Aptitude, use "Verbal Ability", "Numerical Ability", etc. If Other, use "Unclassifiable").
+3. Use the exact question ID (the ID= value shown above).
+4. **CRITICAL**: For subtopic names, you MUST use the exact name as listed in the syllabus. Do not paraphrase, do not singularize/pluralize, do not add "Concept". Copy it exactly, otherwise there might be duplicate subtopics due to minor variations in multiple runs.
 
-PROCESS:
-1. First, provide a `<thinking>` section. 
-2. In the thinking section, you MUST:
-   - List all {len(batch)} IDs you received.
-   - For each ID, write 1-2 sentences of analysis.
-   - **Verification**: Explicitly state: "I have verified that all {len(batch)} question IDs are accounted for."
-3. Then, provide the final result in a single JSON block.
+OUTPUT FORMAT:
+Return ONLY a JSON object. No explanations, no markdown code blocks, just the JSON.
 
-CRITICAL RULES:
-1. **100% Coverage**: You MUST include ALL {len(batch)} question IDs in your JSON output. Skipping even one is a critical failure.
-2. **Think First**: Use the `<thinking>` tag before the JSON.
-3. **Strict Mapping**: Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
-4. **Exact Names**: Use subtopic names EXACTLY as they appear in the syllabus.
-5. **JSON Only**: After the thinking section, output ONLY the JSON object. No explanations.
-
-Example Output:
-<thinking>
-Input IDs: [{', '.join(all_question_ids)}]
-1. ID={all_question_ids[0]}: Analyzed concepts X. Matches Digital Logic -> Boolean Algebra.
-...
-Verification: I have verified that all {len(batch)} question IDs are accounted for.
-</thinking>
-
+Example structure:
 {{
   "Digital Logic": {{
-    "Boolean Algebra": ["{all_question_ids[0]}"]
+    "Boolean Algebra": ["{all_question_ids[0]}"],
   }},
-  ...
+  "General Aptitude": {{
+    "Verbal Ability": ["{all_question_ids[1] if len(all_question_ids) > 1 else all_question_ids[0]}"],
+    "Spatial Aptitude": ["{all_question_ids[2] if len(all_question_ids) > 2 else all_question_ids[0]}"]
+  }},
+  "Other": {{
+    "Unclassifiable": []
+  }}
 }}
+
+CRITICAL RULES:
+1. Output ONLY the JSON object
+2. Use real CS subject names from the syllabus
+3. **STRICTLY** use subtopic names exactly as they appear in the syllabus. Look for comma or semicolon separated terms in the syllabus text.
+4. Include ALL {len(batch)} question IDs exactly as shown (ID= values)
+5. Do NOT add spaces, periods, or modify the IDs
+6. Each question ID must appear exactly once
 
 JSON OUTPUT:
 """
@@ -191,8 +184,11 @@ def generate_theory_prompts(con, stream_code):
         from generator.src.config import GATE_ASSETS_DIR
         import re
         
-        subj_slug = slugify(subject_name, normalize=True)
-        topic_slug = slugify(subtopic_name, normalize=True)
+        def slugify(text):
+            return re.sub(r'[^a-zA-Z0-9]+', '-', text.lower()).strip('-')
+            
+        subj_slug = slugify(subject_name)
+        topic_slug = slugify(subtopic_name)
         existing_md_path = os.path.join(GATE_ASSETS_DIR, stream_alias, subj_slug, f"{topic_slug}.md")
         
         existing_content = ""

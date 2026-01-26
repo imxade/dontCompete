@@ -33,7 +33,7 @@ async def main():
         sys.exit(1)
     
     # Ensure dirs exist
-    os.makedirs(GATE_ASSETS_DIR, exist_ok=True)
+    os.makedirs(os.path.join(GATE_ASSETS_DIR, "images", "q"), exist_ok=True)
     
     # Initialize Scraper (Still Class-based)
     scraper = ScraperEngine()
