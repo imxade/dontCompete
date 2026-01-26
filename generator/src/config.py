@@ -53,12 +53,12 @@ assert CLASSIFICATION_BATCH_SIZE > 0, "CLASSIFICATION_BATCH_SIZE must be positiv
 # Scraping Configuration
 TARGET_STREAMS = [
     # 'data-science-artificial-intelligence',
-    'electrical-engineering',
-    'mechanical-engineering',
-    'electronics-and-communication-engineering',
-    'instrumentation-engineering',
-    'civil-engineering',
-    'chemical-engineering',
+    # 'electrical-engineering',
+    # 'mechanical-engineering',
+    # 'electronics-and-communication-engineering',
+    # 'instrumentation-engineering',
+    # 'civil-engineering',
+    # 'chemical-engineering',
     'computer-science-information-technology',
 ]
 
