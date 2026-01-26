@@ -261,8 +261,8 @@ async def process_theory_prompts(con, limit=None):
             if stream_code:
                 stream_alias = STREAM_ALIASES.get(stream_code, stream_code)
                 
-                subj_slug = slugify(subject_name)
-                topic_slug = slugify(subtopic_name)
+                subj_slug = slugify(subject_name, normalize=True)
+                topic_slug = slugify(subtopic_name, normalize=True)
                 
                 target_dir = os.path.join(GATE_ASSETS_DIR, stream_alias, subj_slug)
                 os.makedirs(target_dir, exist_ok=True)
@@ -299,7 +299,7 @@ def generate_manifest(con, stream_code):
         subj_entry = {
             "name": subj_name,
             "id": subj_id,
-            "slug": slugify(subj_name),
+            "slug": slugify(subj_name, normalize=True),
             "topics": []
         }
         
@@ -312,7 +312,7 @@ def generate_manifest(con, stream_code):
         """, (subj_id,)).fetchall()
         
         for topic_id, topic_name in subtopics:
-            topic_slug = slugify(topic_name)
+            topic_slug = slugify(topic_name, normalize=True)
             
             # 3. Fetch Related Questions
             questions = con.execute("""
@@ -343,7 +343,7 @@ def generate_manifest(con, stream_code):
 
             
             # Path relative to 'assets/<stream>/'
-            md_path = f"{slugify(subj_name)}/{topic_slug}.md"
+            md_path = f"{slugify(subj_name, normalize=True)}/{topic_slug}.md"
             
             topic_entry = {
                 "name": topic_name,

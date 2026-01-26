@@ -54,8 +54,11 @@ def normalize_subtopic(name):
         
     return name.strip()
 
-def slugify(text):
-    """Converts text to a slug."""
+def slugify(text, normalize=True):
+    """Converts text to a slug, optionally normalizing it first."""
+    if normalize:
+        text = normalize_subtopic(text)
+    
     res = re.sub(r'[^a-zA-Z0-9]+', '-', text.lower()).strip('-')
     if len(res) > 80:
         res = res[:80].strip('-')

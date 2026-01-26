@@ -2,6 +2,7 @@ import os
 import logging
 import fitz
 from generator.src.config import CLASSIFICATION_BATCH_SIZE
+from generator.src.text_utils import slugify
 
 logger = logging.getLogger(__name__)
 
@@ -184,11 +185,8 @@ def generate_theory_prompts(con, stream_code):
         from generator.src.config import GATE_ASSETS_DIR
         import re
         
-        def slugify(text):
-            return re.sub(r'[^a-zA-Z0-9]+', '-', text.lower()).strip('-')
-            
-        subj_slug = slugify(subject_name)
-        topic_slug = slugify(subtopic_name)
+        subj_slug = slugify(subject_name, normalize=True)
+        topic_slug = slugify(subtopic_name, normalize=True)
         existing_md_path = os.path.join(GATE_ASSETS_DIR, stream_alias, subj_slug, f"{topic_slug}.md")
         
         existing_content = ""
