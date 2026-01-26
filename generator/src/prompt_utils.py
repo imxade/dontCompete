@@ -81,7 +81,7 @@ def generate_classification_prompts(con, stream_code, batch_size=None, max_batch
         q_context = "\n\n".join(q_list)
         all_question_ids = [q[0].rstrip('.') for q in batch]
         
-        prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize questions into the provided syllabus structure.
+        prompt = f"""You are a highly meticulous GATE exam classifier. Your task is to accurately categorize every single question provided into the provided syllabus structure.
 
 SYLLABUS:
 {syllabus_text}
@@ -93,39 +93,44 @@ Additional Section: General Aptitude
 - Numerical Ability: Numerical computation, numerical estimation, numerical reasoning and data interpretation.
 - Spatial Aptitude: Transformation of shapes (translation, rotation, scaling, mirroring, assembling, grouping), paper folding, cutting, and patterns in 2D and 3D.
 
-QUESTIONS TO CLASSIFY:
+QUESTIONS TO CLASSIFY (TotalCount={len(batch)}):
 {q_context}
 
 YOUR TASK:
-For each question:
-1. **Analyze (Thinking)**: Break down the question, identify core concepts, and match them against the syllabus keywords.
-2. **Classify**: Map it to a Subject and a specific Subtopic.
-3. **Format**: Use the exact question ID (the ID= value shown above).
+For each and every question listed above:
+1. **Analyze (Thinking)**: Break down the question, identify core concepts, and match them against the syllabus. 
+2. **Force Match**: If a question is even remotely related to a syllabus topic, categorize it there. "Other" or "General Aptitude" should be a final resort only for truly unrelated content.
+3. **Classify**: Map it to a Subject and a specific Subtopic.
+4. **Format**: Use the exact question ID (the ID= value shown above).
 
 PROCESS:
-1. First, provide a `<thinking>` section where you briefly analyze each question (max 2 sentences per question).
-2. Then, provide the final result in a single JSON block.
+1. First, provide a `<thinking>` section. 
+2. In the thinking section, you MUST:
+   - List all {len(batch)} IDs you received.
+   - For each ID, write 1-2 sentences of analysis.
+   - **Verification**: Explicitly state: "I have verified that all {len(batch)} question IDs are accounted for."
+3. Then, provide the final result in a single JSON block.
 
 CRITICAL RULES:
-1. **Think First**: Use the `<thinking>` tag before the JSON.
-2. **Strict Mapping**: Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
-3. **Exact Names**: Use subtopic names EXACTLY as they appear in the syllabus.
-4. **All Questions**: Include ALL {len(batch)} question IDs exactly as shown.
+1. **100% Coverage**: You MUST include ALL {len(batch)} question IDs in your JSON output. Skipping even one is a critical failure.
+2. **Think First**: Use the `<thinking>` tag before the JSON.
+3. **Strict Mapping**: Each and every question must be categorized into a subject and a subtopic. Try best to match the question with the syllabus even if it is not a direct match, just force it to match with the closest. 
+4. **Exact Names**: Use subtopic names EXACTLY as they appear in the syllabus.
 5. **JSON Only**: After the thinking section, output ONLY the JSON object. No explanations.
 
 Example Output:
 <thinking>
-1. ID={all_question_ids[0]}: Analyzed concepts X and Y. These are fundamental to Boolean Algebra in Digital Logic.
-2. ID={all_question_ids[1]}: Topic involves English grammar, which fits under General Aptitude -> Verbal Ability.
+Input IDs: [{', '.join(all_question_ids)}]
+1. ID={all_question_ids[0]}: Analyzed concepts X. Matches Digital Logic -> Boolean Algebra.
+...
+Verification: I have verified that all {len(batch)} question IDs are accounted for.
 </thinking>
 
 {{
   "Digital Logic": {{
     "Boolean Algebra": ["{all_question_ids[0]}"]
   }},
-  "General Aptitude": {{
-    "Verbal Ability": ["{all_question_ids[1]}"]
-  }}
+  ...
 }}
 
 JSON OUTPUT:
