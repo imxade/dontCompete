@@ -8,27 +8,49 @@ def normalize_subtopic(name):
     # 1. Lowercase
     name = name.lower()
     
-    # 2. Replace symbols and separators with spaces
+    # 2. Fix common typos
+    typos = {
+        'complier': 'compiler',
+        'computational': 'computation',
+    }
+    for typo, fix in typos.items():
+        name = name.replace(typo, fix)
+
+    # 3. Replace symbols and separators with spaces
     name = name.replace('&', ' and ').replace('+', ' plus ')
     name = re.sub(r'[/\-_]', ' ', name)
     
-    # 3. Remove punctuation (keep alphanumeric and spaces)
+    # 4. Remove punctuation (keep alphanumeric and spaces)
     name = re.sub(r'[^\w\s]', '', name)
     
-    # 4. Collapse multiple spaces and strip
+    # 5. Collapse multiple spaces and strip
     name = ' '.join(name.split())
     
-    # 5. Remove generic words
-    stop_words = {'system', 'systems'}
-    words = name.split()
-    words = [w for w in words if w not in stop_words]
-    name = ' '.join(words)
+    # 6. Remove trailing noise words and symbols
+    # We do this iteratively as removing one might expose another (e.g., "Algorithm and &")
+    noise_words = {'and', 'system', 'systems', 'plus', 's'}
     
-    # 6. Remove trailing 's'
-    # Exclude common endings that are NOT plural markers (ss, is, us, as)
-    if name.endswith('s') and not any(name.endswith(x) for x in ['ss', 'is', 'us', 'as']):
-        if len(name) > 3: # Avoid mangling short words like 'bus' or 'dns' (though bus ends in us)
-            name = name[:-1]
+    while True:
+        words = name.split()
+        if not words: break
+        
+        changed = False
+        last_word = words[-1]
+        
+        # Check if last word is a noise word
+        if last_word in noise_words:
+            words.pop()
+            changed = True
+        
+        # Aggressive plural removal (if not a stop word protected ending)
+        elif last_word.endswith('s') and not any(last_word.endswith(x) for x in ['ss', 'is', 'us', 'as']):
+            if len(last_word) > 3:
+                words[-1] = last_word[:-1]
+                changed = True
+        
+        if not changed:
+            break
+        name = ' '.join(words)
         
     return name.strip()
 
