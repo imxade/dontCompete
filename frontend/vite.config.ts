@@ -25,7 +25,7 @@ const config = defineConfig({
     viteReact(),
     serwist({
       swSrc: 'src/sw.ts',
-      swDest: 'dist/sw.js',
+      swDest: 'sw.js',
       globPatterns: ['**/*'],
       globDirectory: 'dist',
       injectionPoint: 'self.__WB_MANIFEST',
