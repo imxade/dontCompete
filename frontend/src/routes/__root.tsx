@@ -28,14 +28,23 @@ export const Route = createRootRoute({
       },
     ],
   }),
-  component: () => (
-    <>
-      <ThemeScript />
-      <Header />
-      <GlobalBreadcrumbs />
-      <Outlet />
-      <Scripts />
-      <TanStackRouterDevtools />
-    </>
-  )
+  component: () => {
+    // Register Service Worker
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+
+    return (
+      <>
+        <ThemeScript />
+        <Header />
+        <GlobalBreadcrumbs />
+        <Outlet />
+        <Scripts />
+        <TanStackRouterDevtools />
+      </>
+    )
+  }
 })
