@@ -33,6 +33,7 @@ const config = defineConfig({
       workbox: {
         globPatterns: ['**/*'],
         maximumFileSizeToCacheInBytes: 1000 * 1024 * 1024, // 1GB
+        navigateFallback: '/index.html',
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
