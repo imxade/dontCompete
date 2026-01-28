@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "buildCommand": "cd frontend && npm install && npm run build && mv .vercel/output ../.vercel/",
+    "buildCommand": "cd frontend && npm install && npm run build",
     "installCommand": "cd frontend && npm install",
     "headers": [
         {
@@ -19,16 +19,6 @@
                     "value": "/"
                 }
             ]
-        }
-    ],
-    "routes": [
-        {
-            "src": "/sw.js",
-            "dest": "/sw.js"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/index.html"
         }
     ]
 }
