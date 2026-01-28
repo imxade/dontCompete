@@ -7,8 +7,6 @@ import { fileURLToPath, URL } from 'url'
 import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 import { serwist } from '@serwist/vite'
-import { copyFileSync, mkdirSync } from 'node:fs'
-import { join } from 'node:path'
 
 const config = defineConfig({
   resolve: {
@@ -18,7 +16,15 @@ const config = defineConfig({
   },
   plugins: [
     devtools(),
-    nitro(),
+    nitro({
+      publicAssets: [
+        {
+          baseURL: '/',
+          dir: 'dist',
+          maxAge: 0, // Don't cache sw.js
+        },
+      ],
+    }),
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
     }),
@@ -30,26 +36,13 @@ const config = defineConfig({
       swDest: 'sw.js',
       globPatterns: ['**/*'],
       globDirectory: '.output/public',
+      injectionPoint: 'self.__WB_MANIFEST',
+      rollupFormat: 'iife',
+
       devOptions: {
         enabled: true,
       },
     }),
-    // Custom plugin to copy sw.js to .output/public after build
-    {
-      name: 'copy-sw-to-output',
-      closeBundle() {
-        try {
-          const swSource = join(process.cwd(), 'dist', 'sw.js')
-          const swDest = join(process.cwd(), '.output', 'public', 'sw.js')
-          mkdirSync(join(process.cwd(), '.output', 'public'), { recursive: true })
-          copyFileSync(swSource, swDest)
-          console.log('✓ Copied sw.js to .output/public/')
-        } catch (error) {
-          const errorMessage = error instanceof Error ? error.message : String(error)
-          console.warn('⚠ Could not copy sw.js:', errorMessage)
-        }
-      },
-    },
   ],
 })
 
