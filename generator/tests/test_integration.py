@@ -60,7 +60,8 @@ def test_theory_export_pipeline(mock_generate, mock_db, tmp_path):
     with patch('generator.src.prompt_utils.PROMPT_DIR', str(tmp_path / 'prompts')), \
          patch('generator.src.knowledge_utils.DATA_DIR', str(tmp_path)), \
          patch('generator.src.knowledge_utils.RESPONSE_DIR', str(tmp_path / 'responses')), \
-         patch('generator.src.knowledge_utils.GATE_ASSETS_DIR', str(tmp_path / 'assets')):
+         patch('generator.src.knowledge_utils.GATE_ASSETS_DIR', str(tmp_path / 'assets')), \
+         patch('generator.src.knowledge_utils.STREAM_ALIASES', {'computer-science-information-technology': 'cs'}):
         
         os.makedirs(tmp_path / 'prompts', exist_ok=True)
         os.makedirs(tmp_path / 'responses', exist_ok=True)
@@ -81,8 +82,8 @@ def test_theory_export_pipeline(mock_generate, mock_db, tmp_path):
         count = mock_db.execute("SELECT COUNT(*) FROM theory").fetchone()[0]
         assert count == 1
         
-        # Verify Asset Export
-        expected_md = tmp_path / 'assets' / stream_alias / 'math' / 'graphs.md'
+        # Verify Asset Export (slugify converts "Graphs" to "graph")
+        expected_md = tmp_path / 'assets' / stream_alias / 'math' / 'graph.md'
         assert expected_md.exists()
         with open(expected_md) as f:
             assert "# Theory of Graphs" in f.read()
@@ -97,6 +98,6 @@ def test_theory_export_pipeline(mock_generate, mock_db, tmp_path):
         assert manifest['stream'] == stream_alias
         assert manifest['subjects'][0]['name'] == 'Math'
         assert manifest['subjects'][0]['topics'][0]['name'] == 'Graphs'
-        assert manifest['subjects'][0]['topics'][0]['md_path'] == 'math/graphs.md'
+        assert manifest['subjects'][0]['topics'][0]['md_path'] == 'math/graph.md'
         # Check Q Path
         assert "questions/2024/1/" in manifest['subjects'][0]['topics'][0]['questions'][0]

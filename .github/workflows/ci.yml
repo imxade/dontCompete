@@ -19,7 +19,7 @@ jobs:
         run: docker compose build
 
       - name: Run Generator Tests (Backend)
-        run: docker compose run --rm asset-generator pytest generator/tests
+        run: docker compose run --rm asset-generator pytest generator/tests/ -v
 
       - name: Start Frontend
         run: docker compose up -d frontend
@@ -29,7 +29,7 @@ jobs:
           timeout 60s bash -c 'until curl --silent -f http://localhost:3000 > /dev/null; do echo "Waiting for frontend..."; sleep 2; done'
 
       - name: Run Playwright Tests (Frontend)
-        run: docker compose run --rm playwright /bin/sh -c "npm ci && npx playwright test"
+        run: docker compose run --rm playwright /bin/sh -c "npm ci && npx playwright install --with-deps chromium && npx playwright test"
 
       - uses: actions/upload-artifact@v4
         if: always()

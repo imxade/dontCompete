@@ -7,8 +7,8 @@ import os
 import sys
 import logging
 from generator.src.config import DATA_DIR, TARGET_STREAMS, DB_PATH
-from src.knowledge_builder import KnowledgeBuilder
-from src.prompt_generator import PromptGenerator
+from generator.src.knowledge_builder import KnowledgeBuilder
+from generator.src.prompt_generator import PromptGenerator
 
 logging.basicConfig(
     level=logging.INFO,
