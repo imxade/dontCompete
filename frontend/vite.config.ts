@@ -9,7 +9,6 @@ import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 
 import { VitePWA } from 'vite-plugin-pwa'
-import { APP_CONFIG } from './src/config'
 
 const config = defineConfig({
   resolve: {
@@ -30,21 +29,10 @@ const config = defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'logo.png', 'assets/**/*'],
-      manifest: {
-        name: "Don't Compete",
-        short_name: 'DontCompete',
-        description: 'Master your subjects with theory, questions, and practice.',
-        theme_color: '#0f172a',
-        icons: [
-          {
-            src: 'logo.png',
-            sizes: '1024x1024',
-            type: 'image/png'
-          }
-        ]
-      },
+      manifest: false,
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        globPatterns: ['**/*'],
+        maximumFileSizeToCacheInBytes: 1000 * 1024 * 1024, // 1GB
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -80,7 +68,7 @@ const config = defineConfig({
             options: {
               cacheName: 'gate-assets-cache',
               expiration: {
-                maxEntries: 100,
+                maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
               }
             }
