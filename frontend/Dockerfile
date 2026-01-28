@@ -8,5 +8,5 @@ COPY . .
 
 RUN npm install
 
-# CMD ["npm", "run", "dev", "--", "--host"]
-CMD ["sh", "-c", "npm run build && npm run preview -- --host"]
+CMD ["npm", "run", "dev", "--", "--host"]
+# CMD ["sh", "-c", "npm run build && npm run preview -- --host"]
