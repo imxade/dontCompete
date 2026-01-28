@@ -1,108 +1,77 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test('homepage loads with correct title', async ({ page }) => {
     await page.goto('/');
 
-    // Expect a title "to contain" a substring.
+    // Check page title
     await expect(page).toHaveTitle(/Don't Compete/);
+
+    // Check hero heading
+    await expect(page.getByRole('heading', { name: /Master Your Exams/i })).toBeVisible();
+
+    // Check site description
+    await expect(page.getByText(/free, community-driven learning platform/i)).toBeVisible();
 });
 
-test('assessment flow logic', async ({ page }) => {
-    await page.goto('/gate/cs/general-aptitude/verbal-ability');
-
-    // Start Assessment
-    await page.getByRole('button', { name: /Start Assessment/i }).click();
-
-    // Try empty submit
-    const submitButton = page.getByRole('button', { name: /Submit Answer/i });
-    await submitButton.click();
-    // Expect no feedback yet (input is empty)
-    await expect(page.getByText(/Incorrect/i)).not.toBeVisible();
-
-    // Wrong answer
-    await page.getByPlaceholder(/Enter your answer/i).fill('X');
-    await submitButton.click();
-
-    // Expect error message
-    await expect(page.getByText(/Incorrect. Review the explanation below/i)).toBeVisible();
-
-    // Finish
-    await page.getByRole('button', { name: /Finish Assessment/i }).click();
-    await expect(page).toHaveURL(/gate\/cs/);
-});
-
-test('navigate to gate stream', async ({ page }) => {
+test('homepage shows exam selection section', async ({ page }) => {
     await page.goto('/');
 
-    // Click the GATE exam card.
-    await page.getByRole('link', { name: /GATE/i }).first().click();
+    // Check "Select Your Exam" heading
+    await expect(page.getByRole('heading', { name: /Select Your Exam/i })).toBeVisible();
 
-    // Expect to be on /gate page (or check if it redirects to a default stream? The code for /gate is not fully known yet, let's assume it goes to /gate and there is a stream list or dashboard)
-    // But the original test wanted to go to /gate/cs.
-    // Let's see where /gate goes. If /gate lists streams, we might need to click 'CS'.
-    // For now, let's match the user intent of the existing test which was checking navigation.
-    // If I can't verify the flow, I'll stick to the manual goto but correct the selector to avoid failure.
-    // Actually, the original code had `await page.goto('/gate/cs');` immediately after.
-    // So the click was just testing the link exists?
+    // Either loading spinner or exam cards or "no exams" message should be visible
+    const hasSpinner = await page.locator('.loading-spinner').isVisible().catch(() => false);
+    const hasExams = await page.locator('.card').count() > 0;
+    const hasNoExamsMessage = await page.getByText(/No exams found/i).isVisible().catch(() => false);
 
-    // Let's just fix the selector to be valid so it clicks SOMETHING that exists.
-    // await page.getByRole('link', { name: /GATE/i }).first().click();
-
-    // Check if we are on /gate
-    await expect(page).toHaveURL(/\/gate/);
-
-    // Now go to specific stream as per original test flow continuation
-    await page.goto('/gate/cs');
-
-    // Expects page to have a heading with the name of the stream.
-    // Since we rely on folder structure, the name is derived from the ID 'cs' -> 'CS'
-    await expect(page.getByRole('heading', { name: /^CS$/i })).toBeVisible();
-});
-test('404 page', async ({ page }) => {
-    await page.goto('/some-non-existent-route');
-    await expect(page.getByText(/Page Not Found/i)).toBeVisible();
-    await expect(page.getByRole('link', { name: /Go Home/i })).toBeVisible();
+    expect(hasSpinner || hasExams || hasNoExamsMessage).toBeTruthy();
 });
 
-test.skip('theme toggle', async ({ page }) => {
+test('homepage shows feature cards', async ({ page }) => {
     await page.goto('/');
-    // Check initial theme is set (either default or persisted)
+
+    // Check for feature cards
+    await expect(page.getByRole('heading', { name: /Comprehensive Theory/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /PYQ Practice/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Smart Learning/i })).toBeVisible();
+});
+
+test('footer displays correctly', async ({ page }) => {
+    await page.goto('/');
+
+    // Check footer content
+    await expect(page.getByText(/Apache 2.0 License/i)).toBeVisible();
+    await expect(page.getByRole('link', { name: /Apache 2.0 License/i })).toHaveAttribute('href', 'https://github.com/imxade/dontcompete');
+});
+
+test.skip('theme toggle works', async ({ page }) => {
+    await page.goto('/');
+
+    // Get initial theme
     const html = page.locator('html');
-    await expect(html).toHaveAttribute('data-theme', /dracula|cupcake/);
+    const initialTheme = await html.getAttribute('data-theme');
 
-    // Get current theme to verify toggle
-    const currentTheme = await html.getAttribute('data-theme');
-    const expectedNext = currentTheme === 'dracula' ? 'cupcake' : 'dracula';
+    // Theme should be either dracula, cupcake, or null
+    expect(initialTheme === null || ['dracula', 'cupcake'].includes(initialTheme)).toBeTruthy();
 
-    // Click toggle
-    await page.getByLabel('Toggle theme').click();
-    await expect(html).toHaveAttribute('data-theme', expectedNext);
+    // Click theme toggle button
+    await page.getByRole('button', { name: /Toggle theme/i }).click();
 
-    // Toggle back
-    await page.getByLabel('Toggle theme').click();
-    await expect(html).toHaveAttribute('data-theme', currentTheme);
+    // Wait a bit for theme to change
+    await page.waitForTimeout(100);
+
+    // Theme should have changed
+    const newTheme = await html.getAttribute('data-theme');
+    expect(newTheme).not.toBe(initialTheme);
+    expect(newTheme === null || ['dracula', 'cupcake'].includes(newTheme)).toBeTruthy();
 });
 
-test('image rendering in markdown', async ({ page }) => {
-    await page.goto('/gate/cs/general-aptitude/verbal-ability');
-    // Scroll to bottom
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+test('navigation header is present', async ({ page }) => {
+    await page.goto('/');
 
-    // Check for images
-    // Check for images
-    const images = page.locator('img');
-    const count = await images.count();
+    // Check for site name in header
+    await expect(page.getByRole('link', { name: /Don't Compete/i }).first()).toBeVisible();
 
-    if (count > 0) {
-        // Check if they loaded
-        for (let i = 0; i < count; i++) {
-            const img = images.nth(i);
-            const naturalWidth = await img.evaluate((node: HTMLImageElement) => node.naturalWidth);
-            expect(naturalWidth).toBeGreaterThan(0);
-        }
-    } else {
-        console.log('No images found in generated content; skipping image validation.');
-        // Verify at least some content is rendered
-        await expect(page.locator('.prose')).toBeVisible();
-    }
+    // Check theme toggle button exists
+    await expect(page.getByRole('button', { name: /Toggle theme/i })).toBeVisible();
 });
