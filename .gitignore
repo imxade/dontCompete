@@ -143,11 +143,8 @@ verify_*.py
 test-results/
 playwright-report/
 SPEC.md
-.gitignore
-generator/src/run_kb.py
-generator/src/run_pipeline.py
 *.zip
-
+.output
 
 # Vite logs files
 vite.config.js.timestamp-*

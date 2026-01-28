@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Scripts, createRootRoute, Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import { Header } from '../components/Header'
@@ -28,14 +29,23 @@ export const Route = createRootRoute({
       },
     ],
   }),
-  component: () => (
-    <>
-      <ThemeScript />
-      <Header />
-      <GlobalBreadcrumbs />
-      <Outlet />
-      <Scripts />
-      <TanStackRouterDevtools />
-    </>
-  )
+  component: () => {
+    // Register Service Worker
+    React.useEffect(() => {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    }, []);
+
+    return (
+      <>
+        <ThemeScript />
+        <Header />
+        <GlobalBreadcrumbs />
+        <Outlet />
+        <Scripts />
+        <TanStackRouterDevtools />
+      </>
+    )
+  }
 })
