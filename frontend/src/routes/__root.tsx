@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Scripts, createRootRoute, Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import { Header } from '../components/Header'
@@ -30,11 +31,11 @@ export const Route = createRootRoute({
   }),
   component: () => {
     // Register Service Worker
-    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
+    React.useEffect(() => {
+      if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js');
-      });
-    }
+      }
+    }, []);
 
     return (
       <>
