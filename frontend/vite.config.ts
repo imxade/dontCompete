@@ -9,6 +9,18 @@ import { nitro } from 'nitro/vite'
 import { serwist } from '@serwist/vite'
 
 const config = defineConfig({
+  server: {
+    host: true,
+    hmr: {
+      clientPort: 3000,
+    },
+    allowedHosts: ['frontend', 'localhost'],
+  },
+  preview: {
+    host: true,
+    port: 3000,
+    allowedHosts: ['frontend', 'localhost'],
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
