@@ -1,7 +1,13 @@
 /// <reference lib="webworker" />
 import { Serwist, NetworkFirst, ExpirationPlugin } from '@serwist/sw';
 
-declare const self: ServiceWorkerGlobalScope & { __WB_MANIFEST: any };
+declare global {
+    interface WorkerGlobalScope {
+        __WB_MANIFEST: any;
+    }
+}
+
+declare const self: ServiceWorkerGlobalScope;
 
 const serwist = new Serwist({
     precacheEntries: self.__WB_MANIFEST,
@@ -33,6 +39,16 @@ const serwist = new Serwist({
             }),
         },
     ],
+    fallbacks: {
+        entries: [
+            {
+                url: '/index.html',
+                matcher({ request }) {
+                    return request.destination === 'document';
+                },
+            },
+        ],
+    },
 });
 
 serwist.addEventListeners();
