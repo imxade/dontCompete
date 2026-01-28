@@ -30,6 +30,11 @@ const config = defineConfig({
       globDirectory: 'dist',
       injectionPoint: 'self.__WB_MANIFEST',
       rollupFormat: 'iife',
+      injectRegister: 'auto',
+      devOptions: {
+        enabled: true,
+        type: 'module',
+      },
     })
   ],
 })
