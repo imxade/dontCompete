@@ -73,6 +73,18 @@ const config = defineConfig({
                 maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
               }
             }
+          },
+          {
+            urlPattern: /.*/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'others-cache',
+              expiration: {
+                maxEntries: 500,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
+              },
+              networkTimeoutSeconds: 10
+            }
           }
         ]
       }
