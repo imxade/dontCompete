@@ -1,5 +1,5 @@
 /// <reference lib="webworker" />
-import { Serwist, NetworkFirst, ExpirationPlugin } from '@serwist/sw';
+import { Serwist, NetworkFirst, ExpirationPlugin } from 'serwist';
 
 declare global {
     interface WorkerGlobalScope {
