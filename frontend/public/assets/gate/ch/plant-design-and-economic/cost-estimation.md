@@ -1,141 +1,136 @@
 **Cost Estimation**
-======================
+====================
 
 ### Introduction
------------------
 
-Cost estimation is a crucial aspect of plant design and economics, as it helps determine the feasibility and profitability of a project. It involves estimating the costs associated with designing, building, operating, and maintaining a chemical process or plant.
+Cost estimation is a critical aspect of plant design and economics, as it helps determine the feasibility of projects and informs investment decisions. This topic involves estimating the costs associated with purchasing equipment, construction, and other expenses.
 
 ### Core Concepts
--------------------
 
-#### Types of Cost Estimation
+#### Definition of Cost Estimation
 
-There are several types of cost estimation methods:
+Cost estimation is the process of determining the expected costs for a project or activity.
 
-*   **Order-of-magnitude estimates**: Quick estimates that provide a rough estimate of the total cost.
-*   **Detailed estimates**: More accurate estimates that consider various factors, including material costs, labor costs, and other expenses.
+#### Types of Costs
 
-#### Cost Factors
------------------
+There are several types of costs to consider:
 
-The following factors influence cost estimation:
+*   **Installed cost**: The initial cost of purchasing an item.
+*   **Maintenance cost**: The recurring cost associated with maintaining an item over its lifetime.
+*   **Salvage value**: The residual value of an item at the end of its useful life.
 
-*   **Plant capacity**: The larger the plant capacity, the higher the initial investment but lower the operating costs per unit of production.
-*   **Equipment life**: Longer equipment life reduces maintenance and replacement costs but increases upfront investment.
-*   **Maintenance costs**: Regular maintenance is essential to prevent equipment failures and reduce downtime.
+#### Capital Recovery Factor (CRF)
+
+The capital recovery factor is used to calculate the annual cost of recovering a piece of equipment's capital investment. It can be calculated using the following formula:
+
+$$
+CRF = \frac{i(1+i)^n}{(1+i)^n-1}
+$$
+
+Where:
+*   $i$ is the interest rate as a decimal,
+*   $n$ is the number of years.
 
 ### Key Formulas/Theorems
----------------------------
 
-#### Relationship between Installed Cost, Equipment Life, and Maintenance Cost
+#### Capitalized Cost
 
-We can express the relationship between installed cost (IC), equipment life (E), and maintenance cost (MC) using the following formula:
+The capitalized cost of an item can be calculated using the following formula:
 
-$$IC = f(E, MC)$$
+$$
+CC = P + \sum_{t=1}^{T}\frac{M}{(1+i)^t}
+$$
 
-The exact function `f` depends on the specific cost estimation method used.
+Where:
+*   $P$ is the installed cost,
+*   $i$ is the interest rate as a decimal,
+*   $M$ is the annual maintenance cost,
+*   $T$ is the number of years.
 
-#### Power Law Relationship for Operating Labor Requirements
+#### Double-Declining Balance (DDB) Depreciation Method
 
-For operating labor requirements (L) in terms of plant capacity (C), we have a power law relationship given by:
+The DDB method calculates depreciation based on the initial value and the remaining useful life. The formula for calculating depreciation using this method is:
 
-$$L = C^\beta \alpha$$
+$$
+Depreciation = \frac{2}{n} \times Initial\ Value \times Year\ of\ Depreciation
+$$
 
-where α and β are constants to be determined from experimental data or process specifications.
+Where:
+*   $n$ is the number of years,
+*   $Year\ of\ Depreciation$ is the year in which depreciation is calculated.
 
 ### Problem Solving Patterns
------------------------------
 
-#### Analyzing Alternatives
+#### Identifying Least Expensive Alternative
 
-When comparing different alternatives, such as the ones presented in Question 1, consider the following factors:
+When faced with multiple alternatives, use the following steps to determine the least expensive option:
 
-*   **Installed cost**: The initial investment required for each alternative.
-*   **Equipment life**: The expected lifespan of each piece of equipment.
-*   **Maintenance costs**: Ongoing expenses related to maintenance and repairs.
+1.  Calculate the capitalized cost for each alternative.
+2.  Compare the costs and select the lowest-cost option.
 
-#### Solving Power Law Problems
+#### Capital Recovery Factor (CRF) Application
 
-For problems like Question 2, where a power law relationship is given, follow these steps:
+To apply CRF in solving problems, follow these steps:
 
-1.  Identify the constants α and β in the equation $L = C^\beta \alpha$.
-2.  Use the given data points to solve for α and β using linear or logarithmic regression techniques.
-3.  Once you have determined α and β, substitute the new plant capacity value into the equation to find the corresponding operating labor requirement.
+1.  Identify the interest rate ($i$) and number of years ($n$).
+2.  Plug in values to calculate CRF.
+3.  Use CRF to determine the annual cost of recovering capital.
 
 ### Examples with Solutions
----------------------------
 
-**Example 1**
+#### Example 1: Determining Least Expensive Alternative
 
-Suppose we want to estimate the installed cost (IC) of a chemical process given an equipment life (E) of 5 years and maintenance costs (MC) of ₹100,000 per year. We have two alternatives:
+A chemical plant is considering three batch reactors, $P$, $Q$, and $R$. The costs associated with each reactor are as follows:
 
-| Alternative | IC (₹ lakh) | E (years) | MC (₹ lakh/yr) |
+| Reactor | Installed Cost (Lakh Rupees) | Equipment Life (Years) | Maintenance Cost (Lakh Rupees/Year) |
 | --- | --- | --- | --- |
-| A    | 50      | 3     | 4              |
-| B    | 30      | 5     | 2              |
+| $P$  | 15                         | 3                     | 4                                |
+| $Q$  | 25                         | 5                     | 3                                |
+| $R$  | 35                         | 7                     | 2                                |
 
-Which alternative has the lowest total cost over its lifespan?
+Using the above data, determine the least expensive alternative.
 
-**Solution**
+Solution:
 
-To solve this problem, we need to calculate the total cost (TC) for each alternative:
+1.  Calculate the capitalized cost for each reactor.
+2.  Compare the costs and select the lowest-cost option.
 
-$$TC = IC + MC \times E$$
+```mermaid
+graph LR
+    A[Calculate Capitalized Cost] -->|P=15, M=4, T=3|> B{Capitalized Cost of P}
+    C[Compare Costs] --> D[Select Lowest-Cost Option]
+```
 
-For Alternative A:
+#### Example 2: Applying CRF
 
-$$TC_A = 50 + 4 \times 3 = 62$$
+A distillation column costs Rs. 90 lakhs and is to be depreciated using the double-declining balance method over 10 years.
 
-For Alternative B:
+Solution:
 
-$$TC_B = 30 + 2 \times 5 = 40$$
+1.  Identify the interest rate ($i$) and number of years ($n$).
+2.  Plug in values to calculate CRF.
+3.  Use CRF to determine the annual cost of recovering capital.
 
-Therefore, Alternative B has the lowest total cost.
-
-**Example 2**
-
-Given the power law relationship for operating labor requirements (L) in terms of plant capacity (C):
-
-$$L = C^\beta \alpha$$
-
-where α and β are constants to be determined from experimental data or process specifications. We know that L is 60 when C is $4.2 \times 10^4$ kg/day, and L is 70 when C is $4.6 \times 10^4$ kg/day.
-
-Find the value of L when C is $5.1 \times 10^4$ kg/day.
-
-**Solution**
-
-To solve this problem, we first need to determine the constants α and β using the given data points:
-
-| C (kg/day) | L |
-| --- | --- |
-| $4.2 \times 10^4$ | 60 |
-| $4.6 \times 10^4$ | 70 |
-
-We can use linear or logarithmic regression techniques to solve for α and β.
-
-Assuming we have determined α and β, we can substitute the new plant capacity value into the equation to find the corresponding operating labor requirement:
-
-$$L = (5.1 \times 10^4)^{\beta} \alpha$$
-
-Using the values of α and β obtained from the regression analysis, we get:
-
-$$L ≈ 73$$
-
-Therefore, L is approximately 73 when C is $5.1 \times 10^4$ kg/day.
+```mermaid
+graph LR
+    A[Identify i and n] -->|i=0.1, n=10|> B{Calculate CRF}
+    C[Use CRF] --> D[Determine Annual Cost]
+```
 
 ### Common Pitfalls
---------------------
 
-*   **Ignoring maintenance costs**: Regular maintenance is essential to prevent equipment failures and reduce downtime.
-*   **Overlooking the relationship between installed cost, equipment life, and maintenance costs**: A deeper understanding of this relationship can help you make more informed decisions when comparing different alternatives.
-*   **Not checking for consistency in units**: Ensure that all units are consistent throughout your calculations.
+*   Failing to consider the salvage value when calculating capitalized cost.
+*   Misapplying the capital recovery factor (CRF) in calculations.
+*   Not accounting for maintenance costs when estimating installed costs.
 
 ### Quick Summary
--------------------
 
-*   Cost estimation is a crucial aspect of plant design and economics.
-*   Types of cost estimation include order-of-magnitude estimates and detailed estimates.
-*   The installed cost, equipment life, and maintenance costs are key factors influencing cost estimation.
-*   A power law relationship can be used to describe the operating labor requirements in terms of plant capacity.
-*   Regular maintenance is essential to prevent equipment failures and reduce downtime.
+*   Cost estimation is a critical aspect of plant design and economics.
+*   Types of costs include installed cost, maintenance cost, and salvage value.
+*   Capitalized cost can be calculated using the formula $CC = P + \sum_{t=1}^{T}\frac{M}{(1+i)^t}$.
+*   CRF is used to calculate the annual cost of recovering capital: $CRF = \frac{i(1+i)^n}{(1+i)^n-1}$.
+*   Apply CRF by identifying interest rate and number of years, then plug in values.
+
+[Insert images or diagrams as needed]
+
+**Note:** Images and external links are not included in the Markdown content.

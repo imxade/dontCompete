@@ -2,90 +2,124 @@
 =========================
 
 ### Introduction
----------------
-
-Process management in operating systems deals with the creation, execution, and termination of processes. Process management II extends this concept to include thread management, synchronization primitives, and deadlock avoidance techniques.
-
-### Core Concepts
 -----------------
 
-#### Threads
+Process management deals with the creation, execution, and termination of processes within an operating system (OS). It ensures efficient resource utilization and proper synchronization among processes. Process Management II focuses on advanced concepts such as process scheduling, synchronization primitives, and inter-process communication.
 
-*   **Definition**: A thread is a lightweight process that shares the same memory space as other threads within the process.
-*   **Thread States**:
-    *   **Ready**: The thread is waiting for the CPU to become available.
-    *   **Running**: The thread is currently executing on the CPU.
-    *   **Waiting**: The thread is blocked, waiting for a specific event to occur (e.g., I/O completion).
-    *   **Zombie**: The thread has completed execution but its parent process has not yet acknowledged it.
+### Core Concepts
+------------------
 
-#### Synchronization Primitives
+#### 1. Process Scheduling
 
-*   **Mutex Locks**:
-    *   A mutual exclusion lock allows only one thread to access a shared resource at a time.
-    *   It ensures that only one thread can execute critical sections of code simultaneously.
-*   **Semaphores**:
-    *   A semaphore is a variable that controls the access to a shared resource by multiple threads.
-    *   It is used to limit the number of threads that can access a shared resource concurrently.
+Process scheduling determines which process is executed next by the CPU. Common scheduling algorithms include:
+
+*   **First-Come-First-Served (FCFS)**: A simple algorithm where the process that arrives first is executed first.
+*   **Shortest Job First (SJF)**: The algorithm that executes the shortest job next, minimizing waiting time.
+*   **Priority Scheduling**: Assigns a priority to each process and executes the highest-priority process.
+
+#### 2. Synchronization Primitives
+
+Synchronization primitives enable processes to coordinate their actions and prevent conflicts:
+
+*   **Monitors**: A high-level synchronization construct that provides mutual exclusion and shared resource management.
+*   **Semaphores**: Variables that control access to shared resources, allowing a fixed number of processes to access them simultaneously.
+
+#### 3. Inter-Process Communication (IPC)
+
+IPC allows processes to communicate with each other:
+
+*   **Message Passing**: Processes send and receive messages using pipes or sockets.
+*   **Shared Memory**: Processes share memory segments to exchange data directly.
 
 ### Key Formulas/Theorems
 -------------------------
 
-#### Thread Scheduling Algorithms
-
-*   **Round Robin (RR)**:
-    $$\text{Response Time} = \frac{\text{Process Burst Time}}{\text{Number of Processes}}$$
-*   **Shortest Job First (SJF)**: 
-    $$\text{Average Response Time} = \sum_{i=1}^{n} \frac{T_i}{n}$$
-
 ### Problem Solving Patterns
----------------------------
+-----------------------------
 
-#### Deadlock Detection and Avoidance
-
-*   **Deadlock Detection**:
-    *   Use the Banker's Algorithm to detect deadlocks.
-    *   Check for circular wait, hold-and-wait, no preemption, and resource holding conditions.
+1.  **Fork-Exec Pattern**: The `fork` system call creates a new process, while the `exec` function executes a program in the new process.
+2.  **Pipe Pattern**: Pipes enable processes to communicate using message passing.
 
 ### Examples with Solutions
--------------------------
+---------------------------
 
-#### Example 1: Thread Synchronization
+#### Example 1: Fork-Exec Pattern
 
-Suppose we have two threads, `T1` and `T2`, that need to access a shared variable `x`. We want to ensure that only one thread can modify `x` at a time. How can we achieve this using synchronization primitives?
+Suppose we have two processes, P0 and P1:
 
-**Solution**
+*   P0 forks P1 and then executes `ls -l`.
+*   P1 executes `mkdir test`.
 
-We can use a mutex lock to synchronize access to the shared variable `x`.
-
-```mermaid
-graph LR
-T1[Thread 1] -->|Lock x| M[Mutex Lock]
-M -->|Unlock x| T2[Thread 2]
+```c
+int main() {
+    pid_t pid;
+    // fork a new process
+    pid = fork();
+    
+    if (pid == 0) {  // child process
+        execl("/bin/ls", "ls", "-l", NULL);
+    } else {          // parent process
+        // wait for the child to finish
+        wait(NULL);
+        
+        // create a new directory
+        execl("/bin/mkdir", "mkdir", "test", NULL);
+    }
+    
+    return 0;
+}
 ```
 
-#### Example 2: Deadlock Detection
+#### Example 2: Pipe Pattern
 
-Suppose we have a system with four processes and two resources. We want to determine whether the system is deadlock-free.
+Suppose we have two processes, P0 and P1:
 
-**Solution**
+*   P0 writes to a pipe, while P1 reads from the same pipe.
 
-We can use the Banker's Algorithm to detect deadlocks.
-
-```mermaid
-graph LR
-P1[Process 1] -->|Request R1, R2| B[Banker's Algorithm]
-B -->|Grant R1, R2| P2[Process 2]
+```c
+int main() {
+    int pipefd[2];
+    char buffer[100];
+    
+    // create a new pipe
+    if (pipe(pipefd) == -1) {
+        perror("pipe");
+        exit(EXIT_FAILURE);
+    }
+    
+    pid_t pid = fork();
+    
+    if (pid == 0) {  // child process
+        close(pipefd[0]);  // close reading end
+        
+        // write to the pipe
+        write(pipefd[1], "Hello, World!", 13);
+        
+        close(pipefd[1]);  // close writing end
+    } else {          // parent process
+        close(pipefd[1]);  // close writing end
+        
+        // read from the pipe
+        read(pipefd[0], buffer, 100);
+        
+        printf("%s\n", buffer);
+        
+        close(pipefd[0]);  // close reading end
+    }
+    
+    return 0;
+}
 ```
 
 ### Common Pitfalls
-------------------
+--------------------
 
-*   Failing to synchronize access to shared resources.
-*   Deadlock detection algorithms are not implemented correctly.
+*   **Incorrect Use of Synchronization Primitives**: Ensure proper usage and initialization of synchronization primitives to avoid deadlocks or other concurrency issues.
+*   **Insufficient Error Handling**: Always handle errors properly when working with system calls or IPC mechanisms.
 
 ### Quick Summary
 ---------------
 
-*   Threads share the same memory space as other threads within a process.
-*   Synchronization primitives (mutex locks, semaphores) control access to shared resources.
-*   Deadlock detection and avoidance techniques prevent deadlocks in systems with multiple processes and resources.
+*   Process scheduling algorithms: FCFS, SJF, Priority Scheduling
+*   Synchronization primitives: Monitors, Semaphores
+*   Inter-process communication methods: Message Passing, Shared Memory

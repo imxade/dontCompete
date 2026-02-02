@@ -1,93 +1,108 @@
-# System Analysis: Signals
+**System Analysis: Signal Topic**
 =====================================
 
-## Introduction
+**Introduction**
 ---------------
 
-In signal analysis, we study how a system transforms input signals into output signals. This topic is crucial for understanding and designing systems that process information. The relationship between input and output signals can be linear or nonlinear, time-variant or time-invariant, causal or non-causal.
+In this topic, we will delve into the fundamental concepts of signals and systems, specifically focusing on linearity and time-invariance. A system's behavior can be described using these properties, which are essential for understanding how a system responds to an input signal.
 
-## Core Concepts
+**Core Concepts**
 -----------------
 
 ### Linearity
 
-A system is said to be **linear** if the following properties hold:
+A system is said to be **linear** if its output response to a linear combination of inputs is equal to the same linear combination of individual responses. In other words:
 
-1. **Homogeneity**: $y(t) = k \cdot x(t)$, where $k$ is a constant.
-2. **Additivity**: $y(t) = x_1(t) + x_2(t)$.
+Given two input signals x(t) and y(t), a system is linear if:
 
-These properties imply that the output signal can be scaled and added separately from the input signals.
+$$y(t) = Ax_1(t) + By_2(t) \iff y(t) = A\hat{y}_1(t) + B\hat{y}_2(t)$$
 
-### Time-Invariance
+where $\hat{y}$ represents the output of the system for each individual input.
 
-A system is said to be **time-invariant** if its behavior does not change over time. In other words, if we delay the input signal by $t_0$, the delayed output will also be shifted by $t_0$. Mathematically:
-
-$$y(t) = y(t - t_0) \cdot x(t - t_0).$$
-
-### Causality
-
-A system is said to be **causal** if its output at time $t$ depends only on the input signals up to that point. In other words, the system cannot "look into the future".
-
-## Key Formulas/Theorems
--------------------------
-
-The given source question involves the convolution integral:
-
-$$y(t) = \int_{-\infty}^{\infty} x(\tau) h(t - \tau) d\tau,$$
-
-where $h(t)$ is the impulse response of the system.
-
-For a linear and time-invariant (LTI) system, the output can be represented using the Fourier transform:
-
-$$Y(f) = H(f) X(f),$$
-
-where $H(f)$ is the frequency response of the system.
-
-## Problem Solving Patterns
----------------------------
-
-1. **Identify linearity**: Check if the properties of homogeneity and additivity hold.
-2. **Check time-invariance**: Verify that the output can be shifted in time without affecting its behavior.
-3. **Causality check**: Ensure that the output at a given time depends only on input signals up to that point.
-
-## Examples with Solutions
----------------------------
-
-**Example 1:**
-
-Given $y(t) = (t - 2)^2 x(t)$, determine if the system is linear and time-invariant.
-
-Solution:
-The system satisfies homogeneity, as we can scale the input signal by a constant. However, it does not satisfy additivity, as $(t-2)^2 (x_1(t) + x_2(t)) \neq (t-2)^2 x_1(t) + (t-2)^2 x_2(t)$. Therefore, the system is nonlinear.
-
-**Example 2:**
-
-Given $y(t) = e^{-at} u(t)$ and $x(t) = e^{bt} u(-t)$, find the output signal using the convolution integral.
-
-Solution:
-The impulse response of the system is $h(t) = e^{-at} u(t)$. Using the convolution integral:
-
-$$y(t) = \int_{-\infty}^{\infty} x(\tau) h(t - \tau) d\tau.$$
-
-Substituting $x(\tau)$ and $h(t - \tau)$, we get:
-
-$$y(t) = e^{-at} \int_{-\infty}^{t} e^{-b(-\tau)} e^{-a(t - \tau)} d\tau.$$
-
-Simplifying the integral, we get:
-
-$$y(t) = e^{-at} e^{\frac{ab}{2}} \left[1 - \text{erf}\left(\frac{t - \frac{a}{b}}{\sqrt{\frac{2}{b^2 a}}}\right)\right].$$
-
-## Common Pitfalls
+**Time-Invariance**
 -------------------
 
-*   Failing to check linearity and time-invariance explicitly.
-*   Not recognizing that causality is not necessarily related to time-invariance.
+A system is **time-invariant** if a time shift in the input signal results in an identical time shift in the output signal. Mathematically, this can be expressed as:
 
-## Quick Summary
+Given an input signal x(t) and its shifted version $x(t-\tau)$, a system is time-invariant if:
+
+$$y(t) = x(t) \iff y(t-\tau) = x(t-\tau)$$
+
+**Key Formulas/Theorems**
+-------------------------
+
+### Convolution Integral
+
+For a linear time-invariant (LTI) system, the output y(t) can be expressed as the convolution of the input signal x(t) with the impulse response h(t):
+
+$$y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau$$
+
+### Fourier Transform
+
+The Fourier transform is a crucial tool for analyzing signals and systems. The inverse Fourier transform can be used to find the original signal from its frequency domain representation:
+
+$$x(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)e^{j\omega t}d\omega$$
+
+**Problem Solving Patterns**
+---------------------------
+
+When faced with a system analysis question, follow these steps:
+
+1.  Determine whether the system is linear and/or time-invariant based on the given information.
+2.  Use the convolution integral formula to relate the input signal x(t) to the output signal y(t).
+3.  Apply the Fourier transform to analyze the frequency domain behavior of the signals.
+
+**Examples with Solutions**
+---------------------------
+
+### Example: Linearity
+
+Suppose we have a system that is linear, and its input-output relationship can be described as:
+
+$$y(t) = x^2(t) + x(t)$$
+
+If we apply two input signals, $x_1(t)$ and $x_2(t)$, to the system, what will be the output?
+
+Solution:
+
+Since the system is linear, we can write:
+
+$$y(t) = A\hat{y}_1(t) + B\hat{y}_2(t) \iff y(t) = Ax_1^2(t) + Ax_1(t) + Bx_2^2(t) + Bx_2(t)$$
+
+This shows that the system's output is a linear combination of the individual outputs for each input signal.
+
+### Example: Time-Invariance
+
+Consider an LTI system with an impulse response h(t). If we apply a time-shifted version of the input signal $x(t-\tau)$ to the system, what will be the resulting output?
+
+Solution:
+
+Since the system is time-invariant, we can write:
+
+$$y(t) = x(t) \iff y(t-\tau) = x(t-\tau)$$
+
+This demonstrates that a time shift in the input signal results in an identical time shift in the output signal.
+
+**Common Pitfalls**
+-------------------
+
+When working with signals and systems, be cautious of the following common pitfalls:
+
+*   Assuming linearity without explicit verification
+*   Failing to recognize time-invariance
+*   Misapplying the Fourier transform
+
+**Quick Summary**
 -----------------
 
-*   Linearity: Homogeneity and additivity properties.
-*   Time-Invariance: Shift invariance of the output signal.
-*   Causality: Output depends only on input signals up to a given point.
+*   Linearity: A system is linear if its output response to a linear combination of inputs is equal to the same linear combination of individual responses.
+*   Time-Invariance: A system is time-invariant if a time shift in the input signal results in an identical time shift in the output signal.
+*   Convolution Integral: For an LTI system, the output y(t) can be expressed as the convolution of the input signal x(t) with the impulse response h(t).
+*   Fourier Transform: The inverse Fourier transform can be used to find the original signal from its frequency domain representation.
 
-This comprehensive theory note covers all theoretical concepts, formulas, and insights required to solve questions related to system analysis, specifically signals. The provided examples demonstrate how to apply these concepts to specific problems.
+### References
+
+*   Signals and Systems by Oppenheim and Willsky (2nd ed.)
+*   Discrete-Time Signal Processing by Oppenheim and Schafer (3rd ed.)
+
+Note that this theory note is based on the provided source questions and may not cover all aspects of signals and systems. However, it should provide a solid foundation for understanding linearity and time-invariance in system analysis.

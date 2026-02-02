@@ -1,74 +1,71 @@
 **Memory Management**
-=====================
+====================
 
 ### Introduction
-Memory management is a critical component of an operating system (OS) that handles the allocation, deallocation, and management of memory spaces for running programs. It ensures efficient use of physical memory, preventing memory-related issues such as starvation or deadlocks.
+
+Memory management is a crucial aspect of operating system design, responsible for allocating and deallocating memory resources to programs as they run. Effective memory management enables efficient use of system resources, improves program performance, and prevents errors.
 
 ### Core Concepts
 
-#### Memory Hierarchy
-The memory hierarchy consists of:
+#### Demand Paging
 
-* **Registers**: Small, high-speed memory stores within the CPU.
-* **Cache**: A smaller, faster memory layer that caches frequently accessed data from main memory.
-* **Main Memory (RAM)**: Primary storage for programs and data, where instructions are executed.
-* **Disk Storage**: Secondary storage for programs, data, and operating system files.
+Demand paging is a memory management technique that allocates pages of memory only when needed by the program. This approach reduces the amount of memory required for running multiple programs simultaneously.
 
-#### Virtual Memory
-Virtual memory extends the physical memory by utilizing disk space to store pages of memory that are not currently in use. It provides a large address space, allowing multiple processes to run concurrently without conflicts.
+#### Page Replacement Policies
+
+Page replacement policies determine which page to replace when a new page needs to be allocated. Common policies include:
+
+* **LRU (Least Recently Used)**: replaces the page that has not been accessed recently.
+* **FIFO (First-In-First-Out)**: replaces the oldest page in memory.
+
+#### Page Fault Rate
+
+The page fault rate is the ratio of the number of page faults to the total number of memory accesses. It's a measure of how often the system needs to retrieve pages from secondary storage, indicating potential performance bottlenecks.
 
 ### Key Formulas/Theorems
 
-* **Page Fault Rate**: The rate at which page faults occur, which can be calculated using the formula: $\frac{Page Faults}{Total Instructions}$
-* **Cache Hit Ratio**: A measure of cache efficiency, calculated as: $Cache\ Hit\ Ratio = \frac{Cache\ Hits}{Cache\ References}$
+There are no specific formulas or theorems for this topic, but we'll use the following mathematical representation:
+
+* **Page fault rate (PFR)**: $\frac{\text{number of page faults}}{\text{total number of memory accesses}}$
 
 ### Problem Solving Patterns
 
-1.  **Paging-Based Memory Management**:
-    *   Analyze the page table structure and access rights.
-    *   Determine the memory address translation (MAT) process.
-2.  **Memory Protection**: Identify mechanisms for preventing unauthorized access, such as segmentation or paging.
+When solving problems related to demand paging and page replacement policies:
+
+1. Identify the type of page replacement policy used.
+2. Calculate the number of page faults using the given page reference string.
+3. Divide the number of page faults by the total number of memory accesses to obtain the page fault rate.
 
 ### Examples with Solutions
 
-#### Example: Page Table Access
-Suppose we have a process accessing virtual addresses in a paging-based system. The page table structure is:
+**Example 1:**
 
-| Virtual Address | Physical Frame Number |
+Suppose we have a demand paging system with four page frames and an LRU page replacement policy. The page reference string is: `7, 2, 7, 3, 2, 5, 3, 4, 6, 7, 7, 1, 5, 6, 1`
+
+Using the LRU policy, we can simulate the memory allocation process:
+
+| Page Frames | Page Faults |
 | --- | --- |
-| 0x1000 | 1 |
-| 0x2000 | 2 |
+| `None` | `0` |
+| `{7}` | `1` (page fault) |
+| `{2, 7}` | `2` (page fault) |
+| `{3, 2, 7}` | `3` (page fault) |
+| `{5, 3, 2, 7}` | `4` (page fault) |
+| `{4, 6, 5, 3, 2, 7}` | `5` (page fault) |
+| `{1, 4, 6, 5, 3, 2, 7}` | `6` (page fault) |
+| `{6, 1, 4, 5, 3, 2, 7}` | `7` (page fault) |
 
-Given the virtual address 0x3000, determine the corresponding physical frame number.
+The total number of memory accesses is `15`. The number of page faults is `7`.
 
-```mermaid
-graph LR
-    A[Virtual Address: 0x3000] --> B[Page Table]
-    B --> C[Search Page Table]
-    C --> D[Physical Frame Number: 3]
-```
-
-Solution:
-
-1.  The virtual address 0x3000 is divided into page offset and page number.
-2.  The page number is used to access the page table, which yields a physical frame number of 3.
-
-#### Example: Cache Efficiency
-Suppose we have a cache with a hit ratio of 80% and an average cache reference time of 20 nanoseconds (ns). Calculate the effective memory access time using the formula:
-
-$Effective\ Memory\ Access\ Time = \frac{1}{Hit\ Ratio} \times Cache\ Reference\ Time$
-
-```latex
-Effective Memory Access Time &= \frac{1}{0.8} \times 20 ns \\
-&= 25 ns
-```
+**Solution:** Page fault rate = $\frac{7}{15} \approx 0.467$
 
 ### Common Pitfalls
 
-*   Failing to consider the cache hierarchy and its impact on performance.
-*   Misunderstanding the difference between paging and segmentation.
+* Failing to identify the correct page replacement policy used in the problem.
+* Miscounting the number of page faults or memory accesses.
 
 ### Quick Summary
-*   Memory management is crucial for efficient resource allocation in operating systems.
-*   Virtual memory extends physical memory by utilizing disk space.
-*   Key concepts include page fault rate, cache hit ratio, and memory protection mechanisms.
+
+* Demand paging allocates pages only when needed.
+* Page replacement policies (LRU, FIFO) determine which page to replace.
+* Page fault rate measures system performance, indicating potential bottlenecks.

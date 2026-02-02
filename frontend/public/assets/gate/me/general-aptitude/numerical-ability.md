@@ -1,106 +1,60 @@
-**Numerical Ability (General Aptitude)**
-=====================================
+# Numerical Ability: General Aptitude
+## Introduction
+Numerical Ability (NA) section of GATE CS exam tests the candidate's problem-solving skills and ability to apply mathematical concepts to solve real-world problems. This note focuses on one of the previous year questions related to Production Engineering, specifically Orthogonal Cutting Operation.
 
-**Introduction**
----------------
+## Core Concepts
+In an orthogonal cutting operation, a single-point cutting tool is used to remove material from a workpiece. The cutting force and friction force are acting on the chip, which causes deformation and shear stress in the material. The rake angle of the cutting tool affects the shear plane and hence the cutting forces.
 
-Numerical Ability in GATE CS exam tests your problem-solving skills under time pressure. It involves solving problems that require logical reasoning, pattern recognition, and mathematical calculations. In this theory note, we'll cover the key concepts, formulas, and techniques required to tackle numerical ability questions.
+### Shear Force and Friction
+The shear force $F_s$ can be calculated using the following formula:
 
-**Core Concepts**
------------------
+$$ F_s = \frac{F_c}{\sin(\phi)} $$
 
-### 1. Functions
+where $F_c$ is the cutting force, $\phi$ is the friction angle, which is related to the rake angle $\alpha$ by:
 
-*   A function is a relation between a set of inputs (called the domain) and a set of possible outputs (called the range).
-*   It's denoted by `f(x)` or `g(x)`, where `x` represents the input.
+$$ \tan(\phi) = \cot(\alpha) $$
 
-**Key Formulas/Theorems**
--------------------------
+## Key Formulas/Theorems
+- Cutting Force: $F_c = F_{\text{normal}} + F_{\text{tangential}}$
+- Shear Force: $F_s = \frac{F_c}{\sin(\phi)}$
 
-### 1. Composition of Functions
+## Problem Solving Patterns
+1. Identify the type of cutting tool used (single-point or multi-point).
+2. Calculate the friction angle $\phi$ from the given rake angle $\alpha$.
+3. Determine the cutting force $F_c$ and its components.
+4. Apply the formula for shear force using the calculated values.
 
-Given two functions `f(x)` and `g(x)`, the composition is defined as:
+## Examples with Solutions
 
-`f(g(x)) = f(u)`
+### Example 1: Given
+- Rake angle, $\alpha = 12^{\circ}$
+- Cutting Force, $F_c = 1000 N$
+- Friction Force, $F_f = 600 N$
+- Chip Thickness, $t_c = 1.5 mm$
+- Uncut Chip Thickness, $t_{\text{uncut}} = 0.75 mm$
 
-where `u = g(x)`
+### Solution
+First, calculate the friction angle:
 
-### 2. Multiplication of Functions
+$$ \tan(\phi) = \cot(12^{\circ}) $$
 
-For non-negative integers `p` and `q`,
+Using a calculator or trigonometric table, we find $\tan(\phi)$ and then solve for $\phi$.
 
-`f(p,q) = ∑[f(q,p)]up to terms`
+Next, calculate the shear force using the formula:
 
-`g(p,q) = ∏[g(q,p)]up to terms`
+$$ F_s = \frac{F_c}{\sin(\phi)} $$
 
-**Problem Solving Patterns**
----------------------------
+Substitute the given values and round off to two decimal places as instructed.
 
-### 1. Composition of Functions
+## Common Pitfalls
+- Students often confuse the cutting force with friction force or vice versa.
+- Failure to correctly calculate the friction angle from the rake angle can lead to incorrect shear forces.
 
-*   When evaluating `f(g(x))`, focus on identifying the inner function first.
-*   Apply the outer function to the result.
+## Quick Summary
 
-**Examples with Solutions**
--------------------------
+*   Understand the concept of orthogonal cutting operation and its key parameters (rake angle, cutting force, friction force).
+*   Calculate the friction angle using the rake angle.
+*   Apply the formula for shear force using the calculated values.
+*   Be cautious with the units and rounding off instructions.
 
-### 1. Example 1:
-
-`f(p,q) = p^2 + q^2`
-`g(p,q) = pq`
-
-Find `f(g(2,3))`.
-
-```mermaid
-graph LR
-A[Start] --> B[f(g(2,3))]
-B --> C[pq]
-C --> D[= 2*3 = 6]
-D --> E[p^2+q^2]
-E --> F[= 4 + 9]
-F --> G[=13]
-```
-
-`f(g(2,3)) = 4 + 9 = 13`
-
-### 2. Example 2:
-
-`f(p,q) = pq`
-`g(p,q) = p^2 + q^2`
-
-Find `f(g(1,2)).`
-
-```mermaid
-graph LR
-A[Start] --> B[f(g(1,2))]
-B --> C[pq]
-C --> D[= 1*2 = 2]
-D --> E[p^2+q^2]
-E --> F[= 1 + 4]
-F --> G[=5]
-```
-
-`f(g(1,2)) = 5`
-
-**Common Pitfalls**
--------------------
-
-### 1. Incorrect Composition
-
-*   Make sure to identify the inner function correctly.
-*   Apply the outer function to the result.
-
-### 2. Missing Terms
-
-*   Double-check for missing terms in the summation or product.
-
-**Quick Summary**
------------------
-
-| Concept | Description |
-| --- | --- |
-| Functions | Relation between inputs and outputs |
-| Composition of Functions | `f(g(x)) = f(u)` where `u = g(x)` |
-| Multiplication of Functions | `f(p,q) = ∑[f(q,p)]up to terms` |
-
-Note: This is a high-yield theory note covering the key concepts, formulas, and techniques required to tackle numerical ability questions. It's essential to practice problems regularly to reinforce your understanding and develop problem-solving skills under time pressure.
+This comprehensive note should equip you to tackle similar questions in the future.

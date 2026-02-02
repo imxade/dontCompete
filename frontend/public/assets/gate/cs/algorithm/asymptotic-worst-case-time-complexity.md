@@ -1,112 +1,98 @@
-**Asymptotic Worst-Case Time Complexity**
+**Asymptotic Worst Case Time Complexity**
 =====================================
 
-**Introduction**
----------------
+### Introduction
+Asymptotic worst-case time complexity refers to the upper bound on the number of steps an algorithm takes to complete, measured as a function of the input size. This concept is crucial in analyzing algorithms' performance and predicting their scalability.
 
-Asymptotic worst-case time complexity is a measure of an algorithm's performance as the input size increases. It provides an upper bound on the number of steps an algorithm takes to complete, regardless of the input data. This concept is crucial in computer science for evaluating and comparing algorithms' efficiency.
+### Core Concepts
 
-**Core Concepts**
-----------------
+#### Recurrence Relations
+A recurrence relation is a way of defining a sequence by specifying how each term depends on previous terms. In the context of time complexity analysis, we use recurrence relations to express the running time of an algorithm as a function of the input size.
 
-### Big O Notation
+#### Asymptotic Notation
+Asymptotic notation provides a way to describe the growth rate of functions. The three main types of asymptotic notation are:
 
-Big O notation represents the worst-case time complexity of an algorithm. It gives an upper bound on the number of steps an algorithm takes as the input size increases. The time complexity is usually expressed as a function of the input size, typically denoted by `n`.
+* O (Big Oh): An upper bound on the number of steps.
+* Ω (Big Omega): A lower bound on the number of steps.
+* Θ (Theta): Both an upper and lower bound on the number of steps.
 
-### Time Complexity Classes
+#### Master Theorem
+The Master Theorem is a powerful tool for solving recurrence relations. It provides a general solution to a wide range of problems and is based on three parameters:
 
-*   **O(1)**: Constant time complexity. The algorithm takes the same amount of time regardless of the input size.
-*   **O(log n)**: Logarithmic time complexity. The number of steps grows logarithmically with the input size.
-*   **O(n)**: Linear time complexity. The number of steps is directly proportional to the input size.
-*   **O(n log n)**: Linearithmic time complexity. The number of steps is a product of linear and logarithmic functions of the input size.
-*   **O(n^2)**: Quadratic time complexity. The number of steps grows quadratically with the input size.
+* $a$ : The ratio of the new problem size to the old one.
+* $b$ : The cost of solving sub-problems.
+* $d$ : The number of sub-problems.
 
-### Example Time Complexities
+The Master Theorem states that if we have a recurrence relation of the form:
+$$T(n) = a \cdot T\left(\frac{n}{b}\right) + d$$
+then:
 
-| Algorithm | Time Complexity |
-| --- | --- |
-| Searching an array by linearly scanning each element | O(n) |
-| Merging two sorted arrays using a simple iterative approach | O(n^2) |
+* If $a > 1$, $T(n) = \Theta(n^{\log_b a})$
+* If $a < 1$ and $d=o(a^k)$, $T(n) = O(n^{\log_b a})$
 
-**Key Formulas/Theorems**
-------------------------
-
-*   **Master Theorem**: A mathematical tool for solving recurrence relations and estimating time complexities.
-    \[T(n) = \begin{cases}
-        T\left(\frac{n}{b}\right) + a & b > 1 \\
-        T(n) + f(n) & a \geq n^{\log_b d} \\
-        O(f(n)) & a < n^{\log_b d}
-    \end{cases}\]
-
-**Problem Solving Patterns**
----------------------------
-
-*   **Divide and Conquer**: Break down the problem into smaller sub-problems, solve each recursively, and combine the results.
-*   **Greedy Algorithms**: Make locally optimal choices to achieve a globally optimal solution.
-
-### Example: Tiling Problem
-
-Suppose you have `n` tiles of size 1x1 and want to cover a rectangular region of size `m x n`. Use a greedy algorithm to minimize the number of tiles used:
-
-1.  Start by covering the leftmost column with `m` tiles.
-2.  Move to the next column and fill any gaps from the previous column.
-3.  Repeat this process until all columns are covered.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Finding an Element in a Sorted Array
-
-*   **Algorithm**: Linear search
-*   **Time Complexity**: O(n)
-*   **Analysis**:
-
-Suppose you have an array of `n` elements sorted in ascending order and want to find the position of a given element. Use linear search:
-
-```mermaid
-graph LR
-    A[Start] --> B[Check first element]
-    C[Not found] --> D[Continue searching]
-    E[Found] --> F[Return position]
+```math
+\begin{aligned}
+\text{Master Theorem} &: T(n) = a \cdot T\left(\frac{n}{b}\right) + d \\
+&= 
+\begin{cases}
+\Theta(n^{\log_b a}), & \text{if }a > 1 \\
+O(n^{\log_b a}), & \text{if }a < 1 \land d=o(a^k)
+\end{cases} \\
+\end{aligned}
 ```
 
-**Solution**
+### Key Formulas/Theorems
 
-*   Initialize two pointers, `i` and `j`, to the start and end of the array, respectively.
-*   Move `i` towards `j` until the element is found or `i > j`.
+#### Master Theorem (Recurrence Relation)
 
-### Example 2: Tiling Problem
-
-*   **Algorithm**: Greedy algorithm
-*   **Time Complexity**: O(n^2)
-
-Use a greedy approach to minimize the number of tiles used:
-
-```mermaid
-graph LR
-    A[Start] --> B[Cover leftmost column]
-    C[Fill gaps from previous column] --> D[Continue covering columns]
-    E[Finish] --> F[Return minimum tiles used]
+```math
+T(n) = 
+\begin{cases}
+O(1), & \text{if } f(n)=c \\
+O(\log n), & \text{if } f(n)=cn^{\alpha}\log^\beta n \\
+O(n^\gamma), & \text{if } f(n)=cn^\alpha\log^\beta n
+\end{cases}
 ```
 
-**Solution**
+### Problem Solving Patterns
 
-*   Initialize an empty array to store the positions of the tiles.
-*   Cover each column greedily by placing the next tile in the available space.
+* Identify the recurrence relation and apply the Master Theorem.
+* Determine the constants $a$, $b$, and $d$ from the problem statement.
+* Use the parameters to determine the time complexity.
 
-**Common Pitfalls**
------------------
+### Examples with Solutions
 
-*   **Incorrectly counting operations**: When analyzing time complexity, make sure to count only the essential operations and avoid over-counting.
-*   **Misapplying Master Theorem**: Be careful when applying the Master Theorem to ensure that it is correctly used for solving recurrence relations.
+**Example 1:**
+Consider the following recurrence relation:
+$$T(n) = 2 \cdot T\left(\frac{n}{2}\right) + n$$
+Apply the Master Theorem:
 
-**Quick Summary**
-----------------
+```math
+a=2, b=2, d=n \\
+\log_b a=\log_2 2=1 \\
+\text{Since }a>1, T(n)=\Theta(n^{\log_b a})=\Theta(n)
+```
 
-| Concept | Definition |
-| --- | --- |
-| Big O Notation | Worst-case time complexity of an algorithm |
-| Time Complexity Classes | O(1), O(log n), O(n), O(n log n), O(n^2) |
-| Master Theorem | A mathematical tool for solving recurrence relations |
+**Example 2:**
+Consider the following recurrence relation:
+$$T(n) = 3 \cdot T\left(\frac{n}{4}\right) + n$$
+Apply the Master Theorem:
 
-This comprehensive theory note covers all the essential concepts, formulas, and problem-solving patterns required to tackle questions on asymptotic worst-case time complexity. By mastering these topics, you'll be well-prepared to tackle similar future questions and excel in your exam!
+```math
+a=3, b=4, d=n \\
+\log_b a=\log_4 3<1 \\
+\text{Since }d=o(a^k), T(n)=O(n^{\log_b a})=O(n)
+```
+
+### Common Pitfalls
+
+* Misidentifying the recurrence relation or the constants.
+* Failing to apply the Master Theorem correctly.
+
+### Quick Summary
+* Asymptotic worst-case time complexity is essential in analyzing algorithms' performance.
+* Recurrence relations and asymptotic notation are crucial concepts.
+* The Master Theorem provides a general solution for solving recurrence relations.
+* Apply the Master Theorem by identifying the constants $a$, $b$, and $d$.
+
+This note covers all theoretical concepts, formulas, and insights required to solve the source questions. Practice problems and more examples will help reinforce understanding of these concepts.

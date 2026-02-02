@@ -1,88 +1,74 @@
 **Random Variable**
-=====================
-
+====================
 ### Introduction
-
-A random variable (RV) is a function that assigns real values to outcomes of a random experiment. It's a fundamental concept in probability and statistics, enabling us to quantify uncertainty and make predictions.
+A random variable is a mathematical representation of a set of possible values that a random event can take on. In probability and statistics, it's essential to understand random variables as they form the foundation for modeling real-world phenomena.
 
 ### Core Concepts
+#### Types of Random Variables
+There are two types:
 
-#### Definition of Random Variable
+*   **Discrete Random Variable**: A variable that takes on distinct, countable values.
+*   **Continuous Random Variable**: A variable that can take any value within a given range or interval.
 
-A random variable X is defined as a function:
-
-$$X: \Omega \to \mathbb{R}$$
-
-where $\Omega$ is the sample space of the random experiment.
-
-#### Probability Density Function (PDF)
-
-Given an RV X, its probability density function (PDF) f(x) satisfies:
-
-1. $f(x) \geq 0$, ∀x ∈ ℝ
-2. $\int_{-\infty}^{\infty} f(x) dx = 1$
-
-The PDF represents the relative likelihood of observing a value within a given interval.
-
-#### Cumulative Distribution Function (CDF)
-
-The cumulative distribution function (CDF) F(x) is defined as:
-
-$$F(x) = P(X \leq x) = \int_{-\infty}^{x} f(t) dt$$
+#### Probability Distribution Functions (PDF)
+A PDF is a mathematical function used to describe the probability distribution of a random variable. For discrete variables, it's denoted as P(X = x) and for continuous variables, it's denoted as f(x).
 
 ### Key Formulas/Theorems
 
-* **Expected Value**: $\mathbb{E}[X] = \int_{-\infty}^{\infty} xf(x) dx$
-* **Variance**: $\text{Var}(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]$
+**Uniform Distribution**
+A uniform distribution is a special case where every value within a given range has an equal probability.
+
+$$f(x) = \begin{cases}
+\frac{1}{b-a} & \text{if }a \leq x \leq b \\
+0 & \text{otherwise}
+\end{cases}$$
+
+**Expected Value (E(X))**
+The expected value of a random variable is the long-run average value it's expected to take.
+
+$$E(X) = \int_{-\infty}^{\infty} xf(x)dx$$
 
 ### Problem Solving Patterns
+When dealing with continuous uniform distributions, we often need to find probabilities or values within specific ranges. The following pattern can be useful:
 
-#### Using the PDF to Calculate Probabilities
-
-To find $P(a < X < b)$, integrate the PDF over the interval [a, b]:
-
-$$P(a < X < b) = \int_{a}^{b} f(x) dx$$
-
-#### Example 1: Finding the Probability of a Random Variable Exceeding a Value
-
-Given the PDF $f(x) = e^{-x}$ for $x \geq 0$, find $P(X > 2)$:
-
-```latex
-\int_{2}^{\infty} e^{-x} dx = -e^{-x} \Big|_2^{\infty} = e^{-2}
-```
+1.  **Identify the type of distribution**: Uniform in this case.
+2.  **Determine the range**: Given as (a, b) for X and (c, d) for Y.
+3.  **Apply the formula**: Use the uniform distribution PDF to calculate probabilities.
 
 ### Examples with Solutions
 
-#### Example 1: Given the PDF, Find the Probability of a Random Variable Exceeding a Value
+#### Q1 Solution
+Given X ~ U(2,3) and Y ~ U(1,4), find P(Y < X).
 
-**Problem:** Find $P(X > 2)$ given the PDF $f(x) = e^{-x}$ for $x \geq 0$.
+Using the uniform distribution PDF, we can rewrite this as:
 
-**Solution:**
+P(Y < X) = ∫[1, 4] (1/3 - 1/2) dy
 
-```latex
-\int_{2}^{\infty} e^{-x} dx = -e^{-x} \Big|_2^{\infty} = e^{-2}
-```
+= (1/6) \* (4 - 1)
+
+= 0.5
+
+#### Example: 
+Suppose X ~ U(0,10), find E(X).
+
+Using the uniform distribution PDF:
+
+E(X) = ∫[0,10] x \* (1/10) dx
+
+= (1/20) \* [x^2] from 0 to 10
+
+= (1/20) \* (100 - 0)
+
+= 5
 
 ### Common Pitfalls
+When working with continuous distributions:
 
-* Misapplying the PDF to calculate probabilities.
-* Forgetting to consider the domain of the RV when calculating expectations.
+*   **Avoid confusion between discrete and continuous variables**.
+*   **Use the correct PDF or CDF for each variable**.
 
 ### Quick Summary
-
-* Random variables are functions assigning real values to outcomes of a random experiment.
-* The probability density function (PDF) represents the relative likelihood of observing a value within a given interval.
-* Use the PDF to calculate probabilities and expectations.
-* Be mindful of the domain of the RV when applying these concepts.
-
-**Visuals**
-
-The concept of a random variable can be represented as:
-
-```mermaid
-graph LR
-    A[Random Experiment] --> B[Sample Space]
-    C[Random Variable] --> D[Real Values]
-```
-
-This diagram illustrates how a random variable is defined as a function from the sample space to real values.
+\*   **Random Variable**: Mathematical representation of possible values for a random event
+\*   **Discrete vs Continuous**: Discrete takes distinct, countable values; Continuous can take any value within a range
+\*   **Probability Distribution Function (PDF)**: Describes probability distribution of a variable
+\*   **Uniform Distribution**: Every value has equal probability within a given range

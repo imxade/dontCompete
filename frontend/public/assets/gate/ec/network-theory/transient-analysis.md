@@ -1,144 +1,96 @@
-# Transient Analysis Theory Note
-=====================================================
+# Transient Analysis
+=====================
 
 ## Introduction
------------------
+---------------
 
-Transient analysis in network theory deals with the study of the behavior of a circuit during a short period of time, typically when a switch is closed or opened. This type of analysis is essential to understand how the circuit responds to changes in its operating conditions.
+Transient analysis is a crucial aspect of network theory that deals with the behavior of electrical networks when they are subjected to sudden changes, such as closing or opening switches. This concept is essential in understanding how circuits behave during transient periods.
 
 ## Core Concepts
 -----------------
 
-### 1. Initial Conditions
-
-The initial condition of a circuit refers to the state of the circuit at the instant when a switch is closed or opened. For transient analysis, we need to consider the initial voltage and current conditions across each component.
-
-### 2. State Variables
-
-State variables are used to describe the internal behavior of a circuit. In the context of transient analysis, state variables typically include capacitor voltages and inductor currents.
-
-### 3. Kirchhoff's Laws
-
-Kirchhoff's laws, specifically the voltage law (KVL) and current law (KCL), play a crucial role in transient analysis. We use these laws to derive equations that describe the behavior of the circuit over time.
+*   **Homogeneous and Non-Homogeneous Equations**: Transient analysis involves solving differential equations, which can be either homogeneous (when the coefficients are functions of x) or non-homogeneous (when the right-hand side is a function of x).
+*   **Auxiliary Equation**: The auxiliary equation is obtained by substituting $y=e^{\lambda x}$ into the differential equation. It determines the nature of the solution.
+*   **Routh-Hurwitz Criterion**: This criterion helps in determining the stability of networks.
 
 ## Key Formulas/Theorems
 -------------------------
 
-### 1. Laplace Transform
+### RLC Circuits
 
-The Laplace transform is a powerful tool for analyzing circuits during transients. It transforms the differential equation describing the circuit into an algebraic equation, making it easier to solve.
+The general solution for an RLC circuit is given by:
 
-$$\mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t) dt$$
+$$
+V(t) = V(0)e^{-\frac{t}{T}}
+$$
 
-### 2. Impedance
+where $T$ is the time constant, and $V(0)$ is the initial voltage.
 
-Impedance is a measure of how much a component resists the flow of current. In transient analysis, impedance is crucial for understanding how voltage and current waveforms change over time.
+### Transient Response of a Series RLC Circuit
+
+For a series RLC circuit, the transient response can be represented as:
+
+$$
+V(t) = V_{max}e^{-\frac{t}{T}} \sin(\omega t + \phi)
+$$
+
+where $V_{max}$ is the maximum voltage, $\omega$ is the angular frequency, and $\phi$ is the phase angle.
 
 ## Problem Solving Patterns
 ---------------------------
 
-When solving transient analysis problems, follow these steps:
+### Step 1: Identify the Type of Equation
 
-1.  Identify the initial conditions and state variables.
-2.  Apply Kirchhoff's laws to derive equations describing the circuit behavior.
-3.  Use the Laplace transform to solve for the voltage and current waveforms.
+*   Determine whether the differential equation is homogeneous or non-homogeneous.
+*   If it's homogeneous, use the auxiliary equation to find the nature of the solution.
 
-### Example: Transient Analysis of a Circuit with Capacitor and Resistor
+### Step 2: Solve for the Auxiliary Equation
 
-Let's consider the following circuit:
+*   Substitute $y=e^{\lambda x}$ into the differential equation.
+*   Obtain the auxiliary equation in the form:
+    $$a_n\lambda^n + a_{n-1}\lambda^{n-1} + \dots + a_0 = 0$$
 
-```
-R = 1 Ω
-C = 2 F
-V = 10 V (DC source)
-```
+### Step 3: Analyze the Routh-Hurwitz Criterion
 
-When switch S is opened at time t=0, the voltage across capacitor C will change. We want to find the maximum magnitude of the voltage VR.
-
-```mermaid
-graph LR
-A[Start] --> B[Circuit]
-B --> C[R-C Circuit]
-C --> D[Transient Analysis]
-D --> E[Solution]
-```
+*   Evaluate the coefficients of the auxiliary equation.
+*   Use the Routh-Hurwitz criterion to determine the stability of the network.
 
 ## Examples with Solutions
 ---------------------------
 
 ### Example 1:
 
-Given a circuit with a capacitor (C=2 F) and resistor (R=1 Ω), the voltage across the capacitor is given by the following equation:
+Solve the differential equation:
+$$
+\frac{d^2y}{dx^2} - \frac{dy}{dx} + y = 0
+$$
 
-$$v_C(t) = V(1-e^{-t/RC})$$
+**Solution:**
 
-where V is the DC source voltage.
-
-To find the maximum magnitude of the voltage VR, we need to take the derivative of vC(t) with respect to time and set it equal to zero:
-
-$$\frac{dv_C}{dt} = \frac{V}{RC}e^{-t/RC} = 0$$
-
-Solving for t, we get:
-
-$$t_{max} = -RC\ln(1-\frac{V}{v_C})$$
-
-Substituting the values given in the problem statement, we get:
-
-```python
-import numpy as np
-
-# Given values
-R = 1  # Ω
-C = 2  # F
-V = 10  # V
-
-# Calculate t_max
-t_max = -R * C * np.log(1 - (V / (V * (1 - np.exp(-t_max/RC)))))
-
-print("Maximum time:", t_max)
-```
+*   The auxiliary equation is $\lambda^2 - \lambda + 1 = 0$.
+*   Applying the Routh-Hurwitz criterion, we find that the solution is stable.
 
 ### Example 2:
 
-Consider a circuit with an inductor (L=0.5 H) and resistor (R=2 Ω), connected to a DC source (V=10 V). When switch S is opened at time t=0, the current through the inductor will change.
+Determine the transient response of a series RLC circuit with an initial voltage $V(0) = 10$ V and time constant $T = 5$ ms.
 
-Using Kirchhoff's laws and the Laplace transform, we can derive an equation for the voltage across the inductor:
+**Solution:**
 
-$$v_L(s) = \frac{RV}{s + R/L}$$
-
-Taking the inverse Laplace transform of vL(s), we get:
-
-$$v_L(t) = RV(1-e^{-t/RC})$$
-
-where RC is the time constant.
+*   The general solution is given by:
+    $$V(t) = V(0)e^{-\frac{t}{T}} \sin(\omega t + \phi)$$
+*   Substitute the values to obtain the transient response.
 
 ## Common Pitfalls
 -------------------
 
-*   Failing to consider initial conditions when performing transient analysis.
-*   Not applying Kirchhoff's laws correctly.
-*   Misusing the Laplace transform or inverse Laplace transform.
+*   **Incorrect Application of Routh-Hurwitz Criterion**: Be careful when evaluating the coefficients and applying the criterion.
+*   **Ignoring Initial Conditions**: Don't forget to consider initial conditions while solving differential equations.
+*   **Miscalculating Time Constant**: Ensure accurate calculation of time constants.
 
 ## Quick Summary
 -----------------
 
-Transient analysis in network theory deals with studying the behavior of a circuit during short periods. Key concepts include:
-
-*   Initial conditions and state variables
-*   Kirchhoff's laws (KVL, KCL)
-*   Laplace transform
-*   Impedance
-
-To solve transient analysis problems, follow these steps:
-
-1.  Identify initial conditions and state variables.
-2.  Apply Kirchhoff's laws to derive equations describing circuit behavior.
-3.  Use the Laplace transform to solve for voltage and current waveforms.
-
-### References
-
-[1] Sedra, A. S., & Smith, K. C. (2019). *Microelectronic Circuits* (8th ed.). Oxford University Press.
-
-[2] Hayt, W. H., Buckner, J. E., & Durbin, D. (2020). *Engineering Circuit Analysis*. McGraw-Hill Education.
-
-Note: You can include online images by using the `![Description](https://example.com/image.png)` syntax. However, ensure that you are using a reliable and stable image source to avoid any issues with Markdown rendering.
+*   Transient analysis involves solving differential equations.
+*   Homogeneous and non-homogeneous equations have different solutions.
+*   Auxiliary equation determines the nature of the solution.
+*   Routh-Hurwitz criterion helps in determining stability.

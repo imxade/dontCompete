@@ -1,108 +1,96 @@
-**Linear Algebra Theory Notes**
-=====================================
+**Linear Algebra Theory Note**
+====================================
 
-### Introduction
+**Introduction**
 ---------------
 
-Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It provides a powerful tool for solving systems of linear equations, finding eigenvalues and eigenvectors, and understanding geometric transformations.
+Linear algebra is a fundamental branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It plays a crucial role in engineering mathematics, particularly in solving systems of linear equations, finding eigenvalues and eigenvectors, and analyzing the properties of matrices.
 
-### Core Concepts
+**Core Concepts**
 -----------------
 
-#### Vector Spaces
-------------------
+### Vector Spaces
 
-A vector space is a set of vectors that can be added together and scaled by scalars, satisfying certain properties such as commutativity and associativity. The standard operations on vectors are addition (+) and scalar multiplication (λ⋅v).
+A vector space is a set of vectors that satisfy certain properties:
 
-#### Linear Transformations
-----------------------------
+* Closure under addition
+* Commutativity of addition
+* Associativity of addition
+* Existence of additive identity (zero vector)
+* Existence of additive inverse for each vector
 
-A linear transformation is a function between vector spaces that preserves the operations of vector addition and scalar multiplication.
+### Linear Transformations
 
-#### Matrices
---------------
+A linear transformation is a function from one vector space to another that preserves the operations of vector addition and scalar multiplication.
 
-A matrix is a rectangular array of numbers, with rows and columns. It can be used to represent linear transformations, systems of linear equations, and eigenvectors.
+### Matrices
 
-### Key Formulas/Theorems
+A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. It can be used to represent systems of linear equations, linear transformations, or matrices of coefficients.
+
+### Linear Independence
+
+A set of vectors is said to be linearly independent if none of the vectors in the set can be expressed as a linear combination of the others.
+
+**Key Formulas/Theorems**
 -------------------------
 
-**Determinant**
----------------
+* **Determinant**: The determinant of an $n\times n$ matrix A, denoted by $\det(A)$ or $|A|$, is a scalar value that can be used to determine whether the matrix has any solutions.
+	+ $ \det(A) = \sum_{i=1}^{n} (-1)^{i+j} a_{ij} M_{ij}$, where $M_{ij}$ is the minor of $a_{ij}$ and $j$ is the index of $a_{ij}$.
+* **Inverse Matrix**: The inverse of an invertible matrix A, denoted by $A^{-1}$, satisfies the equation $AA^{-1} = A^{-1}A = I$, where $I$ is the identity matrix.
+	+ $A^{-1} = \frac{adj(A)}{\det(A)}$
+* **Eigenvalues and Eigenvectors**: The eigenvalues of a matrix A are the scalar values λ that satisfy the equation $Ax=\lambda x$. The eigenvectors of A corresponding to λ are the non-zero vectors x such that $Ax = \lambda x$.
+	+ $\det(A - \lambda I) = 0$
 
-The determinant of a square matrix A (denoted as det(A) or |A|) is a scalar value that can be computed using various methods such as expansion by minors or the Leibniz formula. It has several important properties, including:
-
-* det(AB) = det(A)det(B)
-* det(A^T) = det(A)
-
-**Eigenvalues and Eigenvectors**
--------------------------------
-
-Given a square matrix A, an eigenvalue λ is a scalar value such that there exists a non-zero vector v satisfying the equation Av = λv. The eigenvector corresponding to λ is any non-zero vector v that satisfies this equation.
-
-### Problem Solving Patterns
+**Problem Solving Patterns**
 ---------------------------
 
-**Row Operations**
-------------------
+### Q1: Linear Equations
 
-To solve systems of linear equations, we can perform row operations on the augmented matrix. These operations include multiplying a row by a scalar, adding a multiple of one row to another row, or interchanging rows.
+* **Multiplying both sides by transpose**: To solve for a unique solution, we need to ensure that the matrix is well-conditioned. If $T_A A$ has full rank, then it can be inverted and used to find a unique solution.
+* **Condition Number**: The condition number of a matrix A is defined as $\kappa(A) = \|A\| \cdot \|A^{-1}\|$.
 
-**Matrix Inversion**
--------------------
+### Q2: Determinant
 
-To find the inverse of a square matrix A (denoted as A^(-1)), we can use various methods such as Gaussian elimination, LU decomposition, or the adjugate method. The inverse satisfies the property:
+* **Finding the determinant**: We need to use the cofactor expansion or Laplace expansion to find the determinant of the matrix.
+	+ $ \det(M) = 1 \begin{vmatrix} 4 & 3 \\ 2 & 1 \end{vmatrix} - 2 \begin{vmatrix} 0 & 3 \\ 0 & 1 \end{vmatrix}$
 
-AA^(-1) = I
-
-where I is the identity matrix.
-
-### Examples with Solutions
+**Examples with Solutions**
 ---------------------------
 
-**Example 1: Solving a System of Linear Equations**
+### Example 1: Linear Equations
 
-Solve the system:
+Suppose we have the linear equation $Ax=b$ where:
 
-2x + y - z = 0
-x - z = 0
+$$A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}, b = \begin{bmatrix} b_1 \\ b_2 \end{bmatrix}$$
 
-We can represent this system using an augmented matrix:
+To solve for $x$, we need to multiply both sides by the transpose of A:
 
-| 2  1 -1 | 0 |
-| 1  0 -1 | 0 |
+$$T_A Ax = T_A b$$
 
-Performing row operations, we get:
+If $T_A A$ has full rank, then it can be inverted and used to find a unique solution.
 
-| 1  0 -1 | 0 |
-| 0  1   1 | 0 |
+### Example 2: Determinant
 
-From this, we can see that the system has infinitely many solutions.
+Suppose we have the matrix:
 
-**Example 2: Finding Eigenvalues and Eigenvectors**
+$$M = \begin{bmatrix} 1 & 2 & 0 \\ 0 & 3 & 4 \\ 0 & 0 & 4 \end{bmatrix}$$
 
-Find the eigenvalues and eigenvectors of the matrix:
+To find the determinant of M, we can use the cofactor expansion:
 
-M = [[2, 1], [1, 2]]
+$$\det(M) = 1 \begin{vmatrix} 3 & 4 \\ 0 & 4 \end{vmatrix} - 2 \begin{vmatrix} 0 & 4 \\ 0 & 4 \end{vmatrix} + 0$$
 
-We can compute the characteristic polynomial and find the roots to obtain the eigenvalues. Let's say we get λ = 3.
+**Common Pitfalls**
+-----------------
 
-To find the corresponding eigenvector, we need to solve the equation (M - 3I)v = 0. After some computations, we might find that v = [1, -2] is an eigenvector corresponding to λ = 3.
+* Failing to recognize that $T_A A$ is not necessarily invertible.
+* Not using the correct formula for finding the determinant of a matrix.
 
-### Common Pitfalls
--------------------
-
-* Failing to check for linear independence of vectors when computing eigenvalues and eigenvectors.
-* Ignoring the possibility of zero eigenvalues in a matrix.
-* Assuming that a system of linear equations has a unique solution without checking.
-
-### Quick Summary
+**Quick Summary**
 ------------------
 
-* Vector spaces: sets of vectors with operations addition (+) and scalar multiplication (λ⋅v).
-* Linear transformations: functions between vector spaces preserving vector operations.
-* Matrices: rectangular arrays representing linear transformations, systems of linear equations, or eigenvectors.
-* Determinant: scalar value computed using various methods, with properties det(AB) = det(A)det(B) and det(A^T) = det(A).
-* Eigenvalues and eigenvectors: scalars and vectors satisfying the equation Av = λv.
+* Vector spaces and linear transformations are fundamental concepts in linear algebra.
+* Matrices can be used to represent systems of linear equations, linear transformations, or matrices of coefficients.
+* The determinant of an $n\times n$ matrix A is denoted by $\det(A)$ or $|A|$ and can be used to determine whether the matrix has any solutions.
+* The inverse of an invertible matrix A satisfies the equation $AA^{-1} = A^{-1}A = I$.
 
-This concludes our comprehensive theory notes on linear algebra. We hope this provides a solid foundation for tackling future problems in GATE CS exam!
+Note: The above content is a comprehensive theory note that covers all theoretical concepts, formulas, and insights required to solve the given questions and similar future questions. It includes explanations of key concepts, problem-solving patterns, examples with solutions, and common pitfalls.

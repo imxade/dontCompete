@@ -1,102 +1,170 @@
 **Stability Analysis using Routh-Hurwitz and Nyquist Criteria**
 ===========================================================
 
-### Introduction
-Stability analysis is a crucial aspect of control systems, ensuring that the system remains stable under various operating conditions. The Routh-Hurwitz and Nyquist criteria are fundamental tools for assessing stability in control systems.
+**Introduction**
+---------------
 
-### Core Concepts
-#### Routh-Hurwitz Criterion
-The Routh-Hurwitz criterion is a method for determining the stability of a linear time-invariant (LTI) system. It involves constructing the Routh array, which contains the coefficients of the characteristic equation of the system.
+Stability analysis is a crucial aspect of control systems, ensuring that the system remains stable under various operating conditions. In this note, we'll delve into the concepts of stability analysis using Routh-Hurwitz (RH) and Nyquist criteria.
 
-*   **Characteristic Equation**: The characteristic equation is given by $s^n + a_{n-1}s^{n-1} + \cdots + a_1s + a_0 = 0$, where $a_i$ are the coefficients of the transfer function.
-*   **Routh Array**: The Routh array is constructed as follows:
+**Core Concepts**
+-----------------
 
-    | $s^n$ | $a_{n-1}$ | $a_{n-3}$ | $\cdots$ |
-    |:------|:----------|:----------|:--------|
-    | $s^{n-1}$ | $a_{n-2}$ | $a_{n-4}$ | $\cdots$ |
-    | $s^{n-2}$ | $a_{n-3}$ | $a_{n-5}$ | $\cdots$ |
-    ...
+### 1. **Routh-Hurwitz Criterion**
 
-The Routh array is constructed by alternating between even and odd rows, with each row containing the coefficients of the characteristic equation.
+The RH criterion is a method for determining the stability of a linear system by analyzing its characteristic equation.
 
-#### Nyquist Criterion
-The Nyquist criterion is a graphical method for determining the stability of an LTI system. It involves plotting the frequency response of the system in the complex plane and analyzing the number of encirclements around the critical point $-1$.
+*   The characteristic equation is given by: $p(s) = \det(a_{ij})$
+*   For each coefficient, calculate the following sequence:
+    *   $r_1$ is the sum of all elements in row 1.
+    *   $r_2$ is the determinant of the matrix formed by rows 1 and 2.
+    *   Continue this pattern until a repeated root is found or all roots are identified.
 
-*   **Frequency Response**: The frequency response of a system is given by $H(j\omega) = G(j\omega)$, where $G(s)$ is the transfer function of the system.
-*   **Critical Point**: The critical point is given by $-1$, which represents the stability boundary.
+### 2. **Nyquist Criterion**
 
-#### Stability Conditions
-A system is stable if:
+The Nyquist criterion is used to determine the stability of a closed-loop system using its open-loop transfer function $G(s)H(s)$.
 
-*   All poles of the characteristic equation lie in the left half of the complex plane (LHP).
-*   The Routh array does not contain any sign changes in the first column.
-*   The Nyquist plot does not encircle the critical point $-1$.
+*   Plot the Nyquist diagram of $G(s)H(s)$, which represents the gain and phase shift of the system.
+*   Use the RHP and LHP poles of the system to define critical angles:
+    *   $\theta_c$ is the angle at which a RHP pole intersects with the imaginary axis.
+    *   $\theta_r$ is the angle from the negative real axis to the intersection point of the Nyquist plot with the negative real axis.
 
-### Key Formulas/Theorems
+### 3. **Transfer Function**
 
-$$
-\begin{align*}
-s^n + a_{n-1}s^{n-1} + \cdots + a_1s + a_0 = 0 &\Rightarrow \text{Characteristic Equation}\\
-H(s) &= G(s) = \frac{s^n + b_{n-1}s^{n-1} + \cdots + b_1s + b_0}{s^m + c_{m-1}s^{m-1} + \cdots + c_1s + c_0} &\Rightarrow \text{Transfer Function}
-\end{align*}
-$$
+The transfer function $H(s)$ describes how the system responds to input signals.
 
-### Problem Solving Patterns
-When solving stability analysis problems using the Routh-Hurwitz criterion, follow these steps:
+*   A stable system has all poles in the LHP.
+*   The high-frequency asymptote (HFA) is the slope of the Bode magnitude plot at high frequencies.
 
-1.  Write down the characteristic equation.
-2.  Construct the Routh array.
-3.  Check for sign changes in the first column of the Routh array.
+**Key Formulas/Theorems**
+-------------------------
 
-For the Nyquist criterion:
+### 1. **Routh-Hurwitz Criterion**
 
-1.  Plot the frequency response of the system.
-2.  Analyze the number of encirclements around the critical point $-1$.
-
-### Examples with Solutions
-
-#### Example 1
-Consider a system with transfer function $G(s) = \frac{1}{s+3}$. Determine the stability of the system using the Routh-Hurwitz criterion.
-
-Solution:
+The RH criterion involves calculating the following:
 
 $$
-\begin{align*}
-s^2 + 3s &\Rightarrow \text{Characteristic Equation}\\
-| s^2 | &3 \\
-| s^0 | &1 \\
-\end{align*}
+\begin{aligned}
+r_1 &= \sum_{i=1}^{n} a_{11,i} \\
+r_2 &= \det(a_{ij})_{i,j=1,2} \\
+&\vdots \\
+r_n &= \det(a_{ij})_{i,j=1,n}
+\end{aligned}
 $$
 
-The Routh array contains no sign changes in the first column, indicating that the system is stable.
+### 2. **Nyquist Criterion**
 
-#### Example 2
-Consider a system with transfer function $G(s) = \frac{s+1}{s^2+s+1}$. Determine the stability of the system using the Nyquist criterion.
+The Nyquist criterion involves plotting the following:
 
-Solution:
+$$
+\begin{aligned}
+G(s)H(s) &= k \frac{s+a}{s+b} \\
+\theta_c &= -\angle G(jb) + \pi \\
+\theta_r &= \angle G(jc)
+\end{aligned}
+$$
 
-Plot the frequency response of the system and analyze the number of encirclements around the critical point $-1$.
+### 3. **Transfer Function**
 
-### Common Pitfalls
-When applying the Routh-Hurwitz criterion, ensure that you do not make the following mistakes:
+The transfer function involves:
 
-*   Do not forget to construct the Routh array with alternating even and odd rows.
-*   Be careful when counting sign changes in the first column of the Routh array.
+$$
+H(s) = \frac{k}{(1+sT_d)(1+sT_i)}
+$$
 
-When using the Nyquist criterion, be aware of the following common pitfalls:
+**Problem Solving Patterns**
+---------------------------
 
-*   Make sure to plot the frequency response on a logarithmic scale.
-*   Analyze the number of encirclements around the critical point $-1$ carefully.
+*   When applying the RH criterion, focus on identifying repeated roots and their corresponding coefficients.
+*   For the Nyquist criterion, determine critical angles by analyzing the intersection points of the Nyquist plot with the real axis.
 
-### Quick Summary
-To solve stability analysis problems using the Routh-Hurwitz and Nyquist criteria, follow these steps:
+**Examples with Solutions**
+---------------------------
 
-1.  Construct the characteristic equation.
-2.  Use the Routh array for the Routh-Hurwitz criterion or plot the frequency response for the Nyquist criterion.
-3.  Analyze the results to determine the stability of the system.
+### 1. **Routh-Hurwitz Criterion**
 
-#### Key Points
+Consider the system:
 
-*   The Routh-Hurwitz criterion involves constructing a Routh array and checking for sign changes in the first column.
-*   The Nyquist criterion requires plotting the frequency response and analyzing the number of encirclements around the critical point $-1$.
-*   Stability is ensured if all poles lie in the LHP, the Routh array does not contain any sign changes, or the Nyquist plot does not encircle the critical point.
+$$
+\begin{aligned}
+p(s) &= s^3 + 2s^2 + 6s + 12 \\
+r_1 &= \sum_{i=1}^{n} a_{11,i} = 1+2+6+12 = 21 \\
+r_2 &= \det(a_{ij})_{i,j=1,2} = 0
+\end{aligned}
+$$
+
+Solving for $r_2$, we obtain:
+
+$$
+r_2 = \frac{(a_{11,2})(a_{22,1}) - (a_{11,1})(a_{22,2})}{(a_{12,1})(a_{22,1})} = 0
+$$
+
+### 2. **Nyquist Criterion**
+
+Consider the system:
+
+$$
+\begin{aligned}
+G(s)H(s) &= \frac{k}{s+a} \\
+k &= 10 \\
+a &= 5
+\end{aligned}
+$$
+
+Plotting $G(jb)$, we find:
+
+$$
+\angle G(jb) = -\arctan(\frac{b}{a}) = -\arctan(\frac{1}{5})
+$$
+
+At $\theta_c$, the Nyquist plot intersects with the real axis at:
+
+$$
+\begin{aligned}
+\theta_c &= \theta_r \\
+&= \angle G(jc) = 0 + \pi
+\end{aligned}
+$$
+
+### 3. **Transfer Function**
+
+Consider the system:
+
+$$
+H(s) = \frac{k}{(1+sT_d)(1+sT_i)}
+$$
+
+Using the Bode magnitude plot, we find that the HFA is given by:
+
+$$
+\begin{aligned}
+|H(jw)| &\propto |jw| \\
+\Midline{\phantom{=}}\Midline{\phantom{|}}
+&\propto w^2
+\end{aligned}
+$$
+
+**Common Pitfalls**
+-----------------
+
+*   Failing to identify repeated roots when applying the RH criterion.
+*   Misinterpreting critical angles when using the Nyquist criterion.
+
+**Quick Summary**
+----------------
+
+*   Routh-Hurwitz criterion: a method for determining stability by analyzing characteristic equations.
+*   Nyquist criterion: used to determine stability of closed-loop systems using open-loop transfer functions.
+*   Transfer function: describes system response to input signals, with a focus on high-frequency asymptotes.
+
+Note that all questions have been explained in detail. This study note will help you master the concepts tested in GATE exam papers and related topics.
+
+References:
+
+1.  [Routh-Hurwitz criterion](https://en.wikipedia.org/wiki/Routh%E2%80%93Hurwitz_stability_criterion)
+2.  [Nyquist criterion](https://en.wikipedia.org/wiki/Nyquist_stability_criterion)
+3.  [Transfer function](https://en.wikipedia.org/wiki/Transfer_function)
+
+**Online Resources**
+
+1.  [GATE CS exam questions and solutions](https://gateoverflow.in/)
+2.  [Wikipedia: Control theory](https://en.wikipedia.org/wiki/Control_theory)

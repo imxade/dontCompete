@@ -1,80 +1,82 @@
-**Error Correction Theory Note**
-=====================================
+**Error Correction**
+=====================
 
 ### Introduction
-Error correction is a fundamental concept in digital communication that deals with detecting and correcting errors that occur during data transmission over noisy channels. This note provides an in-depth explanation of error correction techniques, focusing on Hamming codes.
+-----------------
+
+Error correction is a critical component of digital communication systems. It ensures that data transmitted over noisy channels can be recovered with a high degree of accuracy. In this note, we will focus on error correction using Hamming codes.
 
 ### Core Concepts
-#### Hamming Codes
-Hamming codes are linear error-correcting codes used for single-bit error detection and correction. They are defined by a minimum distance between codewords, which is at least 3. The (7,4) Hamming code mentioned in the source question has 7 bits: 4 information bits and 3 parity bits.
+------------------
 
-#### Parity Bits
-Parity bits are used to detect single-bit errors. Each parity bit corresponds to a subset of information bits, and its value is calculated such that an odd number of ones in the corresponding subset results in a one. For example, in a (7,4) Hamming code:
+#### Memoryless Binary Symmetric Channel (BSC)
 
-| Information Bit | Parity Bits |
-| --- | --- |
-| 1   | P3        |
-| 2   | P5        |
-| 3   | P6        |
-| 4   | P1 + P2 + P4 |
-
-#### Minimum Hamming Distance Decoding
-Minimum Hamming distance decoding is a decoding technique used in conjunction with Hamming codes. It works by finding the codeword with the minimum Hamming distance from the received word.
+A memoryless BSC is a channel where each bit is transmitted independently and identically distributed (i.i.d). The probability of transmitting a 0 or 1 is equal, and the probability of receiving an incorrect bit is given by $\epsilon$.
 
 ### Key Formulas/Theorems
+-------------------------
 
-*   The probability of correctly transmitting a bit over a memoryless binary symmetric channel is given by:
-    $$
-    P(\text{correct}) = 1 - \epsilon
-    $$
-*   The probability of decoding a codeword correctly using minimum Hamming distance decoding is given by:
-    $$
-    P(\text{decoded correctly}) = \sum_{i=0}^{d-1} {n \choose i} \epsilon^i (1-\epsilon)^{n-i}
-    $$
-    where $d$ is the minimum Hamming distance, and $n$ is the number of bits.
+#### Hamming Code
+
+A $(n,k)$ Hamming code encodes $k$ message bits into $n$ codeword bits using the following generator matrix:
+
+$$G = \begin{bmatrix} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ g_1 & g_2 & g_3 & \cdots & g_k \end{bmatrix}$$
+
+where $g_i$ are the parity check bits.
+
+#### Minimum Hamming Distance Decoding
+
+Minimum Hamming distance decoding is a method of decoding codewords where the receiver compares the received codeword with all possible codewords and selects the one with the minimum Hamming distance.
 
 ### Problem Solving Patterns
+---------------------------
 
-*   To solve questions involving error correction using Hamming codes, identify the type of channel (memoryless binary symmetric) and the specific code used.
-*   Calculate the probability of correctly transmitting a bit over the channel.
-*   Apply the minimum Hamming distance decoding formula to find the probability of decoding a codeword correctly.
+1. **Calculate Codeword Probability**: Given $\epsilon$, calculate the probability that a transmitted codeword is decoded correctly using minimum Hamming distance decoding.
+2. **Determine Error Correction Capability**: Determine the number of bit errors an $(n,k)$ Hamming code can correct.
 
 ### Examples with Solutions
+---------------------------
 
-**Example 1:**
+**Q1: ec_2022_62**
 
-A message is encoded using a (7,4) Hamming code and transmitted over a memoryless binary symmetric channel with $\epsilon = 0.1$. Find the probability that a transmitted codeword is decoded correctly.
+Consider communication over a memoryless binary symmetric channel using a (7, 4) Hamming code. Each transmitted bit is received correctly with probability $1 - \epsilon$, and flipped with probability $\epsilon$. For each codeword transmission, the receiver performs minimum Hamming distance decoding, and correctly decodes the message bits if and only if the channel introduces at most one bit error.
 
-**Solution:**
+For $0.1 = \epsilon$, the probability that a transmitted codeword is decoded correctly is _________ (round off to two decimal places).
 
-Using the formula for minimum Hamming distance decoding:
+**Solution**
 
-$$
-P(\text{decoded correctly}) = \sum_{i=0}^{2} {7 \choose i} (0.1)^i (1-0.1)^{7-i}
-$$
+Given that the bits are transmitted using $(7, 4)$ Hamming code
 
-Substituting values and calculating:
+$\Rightarrow$ Total number of bits $n = 7$
 
-$P(\text{decoded correctly}) = 0.850$
+Given that the transmitted bit are received correctly with probability $1 - \epsilon$.
+
+So, probability of receiving an incorrect bit is $\epsilon = 0.1$.
+
+The probability that a codeword is decoded correctly using minimum Hamming distance decoding is given by:
+
+$$P(\text{correct}) = (1 - \epsilon)^n \sum_{i=0}^{\lfloor\frac{n-1}{2}\rfloor} {n \choose i} \epsilon^i$$
+
+where $\lfloor x \rfloor$ denotes the greatest integer less than or equal to $x$.
+
+Substituting $n = 7$, $\epsilon = 0.1$, we get:
+
+$$P(\text{correct}) = (1 - 0.1)^7 \left( {7 \choose 0} (0.1)^0 + {7 \choose 1} (0.1)^1 + {7 \choose 2} (0.1)^2 \right)$$
+
+Simplifying, we get:
+
+$$P(\text{correct}) = 0.850$$
 
 ### Common Pitfalls
-*   Failing to identify the correct type of channel or code used.
-*   Not applying the minimum Hamming distance decoding formula.
+--------------------
+
+*   Failing to calculate the probability of receiving an incorrect bit correctly.
+*   Not using the correct formula for minimum Hamming distance decoding.
 
 ### Quick Summary
-*   **Hamming Codes:** (7,4) Hamming code has 7 bits: 4 information and 3 parity bits.
-*   **Parity Bits:** Used for single-bit error detection.
-*   **Minimum Hamming Distance Decoding:** Finds the codeword with minimum Hamming distance from received word.
-*   **Key Formulas/Theorems:** Probability of correct transmission, probability of decoding correctly using minimum Hamming distance decoding.
+---------------
 
-### Visuals
-
-```mermaid
-graph LR
-A[Start] --> B[Message Encoding]
-B --> C[Transmitting over Channel]
-C --> D[Receiving and Decoding]
-D --> E[Final Output]
-```
-
-This flowchart illustrates the process of error correction using Hamming codes.
+*   Error correction is a critical component of digital communication systems.
+*   Minimum Hamming distance decoding is a method of decoding codewords.
+*   The probability that a transmitted codeword is decoded correctly can be calculated using the formula:
+    $$P(\text{correct}) = (1 - \epsilon)^n \sum_{i=0}^{\lfloor\frac{n-1}{2}\rfloor} {n \choose i} \epsilon^i$$

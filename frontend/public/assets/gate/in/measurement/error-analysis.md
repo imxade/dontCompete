@@ -1,97 +1,111 @@
-# Error Analysis: Measurement
+**Error Analysis in Measurement**
 =====================================
 
-## Introduction
+**Introduction**
 ---------------
 
-Error analysis is a crucial aspect of measurement in various fields, including physics and engineering. It involves understanding the uncertainties associated with measurements and how these errors propagate through calculations. In this note, we will focus on error analysis in the context of measurement, specifically for power factor calculations.
+Error analysis is a crucial aspect of measurement, as it helps to quantify and understand the uncertainty associated with measurements. In this note, we will cover the key concepts, formulas, and problem-solving patterns related to error analysis.
 
-## Core Concepts
+**Core Concepts**
 -----------------
 
-### Measurement Uncertainties
+*   **Measurement Error**: The difference between the measured value and the true value.
+*   **Random Error**: Errors that are unpredictable and random in nature, such as thermal noise or electronic noise.
+*   **Systematic Error**: Errors that are repeatable and consistent, such as calibration errors or instrumental bias.
 
-Measurement uncertainties are expressed as an interval, which represents the range within which the true value lies. These intervals are usually denoted by $\pm \epsilon$ (e.g., $\pm 1\%$). When we add or subtract quantities with different measurement uncertainties, we need to consider how these errors propagate.
-
-### Power Factor
-
-The power factor is defined as the ratio of true power ($P$) to apparent power ($S$), which can be calculated using the formula:
-
-$$PF = \frac{P}{S} = \cos\phi$$
-
-where $\phi$ is the phase angle between voltage and current.
-
-## Key Formulas/Theorems
-------------------------
-
-### Error Propagation for Power Factor Calculations
-
-When calculating the power factor, we need to consider how errors in measurements of voltage ($V$), current ($I$), and apparent power ($S$) propagate. Given:
-
-$$\begin{aligned}
-V_{rms} &= 100 \text{ V } \pm 1\% \\
-I_{rms} &= 1 \text{ A } \pm 1\% \\
-P &= 50 \text{ W } \pm 2\%
-\end{aligned}$$
-
-The error in power factor ($PF$) can be calculated using the formula:
-
-$$\begin{aligned}
-PF \epsilon &= \frac{\sqrt{(V \epsilon)^2 + (I \epsilon)^2}}{P}\\
-&= \frac{\sqrt{(1\% \cdot 100 \text{ V})^2 + (1\% \cdot 1 \text{ A})^2}}{50 \text{ W} \pm 2\%}
-\end{aligned}$$
-
-Simplifying, we get:
-
-$$PF \epsilon = \frac{\sqrt{(1.01)^2 + (0.01)^2}}{50 \text{ W} \pm 2\%} \approx \frac{1.02}{49.97 \text{ W}} \cdot \left(\frac{100 \text{ V}}{50 \text{ W}}\right) = 4\%$$
-
-Therefore, the percentage error in calculating the power factor is approximately $4\%$.
-
-## Problem Solving Patterns
----------------------------
-
-### Step-by-Step Approach
-
-1. Identify the quantities involved and their measurement uncertainties.
-2. Determine how these errors propagate through calculations (e.g., addition, subtraction, multiplication).
-3. Apply relevant formulas or theorems to calculate the error in the desired quantity.
-
-## Examples with Solutions
+**Key Formulas/Theorems**
 -------------------------
 
-### Example 1: Calculating Power Factor Error
+$$\text{Measurement Error} = \sqrt{\text{Random Error}^2 + \text{Systematic Error}^2}$$
 
-Given:
+$$\text{Precision} = \frac{\text{Standard Deviation}}{\text{Mean}}$$
 
-$$\begin{aligned}
-V_{rms} &= 120 \text{ V } \pm 2\% \\
-I_{rms} &= 10 \text{ A } \pm 0.5\%
-\end{aligned}$$
+$$\text{Accuracy} = 1 - \frac{\text{Absolute Error}}{\text{Range}}$$
 
-Calculate the percentage error in power factor.
+**Problem Solving Patterns**
+---------------------------
+
+*   Identify the type of error (random or systematic) and its source.
+*   Calculate the measurement error using the formulas above.
+*   Consider the precision and accuracy of the measurement.
+
+**Examples with Solutions**
+-------------------------
+
+### Example 1: Strain Gage Measurement
+
+A full-bridge strain gage has a gage factor of 2, and the temperature coefficient of resistance is 0.005/°C. The strain is measured to be 0.01 at a temperature of 50°C. If the output voltage is 2.5 mV, calculate the measurement error.
+
+```mermaid
+graph LR
+A[Strain Gage] -->|Gage Factor=2|> B[Voltage]
+B -->|Temperature Coefficient=0.005/°C|> C[Temperature Error]
+C -->|Strain Error|> D[Measurement Error]
+```
 
 Solution:
 
-1. Calculate apparent power:
-$$S = V_{rms} \cdot I_{rms} = (120 \text{ V}) \cdot (10 \text{ A}) = 1200 \text{ VA}$$
-2. Calculate true power:
-$$P = S \cos\phi$$
-Assuming $\cos\phi = 0.8$, we get $P = (1200 \text{ VA}) \cdot (0.8) = 960 \text{ W}$.
-3. Calculate error in power factor:
-$$PF \epsilon = \frac{\sqrt{(V \epsilon)^2 + (I \epsilon)^2}}{P}$$
-Substituting values, we get $PF \epsilon \approx 4\%$.
+First, calculate the temperature error using the formula:
 
-## Common Pitfalls
+$$\text{Temperature Error} = \frac{\text{Gage Factor}}{2} \times \text{Temperature Coefficient} \times (\text{Temperature - Reference Temperature})$$
+
+$$\text{Temperature Error} = \frac{2}{2} \times 0.005/°C \times (50°C - 0°C) = 0.125°C$$
+
+Next, calculate the strain error using the formula:
+
+$$\text{Strain Error} = \frac{\text{Gage Factor}}{2} \times \text{Strain}$$
+
+$$\text{Strain Error} = \frac{2}{2} \times 0.01 = 0.005$$
+
+Finally, calculate the measurement error using the formula:
+
+$$\text{Measurement Error} = \sqrt{\text{Temperature Error}^2 + \text{Strain Error}^2}$$
+
+$$\text{Measurement Error} = \sqrt{(0.125)^2 + (0.005)^2} = 0.126 mV$$
+
+The measurement error is therefore 0.126 mV.
+
+### Example 2: Bridge Circuit Measurement
+
+A bridge circuit has a resistance of 100Ω at 0°C and a temperature coefficient of resistance of 0.001/°C. If the temperature changes by 50°C, calculate the new resistance.
+
+```mermaid
+graph LR
+A[Bridge Circuit] -->|Resistance=100Ω|> B[Temperature Coefficient]
+B -->|Temperature Change=50°C|> C[New Resistance]
+```
+
+Solution:
+
+First, calculate the change in resistance using the formula:
+
+$$\text{Change in Resistance} = \text{Resistor Value} \times \text{Temperature Coefficient} \times (\text{Temperature - Reference Temperature})$$
+
+$$\text{Change in Resistance} = 100Ω \times 0.001/°C \times (50°C - 0°C) = 5Ω$$
+
+Next, calculate the new resistance using the formula:
+
+$$\text{New Resistance} = \text{Original Resistance} + \text{Change in Resistance}$$
+
+$$\text{New Resistance} = 100Ω + 5Ω = 105Ω$$
+
+The new resistance is therefore 105Ω.
+
+**Common Pitfalls**
 ------------------
 
-* Failing to account for error propagation when combining quantities.
-* Ignoring the impact of measurement uncertainties on calculated values.
-* Not using the correct formulas or theorems for error analysis.
+*   Failing to identify the type of error (random or systematic).
+*   Not considering the precision and accuracy of the measurement.
+*   Misapplying formulas or neglecting units.
 
-## Quick Summary
+**Quick Summary**
 ---------------
 
-* Measurement uncertainties are expressed as an interval, $\pm \epsilon$.
-* Error propagation is crucial in calculations involving multiple measurements.
-* Use relevant formulas and theorems to calculate errors in desired quantities.
-* Remember to account for error propagation when combining quantities.
+Error analysis is crucial in measurement, and understanding the concepts, formulas, and problem-solving patterns can help you tackle questions with ease. Remember to:
+
+*   Identify the type of error (random or systematic).
+*   Calculate the measurement error using the formulas.
+*   Consider the precision and accuracy of the measurement.
+
+[1]: https://en.wikipedia.org/wiki/Strain_gage
+[2]: https://en.wikipedia.org/wiki/Bridge_circuit

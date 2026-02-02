@@ -1,88 +1,104 @@
-**Random Variable Theory**
-==========================
+**Random Variable**
+=====================
 
-**Introduction**
----------------
+### Introduction
+A random variable is a function that assigns a real number to each outcome of an experiment or a set of outcomes. It's a crucial concept in probability and statistics, allowing us to quantify uncertainty and make informed decisions.
 
-A random variable is a mathematical representation of a set of possible values that a random experiment can take. It assigns a numerical value to each outcome of an experiment, providing a way to quantify and analyze uncertainty.
+### Core Concepts
+#### Definition
+Given an experiment with possible outcomes $\Omega$, a random variable $X$ is a function that maps each outcome $\omega \in \Omega$ to a real number $x \in \mathbb{R}$.
 
-**Core Concepts**
------------------
+#### Types of Random Variables
+* **Discrete random variables**: Take on distinct, countable values (e.g., number of heads in coin tosses).
+* **Continuous random variables**: Can take any value within a given interval or range (e.g., temperature, lifetime of a component).
 
-### Definition
+#### Probability Distribution Functions
+A probability distribution function (pdf) $f(x)$ describes the probability of observing a particular value $x$.
 
-*   A **random variable** $X$ is a function that maps the outcomes of a random experiment to real numbers.
-*   The set of possible values that $X$ can take is called the **range** or **support** of $X$, denoted as $\text{Range}(X)$.
+### Key Formulas/Theorems
 
-### Types
+#### Exponential Distribution
+For an exponentially distributed random variable with parameter $\lambda$, the pdf is given by:
 
-*   **Discrete Random Variable**: $X$ takes on distinct, countable values. Examples: number of heads in a coin toss, number of defective products.
-*   **Continuous Random Variable**: $X$ can take any value within a given interval or range. Examples: temperature, height, weight.
+$$f(x) = \begin{cases} \lambda e^{-\lambda x} & x \geq 0 \\ 0 & x < 0 \end{cases}$$
 
-### Probability Distribution
+The expected value and variance of an exponential distribution are:
 
-*   The **probability distribution** of a random variable $X$ is a function that assigns a probability to each possible value of $X$. It satisfies two important properties:
-    *   Non-negativity: $P(X=x) \geq 0$
-    *   Normalization: $\sum P(X=x) = 1$
+$E(X) = \frac{1}{\lambda}$
 
-### Expected Value
+$Var(X) = \frac{1}{\lambda^2}$
 
-*   The **expected value** or **mean** of a random variable $X$ is denoted as $E[X]$ and is calculated using the probability distribution:
-\[ E[X] = \sum_{x} xP(X=x) \]
+#### Binomial Distribution
+For a binomial distribution with $n$ trials, each with probability $p$ of success, the pdf is given by:
 
-### Variance and Standard Deviation
+$$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 
-*   The **variance** of a random variable $X$ measures the spread or dispersion of its values. It is denoted as $\text{Var}(X)$ and calculated as:
-\[ \text{Var}(X) = E[(X - E[X])^2] \]
-*   The **standard deviation** is the square root of the variance, denoted as $\sigma_X$.
+The expected value and variance of a binomial distribution are:
 
-### Independence
+$E(X) = np$
 
-*   Two random variables $X$ and $Y$ are said to be **independent** if the occurrence or non-occurrence of one does not affect the probability of the other. This implies that:
-\[ P(X=x, Y=y) = P(X=x)P(Y=y) \]
+$Var(X) = np(1-p)$
 
-**Key Formulas/Theorems**
--------------------------
+### Problem Solving Patterns
+#### Source Question 1: Exponential Distribution
+* Identify the probability density function as exponential with parameter $\lambda = 2$.
+* Find the expected lifetime by taking the reciprocal of $\lambda$: $E(X) = \frac{1}{\lambda} = \frac{1}{2}$.
+* Round the expected lifetime to 2 decimal places: $0.50$.
+* Calculate the probability that the lifetime exceeds the expected value using the exponential distribution's cumulative distribution function (CDF):
 
-\[ E[X] = \sum_{x} xP(X=x) \]
-\[ \text{Var}(X) = E[(X - E[X])^2] \]
-\[ \sigma_X = \sqrt{\text{Var}(X)} \]
-\[ P(X=x, Y=y) = P(X=x)P(Y=y) \]
+$$P(X > E(X)) = P(X > 0.50) = 1 - F(0.50)$$
 
-**Problem Solving Patterns**
----------------------------
+where $F(x)$ is the CDF of an exponential distribution.
 
-1.  **Discrete vs Continuous**: Identify the type of random variable and choose the correct distribution (e.g., binomial for discrete, normal for continuous).
-2.  **Expected Value**: Use the formula $E[X] = \sum xP(X=x)$ to calculate the mean.
-3.  **Variance and Standard Deviation**: Apply the formulas $\text{Var}(X) = E[(X - E[X])^2]$ and $\sigma_X = \sqrt{\text{Var}(X)}$.
+#### Source Question 2: Binomial Distribution
+* Identify the probability of success as $p = 0.4$ and the number of trials as $n = 1000$.
+* Use the binomial distribution's formula to find the expected value:
 
-**Examples with Solutions**
----------------------------
+$$E(X) = np = 1000 \times 0.4 = 400$$
 
-### Example 1: Expected Value
+* Calculate the standard deviation using the formula for variance:
 
-Suppose $X$ is a discrete random variable taking values $x_1, x_2, ..., x_n$ with probabilities $p_1, p_2, ..., p_n$. Calculate the expected value of $X$:
+$$Var(X) = np(1-p) = 1000 \times 0.4 \times (1-0.4) = 160$$
 
-\[ E[X] = \sum_{i=1}^{n} x_i P(X=x_i) \]
+### Examples with Solutions
+#### Example: Exponential Distribution
+Suppose the lifetime of a component is exponentially distributed with parameter $\lambda = 3$. Find the probability that its lifetime exceeds $2$.
 
-### Example 2: Variance and Standard Deviation
+```mermaid
+graph LR
+    A[Expected value] -->|1/λ|> B(1/3)
+    C[Lifetime] -->|>2| D(P(X > 2))
+```
 
-Given a continuous random variable $X$ with probability density function (PDF) $f(x)$, calculate the variance and standard deviation:
+Solution:
 
-\[ \text{Var}(X) = E[(X - E[X])^2] = \int_{-\infty}^{\infty} (x-E[X])^2 f(x) dx \]
-\[ \sigma_X = \sqrt{\text{Var}(X)} \]
+Using the CDF of an exponential distribution:
 
-**Common Pitfalls**
--------------------
+$$P(X > 2) = 1 - F(2) = 1 - e^{-\lambda x} = 1 - e^{-3 \times 2} = 0.98$$
 
-*   Confusing discrete and continuous random variables.
-*   Misunderstanding the concept of independence between variables.
+#### Example: Binomial Distribution
+Suppose we toss a biased coin with probability $p = 0.5$ of landing heads up. Find the expected value and standard deviation of the number of heads in $n = 10$ tosses.
 
-**Quick Summary**
------------------
+```mermaid
+graph LR
+    A[Expected value] -->|np|> B(5)
+    C[Variance] -->|np(1-p)|> D(2.5)
+```
 
-*   Random variable: a function assigning numerical values to experiment outcomes.
-*   Types: discrete, continuous.
-*   Probability distribution: assigns probabilities to possible values.
-*   Expected value, variance, and standard deviation are key concepts.
-*   Independence is crucial for understanding joint probability distributions.
+Solution:
+
+Expected value: $E(X) = np = 10 \times 0.5 = 5$
+
+Variance: $Var(X) = np(1-p) = 10 \times 0.5 \times (1-0.5) = 2.5$
+
+Standard deviation: $\sigma = \sqrt{Var(X)} = \sqrt{2.5} = 1.58$ (rounded to 2 decimal places)
+
+### Common Pitfalls
+* Confusing the expected value with the median or mode.
+* Failing to account for the parameter values when applying distribution formulas.
+
+### Quick Summary
+* Random variables are functions that assign real numbers to outcomes of an experiment.
+* Types: discrete, continuous.
+* Probability distributions: exponential, binomial.
+* Key formulas and theorems: expected value, variance, CDF.

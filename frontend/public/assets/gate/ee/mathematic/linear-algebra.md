@@ -1,106 +1,118 @@
 **Linear Algebra Theory Note**
-=====================================
+==========================
 
 **Introduction**
 ---------------
 
-Linear algebra is a fundamental branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It provides an essential framework for solving systems of equations, finding vectors and matrices, and analyzing the properties of linear transformations.
+Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It has numerous applications in fields such as engineering, physics, computer science, and economics.
 
 **Core Concepts**
 -----------------
 
 ### Vectors and Vector Operations
 
-*   **Vector Addition**: Given two vectors $\mathbf{u}$ and $\mathbf{v}$ in a vector space $V$, their sum is defined as $\mathbf{u} + \mathbf{v}$.
-*   **Scalar Multiplication**: For any scalar $c$ and vector $\mathbf{v}$, the product $c\mathbf{v}$ is defined.
-*   **Dot Product**: The dot product of two vectors $\mathbf{u}$ and $\mathbf{v}$ is denoted as $\mathbf{u} \cdot \mathbf{v}$.
+A **vector** is a mathematical object that represents a quantity with both magnitude (length) and direction.
 
-### Matrices and Matrix Operations
+* **Magnitude**: The length of the vector.
+* **Direction**: The direction of the vector in space.
+* **Scalar multiplication**: Multiplying a vector by a scalar changes its magnitude but not its direction. `v \cdot c = |c| \cdot v`
+* **Vector addition**: Adding two vectors results in a new vector whose components are the sums of corresponding components.
 
-*   **Matrix Addition**: Given two matrices $A$ and $B$, their sum is defined as $A + B$.
-*   **Scalar Multiplication**: For any scalar $c$ and matrix $A$, the product $cA$ is defined.
-*   **Matrix Multiplication**: The product of two matrices $A$ and $B$ is denoted as $AB$.
+### Matrix Operations
+
+A **matrix** is a rectangular array of numbers.
+
+* **Matrix multiplication**: Multiplying two matrices results in another matrix whose elements are determined by the dot product of rows and columns. `A \cdot B = C`
+* **Identity matrix**: A square matrix with ones on the main diagonal and zeros elsewhere, used to represent the identity transformation. `I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}`
 
 ### Linear Transformations
 
-*   **Linear Transformation**: A linear transformation $T: V \to W$ between vector spaces $V$ and $W$ is a function that preserves the operations of vector addition and scalar multiplication.
-*   **Kernel and Image**: The kernel (or null space) of $T$ is the set of all vectors in $V$ that are mapped to the zero vector in $W$, while the image (or range) of $T$ is the set of all vectors in $W$ that are reached by $T$.
+A **linear transformation** is a function that maps one vector space to another while preserving linear combinations.
 
-### Determinants and Orthogonality
-
-*   **Determinant**: The determinant of a square matrix $A$ is denoted as $\det(A)$ and can be used to determine the invertibility of $A$.
-*   **Orthogonal Vectors**: Two vectors $\mathbf{u}$ and $\mathbf{v}$ are orthogonal if their dot product is zero, i.e., $\mathbf{u} \cdot \mathbf{v} = 0$.
+* **Kernel**: The set of vectors that are mapped to the zero vector. `Ker(T) = \{v: T(v) = 0\}`
+* **Image**: The set of vectors that are mapped from some other vector. `Im(T) = \{T(v): v \in V\}`
 
 **Key Formulas/Theorems**
--------------------------
+------------------------
 
-*   **Vector Addition Formula**: $\mathbf{u} + \mathbf{v} = (\mathbf{u}_1 + \mathbf{v}_1, \ldots, \mathbf{u}_n + \mathbf{v}_n)$
-*   **Scalar Multiplication Formula**: $c\mathbf{v} = (c\mathbf{v}_1, \ldots, c\mathbf{v}_n)$
-*   **Dot Product Formula**: $\mathbf{u} \cdot \mathbf{v} = u_1v_1 + \ldots + u_nv_n$
-*   **Matrix Multiplication Formula**: $(AB)_{ij} = \sum_k a_{ik}b_{kj}$
+### Linear Independence and Basis
 
-```latex
-\begin{align*}
-    (AB)_{ij} &= \sum_k a_{ik}b_{kj}\\
-    &= \left( \sum_k a_{ik}b_{kj} \right)
-\end{align*}
-```
+A set of vectors is **linearly independent** if none of the vectors can be expressed as a linear combination of the others.
+
+* **Span**: The span of a set of vectors is the set of all possible linear combinations. `span(V) = \{v: v = \sum_{i} c_i v_i, c_i \in \mathbb{R}\}`
+* **Basis**: A basis for a vector space is a set of linearly independent vectors that span the entire space.
+
+### Determinants
+
+The **determinant** of a square matrix is a scalar value that can be used to determine the solvability of a system of linear equations.
+
+* **Determinant of a 2x2 matrix**: `det(\begin{bmatrix} a & b \\ c & d \end{bmatrix}) = ad - bc`
+* **Determinant of an n x n matrix**: Can be calculated using various methods such as Laplace expansion or LU decomposition.
 
 **Problem Solving Patterns**
 ---------------------------
 
-### Finding the Normal Vector to a Plane
+### Q1 (ee_2023_7)
 
-To find the normal vector $\mathbf{n}$ to a plane defined by two vectors $\mathbf{u}$ and $\mathbf{v}$, we can use the cross product formula:
+Given the graph, which one of the following options represents the given function?
 
-$$\mathbf{n} = \mathbf{u} \times \mathbf{v}$$
+* **Step 1**: Analyze the graph to determine its characteristics.
+* **Step 2**: Identify the type of function represented by the graph (e.g., linear, quadratic, exponential).
+* **Step 3**: Match the characteristics and type of function with the options provided.
 
-### Finding the Image of a Linear Transformation
+### Q2 (ee_2023_11)
 
-To find the image of a linear transformation $T$, we need to determine which vectors in the domain are mapped to non-zero vectors in the range.
+Find the vector normal to the plane defined by `T \cdot W = 0`.
+
+* **Step 1**: Identify the equation defining the plane.
+* **Step 2**: Recognize that the normal vector is perpendicular to any vector in the plane.
+* **Step 3**: Use the given vector `[1,2,3]` as a vector in the plane and find its dot product with itself.
 
 **Examples with Solutions**
----------------------------
+-------------------------
 
-### Example 1: Finding the Normal Vector to a Plane
+### Example 1
 
-Find the normal vector $\mathbf{n}$ to the plane defined by the two vectors $\begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}$ and $\begin{pmatrix} 4 \\ 5 \\ 6 \end{pmatrix}$.
+Find the determinant of `A = \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}`
 
-Solution:
+* **Step 1**: Use the formula for a 2x2 matrix: `det(A) = (2)(5) - (3)(4)`
+* **Step 2**: Simplify the expression to find the determinant.
 
-```latex
-\begin{align*}
-    \mathbf{n} &= \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix} \times \begin{pmatrix} 4 \\ 5 \\ 6 \end{pmatrix}\\
-    &= \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix}\\
-    &= (12-15)\mathbf{i} - (6-12)\mathbf{j} + (5-8)\mathbf{k}\\
-    &= \begin{pmatrix} -3 \\ 6 \\ -3 \end{pmatrix}
-\end{align*}
-```
+### Example 2
 
-### Example 2: Finding the Image of a Linear Transformation
+Find the vector normal to the plane defined by `T \cdot W = 0`, given that `[1,2,3]` is a vector in the plane.
 
-Find the image of the linear transformation $T$ that maps $\begin{pmatrix} x \\ y \\ z \end{pmatrix}$ to $\begin{pmatrix} 2x-3y+z \\ -4x+5y-2z \\ 7x-y+z \end{pmatrix}$.
-
-Solution:
-
-To find the image of $T$, we need to determine which vectors in the domain are mapped to non-zero vectors in the range. Let's choose some vectors and apply the transformation:
-
-$$\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} \mapsto \begin{pmatrix} 2-3+0 \\ -4+0-0 \\ 7-0+0 \end{pmatrix} = \begin{pmatrix} -1 \\ -4 \\ 7 \end{pmatrix}$$
-
-Since the resulting vector is non-zero, we can conclude that the image of $T$ contains all vectors in $\mathbb{R}^3$.
+* **Step 1**: Recognize that any vector perpendicular to `[1,2,3]` will be normal to the plane.
+* **Step 2**: Find the cross product of `[1,2,3]` with itself to get a vector perpendicular to it.
+* **Step 3**: Simplify the result.
 
 **Common Pitfalls**
 ------------------
 
-*   Failing to recognize the importance of linear independence when working with matrices and linear transformations.
-*   Making errors when computing determinants or applying matrix operations.
+* Failing to recognize linear independence and basis in vector spaces.
+* Misapplying determinant properties (e.g., swapping rows or columns).
+* Confusing kernel and image of linear transformations.
 
 **Quick Summary**
------------------
+----------------
 
-*   **Vectors**: addition, scalar multiplication, dot product
-*   **Matrices**: addition, scalar multiplication, matrix multiplication
-*   **Linear Transformations**: kernel, image, composition
-*   **Determinants and Orthogonality**: properties and applications
+### Key Concepts:
 
-This comprehensive theory note covers all the essential concepts in linear algebra that are tested in GATE exams. The detailed explanations, examples, and formulas will help students develop a deep understanding of these topics and prepare them for future questions.
+* Vectors and vector operations
+* Matrix operations
+* Linear transformations
+* Determinants
+* Basis and span of a set of vectors
+
+### Key Formulas/Theorems:
+
+* Scalar multiplication: `v \cdot c = |c| \cdot v`
+* Vector addition: `a + b = (a_1 + b_1, a_2 + b_2)`
+* Matrix multiplication: `A \cdot B = C`
+* Determinant of 2x2 matrix: `det(A) = ad - bc`
+
+### Tips and Tricks:
+
+* Pay attention to scalar multiplication when working with vectors.
+* Use the correct notation for linear transformations (e.g., `T(v)` instead of `Tv`).
+* Verify that the basis is linearly independent.

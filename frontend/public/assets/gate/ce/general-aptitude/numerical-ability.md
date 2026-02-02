@@ -1,91 +1,135 @@
-**Numerical Ability - General Aptitude**
+**Numerical Ability Theory Note**
 =====================================
 
 **Introduction**
 ---------------
 
-Numerical Ability (NA) is a crucial component of the GATE CS exam, comprising approximately 15% of the total marks. It tests your ability to perform mathematical calculations and apply logical reasoning to solve problems.
+Numerical ability is a crucial component of the GATE CS exam, testing your ability to solve problems involving numbers, patterns, and logical reasoning. This note covers essential concepts, formulas, and problem-solving strategies to help you tackle numerical ability questions.
 
 **Core Concepts**
 -----------------
 
-### Number System
+### Frequency Distribution
 
-*   **Decimal System**: The decimal system uses base-10 (0-9) and is commonly used in everyday life.
-    *   Example: 1234 in base-10 is equal to $1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0$
-*   **Binary System**: The binary system uses base-2 (0,1) and is the foundation of computer science.
-    *   Example: 101 in base-2 is equal to $1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0$
-*   **Octal System**: The octal system uses base-8 (0-7) and is commonly used in computing.
-    *   Example: 123 in base-8 is equal to $1 \times 8^2 + 2 \times 8^1 + 3 \times 8^0$
+*   A frequency distribution is a table or chart that displays the frequency of each value in a dataset.
+*   It helps identify patterns, modes, and outliers.
 
-### Exponents and Logarithms
+### Mean, Median, Mode
 
-*   **Exponent Rules**: Familiarize yourself with the rules of exponents, including:
-    *   Product Rule: $a^m \times a^n = a^{m+n}$
-    *   Power Rule: $(a^m)^n = a^{mn}$
-    *   Quotient Rule: $\frac{a^m}{a^n} = a^{m-n}$
-*   **Logarithmic Functions**: Understand the properties of logarithms, including:
-    *   Logarithmic Identity: $log_b(a) = \frac{1}{log_a(b)}$
-    *   Change of Base Formula: $log_b(a) = \frac{log_c(a)}{log_c(b)}$
+*   **Mean**: The average value of a dataset. Calculated by summing all values and dividing by the number of values (Σx / n).
+*   **Median**: The middle value of a sorted dataset. If there are an even number of values, it's the average of the two middle values.
+*   **Mode**: The most frequently occurring value in a dataset.
 
-### Other Concepts
+### Invertible Matrices
 
-*   **Modular Arithmetic**: Familiarize yourself with the concepts of modular arithmetic, including:
-    *   Congruence Relations: $a \equiv b \pmod{n}$
-    *   Modular Addition and Multiplication: $(a+b) \pmod{n}$ and $(ab) \pmod{n}$
-*   **Permutations and Combinations**: Understand the concepts of permutations and combinations, including:
-    *   Permutation Formula: $P(n,r) = \frac{n!}{(n-r)!}$
-    *   Combination Formula: $C(n,r) = \frac{n!}{r!(n-r)!}$
+*   A square matrix is invertible if its determinant is non-zero.
+*   The inverse of a 2x2 matrix [a, b; c, d] can be calculated using the formula:
 
-### Problem Solving Patterns
+$$\frac{1}{ad - bc} \begin{bmatrix}d &amp; -b \\-c &amp; a\end{bmatrix}$$
 
-1.  **Guess and Check**: Use this strategy for problems with multiple-choice answers, especially when the question is not straightforward.
-2.  **Unit Analysis**: Break down the problem into smaller units, using dimensional analysis to check your answer.
+### Probability
+
+*   The probability of an event is the number of favorable outcomes divided by the total number of possible outcomes.
+
+**Key Formulas/Theorems**
+-------------------------
+
+### Mean, Median, Mode Relationship
+
+Given a frequency distribution:
+
+| Value | Frequency |
+| --- | --- |
+| 10    | 3        |
+| 11    | 2        |
+| ...   | ...      |
+
+The mode is the value with the highest frequency. The median can be found by sorting the values and selecting the middle one (or averaging if there are an even number of values). The mean is calculated using the formula: (Σx \* f) / Σf, where x is the value and f is its frequency.
+
+### Probability Formula
+
+P(A or B) = P(A) + P(B) - P(A and B)
+
+**Problem Solving Patterns**
+---------------------------
+
+### Frequency Distribution
+
+When analyzing a frequency distribution:
+
+1.  Identify the mode by finding the most frequent value.
+2.  Sort the values to find the median (or average if there are an even number of values).
+3.  Calculate the mean using the formula: (Σx \* f) / Σf.
+
+### Invertible Matrices
+
+When dealing with invertible matrices:
+
+1.  Check if the determinant is non-zero.
+2.  If it's non-zero, calculate the inverse using the formula:
+    $$\frac{1}{ad - bc} \begin{bmatrix}d &amp; -b \\-c &amp; a\end{bmatrix}$$
+
+### Probability
+
+When solving probability questions:
+
+1.  Calculate the number of favorable outcomes.
+2.  Divide by the total number of possible outcomes.
 
 **Examples with Solutions**
+-------------------------
 
-Example 1: Find the value of $x$ in the equation $8^x = 256$
+### Example 1: Frequency Distribution
 
-Solution:
+| Value | Frequency |
+| --- | --- |
+| 10    | 3        |
+| 11    | 2        |
 
-Using logarithmic properties:
+Find the mode, median, and mean:
 
-$$log_8(256) = x \Rightarrow log_8(2^8) = x \Rightarrow 8\cdot log_8(2) = x \Rightarrow x = 3$$
+Mode: The value with the highest frequency is 10 (mode = 10).
 
-Example 2: Find the unit's place in $11001626591749$
+Median: Sorting the values, we find the median is between 10 and 11. Since there are an even number of values, we average them: (10 + 11) / 2 = 10.5.
 
-Solution:
+Mean: Using the formula (Σx \* f) / Σf:
 
-Divide the number by 10,000 and take the remainder.
+(10 \* 3 + 11 \* 2) / (3 + 2) = (30 + 22) / 5 = 52/5 = 10.4
 
-$1100162659 \div 10,000 = 11001$ with a remainder of 659.
+### Example 2: Invertible Matrices
 
-The next digit is the unit's place, which is **1**.
+Given the matrix [a, b; c, d]:
 
-### Common Pitfalls
+Calculate its inverse:
 
-*   **Rounding Errors**: Avoid rounding numbers unnecessarily, as this can lead to incorrect answers.
-*   **Significant Figures**: Keep track of significant figures when performing calculations.
-*   **Unit Analysis**: Verify your answer using dimensional analysis.
+Inverse = (1 / (ad - bc)) \* [d, -b; -c, a]
 
-### Quick Summary
+### Example 3: Probability
+
+A fair coin is flipped twice. What's the probability of getting exactly one head?
+
+Number of favorable outcomes = 2 (HHT, HTH)
+
+Total number of possible outcomes = 4 (HHH, HHT, THH, TTT)
+
+Probability = Number of favorable outcomes / Total number of possible outcomes = 2/4 = 1/2
+
+**Common Pitfalls**
 ------------------
 
-*   Number System (Decimal, Binary, Octal)
-*   Exponents and Logarithms (Rules, Properties)
-*   Modular Arithmetic (Congruence Relations, Modular Operations)
-*   Permutations and Combinations (Formulas)
+*   Failing to identify the mode in a frequency distribution.
+*   Calculating the mean incorrectly using the formula: (Σx) / n instead of (Σx \* f) / Σf.
+*   Assuming a matrix is invertible without checking its determinant.
 
-This comprehensive theory note covers all the essential concepts for Numerical Ability in the GATE CS exam. Make sure to practice problems and apply these concepts to achieve mastery.
+**Quick Summary**
+----------------
 
-**Mermaid Diagrams**
---------------------
-
-```mermaid
-graph LR;
-    A[Decimal System] --> B[Binary System];
-    C[Octal System] --> D[Modular Arithmetic];
-    E[Exponents and Logarithms] --> F[Permutations and Combinations];
-```
-
-Note: The above Mermaid diagram illustrates the relationships between different concepts in Numerical Ability.
+*   Frequency Distribution:
+    + Mode = most frequent value
+    + Median = middle value (or average if an even number)
+    + Mean = (Σx \* f) / Σf
+*   Invertible Matrices:
+    + Check determinant (ad - bc ≠ 0)
+    + Calculate inverse using formula: (1 / (ad - bc)) \* [d, -b; -c, a]
+*   Probability:
+    + Number of favorable outcomes ÷ Total number of possible outcomes

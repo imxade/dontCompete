@@ -29,12 +29,12 @@ The system is split into two autonomous components that communicate via shared f
 ### Prerequisites
 *   [Docker Desktop](https://docs.docker.com/get-docker/) or Docker Engine + Compose.
 *   [Git](https://git-scm.com/).
-*   [Git LFS](https://git-lfs.github.com/).
+<!-- *   [Git LFS](https://git-lfs.github.com/). -->
 
 ### Quick Start
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/dont-compete.git
+    git clone https://github.com/imxade/dont-compete.git
     cd dont-compete
     ```
 

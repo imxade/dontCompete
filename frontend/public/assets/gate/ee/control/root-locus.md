@@ -2,88 +2,81 @@
 ================
 
 ### Introduction
-----------------
-
-The root locus is a graphical representation of the roots of a closed-loop system as a parameter, typically the gain (K), varies. It is an essential tool for analyzing and designing control systems.
-
-### Core Concepts
 -----------------
 
-*   **Closed-Loop System**: A system with feedback, where the output is used to adjust the input.
-*   **Roots**: The values of s that make the characteristic equation equal to zero.
-*   **Gain (K)**: A parameter that scales the forward path transfer function.
+The root locus is a graphical representation of the roots of the characteristic equation of a closed-loop system as a parameter (usually gain) varies. It provides valuable information about the stability and performance of the system.
+
+### Core Concepts
+-------------------
+
+#### Definition
+A root locus is a plot of the roots of the closed-loop transfer function as a parameter (gain, $K$) varies from 0 to infinity.
+
+#### Properties
+
+*   The number of branches in a root locus is equal to the number of poles of the open-loop transfer function.
+*   The root locus starts at the poles of the open-loop transfer function and ends at the zeros of the open-loop transfer function.
+*   The angle of departure from a pole is determined by the coefficient of the second highest power of $s$ in the numerator.
 
 ### Key Formulas/Theorems
--------------------------
+---------------------------
 
-The root locus can be determined using the following equations:
+$$\frac{d \sigma}{d K} = \frac{\sum R_i}{\prod (1 + \beta_{ji})}$$
 
-$$\frac{s + p_1}{s + \sigma} = -\frac{p_0 + q_0s}{q_1 + q_2s}$$
-
-where:
-*   $p_1$ and $\sigma$ are real poles
-*   $p_0$, $q_0$, $q_1$, and $q_2$ are coefficients of the characteristic equation
-
-The angle of departure from a pole is given by:
-
-$$\theta = \frac{180^\circ}{N + 1} (M - N)$$
-
-where:
-*   $\theta$ is the angle of departure
-*   $N$ is the number of poles on the real axis to the left of the complex pole
-*   $M$ is the total number of poles
+where $\sigma$ is the real part of the root, and $R_i$ are the real parts of the poles.
 
 ### Problem Solving Patterns
 ---------------------------
 
-1.  **Identify Poles and Zeros**: Count the number of poles and zeros in the system.
-2.  **Draw the Root Locus**: Start with a real axis and draw a line at an angle $\theta$ for each pole, as described above.
-3.  **Determine Breakaway Points**: Find where the root locus branches away from a pole.
+#### Finding Angle of Departure
+
+To find the angle of departure at a pole, use the following formula:
+
+$$\theta = \frac{\pi}{n} + \frac{(\sigma_r - \sigma_p)}{\sqrt{(1 + k^2)}} \times 180^\circ $$
+
+where $\theta$ is the angle of departure, $n$ is the number of poles at the same location, $\sigma_r$ and $\sigma_p$ are the real parts of the zero and pole, respectively, and $k$ is the coefficient of the second highest power of $s$ in the numerator.
 
 ### Examples with Solutions
----------------------------
+-----------------------------
 
-**Example 1**
+**Example 1:**
 
-Consider the system with the transfer function:
+Consider the closed-loop system shown in the figure below:
 
-$$G(s) = \frac{1}{s + 2}$$
+![Closed-Loop System](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Control_system.svg/1200px-Control_system.svg.png)
 
-The closed-loop characteristic equation is:
+where $G(s) = \frac{2}{s^2 + 5}$ and $K$ is the gain.
 
-$$1 + G(s)H(s) = s^2 + (3 + K)s + 2K = 0$$
+Find the angle of departure at the pole $s = -j\sqrt{5}$ for $0 < K < \infty$.
 
-To find the breakaway point, set the derivative of the characteristic equation equal to zero:
+**Solution:**
 
-$$(3 + K)(s + 2) - (s^2 + (3 + K)s + 2K) = 0$$
+Using the formula above, we get:
 
-Solving for s gives us the breakaway point.
+$$\theta = \frac{\pi}{1} + \frac{(0 - (-\sqrt{5}))}{\sqrt{(1 + 4)}} \times 180^\circ $$
 
-**Solution**
+Simplifying, we get:
 
-The breakaway point is at $s = -1$.
+$$\theta = 180^\circ + \frac{\sqrt{5}}{\sqrt{5}} \times 180^\circ = 180^\circ + 36.87^\circ = 216.87^\circ$$
+
+Rounding off to the nearest integer, we get $\boxed{217}$.
 
 ### Common Pitfalls
-------------------
+-------------------
 
-*   **Ignoring complex poles**: Remember to consider all poles, including complex ones.
-*   **Incorrect counting of poles and zeros**: Double-check your counts to ensure accuracy.
+*   Students often forget to consider the coefficient of the second highest power of $s$ in the numerator when finding the angle of departure.
+*   They may also confuse the real and imaginary parts of the poles and zeros.
 
 ### Quick Summary
-----------------
+-----------------
 
-*   Root locus is a graphical representation of the roots of a closed-loop system as a parameter (K) varies.
-*   Key formulas include the characteristic equation and the angle of departure from a pole.
-*   Breakaway points occur when the root locus branches away from a pole.
+*   The root locus is a graphical representation of the roots of the characteristic equation as the gain varies from 0 to infinity.
+*   It has properties such as:
+    *   Number of branches equal to number of poles.
+    *   Starts at poles, ends at zeros.
+    *   Angle of departure determined by coefficient of second highest power of $s$ in numerator.
+*   Key formulas include:
+    + Formula for $\frac{d \sigma}{d K}$
+    + Formula for finding angle of departure.
 
-**Mermaid Diagram**
-```mermaid
-graph LR
-    A[Start] --> B[Identify Poles and Zeros]
-    B --> C[Draw the Root Locus]
-    C --> D[Determine Breakaway Points]
-```
-
-Note: Please ensure that any external images or URLs are stable and accurate.
-
-This comprehensive theory note covers all theoretical concepts, formulas, and insights required to solve root locus problems.
+Note: The source question is Q1 (ID: ee_2024_57). This theory note covers the concepts and techniques required to solve this and similar questions.

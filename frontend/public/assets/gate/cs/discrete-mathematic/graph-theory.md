@@ -1,124 +1,132 @@
-**Graph Theory**
-================
+**Graph Theory Study Note**
+==========================
 
 ### Introduction
 ---------------
 
-Graph theory is a branch of discrete mathematics that studies the properties and structures of graphs, which are non-linear data structures consisting of nodes (vertices) connected by edges. Graphs have numerous applications in computer science, engineering, and other fields.
+Graph theory is a branch of discrete mathematics that deals with the study of graphs, which are non-linear data structures consisting of nodes or vertices connected by edges. Graphs can be used to model many real-world systems, such as social networks, transportation networks, and computer networks.
 
 ### Core Concepts
 -----------------
 
-#### **What is a Graph?**
-A graph G = (V, E) consists of:
+#### Definition of a Graph
 
-*   A set of vertices V = {v1, v2, ..., vn}
-*   A set of edges E = {(u, v)| u, v ∈ V}
+A graph is defined as an ordered pair $G = (V,E)$ where:
 
-#### **Types of Edges**
+*   $V$ is a set of vertices or nodes.
+*   $E$ is a set of edges that connect the vertices.
 
-*   **Undirected Edge**: an edge without direction (e.g., AB)
-*   **Directed Edge** or **Arc**: an edge with a specified direction (e.g., AB→)
+**Example:** A social network can be represented as a graph, where each person is a vertex and each friendship is an edge between two vertices.
+
+#### Types of Graphs
+
+*   **Undirected Graph**: An undirected graph is a graph in which the edges have no direction. For example:
+    ```mermaid
+    graph LR
+    A[Start] --> B[Process]
+    ```
+    In this graph, there are two edges: $A \rightarrow B$ and $B \rightarrow A$, but they represent the same connection.
+*   **Directed Graph**: A directed graph is a graph in which the edges have direction. For example:
+    ```mermaid
+    graph LR
+    A[Start] --> B[Process]
+    B --> C[End]
+    ```
+    In this graph, there are two edges: $A \rightarrow B$ and $B \rightarrow C$. The first edge represents a connection from $A$ to $B$, while the second edge represents a connection from $B$ to $C$.
+
+#### Degree of a Vertex
+
+The degree of a vertex is the number of edges incident on it. For example, in the graph:
+
+    ```mermaid
+    graph LR
+    A[Start] --> B[Process]
+    C --> D[End]
+    ```
+    The vertex $A$ has degree 1 (one edge), while the vertex $C$ has degree 2 (two edges).
+
+#### Connectivity
+
+A graph is said to be connected if there exists a path between every pair of vertices. For example:
+
+    ```mermaid
+    graph LR
+    A[Start] --> B[Process]
+    B --> C[End]
+    ```
+    This graph is connected because there are paths from $A$ to $B$, and from $B$ to $C$.
 
 ### Key Formulas/Theorems
----------------------------
 
-1.  **Handshaking Lemma**:
-    $$
-    \sum_{v\in V} \deg(v) = 2|E|
-    $$
-
-    Where $\deg(v)$ is the degree of vertex v, and |E| is the number of edges.
-
-2.  **Tree Properties**
-
-    *   A tree with n vertices has n - 1 edges.
-    *   Every tree with more than one vertex has at least two leaves (vertices with degree 1).
+*   **Handshaking Lemma**: The sum of the degrees of all vertices in a graph is equal to twice the number of edges. Mathematically, this can be represented as:
+    $$\sum_{v \in V} deg(v) = 2|E|$$
+*   **Euler's Formula for Planar Graphs**: If a graph is planar (can be drawn in a plane without any edge crossings), then the number of vertices ($V$), edges ($E$), and faces ($F$) satisfy the following equation:
+    $$V - E + F = 2$$
 
 ### Problem Solving Patterns
 ---------------------------
 
-#### **Determining Spanning Trees**
-A spanning tree of a graph is a subgraph that includes all the vertices and some edges. We can calculate the number of spanning trees using the following formula:
-
-$$
-T = \frac{n^{n-2}}{2}
-$$
-
-where n is the number of vertices.
-
-#### **Depth-First Traversal**
-A depth-first traversal (DFT) visits a vertex before visiting any of its neighbors. A DFT can be classified into four types: 
-
-*   **Back Edge**: An edge that goes back to an ancestor vertex.
-*   **Cross Edge**: An edge that goes to a non-ancestor and non-descendant vertex.
-*   **Forward Edge**: An edge that connects a parent vertex with one of its descendants.
-*   **Tree Edge**: An edge connecting two adjacent vertices in the traversal tree.
+*   **Path Finding**: Given two vertices $u$ and $v$, find a path from $u$ to $v$. This can be done using graph traversal algorithms such as Depth-First Search (DFS) or Breadth-First Search (BFS).
+*   **Shortest Path**: Find the shortest path between two vertices in a weighted graph. This can be done using algorithms such as Dijkstra's algorithm or Bellman-Ford algorithm.
 
 ### Examples with Solutions
 ---------------------------
 
-**Example 1: Determining Spanning Trees**
+**Example 1:** A directed acyclic graph (DAG) has a source vertex $s$, and the quality-score of each vertex is defined to be the product of the weights of the edges on the path. The quality-score of $s$ is assumed to be 1.
 
-A complete graph K4 has four vertices (A, B, C, D). Calculate the number of spanning trees.
+    ```markdown
+    # The given graph
 
-Solution:
+    g
+    t
+    f
+    1
+    1
+    9
+    9
+    c
+    d
+    e
+    9
+    1
+    9
+    1
+    1
+    1
+    9
+    1
+    b
+    a
+    s
 
-| V | E |
-| --- | --- |
-| 4 | $\frac{4 \times 3}{2} = 6$ |
+    # Calculate the quality-score of each vertex
 
-$$
-T = \frac{n^{n-2}}{2} = \frac{4^{4-2}}{2} = \frac{16}{2} = 8
-$$
+    Quality-score(s) = 1
+    Quality-score(g) = 1 × 9 = 9
+    Quality-score(t) = max(9, 9) = 9
+    Quality-score(f) = max(1, 9) = 9
+    ...
+    ```
+**Example 2:** The number of spanning trees in a complete graph with 4 vertices labelled A, B, C, and D is given by the formula:
 
-But in a complete graph, each vertex is connected to every other vertex. Hence:
+    $$\text{Number of Spanning Trees} = n^{n-2}$$
 
-| V | E |
-| --- | --- |
-| 4 | $\frac{n(n-1)}{2} = \frac{4(3)}{2} = 6$ |
+    where $n$ is the number of vertices. In this case, $n=4$, so:
 
-Since the number of edges remains constant (6), we can apply the formula directly.
-
-$$
-T = \frac{n^{n-2}}{2} = \frac{4^{4-2}}{2} = \frac{16}{2} = 8
-$$
-
-However, since it's a complete graph, there are multiple spanning trees. We calculate this as follows:
-
-For n vertices, the number of edges in a complete graph is $\frac{n(n-1)}{2}$. Each edge can be either included or excluded from the spanning tree.
-
-Thus, for each edge, we have 2 choices, leading to $2^{\frac{n(n-1)}{2}}$ possible spanning trees. Since there are n vertices, we need to exclude one vertex and its associated edges. This reduces our number of options by a factor of $\frac{n}{n} = 1$, making the total number of spanning trees:
-
-$$
-T' = \frac{n^{n-2}}{2} = \frac{4^{4-2}}{2} = \frac{16}{2} = 8
-$$
-
-However, since there are multiple spanning trees in a complete graph, we need to account for this by multiplying the result above by $2^{\frac{n(n-1)}{2} - (n-1)}$.
-
-Since $\frac{n(n-1)}{2} - (n-1) = \frac{(n-2)(n+1)}{2}$, and there are n vertices:
-
-$$
-T'' = 2^{\frac{(n-2)(n+1)}{2}} \times T' = 16
-$$
-
-Hence, the total number of spanning trees in a complete graph with four vertices is indeed $\boxed{16}$.
+    $$\text{Number of Spanning Trees} = 4^{4-2} = 4^2 = 16$$
 
 ### Common Pitfalls
--------------------
+------------------
 
-*   **Oversimplifying** complex concepts.
-*   **Not accounting for edge cases** in graphs (e.g., isolated vertices).
-*   **Misapplying formulas**, especially when the given graph type doesn't fit perfectly into the formula's assumptions.
+*   **Confusing Directed and Undirected Graphs**: Be careful when dealing with graphs to determine whether they are directed or undirected.
+*   **Failing to Account for Multiple Paths**: When calculating the quality-score of a vertex in a DAG, make sure to consider all possible paths from the source vertex.
 
 ### Quick Summary
----------------
+-----------------
 
-| Concept        | Description                                                                                         |
-| :------------- | :------------------------------------------------------------------------------------------------- |
-| Graph          | A set of vertices connected by edges.                                                                |
-| Tree           | A subgraph with all vertices and n - 1 edges (n being the number of vertices).                       |
-| Handshaking    | The sum of vertex degrees equals twice the edge count.                                                 |
-| Depth-First Traversal | Visits a vertex before visiting any neighbors; can be classified into back, cross, forward, or tree edges.|
+*   A graph is an ordered pair $G = (V,E)$ where $V$ is a set of vertices and $E$ is a set of edges.
+*   Graphs can be classified into directed and undirected graphs, depending on whether the edges have direction or not.
+*   The degree of a vertex is the number of edges incident on it.
+*   A graph is connected if there exists a path between every pair of vertices.
 
-Note: This study note has been designed to provide comprehensive coverage of Graph Theory concepts with exam-focused explanations and detailed examples. It should serve as a valuable resource for students aiming to excel in the GATE CS exam, particularly when it comes to graph theory questions like those provided in the source materials.
+This study note covers the fundamental concepts in graph theory, including definitions, types of graphs, and key formulas. It also includes examples with solutions to illustrate how these concepts can be applied to solve problems.

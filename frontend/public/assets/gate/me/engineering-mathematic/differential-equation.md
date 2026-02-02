@@ -1,90 +1,83 @@
 **Differential Equations**
-==========================
+=========================
 
 ### Introduction
 
-Differential equations are mathematical equations that describe how a quantity changes over time or space. They are essential tools for modeling and predicting real-world phenomena in various fields, including physics, engineering, economics, and biology.
+Differential equations are mathematical statements that describe how a quantity changes over time or space. They are fundamental to modeling real-world phenomena, and their solutions provide insights into physical systems. In this section, we will cover the core concepts of differential equations, key formulas, problem-solving patterns, and examples with solutions.
 
 ### Core Concepts
 
-#### Definition of a Differential Equation
+#### Definition
 
-A differential equation is an equation involving a function and its derivatives with respect to one or more variables.
+A differential equation is an equation that involves an unknown function and its derivatives.
 
-*   **Ordinary Differential Equations (ODEs)**: Involves the derivative of a function with respect to a single variable.
-*   **Partial Differential Equations (PDEs)**: Involves partial derivatives of a function with respect to multiple variables.
+*   **Ordinary Differential Equation (ODE)**: An ODE has a derivative with respect to one independent variable.
+    *   Example: $\frac{dy}{dx} = 3x^2$
+*   **Partial Differential Equation (PDE)**: A PDE has derivatives with respect to multiple independent variables.
+    *   Example: $\frac{\partial u}{\partial t} + c \frac{\partial u}{\partial x} = f(x,t)$
 
-#### Types of Differential Equations
+#### Types of ODEs
 
-*   **Linear ODEs**: Can be written in the form $y' + P(x)y = Q(x)$, where $P$ and $Q$ are functions.
-*   **Non-Linear ODEs**: Do not fit the linear form, often involving products or powers of derivatives.
-
-#### Solution Methods
-
-*   **Analytical Solutions**: Can be found using techniques like separation of variables, integration factors, and reduction of order.
-*   **Numerical Solutions**: Use computational methods to approximate solutions when analytical ones are difficult to obtain.
+*   **Linear ODE**: An ODE that can be written in the form $y' + p(t)y = q(t)$.
+    *   Example: $\frac{dy}{dx} - 2x y = e^{-x^2}$
+*   **Nonlinear ODE**: An ODE that cannot be written in linear form.
+    *   Example: $\frac{dy}{dx} + y^2 = \sin(x)$
 
 ### Key Formulas/Theorems
 
-$$
-\begin{aligned}
-&amp;\text{Linear ODEs: } y' + P(x)y = Q(x) \\
-&amp;\text{Euler's Method: } y_{n+1} = y_n + hf(y_n)
-\end{aligned}
-$$
+#### Linear Independence of Solutions
+
+A set of solutions is said to be linearly independent if none of the solutions can be expressed as a linear combination of the others.
+
+*   **Wronskian Test**: If the Wronskian of the solutions is nonzero, then the solutions are linearly independent.
+    *   $W = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
+
+#### Existence and Uniqueness Theorem
+
+If a function f(t,x) satisfies certain conditions, then there exists a unique solution to the ODE.
+
+*   **Peano's Theorem**: If $f: [a,b] \times \mathbb{R} \to \mathbb{R}$ is continuous and Lipschitz in x, then there exists a unique solution to the ODE.
+    *   $\frac{\partial f}{\partial t} + f(t,x) = g(x)$
 
 ### Problem Solving Patterns
 
-*   **Separation of Variables**: Rearrange the equation to isolate variables and integrate both sides.
-*   **Integration Factors**: Use a multiplying factor to make the left side of the equation exact.
+*   **Separation of Variables**: Separate the variables y and x on opposite sides of the equation.
+    *   Example: $\frac{dy}{dx} = \frac{x^2 + 1}{y}$
+*   **Integrating Factor Method**: Use an integrating factor to simplify the ODE.
 
 ### Examples with Solutions
 
-**Example 1: Linear ODE Solution**
+#### Example 1
 
-Solve $y' - y = 2x$ using an integrating factor.
+Solve the ODE:
 
-```mermaid
-graph LR
-A[Linear ODE] -->|Integrate Factor|> B[Integration Factor]
-B -->|Multiply Both Sides|> C[Simplified Equation]
-C -->|Solve for y'|> D[Solution]
-```
+$$\frac{dy}{dx} = x^2 y$$
 
-*   Find the integrating factor: $e^{\int -1 dx} = e^{-x}$.
-*   Multiply both sides by the integrating factor: $(e^{-x})y' - (e^{-x})y = 2xe^{-x}$.
-*   Recognize the left side as an exact derivative and integrate.
+**Solution**
 
-**Example 2: Numerical Solution**
+Separate the variables: $$\frac{dy}{y} = x^2 dx$$
+Integrate both sides: $$\ln|y| = \frac{x^3}{3} + C$$
 
-Use Euler's method to approximate the solution of $y' = x + y$ with initial condition $y(0) = 1$. Take a step size of $h=0.5$.
+#### Example 2
 
-```python
-import numpy as np
+Solve the ODE:
 
-def f(y, x):
-    return x + y
+$$\frac{d^2 y}{dx^2} - 4\frac{dy}{dx} + 4y = e^{-x}$$
 
-x_values = [0]
-y_values = [1]
+**Solution**
 
-for i in range(4): # we want to find the solution at 2 points (0, 1, 2, 3)
-    h = 0.5
-    new_x = x_values[-1] + h
-    new_y = y_values[-1] + h * f(y_values[-1], x_values[-1])
-    x_values.append(new_x)
-    y_values.append(new_y)
-
-print("Approximate solution at x=2:", y_values[2])
-```
+Use Laplace transform: $$s^2 Y(s) - sy(0) - y'(0) - 4 ( sY(s) - y(0) ) + 4Y(s) = \mathcal{L}\left\{e^{-x}\right\}$$
+Solve for Y(s): $$Y(s) = \frac{s+1}{(s^2-16)(s-1)}$$
 
 ### Common Pitfalls
 
-*   Forgetting to consider boundary conditions when solving PDEs.
-*   Assuming a linear ODE is separable without attempting separation of variables.
+*   **Forgetting to check the initial conditions**: Make sure to check the initial conditions carefully.
+*   **Misusing the integrating factor method**: Use the integrating factor method only when necessary.
 
 ### Quick Summary
 
-*   Differential equations describe how quantities change over time or space.
-*   Types include ordinary and partial, with linear and non-linear subcategories.
-*   Analytical solutions can be found using various techniques; numerical methods approximate when difficult to obtain.
+*   Differential equations are mathematical statements that describe how a quantity changes over time or space.
+*   Ordinary differential equations (ODEs) have derivatives with respect to one independent variable, while partial differential equations (PDEs) have derivatives with respect to multiple independent variables.
+*   Linear ODEs can be written in the form $y' + p(t)y = q(t)$, while nonlinear ODEs cannot.
+*   The Wronskian test is used to check linear independence of solutions.
+*   Peano's theorem provides conditions for existence and uniqueness of solutions.

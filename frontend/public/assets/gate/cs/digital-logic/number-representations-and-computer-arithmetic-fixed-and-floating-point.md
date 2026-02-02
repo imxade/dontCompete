@@ -1,83 +1,98 @@
 **Number Representations and Computer Arithmetic: Fixed and Floating Point**
-===========================================================
+====================================================================================
 
-### Introduction
+**Introduction**
+---------------
 
-In digital logic, number representations and computer arithmetic play a crucial role in processing information. The ability to accurately represent numbers and perform arithmetic operations is essential for efficient computation. This note covers the fundamental concepts of fixed-point and floating-point number representations, including cyclic redundancy check (CRC) based error detecting schemes.
+Computer arithmetic deals with the representation of numbers in binary form, which is essential for digital logic and computer science. This topic focuses on fixed-point and floating-point representations, including their advantages and disadvantages.
 
-### Core Concepts
+**Core Concepts**
+-----------------
 
-#### Fixed-Point Numbers
+### Bit-Level Operations
 
-Fixed-point numbers are a type of binary number representation where each bit has a specific weight or significance. The most significant bit (MSB) represents the sign, and subsequent bits represent increasing powers of two.
+*   **Bit**: The basic unit of information storage in a computer.
+*   **Byte**: A group of 8 bits representing a single character or number.
+*   **Shift Operation**: Moving the bits of a binary number to the left (left shift) or right (right shift).
+*   **Masking**: Applying a binary mask to select specific bits.
 
-#### Floating-Point Numbers
+### Fixed-Point Representation
 
-Floating-point numbers use a radix point to separate the integer part from the fractional part. They consist of three main components:
+*   **Fixed Point**: A binary number with a fixed position for the radix point.
+*   **Sign Bit**: The most significant bit indicating the sign of the number (0 for positive, 1 for negative).
+*   **Magnitude Bits**: The remaining bits representing the absolute value of the number.
 
-1. **Sign bit**: Indicates the sign of the number.
-2. **Exponent**: Represents the power of two that should be multiplied with the mantissa (fractional part).
-3. **Mantissa** (or Fraction): The actual value represented by the floating-point number.
+### Floating-Point Representation
 
-#### Cyclic Redundancy Check (CRC)
+*   **Floating Point**: A binary number with a variable position for the radix point.
+*   **Sign Bit**: The most significant bit indicating the sign of the number (0 for positive, 1 for negative).
+*   **Exponent Bits**: Representing the power of 2 to which the mantissa should be raised.
+*   **Mantissa Bits**: The remaining bits representing the fractional part of the number.
 
-The CRC is a polynomial-based error-detecting scheme used to ensure data integrity during transmission or storage. It generates a checksum based on the message bits and appends it as check bits at the end of the message.
+### Endianness
 
-### Key Formulas/Theorems
+*   **Big Endian**: A system where the most significant byte is stored first (e.g., Intel).
+*   **Little Endian**: A system where the least significant byte is stored first (e.g., ARM).
 
-$$
-\text{CRC}_{n+1} = \text{CRC}_n + (x^n) \cdot m_{n-1}
-$$
+**Key Formulas/Theorems**
+-------------------------
 
-where $\text{CRC}$ is the CRC value, $m$ is the message bit, and $x$ is the generator polynomial.
+$E=mc^2$
 
-### Problem Solving Patterns
+(No direct relevance, but a reminder that LaTeX can be used for math formulas)
 
-#### Pattern 1: CRC Calculation
+**Problem Solving Patterns**
+---------------------------
 
-Given a message `1100` and a generator polynomial `1011`, calculate the check bits using the CRC scheme:
+### Analyzing Byte Order
 
-1. Initialize $\text{CRC} = 0000$.
-2. Calculate $\text{CRC}_{n+1}$ for each bit in the message:
-	* For `m_3`: $\text{CRC}_4 = \text{CRC}_3 + (x^3) \cdot m_3 = 1010$
-	* For `m_2`: $\text{CRC}_5 = \text{CRC}_4 + (x^4) \cdot m_2 = 1101$
-	* For `m_1`: $\text{CRC}_6 = \text{CRC}_5 + (x^5) \cdot m_1 = 1010$
-3. The check bits are the last three bits of $\text{CRC}$.
+*   Identify the endianness of the system.
+*   Determine the byte order (big or little).
+*   Calculate the numerical value in both systems.
 
-#### Pattern 2: Floating-Point Operations
+### Converting Between Fixed and Floating Point
 
-Given a floating-point number `(-7.5)_10` in binary format, perform addition with another floating-point number `(4.25)_10`.
+*   Understand the representation of fixed-point numbers.
+*   Convert fixed-point numbers to floating-point numbers by rearranging bits.
+*   Use scaling factors for accurate conversion.
 
-### Examples with Solutions
+**Examples with Solutions**
+---------------------------
 
-**Example 1:** Calculate the check bits for message `1100` using generator polynomial `1011`
+### Q1 (cs_2021-N_25)
 
-Using Pattern 1:
+If the numerical value of a 2-byte unsigned integer on a little-endian computer is 255 more than that on a big-endian computer, which choice represents the unsigned integer on a little-endian computer?
 
-* $\text{CRC}_3 = \text{CRC}_2 + (x^2) \cdot m_2 = 1010$
-* $\text{CRC}_4 = \text{CRC}_3 + (x^3) \cdot m_3 = 1101$
-* The check bits are `100`.
+```mermaid
+graph LR
+A[Start] --> B[Little Endian]
+B --> C[Big Endian]
+C --> D[Difference of 255]
+D --> E[Represented as Unsigned Integer]
+E --> F[Choice (B) or (D)]
+```
 
-**Example 2:** Perform floating-point addition for `-7.5` and `4.25`
+Solution:
 
-Using Pattern 2:
+| Choice | Description |
+| --- | --- |
+| A | Incorrect representation |
+| B | Correct representation (0 6665 ×) |
+| C | Incorrect representation |
+| D | Correct representation (0 0100 ×) |
 
-* Convert decimal numbers to binary: $(-7.5)_10$ becomes `(11110101)_2` (ignoring the sign) and `(01000100)_2`.
-* Perform addition, taking care of rounding errors:
-	+ Exponents: add `3 + 4 = 7`
-	+ Mantissas: add `1101000 + 0001000 = 1110000`
-	+ Combine results: `(-1.25)_10`
+The numerical value of a 2-byte unsigned integer on a little-endian computer is indeed 255 more than that on a big-endian computer. Both choice (B) and (D) represent the correct unsigned integer on a little-endian computer.
 
-### Common Pitfalls
+**Common Pitfalls**
+------------------
 
-* When performing CRC calculations, ensure the generator polynomial is applied correctly.
-* In floating-point operations, be aware of rounding errors and handle them accordingly.
+*   Confusing endianness when analyzing byte order.
+*   Misunderstanding the representation of fixed-point numbers.
 
-### Quick Summary
+**Quick Summary**
+-----------------
 
-* Fixed-point numbers use binary representation with each bit having a specific weight.
-* Floating-point numbers use radix point to separate integer part from fractional part.
-* Cyclic Redundancy Check (CRC) generates checksum based on message bits using polynomial-based error-detecting scheme.
-* Patterns 1 and 2 provide techniques for CRC calculation and floating-point operations, respectively.
-
-**Note:** This is a comprehensive theory note, but it may not cover all possible scenarios. Practice problems and additional resources are recommended to reinforce understanding.
+*   Understand bit-level operations, including shift and masking.
+*   Familiarize yourself with fixed-point and floating-point representations.
+*   Analyze byte order and convert between fixed and floating point accurately.
+*   Be aware of endianness when working with binary data.

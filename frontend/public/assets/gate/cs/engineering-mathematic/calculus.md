@@ -1,98 +1,81 @@
-**Calculus: A Comprehensive Theory Note**
-======================================
+**Calculus Theory Notes**
+=========================
 
-**Introduction**
----------------
-
-Calculus is a branch of mathematics that deals with studying continuous change, particularly in the context of functions and limits. It has numerous applications in physics, engineering, economics, and computer science. This note covers key concepts, formulas, and problem-solving strategies to help students tackle various calculus problems.
-
-**Core Concepts**
+### Introduction
 -----------------
 
-### Limits
+Calculus is a branch of mathematics that deals with the study of continuous change, particularly in the context of functions and limits. It has numerous applications in various fields such as physics, engineering, economics, and computer science.
 
-*   The concept of a limit is used to describe the behavior of a function as the input (or independent variable) approaches a specific value.
-*   The limit of a function f(x) as x approaches a is denoted by lim x→a f(x).
+### Core Concepts
+-----------------
 
-### Derivatives
+#### Limits
+------------
 
-*   A derivative represents the rate at which a function changes with respect to its input variable.
-*   It's calculated using the limit definition: f'(x) = lim h→0 [f(x+h) - f(x)]/h.
+The limit of a function $f(x)$ as $x$ approaches a value $a$, denoted by $\lim_{x\to a} f(x)$, is the value that the function approaches as it gets arbitrarily close to $a$. If the limit exists, we say that the function has a limit at that point.
 
-### Integrals
+#### Differentiation
+------------------
 
-*   An integral is used to find the area under curves, volumes of solids, and other quantities by summing infinitesimal parts.
-*   It can be thought of as the opposite operation of differentiation: ∫f(x) dx represents the antiderivative of f(x).
+Differentiation is the process of finding the derivative of a function. The derivative of a function $f(x)$ at a point $a$ is denoted by $f'(a)$. It represents the rate of change of the function with respect to $x$ at that point.
 
-**Key Formulas/Theorems**
-------------------------
+#### Integration
+----------------
 
-### L'Hopital's Rule
+Integration is the process of finding the definite integral of a function. The definite integral of a function $f(x)$ from $a$ to $b$ is denoted by $\int_{a}^{b} f(x) dx$. It represents the area under the curve of the function between the limits $a$ and $b$.
 
-*   Used to evaluate limits involving indeterminate forms (e.g., 0/0 or ∞/∞).
-*   If lim x→a [f(x)/g(x)] results in an indeterminate form, then apply the rule: lim x→a [f'(x)/g'(x)].
-
-### Fundamental Theorem of Calculus
-
-*   Establishes a relationship between derivatives and integrals.
-*   States that differentiation and integration are inverse processes: if f is the antiderivative of F, then f(x) = ∫F(x) dx.
-
-**Problem Solving Patterns**
+### Key Formulas/Theorems
 ---------------------------
 
-### 1. L'Hopital's Rule Application
+*   **Power Rule**: If $f(x)=x^n$, then $f'(x)=nx^{n-1}$.
+*   **Product Rule**: If $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$.
+*   **Quotient Rule**: If $f(x) = \frac{u(x)}{v(x)}$, then $f'(x) = \frac{u'(x)v(x)-u(x)v'(x)}{(v(x))^2}$.
+*   **Chain Rule**: If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
 
-*   Identify indeterminate forms (0/0 or ∞/∞).
-*   Apply L'Hopital's rule to rewrite the limit.
-*   Simplify and evaluate the resulting expression.
+### Problem Solving Patterns
+-----------------------------
 
-### 2. Limit Evaluation Using Basic Rules
+1.  **Identify the function and its limits**: Carefully read the problem statement to identify the function and its limits.
+2.  **Apply differentiation rules**: Use the power rule, product rule, quotient rule, or chain rule as applicable to find the derivative of the function.
+3.  **Evaluate integrals**: Use the fundamental theorem of calculus to evaluate definite integrals.
 
-*   Check for direct substitution.
-*   Apply algebraic manipulations if possible.
-*   Use the squeeze theorem if applicable.
+### Examples with Solutions
+---------------------------
 
-**Examples with Solutions**
--------------------------
+#### Example 1
 
-### Example 1: L'Hopital's Rule Application
-
-Evaluate the limit:
-
-lim x→0 [x^2 \* sin(1/x)] / (x + sin(1/x))
+Find $\int_{0}^{2} x^2 dx$
 
 Solution:
-*   Identify indeterminate form (0/0).
-*   Apply L'Hopital's rule to rewrite the limit.
-*   Simplify and evaluate the resulting expression.
 
-### Example 2: Basic Rules Application
+$\int_{0}^{2} x^2 dx = \left[\frac{x^3}{3}\right]_0^2$
 
-Evaluate the limit:
+$= \frac{2^3}{3}-\frac{0^3}{3}$
 
-lim x→∞ [x / (e^x - e^(-x))]
+$= \frac{8}{3}$
+
+#### Example 2
+
+Find the derivative of $f(x) = x^3 - 2x^2 + x - 1$
 
 Solution:
-*   Check for direct substitution.
-*   Algebraic manipulation: simplify the numerator.
-*   Evaluate the resulting expression.
 
-**Common Pitfalls**
--------------------
+$f'(x) = 3x^2 - 4x + 1$
 
-### 1. Indeterminate Forms
+### Common Pitfalls
+---------------------
 
-Be aware of common indeterminate forms (0/0 or ∞/∞) and apply L'Hopital's rule when necessary.
+*   **Incorrect application of differentiation rules**: Be careful to apply the correct rule for differentiation.
+*   **Failure to evaluate limits**: Make sure to carefully evaluate the limits before finding derivatives or integrals.
 
-### 2. Misapplication of Rules
-
-Familiarize yourself with basic limit rules to avoid misapplying them in complex problems.
-
-**Quick Summary**
+### Quick Summary
 -----------------
 
-*   Limits: behavior as input approaches a specific value.
-*   Derivatives: rate of change of a function with respect to its input variable.
-*   Integrals: area under curves, volumes of solids, and other quantities by summing infinitesimal parts.
-*   L'Hopital's rule: for indeterminate forms (0/0 or ∞/∞).
-*   Fundamental theorem of calculus: establishes relationship between derivatives and integrals.
+*   Limits, differentiation, and integration are fundamental concepts in calculus.
+*   Use power rule, product rule, quotient rule, and chain rule for differentiation.
+*   Apply fundamental theorem of calculus for evaluating definite integrals.
+
+**References**
+
+1.  [Calculus by Michael Spivak](https://www.amazon.com/Calculus-Michael-Spivak/dp/0914093888/)
+2.  [Calculus by James Stewart](https://www.amazon.com/Calculus-James-Stewart/dp/0538499664/)

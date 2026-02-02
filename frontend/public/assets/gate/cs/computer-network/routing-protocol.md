@@ -1,137 +1,107 @@
 **Routing Protocol Theory Note**
 =====================================
 
-**Introduction**
+### Introduction
 ---------------
 
-Routing protocols are used to exchange routing information between routers in a computer network, enabling them to determine the best path for forwarding packets. This note focuses on distance vector routing algorithms, which are a common type of routing protocol.
+Routing protocols are essential components of computer networks, enabling efficient data transfer between nodes. In this note, we'll delve into the theoretical concepts and formulas required to tackle questions related to routing protocols.
 
-**Core Concepts**
+### Core Concepts
 -----------------
 
-### Distance Vector Routing Algorithm
+#### Routing Tables
+A routing table is a data structure used by routers to store information about the network topology, including:
 
-The distance vector routing algorithm is a type of routing protocol that uses the Bellman-Ford algorithm to calculate the shortest path from each router to every other router in the network. Each router maintains a routing table that contains the minimum cost (distance) to reach every other router.
+* Destination IP addresses
+* Next-hop router IP addresses
+* Interface (outbound link) identifiers
 
-### Routing Table
+Routers use routing tables to make forwarding decisions for incoming packets.
 
-A routing table is a data structure maintained by each router that stores the minimum cost to reach every other router in the network. The routing table includes the following information:
+#### Distance Vector Routing
+Distance vector routing protocols, such as RIP (Routing Information Protocol), exchange routing table updates between neighboring routers. Each router maintains a copy of its neighbor's routing table and advertises its own routing table to neighbors.
 
-* Destination IP address
-* Next hop IP address (the next router on the path)
-* Cost (distance) to reach the destination
+Key aspects:
 
-### Routing Vectors
+* **Routing information**: Each entry in the routing table contains the destination IP address, next-hop router IP address, and metric (cost).
+* **Update interval**: Routers periodically send updates to their neighbors.
+* **Convergence**: When all routers agree on the network topology, they converge on a common set of routing tables.
 
-Routing vectors are messages sent between routers that contain the routing table of the sending router. Routing vectors are used to update the routing tables of neighboring routers.
+#### Link State Routing
+Link state routing protocols, such as OSPF (Open Shortest Path First), maintain a graph of the network's links and nodes. Each router calculates the shortest path to reach other nodes in the network.
 
-**Key Formulas/Theorems**
+Key aspects:
+
+* **Topology**: Each node maintains a link-state database, which contains information about all nodes and their associated links.
+* **Shortest paths**: Routers calculate the shortest path between each pair of nodes using Dijkstra's algorithm or Bellman-Ford algorithm.
+
+### Key Formulas/Theorems
 -------------------------
 
-The Bellman-Ford algorithm is used to calculate the shortest path from each router to every other router in the network. The algorithm can be represented by the following formula:
+#### Distance Vector Routing
 
-`d(v, w) = min(d(v, u) + c(u, w))`
+The metric used in distance vector routing is typically hop count, which represents the number of hops (routers) a packet must traverse to reach its destination. The routing table update formula for distance vector routing is:
 
-where `d(v, w)` is the minimum cost to reach node `w` from node `v`, `c(u, w)` is the cost of the edge between nodes `u` and `w`, and `d(v, u)` is the minimum cost to reach node `u` from node `v`.
-
-**Problem Solving Patterns**
----------------------------
-
-### Example 1: Distance Vector Routing Algorithm
-
-Consider a network with three routers (R, P, Q) and four edges between them. The costs of the edges are:
-
-| Edge | Cost |
-| --- | --- |
-| R -> P | 2 |
-| R -> Q | 3 |
-| P -> Q | 1 |
-
-Router R maintains a routing table that contains the minimum cost to reach every other router. After receiving routing vectors from its neighbors, Router R updates its routing table as follows:
-
-* Destination: P
-	+ Next hop: P
-	+ Cost: 2
-* Destination: Q
-	+ Next hop: Q
-	+ Cost: 3
-
-### Example 2: Routing Vectors
-
-Router X maintains a routing table that contains the minimum cost to reach every other router. After receiving routing vectors from its neighbors, Router X updates its routing table as follows:
-
-* Destination: P
-	+ Next hop: R
-	+ Cost: 5 (R -> P + 3)
-* Destination: Q
-	+ Next hop: R
-	+ Cost: 6 (R -> Q + 4)
-
-**Examples with Solutions**
----------------------------
-
-### Example 1
-
-Consider the network topology shown below:
-
-```mermaid
-graph LR
-    A[Router R] --> B[Router P]
-    A[Router R] --> C[Router Q]
-    B[Router P] --> D[Router X]
-    C[Router Q] --> E[Router Y]
+```latex
+D_{ij} = \min(D_{ik} + c_{k(j-i)})
 ```
 
-Router R measures its distance to its neighbors as follows:
+where $D_{ij}$ is the metric for reaching node $i$ from node $j$, $c_{k(j-i)}$ is the cost of link $(j-i)$, and $D_{ik}$ is the metric for reaching node $k$ from node $i$.
 
-* Distance to P: 2
-* Distance to Q: 3
+#### Link State Routing
 
-Router R receives routing vectors from its neighbors that indicate the following distances:
+The shortest path tree (SPT) algorithm, used in link state routing, calculates the shortest path between each pair of nodes. The SPT formula is:
 
-* Router X to P: 5
-* Router Y to Q: 4
-
-Using the Bellman-Ford algorithm, Router R updates its routing table as follows:
-
-* Destination: P
-	+ Next hop: P
-	+ Cost: 2
-* Destination: Q
-	+ Next hop: Q
-	+ Cost: 3
-
-### Example 2
-
-Consider the network topology shown below:
-
-```mermaid
-graph LR
-    A[Router X] --> B[Router R]
-    B[Router R] --> C[Router P]
-    B[Router R] --> D[Router Q]
-    E[Router Y] --> F[Router Z]
+```latex
+d(u,v) = \min_{p \in P(u)} d(p,u) + c(u,p) + d(v,p)
 ```
 
-Router X maintains a routing table that contains the minimum cost to reach every other router. After receiving routing vectors from its neighbors, Router X updates its routing table as follows:
+where $d(u,v)$ is the shortest distance from node $u$ to node $v$, $P(u)$ is the set of nodes in the network, and $c(u,p)$ is the cost of link $(u-p)$.
 
-* Destination: P
-	+ Next hop: R
-	+ Cost: 5 (R -> P + 3)
-* Destination: Q
-	+ Next hop: R
-	+ Cost: 6 (R -> Q + 4)
+### Problem Solving Patterns
+-----------------------------
 
-**Common Pitfalls**
-------------------
+1.  **Identify the routing protocol**: Understand whether it's a distance vector or link state protocol.
+2.  **Analyze the network topology**: Study the links, nodes, and their costs to determine the shortest path between nodes.
+3.  **Use the correct formula**: Apply the relevant formula (e.g., $D_{ij}$ for distance vector routing or SPT algorithm for link state routing).
+4.  **Consider convergence**: Ensure all routers agree on the network topology.
 
-* Failing to update the routing table correctly after receiving new information from neighbors.
-* Not using the Bellman-Ford algorithm to calculate the shortest path.
+### Examples with Solutions
+---------------------------
 
-**Quick Summary**
-----------------
+**Example 1: Distance Vector Routing**
 
-* Distance vector routing algorithm uses the Bellman-Ford algorithm to calculate the shortest path.
-* Routing table contains the minimum cost to reach every other router.
-* Routing vectors are used to update the routing tables of neighboring routers.
-* Bellman-Ford algorithm can be represented by the formula `d(v, w) = min(d(v, u) + c(u, w))`.
+Suppose we have a network with three nodes, A, B, and C. Node A has a direct link to node B (cost = 2) and an indirect link to node C through node B (cost = 4). The routing table for node A is:
+
+| Destination | Next-hop | Metric |
+| --- | --- | --- |
+| B | B | 0 |
+| C | B | 4 |
+
+Node A wants to send a packet to node C. Using the distance vector routing formula, we get:
+
+```latex
+D_{AC} = \min(D_{AB} + c_{B(C-A)}) = \min(2+4) = 6
+```
+
+**Solution**: The shortest path from node A to node C is through node B with a total metric of 6.
+
+### Common Pitfalls
+-------------------
+
+*   **Misunderstanding the routing protocol**: Ensure you identify whether it's distance vector or link state.
+*   **Incorrect network topology analysis**: Double-check links, nodes, and costs.
+*   **Incorrect formula application**: Use the correct formula for the given problem.
+
+### Quick Summary
+-----------------
+
+Key concepts covered in this theory note:
+
+*   Routing tables and their contents (destination IP addresses, next-hop router IP addresses, interface identifiers)
+*   Distance vector routing protocol (exchange of routing table updates between neighboring routers)
+*   Link state routing protocol (maintenance of a graph of the network's links and nodes)
+*   Key formulas: distance vector routing ($D_{ij}$), link state routing (SPT algorithm)
+*   Problem solving patterns: identify routing protocol, analyze network topology, use correct formula
+
+This comprehensive theory note will help you tackle questions related to routing protocols on the GATE CS exam.

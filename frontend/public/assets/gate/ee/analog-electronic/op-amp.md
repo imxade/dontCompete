@@ -1,88 +1,98 @@
-**Op-Amp Theory Notes**
-=======================
+**Op Amp: Theory and Applications**
+=====================================
 
-### Introduction
+**Introduction**
+---------------
+
+An operational amplifier (op-amp) is a fundamental building block in analog electronics, used for signal conditioning, amplification, and processing. The op-amp is a high-gain electronic voltage amplifier with a differential input and a single-ended output.
+
+**Core Concepts**
 -----------------
 
-An Operational Amplifier (Op-Amp) is a high-gain electronic voltage amplifier with differential inputs and, typically, a single output. In this note, we'll cover the theoretical concepts, formulas, and problem-solving patterns required to tackle Op-Amp related questions.
+### Ideal Op-Amp Characteristics
 
-### Core Concepts
------------------
+*   Infinite input impedance
+*   Zero output impedance
+*   Infinite open-loop gain (A\~)
+*   Infinite bandwidth
 
-*   **Ideal Op-Amp:** An ideal Op-Amp has infinite gain, zero input offset voltage, and infinite CMRR (Common Mode Rejection Ratio).
-*   **Input Resistance:** High input resistance ensures minimal loading on the input signal.
-*   **Output Resistance:** Low output resistance allows for easy connection to subsequent circuits.
+### Non-Ideal Op-Amp Characteristics
 
-### Key Formulas/Theorems
+*   Finite open-loop gain
+*   Input bias current and offset voltage
+*   Finite common-mode rejection ratio (CMRR)
+
+**Key Formulas/Theorems**
 -------------------------
 
-LaTeX used for math:
+### Voltage Gain of an Inverting Amplifier
 
-$$V_o = A(v_1 - v_2)$$
+$$V_o = -\frac{R_f}{R_i} \times V_{in}$$
 
-where $A$ is the open-loop gain of the Op-Amp, and $v_1$ and $v_2$ are the input voltages.
+### Non-Inverting Amplifier Voltage Gain
 
-For a difference amplifier (as seen in Q1), the formula simplifies to:
+$$V_o = \left( 1 + \frac{R_f}{R_g} \right) \times V_{in}$$
 
-$$V_o = A\frac{R_f}{R_i}(v_1 - v_2)$$
-
-where $R_f$ is the feedback resistor, and $R_i$ is the input resistor.
-
-### Problem Solving Patterns
+**Problem Solving Patterns**
 ---------------------------
 
-1.  **Identify the Op-Amp circuit type:** Understand whether it's a basic amplifier, an integrator, or a differentiator.
-2.  **Determine the CMRR value:** Given that the ideal Op-Amp has infinite CMRR, non-ideal behavior is typically caused by resistances and capacitances in the input stage.
-3.  **Solve for output voltage (V_o):** Apply the relevant formula based on the circuit type.
+### Identifying Op-Amp Types
 
-### Examples with Solutions
+*   Inverting amplifier: Input is connected to the inverting input, and output is taken from the output terminal.
+*   Non-inverting amplifier: Input is connected to the non-inverting input, and output is taken from the output terminal.
+
+**Examples with Solutions**
 ---------------------------
 
-Let's solve Q1:
+### Example 1: Inverting Amplifier
 
-```markdown
-Q1:
-A difference amplifier is shown in the figure.  Assume the op-amp to be ideal.  The CMRR (in dB) of 
-the difference amplifier is ________ (rounded off to 2 decimal places).
-```
+Given:
 
-Assuming an ideal Op-Amp, we can ignore the non-ideal effects for now.
+*   $R_i = 10k\Omega$
+*   $R_f = 5k\Omega$
+*   $V_{in} = 2V$
 
-Given circuit:
+Find the output voltage, $V_o$.
 
-```mermaid
-graph LR
-A[101k Ω] --> B[V_in1]
-C[10.5k Ω] --> D[-V_in2]
-E[9.5 k Ω] --> F[V_out]
-G[A] --> H[101.5 k Ω]
-```
+$$V_o = -\frac{R_f}{R_i} \times V_{in}$$
 
-Using the difference amplifier formula:
+$$V_o = -\frac{5k\Omega}{10k\Omega} \times 2V$$
 
-$$V_o = A\frac{R_f}{R_i}(v_1 - v_2)$$
+$$V_o = -0.5V$$
 
-Since $A$ is infinite (ideal Op-Amp), we can simplify to:
+### Example 2: Non-Inverting Amplifier
 
-$$V_o = \frac{R_f}{R_i}(v_1 - v_2)$$
+Given:
 
-For this problem, the CMRR is not explicitly needed. However, if you need to calculate it for a non-ideal Op-Amp, use:
+*   $R_g = 20k\Omega$
+*   $R_f = 10k\Omega$
+*   $V_{in} = 4V$
 
-$$CMRR = 20\log\left(\frac{\Delta R}{R}\right)$$
+Find the output voltage, $V_o$.
 
-where $\Delta R$ is the difference between the two input resistances.
+$$V_o = \left( 1 + \frac{R_f}{R_g} \right) \times V_{in}$$
 
-### Common Pitfalls
+$$V_o = \left( 1 + \frac{10k\Omega}{20k\Omega} \right) \times 4V$$
+
+$$V_o = 6V$$
+
+**Common Pitfalls**
 -------------------
 
-*   **Forgetting to consider non-ideal effects:** When dealing with real-world Op-Amps, don't ignore the effects of finite CMRR and temperature drift.
-*   **Incorrect application of formulas:** Make sure you're using the correct formula for each circuit type.
+*   Incorrectly assuming an ideal op-amp
+*   Misidentifying the type of amplifier (inverting vs. non-inverting)
+*   Failing to consider input bias current and offset voltage effects
 
-### Quick Summary
------------------
+**Quick Summary**
+------------------
 
-*   Ideal Op-Amp: Infinite gain, zero input offset voltage, infinite CMRR
-*   Difference amplifier formula: $V_o = A\frac{R_f}{R_i}(v_1 - v_2)$
-*   Non-ideal effects: Consider finite CMRR and temperature drift
+*   Op-amps have infinite input impedance, zero output impedance, and infinite open-loop gain.
+*   Non-ideal op-amp characteristics include finite open-loop gain, input bias current, and offset voltage.
+*   Inverting amplifiers have a negative voltage gain, while non-inverting amplifiers have a positive voltage gain.
 
-This note covers the essential concepts for solving Op-Amp related questions. By mastering these ideas, you'll be well-prepared to tackle even more complex problems in Analog Electronics!
+**References**
+
+*   [1] Analog Devices. (2022). Operational Amplifiers.
+*   [2] Texas Instruments. (2022). Op-Amps and Comparators.
+
+Note: This note is based on the provided source questions and may require additional details or explanations to cover all relevant concepts in analog electronics.

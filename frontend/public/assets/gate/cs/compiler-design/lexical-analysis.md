@@ -1,91 +1,80 @@
 **Lexical Analysis**
-======================
+=====================
 
-**Introduction**
----------------
-
-Lexical analysis is the first phase of a compiler's front end, responsible for scanning the source code and identifying the meaningful units (lexemes) within it. This process breaks down the source code into individual tokens that can be further analyzed by the parser.
-
-**Core Concepts**
+### Introduction
 -----------------
 
-*   **Token**: A sequence of characters representing a single unit of meaning in the source code.
-*   **Lexical Analysis Algorithm**: The algorithm used to perform lexical analysis, such as regular expressions or finite automata.
-*   **Scanner/Parser**: The scanner reads the input stream and produces tokens that are then passed to the parser for further processing.
+Lexical analysis, also known as scanning or tokenization, is the process of breaking a stream of characters into a set of meaningful units called tokens. It is the first phase of compilation and is responsible for identifying keywords, identifiers, literals, and symbols in the source code.
 
-**Key Formulas/Theorems**
--------------------------
+### Core Concepts
+------------------
 
-No specific formulas or theorems are directly related to lexical analysis. However, understanding the concept of regular languages and their representation using regular expressions is crucial.
+1. **Tokens**: Tokens are the basic building blocks of the source code. They can be either terminal or non-terminal.
+	* Terminal: A token that cannot be further divided into smaller tokens (e.g., `+`, `-`, `*`).
+	* Non-Terminal: A token that can be further divided into smaller tokens (e.g., `if`, `while`).
+2. **Lexemes**: Lexemes are the actual characters in the source code that match a specific token.
+3. **Regular Expressions**: Regular expressions are used to define the pattern of lexemes for each token.
+4. **Finite Automata**: Finite automata are used to recognize patterns in the input stream.
 
-### Regular Languages
-
-A regular language is a set of strings that can be recognized by a finite automaton (FA). The regular language represented by an FA can be specified using a regular expression, which is a string consisting of atoms and operators.
-
-*   **Atoms**: Literals in the regular expression, such as `a` or `(`.
-*   **Operators**:
-    *   `|`: Alternation
-    *   `.`: Kleene star (zero or more occurrences)
-    *   `+`: One or more occurrences
-
-### Example Regular Expression
-
-Suppose we want to match strings consisting of either the characters "ab" or "ba". The regular expression representing this language is:
-
-`ab|ba`
-
-**Problem Solving Patterns**
+### Key Formulas/Theorems
 ---------------------------
 
-When dealing with lexical analysis questions, focus on understanding the regular expressions and how they relate to the tokens being produced.
+* None
 
-*   **Token recognition**: Identify the patterns that match a particular token.
-*   **Tokenization**: Break down the input stream into individual tokens based on the recognized patterns.
+### Problem Solving Patterns
+-----------------------------
 
-**Examples with Solutions**
+1. **Pattern Matching**: Identify the regular expression that matches a specific token.
+2. **State Transition**: Determine the next state of the finite automaton based on the current character and the previous state.
+
+### Examples with Solutions
 ---------------------------
 
-### Example 1: Token Recognition
-
-Suppose we have the following code segment:
-
-`a = b + c;`
-
-We want to recognize the token `b`. The regular expression for recognizing `b` is `[a-zA-Z]`, which matches any single character that is a letter.
-
-```mermaid
-graph LR
-    A[Input Stream] --> B[a b]
-    C[B] --> D[b]
+**Example 1:** Find the tokens in the following code snippet:
+```c
+int x = 5;
 ```
+Solution:
 
-### Example 2: Tokenization
+* `int` is a non-terminal token (keyword)
+* `x` is an identifier token
+* `=` is a terminal token (symbol)
+* `5` is a terminal token (literal)
 
-Suppose we have the following code segment:
-
-`x = y + z;`
-
-We want to break down this input stream into individual tokens. We can use the regular expression `([a-zA-Z_][a-zA-Z0-9_]*)|(\+)|=|[a-zA-Z]` to match the tokens.
-
-```mermaid
-graph LR
-    A[Input Stream] --> B[x = y + z]
-    C[B] --> D[x]
-    D --> E[y]
-    E --> F(+)
-    F --> G[z]
-    G --> H(=)
+**Example 2:** Write a regular expression for the token `if` in C.
+```regex
+\bi[fF]\b
 ```
+This regular expression matches the lexemes `if`, `If`, or `iF`.
 
-**Common Pitfalls**
+### Common Pitfalls
+--------------------
+
+* Confusing tokens with lexemes.
+* Not considering the context of the input stream.
+
+### Quick Summary
 -----------------
 
-*   **Overlooking corner cases**: Make sure to consider edge cases, such as empty input or invalid characters.
-*   **Incorrect token recognition**: Double-check that the regular expression correctly recognizes the tokens.
+* Tokens are the basic building blocks of the source code.
+* Lexemes match a specific token based on regular expressions.
+* Finite automata recognize patterns in the input stream.
 
-**Quick Summary**
-----------------
+**Lexical Analysis Flow**
+```mermaid
+graph LR
+A[Input Stream] --> B[Lexical Analyzer]
+B --> C[Tokens]
+C --> D[Syntax Analyzer]
+D --> E[Ast/Parse Tree]
+E --> F[Semantic Analyzer]
+F --> G[Intermediate Code]
+```
+This flow diagram illustrates the sequence of events in lexical analysis.
 
-*   Lexical analysis breaks down source code into individual tokens.
-*   Regular expressions are used to represent and recognize patterns in the input stream.
-*   Understanding token recognition and tokenization is crucial for lexical analysis questions.
+**References**
+
+* [1] Aho, Alfred V., et al. "Compilers: Principles, Techniques, and Tools." Addison-Wesley, 1986.
+* [2] Grune, Duncan S., and Ceriello, C.A. "Modern Compiler Design." Wiley-Blackwell, 2007.
+
+Please let me know if you need any further assistance or modifications!

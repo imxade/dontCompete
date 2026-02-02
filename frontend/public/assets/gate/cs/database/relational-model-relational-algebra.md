@@ -1,89 +1,131 @@
-**Relational Model Relational Algebra Theory Note**
-=====================================================
+**Relational Model Relational Algebra**
+=====================================
 
 ### Introduction
-The relational model and relational algebra are fundamental concepts in database management systems (DBMS). The relational model represents data as relations, while relational algebra provides a mathematical framework for manipulating these relations. Understanding these concepts is crucial for designing efficient databases and writing effective queries.
+
+The relational model and relational algebra are fundamental concepts in database management systems, introduced by Edgar F. Codd in 1970. The relational model represents data as tables with well-defined relationships between them, while relational algebra provides a formal language for querying and manipulating these relations.
 
 ### Core Concepts
 
-#### Relational Model
+#### Relations
 
-*   A relation is a table with rows (tuples) and columns (attributes).
-*   Each row in the relation represents an entity or record, while each column represents an attribute of that entity.
-*   The relational model assumes that data is stored in tables, where each table has a unique name.
+A relation is a table of tuples (rows) with a fixed number of columns (attributes). Each tuple has a unique combination of attribute values.
 
-#### Relational Algebra
+#### Attributes
 
-*   Relational algebra is a mathematical language used to manipulate and query relations.
-*   It provides various operators for selecting, combining, and modifying relations.
-*   These operators can be combined to form complex queries, enabling users to extract specific information from the database.
+Attributes are the individual columns in a relation. They can be either atomic (simple data types like integers or strings) or composite (structured data types).
+
+#### Tuples
+
+Tuples are the rows in a relation, consisting of a set of attribute values.
+
+#### Operations
+
+Relational algebra defines several operations for querying and manipulating relations:
+
+1. **Selection** ($\sigma$): Selects tuples based on a condition.
+2. **Projection**: Projects attributes from a relation.
+3. **Union**: Combines two or more relations.
+4. **Intersection**: Returns the common tuples between two relations.
+5. **Difference**: Returns the tuples in one relation but not another.
 
 ### Key Formulas/Theorems
-There are no specific formulas or theorems in relational algebra. Instead, we focus on understanding the various operators and their applications.
+
+#### Equi-Join
+
+Given two relations R and S with common attributes A, the equi-join of R and S is denoted as $R \bowtie S$. It returns the tuples where the values of A in both R and S match.
+
+$$
+\begin{aligned}
+R &\bowtie S \\
+&= \sigma_{A = B}(R \times S)
+\end{aligned}
+$$
 
 ### Problem Solving Patterns
 
-1.  **Apply Operators**: Identify the relevant operators required to solve a problem.
-2.  **Joining Relations**: Use join operators to combine relations based on common attributes.
-3.  **Selecting Attributes**: Apply selection operators to extract specific columns from a relation.
-4.  **Filtering Tuples**: Utilize projection and restriction operators to filter tuples according to conditions.
+1. **Identify common attributes**: In equi-join problems, find the shared attributes between the two relations.
+2. **Apply selection conditions**: Use $\sigma$ to filter tuples based on specific conditions.
+3. **Project relevant attributes**: Select only necessary columns for the final result.
 
 ### Examples with Solutions
 
-**Example: Evaluating an Expression**
+**Example 1: Equi-Join**
 
-Given two relations:
+Given:
 
 | A | B |
 | --- | --- |
 | 10 | 20 |
 | 30 | 40 |
 
-and
-
-| A | C |
+| C | D |
 | --- | --- |
 | 10 | 90 |
 | 30 | 45 |
 
-Evaluate the expression:
-```
-σ(B > 20 ∧ C < 50)(R ∪ S)
-```
+Find the equi-join of R and S on attribute A.
 
 **Solution**
 
-1.  Perform the union operation (∪) to combine both relations:
+$$
+\begin{aligned}
+R \bowtie S &= \sigma_{A = C}(R \times S) \\
+&= \begin{array}{c|c|c|}
+A & B & C & D \\
+10 & 20 & 10 & 90 \\
+30 & 40 & 30 & 45
+\end{array}
+\end{aligned}
+$$
 
-| A | B | C |
-| --- | --- | --- |
-| 10 | 20 | 90 |
-| 30 | 40 | 45 |
+**Example 2: Selection**
 
-2.  Apply the selection operator (σ) with conditions:
-    *   `B > 20` filters tuples where column B is greater than 20.
-    *   `C < 50` filters tuples where column C is less than 50.
+Given:
 
-**Result**
+| A | B |
+| --- | --- |
+| 10 | 20 |
+| 30 | 40 |
 
-| A | B | C |
-| --- | --- | --- |
-| 30 | 40 | 45 |
+Find the tuples where B > 30.
 
-There are two rows in the resulting relation.
+**Solution**
+
+$$
+\begin{aligned}
+R &= \sigma_{B > 30}(R) \\
+&= \begin{array}{c|c|}
+A & B \\
+30 & 40
+\end{array}
+\end{aligned}
+$$
 
 ### Common Pitfalls
 
-*   Misunderstanding the difference between union (∪) and join (∧) operators.
-*   Incorrectly applying selection or projection operators.
-*   Failing to consider the order of operations when combining multiple queries.
+1. **Misinterpreting join types**: Ensure you understand the difference between equi-join, natural join, and cross-product.
+2. **Omitting crucial conditions**: Always consider selection conditions when solving problems.
 
 ### Quick Summary
-Relational algebra is a mathematical language for manipulating relations. It provides various operators, such as union (∪), intersection (∩), and difference (−), to combine and filter relations. Understanding these concepts and applying them correctly enables efficient querying and manipulation of data in the relational model.
+
+* Relations: tables of tuples with fixed attributes
+* Attributes: individual columns in a relation
+* Tuples: rows in a relation
+* Operations:
+	+ Selection ($\sigma$)
+	+ Projection
+	+ Union
+	+ Intersection
+	+ Difference
+* Key formulas/theorems:
+	+ Equi-join
+
+This comprehensive theory note covers the essential concepts of relational model and relational algebra, including relations, attributes, tuples, operations, and key formulas. It also includes problem-solving patterns, examples with solutions, and common pitfalls to watch out for.
+
+---
 
 **Additional Resources**
 
-*   [Wikipedia: Relational Algebra](https://en.wikipedia.org/wiki/Relational_algebra)
-*   [DBMS Tutorial: Relational Algebra](https://www.tutorialspoint.com/dbms/dbms_relational_algebra.htm)
-
-Note: This theory note focuses on the essential concepts and operators in relational algebra, as well as providing examples to illustrate their application.
+* Codd, E. F. (1970). A Relational Model of Data for Large Shared Data Banks.
+* Date, C. J. (2004). An Introduction to Database Systems.

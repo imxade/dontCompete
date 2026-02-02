@@ -1,177 +1,113 @@
 **Hydrology**
 ================
 
-**Introduction**
----------------
-
-Hydrology is the study of water in all its forms and cycles, playing a crucial role in water resources engineering. Understanding hydrological principles is essential for designing efficient irrigation systems, flood control measures, and predicting water availability.
-
-**Core Concepts**
+### Introduction
 -----------------
 
-### Water Balance Equation
+Hydrology is the scientific study of the movement, distribution, and quality of water on Earth's surface and beneath it. It encompasses various aspects of water resources engineering, including precipitation, runoff, infiltration, evaporation, and groundwater flow.
 
-The water balance equation represents the relationship between precipitation (P), evapotranspiration (ET), runoff (R), and change in storage (ΔS) over a specific period:
-
-$$
-\begin{aligned}
-P &= ET + R + \Delta S \\
-\end{aligned}
-$$
-
-### Direct Runoff Hydrograph
-
-A direct runoff hydrograph is the graphical representation of the rate at which water flows into a channel or river. The shape and characteristics of the hydrograph depend on various factors, including rainfall intensity, duration, and catchment properties.
-
-### Rainfall-Runoff Relationship
-
-The rainfall-runoff relationship describes how rainfall excess is converted into direct runoff. This process involves infiltration, interflow, and groundwater recharge.
-
-**Key Formulas/Theorems**
--------------------------
-
-*   The maximum available water in the root zone (AWC) can be calculated using:
-    $$
-    \begin{aligned}
-    AWC &= 0.2 \times D \\
-    \end{aligned}
-    $$
-    where D is the maximum root zone depth.
-
-*   Irrigation requirement can be determined using:
-    $$
-    \begin{aligned}
-    I &= \frac{\text{Crop water demand}}{\text{Irrigation efficiency}} \\
-    \end{aligned}
-    $$
-
-**Problem Solving Patterns**
----------------------------
-
-### Interval Between Irrigation (Q1)
-
-*   Calculate the maximum available water in the root zone using the given maximum root zone depth.
-*   Determine the irrigation requirement by dividing crop water demand by irrigation efficiency.
-*   Use the formula for interval between irrigation:
-    $$
-    \begin{aligned}
-    t &= \frac{\text{AWC}}{I} \\
-    \end{aligned}
-    $$
-
-### Direct Runoff Hydrograph (Q2)
-
-*   Calculate rainfall excess using the unit hydrograph method.
-*   Determine the time base of the direct runoff hydrograph.
-*   Use the formula for calculating rainfall excess:
-    $$
-    \begin{aligned}
-    R_e &= P - ET \\
-    \end{aligned}
-    $$
-
-### Rainfall-Runoff Relationship (Q3)
-
-*   Calculate the φ-index using the given rainfall and direct runoff values.
-
-**Examples with Solutions**
----------------------------
-
-### Interval Between Irrigation
-
-Suppose crop water demand is 10 mm/day, irrigation efficiency is 70%, and maximum root zone depth is 80 mm. We want to find the interval between irrigation.
-
-First, calculate AWC:
-$$
-\begin{aligned}
-AWC &= 0.2 \times D \\
-&= 0.2 \times 80 \\
-&= 16 \text{mm} \\
-\end{aligned}
-$$
-
-Next, determine irrigation requirement:
-$$
-\begin{aligned}
-I &= \frac{\text{Crop water demand}}{\text{Irrigation efficiency}} \\
-&= \frac{10}{0.7} \\
-&\approx 14.28 \text{mm/day} \\
-\end{aligned}
-$$
-
-Finally, calculate interval between irrigation:
-$$
-\begin{aligned}
-t &= \frac{\text{AWC}}{I} \\
-&\approx \frac{16}{14.28} \\
-&\approx 1.12 \text{days} \\
-\end{aligned}
-$$
-
-### Direct Runoff Hydrograph
-
-Suppose the time base of the direct runoff hydrograph is 90 hours, peak flow occurs at 20 hours from the start of the storm, and area of catchment is 300 km^2.
-
-First, calculate rainfall excess using unit hydrograph method:
-$$
-\begin{aligned}
-R_e &= P - ET \\
-&= \text{(Given rainfall)} - \text{(Evapotranspiration)} \\
-&= 5.4 \text{cm} \\
-\end{aligned}
-$$
-
-Next, determine the φ-index:
-$$
-\begin{aligned}
-\phi &= \frac{\text{Rainfall excess}}{\text{Time base}} \\
-&\approx \frac{5.4}{90} \\
-&\approx 0.06 \text{cm/hour} \\
-\end{aligned}
-$$
-
-### Rainfall-Runoff Relationship
-
-Suppose rainfall intensity is 10 mm/hr, direct runoff is 1.6 cm, and we want to find the φ-index.
-
-First, calculate rainfall excess:
-$$
-\begin{aligned}
-R_e &= P - ET \\
-&= \text{(Given rainfall)} - \text{(Evapotranspiration)} \\
-&= \text{(Rainfall intensity) $\times$ (Duration)} \\
-&= 10 \times 2.0 \\
-&= 20 \text{mm} \\
-\end{aligned}
-$$
-
-Next, calculate φ-index:
-$$
-\begin{aligned}
-\phi &= \frac{\text{Direct runoff}}{\text{(Rainfall excess) $\times$ (Duration)}} \\
-&\approx \frac{1.6}{(20) \times 2.0} \\
-&\approx 4.00 \text{mm/hour} \\
-\end{aligned}
-$$
-
-**Common Pitfalls**
+### Core Concepts
 ------------------
 
-*   Forgetting to account for irrigation efficiency in calculations.
-*   Incorrectly applying formulas or units.
+#### Muskingum Method
+The Muskingum method is a hydrologic channel routing technique used to calculate the outflow from a river or stream segment based on the inflow and stage (water level) at the upstream end of the segment. It assumes that the flow in each reach can be represented by a linear equation.
 
-**Quick Summary**
+#### Triangular Direct Runoff Hydrograph
+A triangular direct runoff hydrograph is a graph showing the rate of runoff as a function of time during a storm event. The area under the curve represents the total volume of water discharged from the catchment.
+
+#### Probability of Flood Occurrence
+The probability of flood occurrence can be estimated using the flood frequency analysis method. This involves analyzing historical data on flood events and relating them to their return periods (e.g., 1-year, 10-year, 50-year floods).
+
+### Key Formulas/Theorems
+--------------------------------
+
+#### Muskingum Method
+$$
+\begin{aligned}
+Q_2 &= K \left( X_1 + nX_2 + m \Delta S \right) \\
+Q_1 - Q_0 &= K \left( m \Delta S + X_1 \right)
+\end{aligned}
+$$
+
+where:
+- $Q$ is the outflow,
+- $X$ is the stage (water level),
+- $K$, $m$, and $n$ are parameters to be determined.
+
+#### Triangular Direct Runoff Hydrograph
+The area under the curve of a triangular direct runoff hydrograph can be calculated as:
+
+$$
+A = \frac{1}{2} (P - T) R
+$$
+
+where:
+- $A$ is the area,
+- $P$ is the peak flow rate,
+- $T$ is the time base.
+
+#### Probability of Flood Occurrence
+The probability of a flood not occurring in a given period can be estimated using the Weibull distribution:
+
+$$
+p = 1 - \left( 1 + \frac{t}{\theta} \right)^{-k}
+$$
+
+where:
+- $p$ is the probability,
+- $t$ is the time period,
+- $\theta$ and $k$ are parameters to be determined.
+
+### Problem Solving Patterns
+---------------------------------
+
+*   Use the Muskingum method for hydrologic channel routing.
+*   Apply the triangular direct runoff hydrograph to calculate the area under the curve.
+*   Analyze historical data on flood events to estimate their return periods.
+*   Use the Weibull distribution to calculate the probability of a flood not occurring.
+
+### Examples with Solutions
+---------------------------
+
+#### Example 1: Muskingum Method
+Suppose we have a river segment with the following parameters:
+- $K$ = 2,
+- $m$ = 0.5,
+- $n$ = 0.3.
+Given that the inflow is 100 m³/s and the stage at the upstream end is 5 m, calculate the outflow using the Muskingum method.
+
+```latex
+Q_2 &= K \left( X_1 + nX_2 + m \Delta S \right) \\
+&= 2 (5 + 0.3 \cdot 5 + 0.5 \cdot 100) \\
+&= 270\,m³/s
+```
+
+#### Example 2: Triangular Direct Runoff Hydrograph
+Suppose we have a storm event with the following parameters:
+- Peak flow rate $P$ = 60 m³/s,
+- Time base $T$ = 90 hours.
+Given that the catchment area is 300 km², calculate the area under the curve of the triangular direct runoff hydrograph.
+
+```latex
+A &= \frac{1}{2} (P - T) R \\
+&= \frac{1}{2} (60 - 90) 300 \\
+&= 13500\,km³
+```
+
+### Common Pitfalls
+----------------------
+
+*   Incorrect application of the Muskingum method.
+*   Misinterpretation of the triangular direct runoff hydrograph.
+*   Inadequate analysis of historical data on flood events.
+
+### Quick Summary
 -----------------
 
-*   Water balance equation: P = ET + R + ΔS
-*   Direct runoff hydrograph: graph of rate at which water flows into a channel or river.
-*   Rainfall-runoff relationship: describes how rainfall excess is converted into direct runoff.
-*   Irrigation requirement: (Crop water demand) / (Irrigation efficiency)
-*   Interval between irrigation: AWC / I
-*   φ-index: (Rainfall excess) / (Duration)
+| Concept | Key Formula/Theorem |
+| --- | --- |
+| Muskingum Method | $Q_2 = K \left( X_1 + nX_2 + m \Delta S \right)$ |
+| Triangular Direct Runoff Hydrograph | $A = \frac{1}{2} (P - T) R$ |
+| Probability of Flood Occurrence | $p = 1 - \left( 1 + \frac{t}{\theta} \right)^{-k}$ |
 
-Note to self:
-
-This theory note covers the essential concepts and formulas required for hydrology. To ensure high-quality, exam-focused study material, revise and update this content as needed based on recent exams and student feedback.
-
-For visual aids, consider adding Mermaid diagrams or online images that accurately represent hydrological principles and processes.
+Note: This is a Markdown document, so it may not render correctly in all environments.

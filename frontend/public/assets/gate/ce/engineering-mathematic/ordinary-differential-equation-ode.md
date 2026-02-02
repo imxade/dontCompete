@@ -1,144 +1,80 @@
-# Ordinary Differential Equation (ODE) - Theory Note
-=====================================================
+**Ordinary Differential Equations (ODEs)**
 
-## Introduction
----------------
+### Introduction
+Ordinary Differential Equations are a fundamental tool in mathematical modeling and analysis of physical systems. An ODE relates an unknown function to its derivatives, describing how quantities change over time or space.
 
-Ordinary differential equations are a fundamental tool for modeling and analyzing various phenomena in engineering, physics, and mathematics. An ODE is a mathematical equation that describes how an unknown function changes over its domain. In this note, we'll cover the core concepts, key formulas/theorems, problem-solving patterns, examples with solutions, common pitfalls, and quick summary to help you master ODEs.
+### Core Concepts
 
-## Core Concepts
-----------------
+#### Definition
+An Ordinary Differential Equation is a relation between the derivative(s) of an unknown function and the function itself:
 
-### What is an Ordinary Differential Equation?
+\[ \frac{dy}{dx} = f(x,y) \]
 
-An ODE is a mathematical equation that describes how an unknown function changes over its domain. It involves the derivative of the function and is typically denoted as:
+where $y$ is the dependent variable, $x$ is the independent variable, and $f(x,y)$ is a function representing the rate of change.
 
-$$\frac{dy}{dx} = f(x, y)$$
+#### Types of ODEs
 
-where $y$ is the dependent variable, $x$ is the independent variable, and $f(x, y)$ is a given function.
+* **Linear ODE**: Has the form $\frac{dy}{dx} + P(x)y = Q(x)$.
+* **Nonlinear ODE**: Does not fit the linear form.
+* **Homogeneous ODE**: $f(x,y) = 0$ implies $y = 0$ is a solution.
+* **Exact ODE**: Can be written as $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$ for some functions $M(x,y)$ and $N(x,y)$.
 
-### Types of ODEs
+### Key Formulas/Theorems
 
-There are several types of ODEs, including:
+#### Existence and Uniqueness Theorem
+If $f(x,y)$ is continuous in a region containing $(x_0,y_0)$, then there exists a unique solution to the IVP:
 
-* **Linear ODEs**: Involves only linear combinations of the derivatives.
-* **Nonlinear ODEs**: Involves nonlinear combinations of the derivatives.
-* **Homogeneous ODEs**: Has no constant terms.
-* **Nonhomogeneous ODEs**: Has constant terms.
+$$ \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0 $$
 
-## Key Formulas/Theorems
--------------------------
+#### Euler's Method
+A numerical method for approximating solutions:
 
-### Separation of Variables
+\[ y_{n+1} = y_n + hf(x_n, y_n) \]
 
-One of the most common methods for solving ODEs is separation of variables. This involves rearranging the equation to separate the dependent and independent variables:
+where $h$ is the step size.
 
-$$\frac{dy}{f(x)} = g(y)dx$$
+### Problem Solving Patterns
 
-where $f(x)$ and $g(y)$ are functions that can be integrated.
+* **Separation of Variables**: If $\frac{dy}{dx}$ can be expressed as a function of $x$ and $y$, try separating variables.
+* **Integration Factors**: Use an integrating factor to convert a linear ODE into a separable one.
 
-### Existence and Uniqueness Theorem
+### Examples with Solutions
 
-The existence and uniqueness theorem states that if a function satisfies the Lipschitz condition, then there exists a unique solution to the ODE.
+#### Example 1: Homogeneous ODE
+Solve the homogeneous ODE:
 
-## Problem Solving Patterns
----------------------------
+$$ \frac{dy}{dx} = y - x^2 $$
 
-### Solving Linear ODEs
-
-To solve linear ODEs, we can use the following steps:
-
-1. Check for homogeneous or nonhomogeneous cases.
-2. If homogeneous, try to find a particular solution using one of the following methods:
-	* **Undetermined Coefficients**: Try to find a particular solution in the form $y_p = c_1e^{r_1x} + c_2e^{r_2x}$.
-	* **Variation of Parameters**: Use the method of variation of parameters to find a particular solution.
-
-### Solving Nonlinear ODEs
-
-To solve nonlinear ODEs, we can use numerical methods such as:
-
-* **Euler's Method**: A simple numerical method for approximating solutions.
-* **Runge-Kutta Method**: A more accurate numerical method for approximating solutions.
-
-## Examples with Solutions
----------------------------
-
-### Example 1: Solving a Linear ODE
-
-Solve the following linear ODE using separation of variables:
-
-$$\frac{dy}{dx} = x^2y + y^3$$
-
-Solution:
-```python
-import sympy as sp
-
-# Define the variable
-x, y = sp.symbols('x y')
-
-# Define the equation
-eq = sp.Eq(sp.Derivative(y, x), x**2*y + y**3)
-
-# Solve using separation of variables
-solution = sp.dsolve(eq)
-print(solution)
+```latex
+\begin{align*}
+\frac{dy}{dx} &= y - x^2 \\
+\Rightarrow\qquad \int \frac{dy}{y-x^2} &= \int dx \\
+\Rightarrow\qquad \ln|y-x^2| &= x + C
+\end{align*}
 ```
 
-### Example 2: Solving a Nonlinear ODE
+#### Example 2: Exact ODE
+Solve the exact ODE:
 
-Solve the following nonlinear ODE using Euler's method:
+$$ (x^2+y^2)\frac{dy}{dx} = 2xy $$
 
-$$\frac{dy}{dx} = \sin(x) - y^2$$
-
-Solution:
-```python
-import numpy as np
-
-# Define the function
-def f(y, x):
-    return np.sin(x) - y**2
-
-# Initial condition
-y0 = 1
-x0 = 0
-
-# Step size
-h = 0.01
-
-# Number of steps
-n_steps = int(10/h)
-
-# Create arrays to store the solution
-x_values = np.zeros(n_steps+1)
-y_values = np.zeros(n_steps+1)
-
-# Set initial conditions
-x_values[0] = x0
-y_values[0] = y0
-
-# Apply Euler's method
-for i in range(1, n_steps+1):
-    y_values[i] = y_values[i-1] + h * f(y_values[i-1], x_values[i-1])
-    x_values[i] = x_values[i-1] + h
-
-print("Solution:")
-print(x_values)
-print(y_values)
+```latex
+\begin{align*}
+(x^2+y^2)\frac{dy}{dx} &= 2xy \\
+\Rightarrow\qquad \int y d(x^2+y^2) &= \int 2x dx \\
+\Rightarrow\qquad \frac{x^3}{3} + x^2y + \frac{y^3}{3} &= C
+\end{align*}
 ```
 
-## Common Pitfalls
-------------------
+### Common Pitfalls
 
-* **Forgetting to check for homogeneous or nonhomogeneous cases**.
-* **Not applying the correct method (e.g., separation of variables, undetermined coefficients)**.
-* **Rounding errors when using numerical methods**.
+* **Forgetting to check if an ODE is exact before trying to solve it.**
+* **Misinterpreting the results of numerical methods, such as Euler's method.**
 
-## Quick Summary
-----------------
+### Quick Summary
+Key points for revision:
 
-* ODEs describe how an unknown function changes over its domain.
-* There are several types of ODEs (linear, nonlinear, homogeneous, nonhomogeneous).
-* Key formulas/theorems include separation of variables and the existence and uniqueness theorem.
-* Problem-solving patterns involve checking for homogeneous or nonhomogeneous cases, and applying the correct method.
-
-Note: This is a comprehensive theory note that covers all the concepts tested in the source questions. The examples with solutions are included to provide a clear understanding of how to apply these concepts in practice.
+• Definition and types of ODEs
+• Existence and uniqueness theorem
+• Separation of variables and integration factors
+• Examples with solutions (homogeneous and exact ODEs)

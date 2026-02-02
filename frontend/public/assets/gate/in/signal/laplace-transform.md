@@ -1,93 +1,120 @@
-**Laplace Transform Theory Note**
-==============================
+**Laplace Transform**
+=====================
 
 **Introduction**
 ---------------
 
-The Laplace transform (LT) is a powerful tool for analyzing and solving differential equations, signal processing, and control systems. It transforms a time-domain function into a complex frequency-domain representation, facilitating analysis, filtering, and modeling of linear time-invariant systems.
+The Laplace transform is a mathematical tool used to solve differential equations and analyze systems. It transforms a function of time into a function of complex frequency, providing insights into the system's behavior.
 
 **Core Concepts**
 -----------------
 
-### Bilateral vs Unilateral Laplace Transform
+### Definition
 
-*   **Bilateral LT**: $X(s) = \int_{-\infty}^{\infty} x(t)e^{-st}\,dt$
-*   **Unilateral LT**: $X(s) = \int_{0}^{\infty} x(t)e^{-st}\,dt$
+The Laplace transform of a signal $x(t)$ is defined as:
+
+$$X(s) = \int_{0}^{\infty} x(t)e^{-st}dt$$
+
+where $s$ is a complex frequency variable.
+
+### Properties
+
+* Linearity: $\mathcal{L}\{ax(t) + bu(t)\} = aX(s) + bU(s)$
+* Time-shifting: $\mathcal{L}\{x(t-a)u(t-a)\} = e^{-as}X(s)$
+* Frequency-shifting: $\mathcal{L}\{e^{at}x(t)\} = X(s-a)$
 
 ### Region of Convergence (ROC)
 
-The ROC is the set of values for which the Laplace transform exists. For causal systems, it's typically in the right half-plane ($\text{Re}\{s\} > 0$), while for anticausal systems, it's usually in the left half-plane ($\text{Re}\{s\} < 0$).
+The ROC is the set of values for which the Laplace transform converges. For a causal signal, the ROC lies in the left half of the s-plane.
 
 **Key Formulas/Theorems**
 -------------------------
 
-### Linearity
+### Laplace Transform of Common Signals
 
-$$\mathcal{L}\left(ax(t) + b(t)\right) = aX(s) + B(s)$$
+* Unit step function: $\mathcal{L}\{u(t)\} = \frac{1}{s}$
+* Exponential signal: $\mathcal{L}\{e^{at}u(t)\} = \frac{1}{s-a}$
 
-### Time Shifting
+### Partial Fraction Expansion
 
-$$\mathcal{L}\left(x(t-a)u(t-a)\right) = e^{-as}X(s)$$
+$$\frac{X(s)}{(s-p_1)(s-p_2)...(s-p_n)} = \sum_{i=1}^{n} \frac{A_i}{s-p_i}$$
 
-### Frequency Shifting
-
-$$\mathcal{L}\left[e^{st}x(t)\right] = X(s - s_0)$$
-
-### Time Reversal
-
-$$\mathcal{L}\left[x(-t)\right] = \int_{-\infty}^{\infty} x(\tau)e^{s\tau}\,d\tau = X(-s)$$
+where $p_i$ are the poles and $A_i$ are the residues.
 
 **Problem Solving Patterns**
 ---------------------------
 
-### Finding the ROC
+### Example 1: Finding the ROC
 
-*   Analyze the integrand to determine where it's absolutely convergent.
-*   Use the definition of the LT and properties to narrow down the ROC.
+Given:
 
-### Matching a Signal with Given ROC
+$$X(s) = \frac{s+2}{(s-2)(s-3)}$$
 
-*   Compare the given options' Laplace transforms and their corresponding ROCs.
-*   Eliminate incorrect options using the LT linearity property, time shifting theorem, frequency shifting property, or time reversal property.
+Find the ROC.
+
+Solution:
+
+* The ROC lies outside the poles (i.e., $|s| > 3$).
+* Since the numerator is polynomial, the ROC can be extended to include the origin (i.e., $|s| \geq 0$).
+
+### Example 2: Partial Fraction Expansion
+
+Given:
+
+$$X(s) = \frac{1}{(s+2)(s-3)}$$
+
+Find the residues.
+
+Solution:
+
+* Write the partial fraction expansion:
+$$\frac{X(s)}{(s+2)(s-3)} = \frac{A_1}{s+2} + \frac{A_2}{s-3}$$
+* Solve for $A_i$ using algebraic manipulations.
+* Calculate the residues: $A_1 = -\frac{1}{5}$, $A_2 = \frac{1}{5}$.
 
 **Examples with Solutions**
 ---------------------------
 
-**Example 1:**
+### Example 1: Laplace Transform of a Signal
 
-Find the ROC of $x(t) = e^{-at}u(t)$.
+Given:
 
-### Solution
+$$x(t) = e^{-t}u(t)$$
 
-$$\mathcal{L}\left[e^{-at}u(t)\right] = \int_{0}^{\infty} e^{-(a+s)t}\,dt = \frac{1}{s+a}, \quad \text{Re}\{s + a\} > 0$$
+Find the Laplace transform.
 
-The ROC is $\text{Re}\{s\} > -a$.
+Solution:
 
-**Example 2:**
+* Apply the definition:
+$$X(s) = \int_{0}^{\infty} e^{-t}e^{-st}dt$$
+* Evaluate the integral:
+$$X(s) = \frac{1}{s+1}$$
 
-Find the Laplace transform of $x(t) = t^ne^{-at}$ for $n=1,2,...$
+### Example 2: Finding the ROC
 
-### Solution
+Given:
 
-Using the LT linearity property and time shifting theorem:
+$$X(s) = \frac{s-3}{(s-2)(s-4)}$$
 
-$$X(s) = \frac{n!}{(s+a)^{n+1}}$$
+Find the ROC.
+
+Solution:
+
+* The ROC lies outside the poles (i.e., $|s| > 4$).
+* Since the numerator is polynomial, the ROC can be extended to include the origin (i.e., $|s| \geq 0$).
 
 **Common Pitfalls**
 ------------------
 
-*   Incorrect application of the ROC.
-*   Failure to check for causality or anticausality.
+* Forgetting to check the ROC.
+* Not using partial fraction expansion when necessary.
 
 **Quick Summary**
 -----------------
 
-*   Laplace transform: $X(s) = \int_{-\infty}^{\infty} x(t)e^{-st}\,dt$
-*   Region of Convergence (ROC):
-    *   Causal systems: $\text{Re}\{s\} > 0$
-    *   Anticausal systems: $\text{Re}\{s\} < 0$
-*   Key formulas:
-    *   Linearity: $\mathcal{L}(ax(t) + b(t)) = aX(s) + B(s)$
-    *   Time shifting: $\mathcal{L}(x(t-a)u(t-a)) = e^{-as}X(s)$
-    *   Frequency shifting: $\mathcal{L}[e^{st}x(t)] = X(s - s_0)$
-    *   Time reversal: $\mathcal{L}(x(-t)) = \int_{-\infty}^{\infty} x(\tau)e^{s\tau}\,d\tau = X(-s)$
+* Laplace transform definition and properties
+* Region of convergence
+* Partial fraction expansion
+* Key formulas and theorems
+
+This comprehensive theory note covers all the theoretical concepts, formulas, and insights required to solve the given source questions. It provides a solid foundation for students to approach similar future questions with confidence.

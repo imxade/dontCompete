@@ -1,70 +1,105 @@
-**Combinational Circuit**
-========================
+# Combinational Circuit
+=========================
 
-### Introduction
-A combinational circuit is a type of digital logic circuit that produces its output based on the current input values. It does not have any memory, meaning it does not store any information from previous inputs.
+## Introduction
+--------------
 
-### Core Concepts
-#### Gates and their Functions
-Combinational circuits are built using basic gates:
+A combinational circuit is a type of digital electronic circuit whose output at any time depends only on the present input values. It does not have any memory or feedback loops, and its outputs are solely determined by the combination of inputs.
 
-| Gate | Function |
-| --- | --- |
-| AND ( conjunction ) | `A ∧ B` = 1 if both A and B are 1 |
-| OR ( disjunction ) | `A ∨ B` = 1 if either A or B is 1 |
-| NOT ( negation ) | ¬A = 0 if A is 1, 1 if A is 0 |
+## Core Concepts
+-----------------
 
-#### Multiplexers
-Multiplexers (MUX) are essential components in combinational circuits. They select one of multiple inputs based on a control signal.
+### Basics of Combinational Logic
 
-### Key Formulas/Theorems
+Combinational logic circuits consist of basic gates such as AND, OR, NOT, NAND, NOR, XOR, and XNOR. These gates can be combined to perform various logical operations.
 
-No specific formulas or theorems apply to this topic. However, understanding Boolean algebra laws is crucial:
+### Multiplexers (MUX)
 
-| Law | Description |
-| --- | --- |
-| Commutative law | `A ∧ B = B ∧ A` |
-| Associative law | `(A ∧ B) ∧ C = A ∧ (B ∧ C)` |
-| Distributive law | `A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)` |
+A multiplexer is a digital circuit that selects one of several input signals and directs it to the output based on the control inputs. It can be viewed as an electronic switch that connects one of its multiple input lines to the output line depending on the select lines.
 
-### Problem Solving Patterns
-**Step 1: Identify the circuit type and function.**
-In this case, we have a digital logic circuit with three 2-to-1 multiplexers.
+## Key Formulas/Theorems
+-------------------------
 
-**Step 2: Understand input values and their impact on outputs.**
+### Multiplexer (MUX) Equation
 
-For example, given:
-`X_1 = 1, X_2 = 1, X_3 = 0, X_4 = 0`
-we can analyze the behavior of each MUX:
+The output $Y$ of a 2-to-1 multiplexer is given by:
 
-| MUX | Control Signals (A, B) |
-| --- | --- |
-| `1` | (C,D), (E,F) |
-| `2` | (G,H), (I,J) |
-| `3` | (K,L), (M,N) |
+$$ Y = \begin{cases} X_1 & \text{if } S = 0 \\ X_2 & \text{if } S = 1 \end{cases} $$
 
-### Examples with Solutions
+where $X_1$, $X_2$ are the input signals, and $S$ is the select line.
 
-**Q1:** Given a 2-to-1 multiplexer with inputs `A`, `B`, and select line `S`. If `S = 0`, then output is `A`. If `S = 1`, then output is `B`.
+### Combinational Circuit Equivalence
+
+Two combinational circuits are equivalent if they produce the same output for all possible combinations of inputs.
+
+## Problem Solving Patterns
+---------------------------
+
+### Source Question 1 Analysis (cs_2022_37)
+
+The given code involves character operations. We need to analyze the expression and evaluate it step by step:
 
 ```mermaid
 graph LR
-    A[Input] -->|S=0|> X[A]
-    B[Input] -->|S=1|> Y[B]
+    a = char 'x';
+    b = char '(' & ')' '*';
+    c = char '|' ' ';
+    d = a + b;
+    e = c - (a ^ b);
+    f = e + (a + b);
+    print "% %c%c", c, d, e;
 ```
 
-**Solution:**
+The output is z, K, and S respectively.
 
-When `S = 0`, the output is `A`. When `S = 1`, the output is `B`.
+### Source Question 2 Analysis (cs_2024-M_64)
 
-### Common Pitfalls
+We are given a digital logic circuit consisting of three 2-to-1 multiplexers. The input values are:
 
-* Not understanding the function of each gate or component.
-* Misinterpreting input values and their impact on outputs.
+$$ X_1 = 1, \quad X_2 = 1, \quad X_3 = 0, \quad X_4 = 0 $$
 
-### Quick Summary
-* Combinational circuits produce outputs based on current inputs.
-* Gates (AND, OR, NOT) and multiplexers are essential components.
-* Boolean algebra laws apply to combinational circuit analysis.
+The select lines are $A = 1$, $B = 1$, and $C = 0$.
 
-**This Theory Note is a starting point for your studies. It's crucial to practice solving problems and understanding the concepts through multiple examples and scenarios.**
+## Examples with Solutions
+---------------------------
+
+### Multiplexer (MUX) Example
+
+Suppose we have a 2-to-1 multiplexer with inputs $X_1 = 0$ and $X_2 = 1$. The select line is $S = 1$. What is the output?
+
+$$ Y = \begin{cases} X_1 & \text{if } S = 0 \\ X_2 & \text{if } S = 1 \end{cases} $$
+
+Since $S = 1$, we have $Y = X_2 = 1$.
+
+### Combinational Circuit Equivalence Example
+
+Suppose we have two combinational circuits:
+
+$$ Y_1 = A + B $$
+
+$$ Y_2 = (A \land B) \lor (A \land \lnot B) $$
+
+where $\land$ denotes AND, and $\lor$ denotes OR.
+
+We can see that $Y_1 = Y_2$, since both expressions produce the same output for all possible combinations of inputs.
+
+## Common Pitfalls
+-------------------
+
+*   Not checking for equivalence between two combinational circuits.
+*   Failing to consider all possible combinations of inputs when evaluating a circuit.
+*   Misunderstanding the behavior of multiplexers and how they select inputs based on control lines.
+
+## Quick Summary
+---------------
+
+### Key Points
+
+*   Combinational logic circuits do not have memory or feedback loops.
+*   Multiplexers (MUX) are digital circuits that select one of several input signals based on control inputs.
+*   Two combinational circuits are equivalent if they produce the same output for all possible combinations of inputs.
+
+### Important Formulas/Theorems
+
+*   Multiplexer (MUX) equation: $ Y = \begin{cases} X_1 & \text{if } S = 0 \\ X_2 & \text{if } S = 1 \end{cases} $
+*   Combinational circuit equivalence: Two circuits are equivalent if they produce the same output for all possible combinations of inputs.

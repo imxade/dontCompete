@@ -1,112 +1,148 @@
-**Machine Instruction and Addressing**
-=====================================
+# Machine Instruction and Addressing
+==========================
 
-**Introduction**
----------------
+## Introduction
+------------
 
-Machine instructions are the basic building blocks of a computer program, executed by the central processing unit (CPU). Understanding machine instruction formats and addressing modes is crucial for designing efficient algorithms, optimizing code, and analyzing pipeline dependencies.
+Machine instruction and addressing are fundamental concepts in computer organization and architecture, dealing with how computers understand and execute instructions. This topic focuses on understanding machine language, data representation, and addressing modes.
 
-**Core Concepts**
+## Core Concepts
 -----------------
 
-### Instruction Format
+### Machine Language
 
-An instruction format typically consists of:
+Machine language is the native language of a computer, consisting of binary code that directly executes on the computer's processor. Each instruction in machine language consists of an opcode (operation code) followed by zero or more operands.
 
-1. **Opcode**: Operation Code, specifies the operation to be performed
-2. **Destination Register**: Where the result will be stored
-3. **Source Registers**: Values used for computation
-4. **Addressing Mode**: Specifies how the operands are accessed (e.g., immediate, register-indirect)
+#### Instruction Format
 
-### Addressing Modes
+An instruction typically follows this format:
 
-1. **Immediate Addressing**: Operand is provided directly in the instruction
-2. **Register-Indirect Addressing**: Operand is stored in a register and accessed using that register's value
-3. **Indexed Addressing**: Operand is accessed using an index register and a base address
-4. **PC Relative Addressing**: Offset from program counter (PC) used to access memory
+`Opcode Operand 1 Operand 2 ...`
 
-### Pipeline Dependencies
+where the operand can be a register address, memory address, immediate value, or combination thereof.
 
-1. **RAW** (Read After Write): A dependency where the output of one instruction is read by another before it has been written
-2. **WAR** (Write After Read): A dependency where an instruction writes a value that is later read by another instruction
-3. **WAW** (Write After Write): A dependency where two instructions write different values to the same location
+### Data Representation
 
-### Dependency Detection
+Data representation refers to how data is stored and represented within a computer system. This includes understanding binary, hexadecimal, and floating-point number representations.
 
-To detect dependencies, we analyze the instruction sequence and identify common operands.
+#### Binary Number Representation
 
-```mermaid
-graph LR
-    A[Instruction 1] -->|Operand 1|> B[Instruction 2]
-    style B fill:#f9f,stroke:gray,stroke-width:4px
+A binary number consists of bits (0s and 1s) arranged in a sequence. The leftmost bit is typically the most significant bit (MSB), while the rightmost bit is the least significant bit (LSB).
+
+```latex
+\begin{array}{|c|c|}
+\hline
+\textbf{Binary} & \textbf{Decimal Equivalent} \\
+\hline
+0110 & 6 \\
+1001 & 9 \\
+1010 & 10 \\
+0101 & 5 \\
+\hline
+\end{array}
 ```
 
-**Key Formulas/Theorems**
+#### Floating-Point Number Representation
+
+Floating-point numbers are represented in the IEEE 754 standard, which consists of:
+
+* Sign bit (1 bit)
+* Exponent (8 bits or more)
+* Mantissa (23 bits or more)
+
+```latex
+\begin{array}{|c|c|}
+\hline
+\textbf{Sign} & \textbf{Exponent} & \textbf{Mantissa} \\
+\hline
+0 & 0111 1111 & 1111 1111 1111 1111 1111 \\
+\hline
+\end{array}
+```
+
+## Key Formulas/Theorems
 -------------------------
 
-None specific to this topic. However, understanding the principles of instruction-level parallelism and pipelining is essential.
+None specific to this topic.
 
-**Problem Solving Patterns**
+## Problem Solving Patterns
+-----------------------------
+
+### Identifying Opcode and Operands
+
+* Identify the opcode from the given instruction.
+* Determine the number of operands required by the opcode.
+* Specify the register addresses, memory addresses, or immediate values as necessary for each operand.
+
+#### Example
+
+Given the instruction `ADD R1, R2`:
+
+* Opcode: ADD
+* Number of operands: 2
+* Operand 1: Register address R1
+* Operand 2: Register address R2
+
+### Understanding Data Representation
+
+* Convert binary numbers to decimal or hexadecimal.
+* Identify floating-point number representation (sign, exponent, mantissa) and calculate the actual value.
+
+#### Example
+
+Given the floating-point number `Sign Exponent Mantissa` with values `0 0111 1111 1111 1111 1111`:
+
+* Sign: Positive
+* Exponent: $0111 1111 = 127 + 2^5 = 159$
+* Mantissa: $1111 1111 1111 1111 1111$ (use as is or normalize)
+* Calculate the actual value using IEEE 754 standard.
+
+## Examples with Solutions
 ---------------------------
 
-1. **Instruction Sequence Analysis**: Identify dependencies between instructions
-2. **Operand Matching**: Compare operands across instructions to detect conflicts
+### Q1 Solution
 
-**Examples with Solutions**
----------------------------
+Given:
 
-### Example 1: RAW Dependency
-
-Instructions:
-
-* `ADD R1, R2, R3`
-* `MUL R4, R5, R6`
-
-Dependency: The output of the first instruction (R3) is read by the second instruction before it has been written.
-
-```mermaid
-graph LR
-    A[ADD] -->|R3|> B[MUL]
+```latex
+\begin{array}{|c|c|}
+\hline
+\textbf{Sign} & \textbf{Exponent} & \textbf{Mantissa} \\
+\hline
+0 & 0111 1110 & 1111 1111 1111 1111 1111 \\
+\hline
+\end{array}
 ```
 
-### Example 2: WAR Dependency
+* Sign: Positive
+* Exponent: $0111 1110 = 126 + 2^5 = 158$
+* Mantissa: Use as is or normalize
 
-Instructions:
+Actual value using IEEE 754 standard:
 
-* `SUB R1, R2, R3`
-* `ADD R4, R5, R6`
+$1.158 \times 2^{159}$
 
-Dependency: The first instruction writes a value to R3, which is later read by the second instruction.
+This value is larger than all other given options.
 
-```mermaid
-graph LR
-    A[SUB] -->|R3|> B[ADD]
-```
+## Common Pitfalls
+------------------
 
-### Example 3: WAW Dependency
+### Misinterpreting Opcode and Operands
 
-Instructions:
+* Ensure you correctly identify the opcode and number of operands required.
+* Verify that the register addresses, memory addresses, or immediate values are specified as necessary for each operand.
 
-* `MUL R1, R2, R3`
-* `MUL R4, R5, R6`
+### Incorrect Data Representation
 
-Dependency: The first instruction writes a value to R3, and the second instruction writes a different value to R6.
+* Double-check binary to decimal conversions.
+* Be cautious with floating-point representation (sign, exponent, mantissa).
 
-```mermaid
-graph LR
-    A[MUL] -->|R3|> B[MUL]
-```
-
-**Common Pitfalls**
--------------------
-
-1. **Overlooking Dependencies**: Failing to identify RAW, WAR, or WAW dependencies can lead to incorrect pipeline design.
-2. **Misunderstanding Addressing Modes**: Incorrectly applying addressing modes can result in inefficient code.
-
-**Quick Summary**
+## Quick Summary
 -----------------
 
-* Understand instruction formats and addressing modes
-* Identify pipeline dependencies (RAW, WAR, WAW)
-* Analyze instruction sequences for operand conflicts
-* Avoid common pitfalls related to dependency detection and addressing mode application.
+* Machine language consists of binary code executing directly on the processor.
+* Instructions follow a specific format: Opcode Operand 1 Operand 2 ...
+* Understand binary number representation (bits, most significant bit, least significant bit).
+* Familiarize yourself with floating-point number representation (IEEE 754 standard).
+
+Note that this theory note has been formatted according to Markdown guidelines. Please ensure that any external resources or images used are stable and accurate.

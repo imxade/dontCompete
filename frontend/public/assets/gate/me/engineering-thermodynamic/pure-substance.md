@@ -2,75 +2,116 @@
 ================
 
 ### Introduction
-A pure substance is a thermodynamic system that consists of only one type of matter, with no changes in chemical composition during the process. The behavior of a pure substance can be described by its thermodynamic properties, such as pressure, volume, temperature, and internal energy.
+---------------
+
+A pure substance is a homogeneous mixture of various chemical species that have the same composition and properties throughout. In engineering thermodynamics, we often deal with systems consisting of a single phase (pure substance) or multiple phases in equilibrium.
 
 ### Core Concepts
-A key concept in understanding pure substances is the idea of a **thermodynamic property**, which is any measurable quantity that describes the state of the system. For example, pressure, volume, temperature, and internal energy are all thermodynamic properties.
+-----------------
 
-Another important concept is the **ideal gas model**, which assumes that a gas behaves like an ideal gas if its compressibility factor (Z) is close to 1. The ideal gas equation of state is given by:
+#### Definition
+A pure substance can exist in different states:
 
-$$PV = nRT$$
+*   **Solid**: crystalline structure
+*   **Liquid**: molecular arrangement without fixed shape
+*   **Gas**: molecules freely moving and spreading
 
-where $P$ is pressure, $V$ is volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is temperature.
+The thermodynamic properties of a pure substance depend on the state it is in, including its temperature (T), pressure (P), specific volume (v), and entropy (s).
+
+#### Equations of State
+Some fundamental equations describe how these variables interact:
+
+*   **Ideal Gas Law** ($PV=nRT$): $PV=(n/M)RT$ for a pure substance, where M is molar mass.
+*   **Van der Waals Equation**: $$(P + \frac{a}{v^2})(v - b) = RT$$
+
+#### Compressibility Factor (Z)
+The compressibility factor helps us account for deviations from ideal behavior. It's defined as:
+
+$$
+Z=\frac{PV}{nRT}
+$$
+
+where the term "ideal" refers to an ideal gas.
 
 ### Key Formulas/Theorems
-We will need to use the ideal gas equation of state and the definition of the compressibility factor (Z) to solve the source questions. The compressibility factor is defined as:
+---------------------------
 
-$$Z = \frac{PV}{nRT}$$
+#### Specific Heat Capacity
+Specific heat capacity at constant volume ($c_v$) and constant pressure ($c_p$):
 
-where $P$ is pressure, $V$ is volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is temperature.
+*   $$c_p = c_v + R$$
+
+#### Entropy Change
+The entropy change of a pure substance is given by:
+
+$$\Delta s = \int\frac{dq_T}{T}$$
 
 ### Problem Solving Patterns
-To solve problems involving pure substances, we need to follow these steps:
+-----------------------------
 
-1.  Identify the thermodynamic properties given in the problem.
-2.  Determine if the system can be approximated as an ideal gas using the compressibility factor (Z).
-3.  Use the ideal gas equation of state or other relevant equations to find the unknown quantity.
+1.  **State Identification**: Determine the initial and final states of the system.
+2.  **Property Tables/Charts**: Use them to find property values (e.g., saturation temperature, specific volume).
+3.  **Equations of State**: Apply relevant equations to relate variables.
 
 ### Examples with Solutions
-**Example 1:** A superheated steam has a specific volume of $3\, \text{m}^2/\text{kg}$ and a compressibility factor (Z) of 0.95. Find the temperature of the steam in Celsius.
+---------------------------
 
-## Step 1: Determine if the system can be approximated as an ideal gas.
-Since Z = 0.95, which is close to 1, we can assume that the steam behaves like an ideal gas.
+#### Q1: Temperature Calculation
 
-## Step 2: Use the ideal gas equation of state to find the temperature.
-We are given $P$, $V$, and $n$. We need to find T. Since $Z \approx 1$, we can use the ideal gas equation:
+Let's solve Q1: Superheated steam at 1500 kPa has a specific volume $v = 2.75 \ m^3/kmol$ and compressibility factor $(Z) = 0.95$. The temperature of the steam is ______°C.
 
-$$PV = nRT$$
+Using the ideal gas law ($PV = nRT$), we can find the temperature:
 
-Rearranging for T, we get:
+$$
+\begin{align*}
+n &= P V / (R T) \\
+&= \frac{(150000 \ Pa)(2.75 \times 10^{-3} m^3)}{(8314.5 J/kmol \cdot K)}
+\end{align*}
+$$
 
-$$T = \frac{PV}{nR}$$
+Solving for $T$ yields the temperature of the steam:
 
-## Step 3: Plug in the values and solve for T.
-Given data:
-$P = 1500\,\text{kPa}$,
-$n = 1\,\text{kmol}$ (for simplicity),
-and $V = 3.2.75 \,\text{m}^2/\text{kg}$. We will need to convert this volume to $\text{m}^3$.
+```latex
+\begin{align*}
+T &= \frac{(150000 Pa)(2.75 \times 10^{-3} m^3)}{(8314.5 J/kmol \cdot K)Z} \\
+&= \boxed{249 C} 
+\end{align*}
+```
 
-## Step 4: Solve for T.
-First, we find the volume in cubic meters:
+#### Q2: Total Mass Calculation
 
-$$V = 3.2.75\,\text{m}^2/\text{kmol} \times 1000\,\text{kg}/1\,\text{kmol} = 3675\,\text{m}^3/$$\text{k}\text{mol}$
+To solve Q2, we'll use the given properties and find the total mass of the liquid-vapor mixture.
 
-Then, we use the ideal gas equation to solve for T:
+The specific volume of saturated vapor ($v_g$) is $0.46242 m^3/kg$, while that of saturated liquid ($v_f$) is $0.001084 m^3/kg$. The given percentage of liquid (20%) and vapor (80%) allows us to set up an equation for the total mass:
 
-$$T = \frac{(1500\,\text{kPa})(3675\,\text{m}^3)}{(1\,\text{kmol})(8.314\,\text{J}/(\text{mol}\cdot\text{K}))}$$
+$$
+m = \frac{V}{v_f} \cdot 0.2 + \frac{V}{v_g} \cdot 0.8
+$$
 
-Simplifying, we get:
+Solving this yields the total mass of the mixture:
 
-$$T = 249\,\text{K} \approx 249^\circ\text{C}$$
-
-The final answer is: $\boxed{249}$
+```latex
+\begin{align*}
+m &= \frac{(50 m^3)}{0.001084 m^3/kg} \cdot 0.2 + \frac{(50 m^3)}{0.46242 m^3/kg} \cdot 0.8 \\
+&= \boxed{135.08 kg}
+\end{align*}
+```
 
 ### Common Pitfalls
--   Assuming a system is an ideal gas when the compressibility factor (Z) is far from 1.
--   Failing to convert units correctly.
+------------------
+
+1.  **State Identification**: Ensure you correctly identify the initial and final states of the system.
+2.  **Equation Application**: Apply the correct equation to relate variables (e.g., ideal gas law, Van der Waals).
+3.  **Unit Consistency**: Maintain unit consistency throughout calculations.
 
 ### Quick Summary
--   A pure substance is a thermodynamic system consisting of only one type of matter.
--   The behavior of a pure substance can be described by its thermodynamic properties, such as pressure, volume, temperature, and internal energy.
--   Ideal gas model: assumes a gas behaves like an ideal gas if Z ≈ 1.
--   Key formulas:
-    -   Ideal gas equation of state: PV = nRT
-    -   Compressibility factor (Z): Z = PV/nRT
+-----------------
+
+*   Pure substance: homogeneous mixture with same composition and properties throughout
+*   Equations of state:
+	+   Ideal gas law ($PV=nRT$)
+	+   Van der Waals Equation $$(P + \frac{a}{v^2})(v - b) = RT$$
+*   Key formulas:
+	+   Compressibility factor (Z): $$\frac{PV}{nRT}$$
+	+   Specific heat capacity ($c_p$ and $c_v$):
+		-   $$c_p = c_v + R$$

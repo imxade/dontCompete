@@ -1,101 +1,88 @@
 **Calculus Theory Note**
-=========================
+=======================
 
-**Introduction**
----------------
-
-Calculus is a branch of mathematics that deals with the study of continuous change, particularly in the context of functions and limits. It consists of two main branches: Differential Calculus (study of rates of change and slopes of curves) and Integral Calculus (study of accumulation of quantities). In this note, we will cover key concepts, formulas, and techniques required to tackle calculus problems.
-
-**Core Concepts**
+### Introduction
 ----------------
 
-### Limits
+Calculus is a branch of mathematics that deals with the study of continuous change, particularly in the context of functions and limits. It has two main branches: Differential Calculus and Integral Calculus.
 
-The concept of limits is fundamental in calculus. A limit is defined as the value that a function approaches as its input (or independent variable) gets arbitrarily close to a certain point.
-
-*   **Definition**: Given a function f(x), we say that lim x→a f(x) = L if for every ε > 0, there exists δ > 0 such that |f(x) - L| < ε whenever 0 < |x-a| < δ.
-*   **Notation**: We write lim x→a f(x) = L to denote this concept.
-
-### Differentiation
-
-Differentiation is the process of finding the derivative of a function, which represents the rate of change of the function with respect to its input.
-
-*   **Definition**: The derivative of a function f(x) at a point a is denoted as f'(a) and is defined as the limit of [f(a+h) - f(a)]/h as h approaches 0.
-*   **Notation**: We write f'(x) to denote the derivative of a function f(x).
-
-### Integration
-
-Integration is the process of finding the definite integral of a function, which represents the accumulation of the area under the curve.
-
-*   **Definition**: The definite integral of a function f(x) from a to b is denoted as ∫[a,b] f(x) dx and is defined as the limit of Σ [f(a + (n-1)h) * h] as n approaches infinity, where h = (b-a)/n.
-
-**Key Formulas/Theorems**
-------------------------
-
-### Mean Value Theorem
-
-The Mean Value Theorem states that if a function f(x) is continuous on the closed interval [a,b] and differentiable on the open interval (a,b), then there exists a point c in (a,b) such that f'(c) = [f(b) - f(a)]/(b-a).
-
-*   **Formula**: f'(c) = [f(b) - f(a)]/(b-a)
-
-### Fundamental Theorem of Calculus
-
-The Fundamental Theorem of Calculus states that differentiation and integration are inverse processes.
-
-*   **Statement**: If F(x) is the antiderivative of f(x), then ∫[a,b] f(x) dx = F(b) - F(a).
-
-**Problem Solving Patterns**
----------------------------
-
-### Approximating Functions using Taylor Series
-
-Taylor series approximations involve representing a function as an infinite sum of terms.
-
-*   **Formula**: f(x+a) ≈ ∑ [f^(k)(a)/k!] * (x-a)^k
-*   **Example**: Consider the function f(x) = cos(x). The first few terms in its Taylor series expansion around x=0 are: 1 - x^2/2! + x^4/4! - ...
-
-### Finding Areas using Integration
-
-To find areas under curves, we use integration.
-
-*   **Formula**: Area = ∫[a,b] f(x) dx
-*   **Example**: Consider the function f(x) = x^2 from 0 to 1. The area under this curve is: ∫[0,1] x^2 dx = (x^3)/3 | [0,1] = 1/3.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1
-
-Find the derivative of f(x) = 3x^2 - 2x + 1 using the power rule and sum rule.
-
-*   **Solution**: Using the power rule, we have: d(3x^2)/dx = 6x. Using the sum rule, we get: d(-2x)/dx = -2. Therefore, f'(x) = 6x - 2.
-
-### Example 2
-
-Find the definite integral of f(x) = x^3 from 0 to 1 using the power rule and sum rule.
-
-*   **Solution**: Using the power rule, we have: ∫[0,1] x^3 dx = (x^4)/4 | [0,1] = (1/4) - 0 = 1/4.
-
-**Common Pitfalls**
+### Core Concepts
 -----------------
 
-### Misunderstanding Limits
+#### Limits
+Limits are used to define the behavior of functions as they approach a particular point. A function $f(x)$ is said to have a limit $L$ at $x=a$, denoted by $\lim_{x\to a} f(x) = L$, if for every positive real number $\epsilon$, there exists a positive real number $\delta$ such that for all $x$, $0 < |x-a| < \delta$ implies $|f(x)-L| < \epsilon$.
 
-Students often confuse limits with actual values of functions at points. Remember that limits describe the behavior of a function as its input approaches a certain point.
+#### Derivatives
+Derivatives measure the rate of change of a function with respect to its input. Given a function $f(x)$, the derivative of $f$ at $x=a$, denoted by $f'(a)$, is defined as:
 
-*   **Example**: The limit of x^2 as x approaches 0 is indeed 0, but this doesn't mean that x^2 equals 0 for all x near 0.
+$$f'(a) = \lim_{h\to 0} \frac{f(a+h)-f(a)}{h}$$
 
-### Failing to Check Differentiability
+#### Taylor Series
+Taylor series are used to approximate a function around a given point. The Taylor series of a function $f(x)$ centered at $x=a$ is:
 
-When finding derivatives or applying the Mean Value Theorem, ensure that functions are differentiable at required points.
+$$f(x) = f(a) + (x-a)f'(a) + \frac{(x-a)^2}{2!}f''(a) + ...$$
 
-*   **Example**: Consider f(x) = |x|. This function is not differentiable at x=0 because its derivative (which exists for all other values of x) fails to exist here.
+### Key Formulas/Theorems
+---------------------------
+
+#### Taylor Series Expansion around $x=0$
+Given a function $f(x)$, the Taylor series expansion of $f$ around $x=0$ is:
+
+$$f(x) = f(0) + xf'(0) + \frac{x^2}{2!}f''(0) + ...$$
+
+#### Derivative of Sine and Cosine
+The derivatives of sine and cosine functions are:
+
+$$\frac{d}{dx}\sin x = \cos x$$
+$$\frac{d}{dx}\cos x = -\sin x$$
+
+### Problem Solving Patterns
+-----------------------------
+
+*   To find the first non-zero term in the Taylor series expansion, we need to find the lowest power of $x$ that appears in the series.
+*   We can use the formula for the Taylor series expansion around $x=0$ to solve problems involving Taylor series.
+
+### Examples with Solutions
+---------------------------
+
+**Example 1:**
+
+Find the first non-zero term in the Taylor series expansion of $(1-x)-e^{-x}$ about $x=0$.
+
+Solution:
+
+Using the formula for the Taylor series expansion around $x=0$, we have:
+
+$$f(x) = f(0) + xf'(0) + \frac{x^2}{2!}f''(0) + ...$$
+
+We need to find the first non-zero term, so let's start by finding the derivatives of $f(x)$.
+
+$$f(x) = (1-x)-e^{-x}$$
+$$f'(x) = -1+e^{-x}$$
+$$f''(x) = e^{-x}$$
+
+Now we can evaluate the derivatives at $x=0$:
+
+$$f(0) = 1-1 = 0$$
+$$f'(0) = -1+1 = 0$$
+$$f''(0) = e^{0} = 1$$
+
+Substituting these values into the Taylor series expansion, we get:
+
+$$f(x) = 0 + x\cdot 0 + \frac{x^2}{2!}\cdot 1 + ...$$
+
+The first non-zero term is $\frac{x^2}{2}$.
 
 **Quick Summary**
-----------------
+-----------------
 
-*   Limits: Define the behavior of a function as its input approaches a certain point.
-*   Differentiation: Find the rate of change of a function with respect to its input.
-*   Integration: Calculate the accumulation of quantities under curves.
+*   Limits are used to define the behavior of functions as they approach a particular point.
+*   Derivatives measure the rate of change of a function with respect to its input.
+*   Taylor series are used to approximate a function around a given point.
+*   The first non-zero term in the Taylor series expansion can be found by evaluating the derivatives at $x=0$.
 
-This concludes our calculus theory note. By mastering these concepts, formulas, and techniques, you'll be well-prepared to tackle various calculus problems on the GATE CS exam.
+### Common Pitfalls
+-------------------
+
+*   Students often forget to evaluate the derivatives at $x=0$ when finding the Taylor series expansion.
+*   They may also confuse the formula for the Taylor series expansion with other formulas.

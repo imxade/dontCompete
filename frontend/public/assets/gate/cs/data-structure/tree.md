@@ -1,85 +1,88 @@
-**Theory Note: Trees**
+**Tree Data Structure**
 =======================
 
 ### Introduction
----------------
 
-A tree is a fundamental data structure consisting of nodes connected by edges, forming a hierarchical structure. It's used for efficient storage and retrieval of data, particularly when the data has a natural hierarchy or ordering.
+A tree data structure is a hierarchical representation of nodes where each node has a value and zero or more child nodes. It's an essential data structure used for efficient storage, retrieval, and manipulation of large amounts of data.
 
 ### Core Concepts
------------------
 
 #### Definition
 
-A tree is defined as an undirected graph with:
+*   A **tree** is defined as a set of nodes connected by edges.
+*   Each node in the tree is associated with a unique value.
+*   The tree has a single root node from which all other nodes are accessible through a finite sequence of edges (child-parent relationships).
 
-* No cycles (i.e., there are no paths that start and end at the same node).
-* A single root node.
-* All other nodes have exactly one parent node except for leaves, which have none.
+#### Types of Nodes
 
-#### Types of Trees
+*   **Internal nodes**: These nodes have child nodes. They can have any number of children except zero.
+*   **Leaf nodes**: These nodes do not have any children. They represent the end points in the tree.
 
-* **Binary Tree**: Each node has at most two children (left child and right child).
-* **B-Tree**: A self-balancing search tree with a specific structure to ensure efficient insertion, deletion, and searching operations.
-* **Heap**: A specialized tree-based data structure that satisfies the heap property: the parent node is either greater than (max heap) or less than (min heap) its children.
+#### Tree Traversal
+
+*   There are three primary types of tree traversal:
+    *   **Inorder Traversal** (left-root-right): Visit left subtree, root node, and then right subtree.
+    *   **Preorder Traversal** (root-left-right): Visit the root node first, then left subtree, and finally the right subtree.
+    *   **Postorder Traversal** (left-right-root): Traverse left subtree followed by the right subtree, and finish with the root node.
 
 ### Key Formulas/Theorems
----------------------------
 
-#### Binary Heap
+#### B-Tree Properties
 
-For a binary min-heap with $n$ elements:
+*   A B-tree of order $m$ has the following properties:
+    *   Each node in a B-tree contains at most $2i - 1$ keys (where $i$ is the level of the node) and at least $2i - 2$ keys.
+    *   The root may contain one less key than other nodes.
+    *   All leaf nodes are at the same level.
 
-$$\text{Number of internal nodes} = \left \lfloor \frac{n}{2} \right \rfloor$$
+#### B-Tree Operations
 
-$$\text{Number of leaf nodes} = n - 2 \cdot \left \lfloor \frac{n}{2} \right \rfloor$$
+*   **Insertion**: Insert a new key into the tree while maintaining the B-tree properties.
+*   **Deletion**: Remove a key from the tree while preserving the B-tree properties.
 
 ### Problem Solving Patterns
----------------------------
 
-#### Analyzing Trees
-
-When analyzing trees, consider the following:
-
-* **Height**: The maximum number of edges on any path from the root to a leaf.
-* **Depth**: The length of the longest path from the root to a node.
-* **Width**: The number of nodes at a given depth.
+1.  **Identify the type of problem**:
+    *   Determine whether you need to find, insert, or delete data in the tree.
+2.  **Apply traversal techniques**:
+    *   Use inorder, preorder, or postorder traversal based on the specific requirements.
+3.  **Manipulate the tree structure**:
+    *   Perform rotations and splitting or merging operations as needed.
 
 ### Examples with Solutions
----------------------------
 
-**Example 1: Binary Min-Heap**
+#### Example: Insertion in a B-Tree
 
-Suppose we have a binary min-heap with $105$ elements. Find the number of possible values of $k$, where $k$ is the index (in the underlying array) of the maximum element stored in the heap.
+Suppose we have a B-tree of order $m$ and we want to insert a new key $k$. We traverse down the tree until we find an empty slot or the node is full. If the root becomes full, we split it into two nodes and create a new root. Otherwise, we add the new key to the existing node.
 
-```latex
-\begin{align*}
-n & = 105 \\
-\text{Number of internal nodes} & = \left \lfloor \frac{n}{2} \right \rfloor = \left \lfloor \frac{105}{2} \right \rfloor = 52 \\
-\text{Number of leaf nodes} & = n - 2 \cdot \left \lfloor \frac{n}{2} \right \rfloor \\
-& = 105 - 2 \cdot 52 \\
-& = 1
-\end{align*}
+```mermaid
+graph LR
+    A[Root] --> B[Middle Key]
+    C[Split Node] --> D[New Root]
+
+    style A fill:#f9be5d, stroke:#666,stroke-width:2px;
+    style B fill:#ff0000, stroke:#666,stroke-width:2px;
+    style C fill:#cc00cc, stroke:#666,stroke-width:2px;
+    style D fill:#66cc00, stroke:#666,stroke-width:2px;
 ```
 
-Hence, there is only $1$ possible value of $k$, which is the index of the maximum element.
+#### Example: Deletion in a B-Tree
+
+Suppose we have a B-tree of order $m$ and we want to delete a key $k$. We traverse down the tree until we find the node containing the key. If the node has more than two children (for non-root nodes), we replace it with its inorder successor. Otherwise, we merge the node with its sibling.
 
 ### Common Pitfalls
-------------------
 
-#### Misunderstanding Tree Properties
-
-Be careful when analyzing tree properties. For example:
-
-* A binary min-heap has a root node with no children.
-* A B-tree has a specific structure to ensure efficient search, insertion, and deletion operations.
+1.  **Incorrect B-tree operations**:
+    *   Make sure to apply insertion and deletion correctly according to B-tree properties.
+2.  **Inconsistent tree structure**:
+    *   Verify that the tree remains valid after each operation.
 
 ### Quick Summary
----------------
 
-* **Tree**: An undirected graph with no cycles, a single root node, and a hierarchical structure.
-* **Binary Tree**: Each node has at most two children (left child and right child).
-* **B-Tree**: A self-balancing search tree with a specific structure for efficient operations.
-* **Heap**: A specialized tree-based data structure satisfying the heap property.
-
-This theory note covers all the essential concepts, formulas, and problem-solving patterns required to tackle questions related to trees in the GATE CS exam.
+*   Tree data structure: Hierarchical representation of nodes with edges.
+*   Types of nodes: Internal (non-leaf) and leaf nodes.
+*   Traversal techniques: Inorder, preorder, postorder.
+*   B-tree properties:
+    *   Order $m$
+    *   Node keys between $2i - 2$ and $2i - 1$
+    *   Root may have one less key than other nodes
+    *   All leaf nodes at the same level

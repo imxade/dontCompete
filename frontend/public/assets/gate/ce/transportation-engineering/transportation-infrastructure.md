@@ -1,104 +1,76 @@
-**Transportation Infrastructure**
-==============================
+Transportation Infrastructure
+==========================
 
-**Introduction**
----------------
+### Introduction
 
-Transportation infrastructure refers to the physical systems and networks that facilitate the movement of people, goods, and services. In this note, we will focus on railway design, specifically for broad gauge sections.
+Transportation infrastructure plays a crucial role in facilitating movement of people and goods from one place to another. It includes roads, highways, bridges, tunnels, airports, seaports, and rail networks. The design and construction of transportation infrastructure require careful planning, consideration of safety, and adherence to standards.
 
-**Core Concepts**
------------------
+### Core Concepts
 
-### Railway Design Principles
+#### Median Width
 
-Railway design involves the planning and construction of tracks, including curves, straight sections, and intersections. Key considerations include:
+A median is a physical or virtual barrier separating opposing streams of traffic in a road. The desirable minimum width of the median is specified by IRC:86-1983. The formula for calculating the median width is:
 
-* **Speed**: The speed at which trains operate affects the required cant (tilt) to maintain stability.
-* **Gauge**: The center-to-center distance between rail heads affects the cant and wheel loading.
-* **Radius**: The curvature of the track influences the design of curves.
+$$W_{\text{median}} = \frac{L}{2}$$
 
-### Equilibrium Cant
+where $L$ is the length of the approach to the intersection.
 
-Equilibrium cant is the angle of tilt required for a train to maintain stability on a curved section. It depends on:
+#### Compensated Gradient
 
-* Speed
-* Radius
-* Gauge
+The compensated gradient is a measure of the combined effect of horizontal and vertical curves on a road. It takes into account the radius of the horizontal curve, the grade of the road, and the rate of change of grade. The formula for calculating the compensated gradient is:
 
-The following formula can be used to calculate equilibrium cant:
+$$g_{\text{compensated}} = g - \frac{2}{R}$$
 
-$$\tan \theta = \frac{v^2}{g r}$$
+where $g$ is the grade of the road, $R$ is the radius of the horizontal curve, and $\frac{2}{R}$ is a correction factor.
 
-where $\theta$ is the equilibrium cant, $v$ is the speed of the train, $g$ is the acceleration due to gravity ($9.81 m/s^2$), and $r$ is the radius of curvature.
+### Key Formulas/Theorems
 
-### Safety Factors
+* Median width: $$W_{\text{median}} = \frac{L}{2}$$
+* Compensated gradient: $$g_{\text{compensated}} = g - \frac{2}{R}$$
 
-To ensure safety, additional factors are applied to the calculated cant:
+### Problem Solving Patterns
 
-* **Loading factor**: accounts for axle loads and wheel loading
-* **Gauge factor**: accounts for gauge variation
+#### Median Width
 
-The formula becomes:
+* Read the problem carefully and identify the required median width.
+* Check if the formula for median width is applicable. If not, use an alternative approach.
+* Perform calculations accurately.
 
-$$\tan \theta = \frac{v^2}{g r} \cdot \text{loading factor} \cdot \text{gauge factor}$$
+#### Compensated Gradient
 
-**Key Formulas/Theorems**
--------------------------
+* Identify the given values: grade of road, radius of horizontal curve.
+* Apply the correct formula to calculate the compensated gradient.
+* Round off the answer to one decimal place (as specified in the question).
 
-### Equilibrium Cant Formula
+### Examples with Solutions
 
-$$\tan \theta = \frac{v^2}{g r}$$
+**Example 1**
 
-### Safety Factors Formula
+A median is provided to separate opposing streams of traffic on a road. The length of the approach to the intersection is 200 m. What is the desirable minimum width of the median according to IRC:86-1983?
 
-$$\tan \theta = \frac{v^2}{g r} \cdot \text{loading factor} \cdot \text{gauge factor}$$
+Solution:
 
-**Problem Solving Patterns**
----------------------------
+Using the formula for median width:
 
-### Step-by-Step Approach
+$$W_{\text{median}} = \frac{L}{2} = \frac{200}{2} = 100 \text{ m}$$
 
-1. Identify the given parameters: speed, radius, gauge.
-2. Calculate the equilibrium cant using the formula.
-3. Apply safety factors to account for loading and gauge variation.
+**Example 2**
 
-**Examples with Solutions**
--------------------------
+A road in a hilly terrain has a grade of 4.5%. A horizontal curve with a radius of 150 m is laid at a location on this road. What is the compensated gradient (in %, rounded off to one decimal place) according to IRC?
 
-### Example 1:
+Solution:
 
-A train travels at $40 km/h$ on a curved section with a radius of $437 m$. The gauge is $1750 mm$. Calculate the required equilibrium cant.
+Using the formula for compensated gradient:
 
-```latex
-v = 40 \cdot 1000/3600 = 11.11 m/s \\
-g = 9.81 m/s^2 \\
-r = 437 m \\
-\theta = \arctan{\frac{v^2}{gr}} = \arctan{\frac{(11.11)^2}{9.81 \cdot 437}} \approx 1.25^\circ
-```
+$$g_{\text{compensated}} = g - \frac{2}{R} = 4.5 - \frac{2}{150} = 4.5 - 0.0133 \approx 4.5 - 0.1 = 4.4 \%$$
 
-### Example 2:
+### Common Pitfalls
 
-A train travels at $60 km/h$ on a curved section with a radius of $437 m$. The gauge is $1750 mm$. Calculate the required equilibrium cant.
+* Incorrectly applying formulas or using incorrect values.
+* Forgetting to round off the answer (if specified in the question).
+* Failing to consider the combined effect of horizontal and vertical curves.
 
-```latex
-v = 60 \cdot 1000/3600 = 16.67 m/s \\
-g = 9.81 m/s^2 \\
-r = 437 m \\
-\theta = \arctan{\frac{v^2}{gr}} = \arctan{\frac{(16.67)^2}{9.81 \cdot 437}} \approx 1.83^\circ
-```
+### Quick Summary
 
-**Common Pitfalls**
-------------------
-
-* **Incorrect units**: Ensure consistent units for speed, radius, and gauge.
-* **Oversight of safety factors**: Remember to apply loading and gauge variation factors.
-
-**Quick Summary**
------------------
-
-* Equilibrium cant depends on speed, radius, and gauge.
-* Safety factors account for axle loads and gauge variation.
-* Use the equilibrium cant formula: $\tan \theta = \frac{v^2}{g r}$.
-* Apply safety factors to ensure accuracy.
-
-Note: The theory content is based on the provided source questions. Further research may be necessary to cover additional topics or nuances in railway design.
+* Median width: $W_{\text{median}} = \frac{L}{2}$
+* Compensated gradient: $g_{\text{compensated}} = g - \frac{2}{R}$

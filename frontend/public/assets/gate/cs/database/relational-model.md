@@ -1,153 +1,110 @@
-**Relational Model**
+# Relational Model
 =====================
 
-### Introduction
+## Introduction
+---------------
 
-The relational model, introduced by Edgar F. Codd in 1970, is a widely used conceptual framework for organizing data in databases. It consists of a set of tables (relations) with rows (tuples) and columns (attributes), which are related to each other through primary keys.
+The relational model, introduced by Edgar Codd, is a widely used data modeling approach for database management systems. It represents data as tables with rows and columns, where each column has a unique name (attribute) and each row represents a single record or tuple.
 
-### Core Concepts
+## Core Concepts
+-----------------
 
-#### Relations
+### Relations
 
-A relation is a table with rows and columns. Each row represents a single record, while each column represents an attribute or field in the record.
+A relation is a set of tuples (rows), where each tuple has a fixed number of attributes (columns). Each attribute has a unique name, and the order of attributes does not matter. For example:
 
-**Example**
-```markdown
-+--------+--------+
-| Name   | Age    |
-+--------+--------+
-| John   | 25     |
-| Alice  | 30     |
-+--------+--------+
+| empId | name   | gender | salary |
+|-------|--------|--------|--------|
+| 1     | John   | Male   | 5000   |
+| 2     | Jane   | Female | 6000   |
+
+### Keys
+
+A key is an attribute or a set of attributes that uniquely identifies each tuple in the relation. There are two types of keys:
+
+* **Primary Key (PK)**: A single attribute or a set of attributes that uniquely identifies each tuple.
+* **Foreign Key (FK)**: An attribute or a set of attributes that references the primary key of another relation.
+
+### Functional Dependencies
+
+A functional dependency is a relationship between two sets of attributes in a relation, where one set determines the other. For example:
+
+P → QR means that if P is known, then QR can be determined uniquely.
+
+## Key Formulas/Theorems
+-------------------------
+
+* **Armstrong's Axioms**:
+	+ If P → QR and Q → R, then P → R (transitivity)
+	+ If P → QR and R → S, then P → QS (composition)
+	+ If P → QR and Q ⊆ S, then P → SR (augmentation)
+
+## Problem Solving Patterns
+---------------------------
+
+### SQL Query Analysis
+
+When analyzing a SQL query, follow these steps:
+
+1. **Identify the relations**: Determine which tables are involved in the query.
+2. **Determine the keys**: Identify the primary and foreign keys used in the query.
+3. **Analyze the conditions**: Break down the WHERE clause into individual conditions and analyze each one.
+
+### Functional Dependencies
+
+When analyzing functional dependencies, follow these steps:
+
+1. **Identify the determining attributes**: Determine which attributes determine the other set of attributes.
+2. **Apply Armstrong's Axioms**: Use the axioms to infer new functional dependencies.
+
+## Examples with Solutions
+---------------------------
+
+**Example 1: SQL Query Analysis**
+
+Consider the following query:
+```sql
+SELECT deptId, COUNT(*)
+FROM emp
+WHERE gender = "female" AND salary > (SELECT AVG(salary) FROM emp)
+GROUP BY deptId;
 ```
+To solve this query:
 
-#### Attributes
+1. **Identify the relations**: The relation is `emp`.
+2. **Determine the keys**: The primary key is `empId`, and there are no foreign keys.
+3. **Analyze the conditions**:
+	* `gender = "female"` filters tuples where `gender` equals "female".
+	* `salary > (SELECT AVG(salary) FROM emp)` filters tuples where `salary` exceeds the average salary of all employees.
 
-Attributes are the columns of a relation, representing individual fields or properties of each record.
+The query will return the number of female employees in each department whose salary is greater than the company-wide average salary.
 
-**Example**
+**Example 2: Functional Dependencies**
+
+Consider the following functional dependencies:
 ```markdown
-+--------+--------+--------+
-| Name   | Age    | Country|
-+--------+--------+--------+
-| John   | 25     | USA    |
-| Alice  | 30     | UK     |
-+--------+--------+--------+
+P → QR
+T → R
 ```
+To solve this problem:
 
-#### Tuples
+1. **Identify the determining attributes**: `P` determines `QR`, and `T` determines `R`.
+2. **Apply Armstrong's Axioms**:
+	+ By transitivity, P → R.
 
-Tuples are the rows of a relation, representing individual records.
+## Common Pitfalls
+-----------------
 
-**Example**
-```markdown
-(John, 25, USA)
-(Alice, 30, UK)
-```
+* **Failing to identify keys**: Make sure to identify primary and foreign keys correctly.
+* **Misunderstanding functional dependencies**: Pay attention to the determining attributes and apply Armstrong's Axioms correctly.
+* **Incorrect SQL query analysis**: Break down complex queries into individual conditions and analyze each one carefully.
 
-#### Primary Key
+## Quick Summary
+---------------
 
-A primary key is a unique identifier for each record in a relation. It ensures that no two records have the same value for the primary key attribute.
+* Relations are sets of tuples with fixed attributes (columns).
+* Keys uniquely identify tuples in a relation.
+* Functional dependencies describe relationships between attributes in a relation.
+* Apply Armstrong's Axioms to infer new functional dependencies.
 
-**Example**
-```markdown
-+--------+--------+
-| ID     | Name   |
-+--------+--------+
-| 1      | John   |
-| 2      | Alice  |
-+--------+--------+
-```
-
-#### Functional Dependencies
-
-Functional dependencies are a way to describe the relationships between attributes in a relation. They specify that an attribute is determined by one or more other attributes.
-
-**Example**
-```markdown
-ID → Name (every ID has exactly one name)
-Name → Age (every name has exactly one age)
-```
-
-### Key Formulas/Theorems
-
-1. **First Normal Form (1NF)**: A relation is in 1NF if and only if each cell of the table contains a single value from the domain.
-
-**LaTeX**
-\[R \text{ is in 1NF} \iff \forall c \in C, \forall t \in T, |c(t)| = 1\]
-
-2. **Second Normal Form (2NF)**: A relation is in 2NF if and only if it is in 1NF and no non-prime attribute depends on a subset of the primary key.
-
-**LaTeX**
-\[R \text{ is in 2NF} \iff R \text{ is in 1NF} \land \forall A \in C, A \notin PK \implies A \text{ not depends on } PK\]
-
-3. **Boyce-Codd Normal Form (BCNF)**: A relation is in BCNF if and only if it is in 2NF and every determinant is a candidate key.
-
-**LaTeX**
-\[R \text{ is in BCNF} \iff R \text{ is in 2NF} \land \forall D \in C, \forall A \in C, D \rightarrow A \implies D = PK\]
-
-### Problem Solving Patterns
-
-1. **Decomposition**: Given a relation and a set of functional dependencies, decompose the relation into smaller relations that are in 3NF.
-2. **Reconstruction**: Given a set of small relations, reconstruct the original relation.
-
-**Example**
-```markdown
-Given:
-
-R(P, Q, S, T)
-PQ → S
-PS → T
-
-Decomposition:
-1. R1(P, Q, S)
-2. R2(P, S, T)
-
-Reconstruction:
-R(P, Q, S, T) = R1 ∪ R2
-```
-
-### Examples with Solutions
-
-**Example 1**
-Given a relation:
-
-| P | Q | S | T |
-| --- | --- | --- | --- |
-| 1 | 2 | 3 | 4 |
-
-Find the decomposition of this relation into smaller relations that are in 3NF.
-
-**Solution**
-
-```markdown
-R(P, Q, S)
-R(P, S, T)
-
-Note: PQ → S, PS → T
-```
-
-### Common Pitfalls
-
-* Failing to identify the primary key.
-* Ignoring functional dependencies.
-* Not normalizing the relation (e.g., not in 1NF).
-
-### Quick Summary
-
-* Relations are tables with rows and columns.
-* Attributes represent individual fields or properties of each record.
-* Tuples represent individual records.
-* Primary keys ensure uniqueness of records.
-* Functional dependencies describe relationships between attributes.
-* Normal forms (1NF, 2NF, BCNF) are used to optimize the relation.
-
----
-
-**Reference Questions**
-
-This study note is based on the following reference questions:
-
-* CS_2021-M_25: Relational Model - Decomposition
-
-Please ensure that you have a good understanding of the concepts and techniques covered in this study note before attempting similar questions.
+Note: This is not an exhaustive summary, but rather a starting point for further study and exploration.

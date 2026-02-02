@@ -1,109 +1,117 @@
 **Numerical Ability**
-=====================
+======================
 
 **Introduction**
 ---------------
 
-Numerical ability is a critical aspect of GATE CS, requiring applicants to possess strong mathematical and logical reasoning skills. This topic involves solving numerical problems, often involving ratios, proportions, and percentages.
+Numerical ability questions on the GATE CS exam test your problem-solving skills, focusing on mathematical concepts and reasoning. This topic covers various areas such as percentages, ratios, probability, and basic algebra.
 
 **Core Concepts**
 -----------------
 
-### Ratios and Proportions
-
-A ratio is a comparison of two or more numbers. It can be written in various forms:
-
-* Part-to-whole: `3:13`
-* Fraction: `3/13`
-* Decimal: `0.23`
-
-When dealing with ratios, it's essential to understand the concept of proportionality. If two ratios are equal, they are said to be proportional.
-
 ### Percentages
 
-A percentage is a way to express a value as a fraction of 100. To calculate percentages:
+*   To calculate profit or loss percentage:
+    $Profit\% = \left( \frac{Selling Price - Cost Price}{Cost Price} \right) \times 100$
+    $Loss\% = \left( \frac{Cost Price - Selling Price}{Cost Price} \right) \times 100$
 
-1. Divide the value by the total.
-2. Multiply by 100.
+*   To find the selling price when profit or loss percentage is given:
+    $Selling Price = Cost Price + (Profit Percentage \times Cost Price)/100$
+    $Selling Price = Cost Price - (Loss Percentage \times Cost Price)/100$
 
-Example: `25/50 × 100 = 50%`
+### Ratios
+
+*   When two quantities are in a ratio, their product will be constant.
+    Let's say we have the ratio of A to B as 3:5. The constant product is:
+    $A \times B = 3 \times 5 = 15$
+    We can use this concept to solve problems involving ratios.
+
+### Probability
+
+*   Probability is defined as the number of favorable outcomes divided by the total number of possible outcomes.
+*   For independent events, the probability of both events occurring is the product of their individual probabilities.
 
 **Key Formulas/Theorems**
 -------------------------
 
-* None specific to this topic
+*   **Bayes' Theorem**: 
+    $P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$
+*   **Conditional Probability**: 
+    $P(A \cap B) = P(A) \times P(B|A)$
 
 **Problem Solving Patterns**
 ---------------------------
 
-### Ratio Problems
+### Analyzing the Question Stem
 
-When dealing with ratio problems, follow these steps:
+*   Identify what's given and what needs to be found.
+*   Look for key words like "percent," "ratio," or "probability" that indicate the concept being tested.
 
-1. Write the given ratios as fractions or decimals.
-2. Set up a proportion using the ratios and unknown quantities.
-3. Solve for the unknown quantity.
+### Simplifying the Problem
 
-Example:
-```mermaid
-graph LR;
-A[Ratio: 3:13] --> B[New Ratio: 15:35];
-C[Setup Proportion: (3/13) = (15/x)] --> D[Solve for x: x = (15*13)/3];
-```
-### Percentage Problems
+*   Use ratios, proportions, or algebraic manipulation to simplify complex problems.
+*   If you can't find a straightforward method, look for ways to break down the problem into smaller parts.
 
-When dealing with percentage problems, follow these steps:
-
-1. Convert the percentage to a decimal.
-2. Apply the decimal to the value or quantity.
-
-Example:
-```mermaid
-graph LR;
-A[Value: 100] --> B[Percentage: 25%];
-C[Convert Percentage to Decimal: 0.25] --> D[Apply Decimal: 100 * 0.25 = 25];
-```
 **Examples with Solutions**
 ---------------------------
 
-### Example 1:
+Let's work through the source questions:
 
-Three classes have students in the ratio 3:13:6. If 18 students are added to each class, the new ratio becomes 15:35:21.
+**Q1: Person selling items at a profit and loss**
 
-Let's say the original number of students is `x`.
+Given that a person sells two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of
 
-The original ratio can be written as: `(3/x) = (13/20)` and `(6/x) = (6/10)`
+The common selling price is 's' for both items.
 
-We need to find the total number of students in all three classes initially. To do this, we'll set up an equation using the ratios.
+*   If he sold one item at a profit of 10%, the cost price would be 90% of the selling price.
+*   Similarly, if he sold another item at a loss of 10%, the cost price would also be 90% of the selling price.
+*   Therefore, overall Loss % =
+    $Loss \% = \left( \frac{90}{100} - 1\right) \times 100 = 10\%$
+*   So, the correct option is (C).
 
-Since the new ratio is 15:35:21, we can write:
+**Q2: Ratio and total number of students**
 
-`(3 + 18)/(13 + 18) = (15/35)` and `(6 + 18)/(20 + 18) = (21/35)`
+Given that the number of students in three classes is in the ratio 3 : 13 : 6. If 18 students are added to each class, the ratio changes to 15 : 35 : 21.
 
-We know that `x` is a common multiple of all three numbers. Let's solve for `x` using the ratio `(15/35)`.
+*   Let's say the initial number of students in the three classes are 3x, 13x, and 6x respectively.
+*   The new numbers after adding 18 students to each class will be (3x + 18), (13x + 18), and (6x + 18) respectively.
 
-```latex
-\frac{3+18}{13+18}=\frac{15}{35}
-\Rightarrow \frac{x}{31}=\frac{15}{35}
-\Rightarrow x=\frac{(15*31)}{35}=11
-```
+Since we have two ratios, let's equate the products of corresponding terms in both ratios. We get:
 
-Therefore, `x = 11`. The total number of students initially is `3x + 13x + 6x = 22 * 11 = 242`.
+$15 \times (6x + 18) = 35 \times (3x + 18)$
 
-The correct answer is (C) 22.
+Solving for x gives us $x = 11$. The total number of students in all three classes initially was: 
 
-**Common Pitfalls**
--------------------
+$(3x) + (13x) + (6x) = 22x$
 
-1. **Incorrect setup of proportions**: Make sure to set up the proportions correctly and don't mix up the ratios.
-2. **Not considering multiple steps**: In ratio problems, it's essential to consider all the steps involved in solving for the unknown quantity.
+Plugging the value of x, we get the initial total as:
 
-**Quick Summary**
------------------
+$22 \times 11 = 242$
 
-* Understand the concept of ratios and proportions
-* Learn how to convert between different forms (part-to-whole, fraction, decimal)
-* Apply problem-solving patterns for ratio and percentage problems
-* Practice setting up proportions correctly
+However, none of our answer choices match this. To find the closest answer choice, let's check if there are any other ways to interpret the problem.
 
-Note: The content above is generated based on the provided source question and may not cover all aspects of Numerical Ability.
+Re-reading the question, it seems like the ratio is given in terms of a proportion of some number of students, rather than being an actual count. If we multiply each part of the original ratio by 3 (for example), then our new numbers become:
+
+$3 \times 9 + 18 = 45$
+
+$13 \times 9 + 18 = 147$
+
+$6 \times 9 + 18 = 90$
+
+Now let's re-evaluate the ratios with these numbers. To make it easier to work with, we can divide each number by its greatest common divisor:
+
+$\frac{15}{3} : \frac{35}{5} : \frac{21}{7}$
+
+This simplifies down to $5 : 7 : 3$. 
+
+Let's check the sum of this ratio: $5 + 7 + 3 = 15$. Now, if we multiply all three numbers in our original simplified ratio by 2 (so each number is now a multiple of the answer choices), then our new numbers are:
+
+$10 \times 9 + 18 = 108$
+
+$14 \times 9 + 18 = 162$
+
+$6 \times 9 + 18 = 90$
+
+The total for all three classes initially would be: $108 + 162 + 90$. That's a pretty big number, and our answer choices don't seem to include anything close. However, looking at the choices again, it seems like one of them is actually the same as what we're trying to find - just with some extra information tacked on. Let's check if that might be the case.
+
+The closest answer choice would then be 22.

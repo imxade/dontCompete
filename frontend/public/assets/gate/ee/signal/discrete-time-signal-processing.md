@@ -4,92 +4,128 @@
 **Introduction**
 ---------------
 
-Discrete time signal processing deals with signals that are sampled at regular intervals, resulting in a sequence of values. This field has numerous applications in digital signal processing, control systems, and communications engineering.
+In this section, we will explore the basics of discrete time signal processing, focusing on the concepts and techniques required to tackle problems related to signals and systems. Specifically, we will delve into the properties of Z-transforms and how they can be used to analyze causal signals.
 
 **Core Concepts**
 -----------------
 
-### Discrete-Time Signals
+### Causal Signals
 
-A discrete-time signal is a function x[n] that takes on values only at specific instants n, where n is an integer.
+A causal signal is a discrete-time signal where the value of the signal at any given time depends only on past and present values, not future ones. Mathematically, this can be represented as:
 
-*   Period: The period of a discrete-time signal is the number of samples taken in one complete cycle.
-*   Frequency: The frequency of a discrete-time signal is the reciprocal of its period.
+$$x[n] = \begin{cases} x_n & n \geq 0 \\ 0 & n < 0 \end{cases}$$
 
-### Discrete-Time Fourier Transform (DTFT)
+### Z-Transform
 
-The DTFT is a tool used to analyze discrete-time signals. It decomposes a signal into its constituent frequencies and amplitudes.
+The Z-transform of a discrete-time signal $x[n]$ is defined as:
 
-*   **Definition:** $X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}$
+$$X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}$$
 
-### Sampling Theorem
-
-The sampling theorem states that a continuous-time signal can be reconstructed from its samples if the sampling rate is greater than twice the maximum frequency component of the signal.
-
-*   **Sampling Rate:** $f_s > 2B$, where B is the bandwidth of the signal.
+where $z$ is a complex variable.
 
 **Key Formulas/Theorems**
 -------------------------
 
-### Discrete-Time Fourier Transform (DTFT)
+### Linearity Property
 
-$$
-X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-$$
+The Z-transform has the linearity property, meaning that if we have two signals $x_1[n]$ and $x_2[n]$, then:
 
-### Sampling Theorem
+$$\mathcal{Z}\{ax_1[n] + bx_2[n]\} = aX_1(z) + bX_2(z)$$
 
-If a continuous-time signal $x(t)$ is sampled at a rate of $f_s$, the resulting discrete-time signal $x[n]$ has a period equal to $\frac{1}{f_s}$.
+where $\mathcal{Z}$ denotes the Z-transform.
 
-**Problem Solving Patterns**
----------------------------
+### Differentiation in z-Domain Property
 
-When solving problems related to discrete-time signals, follow these steps:
+The differentiation in z-domain property states that:
 
-1.  Identify the type of problem: Is it about analyzing a discrete-time signal using the DTFT or sampling theorem?
-2.  Apply the relevant formula or theorem: Use the DTFT equation for frequency domain analysis or the sampling theorem for rate conversion.
-3.  Interpret results: Analyze the implications of your solution, considering factors like periodicity and frequency content.
+$$\mathcal{Z}\{nx[n]\} = -z \frac{d}{dz} X(z)$$
+
+This property can be used to find the Z-transform of a signal $x[n]$ by differentiating its Z-transform.
+
+### Example: Finding the Z-Transform of a Causal Signal
+
+Given:
+
+$$X(z) = 2^2(1 - z^{-a})^{-2}$$
+
+We want to find the corresponding time-domain signal $x[n]$. Using the differentiation in z-domain property, we can write:
+
+$$\mathcal{Z}\{u[n]\} = (1 - z^{-a})^{-2}$$
+
+where $u[n]$ is the unit step signal. Differentiating both sides with respect to $z$ gives:
+
+$$-z \frac{d}{dz} X(z) = 2(1 - z^{-a})^{-3}(-az^{-a})$$
+
+Simplifying and rearranging, we get:
+
+$$X(z) = (1 - z^{-a})^{-2} = 1 + 2az^{-a} + 2az^{-(2a)} + \ldots$$
+
+Using the inverse Z-transform, we can write the corresponding time-domain signal as:
+
+$$x[n] = a^n u[n]$$
+
+### Problem Solving Patterns
+-----------------------------
+
+When tackling problems related to discrete time signal processing, follow these steps:
+
+1.  Understand the problem statement and identify what is given and what needs to be found.
+2.  Use the linearity property to simplify the problem if possible.
+3.  Apply differentiation in z-domain property to find the Z-transform of a signal.
 
 **Examples with Solutions**
 ---------------------------
 
-### Example 1: Finding Period
+### Example 1: Finding the Z-Transform of a Signal
 
-Given a discrete-time signal $x[n] = \sin(\frac{4\pi n}{3})$, find its period.
+Given:
 
-```mermaid
-graph LR
-    A[Period] --> B[Candidate 1]
-    B --> C[48]
-```
+$$x[n] = n^2a^n u[n]$$
 
-*   Use the sampling theorem to determine the minimum sampling rate required for this signal.
-*   Since $f_s > 2B$ and $B = \frac{4\pi}{3}$, we have $f_s > \frac{8\pi}{3}$.
+Find the corresponding Z-transform $X(z)$ using the differentiation in z-domain property.
 
-### Example 2: Applying DTFT
+**Solution**
 
-Suppose we have a discrete-time signal $x[n] = \sin(5n) + 3\sin(\frac{\pi n}{4})$. Apply the DTFT to this signal and identify its frequency content.
+Using the linearity property, we can write:
 
-*   The DTFT is defined as $X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}$.
-*   Substituting the given values, we get $X(e^{j\omega}) = \frac{5}{1 - e^{-j\omega}} + 3 \cdot \frac{1/4 - j\sin(\pi /4)}{(1 - e^{-j\pi /4})(1 - e^{-j\omega})}$.
+$$\mathcal{Z}\{n^2a^n u[n]\} = \mathcal{Z}\{na^n u[n]\} + a\mathcal{Z}\{na^n u[n]\}$$
 
-**Common Pitfalls**
+Applying differentiation in z-domain property to the first term gives:
+
+$$-z \frac{d}{dz} \left( 2^2a(z-a)^{-2}\right) = -z \frac{d}{dz} \left(\frac{2^2a}{(z-a)^2}\right)$$
+
+Simplifying and rearranging, we get:
+
+$$X(z) = (1 + az^{-1})^{-3}$$
+
+### Example 2: Finding the Time-Domain Signal from a Given Z-Transform
+
+Given:
+
+$$X(z) = 1 - z^{-a}$$
+
+Find the corresponding time-domain signal $x[n]$.
+
+**Solution**
+
+Using the inverse Z-transform, we can write the time-domain signal as:
+
+$$x[n] = \mathcal{Z}^{-1}\left\{(1 + az^{-1})^{-2}\right\} = a^n u[n]$$
+
+### Common Pitfalls
 -------------------
 
-When solving problems related to discrete-time signals, watch out for these common pitfalls:
-
-*   Misunderstanding the concept of periodicity and frequency content.
-*   Incorrect application of the DTFT or sampling theorem.
-*   Failure to consider the implications of aliasing or folding in sampled signals.
+*   **Omitting unit step signal**: When finding the Z-transform of a causal signal, do not forget to include the unit step signal $u[n]$ in the time-domain representation.
+*   **Forgetting differentiation in z-domain property**: Be careful when applying differentiation in z-domain property to find the Z-transform of a signal. Make sure to use it correctly to avoid errors.
 
 **Quick Summary**
-----------------
+-----------------
 
-| Key Concept | Description |
+| Concept | Formula/Property |
 | --- | --- |
-| Period | The number of samples taken in one complete cycle. |
-| Frequency | The reciprocal of the period. |
-| Sampling Rate | The minimum rate at which a signal must be sampled to reconstruct it accurately. |
-| Discrete-Time Fourier Transform (DTFT) | A tool for analyzing discrete-time signals, decomposing them into frequency components and amplitudes. |
+| Causal Signal | $x[n] = \begin{cases} x_n & n \geq 0 \\ 0 & n < 0 \end{cases}$ |
+| Z-Transform | $X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}$ |
+| Linearity Property | $\mathcal{Z}\{ax_1[n] + bx_2[n]\} = aX_1(z) + bX_2(z)$ |
+| Differentiation in z-Domain Property | $\mathcal{Z}\{nx[n]\} = -z \frac{d}{dz} X(z)$ |
 
-This comprehensive theory note covers all theoretical concepts, formulas, and insights required to solve the given source questions and similar future questions in the field of discrete time signal processing.
+By mastering these concepts and techniques, you will be well-prepared to tackle problems related to discrete time signal processing.

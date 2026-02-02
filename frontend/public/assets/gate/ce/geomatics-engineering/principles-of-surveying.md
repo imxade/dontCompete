@@ -2,99 +2,83 @@
 ==========================
 
 ### Introduction
+-----------------
 
-Surveying is a branch of geomatics engineering that deals with determining the position and properties of natural features, such as boundaries, terrain, and monuments. It involves the collection and analysis of spatial data to create accurate maps and models of the physical environment.
+Surveying plays a crucial role in geomatics engineering, enabling accurate measurement and mapping of the Earth's surface. This topic covers fundamental principles, laws, and algorithms essential for solving various surveying-related problems.
 
 ### Core Concepts
+------------------
 
-#### 1. Theodolite Surveying
+#### 1. **Angular Measurement**
 
-A theodolite is an optical instrument used for measuring angles between visible celestial bodies or points on a map. The main components of a theodolite are:
+In surveying, angles are measured between two lines or planes using instruments like theodolites. The instrument axis is related to the reference level (RL), which serves as a fundamental concept in surveying.
 
-* **Telescope**: used to observe distant objects
-* **Level**: ensures the theodolite's axis is horizontal
-* **Circle and Graduation**: measure angles in degrees, minutes, and seconds
+#### 2. **Trigonometry and Triangulation**
 
-The process of setting up a theodolite involves the following steps:
-
-1. Leveling the instrument to ensure its axis is horizontal.
-2. Setting the telescope to observe the object (e.g., a staff or landmark).
-3. Reading the angle between the object and the instrument's vertical axis.
-
-#### 2. Zenith Angle
-
-The zenith angle is the angle between the direction of an object and the vertical plane passing through the observer's location. It is used in triangulation surveys to determine distances and positions.
-
-Given a zenith angle (Z) and the vertical angle (V), we can calculate the difference:
-
-$oxed{\text{Δ} = Z - V}$
-
-**Example:**
-
-If the zenith angle is 93°00'00'' and the vertical angle is A93°, then:
-
-$\text{Δ} = 93^{\circ}00'00'' - A93^{\circ} = -3^{\circ}00'00''$
-
-#### 3. Horizontal Distance
-
-The horizontal distance between two points can be calculated using trigonometry, given the angle and one of the distances.
-
-Let $\theta$ be the angle, $d_1$ be the known distance, and $d_2$ be the unknown distance:
-
-$d_2 = d_1 \cdot \tan(\theta)$
-
-**Example:**
-
-If the horizontal distance between two points is 400m and the angle is A7°, then:
-
-$d_2 = 400 \cdot \tan(A7^{\circ})$
+Surveyors employ trigonometric relationships and triangulation methods for precise measurements of distances, heights, and angles.
 
 ### Key Formulas/Theorems
+-------------------------
 
-* **Trigonometric Formulae**
-	+ $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$
-	+ $\cos(\theta) = \frac{\text{adjacent}}{\text{hypotenuse}}$
-	+ $\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}$
+- **Sine Rule:**
+\[ \frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)} \]
+- **Cosine Rule:**
+\[ c^2 = a^2 + b^2 - 2ab\cos(C) \]
 
 ### Problem Solving Patterns
+---------------------------
 
-1. **Theodolite Surveying:**
-	* Use the angle and distance between two points to calculate the horizontal distance.
-	* Apply trigonometric formulae to solve problems involving zenith angles and vertical angles.
-2. **Distance Measurement:**
-	* Use trigonometry to calculate distances given an angle and one of the sides.
+1.  **Theodolite Measurement:** Given the angle of elevation to a staff and the RL, calculate the distance between stations A and B.
+    Example:
+
+    Suppose $E = (212.250)$ m, $\alpha = 7^{\circ}$, and $d = 4$ m. Calculate the RL at station B.
+
+    \[ RL_B = E + d\sin(\alpha) = 212.250 + 4 \cdot \sin(7^{\circ}) \approx 212.281 \]
+2.  **Bearing and Azimuth:** Determine the bearing of a survey given its azimuth observed from north.
+    Example:
+
+    Suppose $Az = 231^{\circ}$. Calculate the bearing.
+
+    \[ Bearing = Az + 90^{\circ} = 321^{\circ} \]
 
 ### Examples with Solutions
+---------------------------
 
-**Q1:** A theodolite is set up at station A. The RL of instrument axis is 212.250 m. The angle of elevation to the top of a 4m long staff, held vertical at station B, is A7°. The horizontal distance between stations A and B is 400m. Neglecting the errors due to curvature of earth and refraction, the RL (in m) of station B is _______.
+1.  **Q1 Solution:** (Round off to three decimal places)
 
-**Solution:**
+    We have, $E = 212.250$ m and $\alpha = 7^{\circ}$.
 
-1. Level the instrument and set up the telescope.
-2. Read the angle and calculate the vertical angle (A93°).
-3. Apply trigonometry to find the horizontal distance:
-$d_2 = 400 \cdot \tan(A7^{\circ})$
-4. Calculate the RL of station B using the formula:
+    The horizontal distance is given by:
 
-$RL_B = RL_A + d_2 \cdot \sin(\text{angle})$
+    \[ d = \frac{4}{\tan(\alpha)} = \frac{4}{\tan(7^{\circ})} = 400.0 \text{ m} \]
 
-**Q2:** A surveyor observes a zenith angle of A93°00'00'' during a theodolite survey. The corresponding vertical angle is ______.
+    To find the RL at station B, we use:
 
-**Solution:**
+    \[ RL_B = E + d\sin(\alpha) = 212.250 + (400)(\sin(7^{\circ})) = 257.360 \]
 
-1. Use the formula to find the difference between the zenith and vertical angles:
-$\Delta = Z - V$
-2. Apply trigonometry to solve for the vertical angle:
+2.  **Q2 Solution:**
 
-$V = Z - \Delta$
+    Given the bearing of a survey, we can determine its azimuth observed from north.
+
+    Suppose $Bearing = 231^{\circ}$. Then,
+
+    \[ Azimuth = Bearing - 90^{\circ} = 231 - 90 = 141^{\circ} \]
 
 ### Common Pitfalls
+-------------------
 
-* **Incorrect application of trigonometric formulae**
-* **Neglecting errors due to curvature of earth and refraction**
+-   **Neglecting Errors:** Always consider the effects of curvature and refraction when making precise measurements.
+-   **Misinterpretation of Formulas:** Ensure to use the correct trigonometric relationships for a given problem.
 
 ### Quick Summary
+------------------
 
-* **Theodolite Surveying:** measure angles between visible celestial bodies or points on a map
-* **Zenith Angle:** angle between direction of an object and vertical plane passing through observer's location
-* **Horizontal Distance:** calculate using trigonometry given an angle and one of the sides
+*   **Theodolite Measurement:**
+    *   $\alpha$: Angle of elevation to staff
+    *   $E$: RL of instrument axis
+    *   $d$: Distance between stations A and B
+*   **Bearing and Azimuth:**
+    *   $Az$: Azimuth observed from north
+    *   $Bearing = Az + 90^{\circ}$
+
+Please note that the source questions provided do not directly relate to the topics of line symmetry, mirror images, or fractions. For these specific topics, refer to standard geometry and algebra textbooks.

@@ -2,80 +2,67 @@
 =========================
 
 ### Introduction
-The shear strength of soil is a critical parameter in geotechnical engineering, particularly for design and analysis of various structures such as foundations, tunnels, and slopes. The shear strength of soil depends on several factors including the effective stress, friction angle, and cohesion.
+The shear strength of soil is a critical parameter in geotechnical engineering, affecting the stability and safety of structures built on or within soil. The shear strength is determined by the ability of the soil to resist shear stresses, which are forces that cause the soil particles to slide past each other.
 
 ### Core Concepts
-The shear strength of soil can be determined using various methods, including:
 
-* **Triaxial Compression Test**: This test is widely used to determine the shear strength of soil. In this test, a cylindrical sample of soil is subjected to a confining pressure (σ3) and then sheared along its axis until failure occurs.
-* **Drained Triaxial Test**: In this type of test, the soil sample is allowed to drain freely during the shearing process. This helps to eliminate the effects of pore water pressure on the shear strength of the soil.
-* **Consolidated Undrained (CU) Triaxial Test**: In this type of test, the soil sample is consolidated under a confining pressure for a specified period before being subjected to shearing.
+#### **Triaxial Test**
+The triaxial test is a laboratory procedure used to determine the shear strength of soil. It involves applying confining pressure (σ3) and axial stress (σ1) to a cylindrical specimen, while measuring the resulting vertical strain and pore water pressure.
 
-### Key Formulas/Theorems
-
-The shear strength of soil can be calculated using the following formulas:
-
-* **Mohr-Coulomb Failure Criterion**:
+**Principle:** The Mohr-Coulomb failure criterion states that the shear strength of the soil is related to the normal stress and the angle of internal friction. For a drained triaxial test, the relationship can be expressed as:
 
 $$\tau = c' + \sigma_n \tan \phi'$$
 
-where $\tau$ is the shear stress, $c'$ is the effective cohesion, $\sigma_n$ is the normal stress, and $\phi'$ is the effective friction angle.
+where τ is the shear stress, c' is the effective cohesion, σn is the normal stress, and φ' is the effective angle of internal friction.
 
-* **Effective Stress Law**:
+#### **Pore Water Pressure**
+During a triaxial test, pore water pressure (u) develops within the soil specimen due to the applied stresses. Skempton's pore pressure parameter (B) is defined as:
 
-$$p' = p - u$$
+$$B = \frac{\Delta u}{\sigma_v}$$
 
-where $p'$ is the effective confining pressure, $p$ is the total confining pressure, and $u$ is the pore water pressure.
+where Δu is the change in pore water pressure and σv is the change in effective vertical stress.
 
-* **Skempton's Pore Pressure Parameter (B)**:
+### Key Formulas/Theorems
 
-$$B = \frac{Δu}{σ_3}$$
-
-where $Δu$ is the change in pore water pressure and $σ_3$ is the effective confining pressure.
+* Mohr-Coulomb failure criterion: τ = c' + σn tan φ'
+* Skempton's pore pressure parameter (B): B = Δu / σv
+* Effective cohesion (c'): related to the angle of internal friction and normal stress: c' = σn tan φ'
 
 ### Problem Solving Patterns
-When solving problems related to shear strength of soil, follow these steps:
 
-1. Determine the type of test (drained or consolidated undrained) and the conditions under which it was conducted.
-2. Identify the relevant parameters (effective cohesion, friction angle, pore water pressure, etc.) that affect the shear strength of the soil.
-3. Apply the appropriate formulas and theorems to calculate the shear strength of the soil.
+* **Drained Triaxial Test:** Use the Mohr-Coulomb failure criterion to determine the shear strength.
+* **Consolidated Undrained (CU) Triaxial Test:** Calculate Skempton's pore pressure parameter (B) using the change in pore water pressure and effective vertical stress.
 
 ### Examples with Solutions
 
-**Example 1**
+**Example 1: Drained Triaxial Test**
 
-A consolidated undrained triaxial test was conducted on a saturated clay sample. The confining pressure was 200 kPa, and the pore water pressure at failure was recorded as 50 kPa. Calculate the Skempton's pore pressure parameter (B) for the soil sample.
+A drained triaxial test is conducted on a saturated sand specimen. The axial stress reaches a value of 2100 kN/m² from an initial confining pressure of 2300 kN/m². Determine the angle of shearing plane (in degrees) with respect to horizontal.
 
-```latex
-Δu = 50 - 0 = 50 \text{ kPa}
-σ_3 = 200 \text{ kPa}
-B = \frac{Δu}{σ_3} = \frac{50}{200} = 0.25
-```
+**Solution:**
 
-**Example 2**
+* Normal stress (σn) = (2100 + 2300)/2 = 2200 kN/m²
+* Angle of internal friction (φ') = arctan(c'/σn)
+Assuming c' = 0 (sand), φ' ≈ 30°
 
-A drained triaxial test was conducted on a saturated sand sample. The confining pressure was 300 kN/m², and the axial stress at failure was recorded as 2100 kN/m². Calculate the angle of shearing plane (in degrees) with respect to horizontal.
+**Example 2: Consolidated Undrained (CU) Triaxial Test**
 
-```latex
-τ = \frac{2}{3} \sigma_1' = \frac{2}{3} \times 2100 = 1400 \text{ kPa}
-\phi' = \arctan \left( \frac{\tau - c'}{\sigma_n} \right) = \arctan \left( \frac{1400}{300} \right)
-= 58.19^\circ
-```
+A CU triaxial test is conducted on a soil sample. The cell pressure is increased from 20 kPa to 30 kPa, resulting in a pore water pressure of 1 kPa. At failure, the axial stress is 50 kPa, and the pore water pressure at failure is 21 kPa. Determine Skempton's pore pressure parameter (B).
+
+**Solution:**
+
+* Change in pore water pressure (Δu) = 21 - 1 = 20 kPa
+* Effective vertical stress (σv) = (30 + 10)/2 = 20 kPa
+* B ≈ Δu / σv = 20/20 = 1
 
 ### Common Pitfalls
 
-* Students often forget to consider the effects of pore water pressure on the shear strength of soil.
-* Inconsistent units and dimensions can lead to errors in calculations.
+* Forgetting to account for pore water pressure in CU triaxial tests.
+* Misinterpreting the relationship between normal stress and effective cohesion.
 
 ### Quick Summary
-Key concepts:
 
-* Triaxial compression test, drained triaxial test, and consolidated undrained (CU) triaxial test
-* Mohr-Coulomb failure criterion, effective stress law, and Skempton's pore pressure parameter (B)
-* Formulas for calculating shear strength of soil
-
-```mermaid
-graph LR
-  A[Shear Strength of Soil] --> B[Triaxial Compression Test]
-  C[Drained Triaxial Test] --> D[Coefficients of Friction Angle and Cohesion]
-  E[Consolidated Undrained (CU) Triaxial Test] --> F[Pore Water Pressure Effects]
+* Triaxial test: determines shear strength of soil under different stresses.
+* Drained triaxial test: uses Mohr-Coulomb failure criterion to determine shear strength.
+* Consolidated undrained (CU) triaxial test: calculates Skempton's pore pressure parameter (B).
+* Pore water pressure affects the shear strength of soil in CU triaxial tests.

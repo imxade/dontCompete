@@ -2,72 +2,133 @@
 ==========================
 
 ### Introduction
------------------
 
-First normal form (1NF) is a fundamental concept in database design, introduced by Edgar F. Codd in his 1970 paper "A Relational Model of Data for Large Shared Data Banks". A relation R is said to be in 1NF if each cell in the table contains atomic values, meaning no repeating groups or multi-valued attributes.
+A relation R in first normal form (1NF) is a table that satisfies certain conditions, making it suitable for storing and managing data. The key concepts related to 1NF are candidate keys, primary keys, foreign keys, and composite attributes.
 
 ### Core Concepts
------------------
 
-#### Atomicity and Repeating Groups
+#### First Normal Form (1NF)
 
-In a relation R, each column must contain atomic values. This means that there should not be any:
+A relation R is in 1NF if:
 
-* **Repeating groups**: A group of values that repeat for a single entity.
-* **Multi-valued attributes**: Attributes that can hold multiple values.
+* Each row in the table represents a unique entry.
+* Each column contains atomic values only (no repeating groups or arrays).
+* There is no duplicate combination of attribute values.
 
-Example:
-Suppose we have an employee table with columns `id`, `name`, and `contact_info`. If the `contact_info` column contains multiple phone numbers, email addresses, or other contact information for each employee, it violates 1NF.
+```mermaid
+graph LR
+A[Row] --> B[Unique Entry]
+C[Column] --> D[Atomic Values]
+E[Attribute] --> F[No Duplicate Combinations]
+```
 
 #### Candidate Keys
 
-A candidate key is a minimal set of attributes that uniquely identifies a tuple in a relation. In other words, if we remove one attribute from a candidate key, it should no longer be able to identify the tuple.
+A candidate key is a minimal set of attributes that uniquely identifies each row in the table. A relation can have multiple candidate keys.
 
-In a table with multiple candidate keys, all the attributes together form the primary key.
+```markdown
+**Example:**
+
+Suppose we have a table `Employee` with columns `EmpID`, `Name`, and `Dept`.
+
+| EmpID | Name  | Dept |
+| --- | --- | --- |
+| 1    | John  | HR   |
+| 2    | Jane  | IT   |
+
+In this case, both `EmpID` and the combination of `Name` and `Dept` are candidate keys.
+```
+
+#### Primary Keys
+
+A primary key is a candidate key chosen as the unique identifier for each row in the table.
+
+```markdown
+**Example:**
+
+Suppose we choose `EmpID` as the primary key.
+
+| EmpID | Name  | Dept |
+| --- | --- | --- |
+| 1    | John  | HR   |
+| 2    | Jane  | IT   |
+
+Now, each row is uniquely identified by its `EmpID`.
+```
+
+#### Foreign Keys
+
+A foreign key is an attribute in a table that references the primary key of another table.
+
+```markdown
+**Example:**
+
+Suppose we have two tables: `Employee` and `Department`.
+
+| EmpID | Name  | DeptID |
+| --- | --- | --- |
+| 1    | John  | 101   |
+| 2    | Jane  | 102   |
+
+In this case, `DeptID` in the `Employee` table is a foreign key referencing the primary key of the `Department` table.
+```
+
+#### Composite Attributes
+
+A composite attribute is an attribute that consists of multiple values.
+
+```markdown
+**Example:**
+
+Suppose we have a table `Order` with columns `OrderID`, `Product1`, `Price1`, and `Product2`, `Price2`.
+
+| OrderID | Product1 | Price1 | Product2 | Price2 |
+| --- | --- | --- | --- | --- |
+| 1    | Apple   | $10   | Orange  | $20   |
+
+In this case, `Product1` and `Price1` are composite attributes.
+```
 
 ### Key Formulas/Theorems
--------------------------
 
-None
+None applicable.
 
 ### Problem Solving Patterns
------------------------------
 
-1.  **Identify repeating groups or multi-valued attributes**: Look for columns that contain multiple values or groups of values.
-2.  **Check for atomicity**: Ensure each cell in the table contains only one value.
-3.  **Verify candidate keys**: Confirm that there are no duplicate keys and that all tuples can be uniquely identified.
+* Identify candidate keys and primary keys in a relation.
+* Determine whether a relation is in 1NF based on the presence of repeating groups or arrays.
+* Analyze foreign key relationships between tables.
 
 ### Examples with Solutions
----------------------------
 
-**Example 1:** An employee table with multiple phone numbers for each employee:
+**Q1 (ID: cs_2024-M_22)**:
 
-| id | name | contact_info |
-| --- | --- | --- |
-| 1  | John | (123) 456-7890, (987) 654-3210 |
-| 2  | Jane | (555) 123-4567 |
+Which of the following statements about a relation R in first normal form (1 NF) is/are TRUE?
 
-**Solution:** This table is not in 1NF because the `contact_info` column contains repeating groups.
+(A) R can have a multi-attribute key
+(B) R cannot have a foreign key
+(C) R cannot have a composite attribute
+(D) R cannot have more than one candidate key
 
-**Example 2:** A student table with multiple courses enrolled:
+**Solution:**
 
-| id | name | course_enrolled |
-| --- | --- | --- |
-| 1  | Alice | Math, Science, English |
-| 2  | Bob   | History, Geography |
+The correct options are A and C.
 
-**Solution:** This table is not in 1NF because the `course_enrolled` column contains repeating groups.
+* A relation R in 1NF can indeed have a multi-attribute key, as demonstrated by the example where `Name` and `Dept` form a candidate key.
+* A relation R in 1NF cannot have a composite attribute, as this would violate the definition of 1NF. However, it's worth noting that some sources may allow composite attributes if properly normalized.
 
 ### Common Pitfalls
--------------------
 
-*   Missing or ignoring atomicity.
-*   Confusing candidate keys with primary keys.
-*   Assuming that all tables must have a single primary key.
+* Failing to distinguish between candidate keys and primary keys.
+* Confusing foreign key relationships with composite attributes.
+* Assuming that all tables must have a single primary key.
 
 ### Quick Summary
------------------
 
-*   Relations in 1NF have atomic values (no repeating groups or multi-valued attributes).
-*   Candidate keys are minimal sets of attributes that uniquely identify tuples.
-*   No formulas or theorems apply directly to this topic.
+* First normal form (1NF) requires each row to be unique, each column to contain atomic values only, and no duplicate combinations of attribute values.
+* Candidate keys are minimal sets of attributes that uniquely identify each row in the table. Relations can have multiple candidate keys.
+* Primary keys are chosen as the unique identifier for each row in the table.
+* Foreign keys reference primary keys in other tables.
+* Composite attributes consist of multiple values and are not allowed in 1NF.
+
+Remember to review and practice problems related to database design functions, especially those dealing with first normal form (1NF) and its implications on candidate keys, primary keys, foreign keys, and composite attributes.

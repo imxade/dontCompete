@@ -4,89 +4,101 @@
 **Introduction**
 ---------------
 
-Combinatorial probability deals with counting and calculating probabilities of events in experiments involving random selection, arrangements, or combinations. This topic is crucial for understanding various real-world applications, including statistical analysis, data science, and engineering.
+Combinatorial probability deals with counting and calculating probabilities for various combinations of events. It's a fundamental concept in probability theory, with numerous applications in science, engineering, and finance.
 
 **Core Concepts**
 -----------------
 
-### Independent Events
+### Basic Principles
 
-Two events A and B are independent if the occurrence or non-occurrence of one does not affect the probability of the other.
+*   Combinations are the ways to choose items from a set without regard to order.
+*   Permutations are the arrangements of items where order matters.
+*   Events can be independent or dependent, which affects their probabilities.
 
-*   Probability of A and B: P(A ∩ B) = P(A) × P(B)
+### Key Formulas/Theorems
 
-### Dependent Events
+\[
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+\]
 
-Two events A and B are dependent if the occurrence or non-occurrence of one affects the probability of the other.
+\[
+P(A') = 1 - P(A)
+\]
 
-*   Probability of A and B: P(A ∩ B) ≠ P(A) × P(B)
+\[
+P(\text{at least one of } A, B) = P(A) + P(B) - P(A \cap B)
+\]
 
-**Key Formulas/Theorems**
--------------------------
+### Combinatorial Probability
 
-### Probability Mass Function (PMF)
+For a random variable $X$ with possible values $\{x_1, x_2, ..., x_n\}$, the probability mass function (PMF) is defined as:
 
-The PMF of a random variable X is defined as:
+\[P(X=x_i) = p_i\]
 
-P(X = x) = P(x)
+where $p_i \geq 0$ and $\sum_{i=1}^{n} p_i = 1$
 
-where x is the outcome, and P(x) is the probability of that outcome.
+**Entropy**
 
-### Binomial Coefficient
+The entropy of a random variable $X$, denoted by $H(X)$, measures the uncertainty or randomness in the distribution. It's defined as:
 
-The binomial coefficient is used to calculate the number of ways to choose k items from n items without repetition:
+\[H(X) = -\sum_{i=1}^{n} p_i \log_2 p_i\]
 
-C(n, k) = n! / (k!(n-k)!)
+For binary random variables like the one in question 22 of GATE 2020, we can simplify this expression:
 
-### Combinations and Permutations
+\[H(X) = -p \log_2 p - (1-p) \log_2 (1-p)\]
 
-*   Number of combinations: C(n, k) = n! / (k!(n-k)!)
-*   Number of permutations: P(n, k) = n! / (n-k)!
+### Problem Solving Patterns
 
-**Problem Solving Patterns**
----------------------------
+When dealing with combinatorial probability problems:
 
-When dealing with combinatorial probability, consider the following steps:
-
-1.  Identify the type of problem (independent or dependent events)
-2.  Determine the total number of outcomes
-3.  Calculate the probability of each outcome
-4.  Combine probabilities using the multiplication rule for independent events
+*   Identify the type of problem: combinations or permutations.
+*   Use formulas and theorems to calculate probabilities.
+*   Consider independence and dependence between events.
 
 **Examples with Solutions**
----------------------------
 
-### Example 1: Independent Events
+### Example 1: Binary Random Variable
 
-A box contains 5 red balls and 3 blue balls. If one ball is randomly selected, what is the probability that it is red?
+Suppose we have a binary random variable $X$ that takes values +2 or -2, with probability $\alpha$ for each. We want to find the value of $\alpha$ that maximizes the entropy of $X$.
 
-Solution:
+\[H(X) = -\alpha \log_2 \alpha - (1-\alpha) \log_2 (1-\alpha)\]
 
-*   Total number of outcomes = 8 (5 red + 3 blue)
-*   Probability of selecting a red ball = P(R) = 5/8
+To find the maximum, we take the derivative with respect to $\alpha$ and set it equal to zero:
 
-### Example 2: Dependent Events
+\[\frac{dH}{d\alpha} = -\frac{\ln 2}{\alpha} + \frac{\ln 2}{1-\alpha} = 0\]
 
-A coin has two sides: heads and tails. If one side lands facing up, what is the probability that the other side will also land facing up?
+Solving for $\alpha$, we get:
 
-Solution:
+\[\alpha = 0.5\]
 
-*   Let's denote the event of the first side landing facing up as A.
-*   The probability of the second side landing facing up given that A occurred = P(B|A) = 1/2 (since it's a fair coin)
+### Example 2: High School Students
 
-**Common Pitfalls**
-------------------
+In a high school with equal numbers of boy and girl students, 75% study science and 25% study commerce. Commerce students are two times more likely to be boys than science students.
 
-*   Assuming independent events are always mutually exclusive
-*   Failing to consider dependent events
+Let's calculate the probability that a randomly selected girl student studies commerce.
 
-**Quick Summary**
------------------
+## Step 1
+First, we need to find the number of girls studying commerce.
 
-*   Combinatorial probability deals with counting and calculating probabilities of events in experiments involving random selection, arrangements, or combinations.
-*   Independent events: P(A ∩ B) = P(A) × P(B)
-*   Dependent events: P(A ∩ B) ≠ P(A) × P(B)
-*   Key formulas include PMF, binomial coefficient, and combinations/permutations.
+## Step 2
+Let's assume there are x girls studying science and y girls studying commerce. Then we have:
 
-Note:
-Please let me know if you need any adjustments or want to proceed with the next topic.
+\[x + y = 0.25 \times (n/2)\]
+
+where n is the total number of students.
+
+## Step 3
+Since commerce students are two times more likely to be boys than science students, we can write an equation based on this information.
+
+## Step 4
+Now, let's calculate the probability that a randomly selected girl student studies commerce.
+
+\[P(\text{girl studies commerce}) = \frac{\text{number of girls studying commerce}}{\text{total number of girls}}\]
+
+### Quick Summary
+
+*   Combinatorial probability deals with counting and calculating probabilities for various combinations of events.
+*   Entropy measures the uncertainty or randomness in a distribution.
+*   Binary random variables can be used to model different types of problems.
+
+This concludes our comprehensive theory note on combinatorial probability.

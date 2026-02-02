@@ -1,143 +1,122 @@
-**Arrays, Stacks, Queues, and Linked Lists**
-==============================================
+Arrays, Stacks, Queues, and Linked Lists
+=====================================
 
-### Introduction
+Introduction
+------------
 
-In computer science, arrays, stacks, queues, and linked lists are fundamental data structures that enable efficient storage and retrieval of data. Understanding these concepts is crucial for programming and problem-solving.
+Arrays, stacks, queues, and linked lists are fundamental data structures used in computer science. They provide efficient ways to store and manipulate large amounts of data. Understanding these data structures is essential for programming and problem-solving.
 
-### Core Concepts
+Core Concepts
+-------------
 
-#### Arrays
+### Arrays
 
-An array is a collection of elements of the same data type stored in contiguous memory locations. Each element can be accessed using an index or subscript.
+An array is a collection of elements of the same data type stored in contiguous memory locations.
 
-*   **Array Declaration**: `int arr[5];`
-*   **Array Indexing**: `arr[i]` where `i` is the index
-*   **Array Operations**:
-    *   Assignment: `arr[i] = 10;`
-    *   Access: `x = arr[i];`
+*   **Indexing**: Arrays are indexed, meaning each element can be accessed using an index or subscript.
+*   **Fixed Size**: The size of an array is fixed at compile time and cannot be changed during execution.
 
-#### Stacks
+### Stacks
 
-A stack is a Last-In-First-Out (LIFO) data structure that follows the principle of "last element added is the first one to be removed."
+A stack is a last-in-first-out (LIFO) data structure, where the most recently added element is removed first.
 
-*   **Stack Operations**:
-    *   Push: adds an element to the top of the stack
-    *   Pop: removes the top element from the stack
-    *   Peek: returns the top element without removing it
+*   **Push**: Adding an element to the top of the stack.
+*   **Pop**: Removing an element from the top of the stack.
 
-```mermaid
-graph LR
-A[Push] --> B[Top]
-B --> C[Pok]
-C --> D[Pop]
-D --> E[Peek]
-```
+### Queues
 
-#### Queues
+A queue is a first-in-first-out (FIFO) data structure, where the first added element is removed first.
 
-A queue is a First-In-First-Out (FIFO) data structure that follows the principle of "first element added is the first one to be removed."
+*   **Enqueue**: Adding an element to the end of the queue.
+*   **Dequeue**: Removing an element from the front of the queue.
 
-*   **Queue Operations**:
-    *   Enqueue: adds an element to the end of the queue
-    *   Dequeue: removes the front element from the queue
-    *   Peek: returns the front element without removing it
+### Linked Lists
 
-```mermaid
-graph LR
-A[Enqueue] --> B[Front]
-B --> C[Pek]
-C --> D[Dequeue]
-D --> E[End]
-```
+A linked list is a dynamic collection of elements, where each element points to the next one.
 
-#### Linked Lists
+*   **Node**: Each element in a linked list is called a node.
+*   **Pointer**: Each node contains a pointer to the next node.
 
-A linked list is a dynamic collection of elements where each element points to the next one.
+Key Formulas/Theorems
+--------------------
 
-*   **Linked List Node**: `struct Node { int data; struct Node *next; };`
-*   **Linked List Operations**:
-    *   Insert: adds an element at the beginning or end of the list
-    *   Delete: removes an element from the list
+None specific to this topic
 
-### Key Formulas/Theorems
+Problem Solving Patterns
+----------------------
 
-None specific to this topic.
+1.  **Array Indexing**:
+    *   Use `a[i][j][k]` for multi-dimensional arrays.
+2.  **Stack Operations**:
+    *   Use `push` and `pop` operations for stacks.
+3.  **Queue Operations**:
+    *   Use `enqueue` and `dequeue` operations for queues.
 
-### Problem Solving Patterns
+Examples with Solutions
+----------------------
 
-1.  **Array Indexing**: When accessing array elements, ensure that the index is within bounds.
-2.  **Stack/Queue Operations**: Understand the LIFO/FIFO principles and use the corresponding operations (push/pop/enqueue/dequeue) correctly.
-3.  **Linked List Traversal**: Traverse linked lists using pointers to access each node.
-
-### Examples with Solutions
-
-#### Example 1: Array Indexing
-
-Given an array `arr[5]`, what is the value of `arr[2]` after assigning `10` to it?
+### Example 1: Array Indexing
 
 ```c
-int arr[5];
-arr[2] = 10;
-printf("%d", arr[2]);
+int a[3][3] = {{1, 2}, {3, 4}};
+printf("%d %d", a[0][0], a[1][1]);
 ```
 
-**Solution**: The value of `arr[2]` is `10`.
+Output:
 
-#### Example 2: Stack Operations
+*   `1 4`
 
-Given a stack with elements `[1, 2, 3]`, what is the top element after pushing `4` onto it?
+Explanation:
+
+*   We use `a[0][0]` to access the element at row 0, column 0.
+*   We use `a[1][1]` to access the element at row 1, column 1.
+
+### Example 2: Stack Operations
 
 ```c
-int stack[] = {1, 2, 3};
-push(stack, 4);
-printf("%d", stack[0]);
+#include <stdio.h>
+
+void push(int *stack, int new_element) {
+    stack[++top] = new_element;
+}
+
+int pop(int *stack) {
+    return stack[top--];
+}
+
+int main() {
+    int stack[10];
+    top = -1;
+    push(stack, 5);
+    push(stack, 3);
+    printf("%d", pop(stack));
+    return 0;
+}
 ```
 
-**Solution**: The top element is `4`.
+Output:
 
-#### Example 3: Queue Operations
+*   `3`
 
-Given a queue with elements `[1, 2, 3]`, what is the front element after enqueueing `4` onto it?
+Explanation:
 
-```c
-int queue[] = {1, 2, 3};
-enqueue(queue, 4);
-printf("%d", queue[0]);
-```
+*   We use the `push` function to add elements to the stack.
+*   We use the `pop` function to remove an element from the stack.
 
-**Solution**: The front element is `4`.
+Common Pitfalls
+----------------
 
-#### Example 4: Linked List Insertion
+1.  **Array Indexing**:
+    *   Off-by-one errors when accessing array indices.
+2.  **Stack Operations**:
+    *   Using `push` and `pop` operations on queues, or vice versa.
+3.  **Queue Operations**:
+    *   Using `enqueue` and `dequeue` operations on stacks, or vice versa.
 
-Given a linked list with elements `[1 -> 2 -> 3]`, what is the new list after inserting `4` at the beginning?
+Quick Summary
+--------------
 
-```c
-struct Node *head = malloc(sizeof(struct Node));
-head->data = 1;
-head->next = malloc(sizeof(struct Node));
-head->next->data = 2;
-head->next->next = malloc(sizeof(struct Node));
-head->next->next->data = 3;
-
-insert(head, 4);
-```
-
-**Solution**: The new list is `[4 -> 1 -> 2 -> 3]`.
-
-### Common Pitfalls
-
-*   Array Indexing: accessing elements out of bounds
-*   Stack/Queue Operations: using the wrong operations (push/pop/enqueue/dequeue)
-*   Linked List Traversal: failing to traverse the entire list
-
-### Quick Summary
-
-| Topic | Key Points |
-| --- | --- |
-| Arrays | contiguous memory, indexing, assignment, access |
-| Stacks | LIFO principle, push/pop/peek operations |
-| Queues | FIFO principle, enqueue/dequeue/peek operations |
-| Linked Lists | dynamic collection, linked nodes, insert/delete operations |
-
-Note: This summary is not exhaustive but highlights the main concepts covered in this topic.
+*   Arrays: Fixed-size collection of elements, indexed using subscripts.
+*   Stacks: LIFO data structure, with push and pop operations.
+*   Queues: FIFO data structure, with enqueue and dequeue operations.
+*   Linked Lists: Dynamic collection of elements, with pointers between nodes.
