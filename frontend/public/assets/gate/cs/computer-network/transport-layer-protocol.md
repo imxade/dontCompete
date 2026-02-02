@@ -1,96 +1,94 @@
-**Transport Layer Protocol**
+# Transport Layer Protocol
 ==========================
 
-**Introduction**
+## Introduction
 ---------------
 
-The transport layer is the fourth layer of the OSI model, responsible for providing reliable data transfer between devices on a network. It ensures that data packets are delivered in the correct order and reassembled at the receiving end.
+The transport layer protocol, also known as TCP/IP (Transmission Control Protocol/Internet Protocol), is a crucial component of the OSI (Open Systems Interconnection) model. It ensures reliable data transfer between devices on a network by providing segmentation, acknowledgment, and flow control.
 
-**Core Concepts**
+## Core Concepts
 -----------------
 
-### Connection-Oriented vs Connectionless Communication
+### Connection-Oriented vs Connectionless
 
-*   **Connection-Oriented**: Establishes a connection before sending data, ensuring reliability.
-    *   Example: TCP (Transmission Control Protocol)
-*   **Connectionless**: Sends data without establishing a connection beforehand.
-    *   Example: UDP (User Datagram Protocol)
+*   **Connection-oriented**: Establishes a dedicated connection before transmitting data.
+*   **Connectionless**: Transmits data without establishing a prior connection (e.g., UDP).
 
-### Segmentation and Reassembly
+### TCP Segment Structure
 
-*   Breaking down large data packets into smaller segments for efficient transmission.
-*   Reassembling the original packet at the receiving end.
+A TCP segment consists of the following:
 
-**Key Formulas/Theorems**
--------------------------
+1.  **Source Port** (`16` bits): Identifies the process on the sender's machine that originated the data.
+2.  **Destination Port** (`16` bits): Identifies the process on the receiver's machine that will receive the data.
+3.  **Sequence Number** (`32` bits): Tracks the order of segments transmitted by the sender.
+4.  **Acknowledgment Number** (`32` bits): Acknowledges the receipt of data from the sender.
+5.  **Header Length** (`16` bits): Indicates the length of the header in `32-bit` words.
 
-*   **TCP Sliding Window Algorithm**: $(R = \frac{BW}{RTT})$, where $R$ is the rate, $BW$ is the bandwidth, and $RTT$ is the round-trip time.
-    ```latex
-\begin{equation*}
-    R = \frac{BW}{RTT}
-\end{equation*}
-```
+### TCP Connection States
 
-**Problem Solving Patterns**
+A TCP connection can be in one of several states:
+
+1.  **SYN SENT**: The client initiates a connection by sending a SYN packet to the server.
+2.  **SYN RECEIVED**: The server responds with its own SYN packet and acknowledges the client's initial SYN.
+3.  **ESTABLISHED**: Data transfer occurs between the client and server.
+4.  **FIN WAIT 1**: The client sends a FIN packet, indicating it has completed sending data.
+5.  **TIME WAIT**: The client waits for the other end to acknowledge its last transmission.
+
+## Key Formulas/Theorems
 ---------------------------
 
-1.  **Understanding Protocol States**: Analyze the protocol's states (e.g., SYN, SYN-ACK, ACK) to determine its behavior.
-2.  **Identifying Sequence Numbers and Acknowledgments**: Recognize the importance of sequence numbers and acknowledgments in ensuring correct data transfer.
+### TCP Connection Establishment
 
-**Examples with Solutions**
+The process involves three-way handshake:
+
+$$ \text{SYN} \to \text{Client} \to \text{Server: SYN ACK} \to \text{Client: ACK} $$
+
+### TCP Segment Ordering
+
+The sender uses sequence numbers to ensure correct ordering of segments.
+
+## Problem Solving Patterns
 ---------------------------
+
+*   Analyze the given scenario and identify the relevant TCP concepts.
+*   Determine the initial state of the connection (e.g., established, closed).
+*   Identify any data exchange or acknowledgment issues that may have occurred due to the server crash.
+
+## Examples with Solutions
 
 ### Example 1: TCP Connection Establishment
 
-Suppose we have a TCP client connecting to a server over a network. The client sends a SYN packet (sequence number = 100) to establish a connection.
+A client initiates a connection to a server by sending a SYN packet. The server responds with its own SYN ACK packet and an acknowledgment of the client's initial SYN.
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| SYN | sequence number = 100 |                      |
+Solution:
 
-The server responds with a SYN-ACK packet, acknowledging the client's sequence number and sending its own sequence number (200).
+Client sends SYN packet (SYN = 0x01, Seq = 100)
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| SYN | sequence number = 100 | SYN-ACK, seq = 200    |
+Server receives SYN packet, generates response SYN ACK packet (SYN ACK = 0x02, Ack = 101), and sends it back to the client.
 
-The client then sends an ACK packet to confirm receipt of the server's sequence number.
+### Example 2: TCP Segment Ordering
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| ACK | confirms seq = 200   |                      |
+A sender transmits two segments with sequence numbers 200 and 300. The receiver acknowledges receipt of these segments by sending an ACK packet with acknowledgment number 301.
 
-### Example 2: TCP Connection Termination
+Solution:
 
-Suppose a TCP connection is active, and the client wants to terminate it. The client sends a FIN packet (sequence number = 500) to indicate its intention.
+Sender A: Segments (Seq = 200, Data)
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| FIN | sequence number = 500 |                      |
+Sender A: Segments (Seq = 300, Data)
 
-The server responds with an ACK packet to confirm receipt of the client's FIN packet.
+Receiver B: ACK Packet (Ack = 301)
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| ACK | confirms seq = 500   |                      |
+## Common Pitfalls
+-------------------
 
-The client then sends a RST (reset) packet to terminate the connection.
+*   Failing to account for TCP connection states and segment ordering.
+*   Ignoring the impact of network partitions or crashes on data transfer.
 
-|  | Client              | Server               |
-| --- | ------------------ | -------------------- |
-| RST | sequence number = N  |                      |
+## Quick Summary
+----------------
 
-**Common Pitfalls**
-------------------
+Key points to remember:
 
-*   Misunderstanding protocol states and their implications.
-*   Failing to recognize the importance of sequence numbers and acknowledgments in TCP.
-
-**Quick Summary**
------------------
-
-*   Connection-oriented vs connectionless communication
-*   Segmentation and reassembly
-*   TCP Sliding Window Algorithm: $(R = \frac{BW}{RTT})$
-*   Understanding protocol states (SYN, SYN-ACK, ACK)
-*   Identifying sequence numbers and acknowledgments in TCP
+*   TCP is a connection-oriented protocol that provides reliable data transfer.
+*   The three-way handshake establishes a TCP connection between client and server.
+*   Sequence numbers ensure correct ordering of segments transmitted by the sender.

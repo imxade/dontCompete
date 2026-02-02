@@ -1,110 +1,70 @@
-**Sentence Completion**
-=======================
+**Sentence Completion: A Comprehensive Theory Note**
+=====================================================
 
-**Introduction**
----------------
-
-Sentence completion is a type of verbal ability question that requires the test-taker to fill in the blanks with the most suitable word or phrase. This section covers the theoretical concepts and techniques required to tackle such questions.
-
-**Core Concepts**
+### Introduction
 -----------------
 
-The key concept underlying sentence completion is understanding the relationships between words, phrases, and clauses within a sentence. The test-taker must analyze the context, identify the meaning of each blank, and choose the most appropriate word or phrase that completes the sentence correctly.
+Sentence completion is a verbal ability question type that requires test-takers to fill in the blanks with appropriate words, based on context clues and understanding of word meanings. This concept is essential for GATE CS exam preparation.
 
-### Identifying Relationships
+### Core Concepts
+-----------------
 
-To solve sentence completion questions, one needs to:
+#### Understanding Word Meanings
+To answer sentence completion questions effectively, it's crucial to understand the meanings of words. The given options should be analyzed carefully, considering their connotations, nuances, and implications in different contexts.
 
-* Identify the relationship between the words or phrases in the blanks
-* Determine the grammatical function of each blank (e.g., verb, noun, adjective)
-* Understand the meaning of each word or phrase and how it relates to the context
+#### Analogical Reasoning
+Sentence completion questions often rely on analogical reasoning, where test-takers need to identify relationships between words and concepts. This involves recognizing patterns, making connections, and generalizing from specific examples to broader principles.
 
-**Key Formulas/Theorems**
+### Key Formulas/Theorems
 -------------------------
 
-None directly applicable.
+No specific formulas or theorems are directly applicable to sentence completion. However, a good understanding of language, syntax, and semantics is crucial for solving these questions.
 
-**Problem Solving Patterns**
+### Problem Solving Patterns
 ---------------------------
 
-### Pattern 1: Verb Conjugation
+#### Recognize Analogies
+Identify relationships between words and concepts, using context clues and word meanings. Look for patterns, such as increasing or decreasing order of intensity.
 
-When filling in a blank that requires a verb conjugation (e.g., "he/she/it"), choose the correct form of the verb that agrees with the subject.
+#### Analyze Word Meanings
+Carefully examine the given options, considering their connotations, nuances, and implications in different contexts.
 
-Example:
+### Examples with Solutions
+-----------------------------
 
-"The dog ____________ (run) quickly."
+**Example 1:**
+If [drizzle  rain  downpour] denotes increasing order of intensity, then the meaning of the words [___  quarrel  feud] is analogous to [________].
 
-Answer: runs (subject-verb agreement)
+**Solution:**
 
-### Pattern 2: Idiomatic Expressions
+Given:
+* drizzle: to rain in very small drops or very lightly
+* rain: the drops of water that fall from the sky
+* downpour: a heavy, sudden fall of rain
+* quarrel: an angry argument or disagreement
+* feud: an angry and serious argument between two people or groups that continues
 
-Be aware of idiomatic expressions and phrasal verbs, which can change the meaning of a sentence significantly.
+The relationship between the given words is one of increasing intensity. Similarly, we need to find a word that fits this pattern for quarrel and feud.
 
-Example:
+Analyzing the options:
 
-"She ____________ (get up) early to catch the train."
+* bicker: implies a mild or trivial argument
+* bog: unrelated to intensity or conflict
+* dither: implies hesitation or indecision, not conflict
+* dodge: implies avoiding or evading conflict
 
-Answer: got up (idiomatic expression)
+The correct answer is **(A) bicker**, as it represents a mild argument that increases in intensity to a quarrel and then to a feud.
 
-**Examples with Solutions**
----------------------------
+### Common Pitfalls
+---------------------
 
-### Example 1
-Q: "The new employee was expected to ____________ (improve) her skills quickly."
+* Failing to understand word meanings and connotations
+* Not recognizing analogies between words and concepts
+* Making assumptions or relying on surface-level analysis
 
-A: improve
+### Quick Summary
+-----------------
 
-Explanation:
-* The blank requires a verb conjugation in the active voice.
-* The correct form of the verb is "improve" (subject-verb agreement).
-
-### Example 2
-Q: "The teacher asked the students to ____________ (write) their essays by tomorrow morning."
-
-A: write
-
-Explanation:
-* The blank requires a verb conjugation in the imperative mood.
-* The correct form of the verb is "write" (imperative mood).
-
-**Common Pitfalls**
--------------------
-
-### Overlooking Contextual Clues
-
-Do not neglect to analyze the surrounding context and word relationships.
-
-Example:
-
-"The new policy ____________ (help) improve customer satisfaction."
-
-Answer: will help (future tense, subject-verb agreement)
-
-Explanation:
-* The blank requires a verb conjugation in the future tense.
-* The correct form of the verb is "will help" (subject-verb agreement).
-
-### Ignoring Word Relationships
-
-Be aware of word relationships and idiomatic expressions.
-
-Example:
-
-"The tourists ____________ (get) lost in the city."
-
-Answer: got
-
-Explanation:
-* The blank requires a verb conjugation in the past tense.
-* The correct form of the verb is "got" (idiomatic expression).
-
-**Quick Summary**
-------------------
-
-* Analyze context and word relationships
-* Identify relationships between words or phrases
-* Determine grammatical function of each blank
-* Be aware of idiomatic expressions and phrasal verbs
-
-By following these guidelines and practicing with sample questions, you will become proficient in tackling sentence completion questions.
+* Understand word meanings and connotations
+* Recognize analogies between words and concepts
+* Analyze relationships between given options and context clues

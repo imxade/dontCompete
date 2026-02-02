@@ -1,74 +1,93 @@
 **Heat Conduction**
 =====================
 
-### Introduction
+**Introduction**
+---------------
+
+Heat conduction is a fundamental mode of heat transfer that occurs due to the collisions between adjacent atoms or molecules. In this note, we will focus on the theoretical aspects of heat conduction and its applications in various fields.
+
+**Core Concepts**
 -----------------
 
-Heat conduction is a process of heat transfer that occurs through direct contact between particles or bodies. It is one of the three main modes of heat transfer, along with radiation and convection.
+### 1. Fourier's Law
 
-### Core Concepts
-------------------
+Fourier's law describes the rate of heat conduction through a material as follows:
 
-*   **Thermal conductivity**: The measure of a material's ability to conduct heat. High thermal conductivity materials allow for efficient heat transfer.
-*   **Heat flux**: The rate at which heat energy flows through a given area.
-*   **Temperature gradient**: The change in temperature over a given distance.
+$$Q = -kA\frac{dT}{dx}$$
 
-### Key Formulas/Theorems
+where $Q$ is the heat transfer rate, $k$ is the thermal conductivity, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
+
+### 2. Thermal Diffusivity
+
+Thermal diffusivity ($\alpha$) is a measure of how easily heat can flow through a material:
+
+$$\alpha = \frac{k}{\rho c_p}$$
+
+where $k$ is thermal conductivity, $\rho$ is density, and $c_p$ is specific heat capacity.
+
+### 3. One-Dimensional Heat Equation
+
+The one-dimensional heat equation describes the temperature distribution within a material over time:
+
+$$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$$
+
+**Key Formulas/Theorems**
 -------------------------
 
-The Fourier Law of Heat Conduction:
+* **Fourier's Law**: $Q = -kA\frac{dT}{dx}$
+* **Thermal Diffusivity**: $\alpha = \frac{k}{\rho c_p}$
+* **One-Dimensional Heat Equation**: $\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$
 
-$$\frac{\partial Q}{\partial t} = -kA \frac{\partial T}{\partial x}$$
-
-where $Q$ is the heat flux, $t$ is time, $k$ is thermal conductivity, $A$ is area, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
-
-### Problem Solving Patterns
------------------------------
-
-1.  **Analyzing boundary conditions**: Identify the initial and boundary conditions of the problem.
-2.  **Choosing a coordinate system**: Select an appropriate coordinate system to simplify calculations.
-3.  **Applying Fourier's Law**: Use the Fourier Law to relate heat flux, thermal conductivity, area, and temperature gradient.
-
-### Examples with Solutions
+**Problem Solving Patterns**
 ---------------------------
 
-**Example 1:** A solid slab of thickness $H$ is initially at a uniform temperature $T_0$. At time $t=0$, the top surface at $y=H$ is increased to $T_1$, while the bottom surface at $y=0$ is maintained at $T_0$.
+### 1. Analyzing Initial and Boundary Conditions
 
-Solving this problem using the Fourier Law:
+When solving heat conduction problems, it's essential to identify the initial and boundary conditions.
 
-$$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial y^2}$$
+* Identify the thermal properties of the material (thermal conductivity, density, specific heat capacity).
+* Determine the geometry of the problem (one-dimensional, two-dimensional, or three-dimensional).
+* Specify the initial temperature distribution and any boundary conditions (e.g., constant temperature, insulated surface).
 
-where $\alpha=\frac{k}{\rho c_p}$, with $\rho$ being density and $c_p$ specific heat capacity.
+### 2. Separation of Variables
 
-The temperature distribution at a given time is:
+The separation of variables method can be used to solve the one-dimensional heat equation:
 
-$$T(y,t) = (T_1 - T_0)\left[ \frac{y}{H} + \frac{1-\frac{y}{H}}{\text{erf}\left( \sqrt{\frac{H^2}{\alpha t}} \right)} \text{erfc}\left( \sqrt{\frac{y^2}{\alpha t}} \right) \right]$$
+$$T(x,t) = X(x)T(t)$$
 
-where $\text{erf}$ is the error function and $\text{erfc}$ is its complement.
+Substituting this into the heat equation yields two separate equations for $X(x)$ and $T(t)$.
 
-**Example 2:** Find the time required for the temperature at $y=H/2$ to reach 99% of its final steady value.
+**Examples with Solutions**
+-------------------------
 
-Using the solution from Example 1, we find:
+### Example 1: Heat Conduction in a Solid Slab
 
-$$\tau = \left( \frac{\pi}{4} \right)^2 \frac{H^2}{\alpha}$$
+Consider a solid slab of thickness $H$ with an initial temperature distribution:
 
-### Common Pitfalls
--------------------
+$$T(x,0) = T_0\left(1 + \frac{x}{H}\right)$$
 
-*   **Incorrectly applying boundary conditions**: Make sure to identify and apply all relevant initial and boundary conditions.
-*   **Failing to use the correct coordinate system**: Choose an appropriate coordinate system based on the problem's symmetry and geometry.
+The top surface is maintained at constant temperature $T_1$, while the bottom surface is insulated. Find the time required for the temperature at $x=H/2$ to reach 99% of its final steady value.
 
-### Quick Summary
+**Solution:**
+
+* Identify the thermal properties and geometry.
+* Use Fourier's Law and the one-dimensional heat equation to obtain a solution.
+* Evaluate the temperature distribution at $x=H/2$ and determine the required time.
+
+**Common Pitfalls**
 ------------------
 
-*   Thermal conductivity, heat flux, and temperature gradient are key concepts in heat conduction.
-*   The Fourier Law relates these quantities and is essential for solving problems involving heat transfer.
-*   Analyzing boundary conditions, choosing a suitable coordinate system, and applying the Fourier Law are crucial problem-solving steps.
+* Failing to specify the thermal properties of the material.
+* Ignoring boundary conditions or initial temperature distributions.
+* Not using appropriate units (e.g., $\alpha = \frac{k}{\rho c_p}$).
 
-```mermaid
-graph LR
-    A[Thermal conductivity] --> B[Heat flux]
-    C[Temperature gradient] --> D[Fourier's Law]
-```
+**Quick Summary**
+-----------------
 
-Note: This is just a starting point. I'll expand on this theory note as we go through the source questions and additional topics.
+* Fourier's Law: $Q = -kA\frac{dT}{dx}$
+* Thermal Diffusivity: $\alpha = \frac{k}{\rho c_p}$
+* One-Dimensional Heat Equation: $\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$
+* Analyze initial and boundary conditions.
+* Use separation of variables to solve the one-dimensional heat equation.
+
+This theory note should provide a comprehensive understanding of heat conduction principles, formulas, and problem-solving techniques required for the GATE CS exam.

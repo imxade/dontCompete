@@ -1,150 +1,118 @@
 **Matrix Algebra**
-====================
+================
 
-**Introduction**
+### Introduction
 ---------------
 
-Matrix algebra is a fundamental tool for solving systems of linear equations and is used extensively in various fields, including engineering mathematics. This note aims to provide a comprehensive overview of matrix algebra concepts relevant to the GATE CS exam.
+Matrix algebra is a fundamental tool for solving systems of linear equations and analyzing linear transformations. In this note, we will cover the key concepts and formulas required to tackle GATE CS exam questions on matrix algebra.
 
-**Core Concepts**
+### Core Concepts
 -----------------
 
-### Vectors and Matrices
+*   **Matrix Representation**: A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns.
+*   **Matrix Operations**:
+    *   **Addition**: Two matrices can be added if they have the same dimensions. The resulting matrix has elements that are the sum of corresponding elements in the original matrices.
+    *   **Scalar Multiplication**: A scalar (a number) can be multiplied with a matrix, which scales each element of the matrix by the scalar value.
+    *   **Matrix Multiplication**: Given two matrices A and B, if the number of columns in A is equal to the number of rows in B, then the product AB is defined. The resulting matrix has dimensions determined by the input matrices.
 
-A vector $v$ is a column matrix of order $1 \times n$. A matrix $A$ is an array of numbers with rows and columns. The order of a matrix $A$ is denoted as $m \times n$, where $m$ is the number of rows and $n$ is the number of columns.
-
-### Matrix Operations
-
-*   **Addition**: For two matrices to be added, they must have the same order.
-    \[ A + B = C \]
-    where
-    \[
-    C_{ij} = A_{ij} + B_{ij}
-    \]
-
-*   **Scalar Multiplication**:
-    \[ kA = (kA_{ij})_{m \times n} \]
-*   **Matrix Multiplication**: The product of two matrices $A$ and $B$ is denoted as $AB$. The element in the $i^{th}$ row and $j^{th}$ column of $AB$ is calculated as:
-
-    \[
-    (AB)_{ij} = \sum_{k=1}^{n} A_{ik} B_{kj}
-    \]
-
-### Inverse and Determinant
-
-*   **Inverse**: The inverse of a matrix $A$, denoted as $A^{-1}$, is the matrix that satisfies:
-
-    \[
-    AA^{-1} = I
-    \]
-    where $I$ is the identity matrix.
-
-*   **Determinant**:
-    The determinant of an $n \times n$ matrix $A$ is denoted as $|A|$ and can be calculated using various methods, including expansion by minors or cofactor expansion. For a $2 \times 2$ matrix:
-
-    \[
-    A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
-    \]
-
-    the determinant is:
-
-    \[
-    |A| = ad - bc
-    \]
-
-**Key Formulas/Theorems**
+### Key Formulas/Theorems
 ---------------------------
 
-*   **Matrix Multiplication Properties**: Matrix multiplication satisfies certain properties, including associativity and distributivity.
-*   **Inverse and Determinant Relationship**: The inverse of a matrix $A$ is related to its determinant by:
+*   **Rank of a Matrix**:
+    $$
+    \text{rank}(A) = n - \text{nullity}(A)
+    $$
+    where $\text{nullity}(A)$ is the dimension of the null space of A.
+*   **Matrix Inverse**:
+    $$
+    A^{-1} = \frac{1}{\det(A)} \text{adj}(A)
+    $$
+    where $\det(A)$ is the determinant of matrix A and $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of A.
 
-    \[
-    A^{-1} = \frac{adj(A)}{|A|}
-    \]
-
-**Problem Solving Patterns**
+### Problem Solving Patterns
 ---------------------------
 
-Based on the source question provided, one common pattern observed in solving matrix algebra problems involves identifying the type of operation required (e.g., addition, scalar multiplication, matrix multiplication) and applying it step-by-step.
+*   **Reducing a Matrix to Row Echelon Form**:
+    *   Interchange rows to get a 1 in the top left corner.
+    *   Multiply a row by a scalar and add it to another row to eliminate elements below the leading entry.
+*   **Determining the Rank of a Matrix**:
+    *   Count the number of linearly independent rows (or columns).
 
-### Example 1
+### Examples with Solutions
+---------------------------
 
-Given two matrices $A$ and $B$, calculate the product $AB$ if:
+**Example 1**
 
-\[
-A = \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}
-\]
+Given matrix A, find its rank:
 
-and
+$$
+A = \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9 \\
+\end{bmatrix}
+$$
 
-\[
-B = \begin{bmatrix} 6 & 7 \\ 8 & 9 \end{bmatrix}
-\]
+To find the rank of A, we can reduce it to row echelon form. After performing elementary row operations:
 
-### Solution
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+0 & -3 & -6 \\
+0 & 0 & 0 \\
+\end{bmatrix} \quad\Rightarrow\quad
+\begin{bmatrix}
+1 & 2 & 3 \\
+0 & 1 & 2 \\
+0 & 0 & 0 \\
+\end{bmatrix}
+$$
 
-First, we identify that we need to perform matrix multiplication.
+We can see that the first two rows are linearly independent, so the rank of A is 2.
 
-Next, we apply the formula for matrix multiplication:
+**Example 2**
 
-\[
-(AB)_{ij} = \sum_{k=1}^{n} A_{ik} B_{kj}
-\]
+Find the inverse of matrix B:
 
-For $i=j=1$:
+$$
+B = \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9 \\
+\end{bmatrix}
+$$
 
-\[
-(AB)_{11} = 2 \cdot 6 + 3 \cdot 8
-\]
+To find the inverse, we need to calculate the determinant and adjugate of B. After performing calculations:
 
-Similarly, we calculate the remaining elements.
+$$
+\det(B) = -20 \quad\text{and}\quad \text{adj}(B) = \begin{bmatrix}
+-5 & 2 & 1 \\
+4 & -1 & 0 \\
+3 & -2 & 1 \\
+\end{bmatrix}
+$$
 
-### Example 2
+So, the inverse of B is:
 
-Given a matrix $A$, find its inverse if:
+$$
+B^{-1} = \frac{1}{-20} \text{adj}(B) = \begin{bmatrix}
+\frac{-5}{20} & \frac{2}{20} & \frac{1}{20} \\
+\frac{4}{20} & -\frac{1}{20} & 0 \\
+\frac{3}{20} & -\frac{2}{20} & \frac{1}{20} \\
+\end{bmatrix}
+$$
 
-\[
-A = \begin{bmatrix} 4 & 3 \\ 2 & 5 \end{bmatrix}
-\]
-
-### Solution
-
-To find the inverse of $A$, we first need to calculate its determinant:
-
-\[
-|A| = ad - bc
-\]
-
-Then, we use the formula for the inverse:
-
-\[
-A^{-1} = \frac{adj(A)}{|A|}
-\]
-
-We also calculate the adjugate matrix.
-
-**Common Pitfalls**
+### Common Pitfalls
 -------------------
 
-When dealing with matrices, common pitfalls include:
+*   When calculating the rank of a matrix, don't forget to count the number of linearly independent rows (or columns).
+*   When finding the inverse of a matrix, make sure to calculate the determinant and adjugate correctly.
 
-*   **Incorrect order of operations**: Ensure that you perform matrix operations in the correct order.
-*   **Inconsistent dimensions**: Verify that matrices have compatible dimensions for the operation being performed.
+### Quick Summary
+------------------
 
-**Quick Summary**
------------------
+*   Matrix operations: addition, scalar multiplication, and matrix multiplication.
+*   Rank of a matrix: determined by the number of linearly independent rows (or columns).
+*   Inverse of a matrix: calculated using the determinant and adjugate.
 
-*   Matrix algebra is a fundamental tool in engineering mathematics.
-*   Matrices can be added, subtracted, and multiplied.
-*   The inverse of a matrix is related to its determinant.
-
-### References
-
-For further reading on matrix algebra, refer to standard textbooks such as Strang's "Linear Algebra and Its Applications" or Horn and Johnson's "Matrix Analysis."
-
-**Visuals**
--------------
-
-No visuals are included in this section.
-
-Note: This theory note covers the concepts tested in Q1 (ID: in_2021_15) and provides a comprehensive overview of matrix algebra, including core concepts, key formulas/theorems, problem-solving patterns, examples with solutions, common pitfalls, and a quick summary.
+This comprehensive note covers all theoretical concepts and formulas required to solve GATE CS exam questions on matrix algebra.

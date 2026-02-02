@@ -1,114 +1,135 @@
-# Linear Algebra Theory Notes
-=====================================
+# Linear Algebra
+======================
 
 ## Introduction
 ---------------
 
-Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It plays a crucial role in many fields such as engineering, physics, computer science, and data analysis.
+Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It is a fundamental subject in engineering and computer science, with applications in data analysis, machine learning, computer graphics, and more.
 
 ## Core Concepts
 -----------------
 
-### Vector Spaces
----------------
+### Vectors
+------------
 
-A set of vectors `V` equipped with operations of addition (+) and scalar multiplication (•) is called a vector space if it satisfies the following properties:
+* A **vector** is an ordered set of numbers that can be thought of as an arrow in n-dimensional space.
+* The **magnitude** or **length** of a vector is the distance from the origin to the point represented by the vector.
+* Two vectors are **equal** if they have the same magnitude and direction.
 
-* Closure under addition: For any two vectors `u,v ∈ V`, their sum `u+v` is also in `V`.
-* Commutativity of addition: For any two vectors `u,v ∈ V`, `u+v = v+u`.
-* Associativity of addition: For any three vectors `u,v,w ∈ V`, `(u+v)+w = u+(v+w)`.
-* Existence of additive identity: There exists a vector `0 ∈ V` such that for any vector `u ∈ V`, `u + 0 = u`.
-* Existance of additive inverse: For each vector `u ∈ V`, there exists a vector `-u ∈ V` such that `u + (-u) = 0`.
+### Vector Operations
+---------------------
 
-### Linear Transformations
--------------------------
+#### Addition
 
-A linear transformation is a function `T: V → W` between two vector spaces that preserves the operations of addition and scalar multiplication. It satisfies the following properties:
+* The sum of two vectors is another vector whose components are the sums of corresponding components of the original vectors.
 
-* Linearity: For any vectors `u,v ∈ V`, `T(u+v) = T(u)+T(v)` and for any scalar `c`, `T(cu) = cT(u)`.
+LaTeX:
+$$\mathbf{a} + \mathbf{b} = (a_1 + b_1, a_2 + b_2, ..., a_n + b_n)$$
 
-### Matrices
--------------
+#### Scalar Multiplication
 
-A matrix is a rectangular array of numbers with rows and columns. It can be used to represent linear transformations between vector spaces.
+* The product of a scalar and a vector is another vector whose components are the products of corresponding components of the original vector and the scalar.
+
+LaTeX:
+$$c\mathbf{a} = (ca_1, ca_2, ..., ca_n)$$
+
+### Matrix Operations
+---------------------
+
+#### Matrix Addition
+
+* The sum of two matrices is another matrix whose elements are the sums of corresponding elements of the original matrices.
+
+LaTeX:
+$$\mathbf{A} + \mathbf{B} = (a_{ij} + b_{ij})_{m\times n}$$
+
+#### Scalar Multiplication
+
+* The product of a scalar and a matrix is another matrix whose elements are the products of corresponding elements of the original matrix and the scalar.
+
+LaTeX:
+$$c\mathbf{A} = (ca_{ij})_{m\times n}$$
+
+### Determinants
+-----------------
+
+* A **determinant** is a scalar value that can be computed from the elements of a square matrix.
+* The determinant of a 2x2 matrix [a, b; c, d] is ad - bc.
+
+LaTeX:
+$$\det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc$$
 
 ## Key Formulas/Theorems
 -------------------------
 
-* **Rank-Nullity Theorem**: For any linear transformation `T: V → W`, the rank of `T` (the dimension of its image) plus the nullity of `T` (the dimension of its kernel) is equal to the dimension of `V`.
-* **Inverse Matrix Formula**: Given a square matrix `A`, if it has an inverse, then its inverse is given by:
-$$A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A),$$
-where $\det(A)$ is the determinant of $A$ and $\mathrm{adj}(A)$ is the adjugate matrix of $A$.
-* **Cramer's Rule**: Given a square matrix `A` with entries `a_{ij}`, the value of its inverse at position `(i,j)` is given by:
-$$[A^{-1}]_{ij} = \frac{\det(A^{(j)})}{\det(A)},$$
-where $A^{(j)}$ is the matrix obtained from $A$ by replacing the `j`-th column with the standard basis vector `e_i`.
+* **Eigenvalues and Eigenvectors**: If A is an nxn matrix, then λ is an eigenvalue of A if there exists a non-zero vector v such that Av = λv.
+* **Cayley-Hamilton Theorem**: Every square matrix satisfies its own characteristic equation.
+
+LaTeX:
+$$\mathbf{A}^n + \mathbf{B}^{n-1}\mathbf{A} + ... + \mathbf{I} = 0$$
 
 ## Problem Solving Patterns
------------------------------
-
-### Finding Inverse Matrices
 ---------------------------
 
-* Check if the determinant of the matrix is non-zero. If it is, then the matrix has an inverse.
-* Use Cramer's Rule or the formula for the inverse matrix to find the inverse.
+### Finding Eigenvalues and Eigenvectors
 
-### Linear Transformations and Matrix Representation
----------------------------------------------------
+* To find the eigenvalues of a matrix, compute its characteristic polynomial.
+* To find the eigenvectors of a matrix, solve the equation Av = λv for v.
 
-* Find the standard matrix representation of the linear transformation using the images of the basis vectors.
-* Use this representation to find the effect of the linear transformation on any vector in the domain.
+Example:
+Suppose we want to find the eigenvalues and eigenvectors of the matrix A = [[2, 1; 1, 0]].
+First, compute the characteristic polynomial: det(A - λI) = -λ^2 + 2λ.
+Then, solve for λ: λ^2 - 2λ = 0 => λ(λ - 2) = 0 => λ = 0 or λ = 2.
+Finally, find the eigenvectors by solving Av = λv for each value of λ.
+
+### Linear Transformations
+
+* To find a linear transformation matrix A that maps vectors u to v, express the coordinates of v in terms of the coordinates of u.
+
+Example:
+Suppose we want to find a linear transformation matrix A that maps the vector (x, y) to the vector (2x + 3y, x - 2y).
+Expressing the coordinates of the new vector in terms of the old vector, we get:
+
+LaTeX:
+$$\begin{bmatrix} 2 & 3 \\ 1 & -2 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 2x + 3y \\ x - 2y \end{bmatrix}$$
 
 ## Examples with Solutions
 ---------------------------
 
-### Example 1: Finding the Inverse of a Matrix
-------------------------------------------
+### Example 1: Finding Eigenvalues and Eigenvectors
 
-Consider the matrix:
-$$A = \begin{pmatrix} 4 & 3 \\ 5 & 5 \end{pmatrix}.$$
-Find its inverse using Cramer's Rule.
+Suppose we want to find the eigenvalues and eigenvectors of the matrix A = [[1, 2; 0, 1]].
+Computing the characteristic polynomial: det(A - λI) = -(λ^2 - λ).
+Solving for λ: λ^2 - λ = 0 => λ(λ - 1) = 0 => λ = 0 or λ = 1.
+Finding the eigenvectors by solving Av = λv for each value of λ.
 
-Solution:
+### Example 2: Linear Transformations
 
-* Find the determinant of `A`: $\det(A) = (4)(5)-(3)(5) = -5$.
-* Find the adjugate matrix of `A`:
-$$\mathrm{adj}(A) = \begin{pmatrix} 5 & -3 \\ -5 & 4 \end{pmatrix}.$$
-* Find the inverse of `A` using Cramer's Rule:
-$$[A^{-1}]_{11} = \frac{\det(A^{(1)})}{\det(A)} = \frac{(5)(5)-(0)(3)}{-5} = -2,$$
-$$[A^{-1}]_{12} = \frac{\det(A^{(2)})}{\det(A)} = \frac{(-5)(5)-(4)(3)}{-5} = 3,$$
-$$[A^{-1}]_{21} = \frac{\det(A^{(3)})}{\det(A)} = \frac{(4)(0)-(3)(-5)}{-5} = -2,$$
-$$[A^{-1}]_{22} = \frac{\det(A^{(4)})}{\det(A)} = \frac{(-5)(0)-(5)(-3)}{-5} = 3.$$
+Suppose we want to find a linear transformation matrix A that maps the vector (x, y) to the vector (3x + 4y, x - 2y).
+Expressing the coordinates of the new vector in terms of the old vector:
 
-The inverse of `A` is:
-$$A^{-1} = \begin{pmatrix} -2 & 3 \\ -2 & 3 \end{pmatrix}.$$
-
-### Example 2: Finding the Image of a Linear Transformation
-------------------------------------------------------
-
-Consider the linear transformation represented by the matrix:
-$$T = \begin{pmatrix} 4 & 3 \\ 5 & 5 \end{pmatrix}.$$
-Find the image of the vector `u = (1,0)` under this linear transformation.
-
-Solution:
-
-* Find the product of `T` and `u`: $Tu = (4)(1)+(3)(0) = 4$.
-* The image of `u` is the column vector `(4,0)`.
+LaTeX:
+$$\begin{bmatrix} 3 & 4 \\ 1 & -2 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 3x + 4y \\ x - 2y \end{bmatrix}$$
 
 ## Common Pitfalls
--------------------
+------------------
 
-* **Determinant**: Don't forget to check if the determinant of a matrix is non-zero before trying to find its inverse!
-* **Cramer's Rule**: Make sure to apply Cramer's Rule correctly by finding the correct columns for each position.
-* **Matrix Representation**: Remember that the standard matrix representation of a linear transformation can be used to find the effect of the transformation on any vector in the domain.
+* Not checking the dimension of a matrix before computing its determinant or inverse.
+* Not ensuring that the vectors being added or multiplied are compatible.
 
 ## Quick Summary
------------------
+---------------
 
-* Vector spaces have operations of addition and scalar multiplication that satisfy certain properties.
-* Linear transformations between vector spaces preserve these operations and can be represented by matrices.
-* The rank-nullity theorem relates the dimension of a linear transformation's image to the dimensions of its kernel and domain.
-* Inverse matrices exist if and only if the determinant is non-zero, and can be found using Cramer's Rule or the formula for the inverse matrix.
+* Vectors: ordered sets of numbers, magnitude and direction.
+* Vector operations: addition, scalar multiplication.
+* Matrix operations: addition, scalar multiplication, matrix multiplication.
+* Determinants: scalars computed from square matrices.
+* Eigenvalues and eigenvectors: non-zero vectors and scalars that satisfy Av = λv.
 
-[TOC]
-
-Note: I've used Markdown headers, emphasized key concepts with bold text, and included examples with step-by-step solutions to illustrate the application of linear algebra concepts.
+Mermaid diagram for linear transformations:
+```mermaid
+graph LR
+A[Vector (x, y)] --> B[Linear Transformation A]
+B --> C[Vector (3x + 4y, x - 2y)]
+```
+This note covers the fundamental concepts of linear algebra, including vector operations, matrix operations, determinants, eigenvalues and eigenvectors. The examples with solutions illustrate how to apply these concepts to real-world problems.

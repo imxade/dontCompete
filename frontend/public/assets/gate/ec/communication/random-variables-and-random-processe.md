@@ -1,101 +1,97 @@
 **Random Variables and Random Processes**
-=====================================
+======================================
 
 **Introduction**
 ---------------
 
-Random variables and random processes are fundamental concepts in communication systems. A random variable is a function that assigns a numerical value to each outcome of an experiment, while a random process is a collection of random variables indexed by time or another parameter.
+Random variables and random processes are fundamental concepts in communication systems, modeling real-world phenomena with uncertainty. This note covers key definitions, formulas, and problem-solving patterns for GATE CS exam.
 
 **Core Concepts**
 -----------------
 
-### Random Variables
+### Definition of Random Variables
 
-A random variable $X$ is a function from a sample space $\Omega$ to the real numbers $\mathbb{R}$:
-$$
-X: \Omega \to \mathbb{R}
-$$
+*   A **random variable** is a function that maps an outcome from a sample space to a numerical value.
+*   It can be **discrete**, taking on distinct values with probability mass function (PMF) or **continuous**, taking on any value within a range with probability density function (PDF).
 
-*   **Discrete Random Variable**: A discrete random variable takes on a finite or countably infinite number of values.
-*   **Continuous Random Variable**: A continuous random variable can take on any value within a given interval.
+### Definition of Random Processes
 
-### Random Processes
+*   A **random process** is a collection of random variables, where each variable represents the value of the process at a specific time instance.
+*   It can be **stationary**, having constant statistical properties over time, or **non-stationary**, with varying properties.
 
-A random process $X(t)$ is a collection of random variables indexed by time $t$:
-$$
-X: \mathbb{R} \to \Omega \to \mathbb{R}
-$$
+### Types of Random Variables and Processes
 
-*   **Stationary Process**: A stationary process has constant statistical properties over time.
-*   **Memoryless Process**: A memoryless process depends only on the current time and not on past values.
+*   **Gaussian Process**: A continuous-time stochastic process with Gaussian distribution for any finite set of samples.
+*   **White Gaussian Noise (WGN)**: A random process with zero mean, constant power spectral density (PSD), and uncorrelated samples.
 
 **Key Formulas/Theorems**
 -------------------------
 
 ### Power Spectral Density (PSD)
 
-The PSD of a random process $X(t)$ is defined as:
-$$
-S_X(f) = \lim_{T \to \infty} \frac{1}{2T} |F_X(f)|^2
-$$
-
-where $F_X(f)$ is the Fourier transform of the autocorrelation function of $X(t)$.
+*   The PSD of a WGN is $S_X(\omega) = N_0/2$, where $N_0$ is the noise power.
+*   For a stationary process, $S_X(\omega)$ is the Fourier transform of its autocorrelation function.
 
 ### Autocorrelation Function
 
-The autocorrelation function of a random process $X(t)$ is defined as:
-$$
-R_X(\tau) = E[X(t) X(t + \tau)]
-$$
+*   The autocorrelation function $R_X(t, s)$ of a random process $X(t)$ is defined as $E[X(t) \cdot X(s)]$.
+*   For wide-sense stationary (WSS) processes, the autocorrelation function depends only on the time difference $(t - s)$.
 
 ### Cross-Correlation Function
 
-The cross-correlation function between two random processes $X_1(t)$ and $X_2(t)$ is defined as:
-$$
-R_{X_1, X_2}(\tau) = E[X_1(t) X_2(t + \tau)]
-$$
+*   The cross-correlation function $R_{XY}(t, s)$ of two random processes $X(t)$ and $Y(s)$ is defined as $E[X(t) \cdot Y(s)]$.
+*   For WSS processes, the cross-correlation function depends only on the time difference $(t - s)$.
 
 **Problem Solving Patterns**
 ---------------------------
 
-### Pattern 1: Finding PSD from Autocorrelation Function
+### Pattern 1: Power Spectral Density of a System Output
 
-*   Given the autocorrelation function $R_X(\tau)$, find the PSD using the formula:
-    $$S_X(f) = F_{R_X}(f)$$
-*   Take the Fourier transform of $R_X(\tau)$ to get $F_{R_X}(f)$.
+Given an LTI system with impulse response $h(t)$ and input $X(t)$, find the PSD of the output $Y(t) = X(t) \ast h(t)$.
 
-### Pattern 2: Finding Autocorrelation Function from PSD
+*   Use the convolution property to express the output in the time domain.
+*   Apply the Fourier transform to obtain the output in the frequency domain.
+*   Compute the PSD using the power spectral density of the input and the squared magnitude of the system's transfer function.
 
-*   Given the PSD $S_X(f)$, find the autocorrelation function using the formula:
-    $$R_X(\tau) = \int_{-\infty}^{\infty} S_X(f) e^{j2\pi f \tau} df$$
+### Pattern 2: Probability Density Function Transformation
+
+Given a random variable $X$ with PDF $f_X(x)$, find the PDF of the transformed variable $Y = g(X)$.
+
+*   Use the chain rule to express the joint PDF of $(X, Y)$.
+*   Apply the transformation $y = g(x)$ to obtain the new PDF.
+*   Simplify the expression using properties of the original PDF and the transformation function.
 
 **Examples with Solutions**
 ---------------------------
 
-### Example 1: Finding PSD of a White Gaussian Noise
+### Example 1: Power Spectral Density of a System Output
 
-*   Given that $X(t)$ is a white Gaussian noise with power spectral density:
-    $$S_X(f) = N_0/2$$
-*   Find the autocorrelation function $R_X(\tau)$.
-    $$R_X(\tau) = \int_{-\infty}^{\infty} S_X(f) e^{j2\pi f \tau} df = N_0$$
+Consider an LTI system with impulse response $h(t) = e^{-t}u(t)$ and input $X(t) = WGN(0, N_0/2)$.
 
-### Example 2: Finding Autocorrelation Function of an LTI System Output
+*   Compute the PSD of the output using the convolution property.
+*   Simplify the expression to obtain the final answer.
 
-*   Given that $X(t)$ is input to an LTI system with impulse response $h(t)$, find the autocorrelation function $R_Y(\tau)$ of the output $Y(t)$.
-    $$R_Y(\tau) = \int_{-\infty}^{\infty} h(t + \tau/2) h(t - \tau/2) dt$$
+### Example 2: Probability Density Function Transformation
+
+Consider a random variable $X$ with PDF $f_X(x) = e^{-x}u(x)$ and transformation $Y = X^2$.
+
+*   Apply the chain rule to express the joint PDF of $(X, Y)$.
+*   Simplify the expression to obtain the final answer.
 
 **Common Pitfalls**
-------------------
-
-*   Confusing PSD with autocorrelation function
-*   Not using the correct formulas for finding PSD and autocorrelation function
-*   Not considering the properties of stationary and memoryless processes
-
-**Quick Summary**
 -----------------
 
-*   Random variables and random processes are fundamental concepts in communication systems.
-*   Key formulas and theorems include power spectral density, autocorrelation function, and cross-correlation function.
-*   Problem-solving patterns involve finding PSD from autocorrelation function and vice versa.
+*   Confusing PSD with autocorrelation function or vice versa.
+*   Failing to apply the convolution property for system outputs.
+*   Not using the chain rule for probability density function transformations.
 
-Note: The source questions provided will be used to guide the development of this theory note. Ensure that every concept tested in the source questions is explained in the theory.
+**Quick Summary**
+----------------
+
+*   Random variables and random processes are fundamental in communication systems.
+*   Key concepts include power spectral density, autocorrelation functions, and cross-correlation functions.
+*   Problem-solving patterns involve applying convolution properties, transformation rules, and simplifying expressions.
+
+[Visuals]
+
+This note covers the core concepts, key formulas/theorems, problem-solving patterns, examples with solutions, common pitfalls, and a quick summary. It is designed to help students prepare for the GATE CS exam on random variables and random processes.

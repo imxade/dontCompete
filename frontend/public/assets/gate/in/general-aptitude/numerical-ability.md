@@ -1,92 +1,120 @@
-**Numerical Ability - General Aptitude**
+**Numerical Ability: General Aptitude**
 =====================================
 
-### Introduction
+**Introduction**
+---------------
+
+Numerical ability in the context of the GATE CS exam refers to the application of mathematical concepts and formulas to solve problems. This topic involves a range of numerical skills, including arithmetic operations, algebraic manipulations, and statistical analysis.
+
+**Core Concepts**
 -----------------
 
-This section covers essential concepts and techniques for solving numerical ability problems in the GATE CS exam. Numerical ability tests one's ability to reason and solve mathematical problems, particularly those involving algebraic manipulations, geometry, and spatial reasoning.
+### 1. Regression Analysis
 
-### Core Concepts
-------------------
+Regression analysis is a statistical method for modeling the relationship between a dependent variable (y) and one or more independent variables (x). The goal of regression analysis is to create a mathematical model that can be used to predict the value of y based on the values of x.
 
-#### 1. Functions and Graphs
+*   **Linear Regression**: A linear regression line is a straight line that best fits the data. It is defined by the equation: y = mx + b, where m is the slope and b is the intercept.
+*   **Coefficient of Determination (R^2)**: R^2 measures the goodness of fit of the regression model. It is calculated using the formula:
 
-A function $f(x)$ is a relation between a set of inputs (called the domain) and a set of possible outputs (called the range). It assigns to each input exactly one output.
+$$
+\begin{aligned}
+R^2 &= 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2} \\
+&= 1 - \frac{\text{SSE}}{\text{SST}}
+\end{aligned}
+$$
 
-*   **Domain**: The set of all possible input values for which the function is defined.
-*   **Range**: The set of all possible output values that the function can produce.
+where SSE is the sum of squared errors and SST is the total sum of squares.
 
-#### 2. Differentiation
+### 2. Logical Operators
 
-Differentiation is a mathematical operation used to find the derivative of a function, representing the rate of change of the function with respect to one of its variables.
+Logical operators are used to combine propositions in logic. The two operators mentioned in the source question are ⊕ (xor) and ∧ (and).
 
-*   Given a function $f(x)$, its derivative $f'(x)$ represents the instantaneous rate of change of $f$ at the point $x$.
+*   **XOR Operator**: The XOR operator returns true if exactly one of the operands is true.
+*   **AND Operator**: The AND operator returns true only if both operands are true.
 
-### Key Formulas/Theorems
--------------------------
+### 3. Equations with Operators
 
-#### 1. Differentiation Rules
+Equations involving operators can be solved by applying the properties of the operators.
 
-| Rule | Formula |
-| --- | --- |
-| Power Rule | $\frac{d}{dx}(x^n) = nx^{n-1}$ |
-| Product Rule | $\frac{d}{dx}(uv) = u'v + uv'$ |
-| Quotient Rule | $\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{u'v - uv'}{v^2}$ |
+**Key Formulas/Theorems**
+------------------------
 
-### Problem Solving Patterns
------------------------------
+*   Linear Regression Equation: y = mx + b
+*   Coefficient of Determination (R^2): $$
+\begin{aligned}
+R^2 &= 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2} \\
+&= 1 - \frac{\text{SSE}}{\text{SST}}
+\end{aligned}
+$$
+*   XOR Operator: x ⊕ y = (x ∧ ¬y) ∨ (¬x ∧ y)
+*   AND Operator: x ∧ y = x × y
 
-#### 1. Min/Max Problems
-
-To find the minimum or maximum value of a function subject to certain constraints, we can use Lagrange multipliers.
-
-*   **Lagrange Multiplier Method**: This method involves introducing a new variable (the Lagrange multiplier) and forming a Lagrangian function.
-    ```mermaid
-    graph LR
-    A[Min/Max Problem] --> B[Lagrangian Function]
-    ```
-    Example: Find the minimum value of $f(x,y) = x^2 + y^2$ subject to $x+y=1$. 
-    The Lagrangian function is given by: 
-    $L(x,y,\lambda) = f(x,y) - \lambda (x+y-1)$.
-    We then differentiate the Lagrangian with respect to $x$, $y$, and $\lambda$, and set each of them equal to zero.
-
-### Examples with Solutions
+**Problem Solving Patterns**
 ---------------------------
 
-#### 1. Q1: Question 42
+### 1. Regression Analysis
 
-Consider the function $f(x,y) = \frac{2}{x} + \frac{1}{y}$, subject to the constraint $x+y=1$. Find the minimum value of this function on the line $x=y-1$.
+When solving regression problems, follow these steps:
 
-*   We start by substituting $y=1-x$ into the function:
-    $\begin{aligned}
-    f(x,y) &= \frac{2}{x} + \frac{1}{y} \\
-    &=\frac{2}{x} +\frac{1}{1-x}\\
-    & = \left(\frac{x+1}{x(1-x)}\right)
-    \end{aligned}$.
-*   Differentiating the function with respect to $x$, we get:
-    $\begin{aligned}
-    f'(x) &= \frac{(1-x)(-1)-x(x+1)}{\left[x(1-x)\right]^2}\\
-    & =\frac{-1+x-(x^2+x)}{\left[x(1-x)\right]^2} \\
-    & = \frac{x^2 - 2 x + 1}{[x(1-x)]^2}.
-    \end{aligned}$.
-*   Setting $f'(x)=0$, we find that the minimum value of the function occurs at $x=\frac{-1\pm\sqrt{3}}{2}$.
+*   Plot the data and draw a regression line.
+*   Calculate the slope (m) and intercept (b) of the regression line using linear regression formulas.
+*   Use the regression equation to make predictions.
 
-### Common Pitfalls
----------------------
+### 2. Logical Operators
 
-#### 1. Inadequate Use of Constraints
+When solving logical operator problems, follow these steps:
 
-When solving optimization problems subject to constraints, it is essential to correctly apply these constraints in the problem-solving process.
+*   Apply the properties of the operators to simplify the expression.
+*   Evaluate the expression by applying the truth values of the operands.
 
-*   Misinterpretation or misapplication of constraints can lead to incorrect solutions.
+**Examples with Solutions**
+-------------------------
 
-### Quick Summary
+### Example 1: Regression Analysis
+
+Suppose we have a dataset with the following readings recorded from a 20-psig pressure gauge:
+
+| x | y (psig) |
+| --- | --- |
+| 1   | 10.3    |
+| 2   | 10.5    |
+| 3   | 10.4    |
+| 4   | 10.5    |
+| 5   | 10.5    |
+
+The regression line obtained for the data is y = 0.04x + 10.32.
+
+*   Calculate the coefficient of determination (R^2) using the formula:
+
+$$
+\begin{aligned}
+R^2 &= 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2} \\
+&= 1 - \frac{\text{SSE}}{\text{SST}}
+\end{aligned}
+$$
+
+where SSE is the sum of squared errors and SST is the total sum of squares.
+
+*   Evaluate R^2 using a calculator or by hand.
+
+### Example 2: Logical Operators
+
+Suppose we have two propositions:
+
+x ⊕ y = ?
+
+Using the properties of the XOR operator, simplify the expression.
+
+**Common Pitfalls**
 ------------------
 
-| Concept | Description |
-| --- | --- |
-| Functions | Relations between inputs and outputs |
-| Differentiation | Finding the derivative of a function |
-| Min/Max Problems | Solving optimization problems subject to constraints |
+*   When solving regression problems, be careful to plot the data and draw a regression line.
+*   When applying logical operators, pay attention to the properties of the operators and apply them correctly.
 
-Note: In the above, we have covered the basic concepts needed for solving the specific question.
+**Quick Summary**
+----------------
+
+*   Regression analysis is used to model the relationship between a dependent variable (y) and one or more independent variables (x).
+*   The coefficient of determination (R^2) measures the goodness of fit of the regression model.
+*   Logical operators are used to combine propositions in logic.
+*   Equations involving operators can be solved by applying the properties of the operators.

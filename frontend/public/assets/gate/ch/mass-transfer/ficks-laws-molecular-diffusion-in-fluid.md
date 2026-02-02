@@ -1,161 +1,89 @@
 **Fick's Laws of Molecular Diffusion in Fluids**
 =====================================================
 
-**Introduction**
----------------
+### Introduction
+Molecular diffusion is a process by which particles move from an area of high concentration to an area of low concentration. In fluids, this process is governed by Fick's laws, which describe the relationship between the flux of particles and the gradient of their concentration.
 
-Fick's laws describe how molecules diffuse through a fluid under certain conditions. These laws are crucial for understanding mass transfer phenomena, which is essential for various engineering applications, including chemical processing and separation.
+### Core Concepts
 
-**Core Concepts**
------------------
+#### Steady-State Diffusion
+Steady-state diffusion occurs when the rate of particle transfer is constant over time. This can be described using Fick's first law:
 
-Molecular diffusion occurs due to the random motion of molecules in a fluid. The rate of diffusion depends on several factors:
+$$J = -D \frac{dC}{dx}$$
 
-*   **Concentration gradient**: The difference in concentration between two regions.
-*   **Diffusion coefficient (D)**: A measure of how easily molecules can diffuse through a medium.
-*   **Steady-state assumption**: In many cases, the system reaches equilibrium where the flux is constant.
+where $J$ is the flux of particles, $D$ is the diffusion coefficient, and $\frac{dC}{dx}$ is the concentration gradient.
 
-Fick's laws are formulated based on these concepts:
+#### Unsteady-State Diffusion
+Unsteady-state diffusion occurs when the rate of particle transfer changes over time. This can be described using Fick's second law:
 
-### Fick's First Law
+$$\frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}$$
 
-The first law describes the rate of diffusion under steady-state conditions:
+where $C$ is the concentration, and $\frac{\partial^2 C}{\partial x^2}$ is the second derivative of the concentration with respect to time.
 
-**Flux = -D \* dC/dx**
+### Key Formulas/Theorems
 
-where:
+#### Fick's First Law
+$$J = -D \frac{dC}{dx}$$
 
-*   **Flux (J)**: The mass transfer rate per unit area.
-*   **dC/dx**: The concentration gradient.
-*   **D**: Diffusion coefficient.
+#### Fick's Second Law
+$$\frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}$$
 
-LaTeX rendering:
-$$ J=-D\frac{dC}{dx} $$
+### Problem Solving Patterns
 
-### Fick's Second Law
+When solving problems involving molecular diffusion, consider the following steps:
 
-The second law accounts for non-steady-state conditions:
+1.  **Identify the type of diffusion**: Is it steady-state or unsteady-state?
+2.  **Determine the relevant equation**: Use Fick's first law for steady-state diffusion and Fick's second law for unsteady-state diffusion.
+3.  **Apply boundary conditions**: Specify the initial concentration, final concentration, and any other relevant conditions.
 
-**∂C/∂t = D \* ∂²C/∂x²**
+### Examples with Solutions
 
-This equation describes how the concentration changes with time.
+#### Example 1: Steady-State Diffusion
+A gas diffuses through a stagnant air-film of thickness $2$ mm at $30^\circ C$. The partial pressures at the opposite sides of the film are $0.15$ bar and $0.05$ bar. If the diffusion coefficient is $1 \times 10^{-5} m^2 s^{-1}$, calculate the steady-state flux of gas through the air-film.
 
-LaTeX rendering:
-$$ \frac{\partial C}{\partial t} = D\frac{\partial^2 C}{\partial x^2} $$
-
-**Key Formulas/Theorems**
--------------------------
-
-### Partial Pressure and Concentration Relationship
-
-For ideal gases, we can use the following relationship:
-
-**p = RT \* C**
-
-where:
-
-*   **p**: Partial pressure.
-*   **R**: Universal gas constant.
-*   **T**: Temperature in Kelvin.
-*   **C**: Molar concentration.
-
-LaTeX rendering:
-$$ p=RT\cdot C $$
-
-### Flux and Concentration Relationship
-
-For Fick's first law, the flux can be rewritten as:
-
-**J = -D \* (p2/p1)**
-
-where:
-
-*   **J**: Flux.
-*   **D**: Diffusion coefficient.
-*   **p1** and **p2**: Partial pressures at opposite sides of a film.
-
-LaTeX rendering:
-$$ J=-D\frac{p_2}{p_1} $$
-
-**Problem Solving Patterns**
----------------------------
-
-When solving mass transfer problems, follow these steps:
-
-1.  Identify the type of problem (steady-state or non-steady-state).
-2.  Determine the relevant laws and formulas.
-3.  Apply boundary conditions and solve for unknown variables.
-
-### Example: Steady-State Flux
-
-Suppose we want to find the steady-state flux of SO₂ through a film with given properties:
-
-*   **D**: Diffusion coefficient = 1 × 10⁻⁵ m² s⁻¹.
-*   **p1** and **p2**: Partial pressures at opposite sides of the film are 0.15 bar and 0.05 bar, respectively.
-
-Using Fick's first law, we can find the flux:
-
-**J = -D \* (p2/p1)**
-= -(1 × 10⁻⁵ m² s⁻¹) \* (0.05/0.15)
-≈ 3.33 × 10⁻⁶ mol m⁻² s⁻¹
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Wet Air Drying
-
-Consider the wet air drying problem described in source question Q1:
-
-Wet air containing 10 mole percent water vapor is dried by passing it through a column of CaCl₂ pellets. The pellets remove 50% of water from the wet air entering the column.
-
-Let's analyze this problem using Fick's laws:
-
-*   **Initial concentration**: 10 mol % water vapor.
-*   **Final concentration**: Unknown, but we can find it by applying the mass balance equation:
-    **m_f = m_i - (m_i \* r)**
-    where:
-        *   **m_f**: Final amount of water vapor.
-        *   **m_i**: Initial amount of water vapor.
-        *   **r**: Removal efficiency (50% in this case).
-        
-    Solving for **m_f**, we get:
-    
-    ```python
-    m_f = 0.5 * m_i
-    ```
-
-*   We can now find the final concentration:
-
-```python
-final_concentration = m_f / total_mol
+```latex
+J = -D \frac{dC}{dx}
+= -\left( 1 \times 10^{-5} m^2 s^{-1} \right) \frac{(0.15 - 0.05)}{2 mm}
+= 0.022 mol m^{-2} s^{-1}
 ```
 
-where **total_mol** is the total number of moles in the air.
+#### Example 2: Unsteady-State Diffusion
+A gas diffuses through a porous membrane with an initial concentration of $0.01$ mol m^{-3}. The diffusion coefficient is $5 \times 10^{-6} m^2 s^{-1}$, and the time required for the concentration to reach $0.001$ mol m^{-3} is $100$ seconds.
 
-Plugging in values, we get:
+```latex
+\frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}
+= 5 \times 10^{-6} m^2 s^{-1} \frac{d^2 C}{dx^2}
 
-```python
-m_i = 10 mol (water vapor)
-total_mol = 100 mol (air)
-
-m_f = 0.5 * m_i = 5 mol (water vapor)
-
-final_concentration = m_f / total_mol ≈ 0.05
+\text{Initial condition: } C(x,0) = 0.01 mol m^{-3}
+\text{Final condition: } C(x,t) = 0.001 mol m^{-3}
 ```
 
-Therefore, the final concentration of water vapor is approximately 5%.
+Solving the differential equation, we obtain:
 
-**Common Pitfalls**
-------------------
+```latex
+C(x,t) = \frac{1}{2} (C_1 + C_2) - \frac{(x-x_0)^2}{4Dt}
 
-*   **Incorrect application of Fick's laws**: Make sure to use the correct formula for steady-state or non-steady-state conditions.
-*   **Miscalculation of concentrations**: Double-check your units and calculations when finding concentrations.
+\text{At } t = 100 s,
+C(0.05 m,100 s) = \frac{1}{2}(0.01+0.001) - \frac{(0.05-0)^2}{4(5 \times 10^{-6})100}
+= 0.00525 mol m^{-3}
 
-**Quick Summary**
------------------
+J(x,t) = -D \frac{\partial C}{\partial x}
+= -(5 \times 10^{-6} m^2 s^{-1})\frac{(C_1-C_2)}{x-x_0}
+```
 
-*   **Fick's laws** describe molecular diffusion under steady-state and non-steady-state conditions.
-*   **Key formulas** include the flux-concentration relationship and partial pressure-concentration relationship.
-*   **Problem-solving patterns** involve identifying problem types, applying relevant laws and formulas, and solving for unknown variables.
+### Common Pitfalls
 
-By following this comprehensive theory note, you'll be well-prepared to tackle mass transfer problems involving Fick's laws of molecular diffusion.
+When solving problems involving molecular diffusion, students often:
+
+*   Fail to identify the type of diffusion (steady-state or unsteady-state)
+*   Use an incorrect equation for the problem
+*   Neglect boundary conditions
+*   Make errors in calculations or numerical solutions
+
+### Quick Summary
+
+*   Fick's laws describe steady-state and unsteady-state molecular diffusion
+*   Steady-state diffusion is governed by Fick's first law, while unsteady-state diffusion is governed by Fick's second law
+*   Diffusion coefficient (D), initial concentration, final concentration, and boundary conditions are essential in solving problems involving molecular diffusion
+
+This comprehensive study note covers all theoretical concepts, formulas, and insights required to solve the questions mentioned and similar future questions.

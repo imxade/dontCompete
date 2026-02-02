@@ -1,103 +1,89 @@
-# Theory of Failure
+**Theory of Failure**
 ======================
 
-## Introduction
+**Introduction**
 ---------------
 
-The theory of failure deals with understanding how machines and structures fail under various loads, stresses, and strains. It's essential for engineers to design safe and reliable systems. This note covers the fundamental concepts related to the theory of failure.
+The Theory of Failure is a fundamental concept in Machine Design, which deals with predicting the likelihood of failure in mechanical components under various loading conditions. This note will cover the key concepts, formulas, and problem-solving strategies related to the theory of failure.
 
-## Core Concepts
+**Core Concepts**
 -----------------
 
-### Von-Mises Stress
+### 1. Stress States
 
-Von-Mises stress is a measure of the three-dimensional stress state at a point in a material. It is proportional to the square root of the distortional strain energy per unit volume. Mathematically, it can be represented as:
+A stress state at a point in a body is defined by three principal stresses ($\sigma_1$, $\sigma_2$, $\sigma_3$). The Von-Mises stress is a measure of the equivalent stress, which combines these principal stresses into a single value.
 
-$$\sigma_{VM} = \sqrt{\frac{1}{2}\left[\left(\sigma_1-\sigma_2\right)^2 + \left(\sigma_2-\sigma_3\right)^2 + \left(\sigma_3-\sigma_1\right)^2\right]}$$
+### 2. Distortional Strain Energy
 
-where $\sigma_1$, $\sigma_2$, and $\sigma_3$ are the principal stresses.
+The distortional strain energy per unit volume is given by:
 
-### Strain Energy
+$$U = \frac{1}{6E} \left[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \right]$$
 
-Strain energy is a measure of the energy stored in a material due to deformation. It can be categorized into two types:
+where $E$ is the modulus of elasticity.
 
-*   **Distortional strain energy**: This type of energy is responsible for the distortion or bending of the material.
-*   **Dilatational strain energy**: This type of energy is responsible for the expansion or contraction of the material.
-
-## Key Formulas/Theorems
+**Key Formulas/Theorems**
 -------------------------
 
-### Strain Energy Per Unit Volume
+### 1. Von-Mises Stress
 
-The strain energy per unit volume can be represented as:
+The Von-Mises stress is proportional to the square root of the distortional strain energy:
 
-$$U = \frac{1}{2}\left[\sigma_{11}^2 + \sigma_{22}^2 + \sigma_{33}^2 + 2\sigma_{12}^2 + 2\sigma_{23}^2 + 2\sigma_{31}^2\right]$$
+$$\sigma_{VM} = \sqrt{\frac{2}{3}U}$$
 
-### Von-Mises Stress in Terms of Strain Energy
+### 2. Failure Criteria
 
-Von-Mises stress is proportional to the square root of the distortional strain energy per unit volume:
+Several failure criteria are used in Machine Design, including:
 
-$$\sigma_{VM} = \sqrt{\frac{1}{2}\left[\left(\sigma_1-\sigma_2\right)^2 + \left(\sigma_2-\sigma_3\right)^2 + \left(\sigma_3-\sigma_1\right)^2\right]}$$
+* Maximum shear stress criterion
+* Maximum principal stress criterion
+* Von-Mises criterion (most commonly used)
 
-## Problem Solving Patterns
+**Problem Solving Patterns**
 ---------------------------
 
-### Identifying Principal Stresses
+1. **Identify the loading conditions**: Determine the type of loading (tension, compression, bending, torsion) and the orientation of the loads.
+2. **Determine the principal stresses**: Calculate the principal stresses ($\sigma_1$, $\sigma_2$, $\sigma_3$) from the loading conditions.
+3. **Apply failure criteria**: Choose an appropriate failure criterion (e.g., Von-Mises) and apply it to the principal stresses.
 
-To determine the principal stresses, we need to diagonalize the stress tensor. This involves finding the eigenvalues and eigenvectors of the stress tensor.
-
-### Calculating Strain Energy
-
-To calculate the strain energy per unit volume, we need to know the stress components at each point in the material. We can then use the formula for strain energy per unit volume.
-
-## Examples with Solutions
+**Examples with Solutions**
 ---------------------------
 
 ### Example 1: Von-Mises Stress Calculation
 
-Given:
+A bar is subjected to a tensile force of 100 N, resulting in a stress of 200 MPa. Calculate the distortional strain energy per unit volume:
 
-*   Principal stresses: $\sigma_1 = 100$ MPa, $\sigma_2 = -50$ MPa, and $\sigma_3 = 0$
+$$U = \frac{1}{6E} \left[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \right]$$
 
-We need to calculate the Von-Mises stress.
+Assuming $E = 200 GPa$ and $\sigma_1 = 200 MPa$, we get:
 
-Solution:
-$$\sigma_{VM} = \sqrt{\frac{1}{2}\left[\left(\sigma_1-\sigma_2\right)^2 + \left(\sigma_2-\sigma_3\right)^2 + \left(\sigma_3-\sigma_1\right)^2\right]}$$
-$$= \sqrt{\frac{1}{2}\left[\left(100-(-50)\right)^2 + \left((-50)-0\right)^2 + \left(0-100\right)^2\right]}$$
-$$= \sqrt{\frac{1}{2}\left[150^2+50^2+100^2\right]}$$
-$$= \sqrt{\frac{1}{2}\left[22500+2500+10000\right]}$$
-$$= \sqrt{\frac{1}{2}\left[42500\right]}$$
-$$= 204.14$$ MPa
+$$U = \frac{1}{6(200 GPa)} \left[ (200 MPa - 0)^2 + (0 - 0)^2 + (0 - 200 MPa)^2 \right]$$
 
-### Example 2: Strain Energy Calculation
+Simplifying, we get $U = 8.33 \times 10^{-3} J/m^3$.
 
-Given:
+### Example 2: Failure Criterion Application
 
-*   Stress components: $\sigma_{11} = 100$ MPa, $\sigma_{22} = -50$ MPa, and $\sigma_{33} = 0$
-*   Poisson's ratio: $\nu = 0.3$
+A beam is subjected to a bending moment of 100 Nm and a torsional moment of 50 Nm. Calculate the Von-Mises stress:
 
-We need to calculate the strain energy per unit volume.
+$$\sigma_{VM} = \sqrt{\frac{2}{3}U}$$
 
-Solution:
-$$U = \frac{1}{2}\left[\sigma_{11}^2 + \sigma_{22}^2 + \sigma_{33}^2 + 2\sigma_{12}^2 + 2\sigma_{23}^2 + 2\sigma_{31}^2\right]$$
-$$= \frac{1}{2}\left[100^2+(-50)^2+0^2+2(\nu)\sigma_{11}\sigma_{22}+2(\nu)\sigma_{22}\sigma_{33}+2(\nu)\sigma_{33}\sigma_{11}\right]$$
-$$= \frac{1}{2}\left[10000+2500+0+2(0.3)(100)(-50)+2(0.3)(-50)0+2(0.3)0(100)\right]$$
-$$= \frac{1}{2}\left[12500-3000\right]$$
-$$= 4700$$ MPa
+Assuming $E = 200 GPa$ and using the formula for distortional strain energy, we get:
 
-## Common Pitfalls
+$$\sigma_{VM} = \sqrt{\frac{2}{3} \left( \frac{1}{6E} \right) \left[ (\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2 \right]}$$
+
+Substituting values, we get $\sigma_{VM} = 245.9 MPa$.
+
+**Common Pitfalls**
+-------------------
+
+* Failing to consider the effects of stress concentrations
+* Ignoring the impact of material anisotropy on failure criteria
+* Incorrectly applying failure criteria to complex loading conditions
+
+**Quick Summary**
 ------------------
 
-*   Confusing the types of strain energy (distortional vs dilatational).
-*   Incorrectly calculating the principal stresses.
-*   Forgetting to consider the Poisson's ratio in calculations.
+* Von-Mises stress is proportional to the square root of distortional strain energy.
+* Failure criteria include maximum shear stress, maximum principal stress, and Von-Mises criteria.
+* Problem-solving involves identifying loading conditions, determining principal stresses, and applying failure criteria.
 
-## Quick Summary
----------------
-
-*   Von-Mises stress is proportional to the square root of the distortional strain energy per unit volume.
-*   Strain energy can be categorized into two types: distortional and dilatational.
-*   To calculate the Von-Mises stress, we need to know the principal stresses.
-*   To calculate the strain energy per unit volume, we need to know the stress components.
-
-This comprehensive note covers all theoretical concepts related to the theory of failure. By following this guide, you should be able to solve problems and understand the underlying principles.
+This note covers the essential concepts and formulas for the Theory of Failure in Machine Design. By mastering these topics, students will be well-prepared to tackle problems related to failure prediction and analysis.

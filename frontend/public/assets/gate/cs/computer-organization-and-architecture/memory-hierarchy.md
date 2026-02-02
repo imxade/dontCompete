@@ -1,112 +1,118 @@
 **Memory Hierarchy**
-======================
+====================
 
-### Introduction
+**Introduction**
+---------------
+
+The memory hierarchy is a fundamental concept in computer organization and architecture, aiming to optimize memory access times by utilizing multiple levels of memory storage with varying capacities and access speeds. This note covers the theoretical concepts and formulas required to solve questions related to memory hierarchy.
+
+**Core Concepts**
 -----------------
 
-The memory hierarchy is a conceptual representation of how computer systems organize and utilize different types of memory to store and retrieve data efficiently. The hierarchy consists of multiple levels, each with its own characteristics and access times.
+### Types of Memory Hierarchy Levels
 
-### Core Concepts
------------------
+1. **Cache**: A small, fast memory that stores frequently accessed data or instructions.
+2. **Main Memory**: The primary memory storage, also known as RAM (Random Access Memory).
+3. **External Storage**: Hard disks, solid-state drives, and other secondary storage devices.
 
-#### Cache Memory
+### Cache Organization
 
-Cache memory is a small, fast memory that acts as an intermediate layer between the main memory and the CPU. It stores frequently accessed data to reduce the time it takes for the CPU to retrieve data from the main memory.
+A cache is typically divided into two parts:
 
-**Types of Cache:**
+1. **Cache Tag**: Stores the address of the block being cached.
+2. **Cache Data**: The actual data stored in the cache.
 
-*   **L1 (Level 1) Cache:** Smallest and fastest cache level, built into the CPU.
-*   **L2 (Level 2) Cache:** Larger and slower than L1 cache, often located on the CPU or in a separate chip.
-*   **L3 (Level 3) Cache:** Shared among multiple cores, provides a high-speed memory access.
+### Cache Replacement Policies
 
-#### Main Memory
+There are several replacement policies used to manage cache memory:
 
-Main memory, also known as RAM (Random Access Memory), is the primary storage for data and program instructions. It's volatile, meaning its contents are lost when power is turned off.
+1. **Least Recently Used (LRU)**: Replaces the block that has not been accessed for the longest time.
+2. **Most Recently Used (MRU)**: Replaces the block that has been most recently accessed.
+3. **Random Replacement**: Selects a block randomly from the cache.
 
-**Types of Main Memory:**
-
-*   **SRAM (Static Random-Access Memory):** Fast but expensive.
-*   **DRAM (Dynamic Random-Access Memory):** Slower but more affordable.
-
-#### Virtual Memory
-
-Virtual memory is a combination of main memory and secondary storage, such as hard drives or solid-state drives. It provides an illusion of having more physical memory than available.
-
-### Key Formulas/Theorems
+**Key Formulas/Theorems**
 -------------------------
 
-*   **Cache Hit Ratio (CHR) Formula:**
+### Cache Hit Ratio
 
-    $$
-    CHR = \frac{Number\ of\ cache\ hits}{Total\ number\ of\ accesses}
-    $$
+The ratio of cache hits to total accesses:
 
-*   **Average Memory Access Time (AMAT) Formula:**
+$$\text{Cache Hit Ratio} = \frac{\text{Number of Hits}}{\text{Total Number of Accesses}}$$
 
-    $$
-    AMAT = (1 - P_{miss}) \times T_{hit} + P_{miss} \times (T_{hit} + T_{miss})
-    $$
+### Miss Penalty
 
-    Where:
-    *   $P_{miss}$ is the miss penalty probability.
-    *   $T_{hit}$ is the cache access time.
-    *   $T_{miss}$ is the memory access time.
+The time taken by the system to access main memory when a cache miss occurs:
 
-### Problem Solving Patterns
+$$\text{Miss Penalty} = T_{\text{cache}} + T_{\text{main memory}}$$
+
+where $T_{\text{cache}}$ is the time taken to access the cache and $T_{\text{main memory}}$ is the time taken to access main memory.
+
+### Cache Speedup
+
+The speedup achieved by using a cache:
+
+$$\text{Cache Speedup} = \frac{\text{Time without Cache}}{\text{Time with Cache}}$$
+
+**Problem Solving Patterns**
 ---------------------------
 
-1.  **Calculate Cache Hit Ratio (CHR):**
+1. **Identify Cache Structure**: Determine the number of cache levels, cache sizes, and replacement policies used.
+2. **Calculate Hit Ratio**: Use the formula for cache hit ratio to determine the effectiveness of the cache.
+3. **Determine Miss Penalty**: Calculate the time taken by the system to access main memory when a cache miss occurs.
 
-    Use the CHR formula to calculate the ratio of cache hits to total accesses.
-2.  **Determine Average Memory Access Time (AMAT):**
-
-    Apply the AMAT formula to find the average memory access time based on the miss penalty probability, cache access time, and memory access time.
-
-### Examples with Solutions
+**Examples with Solutions**
 ---------------------------
 
-**Example 1: Calculating CHR**
+### Example 1: Cache Organization
 
-Suppose a cache has a hit rate of 0.8 and a total number of accesses is 1000.
+Suppose we have a cache hierarchy with two levels:
 
-CH = (0.8) \* (1000) = 800
+* Level 1 (L1) cache: 16 KB, 2-way set-associative
+* Level 2 (L2) cache: 256 KB, 4-way set-associative
 
-CHR = 800/1000 = 0.8
+We want to find the effective cache size and hit ratio.
 
-**Example 2: Determining AMAT**
+```mermaid
+graph LR
+A[L1 Cache] --> B[L2 Cache]
+```
 
-Given:
+Solving:
 
-*   Miss penalty probability, P_miss = 0.1
-*   Cache access time, T_hit = 10 ns
-*   Memory access time, T_miss = 50 ns
+Effective cache size = L1 cache size + L2 cache size = 16 KB + 256 KB = 272 KB
 
-Apply the AMAT formula:
+Hit ratio = (L1 hits / Total accesses) \* (L2 hits / Total accesses)
 
-AMAT = (1 - 0.1) \* (10) + 0.1 \* (10 + 50)
-= 0.9 \* (10) + 0.1 \* (60)
-= 9 + 6
-= 15 ns
+### Example 2: Cache Replacement Policy
 
-### Common Pitfalls
-------------------
+Suppose we have a cache with a replacement policy of MRU. We want to find the probability that a block is replaced.
 
-*   **Mistaking CHR for AMAT:** Be careful not to confuse the cache hit ratio with the average memory access time.
-*   **Overlooking Miss Penalty Probability:** Remember that the miss penalty probability affects the average memory access time.
+Solving:
 
-### Quick Summary
+Let $p$ be the probability that a block is replaced. Then, the probability that it is not replaced is $(1-p)$.
+
+The probability that the next access will hit the cache is given by:
+
+$$P_{\text{hit}} = (1-p) + p \times P_{\text{miss}}$$
+
+where $P_{\text{miss}}$ is the probability of a miss.
+
+**Common Pitfalls**
+-------------------
+
+1. **Forgetting to calculate hit ratio**: Make sure to use the formula for cache hit ratio.
+2. **Not considering multiple levels of cache**: Ensure that you account for all levels of cache in your calculations.
+3. **Overlooking replacement policies**: Remember to consider the replacement policy used by the cache.
+
+**Quick Summary**
 -----------------
 
-*   **Cache Memory:**
-    *   Small, fast memory that acts as an intermediate layer between main memory and CPU.
-    *   Has multiple levels (L1, L2, L3).
-*   **Main Memory:**
-    *   Primary storage for data and program instructions.
-    *   Volatile, meaning its contents are lost when power is turned off.
-*   **Virtual Memory:**
-    *   Combination of main memory and secondary storage.
-    *   Provides an illusion of having more physical memory than available.
+* Cache hierarchy: L1, L2, L3
+* Cache organization: Tag and data arrays
+* Replacement policies: LRU, MRU, Random Replacement
+* Key formulas:
+	+ Cache hit ratio: $\frac{\text{Number of Hits}}{\text{Total Number of Accesses}}$
+	+ Miss penalty: $T_{\text{cache}} + T_{\text{main memory}}$
+	+ Cache speedup: $\frac{\text{Time without Cache}}{\text{Time with Cache}}$
 
-**Visuals**
-
-No Mermaid diagrams or online images were included in this response as the format does not allow for them.
+Note that this is a comprehensive theory note on the topic of memory hierarchy. It covers all theoretical concepts, formulas, and insights required to solve questions related to memory hierarchy, including those from previous year's GATE CS exam papers.

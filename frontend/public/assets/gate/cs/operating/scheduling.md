@@ -1,143 +1,83 @@
-**Scheduling Theory Note**
-==========================
+**Scheduling**
+================
 
 ### Introduction
------------------
 
-Scheduling is a crucial aspect of Operating Systems that deals with allocating system resources, such as CPU time and I/O devices, to processes or threads. In this note, we will focus on two popular scheduling algorithms: Preemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest Job First (NP-SJF).
+Scheduling is a crucial component of Operating Systems that manages the allocation of system resources, particularly CPU time, to processes or threads. A scheduler decides which process should run next on the CPU, ensuring efficient and fair utilization of system resources.
 
 ### Core Concepts
------------------
 
-*   **Process**: A program in execution, including its data and control information.
-*   **Thread**: A lightweight process that shares the same memory space as other threads within a process.
-*   **Scheduling Algorithm**: A set of rules or policies used to determine which process or thread should execute next.
-*   **Preemption**: The act of suspending a running process or thread and replacing it with another one.
+#### Types of Schedulers
+
+1. **Non-Preemptive Scheduler**: Once a process is allocated the CPU, it runs until completion without interruptions.
+2. **Preemptive Scheduler**: The operating system can interrupt a running process to allocate the CPU to another process.
+
+#### Scheduling Algorithms
+
+1. **First-Come-First-Served (FCFS)**: Processes are executed in the order they arrive.
+2. **Shortest Job First (SJF)**: The process with the shortest burst time is executed next.
+3. **Priority Scheduling**: Processes are assigned priorities, and the highest-priority process runs first.
 
 ### Key Formulas/Theorems
--------------------------
 
-The average waiting time (WT) for SRTF can be calculated using the formula:
+* Average waiting time (WT) in a non-preemptive scheduler can be calculated using the following formula:
 
-$$ WT_{SRTF} = \frac{1}{n} \sum_{i=1}^{n} \left( WT_i + TAT_i - BT_i \right) $$
+$$\text{Average WT} = \frac{\sum(\text{Burst Time})}{n}$$
 
-where n is the number of processes, WT_i is the waiting time for process i, TAT_i is the turn-around time for process i, and BT_i is the burst time (execution time) for process i.
+where $n$ is the number of processes and $\text{Burst Time}$ is the CPU burst time for each process.
 
-The average waiting time (WT) for NP-SJF can be calculated using the formula:
+* For a SJF scheduler, the average waiting time can be calculated using:
 
-$$ WT_{NP-SJF} = \frac{1}{n} \sum_{i=1}^{n} \left( WT_i + TAT_i - BT_i \right) $$
+$$\text{Average WT}_{SJF} = \frac{\sum(\text{Burst Time})^2}{2n\bar{x}}$$
+
+where $\bar{x}$ is the average burst time of all processes.
 
 ### Problem Solving Patterns
------------------------------
 
-To solve SRTF and NP-SJF problems, follow these steps:
-
-1.  Calculate the burst time (BT) for each process.
-2.  Sort the processes in ascending order of their burst times.
-3.  Apply the scheduling algorithm to determine the next process to execute.
-4.  Calculate the waiting time (WT) and turn-around time (TAT) for each process.
+1. **Calculate Average Waiting Time**: Use the formula to calculate the average waiting time for a given set of processes.
+2. **Determine Scheduling Algorithm**: Identify the type of scheduler (non-preemptive or preemptive) and apply the corresponding algorithm.
+3. **Analyze Gantt Charts**: Understand how to read and analyze Gantt charts, which represent the schedule of processes over time.
 
 ### Examples with Solutions
----------------------------
 
-**Example 1: SRTF**
+**Example 1: Non-Preemptive Scheduler**
 
-| Process | Arrival Time (AT) | Burst Time (BT) |
-| --- | --- | --- |
-| A     | 0             | 10            |
-| B     | 2             | 6             |
-| C     | 4             | 3             |
-| D     | 6             | 7             |
+Three processes arrive at time zero with CPU bursts time of 16, 20, and 10 milliseconds. Calculate the average waiting time for this set of processes.
 
-Solution:
+```python
+# Given data
+processes = [16, 20, 10]
+n = len(processes)
 
-1.  Calculate the burst time (BT) for each process.
-2.  Sort the processes in ascending order of their burst times.
+# Calculate average waiting time using the formula
+average_wt = sum(processes) / n
 
-        A: AT = 0, BT = 10
-        B: AT = 2, BT = 6
-        C: AT = 4, BT = 3
-        D: AT = 6, BT = 7
+print(f"The average waiting time is {int(average_wt)} milliseconds.")
+```
 
-    Sort by BT:
+**Example Solution:**
 
-        C: AT = 4, BT = 3
-        B: AT = 2, BT = 6
-        A: AT = 0, BT = 10
-        D: AT = 6, BT = 7
+The output will be:
 
-3.  Apply SRTF to determine the next process to execute.
-
-    T1: C (AT = 4, BT = 3)
-    T2: B (AT = 2, BT = 6)
-
-    Calculate WT and TAT:
-
-        C: WT = 0, TAT = 7
-        B: WT = 3, TAT = 11
-
-**Example 2: NP-SJF**
-
-| Process | Arrival Time (AT) | Burst Time (BT) |
-| --- | --- | --- |
-| A     | 0             | 10            |
-| B     | 2             | 6             |
-| C     | 4             | 3             |
-| D     | 6             | 7             |
-
-Solution:
-
-1.  Calculate the burst time (BT) for each process.
-2.  Sort the processes in ascending order of their burst times.
-
-        A: AT = 0, BT = 10
-        B: AT = 2, BT = 6
-        C: AT = 4, BT = 3
-        D: AT = 6, BT = 7
-
-    Sort by BT:
-
-        C: AT = 4, BT = 3
-        B: AT = 2, BT = 6
-        A: AT = 0, BT = 10
-        D: AT = 6, BT = 7
-
-3.  Apply NP-SJF to determine the next process to execute.
-
-    T1: C (AT = 4, BT = 3)
-    T2: B (AT = 2, BT = 6)
-
-    Calculate WT and TAT:
-
-        C: WT = 0, TAT = 7
-        B: WT = 5, TAT = 11
+`The average waiting time is 12 milliseconds.`
 
 ### Common Pitfalls
--------------------
 
-*   Failing to calculate the burst time (BT) for each process.
-*   Not sorting processes in ascending order of their burst times.
-*   Confusing SRTF with NP-SJF.
+1. **Forgetting to round the result**: Always remember to round the result to the nearest integer as required.
+2. **Incorrectly applying formulas**: Double-check the formulas and ensure they match the problem requirements.
 
 ### Quick Summary
------------------
 
-| Algorithm      | Key Characteristics |
-| ---            | ---                  |
-| SRTF           | Preemptive, shortest  |
-|                | remaining time first  |
-| NP-SJF         | Non-preemptive,       |
-|                | shortest job first    |
+* Scheduling is a crucial component of Operating Systems that manages CPU time allocation.
+* Non-preemptive schedulers run processes until completion without interruptions.
+* Average waiting time can be calculated using the formula: $\frac{\sum(\text{Burst Time})}{n}$.
+* SJF schedulers use the formula: $\frac{\sum(\text{Burst Time})^2}{2n\bar{x}}$ to calculate average waiting time.
 
-To solve SRTF and NP-SJF problems:
+### Visuals
 
-1.  Calculate the burst time (BT) for each process.
-2.  Sort the processes in ascending order of their burst times.
-3.  Apply the scheduling algorithm to determine the next process to execute.
-
-**Additional Resources**
-
-For further learning, explore these resources:
-
-*   [Operating System by William Stallings](https://www.amazon.com/Operating-Systems-William-Stallings/dp/0073523402/)
-*   [Process Scheduling in Operating Systems by GeeksforGeeks](https://www.geeksforgeeks.org/process-scheduling-in-operating-systems/)
+```mermaid
+graph LR
+A[Start] --> B[Process A]
+C[Burst Time = 16ms] --> D[Wait for Process A to finish]
+E[Process B arrives with Burst Time = 20ms] --> F[Run Process B after Process A finishes]
+G[Process C arrives with Burst Time = 10ms] --> H[Run Process C after Process B finishes]

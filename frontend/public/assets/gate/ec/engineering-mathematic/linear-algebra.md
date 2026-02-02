@@ -1,113 +1,133 @@
-# Linear Algebra Theory Notes for GATE CS Exam
-=====================================================
+**Linear Algebra**
+=====================
 
-## Introduction
-Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It plays a crucial role in various fields such as engineering, computer science, and physics.
+**Introduction**
+---------------
 
-## Core Concepts
+Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It plays a crucial role in various fields such as engineering, physics, computer science, and economics. The subject has extensive applications in data analysis, machine learning, image processing, and computational methods.
+
+**Core Concepts**
+-----------------
+
 ### Vector Spaces
-A **vector space** is a set of vectors with operations of addition and scalar multiplication that satisfy certain properties.
 
-*   Closure under addition: For any two vectors `u` and `v`, their sum `u + v` is also in the vector space.
-*   Commutativity of addition: `u + v = v + u`
-*   Associativity of addition: `(u + v) + w = u + (v + w)`
-*   Existence of additive identity: There exists a vector `0` such that `u + 0 = u`
-*   Existence of additive inverse: For each vector `u`, there exists a vector `-u` such that `u + (-u) = 0`
+A **vector space** is a set of vectors that can be added together and scaled by real numbers. It must satisfy the following properties:
 
-### Linear Transformations
-A **linear transformation** is a function between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+*   Closure under addition: For any two vectors $\mathbf{u}$ and $\mathbf{v}$, their sum $\mathbf{u} + \mathbf{v}$ is also in the vector space.
+*   Commutativity of addition: The order of adding vectors does not matter, i.e., $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$.
+*   Associativity of addition: For any three vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$, the equation $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$ holds.
+*   Existence of additive identity: There exists a vector $\mathbf{0}$ such that for any vector $\mathbf{v}$, $\mathbf{v} + \mathbf{0} = \mathbf{v}$.
+*   Existence of additive inverse: For each vector $\mathbf{v}$, there exists another vector $-\mathbf{v}$ such that $\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$.
 
-*   Linearity: A linear transformation `T` satisfies `T(u + v) = T(u) + T(v)` and `T(cu) = cT(u)`
+### Linear Independence
 
-### Matrix Operations
-A **matrix** is a rectangular array of numbers.
+A set of vectors is **linearly independent** if none of the vectors can be expressed as a linear combination of the others. In other words, if we have a set of vectors $\{\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_n\}$, then they are linearly independent if and only if the equation $c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \cdots + c_n\mathbf{v}_n = \mathbf{0}$ implies that all coefficients $c_i$ are zero.
 
-*   Addition: Two matrices can be added if they have the same dimensions. The result is obtained by adding corresponding elements.
-*   Multiplication: A matrix can be multiplied by another matrix or a scalar. The result is obtained by multiplying each element of the first matrix by the scalar or corresponding elements of the second matrix.
+### Basis
 
-## Key Formulas/Theorems
-### Determinant of a Matrix
+A **basis** of a vector space is a set of linearly independent vectors that span the entire space. In other words, if we have a set of vectors $\{\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_n\}$ that are linearly independent and span the vector space, then they form a basis.
 
-$$\det(A) = \begin{vmatrix}
-a_{11} & a_{12} & \cdots & a_{1n}\\
-a_{21} & a_{22} & \cdots & a_{2n}\\
-\vdots & \vdots & \ddots & \vdots\\
-a_{n1} & a_{n2} & \cdots & a_{nn}
-\end{vmatrix}$$
+### Dimension
 
-### Inverse of a Matrix
+The **dimension** of a vector space is the number of vectors in a basis. It can be thought of as the minimum number of linearly independent vectors needed to span the entire space.
 
-$A^{-1} = \frac{1}{\det(A)} \operatorname{adj}(A)$
+**Key Formulas/Theorems**
+-------------------------
 
-### Rank of a Matrix
+*   The rank-nullity theorem: For any linear transformation $T: \mathbf{V} \to \mathbf{W}$, we have $\dim(\ker(T)) + \dim(\text{im}(T)) = \dim(\mathbf{V})$.
+*   The fundamental theorem of linear algebra: If $A$ is an $m \times n$ matrix with real entries, then the column space and nullspace of $A$ are vector spaces of dimensions $r$ and $n - r$, respectively, where $r = \text{rank}(A)$.
 
-$\operatorname{rank}(A) = n - \operatorname{nullity}(A)$
+**Problem Solving Patterns**
+---------------------------
 
-## Problem Solving Patterns
-When solving systems of linear equations, we can use the following techniques:
+### Identifying Linear Independence
 
-*   **Gaussian Elimination**: We transform the augmented matrix into upper triangular form using row operations.
-*   **LU Decomposition**: We decompose the coefficient matrix into a product of two matrices, `L` and `U`.
-*   **Inverse Method**: We use the inverse of the coefficient matrix to solve for the variables.
+To determine if a set of vectors is linearly independent, we can use the following steps:
 
-## Examples with Solutions
+1.  Write down the equation $c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \cdots + c_n\mathbf{v}_n = \mathbf{0}$.
+2.  Solve for the coefficients $c_i$.
+3.  If all coefficients are zero, then the vectors are linearly independent.
 
-### Example 1:
+### Finding a Basis
 
-Solve the system of linear equations:
+To find a basis of a vector space, we can use the following steps:
 
-$$\begin{align}
-x + y &= 2\\
-2x - 3y &= -5
-\end{align}$$
+1.  Start with an arbitrary set of linearly independent vectors.
+2.  Add or remove vectors to obtain a spanning set.
+3.  Use the reduced row echelon form (RREF) method to obtain a basis.
 
-**Solution:** We can use Gaussian elimination to transform the augmented matrix into upper triangular form:
+**Examples with Solutions**
+-------------------------
 
-$$\begin{bmatrix}
-1 & 1\\
-2 & -3
-\end{bmatrix}\sim \begin{bmatrix}
-1 & 1\\
-0 & -7
-\end{bmatrix}$$
+### Example 1: Linear Independence
 
-Now, we can easily solve for `x` and `y`.
+Suppose we have three vectors $\mathbf{v}_1 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$, $\mathbf{v}_2 = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$, and $\mathbf{v}_3 = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$. We need to determine if they are linearly independent.
 
-### Example 2:
+```python
+import numpy as np
 
-Find the inverse of the matrix:
+# Define the vectors
+v1 = np.array([1, 0, 0])
+v2 = np.array([0, 1, 0])
+v3 = np.array([0, 0, 1])
 
-$$A = \begin{bmatrix}
-2 & 1\\
-4 & 3
-\end{bmatrix}$$
+# Create a matrix with the vectors as columns
+A = np.column_stack((v1, v2, v3))
 
-**Solution:** We can use the formula for the inverse of a matrix:
+# Perform row reduction using RREF method
+from sympy import Matrix
 
-$A^{-1} = \frac{1}{\det(A)} \operatorname{adj}(A)$
+# Convert A to a SymPy matrix
+A = Matrix(A)
 
-We first need to find the determinant and adjugate of `A`.
+# Compute RREF of A
+rref_A = A.rref()[0]
 
-## Common Pitfalls
-When solving systems of linear equations, students often miss the following:
-
-*   **Consistency**: The system may be inconsistent, meaning that there is no solution.
-*   **Uniqueness**: The system may have a unique solution.
-*   **Non-uniqueness**: The system may have multiple solutions.
-
-## Quick Summary
-
-*   **Vector spaces** are sets of vectors with operations of addition and scalar multiplication that satisfy certain properties.
-*   **Linear transformations** preserve the operations of vector addition and scalar multiplication.
-*   **Matrix operations** include addition, multiplication, and determinant calculations.
-*   **Gaussian elimination**, `LU decomposition`, and `inverse method` can be used to solve systems of linear equations.
-
-## Visuals
-
-```mermaid
-graph LR
-A[Vector Space] --> B[Linear Transformation]
-C[Matrix Operations] --> D[Solving Systems of Linear Equations]
+print(rref_A)
 ```
 
-This theory note covers the core concepts, key formulas, and problem-solving patterns required to solve the source questions. It also includes examples with solutions and common pitfalls to watch out for.
+The resulting RREF will be $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$, which indicates that the vectors are linearly independent.
+
+### Example 2: Finding a Basis
+
+Suppose we have a vector space $\mathbf{V} = \{(a, b, c) \mid a + b + c = 0\}$ and we want to find a basis for it.
+
+```python
+import numpy as np
+
+# Define the vectors in V
+v1 = np.array([1, -1, 0])
+v2 = np.array([0, 1, -1])
+
+# Create a matrix with the vectors as columns
+A = np.column_stack((v1, v2))
+
+# Perform row reduction using RREF method
+from sympy import Matrix
+
+# Convert A to a SymPy matrix
+A = Matrix(A)
+
+# Compute RREF of A
+rref_A = A.rref()[0]
+
+print(rref_A)
+```
+
+The resulting RREF will be $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$, which indicates that the vectors $v_1$ and $v_2$ form a basis for $\mathbf{V}$.
+
+**Common Pitfalls**
+-----------------
+
+*   Assuming that any set of linearly independent vectors forms a basis.
+*   Failing to check for zero coefficients in the equation $c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \cdots + c_n\mathbf{v}_n = \mathbf{0}$.
+
+**Quick Summary**
+-----------------
+
+*   Vector space: A set of vectors that can be added together and scaled by real numbers.
+*   Linear independence: A set of vectors is linearly independent if none of the vectors can be expressed as a linear combination of the others.
+*   Basis: A set of linearly independent vectors that span the entire vector space.
+*   Dimension: The number of vectors in a basis.
+
+By following this comprehensive theory note, students will gain a deep understanding of linear algebra and its applications. They will learn to identify linear independence, find a basis for a vector space, and perform row reduction using RREF method. With practice and persistence, they will become proficient in solving problems involving linear algebra.

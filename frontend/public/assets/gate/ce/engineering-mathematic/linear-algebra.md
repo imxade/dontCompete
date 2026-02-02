@@ -1,149 +1,193 @@
-# Linear Algebra Theory Note
-=====================================
+**Linear Algebra Theory Note**
+==============================
 
-## Introduction
---------------
+**Introduction**
+---------------
 
-Linear algebra is a fundamental branch of mathematics that deals with the study of linear equations, vector spaces, linear transformations, and eigenvalues. It is an essential tool for solving systems of equations, data analysis, machine learning, and computer graphics.
+Linear algebra is a fundamental subject in mathematics and engineering that deals with the study of linear equations, vector spaces, linear transformations, and matrices. It has numerous applications in various fields such as physics, computer science, and engineering.
 
-## Core Concepts
+**Core Concepts**
 -----------------
 
-### Vectors and Vector Spaces
+### Vector Spaces
 
-A **vector** is a mathematical object that has both magnitude (length) and direction. A **vector space** is a set of vectors that satisfy certain properties:
+A **vector space** over a field `F` is a set of vectors equipped with operations of addition and scalar multiplication that satisfy certain properties:
 
-*   Closure under addition: The sum of two vectors in the space is also in the space.
-*   Commutativity of addition: The order of vectors does not change the result.
-*   Associativity of addition: The way we group vectors when adding them does not matter.
-*   Existence of additive identity: There exists a vector (usually denoted as `0`) that, when added to any other vector, leaves it unchanged.
-*   Existence of additive inverse: For each vector, there exists an "opposite" vector such that their sum is the zero vector.
+*   Closure: The sum of any two vectors is also a vector in the set.
+*   Commutativity: The order of adding vectors does not matter (a + b = b + a).
+*   Associativity: Adding three or more vectors follows the associative property ((a + b) + c = a + (b + c)).
+*   Distributivity: Scalar multiplication distributes over vector addition (c(a + b) = ca + cb).
+*   Existence of additive identity and inverse.
 
 ### Linear Transformations
 
-A **linear transformation** is a function between two vector spaces that preserves linear combinations. In other words:
+A **linear transformation** is a function between vector spaces that preserves the operations of vector addition and scalar multiplication. It is represented by a matrix, which encodes the transformation's properties:
 
-f(v + u) = f(v) + f(u)
-f(kv) = kf(v)
-
-for any vectors `u` and `v`, scalar `k`.
+*   Matrix multiplication: The product of two matrices represents the composition of linear transformations.
+*   Invertibility: A non-singular matrix has an inverse, corresponding to an invertible linear transformation.
 
 ### Eigenvalues and Eigenvectors
 
-An **eigenvalue** of a matrix is a scalar `λ` such that there exists a non-zero vector `v` (the corresponding eigenvector) satisfying:
+**Eigenvalues** are scalar values that represent how much a linear transformation stretches or compresses a vector. **Eigenvectors** are the vectors on which this stretching or compression occurs:
 
-Av = λv
+*   Characteristic polynomial: The characteristic equation of a matrix, obtained by det(A - λI) = 0.
+*   Eigenvalue decomposition: A matrix can be decomposed into its eigenvalues and eigenvectors.
 
-This equation describes the scaling effect of applying the linear transformation represented by `A` to the vector `v`.
+### Matrix Operations
 
-## Key Formulas/Theorems
+Common matrix operations include:
+
+*   **Matrix multiplication**: The product of two matrices.
+*   **Determinant**: A scalar value that describes the invertibility of a matrix.
+*   **Inverse**: The inverse of a non-singular matrix, representing an invertible linear transformation.
+
+**Key Formulas/Theorems**
 -------------------------
 
-### Determinant of a Matrix
+### Determinant
 
-The **determinant** of an `n x n` matrix can be calculated using various methods, including:
+The determinant of a 2x2 matrix $\begin{bmatrix}a & b\\c & d\end{bmatrix}$ is given by:
 
-*   Laplace expansion: Calculate each minor and cofactor.
-*   LU decomposition: Express the matrix as a product of lower and upper triangular matrices.
+$$
+\det \begin{bmatrix}a & b\\c & d\end{bmatrix} = ad - bc.
+$$
 
-The determinant is denoted by `det(A)` or `|A|`.
+### Inverse
 
-### Inverse of a Matrix
+The inverse of a 2x2 matrix $\begin{bmatrix}a & b\\c & d\end{bmatrix}$ is given by:
 
-The **inverse** of an invertible square matrix `A` is another matrix `B` such that:
+$$
+\begin{bmatrix}a & b\\c & d\end{bmatrix}^{-1} = \frac{1}{ad - bc}\begin{bmatrix}d & -b\\-c & a\end{bmatrix}.
+$$
 
-AB = BA = I
+### Eigenvalue Decomposition
 
-where `I` is the identity matrix. The inverse can be calculated using various methods, including:
+A matrix can be decomposed into its eigenvalues and eigenvectors as follows:
 
-*   Gauss-Jordan elimination.
-*   LU decomposition.
+$$
+A = PDP^{-1},
+$$
 
-### Eigenvalues and Eigenvectors Calculations
+where $P$ is the matrix of eigenvectors, $D$ is the diagonal matrix of eigenvalues, and $P^{-1}$ is the inverse of $P$.
 
-The **eigenvalues** of a matrix can be found by solving the characteristic polynomial equation:
-
-|A - λI| = 0
-
-Once the eigenvalues are determined, corresponding eigenvectors can be calculated using various methods.
-
-## Problem Solving Patterns
+**Problem Solving Patterns**
 ---------------------------
 
-### Finding Eigenvalues and Eigenvectors
+### Finding Eigenvalues
 
-1.  Write down the characteristic polynomial equation.
-2.  Solve for the eigenvalues (roots of the equation).
-3.  For each eigenvalue, calculate a corresponding eigenvector(s).
+To find the eigenvalues of a matrix, we need to solve the characteristic equation:
 
-### Determinant Calculations
+$$
+\det(A - \lambda I) = 0.
+$$
 
-1.  Choose a method to calculate the determinant (e.g., Laplace expansion or LU decomposition).
-2.  Apply the chosen method to the matrix.
+This will give us the eigenvalues of the matrix.
 
-## Examples with Solutions
----------------------------
+### Finding Eigenvectors
 
-Example 1: Calculate the determinant of the matrix:
+Once we have found the eigenvalues, we can find the corresponding eigenvectors by solving the equation:
 
-|3 4|
-|5 6|
+$$
+A\mathbf{v} = \lambda\mathbf{v}.
+$$
 
-Solution:
-```mermaid
-graph LR;
-    A[Matrix] --> B[Laplace Expansion];
-    B --> C[Determinant Calculation];
-    C --> D{Determinant Value};
-```
-Using Laplace expansion, we get:
+This will give us the eigenvectors of the matrix.
 
-det(A) = (3*6 - 4*5)
-= 18 - 20
-= -2
+**Examples with Solutions**
+-------------------------
 
-Example 2: Find the eigenvalues and eigenvectors of the matrix:
+### Example 1: Finding Eigenvalues and Eigenvectors
 
-|1 2|
-|2 1|
+Consider the matrix $\begin{bmatrix}2 & 1\\1 & 2\end{bmatrix}$. We want to find its eigenvalues and eigenvectors.
 
-Solution:
-```mermaid
-graph LR;
-    A[Matrix] --> B[Eigenvalue Equation];
-    B --> C[Solve for Eigenvalues];
-    C --> D[Eigenvector Calculation];
-```
-The characteristic polynomial equation is:
+To do this, we need to solve the characteristic equation:
 
-|(A - λI)| = 0
+$$
+\det \begin{bmatrix}2 - \lambda & 1\\1 & 2 - \lambda\end{bmatrix} = (2-\lambda)^2 - 1 = 0.
+$$
 
-Expanding the matrix, we get a quadratic equation in `λ` with roots 3 and -1.
+Solving for $\lambda$, we get:
 
-## Common Pitfalls
--------------------
+$$
+(2-\lambda)^2 - 1 = 0 \Rightarrow \lambda^2 - 4\lambda + 3 = 0.
+$$
 
-*   Failing to check if a matrix is invertible before attempting to calculate its inverse.
-*   Misapplying properties of determinants (e.g., treating the determinant as a scalar function).
+This is a quadratic equation, and solving it gives us the eigenvalues:
 
-## Quick Summary
----------------
+$$
+\lambda_1 = 3, \quad \lambda_2 = 1.
+$$
 
-### Key Concepts:
+Now that we have found the eigenvalues, we can find the corresponding eigenvectors. To do this, we need to solve the equation:
 
-*   Vector spaces and vectors
-*   Linear transformations
-*   Eigenvalues and eigenvectors
-*   Determinant calculations
-*   Inverse matrix calculations
+$$
+A\mathbf{v} = \lambda\mathbf{v}.
+$$
 
-### Formulas/Theorems:
+For $\lambda_1 = 3$, we get:
 
-*   Determinant of an `n x n` matrix: various methods (Laplace expansion, LU decomposition)
-*   Inverse of a square matrix: various methods (Gauss-Jordan elimination, LU decomposition)
-*   Eigenvalues and eigenvectors: characteristic polynomial equation
+$$
+\begin{bmatrix}2 & 1\\1 & 2\end{bmatrix}\mathbf{v}_1 = 3\mathbf{v}_1.
+$$
 
-### Problem Solving Patterns:
+Solving for $\mathbf{v}_1$, we get:
 
-*   Finding eigenvalues and eigenvectors
-*   Determinant calculations
+$$
+\mathbf{v}_1 = \begin{bmatrix}1\\-1\end{bmatrix}.
+$$
+
+Similarly, for $\lambda_2 = 1$, we get:
+
+$$
+\mathbf{v}_2 = \begin{bmatrix}1\\1\end{bmatrix}.
+$$
+
+Therefore, the eigenvalues and eigenvectors of the matrix are:
+
+*   Eigenvalues: $\lambda_1 = 3, \quad \lambda_2 = 1$
+*   Eigenvectors: $\mathbf{v}_1 = \begin{bmatrix}1\\-1\end{bmatrix}, \quad \mathbf{v}_2 = \begin{bmatrix}1\\1\end{bmatrix}$
+
+### Example 2: Finding Eigenvalues of a Matrix
+
+Consider the matrix $\begin{bmatrix}4 & 1\\1 & 2\end{bmatrix}$. We want to find its eigenvalues.
+
+To do this, we need to solve the characteristic equation:
+
+$$
+\det \begin{bmatrix}4 - \lambda & 1\\1 & 2 - \lambda\end{bmatrix} = (4-\lambda)(2-\lambda) - 1 = 0.
+$$
+
+Solving for $\lambda$, we get:
+
+$$
+(4-\lambda)(2-\lambda) - 1 = 0 \Rightarrow \lambda^2 - 6\lambda + 7 = 0.
+$$
+
+This is a quadratic equation, and solving it gives us the eigenvalues:
+
+$$
+\lambda_1 = 5, \quad \lambda_2 = 1.
+$$
+
+Therefore, the eigenvalues of the matrix are $\lambda_1 = 5, \quad \lambda_2 = 1$.
+
+**Common Pitfalls**
+------------------
+
+### Inconsistent Matrices
+
+If a matrix is inconsistent (i.e., it has no solution), then its determinant will be zero. Therefore, if we find that the determinant of a matrix is zero, we should check for inconsistencies in the system.
+
+### Inverse Matrices
+
+When finding the inverse of a matrix, we need to make sure that the matrix is non-singular (i.e., it has an inverse). If the matrix is singular, then its inverse will not exist.
+
+**Quick Summary**
+-----------------
+
+*   **Vector spaces**: A set of vectors equipped with operations of addition and scalar multiplication.
+*   **Linear transformations**: Functions between vector spaces that preserve the operations of vector addition and scalar multiplication.
+*   **Eigenvalues and eigenvectors**: Scalars and vectors on which a linear transformation acts as a stretching or compression.
+*   **Matrix operations**: Common operations performed on matrices, such as matrix multiplication, determinant, and inverse.
+
+This theory note provides an overview of the fundamental concepts in linear algebra. It covers vector spaces, linear transformations, eigenvalues, and eigenvectors, as well as common matrix operations. The examples provided demonstrate how to apply these concepts to solve problems. By mastering this material, you will be able to tackle a wide range of linear algebra problems with confidence.

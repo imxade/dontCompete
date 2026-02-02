@@ -1,74 +1,105 @@
 **Transformation of Shape**
-=========================
+==========================
 
-### Introduction
+**Introduction**
+---------------
 
-The transformation of shape refers to the process of changing the appearance or dimensions of an object or figure without altering its inherent properties. In the context of spatial aptitude, transformations are crucial for understanding how shapes can be manipulated and analyzed.
+In geometry, shape transformation refers to a change in the position or orientation of a geometric figure without altering its size or shape. Understanding these transformations is crucial for spatial reasoning and problem-solving skills. This note will cover the theoretical concepts, formulas, and insights required to tackle questions related to shape transformation.
 
-### Core Concepts
+**Core Concepts**
+-----------------
 
-*   **Translations**: A translation is a type of transformation that involves moving an object from one location to another without rotating or scaling it.
-*   **Rotations**: A rotation is a transformation that turns an object around a fixed point or axis by a specified angle. There are three types of rotations:
-    *   **Clockwise Rotation** : 360° clockwise
-    *   **Counter-Clockwise Rotation** : 360° counter-clockwise
-    *   **Half Turn**: A rotation of 180° about the center
-*   **Scaling**: Scaling is a transformation that changes the size of an object by a specified factor. There are two types of scaling:
-    *   **Enlargement** (or Expansion): Increasing the size of an object
-    *   **Reduction** (or Contraction): Decreasing the size of an object
+### Rotations
 
-### Key Formulas/Theorems
+A rotation is a transformation that turns a figure around a fixed point called the axis of rotation.
 
-*   **Translation**: No specific formula is required for translation as it involves moving an object without changing its dimensions or orientation.
-*   **Rotation**: The center of rotation remains unchanged during a rotation. 
-*   **Scaling**:
-    *   **Enlargement (Expansion)**: New Length = Original Length \* Scale Factor
-    *   **Reduction (Contraction)**: New Length = Original Length / Scale Factor
+*   **180° Rotation**: A 180° rotation is equivalent to reflecting a figure across its axis.
+*   **90° Clockwise/Counterclockwise Rotation**: A 90° rotation is equivalent to rotating a figure by a quarter turn clockwise or counterclockwise around its axis.
 
-### Problem Solving Patterns
+### Axes of Rotation
 
-When dealing with transformations, it is essential to identify the type of transformation and understand its effects on the object. Here are some problem-solving strategies:
+An axis of rotation can be any line passing through the center of the shape. The most common axes are:
 
-1.  **Identify the Type of Transformation**: Determine whether the transformation involves translation, rotation, or scaling.
-2.  **Understand the Effects**: Analyze how each type of transformation affects the object's dimensions, orientation, or position.
-3.  **Apply Mathematical Formulas**: Use relevant formulas to calculate new dimensions or positions.
+*   **S-Q Axis**: An axis passing through points S and Q.
+*   **P-R Axis**: An axis passing through points P and R.
+*   **T-Axis**: An axis perpendicular to the screen and passing through point T.
 
-### Examples with Solutions
+**Key Formulas/Theorems**
+-------------------------
 
-1.  **Example 1**:
-    *   A square is translated 5 units to the right and 3 units upwards.
-    *   The original square has side length = 4 units.
-    *   What are the new coordinates of the square?
-    
-    Solution: 
-    New x-coordinate = Original x-coordinate + Translation in x-direction
-                    = Original x-coordinate + 5 units
-    
-    New y-coordinate = Original y-coordinate + Translation in y-direction
-                    = Original y-coordinate + 3 units
+### Rotation Matrix
 
-2.  **Example 2**:
-    *   A circle is rotated 90° counter-clockwise about its center.
-    *   The original circle has a radius of 6 units.
-    *   What are the new dimensions (radius and diameter) after rotation?
-    
-    Solution: 
-    Radius remains unchanged during rotation.
-    
-    Diameter = 2 \* Radius
+The rotation matrix is a mathematical representation of a rotation transformation:
 
-### Common Pitfalls
+$$
+\begin{bmatrix}
+cos(\theta) & -sin(\theta) \\
+sin(\theta) & cos(\theta)
+\end{bmatrix}
+$$
 
-*   **Misidentifying Transformation Types**: Be cautious when identifying translations, rotations, or scaling. Make sure to understand their effects on the object's dimensions and orientation.
-*   **Incorrect Application of Formulas**: Double-check mathematical calculations for accuracy.
+where $\theta$ is the angle of rotation.
 
-### Quick Summary
+**Problem Solving Patterns**
+---------------------------
 
-Here's a brief summary of key concepts:
+### Analyzing Sequences of Operations
 
-*   Translations: Moving an object without rotation or scaling
-*   Rotations: Turning an object around a fixed point by a specified angle (clockwise, counter-clockwise, half turn)
-*   Scaling: Changing the size of an object by a specified factor (enlargement, reduction)
+When analyzing sequences of operations, consider the following:
 
-Transformations are crucial in understanding how shapes can be manipulated and analyzed. By mastering these concepts and applying them to real-world problems, you'll become proficient in solving spatial aptitude questions.
+*   **Composition of Transformations**: Each operation can be represented as a matrix. When composing transformations, multiply the matrices.
+*   **Determine the Net Effect**: Analyze the sequence to determine the net effect on the shape.
 
-**Note:** This theory note is focused on transformations, which is relevant for the given GATE CS exam question (ID: ec_2022_5). Make sure to practice problems from other sources to reinforce your understanding.
+**Examples with Solutions**
+---------------------------
+
+### Example 1: Rotation by 180°
+
+Suppose we have a square ABCD and want to rotate it by 180° around point O.
+
+| Point | Original Position | Rotated Position |
+| --- | --- | --- |
+| A    | (x, y)           | (-x, -y)        |
+| B    | (x', y')         | (-x', -y')      |
+
+### Example 2: Rotation by 90° Clockwise
+
+Suppose we have a square ABCD and want to rotate it by 90° clockwise around point O.
+
+| Point | Original Position | Rotated Position |
+| --- | --- | --- |
+| A    | (x, y)           | (-y, x)         |
+| B    | (x', y')         | (-y', x')       |
+
+### Example 3: Sequence of Operations
+
+Suppose we have a square ABCD and want to apply the following sequence of operations:
+
+1.  Rotate by 180° around point O.
+2.  Rotate by 90° clockwise around point P.
+
+Using the rotation matrix, we can represent each operation as a matrix:
+
+$$
+\begin{bmatrix}
+cos(\theta) & -sin(\theta) \\
+sin(\theta) & cos(\theta)
+\end{bmatrix}
+$$
+
+where $\theta$ is the angle of rotation.
+
+**Common Pitfalls**
+-------------------
+
+*   **Inconsistent Axis**: Ensure that all rotations are around the same axis.
+*   **Incorrect Composition**: Be careful when composing transformations, as the order matters.
+
+**Quick Summary**
+-----------------
+
+*   Rotation: a transformation that turns a figure around a fixed point called the axis of rotation.
+*   180° Rotation: equivalent to reflecting a figure across its axis.
+*   90° Clockwise/Counterclockwise Rotation: equivalent to rotating a figure by a quarter turn clockwise or counterclockwise around its axis.
+*   Composition of Transformations: multiply matrices when composing transformations.
+*   Determine the Net Effect: analyze the sequence to determine the net effect on the shape.

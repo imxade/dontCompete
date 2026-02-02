@@ -1,136 +1,90 @@
 **Array Theory Note**
 =======================
 
-**Introduction**
+### Introduction
 ---------------
 
-An array is a fundamental data structure in computer science that represents a collection of elements of the same data type stored in contiguous memory locations. In this note, we will cover the theoretical concepts and formulas required to solve problems related to arrays.
+Arrays are a fundamental data structure in programming, allowing for efficient storage and manipulation of collections of elements. This note covers key concepts, formulas, and problem-solving patterns related to arrays, ensuring you're well-prepared for GATE CS exam questions.
 
-**Core Concepts**
-----------------
+### Core Concepts
+-----------------
 
-### Array Representation
+*   **Array Definition**: An array is a collection of elements of the same data type stored in contiguous memory locations.
+*   **Array Indexing**: Arrays use 0-based indexing, meaning the first element is at index 0 and the last element at `n-1` (where `n` is the size of the array).
+*   **Memory Layout**: Elements are stored in adjacent memory locations.
 
-An array can be represented as:
-
-*   A one-dimensional array: `a[i]` where `i` is an index
-*   A multi-dimensional array: `a[i][j]` where `i` and `j` are indices
-
-### Array Indexing
-
-Array indexing starts from 0, which means the first element of an array is at index 0.
-
-### Array Operations
-
-Common array operations include:
-
-*   Accessing an element: `a[i]`
-*   Modifying an element: `a[i] = x`
-*   Assigning a value to an entire array: `a = [x, y, z]`
-
-**Key Formulas/Theorems**
+### Key Formulas/Theorems
 -------------------------
 
-### Array Subscripts
+None specific to arrays. However, understanding pointer arithmetic is crucial:
 
-For a multi-dimensional array `a` of size `m x n`, the subscripts are given by:
+$$
+p[i] = p + i \cdot sizeof(element)
+$$
 
-```latex
-i \in {0, 1, ..., m-1}
-j \in {0, 1, ..., n-1}
+$$
+*(p + i) = (p)[i]
+$$
+
+### Problem Solving Patterns
+-----------------------------
+
+1.  **Pointer Arithmetic**: Understand how pointers move in memory and how to perform operations like incrementing, decrementing, and calculating offsets.
+2.  **Array Indexing**: Recognize that arrays use 0-based indexing and know how to calculate indices for given elements or vice versa.
+
+### Examples with Solutions
+---------------------------
+
+**Q1: Output of C Program**
+-----------------------------
+
+Given code:
+```c
+double a[2] = {20.0, 25.0}, *p, *q;
+
+p = a;
+q = p + 1;
+
+printf (“%d, %d”, (int) (q – p), (int) (*q – *p));
 ```
 
-**Problem Solving Patterns**
----------------------------
+Solution:
 
-### Identifying Array Indices
+*   `q - p` calculates the offset in memory from `a[0]` to `a[1]`, which is `sizeof(double)` or 8 bytes.
+*   `*(q - p)` accesses the element at that memory location, which is `25.0`.
+*   The correct output should be `(int) q – (int) *p = 8`.
 
-In a multi-dimensional array, each dimension has its own index. To access an element at position `(i, j)`, you need to use both indices.
+**Q5: Finding an Element in a Multidimensional Array**
+------------------------------------------------------
 
-### Handling Array Bounds
-
-When accessing or modifying elements in an array, ensure that the indices are within the bounds of the array.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: ANSI C Programme
-
+Given code:
 ```c
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
-    int a[3][3][3] = {{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}},
-                     {{10, 11, 12}, {13, 14, 15}, {16, 17, 18}},
-                     {{19, 20, 21}, {22, 23, 24}, {25, 26, 27}}};
-    int i = 0, j = 0, k = 0;
-
-    for (i = 0; i < 3; i++) {
-        for (k = 0; k < 3; k++)
-            printf("%d ", a[i][j][k]);
-        printf("\n");
-    }
-
-    return 0;
+int main() {
+    int a[4][5];
+    for (i = 0; i < 4; i++)
+        for (j = 0; j < 5; j++)
+            a[i][j] = 10 * i + j;
+    printf("%d", *(a[1] + 9));
 }
 ```
 
 Solution:
 
-```markdown
-1   2    3
-10  11  12
-19  20  21
-```
+*   `a[1]` is the second row, so its first element (`a[1][0]`) would be at address `*(a[1])`.
+*   To access `a[1][4]`, add an offset of `sizeof(int) \* 5` to the base address, which gives `*(a[1] + 9)`.
 
-### Example 2: Longest Subarray with Two Distinct Integers
+### Common Pitfalls
+--------------------
 
-Suppose we have an array `X` of size `n` containing positive integers. We want to find the length of the longest subarray that contains at most two distinct integers.
+*   Failing to account for array indexing (0-based).
+*   Not understanding pointer arithmetic.
+*   Misusing multidimensional arrays and pointer expressions.
 
-```c
-int maxlen = 0;
-int first = 0, second = 0;
+### Quick Summary
+------------------
 
-for (int i = 0; i < n; i++) {
-    if (X[i] == first) {
-        len2++;
-        len1++;
-    } else if (X[i] == second) {
-        len2++;
-        len1 = (P); // missing expression
-        second = first;
-    } else {
-        len2 = (Q); // missing expression
-        len1 = 1; second = first;
-    }
-
-    if (len2 > maxlen)
-        maxlen = len2;
-}
-```
-
-Solution:
-
-*   `(P)` should be `len1 - 1`
-*   `(Q)` should be `0`
-
-**Common Pitfalls**
------------------
-
-### Array Indexing Errors
-
-Ensure that indices are within the bounds of the array to avoid segmentation faults or undefined behavior.
-
-### Incorrect Array Operations
-
-Be mindful of the order of operations when accessing or modifying elements in an array.
-
-**Quick Summary**
------------------
-
-*   Arrays are represented as contiguous memory locations.
-*   Multi-dimensional arrays use subscripts for indexing.
-*   Be aware of array bounds and correct index usage.
-*   Solve problems using correct array operations.
-
-Note: This note is designed to be a starting point for your studies. Practice problems and additional examples are recommended to reinforce the concepts presented here.
+*   Arrays store elements of the same data type in contiguous memory locations.
+*   0-based indexing is used, so the first element is at index 0.
+*   Pointer arithmetic allows moving through an array's memory layout efficiently.

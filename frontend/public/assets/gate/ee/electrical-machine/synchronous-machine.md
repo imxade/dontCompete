@@ -1,105 +1,141 @@
 # Synchronous Machine
-======================
+====================
 
-### Introduction
+## Introduction
+---------------
 
-A synchronous machine is an electrical machine that operates at a constant speed and frequency, producing a synchronized output. It consists of two main parts: the stator (stationary part) and the rotor (rotating part). The rotor is connected to a prime mover such as a turbine or engine, which drives the rotation.
+A synchronous machine, also known as an alternator, is a type of electrical machine that generates electrical power. It operates at a constant speed and has rotating magnetic fields, which interact with stationary or rotating conductors to produce electricity.
 
-### Core Concepts
+## Core Concepts
+-----------------
 
-#### Principles of Operation
+### Synchronous Machine Basics
 
-A synchronous machine operates on the principle of electromagnetic induction between the stator windings and the rotor. The rotating magnetic field produced by the stator induces a current in the rotor, causing it to rotate at the same speed as the stator.
+*   A synchronous machine consists of two main parts: the stator (stationary part) and the rotor (rotating part).
+*   The stator is made up of windings that carry an alternating current, which produces a rotating magnetic field.
+*   The rotor is either permanent magnets or electromagnets that rotate with the magnetic field.
 
-#### Key Features
+### Sequence Voltages
 
-*   **Constant Speed**: Synchronous machines operate at a constant speed, which is determined by the frequency of the output.
-*   **No Slip**: Unlike induction motors, synchronous machines do not experience slip (the difference between the rotor and stator speeds).
-*   **High Power Rating**: Synchronous machines are designed for high-power applications and can be used as generators or motors.
+Sequence voltages are used to analyze three-phase systems. They can be obtained using the following equations:
 
-### Key Formulas/Theorems
+$$
+\begin{bmatrix}
+V_a \\ V_b \\ V_c
+\end{bmatrix} =
+\frac{1}{3}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & a & a^2 \\
+1 & a^2 & a
+\end{bmatrix}
+\begin{bmatrix}
+V_{abc}
+\end{bmatrix}
+$$
 
-#### Per-Unit System
+where $a = e^{j120^\circ}$ and $\angle V_a = \frac{\pi}{3} - \angle V_b$.
 
-The per-unit system is a method of normalizing quantities such as voltage, current, and impedance to a common base. It is commonly used in power systems to simplify calculations and comparisons.
+### Matrix S for Two-Phase Network
 
-$$E_{pu} = \frac{E}{V_{base}}$$
-$$X_{s,pu} = \frac{X_s}{X_{base}}$$
+For a two-phase network, the phase voltages can be expressed in terms of sequence voltages using the following matrix:
 
-#### Synchronous Reactance
+$$
+\begin{bmatrix}
+V_p \\ V_q
+\end{bmatrix} =
+S
+\begin{bmatrix}
+V_{12} \\ V_{23}
+\end{bmatrix}
+$$
 
-Synchronous reactance is a measure of the opposition to current flow in a synchronous machine. It is represented by the symbol $X_s$.
+where $S$ is a 2x2 matrix.
 
-$$X_s = \frac{E}{I}$$
+## Key Formulas/Theorems
+---------------------------
 
-### Problem Solving Patterns
+### Matrix S for Two-Phase Network
 
-#### Analyzing Short Circuit Faults
+The possible options for matrix S are:
 
-When analyzing short circuit faults in synchronous machines, it's essential to consider the subtransient and transient reactances.
+*   (A) $\begin{bmatrix} 1 & 0 \\ -1 & 1 \end{bmatrix}$, 
+    *   (D) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
 
-*   **Subtransient Reactance**: The subtransient reactance is the opposition to current flow immediately after a fault occurs. It is represented by the symbol $X''_{d}$.
-*   **Transient Reactance**: The transient reactance is the opposition to current flow after the initial response has subsided. It is represented by the symbol $X'_{d}$.
+## Problem Solving Patterns
+---------------------------
 
-#### Sequence Voltages
+### Matrix S for Two-Phase Network
 
-Sequence voltages are used to analyze the behavior of three-phase systems. They can be represented as:
+To determine the correct option for matrix S, we need to analyze the transformation of sequence voltages to phase voltages.
 
-$$\begin{bmatrix} V_{a}\\ V_{b}\\ V_{c}\end{bmatrix} = \begin{bmatrix} 1 & 1 & 1\\ 1 & a & a^2\\ 1 & a^2 & a\end{bmatrix} \begin{bmatrix} V_0\\ V_1\\ V_2\end{bmatrix}$$
+```mermaid
+graph LR
+A[Sequence Voltages] --> B[Transformation]
+B --> C[Matrix S]
+C --> D[Two-Phase Network]
+```
 
-where $a = e^{j120^\circ}$.
+## Examples with Solutions
+---------------------------
 
-### Examples with Solutions
+### Matrix S for Two-Phase Network
 
-#### Example 1: Short Circuit Fault Analysis
+Suppose we want to express the phase voltages in terms of sequence voltages using matrix S.
 
-A synchronous generator has a steady-state synchronous reactance of 0.7 pu and subtransient reactance of 0.2 pu. It is operating at (1+0) pu terminal voltage with an internal emf of (1-0.7) pu. Following a 3-phase solid short circuit fault at the terminal of the generator, the magnitude of the subtransient internal emf (rounded off to 2 decimal places) is _______pu.
+Let $\begin{bmatrix} V_{12} \\ V_{23} \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$.
 
-Solution:
+Using option (A), we have:
 
-The subtransient reactance is given by $X''_{d} = \frac{V}{I}$.
+$$
+\begin{bmatrix}
+V_p \\ V_q
+\end{bmatrix} =
+\begin{bmatrix}
+1 & 0 \\
+-1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 \\ -1
+\end{bmatrix}
+$$
 
-$$\begin{aligned}
-E_{s,pu} &= E_{0,pu} + I X_{d,pu}\\
-&= (1-0.7) + I(0.2)\\
-&= 0.3 + 0.2I
-\end{aligned}$$
+Using option (D), we have:
 
-The subtransient internal emf is given by:
+$$
+\begin{bmatrix}
+V_p \\ V_q
+\end{bmatrix} =
+\begin{bmatrix}
+1 & 1 \\
+1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 \\ 1
+\end{bmatrix}
+$$
 
-$$E_{s,pu} = \frac{(V_{t,pu})^2}{X''_{d}}$$
+Both options (A) and (D) satisfy the transformation.
 
-Substituting the values, we get:
+## Common Pitfalls
+------------------
 
-$$E_{s,pu} = \frac{(1+0)^2}{0.2} = 5 pu$$
+*   Students often forget to consider the phase sequence when analyzing synchronous machines.
+*   They may also confuse the stator and rotor windings.
 
-Therefore, the magnitude of the subtransient internal emf is ___________pu.
+## Quick Summary
+---------------
 
-#### Example 2: Sequence Voltages Analysis
-
-A three-phase network has phase voltages $p V$ and $q V$. Express these in terms of sequence voltages $\begin{bmatrix} V_{0}\\ V_{1}\\ V_{2}\end{bmatrix}$.
-
-Solution:
-
-The sequence voltages can be represented as:
-
-$$\begin{aligned}
-V_0 &= \frac{1}{3}(V_a + V_b + V_c)\\
-V_1 &= \frac{1}{3}(V_a + aV_b + a^2V_c)\\
-V_2 &= \frac{1}{3}(V_a + a^2V_b + aV_c)
-\end{aligned}$$
-
-where $a = e^{j120^\circ}$.
-
-### Common Pitfalls
-
-*   **Misunderstanding of Per-Unit System**: The per-unit system is a powerful tool for normalizing quantities. However, it requires careful attention to ensure that the base values are correctly chosen.
-*   **Incorrect Analysis of Short Circuit Faults**: Synchronous machines exhibit complex behavior during short circuit faults. It's essential to consider both subtransient and transient reactances.
-
-### Quick Summary
-
-*   **Synchronous Machines Operate at Constant Speed**.
-*   **No Slip in Synchronous Machines**.
-*   **High Power Rating in Synchronous Machines**.
-*   **Per-Unit System Used for Normalizing Quantities**.
-*   **Subtransient and Transient Reactances Important in Short Circuit Fault Analysis**.
+*   Synchronous machine basics:
+    *   Stator: stationary part with windings
+    *   Rotor: rotating part (permanent magnets or electromagnets)
+*   Sequence voltages: used to analyze three-phase systems
+*   Matrix S for two-phase network: used to express phase voltages in terms of sequence voltages

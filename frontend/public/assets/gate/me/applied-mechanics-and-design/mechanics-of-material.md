@@ -1,184 +1,170 @@
 **Mechanics of Materials**
-==========================
+=========================
 
 **Introduction**
 ---------------
 
-The Mechanics of Materials is a crucial subject that deals with the behavior and properties of solid materials under various types of loads, such as tension, compression, torsion, bending, and shear. This note aims to provide a comprehensive understanding of the fundamental principles, concepts, and formulas required to solve problems in this area.
+Mechanics of materials is a branch of applied mechanics that deals with the behavior of solid bodies under various types of loads and forces. It is an essential topic for engineers to design structures, machines, and other mechanical systems.
 
 **Core Concepts**
-----------------
+-----------------
 
 ### Stress and Strain
 
-* **Stress**: The internal force per unit area on an object.
-	+ Tensile stress: $σ = F/A$
-	+ Compressive stress: $σ = -F/A$
-	+ Shear stress: $τ = F/A$
-* **Strain**: The measure of deformation caused by a force or load.
-	+ Linear strain: $\epsilon = \Delta L/L$
-	+ Angular strain (shear): $\gamma = \tan(\theta)$
+*   **Stress**: A measure of the internal force exerted on a material per unit area.
+    $$\sigma = \frac{F}{A}$$
+*   **Strain**: The ratio of deformation to original length, representing the amount of stretching or compressing of a material.
+    $$\varepsilon = \frac{\Delta L}{L_0}$$
 
-### Deformation and Displacement
+### Types of Stress and Strain
 
-* **Elastic Deformation**: A material returns to its original shape after the removal of the load.
-* **Plastic Deformation**: A material does not return to its original shape after the removal of the load.
-* **Displacement**: The movement or change in position of an object.
+*   **Normal stress** (tensile or compressive):
+    $$
+    \sigma_{xx} = \frac{F_x}{A}
+    $$
+*   **Shear stress**: Force applied parallel to a face.
+    $$\tau = \frac{F_s}{A_s}$$
+*   **Torsional stress** (twisting force).
+    $$\tau_{xy} = \frac{T}{J} \cdot r$$
 
-### Tensile and Compressive Stress
+### Modulus of Elasticity and Poisson's Ratio
 
-* **Tensile Strength**: The maximum stress a material can withstand without failing under tensile loads.
-	+ $σ = F/A$
-* **Compressive Strength**: The maximum stress a material can withstand without failing under compressive loads.
-	+ $σ = -F/A$
+*   **Modulus of elasticity**: Measures the stiffness or rigidity of a material.
+    $$E = \frac{\sigma}{\varepsilon}$$
+*   **Poisson's ratio**: Represents lateral contraction when a bar is stretched.
+    $$\nu = -\frac{\varepsilon_y}{\varepsilon_x}$$
 
-### Shear Stress and Strain
+### Hydrostatic Pressure and Bulk Modulus
 
-* **Shear Stress**: The internal force per unit area that causes a material to deform by sliding along a plane parallel to the direction of the force.
-	+ $τ = F/A$
-* **Shear Strain**: The measure of deformation caused by shear stress.
-	+ $\gamma = \tan(\theta)$
-
-### Bending Stress and Strain
-
-* **Bending Moment**: A moment that causes a material to deform by bending.
-	+ $M = Fd$
-* **Bending Stress**: The internal force per unit area on an object under bending loads.
-	+ $\sigma = M/I$
-* **Bending Strain**: The measure of deformation caused by bending stress.
-	+ $\epsilon = \Delta L/L$
-
-### Torsion and Shear Stress
-
-* **Torsional Moment**: A moment that causes a material to deform by twisting.
-	+ $T = Fd$
-* **Torsional Stress**: The internal force per unit area on an object under torsional loads.
-	+ $\tau = T/J$
-* **Torsional Strain**: The measure of deformation caused by torsional stress.
-	+ $\gamma = \tan(\theta)$
+*   **Hydrostatic pressure** (uniform pressure acting in all directions).
+    $$
+    p = \frac{F}{A}
+    $$
+*   **Bulk modulus**: Measures the resistance of a material to change its volume.
+    $$K = -\frac{\Delta V}{V_0} \cdot \frac{p}{\varepsilon}$$
 
 **Key Formulas/Theorems**
 -------------------------
 
-### Beam Bending
+### Formulae for Stress and Strain
 
-* **Maximal Stress Formula**:
-\[ σ_{max} = \frac{M}{I} y = \frac{6F}{\pi d^3} y \]
-* **Stress Distribution**:
-\[ \sigma_y = -\frac{Fy}{I} \]
+*   **Tensile stress**:
+    $$
+    \sigma = \frac{F}{A}
+    $$
+*   **Compressive stress**:
+    $$
+    \sigma = -\frac{F}{A}
+    $$
+*   **Shear strain**:
+    $$
+    \varepsilon = \frac{\gamma}{2}
+    $$
 
-### Torsion
+### Formulae for Modulus of Elasticity and Poisson's Ratio
 
-* **Torsional Stress Formula**:
-\[ τ = \frac{T}{J} r = \frac{32T}{πd^4} r \]
-* **Shear Strain Formula**:
-\[ γ = \tan(θ) = \frac{TL}{GJ} \]
+*   **Modulus of elasticity**: $E = \frac{\sigma}{\varepsilon}$
+*   **Poisson's ratio**: $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
 
-### Rivets and Fasteners
+### Formulae for Hydrostatic Pressure and Bulk Modulus
 
-* **Shear Stress Formula for Rivet Material**:
-\[ τ_{max} = \frac{P}{2A_r} = \frac{F}{A_r} \]
-* **Hole Diameter Formula for Riveted Joint**:
-\[ d_h = 2a + e \]
+*   **Hydrostatic pressure**:
+    $$
+    p = \frac{F}{A}
+    $$
+*   **Bulk modulus**: $K = -\frac{\Delta V}{V_0} \cdot \frac{p}{\varepsilon}$
 
-### Cylindrical Pressure Vessel
+**Problem Solving Patterns**
+---------------------------
 
-* **Pressure-Volume Relation**:
-\[ PV = nRT \]
-* **Stress-Strain Relation (Lamé's Equation)**:
-\[ \frac{dR}{R} = -\frac{1}{E} dP + \frac{ν}{E} dθ \]
+### Pattern 1: Calculating Stress and Strain
 
-### Problem Solving Patterns
------------------------------
+Given force (F) and area (A), calculate the stress ($\sigma$).
 
-### Cylindrical Vessel with Liquid
+Example:
 
-* Calculate the pressure exerted by the liquid on the vessel walls.
-* Use **Lamé's Equation** to find the circumferential and axial stresses.
+*   Given F = 100 N, A = 10 mm^2, calculate $\sigma$.
+    $$
+    \sigma = \frac{F}{A} = \frac{100}{10} = 10 \text{ MPa}
+    $$
 
-### Riveted Joint
+### Pattern 2: Calculating Modulus of Elasticity and Poisson's Ratio
 
-* Determine the maximum shear stress in the rivet material.
-* Apply the **Tresca Yield Criterion** to check for yielding.
+Given Young's modulus (E) and Poisson's ratio ($\nu$), calculate the stress ($\sigma$).
 
-### Torsion of a Solid Shaft
+Example:
 
-* Calculate the torque required to twist the shaft.
-* Use **St. Venant's Principle** to find the distribution of shear stresses along the shaft axis.
+*   Given E = 200 GPa, $\nu$ = 0.3, calculate $\sigma$.
+    $$
+    \varepsilon = \frac{\sigma}{E} \\
+    \sigma = E \cdot \varepsilon
+    $$
 
-### Beam Bending
+### Pattern 3: Calculating Hydrostatic Pressure and Bulk Modulus
 
-* Find the maximum bending moment on the beam.
-* Apply **Bishop's Formula** to determine the maximum stress in the beam.
+Given pressure (p) and volume (V), calculate the bulk modulus (K).
 
-### Torsion and Buckling of a Column
+Example:
 
-* Calculate the torque required to twist the column.
-* Use **Euler's Column Theory** to find the critical buckling load.
+*   Given p = 10 MPa, V = 100 mm^3, calculate K.
+    $$
+    \Delta V = -\frac{V_0}{K} \cdot p \\
+    K = -\frac{V_0}{\Delta V} \cdot p
+    $$
 
 **Examples with Solutions**
 ---------------------------
 
-### Example 1: Cylindrical Vessel with Liquid
+### Example 1: Calculating Stress and Strain
 
-A cylindrical vessel has an inner radius $r$ and wall thickness $t$. It contains a liquid of constant density $\rho$ up to height $h$ from the base. Neglect atmospheric pressure, the weight of the vessel, and bending stresses in the vessel walls.
-
-(a) Determine the pressure exerted by the liquid on the vessel walls.
+A force of 500 N is applied to a bar with an area of 20 mm^2. Calculate the stress ($\sigma$) and strain ($\varepsilon$).
 
 Solution:
 
-The pressure is given by:
-\[ P = \frac{W}{A} = \rho gh \]
+*   $\sigma = \frac{F}{A} = \frac{500}{20} = 25 \text{ MPa}$
+*   $\varepsilon = \frac{\Delta L}{L_0} = \frac{\sigma}{E}$
 
-### Example 2: Riveted Joint
+### Example 2: Calculating Modulus of Elasticity and Poisson's Ratio
 
-A bracket is attached to a vertical column using two identical rivets $U$ and $V$. The permissible shear stress of the rivet material is $\tau_{max}$.
-
-Determine the minimum cross-sectional area of each rivet to avoid failure under a load $P$ applied at an eccentricity $e$.
+Given E = 200 GPa, $\nu$ = 0.3, calculate the stress ($\sigma$).
 
 Solution:
 
-Apply the **Tresca Yield Criterion**:
-\[ \frac{P}{2A_r} = \tau_{max} \]
-Solve for the area:
-\[ A_r = \frac{P}{2\tau_{max}} \]
+*   $\varepsilon = \frac{\sigma}{E} \\
+    \sigma = E \cdot \varepsilon$
 
-### Example 3: Torsion of a Solid Shaft
+### Example 3: Calculating Hydrostatic Pressure and Bulk Modulus
 
-A solid shaft of diameter $d$ is subjected to a torque $T$. Determine the shear stress distribution along the shaft axis.
+A pressure of 10 MPa is applied to a bar with an area of 50 mm^2. Calculate the bulk modulus (K).
 
 Solution:
 
-Apply **St. Venant's Principle**:
-\[ τ = \frac{T}{J} r = \frac{32T}{\pi d^4} r \]
-
-### Example 4: Beam Bending
-
-A beam of length $L$ is subjected to a bending moment $M$. Determine the maximum stress in the beam.
-
-Solution:
-
-Apply **Bishop's Formula**:
-\[ σ_{max} = \frac{6MF}{\pi d^3} y \]
+*   $$
+    \Delta V = -\frac{V_0}{K} \cdot p \\
+    K = -\frac{V_0}{\Delta V} \cdot p
+    $$
 
 **Common Pitfalls**
--------------------
+------------------
 
-* Neglecting atmospheric pressure or the weight of the vessel in problems involving cylindrical vessels.
-* Assuming the material is isotropic when applying **Lamé's Equation**.
-* Using incorrect formulas for calculating stresses and strains.
-* Failing to check for yielding using the **Tresca Yield Criterion**.
+### Misunderstanding Units and Conversions
+
+Make sure to use the correct units for stress, strain, modulus of elasticity, Poisson's ratio, hydrostatic pressure, and bulk modulus.
+
+### Not Applying the Correct Formula or Theorem
+
+Double-check that you are applying the correct formula or theorem to solve a problem.
 
 **Quick Summary**
 -----------------
 
-| Topic | Key Concepts | Formulas/Theorems |
-| --- | --- | --- |
-| Stress and Strain | Tensile, compressive, shear stress; linear strain | $σ = F/A$, $\epsilon = \Delta L/L$ |
-| Deformation and Displacement | Elastic deformation; plastic deformation |  |
-| Torsion and Shear Stress | Torsional moment; torsional stress | $τ = T/J r$, $γ = \tan(θ)$ |
-| Beam Bending | Maximal stress formula; stress distribution | $σ_{max} = \frac{M}{I} y$ |
-| Rivets and Fasteners | Shear stress in rivet material; hole diameter | $τ_{max} = \frac{P}{2A_r}$, $d_h = 2a + e$ |
-| Cylindrical Pressure Vessel | Lamé's Equation; pressure-volume relation | $\frac{dR}{R} = -\frac{1}{E} dP + \frac{\nu}{E} dθ$, $PV = nRT$ |
-
-Note: This is a comprehensive theory note covering all the concepts and formulas required to solve problems in Mechanics of Materials. It's essential to practice solving problems using this material to reinforce your understanding and prepare for the exam.
+*   Stress: $$
+\sigma = \frac{F}{A}
+$$
+*   Strain: $$
+\varepsilon = \frac{\Delta L}{L_0}
+$$
+*   Modulus of elasticity: $E = \frac{\sigma}{\varepsilon}$
+*   Poisson's ratio: $\nu = -\frac{\varepsilon_y}{\varepsilon_x}$
+*   Hydrostatic pressure: $p = \frac{F}{A}$
+*   Bulk modulus: $K = -\frac{\Delta V}{V_0} \cdot \frac{p}{\varepsilon}$

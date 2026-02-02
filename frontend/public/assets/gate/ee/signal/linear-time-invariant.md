@@ -1,83 +1,67 @@
-**Linear Time-Invariant Systems**
+**Linear Time-Invariant (LTI) Systems**
 =====================================
 
-**Introduction**
----------------
+### Introduction
 
-A Linear Time-Invariant (LTI) system is a fundamental concept in Signal Processing and Systems. It's crucial to understand LTI systems as they form the basis for many real-world applications, such as filters, amplifiers, and controllers.
+A linear time-invariant (LTI) system is a fundamental concept in signal processing and control systems. It represents a broad class of systems that are characterized by their ability to process signals while preserving the linearity and time-invariance properties.
 
-**Core Concepts**
------------------
+### Core Concepts
 
-### Linearity
+#### Linearity
 
-A system is said to be linear if it satisfies two properties:
+*   **Homogeneity**: A system satisfies the homogeneity property if, for any input $x(t)$, scaling it by a constant $\alpha$ results in an output scaled by the same constant: $y(t) = \alpha x(t)$.
+*   **Additivity**: A system satisfies the additivity property if, for any two inputs $x_1(t)$ and $x_2(t)$, the corresponding outputs are the sum of the individual outputs: $y(t) = x_1(t) + x_2(t)$.
 
-*   **Homogeneity**: If a signal $x(t)$ produces an output $y(t)$, then any scaled version of the input $\alpha x(t)$ will produce an output $|\alpha| y(t)$.
-*   **Superposition**: The response to the sum of inputs is the sum of their individual responses. Mathematically, if $x_1(t)$ and $x_2(t)$ produce outputs $y_1(t)$ and $y_2(t)$ respectively, then the output to the input $(x_1(t) + x_2(t))$ will be $(y_1(t) + y_2(t))$.
+#### Time-Invariance
 
-### Time-Invariance
+*   **Shift Invariance**: A system is time-invariant if a time shift in the input signal results in an identical time shift in the output signal. Mathematically, this can be expressed as: $y(t - \tau) = y'(t)$, where $\tau$ is the time shift.
 
-A system is said to be time-invariant if a time shift in the input signal results in an identical time shift in the output signal. Mathematically, if $x(t)$ produces an output $y(t)$, then shifting the input by some amount $\tau$ will result in an output shifted by the same amount: $x(t-\tau) \rightarrow y(t-\tau)$.
+### Key Formulas/Theorems
 
-**Key Formulas/Theorems**
--------------------------
+*   **Convolution Theorem**: The response of an LTI system to a periodic input can be expressed as the product of the Fourier transform of the input and the transfer function of the system: $Y(f) = H(f)X(f)$.
+*   **Superposition Principle**: For any two inputs, the corresponding outputs are the sum of the individual outputs.
 
-*   **Convolution Integral**: The response of an LTI system to a signal $x(t)$ is given by:
-    $$y(t) = \int_{-\infty}^{\infty} h(\tau) x(t - \tau) d\tau$$
-    where $h(t)$ is the impulse response of the system.
-*   **Fourier Transform**: The Fourier Transform of a signal $x(t)$ is given by:
-    $$X(f) = \int_{-\infty}^{\infty} x(t) e^{-j2\pi ft} dt$$
+### Problem Solving Patterns
 
-**Problem Solving Patterns**
----------------------------
+1.  **Check Linearity**: Verify that the system satisfies both homogeneity and additivity properties.
+2.  **Verify Time-Invariance**: Check if a time shift in the input signal results in an identical time shift in the output signal.
+3.  **Apply Convolution Theorem**: Use the convolution theorem to find the response of an LTI system to a periodic input.
 
-*   **Check for Linearity and Time-Invariance**: Always check if the system satisfies the properties of linearity and time-invariance.
-*   **Use Convolution Integral**: Use the convolution integral to find the response of an LTI system.
+### Examples with Solutions
 
-**Examples with Solutions**
--------------------------
+**Example 1**
 
-### Example 1: Check for Linearity
+Find the output of an LTI system with transfer function $H(s) = \frac{1}{s + 1}$ for an input signal $x(t) = e^{-2t}u(t)$.
 
-Given:
+**Solution**
 
-$$y(t) = \max[0, x(t)]$$
+Using the convolution theorem, we have:
 
-To check if the system is linear, we need to verify that it satisfies the properties of homogeneity and superposition.
+$$Y(s) = H(s)X(s) = \frac{1}{s + 1} \cdot \frac{1}{s + 2} = \frac{1}{(s + 1)(s + 2)}$$
 
-*   **Homogeneity**: Let's check if $\alpha y(t)$ equals $|\alpha| y(t)$.
-    $$\alpha y(t) = \max[0, \alpha x(t)] = |\alpha| \max[0, x(t)]$$
-    Hence, the system is homogeneous.
+To find the output in the time domain, we can use partial fraction expansion:
 
-*   **Superposition**: Now let's check if the response to $(x_1(t) + x_2(t))$ equals $y_1(t) + y_2(t)$.
-    $$\max[0, (x_1(t) + x_2(t))] \neq \max[0, x_1(t)] + \max[0, x_2(t)]$$
-    Hence, the system is not superposition.
+$$\frac{1}{(s + 1)(s + 2)} = \frac{A}{s + 1} + \frac{B}{s + 2}$$
 
-**Conclusion**
---------------
+Solving for A and B, we get:
 
-In conclusion, we have covered the fundamental concepts of LTI systems. It's essential to remember that a system must satisfy both linearity and time-invariance properties to be considered LTI.
+$$A = -1, B = 1$$
 
-**Common Pitfalls**
------------------
+So,
 
-*   **Mistaking Time-Variance for Linearity**: A time-varying system may appear to be linear, but it is not.
-*   **Not Checking Superposition Property**: Always verify the superposition property to ensure linearity.
+$$Y(s) = -\frac{1}{s + 1} + \frac{1}{s + 2}$$
 
-**Quick Summary**
-------------------
+Taking the inverse Laplace transform, we get:
 
-### Key Points
+$$y(t) = e^{-t}u(t) - e^{-2t}u(t)$$
 
-*   Linear and time-invariant
-*   Convolution integral
-*   Fourier transform
-*   Linearity and time-invariance properties
+### Common Pitfalls
 
-### Quick Tips
+*   **Missing Linearity Property**: Failing to verify homogeneity and additivity properties.
+*   **Incorrect Time-Invariance Assumption**: Assuming a time-invariant system when it is not.
 
-*   Check for linearity and time-invariance first.
-*   Use the convolution integral to find the response of an LTI system.
+### Quick Summary
 
-This comprehensive theory note provides a solid foundation for understanding Linear Time-Invariant systems, covering key concepts, formulas, problem-solving patterns, examples, common pitfalls, and quick summaries.
+*   LTI systems are characterized by linearity and time-invariance properties.
+*   Convolution theorem can be used to find the response of an LTI system to a periodic input.
+*   Verify homogeneity, additivity, and time-invariance properties before applying formulas.

@@ -1,95 +1,127 @@
 **Steady State Error**
-=====================
+======================
 
 ### Introduction
-The steady-state error (SSE) of a control system is a measure of its ability to track a desired input signal. It represents the difference between the actual and desired outputs as time approaches infinity.
+-----------------
+
+Steady state error is a crucial concept in control systems, measuring the difference between the desired output and actual output when the system has reached its steady state. It's an essential metric for evaluating the performance of a closed-loop control system.
 
 ### Core Concepts
+------------------
 
-#### Steady-State Error Definition
-The SSE for a unit step input can be calculated using the final-value theorem:
+A closed-loop control system consists of:
 
-$$ \lim_{s \to 0} sY(s) = \lim_{s \to 0} G(s)R(s) $$
+*   **Plant (P)**: The physical system being controlled.
+*   **Controller (C)**: The component that regulates the plant.
+*   **Sensor**: Measures the output of the plant.
+*   **Actuator**: Implements the control action.
 
-where $G(s)$ is the transfer function of the system, and $R(s)$ is the Laplace transform of the input signal.
+The block diagram of a closed-loop control system is represented as:
 
-#### Steady-State Error for Ramp Input
-For a unit ramp input, the SSE can be calculated using:
-
-$$ E_{ss} = \lim_{s \to 0} sY(s) = K_p $$
-
-where $K_p$ is the position error constant.
+```mermaid
+graph LR
+A[Reference Input] --> B[Controller]
+B --> C[Plant]
+C --> D[Sensor]
+D --> E[Actuator]
+E --> F[Output]
+```
 
 ### Key Formulas/Theorems
+---------------------------
 
-LaTeX
-```latex
-\begin{align*}
-E_{ss} &= \frac{1 + G(0)}{G'(0)}
-&\text{for unit step input}\\
-E_{ss} &= K_p
-&\text{for unit ramp input}
-\end{align*}
-```
+The steady state error (e) for a unit ramp input can be calculated using the following formula:
+
+$$ e = \lim_{s \to 0} sG(s)C(s) $$
+
+where $G(s)$ is the transfer function of the plant, and $C(s)$ is the transfer function of the controller.
+
+For a type 1 system (i.e., one with a pole at the origin), the steady state error for a unit ramp input can be calculated as:
+
+$$ e = \frac{1}{K} $$
+
+where $K$ is the gain of the controller.
 
 ### Problem Solving Patterns
+-----------------------------
 
-*   Analyze the transfer function and determine its type (e.g., first-order, second-order).
-*   Identify the input signal (unit step or unit ramp) to apply the correct SSE formula.
-*   Calculate $G(0)$ and $G'(0)$ for the transfer function.
+When solving problems related to steady state error, follow these steps:
+
+1.  **Determine the type** of system (0, 1, or 2) based on its transfer function.
+2.  **Calculate the gain** of the controller ($K$).
+3.  **Apply the relevant formula** for calculating the steady state error.
 
 ### Examples with Solutions
+---------------------------
 
-**Example 1: Unit Step Input**
+#### Example 1:
 
-Consider a system with transfer function:
+Consider a closed-loop control system with a plant having the following transfer function:
 
-$$ G(s) = \frac{3}{s+2} $$
+$$ G(s) = \frac{1}{s^2 + s + 1} $$
 
-If the input is a unit step, calculate the SSE:
+The controller has a transfer function of:
 
-```mermaid
-graph LR
-A[Input] --> B[Transfer Function]
-B[G(s)] --> C[Final-Value Theorem]
-C[E_ss] --> D[Answer]
-```
+$$ C(s) = K(s + 1) $$
 
-Solving for $E_{ss}$ using the final-value theorem:
+If the steady state error for a unit ramp input is 0.1, find the value of $K$.
 
-$$ \lim_{s \to 0} sY(s) = \lim_{s \to 0} G(s)R(s) $$
+**Solution:**
 
-$$ E_{ss} = \frac{1 + G(0)}{G'(0)} = \frac{1}{3/2} = \frac{2}{3} $$
+First, determine the type of system (in this case, it's a type 2 system since there are two poles at the origin).
 
-**Example 2: Unit Ramp Input**
+Next, calculate the gain ($K$) using the formula:
 
-Consider a system with transfer function:
+$$ e = \frac{1}{K} $$
 
-$$ G(s) = \frac{4s+6}{s^2+s+1} $$
+Rearranging for $K$, we get:
 
-If the input is a unit ramp, calculate the SSE:
+$$ K = \frac{1}{e} $$
 
-```mermaid
-graph LR
-A[Input] --> B[Transfer Function]
-B[G(s)] --> C[K_p]
-C[E_ss] --> D[Answer]
-```
+Substituting the given value of steady state error (0.1):
 
-Calculating $K_p$ using the transfer function and SSE formula for unit ramp input:
+$$ K = \frac{1}{0.1} = 10 $$
 
-$$ E_{ss} = K_p = G(0) = \frac{6}{1} = 6 $$
+#### Example 2:
+
+Consider a type 1 system with a plant having the following transfer function:
+
+$$ G(s) = \frac{1}{s^3 + s^2 + 2s + 1} $$
+
+The controller has a transfer function of:
+
+$$ C(s) = K(s + 1)^2 $$
+
+If the steady state error for a unit ramp input is 0.05, find the value of $K$.
+
+**Solution:**
+
+Determine the type of system (in this case, it's a type 1 system since there is one pole at the origin).
+
+Next, calculate the gain ($K$) using the formula:
+
+$$ e = \frac{1}{K} $$
+
+Rearranging for $K$, we get:
+
+$$ K = \frac{1}{e} $$
+
+Substituting the given value of steady state error (0.05):
+
+$$ K = \frac{1}{0.05} = 20 $$
 
 ### Common Pitfalls
+-------------------
 
-*   Misidentifying the type of input signal (unit step or unit ramp).
-*   Failing to apply the correct SSE formula.
-*   Not considering the transfer function's zeros and poles.
+*   Failing to determine the type of system based on its transfer function.
+*   Incorrectly applying formulas for calculating steady state error.
+*   Neglecting the gain ($K$) in calculations.
 
 ### Quick Summary
+-----------------
 
-*   Steady-state error is a measure of a control system's ability to track desired inputs.
-*   For unit step input, use the final-value theorem: $ \lim_{s \to 0} sY(s) = \lim_{s \to 0} G(s)R(s) $.
-*   For unit ramp input, use: $ E_{ss} = K_p $.
+*   Steady state error is a measure of the difference between desired and actual output at steady state.
+*   Type 1, 2, and 0 systems have different formulas for calculating steady state error.
+*   Gain ($K$) plays a crucial role in determining steady state error.
 
-Note: External images are not included in this response. If an external image is required, it would be properly formatted as per the instructions.
+By mastering these concepts and techniques, you'll be well-equipped to tackle GATE questions on steady state error.

@@ -1,87 +1,89 @@
 **Tray Column Design**
-=======================
+========================
 
 ### Introduction
 -----------------
 
-A tray column is a type of distillation column used for separating mixtures based on differences in boiling points. The design involves optimizing the tray arrangement and downcomer size to achieve efficient mass transfer.
+A tray column is a type of distillation column used for separating components based on their boiling points or other properties. It consists of a series of trays, each allowing vapor and liquid to flow through it. The design of the tray column involves optimizing the tray's dimensions, downcomer size, and liquid/vapor distribution to ensure efficient separation.
 
 ### Core Concepts
-------------------
+-----------------
 
-*   **Mass Transfer**: The movement of mass between phases (liquid-gas) through diffusion or convection.
-*   **Tray Arrangement**: Trays are arranged in a series, with each tray consisting of a liquid feed inlet, vapor outlet, and downcomers for liquid flow.
+#### Tray Column Configuration
+
+A typical tray column configuration includes:
+
+*   **Downcomers**: Vertical channels that allow liquid to flow from one tray to the next.
+*   **Flow Distributors**: Devices used to evenly distribute the liquid or vapor across each tray.
+*   **Vapor and Liquid Inlets/Outlets**: The points at which vapor and liquid are introduced or removed from the column.
+
+#### Tray Design Parameters
+
+The design of a tray column involves selecting appropriate values for the following parameters:
+
+*   **Tray Diameter** ($D_T$)
+*   **Downcomer Diameter** ($D_d$)
+*   **Number of Trays**
+*   **Liquid and Vapor Flow Rates**
 
 ### Key Formulas/Theorems
 -------------------------
 
-*   $A_d = \frac{4D_d^2\pi}{4}$ ... (1)
-*   $A_T = 11309.73 \text{ cm}^2$ ... (2)
+#### Downcomer Area
 
-where:
+The area of the downcomer, $A_d$, is given by:
 
-*   $A_d$ is the downcomer area
-*   $D_d$ is the diameter of the downcomer
-*   $A_T$ is the column cross-sectional area
+$$A_d = \frac{\pi D_d^2}{4}$$
+
+where $D_d$ is the diameter of the downcomer.
+
+#### Tray Column Area
+
+The total column area, $A_T$, is equal to the tray area minus the downcomer area:
+
+$$A_T = A - A_d$$
+
+where $A$ is the total tray area and $A_d$ is the downcomer area.
 
 ### Problem Solving Patterns
 ---------------------------
 
-*   When calculating tray efficiency, ensure to account for downcomer areas that restrict vapor flow.
-*   Use the given formulas to determine available areas on each tray.
+1.  **Given values**: Identify the relevant parameters, such as tray diameter, downcomer diameter, liquid flow rate, and vapor flow rate.
+2.  **Calculate downcomer area**: Use the formula for downcomer area to find $A_d$.
+3.  **Calculate tray column area**: Subtract the downcomer area from the total tray area to find $A_T$.
+4.  **Determine percentage column cross-sectional area not available for vapor flow**: Divide the downcomer area by the total tray area and multiply by 100 to get the percentage.
 
 ### Examples with Solutions
--------------------------
+---------------------------
 
-#### Example 1: Calculating Available Tray Area
+**Example:**
 
-Given:
-$D_d = 575 \text{ cm}^2$
+Consider a tray-column of diameter 120 cm, each downcomer has a cross-sectional area of 575cm^2. Determine the percentage column cross-sectional area not available for vapor flow due to the downcomers.
 
-Solve for $A_d$ using equation (1):
-
-```latex
-\begin{aligned}
-A_d & = \frac{4D_d^2\pi}{4} \\
-& = \frac{4(575)^2\pi}{4} \\
-& \approx 11309.73 \text{ cm}^2
-\end{aligned}
-```
-
-Now, calculate the available tray area:
-
-```latex
-\begin{aligned}
-A_d & = A_T - (2 \times A_d) \\
-& = 11309.73 - (2 \times 575) \\
-& \approx 10.16\%
-\end{aligned}
-```
-
-#### Example 2: Finding Downcomer Area
+**Solution:**
 
 Given:
-$D_d = 120 \text{ cm}$
 
-Solve for $A_d$ using equation (1):
+*   $D_T = 120$ cm
+*   $A_d = 575$ cm^2
 
-```latex
-\begin{aligned}
-A_d & = \frac{4D_d^2\pi}{4} \\
-& = \frac{4(120)^2\pi}{4} \\
-& \approx 4523.98 \text{ cm}^2
-\end{aligned}
-```
+Calculate downcomer area:
+
+$$A_d = \frac{\pi D_d^2}{4} = \frac{\pi (1.2)^2}{4} = 11309.73\text{ cm}^2$$
+
+Calculate tray column area:
+
+$$A_T = A - A_d = 11309.73 \times 100 = 10.16\%$$
 
 ### Common Pitfalls
--------------------
+--------------------
 
-*   Failing to account for downcomer areas when calculating tray efficiency.
-*   Incorrectly applying formulas for available area on each tray.
+*   **Incorrect calculation of downcomer area**: Make sure to use the correct formula and values for $D_d$.
+*   **Overlooking tray configuration**: Ensure you understand the specific design parameters and their inter-relationships.
 
 ### Quick Summary
-------------------
+-----------------
 
-*   Tray columns involve optimizing tray arrangement and downcomer size for efficient mass transfer.
-*   Key concepts include mass transfer, tray arrangement, and downcomer design.
-*   Formulas (1) and (2) are essential for calculating available areas on each tray.
+*   Tray column design involves optimizing tray dimensions, downcomer size, and liquid/vapor distribution.
+*   Key formulas include downcomer area calculation and tray column area determination.
+*   Common pitfalls to avoid are incorrect downcomer area calculations and overlooking tray configuration.

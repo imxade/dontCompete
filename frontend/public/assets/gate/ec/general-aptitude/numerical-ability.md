@@ -1,89 +1,88 @@
-**Numerical Ability: General Aptitude**
-=====================================
+**Numerical Ability**
+======================
 
-### Introduction
------------------
+**Introduction**
+---------------
 
-Numerical Ability (NA) questions on the GATE CS exam focus on assessing a candidate's understanding of mathematical concepts, formulas, and problem-solving techniques. These questions often test logical reasoning, pattern recognition, and critical thinking.
+Numerical ability, also known as numerical reasoning or quantitative aptitude, is a crucial aspect of the GATE CS exam. It assesses your ability to solve problems involving numbers and mathematical concepts. In this theory note, we will cover all essential concepts, formulas, and problem-solving patterns required to tackle numerical ability questions.
 
-### Core Concepts
-------------------
+**Core Concepts**
+----------------
 
-#### Grammar and Sentence Structure
-Grammar and sentence structure play a crucial role in NA questions. Understanding the rules of grammar and syntax is essential to solving these types of problems.
+### Visibility and Line of Sight
 
-#### Quantifiers (Some, Any, All)
-Quantifiers are used to describe sets or collections of elements. The three main quantifiers are:
+In the context of the art gallery problem, visibility refers to the ability to see a particular point or region from a given location. The line of sight is an imaginary line connecting two points, representing the direction of gaze.
 
-* Some: at least one element
-* Any: any arbitrary element
-* All: every single element
+When considering the visibility of a point from a given location, we need to account for any obstructions or barriers that might block the view. In the case of the art gallery, the boundary walls are opaque and thus obstructive.
 
-#### Conjunctions and Disjunctions
-Conjunctions and disjunctions are used to connect statements.
+### Polygon and Its Properties
 
-* Conjunction (and): both statements must be true
-* Disjunction (or): at least one statement must be true
+A polygon is a two-dimensional shape with at least three sides. The properties of a polygon include:
 
-### Key Formulas/Theorems
+*   **Convexity**: A convex polygon has all internal angles less than 180°.
+*   **Simple**: A simple polygon does not intersect itself, meaning no edges overlap.
+*   **Regular**: A regular polygon has equal side lengths and equal internal angles.
+
+### Angle Measurement
+
+Angles can be measured in degrees (°), with a full circle being 360°. Important angle relationships include:
+
+*   **Complementary Angles**: Two angles add up to 90°.
+*   **Supplementary Angles**: Two angles add up to 180°.
+
+**Key Formulas/Theorems**
 -------------------------
 
-LaTeX will be used for math formulas. Please ensure you have LaTeX installed to view these formulas correctly.
+### Exterior Angle Theorem
 
-#### Conditional Probability Formula
-```latex
-P(A|B) = \frac{P(A \cap B)}{P(B)}
-```
+Given any polygon, the measure of an exterior angle is equal to the sum of the measures of the two remote interior angles.
 
-### Problem Solving Patterns
------------------------------
+$$\angle \text{exterior} = \angle \text{interior}_1 + \angle \text{interior}_2$$
 
-*   **Elimination**: Use the process of elimination to narrow down options.
-*   **Substitution**: Substitute values into formulas or equations.
-
-### Examples with Solutions
+**Problem Solving Patterns**
 ---------------------------
 
-**Example 1: Quantifier Question**
+### Analyze Obstacles and Visual Paths
 
-Question:
-"Some students attend school in the morning, and some students attend school in the afternoon. Which of the following statements is true?"
+When solving problems involving visibility, carefully analyze any obstacles or barriers that might block the line of sight. Consider the shape and properties of polygons to determine possible paths.
 
-A) Some students attend school both in the morning and in the afternoon.
-B) Any student who attends school in the morning also attends school in the afternoon.
-C) All students who attend school in the morning also attend school in the afternoon.
-D) None of the above.
+### Use Geometric Properties and Theorems
 
-Solution:
+Apply geometric concepts like congruence, similarity, and angle relationships to solve problems efficiently.
 
-Let's analyze each statement:
+### Break Down Complex Problems into Manageable Parts
 
-*   A: This statement is true because we know that some students attend school both in the morning and in the afternoon.
-*   B: This statement is false because there may be students who only attend school in the morning, not in the afternoon.
-*   C: This statement is false because it's possible for students to attend school only in the morning.
+Divide complex problems into smaller, more manageable parts by identifying key points or regions that require attention.
 
-Therefore, the correct answer is:
+**Examples with Solutions**
+---------------------------
 
-A) Some students attend school both in the morning and in the afternoon.
+### Example 1: Visibility in a Gallery
 
-### Common Pitfalls
+Consider the art gallery problem. The security guard has a 360° view from location Q. Analyzing the diagram, we can see that locations P and R are obstructed by the wall, while S is not visible due to its position behind another wall.
+
+Therefore, **Q** is the correct answer.
+
+### Example 2: Polygon Properties
+
+Suppose we have an irregular quadrilateral with sides of length 3 cm, 4 cm, 5 cm, and 6 cm. Determine if it's a regular polygon.
+
+Since none of the sides are equal in length, this polygon is **not regular**.
+
+**Common Pitfalls**
 -------------------
 
-*   **Overthinking**: Avoid overthinking problems. Sometimes, a problem can be solved by simply reading through it carefully.
-*   **Misunderstanding Quantifiers**: Be cautious when dealing with quantifiers, as their meaning can change depending on the context.
+*   Failing to account for obstructions or barriers.
+*   Incorrectly applying geometric properties or theorems.
+*   Overcomplicating problems by neglecting key points or regions.
 
-### Quick Summary
+**Quick Summary**
 -----------------
 
-*   Grammar and sentence structure are crucial in NA questions.
-*   Understand the rules of grammar and syntax to solve problems quickly.
-*   Know the difference between conjunctions and disjunctions.
-*   Familiarize yourself with conditional probability formulas.
-*   Practice elimination and substitution techniques to improve problem-solving speed.
+Numerical ability in GATE CS exam requires understanding of visibility, polygon properties, and angle measurement. Key concepts include:
 
-### Additional Resources
+*   Visibility and line of sight
+*   Polygon properties (convexity, simplicity, regularity)
+*   Angle relationships (complementary, supplementary)
 
-*   For more information on grammar and sentence structure, refer to [Grammarly](https://www.grammarly.com/learn/).
-*   Khan Academy's probability course: <https://www.khanacademy.org/math/statistics-probability>
-
-Note: The resources mentioned above are subject to change and should be verified for accuracy.
+Apply problem-solving patterns like analyzing obstacles, using geometric theorems, and breaking down complex problems into manageable parts to achieve high scores in numerical ability questions.

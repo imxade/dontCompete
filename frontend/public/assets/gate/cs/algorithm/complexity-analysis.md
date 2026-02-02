@@ -1,152 +1,85 @@
 **Complexity Analysis**
-========================
+=======================
 
-**Introduction**
----------------
+### Introduction
+Complexity analysis is a crucial aspect of algorithm design and study. It involves evaluating the time and space requirements of an algorithm, typically expressed as a function of the input size `n`. This allows us to predict how efficiently an algorithm will perform on large inputs.
 
-Complexity analysis is a crucial aspect of algorithm design and evaluation, focusing on the amount of resources (time or space) an algorithm requires as the size of the input increases. In this theory note, we'll delve into the principles, formulas, and techniques required to solve questions related to complexity analysis.
+### Core Concepts
 
-**Core Concepts**
------------------
+#### Big O Notation
+Big O notation is used to describe the upper bound of an algorithm's complexity. It represents the worst-case scenario and is denoted by the symbol K (O). For example, if an algorithm has a time complexity of O(n), it means that the running time will not exceed `cn` for some constant `c`.
 
-### Big O Notation
+#### Big Ω Notation
+Big Ω notation is used to describe the lower bound of an algorithm's complexity. It represents the best-case scenario and is denoted by the symbol ℵ (Ω). For example, if an algorithm has a time complexity of Ω(n), it means that the running time will be at least `dn` for some constant `d`.
 
-Big O notation is used to describe the upper bound of an algorithm's time or space complexity. It represents the worst-case scenario, where the algorithm performs the maximum number of operations.
+#### Time Complexity
+Time complexity measures how long an algorithm takes to complete as the input size increases. It is usually expressed in terms of big O and big Ω notations.
 
-*   $O(f(n))$ = Big O notation
-*   Examples:
-    *   $O(1)$ (constant time)
-    *   $O(log n)$ (logarithmic time)
-    *   $O(n)$ (linear time)
-    *   $O(n log n)$ (n log n time)
+### Key Formulas/Theorems
 
-### Big Ω Notation
+*   The Master Theorem:
+    ```latex
+    \begin{aligned}
+        T(n) &amp;= aT\left(\frac{n}{b}\right) + f(n) \\
+        \end{aligned}
+    ```
+    where `a` is the number of subproblems, `b` is the factor by which each subproblem decreases in size, and `f(n)` is the time required to solve each subproblem.
 
-Big Ω notation is used to describe the lower bound of an algorithm's time or space complexity. It represents the best-case scenario, where the algorithm performs the minimum number of operations.
+### Problem Solving Patterns
 
-*   $\Omega(f(n))$ = Big Ω notation
-*   Examples:
-    *   $\Omega(1)$ (constant time)
-    *   $\Omega(log n)$ (logarithmic time)
-    *   $\Omega(n)$ (linear time)
-    *   $\Omega(n^2)$ (quadratic time)
+*   **Single-Pass Algorithms**: These algorithms traverse the input once, using each element only once. An example is the bubble sort algorithm.
+    ```mermaid
+    graph LR;
+        A[Start] --> B[Compare adjacent elements];
+        C[Swap if necessary] --> D[Repeat until sorted];
+    ```
+*   **Divide and Conquer**: These algorithms break down the problem into smaller subproblems, solve each one recursively, and combine the results. An example is the merge sort algorithm.
+    ```mermaid
+    graph LR;
+        A[Start] --> B[Divide array into two halves];
+        C[Solve each half recursively] --> D[Merge sorted halves];
+    ```
 
-### Time Complexity Classes
+### Examples with Solutions
 
-Time complexity classes are based on the growth rate of an algorithm's running time.
+**Example 1:** Analyzing the time complexity of a single-pass sorting algorithm.
 
-*   $O(1)$: constant time
-*   $O(log n)$: logarithmic time
-*   $O(n)$: linear time
-*   $O(n log n)$: n log n time
-*   $O(n^2)$: quadratic time
+Suppose we have an array `[3, 2, 4, 1]` and want to sort it using a single-pass approach. The algorithm compares each element with its adjacent elements and swaps them if necessary.
 
-### Recurrence Relations
+*   **Step-by-Step Solution:**
 
-Recurrence relations are a mathematical way to describe the time or space complexity of an algorithm. They often involve a recursive function that calls itself until it reaches a base case.
+    1.  Compare `3` and `2`. Swap since `3 > 2`.
+    2.  Compare `4` and `1`. Swap since `4 < 1`.
+    3.  Repeat steps 1 and 2 until the array is sorted.
 
-**Key Formulas/Theorems**
--------------------------
+*   **Time Complexity Analysis:**
 
-### Master Theorem
+    The algorithm makes `n-1` comparisons, where `n` is the number of elements in the array. Therefore, the time complexity of this single-pass sorting algorithm is O(n).
 
-The master theorem is used to solve recurrence relations of the form:
+**Example 2:** Analyzing the time complexity of a divide-and-conquer sorting algorithm.
 
-$T(n) = aT(\frac{n}{b}) + f(n)$
+Suppose we have an array `[3, 2, 4, 1]` and want to sort it using a divide-and-conquer approach. The algorithm divides the array into two halves, sorts each one recursively, and merges them.
 
-*   $a \geq 1$
-*   $b > 1$
+*   **Step-by-Step Solution:**
 
-The master theorem states that:
+    1.  Divide the array into two halves `[3, 2]` and `[4, 1]`.
+    2.  Recursively sort each half.
+    3.  Merge the sorted halves to get the final sorted array.
 
-*   If $f(n) = O(n^d)$ and $a < b^d$, then $T(n) = \Theta(n^{\log_b a})$.
-*   If $f(n) = O(n^d)$ and $a = b^d$, then $T(n) = \Theta(n^d \log n)$.
-*   If $f(n) = O(n^d)$ and $a > b^d$, then $T(n) = \Theta(f(n))$.
+*   **Time Complexity Analysis:**
 
-### Akra-Bazzi Theorem
+    The algorithm has a time complexity of O(n log n) because it divides the array into two halves recursively until each subproblem is small enough to be solved in constant time.
 
-The Akra-Bazzi theorem is used to solve recurrence relations of the form:
+### Common Pitfalls
 
-$T(n) = aT(\frac{n}{b}) + n^p g(n)$
+*   **Underestimating Time Complexity:** Be careful when analyzing algorithms, as even simple-looking ones can have complex time complexities.
+*   **Overlooking Lower Bounds:** Always consider both big O and big Ω notations to get a complete picture of an algorithm's complexity.
 
-*   $a \geq 1$
-*   $b > 1$
+### Quick Summary
 
-The Akra-Bazzi theorem states that:
+*   Big O notation describes the upper bound (worst-case scenario) of an algorithm's complexity.
+*   Big Ω notation describes the lower bound (best-case scenario) of an algorithm's complexity.
+*   Time complexity measures how long an algorithm takes to complete as input size increases.
+*   Master Theorem helps analyze time complexities of recursive algorithms.
 
-*   If $g(n) = O(1)$, then $T(n) = \Theta(n^p)$.
-*   If $g(n) = \Omega(n^p)$ and $a < b^p$, then $T(n) = \Theta(n^{\log_b a} \log n)$.
-
-**Problem Solving Patterns**
----------------------------
-
-### Solving Recurrence Relations
-
-To solve recurrence relations, we can use the master theorem or Akra-Bazzi theorem. We need to identify the recurrence relation and apply the appropriate theorem.
-
-### Identifying Time Complexity Classes
-
-We can identify time complexity classes by analyzing the growth rate of an algorithm's running time. We can use Big O notation to describe the upper bound of an algorithm's time complexity.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Solving a Recurrence Relation using Master Theorem
-
-Suppose we have the following recurrence relation:
-
-$T(n) = 2T(\frac{n}{2}) + n$
-
-We can apply the master theorem to solve this recurrence relation.
-
-*   $a = 2$
-*   $b = 2$
-*   $f(n) = n$
-
-Since $a < b^1$, we have:
-
-$T(n) = \Theta(n^{\log_2 2}) = \Theta(n)$
-
-### Example 2: Identifying Time Complexity Class
-
-Suppose we have an algorithm that takes as input a list of integers and performs the following operations:
-
-*   Iterate through the list
-*   For each element, iterate through the rest of the list to find its pair
-
-We can analyze the growth rate of this algorithm's running time.
-
-*   The outer loop iterates through the list, which has $n$ elements.
-*   The inner loop iterates through the rest of the list, which has $n-1$, $n-2$, ..., 1 elements.
-*   Since the inner loop runs for each element in the outer loop, the total number of iterations is:
-
-$n + (n-1) + (n-2) + ... + 1 = \frac{n(n+1)}{2}$
-
-Since $\frac{n(n+1)}{2} = O(n^2)$, we can conclude that this algorithm has a time complexity of $O(n^2)$.
-
-**Common Pitfalls**
-------------------
-
-### Ignoring Constants
-
-When analyzing the time or space complexity of an algorithm, it's easy to ignore constants. However, in Big O notation, constants are included as part of the complexity class.
-
-*   For example, $O(3n)$ is equivalent to $O(n)$.
-*   Similarly, $\Omega(n^2 + 1)$ is equivalent to $\Omega(n^2)$.
-
-### Misapplying Master Theorem
-
-The master theorem requires specific conditions to be met. If these conditions are not met, the master theorem cannot be applied directly.
-
-*   For example, if $f(n) = O(n \log n)$ and $a < b^1$, we cannot apply the master theorem.
-*   In this case, we need to use other techniques, such as Akra-Bazzi theorem or manual calculation.
-
-**Quick Summary**
------------------
-
-*   Big O notation describes the upper bound of an algorithm's time or space complexity.
-*   Big Ω notation describes the lower bound of an algorithm's time or space complexity.
-*   Time complexity classes are based on the growth rate of an algorithm's running time.
-*   Recurrence relations can be solved using master theorem, Akra-Bazzi theorem, or manual calculation.
-
-By following these guidelines and techniques, you should be able to solve questions related to complexity analysis with confidence. Practice problems and exercises will help reinforce your understanding and improve your problem-solving skills.
+I hope this comprehensive theory note on complexity analysis will help you master the topic and ace your GATE CS exam!

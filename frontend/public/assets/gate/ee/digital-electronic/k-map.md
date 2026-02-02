@@ -1,81 +1,109 @@
-**K-Map Theory Note**
+**k-map Theory Notes**
 =======================
 
 ### Introduction
+---------------
 
-A K-Map (Karnaugh Map) is a systematic method for simplifying Boolean functions, particularly those with multiple variables. It's an essential tool in digital electronics for reducing complexity and improving efficiency.
+A k-map (also known as a Karnaugh map) is a visual tool used to simplify Boolean functions by grouping related terms together. It's an essential technique for digital electronics and computer science students.
 
 ### Core Concepts
+-----------------
 
-#### What is a K-Map?
+#### What is a k-map?
+A k-map is a table with 2^n rows and n columns, where each cell represents a minterm (a product of variables). The map is filled in according to the function being simplified, and then groups are formed by combining adjacent cells. Each group corresponds to a term in the simplified expression.
 
-A K-Map is a rectangular grid where each cell represents a unique combination of variable values (0 or 1). The goal is to identify clusters of adjacent cells that satisfy the Boolean function, thus simplifying it.
+#### How does it work?
+The k-map process involves:
 
-**Types of Variables**
+1. **Creating the map**: Fill in the 2^n rows with minterms (product of variables) from the original Boolean function.
+2. **Identifying groups**: Look for groups of adjacent cells, which can be combined to form a term in the simplified expression.
+3. **Simplifying**: Repeat steps 1-2 until no further simplification is possible.
 
-*   **Complemented Variables**: Represented by an overbar (e.g., $\overline{A}$)
-*   **Uncomplemented Variables**: No overbar
+#### Laws and Theorems
+The k-map relies on several laws and theorems:
 
-#### K-Map Laws and Theorems
-
-1.  **Theorem:** A Boolean function can be simplified using a K-Map if it has any adjacent clusters.
-2.  **Law:** Adjacent cells with identical variable values can be combined.
-
-**Example K-Map:**
-```mermaid
-graph LR;
-    A[0, 0] --> B[0, 1]
-    B --> C[1, 1];
-```
-In this example:
-
-*   A represents the combination $A \land \overline{B}$
-*   B represents the combination $A \lor \overline{B}$
-*   C represents the combination $\overline{A} \lor B$
+*   **OR Law**: $A + A = A$
+*   **AND Law**: $AA = A$
+*   **Absorption Law**: $A + AB = A$
 
 ### Key Formulas/Theorems
+-------------------------
 
-#### K-Map Simplification Rules:
-
-1.  **Grouping Rule**: Identify adjacent cells with identical variable values and group them.
-2.  **Complementation Law**: Complement a cell by changing its contents (e.g., 0 to 1 or 1 to 0).
+$$
+\begin{aligned}
+F(P, Q, R) &= \overline{\overline{P} \cdot \overline{Q}} \\
+&= P + Q \\
+\end{aligned}
+$$
 
 ### Problem Solving Patterns
+-----------------------------
 
-**Step-by-Step K-Map Simplification:**
-
-1.  List all minterms of the Boolean function
-2.  Create a K-Map with rows and columns representing variable values
-3.  Mark each cell in the K-Map according to its corresponding minterm value (0 or 1)
-4.  Identify clusters of adjacent cells with identical variable values
-5.  Simplify the function using the identified clusters
+*   **Look for adjacent groups**: Combine cells that are horizontally or vertically adjacent to form a term.
+*   **Use the OR Law**: If two terms cover the same variables, combine them using the OR law.
 
 ### Examples with Solutions
+---------------------------
 
 **Example 1:**
 
-Suppose we have a Boolean function $F(A, B) = \overline{A} \lor B$. We can represent it as:
+Given function $F(P, Q, R) = PQ + PR + QR$
 
-| A | $\overline{A}$ |
-| --- | --- |
-| 0 | 1 |
-| 1 | 0 |
+```mermaid
+graph LR
+A[Start] --> B[F P Q R]
+B --> C[PQ]
+C --> D[PR]
+D --> E[QR]
 
-We can simplify this K-Map by grouping the adjacent cells with identical variable values, resulting in a simplified function $F(A, B) = \overline{B} \lor A$.
+```
+
+Simplified form:
+$$
+\begin{aligned}
+F(P, Q, R) &= (P+R)(Q+R) \\
+&= PQ + PR + QR
+\end{aligned}
+$$
 
 **Example 2:**
 
-Consider another Boolean function $G(C, D) = C \land \overline{D}$. We can represent it as:
+Given function $F(P, Q, S) = PS + QS$
 
-| C | $\overline{C}$ |
-| --- | --- |
-| 0 | 1 |
-| 1 | 0 |
+```mermaid
+graph LR
+A[Start] --> B[F P Q S]
+B --> C[PS]
+C --> D[QS]
 
-We can simplify this K-Map by applying the Complementation Law to obtain a simplified function $G(C, D) = \overline{\overline{D}} \land C$.
+```
+
+Simplified form:
+$$
+\begin{aligned}
+F(P, Q, S) &= (P+Q)S \\
+&= PS + QS
+\end{aligned}
+$$
 
 ### Common Pitfalls
+--------------------
 
-*   Failing to identify all clusters of adjacent cells
-*   Misapplying the Simplification Rules
-*   Not using K-Map simplification for Boolean functions with multiple variables
+*   **Missing adjacent groups**: Failing to combine adjacent cells can lead to an incomplete simplification.
+*   **Incorrect use of laws**: Misapplying the OR law or other laws can result in an incorrect simplified expression.
+
+### Quick Summary
+-----------------
+
+*   k-map: A visual tool for simplifying Boolean functions by grouping related terms together.
+*   Laws and Theorems:
+	+ OR Law: $A + A = A$
+	+ AND Law: $AA = A$
+	+ Absorption Law: $A + AB = A$
+*   Problem Solving Patterns:
+	+ Look for adjacent groups
+	+ Use the OR Law
+
+### References
+
+*   [1] Boolean Algebra by Robert C. Moreno (available online)

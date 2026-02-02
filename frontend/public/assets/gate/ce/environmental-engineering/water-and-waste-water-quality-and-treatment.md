@@ -1,118 +1,105 @@
 **Water and Wastewater Quality and Treatment**
-====================================================
+=====================================================
 
 ### Introduction
----------------
-
-Water and wastewater treatment are essential processes to ensure the availability of clean water for human consumption, industrial use, and environmental conservation. This topic covers various aspects of water quality management, including pollutants, treatment processes, and mathematical modeling.
-
-### Core Concepts
 -----------------
 
-#### Henry's Law Constant
--------------------------
+Water and wastewater quality are critical aspects of environmental engineering, affecting public health and ecosystems. Effective treatment and management require understanding various physical, chemical, and biological processes.
 
-Henry's law constant (H) is a measure of the solubility of a gas in a liquid at equilibrium. It is defined as:
-
-$$H = \frac{p_{gas}}{C_{liquid}}$$
-
-where $p_{gas}$ is the partial pressure of the gas and $C_{liquid}$ is the concentration of the gas in the liquid.
-
-#### Molecular Weight
-------------------------
-
-Molecular weight (MW) is a measure of the mass of a molecule. It can be calculated using the atomic weights of its constituent elements:
-
-$$MW = \sum n_i M_i$$
-
-where $n_i$ is the number of atoms of element $i$ and $M_i$ is the atomic weight of element $i$.
-
-#### Chemical Reactions
--------------------------
-
-Chemical reactions are an essential aspect of water treatment. They can be classified into different types, including:
-
-* **Oxidation-reduction (redox) reactions**: These reactions involve the transfer of electrons between reactants.
-* **Acid-base reactions**: These reactions involve the transfer of protons or hydroxide ions.
-
-**Key Formulas/Theorems**
----------------------------
-
-### Activated Sludge Process
-------------------------------
-
-The activated sludge process (ASP) is a type of biological treatment process that involves the use of microorganisms to break down organic matter. The ASP can be modeled using the following equations:
-
-$$\frac{dS}{dt} = \frac{Q_{in}}{V} (S_{in} - S) + k \cdot X \cdot S$$
-
-where $S$ is the substrate concentration, $X$ is the biomass concentration, and $k$ is the reaction rate constant.
-
-### Settling Tank Design
----------------------------
-
-A settling tank is designed to remove suspended solids from wastewater. The design of a settling tank can be based on the following equation:
-
-$$H = \frac{Q}{A} \cdot t$$
-
-where $H$ is the height of the water column, $Q$ is the flow rate, $A$ is the surface area of the tank, and $t$ is the detention time.
-
-**Problem Solving Patterns**
------------------------------
-
-### Example 1: Henry's Law Constant
---------------------------------------
-
-Given:
-
-* The partial pressure of oxygen (pO2) in air is 0.21 atm.
-* The molecular weight of O2 is 32 g/mol.
-* The concentration of DO in water is 8.736 mg/L.
-
-Determine the value of Henry's law constant (H).
-
-Solution:
-
-$$H = \frac{p_{O2}}{C_{DO}} = \frac{0.21}{\frac{8.736 \cdot 32}{1000}} = 1.3 \text{ mmol/lit-atm}$$
-
-### Example 2: Chemical Reactions
-------------------------------------
-
-Given:
-
-* A sample of water contains an organic compound with the molecular formula C8H16O.
-* The atomic weights of carbon, hydrogen, and oxygen are 12 g/mol, 1 g/mol, and 16 g/mol, respectively.
-
-Determine the theoretical oxygen demand (TOD) of the water.
-
-Solution:
-
-$$\text{TOD} = \frac{2 \cdot 8 + 16}{32} = 0.256 \text{ g O}_2/\text{L}$$
-
-**Common Pitfalls**
--------------------
-
-* Forgetting to account for the molecular weight of oxygen when calculating the TOD.
-* Not considering the partial pressure of oxygen in air when using Henry's law.
-
-**Quick Summary**
+### Core Concepts
 ------------------
 
-* Henry's law constant (H) is a measure of the solubility of a gas in a liquid at equilibrium.
-* The activated sludge process (ASP) is a type of biological treatment process that involves the use of microorganisms to break down organic matter.
-* A settling tank is designed to remove suspended solids from wastewater.
+#### Total Hardness in Water
+-----------------------------
 
-### Mermaid Diagrams
-----------------------
+Total hardness (TH) is a measure of calcium carbonate (CaCO3) dissolved in water. The atomic weights of Ca, C, and O are 40 g/mol, 12 g/mol, and 16 g/mol, respectively.
 
-```mermaid
-graph LR
-    A[Start] --> B[Process]
-```
+$TH = \frac{500\text{ mg/l}}{50} = 10 \text{ mg eq/l}$
 
-This code generates a simple flowchart.
+#### Biological Oxygen Demand (BOD)
+---------------------------------
 
-**References**
----------------
+BOD is a measure of oxygen required by microorganisms to break down organic matter in water. The BOD rate constant ($k$) at $0^\circ C$ is given as 0.23/day.
 
-* Environmental Engineering by M. Narasimhan ( PHI Learning )
-* Water Treatment Plant Design by Metcalf & Eddy ( McGraw-Hill Education )
+$BOD = \frac{1}{k} \ln\left(\frac{S_0}{S}\right)$
+
+where $S_0$ is the initial substrate concentration, and $S$ is the final substrate concentration after incubation for 3 days at $0^\circ C$. Given that the dissolved oxygen depletion is 10 mg/l, we can calculate the ultimate BOD of the sewage.
+
+$BOD = \frac{1}{0.23} \ln\left(\frac{S_0}{S}\right) = \frac{1}{0.23} \ln\left(\frac{200}{190}\right) = 1003.16 \text{ mg/L}$
+
+#### Sedimentation Basin
+-------------------------
+
+The sedimentation basin has a depth of 3 m, width of 5 m, and length of 40 m.
+
+$V_{\text{water}} = A \times H = (5 \text{m} \times 40 \text{m}) \times (3 \text{m}) = 600 \text{ m}^3$
+
+#### Force Aeration Composting
+------------------------------
+
+The MSW formula for force aeration composting is given as:
+
+$100\text{C} + 250\text{H} + 80\text{O}$
+
+Assuming oxygen in air by weight is 23% and density of air is 1.3 kg/m^3, we can calculate the theoretical volume of air required for oxidative degradation of 1 tonne of waste.
+
+$V_{\text{air}} = \frac{100\text{C} + 250\text{H} + 80\text{O}}{23} \times 1.3 = 4749 \text{ m}^3$
+
+### Key Formulas/Theorems
+---------------------------
+
+#### Total Hardness
+
+$TH = \frac{\text{CaCO}_3}{50}$
+
+#### BOD
+
+$BOD = \frac{1}{k} \ln\left(\frac{S_0}{S}\right)$
+
+#### Sedimentation Basin
+
+$V_{\text{water}} = A \times H$
+
+### Problem Solving Patterns
+---------------------------
+
+1.  **Identify the key concept**: Understand what is being asked (e.g., total hardness, BOD, sedimentation basin).
+2.  **Apply formulas and laws**: Use relevant equations to calculate answers.
+3.  **Check units and dimensions**: Ensure that the units and dimensions are consistent.
+
+### Examples with Solutions
+---------------------------
+
+1.  **Example 1**
+
+    Calculate the total hardness of raw water in mg eq/l, given that it is 500 mg/l as CaCO3.
+
+    Solution:
+
+    $TH = \frac{500\text{ mg/l}}{50} = 10 \text{ mg eq/l}$
+
+2.  **Example 2**
+
+    Calculate the ultimate BOD of sewage, given that the dissolved oxygen depletion is 10 mg/L after incubation for 3 days at $0^\circ C$, and the BOD rate constant ($k$) at $0^\circ C$ is 0.23/day.
+
+    Solution:
+
+    $BOD = \frac{1}{k} \ln\left(\frac{S_0}{S}\right) = \frac{1}{0.23} \ln\left(\frac{200}{190}\right) = 1003.16 \text{ mg/L}$
+
+### Common Pitfalls
+------------------
+
+*   Incorrect units or dimensions
+*   Failure to apply relevant formulas and laws
+*   Insufficient practice with example problems
+
+### Quick Summary
+-----------------
+
+| Concept | Key Formula/Equation |
+| --- | --- |
+| Total Hardness | $TH = \frac{\text{CaCO}_3}{50}$ |
+| BOD | $BOD = \frac{1}{k} \ln\left(\frac{S_0}{S}\right)$ |
+| Sedimentation Basin | $V_{\text{water}} = A \times H$ |
+
+Note: This summary is not exhaustive but covers the main concepts and formulas presented in this theory note.

@@ -1,81 +1,103 @@
 **Probability and Statistics**
-=====================================
+==========================
 
 ### Introduction
+-----------------
 
-Probability and statistics are fundamental concepts in engineering mathematics that help us understand and analyze random events, systems, and processes. These subjects have numerous applications in various fields, including signal processing, communication systems, machine learning, and more.
+This section provides an overview of probability and statistics, two fundamental concepts in engineering mathematics. Probability deals with the measure of uncertainty or likelihood of events occurring, while statistics involves the collection and analysis of data to draw conclusions.
 
 ### Core Concepts
+------------------
 
-#### Random Variables
+#### 1. **Binomial Distribution**
 
-A **random variable** is a function that assigns a real value to each possible outcome of an experiment or event. There are two types:
+The binomial distribution is a discrete probability distribution that models the number of successes in n independent trials, where each trial has a constant probability p of success.
 
-*   **Discrete random variables**: take on distinct values (e.g., number of heads in 10 coin tosses).
-*   **Continuous random variables**: can take any value within a given range (e.g., height of a person).
+*   The mean (μ) of a binomial distribution is given by: $\mu = np$
+*   The variance ($\sigma^2$) of a binomial distribution is given by: $\sigma^2 = np(1-p)$
 
-#### Probability Distribution
+#### 2. **Continuous Random Variables**
 
-A **probability distribution** is a function that describes the probability of each possible outcome. Common distributions include:
+A continuous random variable takes on any value within a given interval or range.
 
-*   **Bernoulli distribution** (discrete): models a single coin toss.
-*   **Binomial distribution** (discrete): models multiple independent Bernoulli trials.
-*   **Poisson distribution** (discrete): models rare events with a large number of trials.
-
-#### Expected Value and Variance
-
-The **expected value** ($E[X]$) is the long-run average value of a random variable. The **variance** ($Var(X)$) measures the spread or dispersion of a random variable.
-
-$$ E[X] = \sum_{x} xP(x) $$
-
-$$ Var(X) = E[(X - E[X])^2] $$
-
-#### Central Limit Theorem (CLT)
-
-The CLT states that, given certain conditions, the distribution of the sample mean will be approximately normal, regardless of the original distribution.
+*   The probability density function (pdf) of a continuous random variable is a non-negative function that describes the relative likelihood of observing different values.
+*   The cumulative distribution function (cdf) of a continuous random variable is the integral of its pdf, representing the probability that the random variable takes on a value less than or equal to x.
 
 ### Key Formulas/Theorems
+-------------------------
 
-*   **Binomial distribution**: $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$.
-*   **Poisson distribution**: $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$.
-*   **Normal distribution**: $f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$.
+*   **Law of Large Numbers**: As the number of trials increases, the observed frequency of an event approaches its theoretical probability.
+*   **Chebyshev's Inequality**: For any random variable X with mean μ and variance σ^2, the probability that |X - μ| > kσ is less than or equal to 1/k^2.
 
 ### Problem Solving Patterns
+-----------------------------
 
-*   **Approximation with CLT**: Use the CLT to approximate a binomial or Poisson distribution as normal.
-*   **Combining distributions**: Combine probabilities from multiple distributions using convolution or mixture formulas.
+#### 1. **Binomial Approximation**
+
+When n is large and p is close to zero or one, the binomial distribution can be approximated by a normal distribution with mean np and variance np(1-p).
+
+*   Example: Given a binomial random variable X with n = 1000 trials and p = 0.01, approximate the distribution of Y = (X - np) / √(np(1-p)).
+
+Solution:
+
+```latex
+Y = (X - np) / \sqrt{np(1-p)}
+\approx N(0, 1)
+```
+
+#### 2. **Maximum Likelihood Estimation**
+
+To estimate the parameters of a probability distribution, use maximum likelihood estimation by maximizing the likelihood function.
+
+*   Example: Given a sample from a normal distribution with unknown mean μ and variance σ^2, find the maximum likelihood estimates for μ and σ^2.
+
+Solution:
+
+```latex
+\hat{\mu} = \bar{x}
+\hat{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2
+```
 
 ### Examples with Solutions
+---------------------------
 
-**Example 1:** A coin is tossed $n$ times. What is the expected value of heads?
+#### 1. **Binomial Distribution**
 
-Solution:
-
-$$ E[X] = \sum_{k=0}^n kP(X = k) $$
-
-Using the binomial distribution:
-
-$$ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} $$
-
-Substituting and simplifying, we get $E[X] = np$.
-
-**Example 2:** A Poisson distribution has $\lambda = 5$. Find the probability that $X=3$.
+Find the mean and variance of a binomial distribution with n = 10 trials and p = 0.5.
 
 Solution:
 
-$$ P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!} $$
+```latex
+\mu = np = 10(0.5) = 5
+\sigma^2 = np(1-p) = 10(0.5)(0.5) = 2.5
+```
 
-Substituting and evaluating, we get $P(X=3) = 0.18$ (rounded to 2 decimal places).
+#### 2. **Continuous Random Variable**
+
+Find the probability density function of a continuous random variable X that takes on values between 0 and 2, with pdf f(x) = 2x for 0 ≤ x ≤ 1 and f(x) = 3 - 2x for 1 < x ≤ 2.
+
+Solution:
+
+```latex
+f(x) = \begin{cases}
+2x & 0 \leq x \leq 1 \\
+3-2x & 1 < x \leq 2
+\end{cases}
+```
 
 ### Common Pitfalls
+-------------------
 
-*   **Confusing discrete and continuous distributions**.
-*   **Failing to check for conditions in the CLT**.
+*   Confusing the mean and variance of a binomial distribution.
+*   Failing to consider boundary conditions when working with continuous random variables.
 
 ### Quick Summary
+---------------
 
-*   Random variables: discrete and continuous.
-*   Probability distribution: Bernoulli, binomial, Poisson, normal.
-*   Expected value and variance.
-*   Central Limit Theorem (CLT).
-*   Approximation with CLT and combining distributions.
+| Concept | Formula/Property |
+| --- | --- |
+| Mean (μ) of Binomial Distribution | μ = np |
+| Variance ($\sigma^2$) of Binomial Distribution | $\sigma^2 = np(1-p)$ |
+| Chebyshev's Inequality | P(|X - μ| > kσ) ≤ 1/k^2 |
+
+Note: This is a basic outline, and you should expand on each concept with more detail and examples. Additionally, make sure to format your text according to Markdown rules.

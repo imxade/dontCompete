@@ -1,83 +1,88 @@
-**Psychrometry Theory Note**
-==========================
+**Psychrometry**
+===============
 
-### Introduction
+**Introduction**
+---------------
 
-Psychrometry is a crucial aspect of refrigeration and air conditioning that deals with the study of the properties of air-water mixtures. Understanding psychrometry is essential for designing and optimizing heating, ventilation, and air-conditioning (HVAC) systems.
+Psychrometry is a crucial aspect of refrigeration and air conditioning, dealing with the properties of air-water mixtures. It's essential for understanding the behavior of moist air and its impact on various processes.
 
-### Core Concepts
+**Core Concepts**
+-----------------
 
-#### Psychometric Chart
+### 1. **Humidity Ratio**
 
-A psychometric chart is a graphical representation of the thermodynamic properties of moist air. It plots the enthalpy or specific humidity against temperature. The chart can be used to determine various properties such as relative humidity, dew point temperature, and wet-bulb temperature.
+The humidity ratio (v) represents the mass of water vapor per unit mass of dry air in a mixture.
 
-#### Specific Humidity
+### 2. **Saturation Pressure**
 
-Specific humidity (ω) is the mass of water vapor per unit mass of dry air in a mixture. It can be calculated using the formula:
+Saturation pressure (psat) is the maximum partial pressure of water vapor that can exist at a given temperature.
 
-$$\omega = \frac{0.622p_v}{p - p_v}$$
+### 3. **Relative Humidity**
 
-where $p_v$ is the partial pressure of water vapor, and $p$ is the total pressure.
+Relative humidity (RH) is defined as the ratio of the actual partial pressure of water vapor to the saturation pressure at a given temperature.
 
-#### Relative Humidity
+**Key Formulas/Theorems**
+-------------------------
 
-Relative humidity (RH) is defined as the ratio of the actual water vapor pressure to the saturation water vapor pressure at a given temperature. It can be calculated using the formula:
+\[ RH = \frac{p}{psat} \]
 
-$$RH = \frac{p_v}{p_{sat}} \times 100\%$$
+where \( p \) is the actual partial pressure of water vapor and \( psat \) is the saturation pressure.
 
-where $p_{sat}$ is the saturation water vapor pressure.
+### 4. **Psychrometric Chart**
 
-### Key Formulas/Theorems
+The psychrometric chart is a graphical representation of the properties of air-water mixtures, showing relationships between dry-bulb temperature, wet-bulb temperature, humidity ratio, and specific volume.
 
-* Specific humidity: $\omega = \frac{0.622p_v}{p - p_v}$
-* Relative humidity: $RH = \frac{p_v}{p_{sat}} \times 100\%$
+**Problem Solving Patterns**
+-----------------------------
 
-### Problem Solving Patterns
+*   When dealing with relative humidity, ensure to use the correct formula: \( RH = \frac{p}{psat} \).
+*   In psychrometric charts, identify the saturation line to determine if a mixture is saturated or not.
+*   Use the chart to find relationships between various properties of air-water mixtures.
 
-When solving psychrometry problems, follow these steps:
+**Examples with Solutions**
+---------------------------
 
-1. Determine the properties of the air-water mixture using a psychometric chart or the formulas above.
-2. Calculate specific humidity and relative humidity as required.
+### 1. **Example: Finding Relative Humidity**
 
-### Examples with Solutions
+Given:
+- Dry-bulb temperature = 25°C
+- Wet-bulb temperature = 22°C
+- Saturation pressure at 25°C = 3.169 kPa
 
-**Example 1**
-
-Determine the specific humidity of an air-water mixture at 300 K with a partial pressure of water vapor equal to 0.5 kPa, given that the saturation pressure of water at 300 K is 3.2 kPa.
-
-Solution:
-
-Using the formula for specific humidity:
-
-$$\omega = \frac{0.622p_v}{p - p_v} = \frac{0.622(0.5)}{(101)(0.5)} = 0.0617 kg/kg_{da}$$
-
-**Example 2**
-
-An air-water mixture has a temperature of 300 K and relative humidity of 60%. Determine the specific humidity of the mixture, given that the saturation pressure of water at 300 K is 3.6 kPa.
+Find the relative humidity.
 
 Solution:
 
-Using the formula for relative humidity:
+Using the psychrometric chart, we find that at 25°C and 22°C, the saturation line is at approximately 2.5 kPa.
+\[ RH = \frac{p}{psat} = \frac{2.5}{3.169} = 0.79 \]
 
-$$RH = \frac{p_v}{p_{sat}} \times 100\%$$
+### 2. **Example: Finding Humidity Ratio**
 
-Rearranging to solve for $p_v$:
+Given:
+- Dry-bulb temperature = 30°C
+- Specific volume = 1.23 m³/kg
 
-$$p_v = RH \times p_{sat} = (0.6)(3.6) = 2.16 kPa$$
+Find the humidity ratio.
 
-Using the formula for specific humidity:
+Solution:
 
-$$\omega = \frac{0.622p_v}{p - p_v} = \frac{0.622(2.16)}{(101)(2.16)} = 0.0134 kg/kg_{da}$$
+Using the psychrometric chart, we find that at 30°C and a specific volume of 1.23 m³/kg, the humidity ratio is approximately 0.028 kg/kg.
 
-### Common Pitfalls
+**Common Pitfalls**
+-------------------
 
-* Failing to calculate specific humidity or relative humidity correctly.
-* Not considering the saturation pressure of water at the given temperature.
-* Misinterpreting the psychometric chart.
+*   Confusing relative humidity with saturation pressure.
+*   Not using the correct formula for relative humidity.
+*   Misinterpreting psychrometric charts.
 
-### Quick Summary
+**Quick Summary**
+-----------------
 
-* Specific humidity: $\omega = \frac{0.622p_v}{p - p_v}$
-* Relative humidity: $RH = \frac{p_v}{p_{sat}} \times 100\%$
+| Concept | Formula/Theorem |
+| --- | --- |
+| Humidity Ratio | v |
+| Saturation Pressure | psat |
+| Relative Humidity | RH = \frac{p}{psat} |
+| Psychrometric Chart | graphical representation of air-water mixtures |
 
-This theory note covers the essential concepts and formulas required to solve psychrometry problems on the GATE CS exam.
+Note: The provided Markdown content focuses on the key aspects of psychrometry, including core concepts, formulas/theorems, problem-solving patterns, examples with solutions, common pitfalls, and a quick summary.

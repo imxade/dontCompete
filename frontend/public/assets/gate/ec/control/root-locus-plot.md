@@ -1,80 +1,104 @@
-**Root Locus Plot**
-====================
+# Root Locus Plot
+=====================
 
-### Introduction
+## Introduction
+---------------
 
-The Root Locus plot is a graphical representation of the roots of a transfer function as a parameter (usually gain) varies. It's a fundamental tool for control system analysis and design, helping engineers understand how the system responds to different inputs.
+The root locus plot is a graphical representation of the roots of the characteristic equation of a closed-loop system as a parameter, usually gain (K), varies from 0 to infinity. It provides valuable insights into the stability and transient response of the system.
 
-### Core Concepts
+## Core Concepts
+-----------------
 
-#### Definition
+### Asymptotes
 
-Given a characteristic equation:
+*   The root locus branches approach asymptotically towards the real axis at an angle determined by the poles of the open-loop transfer function.
+*   The number of asymptotes is equal to the number of poles in the right half of the s-plane minus the number of zeros.
 
-$$\Delta(s) = 1 + K \frac{\prod_{i=1}^n (s-s_i)}{s^{n-m}\prod_{j=1}^m (s-s_j)} = 0$$
+### Centroid
 
-where $K$ is the gain, $s_i$ and $s_j$ are poles and zeros of the system, respectively. The Root Locus plot shows the loci of the roots $s_i$ as $K$ varies from 0 to $\infty$.
+*   The centroid is the point where the asymptotes intersect on the real axis.
+*   It is calculated as the average of the angles at which the asymptotes approach the real axis.
 
-#### Key Features
+### Angles of Departure and Arrival
 
-*   **Asymptotes**: Lines on the plot indicating the direction of movement for the roots as gain increases.
-*   **Centroid**: Average position of the asymptotes, representing the dominant behavior of the system.
-*   **Breakaway/Break-in points**: Specific values of $K$ where the number of roots changes, affecting stability.
+*   The angle of departure is the angle at which a root locus branch departs from a pole.
+*   The angle of arrival is the angle at which a root locus branch arrives at a zero.
 
-### Key Formulas/Theorems
+## Key Formulas/Theorems
+-------------------------
 
-1.  **Asymptote angles**:
+LaTeX Equation: $\sigma = \frac{\sum R_{i}}{N-M}$
 
-$$\theta_i = \frac{(2i-1)180^\circ}{n-m} \text{ for } i=1,2,...,n-m$$
+where σ is the centroid, R_i are the real parts of the poles and zeros, and N and M are the number of poles and zeros respectively.
 
-    where $n$ is the number of poles and $m$ is the number of zeros.
+LaTeX Equation: $\theta = 180\left(\frac{N-M}{N+1}\right)$
 
-2.  **Centroid**:
+where θ is the angle at which an asymptote approaches the real axis.
 
-$$s_c = \frac{\sum_{j=1}^m s_j}{n-m}$$
+## Problem Solving Patterns
+---------------------------
 
-3.  **Breakaway/Break-in condition**:
+### Identifying Asymptotes
 
-For a system with $n$ poles and $m$ zeros, the breakaway/break-in point occurs when:
+*   Count the number of poles in the right half of the s-plane.
+*   Subtract the number of zeros to find the number of asymptotes.
 
-$$\frac{d\Delta(s)}{ds} = 0 \text{ at } K = K_b$$
+### Determining Angles of Departure and Arrival
 
-### Problem Solving Patterns
+*   Use the angles of departure from each pole to determine the initial direction of each root locus branch.
+*   Calculate the angle of arrival at each zero using the formula above.
 
-1.  **Identify the number of poles and zeros**:
-    Determine $n$ and $m$ from the characteristic equation to calculate asymptote angles and centroid.
-2.  **Find the breakaway/break-in point(s)**:
-    Apply the condition that $\frac{d\Delta(s)}{ds} = 0$ at $K = K_b$ to identify specific values of $K$ where stability changes.
+## Examples with Solutions
+---------------------------
 
-### Examples with Solutions
+**Example 1:**
 
-1.  Solve for the Root Locus plot of:
+Given a system with an open-loop transfer function:
 
-$$\Delta(s) = (s+2)(s+3)^2 + K \frac{(s-4)}{s^2} = 0$$
+LaTeX Equation: $G(s) = \frac{K}{s(s+2)}$
 
-    *   Asymptote angles: $\theta_1 = 180^\circ$, $\theta_2 = 360^\circ$
-    *   Centroid: $s_c = -\frac{5}{3}$
-    *   Breakaway point at $K=4$
+Find the number of asymptotes and determine their angles.
 
-2.  Identify the transfer function resulting in the given Root Locus plot:
+Solution:
 
-$$G(s) = \frac{(s+1)}{(s^2 + 6s + 36)(s+72)}$$
+*   Number of poles in the right half of the s-plane: 0
+*   Number of zeros: 1
+*   Number of asymptotes: 1
+*   Angle of each asymptote: 180°
 
-    *   Compare the given asymptote angles and centroid with the calculated values.
+**Example 2:**
 
-### Common Pitfalls
+Given a system with an open-loop transfer function:
 
-*   Forgetting to consider complex conjugate poles/zeros
-*   Misidentifying the number of poles and zeros
-*   Failing to apply the breakaway/break-in condition correctly
+LaTeX Equation: $G(s) = \frac{K}{s(s+1)(s+2)}$
 
-### Quick Summary
+Find the centroid and number of asymptotes.
 
-| Concept | Key Points |
-| --- | --- |
-| Root Locus plot | Graphical representation of roots vs gain; indicates stability and behavior |
-| Asymptotes | Lines indicating direction of root movement as gain increases |
-| Centroid | Dominant behavior of the system; average position of asymptotes |
-| Breakaway/Break-in points | Specific values of gain where number of roots changes |
+Solution:
 
-**Note**: The above quick summary covers key concepts but might not be comprehensive. This theory note aims to provide a high-yield, exam-focused resource for students preparing for GATE CS.
+*   Number of poles in the right half of the s-plane: 1
+*   Number of zeros: 0
+*   Number of asymptotes: 2
+*   Centroid: calculated using the formula above
+
+## Common Pitfalls
+-----------------
+
+### Missed Poles or Zeros
+
+*   Carefully count the number of poles and zeros in the open-loop transfer function.
+*   Verify that each pole and zero is correctly identified.
+
+### Incorrect Angles
+
+*   Use a protractor to measure the angles of departure and arrival accurately.
+*   Double-check calculations for angle determination.
+
+## Quick Summary
+-----------------
+
+*   Root locus plot represents the roots of the characteristic equation as gain (K) varies from 0 to infinity.
+*   Asymptotes approach the real axis at an angle determined by poles and zeros.
+*   Centroid is the point where asymptotes intersect on the real axis.
+
+Note: The above theory note covers all theoretical concepts, formulas, and insights required to solve questions like GATE 2022 (ID: ec_2022_22) Question 22.

@@ -1,113 +1,125 @@
 **Compressibility and Consolidation**
-=====================================
+====================================
 
-**Introduction**
----------------
-
-Compressibility and consolidation are fundamental concepts in geotechnical engineering that describe the deformation of soils under load. Compressibility refers to the ability of a soil to compress or change volume under external pressure, while consolidation is the process by which a soil settles or densifies over time due to the dissipation of excess pore water pressure.
-
-**Core Concepts**
-----------------
-
-### 1. Compressibility
-
-Compressibility is typically measured using the coefficient of compression (m_v) or the compressibility modulus (M):
-
-$$ m_v = \frac{\Delta e}{\Delta \sigma'} $$
-
-where $e$ is the void ratio, $\Delta \sigma'$ is the change in effective stress, and $m_v$ is the coefficient of compression.
-
-### 2. Consolidation Theory
-
-Consolidation theory is based on the work of Terzaghi (1943), which describes the process of settlement of a soil layer under load:
-
-$$ u = u_0 + \frac{1}{M} \int_{t=0}^{t=t} s(t) dt $$
-
-where $u$ is the excess pore water pressure, $u_0$ is the initial pore water pressure, $s(t)$ is the rate of dissipation of excess pore water pressure at time $t$, and $M$ is the compressibility modulus.
-
-### 3. Consolidation Parameters
-
-Several parameters are important in consolidation analysis:
-
-*   Primary consolidation settlement ($S_c$): the settlement due to compression of soil particles
-*   Secondary consolidation settlement ($S_{\sigma}$): the settlement due to dissipation of excess pore water pressure
-*   Time factor ($T_f$): a dimensionless parameter representing the ratio of time elapsed to the time required for primary consolidation
-
-### 4. Consolidated Drained (CD) Triaxial Test
-
-In a CD triaxial test, the sample is subjected to axial compression under constant cell pressure while allowing drainage:
-
-$$ \sigma_1' = K \cdot p_c $$
-
-where $\sigma_1'$ is the effective major principal stress, $K$ is the coefficient of earth pressure at rest, and $p_c$ is the confining pressure.
-
-**Key Formulas/Theorems**
--------------------------
-
-### 1. Compressibility Modulus (M)
-
-$$ M = \frac{E}{(1 + v)(1 - 2v)} $$
-
-where $E$ is the modulus of elasticity, and $v$ is Poisson's ratio.
-
-### 2. Time Factor ($T_f$)
-
-$$ T_f = \frac{t}{t_{90}} $$
-
-where $t$ is the time elapsed, and $t_{90}$ is the time required for 90% dissipation of excess pore water pressure.
-
-**Problem Solving Patterns**
----------------------------
-
-### 1. Compressibility Analysis
-
-*   Determine the coefficient of compression (m_v) or compressibility modulus (M)
-*   Calculate the primary consolidation settlement ($S_c$)
-
-### 2. Consolidation Analysis
-
-*   Determine the time factor ($T_f$) and the ratio of secondary to primary consolidation settlement
-*   Calculate the total settlement ($S_t$)
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Compressibility Analysis
-
-A clay layer is 10 m thick, with a void ratio (e) of 0.5 and an effective stress (\sigma') of 100 kPa. The coefficient of compression (m_v) is 0.01.
-
-Calculate the compressibility modulus (M):
-
-$$ M = \frac{1}{m_v} $$
-
-$$ M = \frac{1}{0.01} = 100 \, MPa $$
-
-### Example 2: Consolidation Analysis
-
-A soil layer settles by 10 mm in 300 days. The time factor ($T_f$) is 0.5.
-
-Calculate the ratio of secondary to primary consolidation settlement:
-
-$$ r_{\sigma/s} = 1 - T_f $$
-
-$$ r_{\sigma/s} = 1 - 0.5 = 0.5 $$
-
-**Common Pitfalls**
-------------------
-
-*   Confusing compressibility with consolidation
-*   Not accounting for the effect of secondary consolidation settlement on total settlement
-
-**Quick Summary**
+### Introduction
 -----------------
 
-*   Compressibility: ability of a soil to change volume under external pressure
-*   Consolidation: process by which a soil settles or densifies over time due to dissipation of excess pore water pressure
-*   Key parameters:
-    *   Coefficient of compression (m_v)
-    *   Compressibility modulus (M)
-    *   Primary consolidation settlement ($S_c$)
-    *   Secondary consolidation settlement ($S_{\sigma}$)
-    *   Time factor ($T_f$)
+Compressibility and consolidation are crucial concepts in geotechnical engineering, particularly when dealing with soil mechanics. The compressibility of a soil refers to its ability to change volume under external loading, while consolidation is the process by which excess pore water pressure dissipates over time.
 
-Mermaid diagrams are not used in this document as there is no logical flowchart or structure to represent.
+### Core Concepts
+------------------
+
+#### Compressibility
+
+Compressibility can be described using the following parameters:
+
+* **Volumetric strain** ($\epsilon_v$): The change in volume of a soil due to compression.
+* **Compressibility index** ($m_v$): A measure of the compressibility of a soil, defined as the ratio of the volumetric strain to the applied stress.
+
+#### Consolidation
+
+Consolidation is a complex process that involves the dissipation of excess pore water pressure over time. The key stages are:
+
+1. **Primary consolidation**: The initial stage where the excess pore water pressure dissipates rapidly.
+2. **Secondary consolidation**: The subsequent stage where the soil continues to compress under constant stress.
+
+The rate of consolidation depends on several factors, including the permeability of the soil, the applied stress, and the initial void ratio.
+
+### Key Formulas/Theorems
+-------------------------
+
+#### Compressibility
+
+* **Volumetric strain** ($\epsilon_v$):
+$$\epsilon_v = \frac{\Delta V}{V_0}$$
+where $\Delta V$ is the change in volume and $V_0$ is the initial volume.
+
+* **Compressibility index** ($m_v$):
+$$m_v = \frac{1}{E_s} \cdot \frac{d\sigma_p}{dp'}$$
+where $E_s$ is the soil modulus, $\sigma_p$ is the applied stress, and $p'$ is the effective confining pressure.
+
+#### Consolidation
+
+* **Coefficient of consolidation** ($c_v$):
+$$c_v = \frac{k}{m}$$
+where $k$ is the permeability of the soil and $m$ is a function of the compressibility index and the applied stress.
+```mermaid
+graph LR
+A[Soil Compression] -->|Excess PWP|> B[Primary Consolidation]
+B -->|Slow Dissipation|> C[Secondary Consolidation]
+```
+### Problem Solving Patterns
+---------------------------
+
+1. **Given**:
+	* Effective shear strength parameters ($\phi'$ and $c'$)
+	* Deviatoric stress at failure ($q_f$)
+	* Pore water pressure at failure ($u_f$)
+2. **Unknown**:
+	* Deviatoric stress at failure for the repeated test without backpressure
+3. **Approach**:
+	* Use the relationship between deviatoric stress and pore water pressure: $q_f = \sigma_d + u_f$
+	* Rearrange to solve for $\sigma_d$: $\sigma_d = q_f - u_f$
+
+### Examples with Solutions
+---------------------------
+
+#### Example 1
+
+Given:
+
+* Effective shear strength parameters: $\phi' = 30^\circ$, $c' = 0$
+* Deviatoric stress at failure: $q_f = 360$ kPa
+* Pore water pressure at failure: $u_f = 70$ kPa
+
+Unknown:
+
+* Deviatoric stress at failure for the repeated test without backpressure: $\sigma_d$
+
+Approach:
+
+1. Use the relationship between deviatoric stress and pore water pressure:
+$$q_f = \sigma_d + u_f$$
+2. Rearrange to solve for $\sigma_d$:
+$$\sigma_d = q_f - u_f$$
+
+Solution:
+
+$\sigma_d = 360 - 70 = 290$ kPa
+
+#### Example 2
+
+Given:
+
+* Soil compressibility index: $m_v = 0.1$
+* Applied stress: $\sigma_p = 100$ kPa
+* Effective confining pressure: $p' = 50$ kPa
+
+Unknown:
+
+* Volumetric strain ($\epsilon_v$)
+
+Approach:
+
+1. Use the formula for compressibility index:
+$$m_v = \frac{1}{E_s} \cdot \frac{d\sigma_p}{dp'}$$
+2. Rearrange to solve for $E_s$:
+$$E_s = \frac{d\sigma_p}{m_v \cdot dp'}$$
+
+Solution:
+
+$E_s = \frac{100}{0.1 \cdot 50} = 200$ kPa
+
+### Common Pitfalls
+--------------------
+
+* Failing to account for the compressibility index when calculating deviatoric stress.
+* Misinterpreting the relationship between pore water pressure and deviatoric stress.
+
+### Quick Summary
+------------------
+
+* Compressibility refers to the change in volume of a soil under external loading.
+* Consolidation is the process by which excess pore water pressure dissipates over time.
+* Key formulas include the volumetric strain, compressibility index, and coefficient of consolidation.
+* Problem solving patterns involve using relationships between deviatoric stress, pore water pressure, and applied stress.

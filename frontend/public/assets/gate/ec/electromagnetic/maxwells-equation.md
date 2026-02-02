@@ -1,93 +1,110 @@
-# Maxwell's Equations
-## Introduction
-Maxwell's equations are a set of four fundamental equations in classical electromagnetism that describe how electric and magnetic fields interact with each other. These equations were derived by James Clerk Maxwell in 1864 and are considered one of the most important achievements in physics.
+**Maxwell's Equations**
+=======================
 
-## Core Concepts
+### Introduction
+-----------------
 
-### Electric Displacement Density Vector
-The electric displacement density vector, denoted as $\mathbf{D}$, is a measure of the density of electric charge at a given point in space. It is related to the electric field $\mathbf{E}$ by the equation:
+Maxwell's equations are a set of four fundamental equations that describe how electric and magnetic fields interact with each other. These equations form the foundation of classical electromagnetism and have been extensively tested and validated in various experiments.
 
-$$\mathbf{D} = \epsilon_0 \mathbf{E} + \frac{\rho}{c^2} \mathbf{v}$$
+### Core Concepts
+-------------------
 
-where $\epsilon_0$ is the electric constant (also known as the permittivity of free space), $\rho$ is the charge density, $c$ is the speed of light, and $\mathbf{v}$ is the velocity of the charged particles.
+#### Electric Displacement Density Vector
+----------------------------------------
 
-### Gauss's Law
-Gauss's law states that the total electric flux through a closed surface is proportional to the charge enclosed within that surface. Mathematically, it can be expressed as:
+The electric displacement density vector, **D**, is given by:
 
-$$\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q}{\epsilon_0}$$
+$$\mathbf{D} = \varepsilon_{0}\mathbf{E} + \mathbf{P}$$
 
-where $S$ is the closed surface, $\mathbf{E}$ is the electric field, $d\mathbf{A}$ is the area vector of the surface element, and $Q$ is the charge enclosed within the surface.
+where $\varepsilon_{0}$ is the electric constant (permittivity of free space), $\mathbf{E}$ is the electric field, and $\mathbf{P}$ is the polarization density.
 
-### Maxwell's Equations
-Maxwell's equations are a set of four fundamental equations that describe how electric and magnetic fields interact with each other. They are:
+#### Electric Field
+-------------------
 
-1. Gauss's law for magnetism:
+The electric field, **E**, is a vector field that describes the force experienced by a test charge at a given point in space. It can be expressed as:
 
-$$\oint_S \mathbf{B} \cdot d\mathbf{A} = 0$$
+$$\mathbf{E} = -\nabla V$$
 
-where $\mathbf{B}$ is the magnetic field.
+where $V$ is the electric potential.
 
-2. Faraday's law of induction:
+#### Magnetic Field
+------------------
 
-$$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$$
+The magnetic field, $\mathbf{B}$, is a vector field that describes the force experienced by a moving charge or a current-carrying wire. It can be expressed as:
 
-3. Ampere's law with Maxwell's correction:
+$$\mathbf{B} = \nabla \times \mathbf{A}$$
 
-$$\nabla \times \mathbf{B} = \mu_0 (\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t})$$
+where $\mathbf{A}$ is the magnetic vector potential.
 
-where $\mathbf{J}$ is the current density, and $\mu_0$ is the magnetic constant (also known as the permeability of free space).
+#### Gauss's Law
+-----------------
 
-4. Gauss's law for electric field:
+Gauss's law states that the total electric flux through a closed surface is proportional to the charge enclosed within that surface:
 
-$$\nabla \cdot \mathbf{D} = \rho$$
+$$\oint_{S} \mathbf{D} \cdot d\mathbf{A} = Q_{enc}$$
 
-## Key Formulas/Theorems
-LaTeX notation will be used to represent mathematical equations.
+where $Q_{enc}$ is the charge enclosed within the surface.
 
-### Electric Displacement Density Vector
+### Key Formulas/Theorems
+---------------------------
 
-```latex
-\mathbf{D} = \epsilon_0 \mathbf{E} + \frac{\rho}{c^2} \mathbf{v}
-```
+**Maxwell's Equations**
 
-### Gauss's Law
+1. **Gauss's Law for Electric Fields**
+	* $\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_{0}}$
+2. **Gauss's Law for Magnetic Fields**
+	* $\nabla \cdot \mathbf{B} = 0$
+3. **Faraday's Law of Induction**
+	* $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$
+4. **Ampère-Maxwell Law**
+	* $\nabla \times \mathbf{B} = \mu_{0}\mathbf{J} + \mu_{0}\varepsilon_{0}\frac{\partial \mathbf{E}}{\partial t}$
 
-```latex
-\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q}{\epsilon_0}
-```
+### Problem Solving Patterns
+---------------------------
 
-## Problem Solving Patterns
-The following patterns can be used to solve problems related to Maxwell's equations:
+1. **Identify the relevant equation**: Determine which of Maxwell's equations applies to the given problem.
+2. **Sketch the situation**: Draw a diagram illustrating the electric and magnetic fields involved.
+3. **Apply boundary conditions**: Consider any boundary conditions that may affect the solution.
 
-* When applying Gauss's law, ensure that the charge enclosed within the surface is correctly calculated.
-* When using Faraday's law of induction, consider the change in magnetic flux through a closed surface.
-* When applying Ampere's law with Maxwell's correction, account for both the current density and the displacement current.
+### Examples with Solutions
+---------------------------
 
-## Examples with Solutions
+**Example 1**
 
-### Example 1: Electric Displacement Density Vector
-Consider a point charge $q$ located at the origin. Find the electric displacement density vector $\mathbf{D}$ at a distance $r$ from the charge.
+Consider a point charge $q$ located at the origin. Find the electric field $\mathbf{E}$ at a distance $r$ from the charge.
 
-```latex
-\mathbf{D} = \frac{q}{4\pi\epsilon_0 r^2} \hat{\mathbf{r}}
-```
+**Solution**
 
-### Example 2: Gauss's Law
-A spherical surface of radius $R$ encloses a total charge $Q$. Find the electric field $\mathbf{E}$ at the surface using Gauss's law.
+* Identify the relevant equation: Gauss's Law for Electric Fields
+* Sketch the situation: A point charge at the origin surrounded by an imaginary sphere of radius $r$
+* Apply boundary conditions: The electric field is zero outside the sphere
+* Solution:
+$$\mathbf{E} = \frac{q}{4\pi\varepsilon_{0}r^{2}}\hat{\mathbf{r}}$$
 
-```latex
-\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q}{\epsilon_0}
-```
+**Example 2**
 
-## Common Pitfalls
+Consider a long, straight wire carrying a current $I$. Find the magnetic field $\mathbf{B}$ at a distance $r$ from the wire.
 
-* Failing to account for the displacement current in Ampere's law.
-* Incorrectly applying Gauss's law, particularly when dealing with non-spherical charges or surfaces.
-* Neglecting the change in magnetic flux through a closed surface when using Faraday's law of induction.
+**Solution**
 
-## Quick Summary
-* Electric displacement density vector $\mathbf{D}$ is related to electric field $\mathbf{E}$ by: $\mathbf{D} = \epsilon_0 \mathbf{E} + \frac{\rho}{c^2} \mathbf{v}$
-* Gauss's law states that total electric flux through a closed surface is proportional to charge enclosed within the surface.
+* Identify the relevant equation: Ampère-Maxwell Law
+* Sketch the situation: A long, straight wire surrounded by an imaginary cylinder of radius $r$
+* Apply boundary conditions: The magnetic field is zero outside the cylinder
+* Solution:
+$$\mathbf{B} = \frac{\mu_{0}I}{2\pi r}\hat{\mathbf{\phi}}$$
+
+### Common Pitfalls
+-------------------
+
+1. **Incorrect application of boundary conditions**: Failing to account for the effects of boundaries on the solution.
+2. **Ignoring the time dependence of fields**: Failing to consider how electric and magnetic fields change over time.
+
+### Quick Summary
+-----------------
+
 * Maxwell's equations describe how electric and magnetic fields interact with each other.
+* Gauss's Law relates the electric flux through a closed surface to the charge enclosed within that surface.
+* Faraday's Law of Induction describes how a changing magnetic field induces an electric field.
+* Ampère-Maxwell Law relates the magnetic field to the current and the rate of change of the electric field.
 
-Note: The above theory note covers the essential concepts, formulas, and problem-solving patterns related to Maxwell's equations. It also highlights common pitfalls to avoid when solving problems.
+Note: The provided source question is used as an example, but the solution process is not explicitly covered in this theory note.

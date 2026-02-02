@@ -1,92 +1,116 @@
-**Concurrency and Synchronization**
-=====================================
+Concurrency and Synchronization
+=============================
 
-**Introduction**
+Introduction
+------------
+
+In concurrent systems, multiple processes or threads share resources and execute simultaneously. However, this can lead to unexpected behavior if not properly synchronized. This topic covers the fundamental concepts of concurrency and synchronization.
+
+Core Concepts
 ---------------
 
-Concurrency and synchronization are fundamental concepts in Operating Systems that enable multiple processes or threads to share resources efficiently while ensuring correctness and avoiding deadlocks. This topic covers the principles, algorithms, and techniques for managing concurrent access to shared resources.
+### Semaphores
 
-**Core Concepts**
------------------
+A semaphore is a variable that controls access to shared resources by multiple threads. It acts as a gatekeeper, ensuring only one thread can access the resource at a time.
 
-### 1. Mutual Exclusion
+*   **Binary Semaphore**: A binary semaphore has two states: 0 or 1.
+*   **Counting Semaphore**: A counting semaphore has a count value, indicating how many threads can access the resource simultaneously.
 
-Mutual exclusion ensures that only one process or thread can access a shared resource at a time. It prevents multiple processes from accessing the same resource simultaneously, thus avoiding data corruption and ensuring consistency.
+```mermaid
+graph LR
+    A[Thread] --> B[Wait(Semaphore)]
+    C[Thread] --> D[Wait(Semaphore)]
+    E[Resource] --> F[Access]
+```
 
-### 2. Synchronization
+### Synchronization
 
-Synchronization is used to coordinate the actions of multiple threads or processes when accessing shared resources. It ensures that these actions are executed in a predictable order, preventing deadlocks and ensuring correct execution.
+Synchronization is the process of coordinating access to shared resources among multiple threads. It ensures that only one thread can access a resource at a time, preventing conflicts and ensuring data integrity.
 
-### 3. Semaphores
+*   **Mutual Exclusion**: Ensures only one thread can access a resource at a time.
+*   **Starvation-Free Scheduling**: Ensures all threads have a fair chance to access the resource.
 
-Semaphores are a synchronization mechanism that allow multiple processes to share access to a resource by managing the count of available slots. They can be initialized with a specific value and used as counters for concurrent access.
+Key Formulas/Theorems
+----------------------
 
-### 4. Locks
+### Critical Section Problem
 
-Locks, also known as mutexes (mutual exclusion), are synchronization mechanisms that prevent other threads from accessing a shared resource while one thread is holding it.
+The critical section problem states that when multiple threads share resources, each thread has a critical section where it needs exclusive access to the resource. The challenge is to design an algorithm that ensures mutual exclusion while minimizing overhead.
 
-**Key Formulas/Theorems**
+*   **Peterson's Algorithm**: A solution to the critical section problem using two variables: `turn` and `flag`.
+
+```latex
+\begin{algorithm}
+  \caption{Peterson's Algorithm}
+  \label{alg:petersons}
+  \begin{algorithmic}
+    \STATE $turn = 0$
+    \FOR {each process $P_i$}
+      \IF {$i$ has exclusive access to the resource}
+        \STATE $\text{enter critical section}$
+        \STATE $\text{do work}$
+        \STATE $\text{exit critical section}$
+      \ENDIF
+    \ENDFOR
+  \end{algorithmic}
+\end{algorithm}
+```
+
+Problem Solving Patterns
 -------------------------
 
-*   **Lamport's Bakery Algorithm**: A deadlock-free algorithm for mutual exclusion using semaphores.
-    \[ f_{i}(t) = f_{i-1}(t+1), i=2,3,\ldots,n-1 \]
-    where $f_i(t)$ is the value chosen by process $P_i$ at time $t$.
+### Analyzing Synchronization Algorithms
 
-**Problem Solving Patterns**
----------------------------
+To analyze synchronization algorithms, follow these steps:
 
-### 1. Analyzing Deadlocks
+1.  **Identify Shared Resources**: Determine which resources are shared among threads.
+2.  **Determine Access Requirements**: Identify the critical sections where each thread needs exclusive access to the resource.
+3.  **Evaluate Algorithm Effectiveness**: Assess whether the algorithm ensures mutual exclusion and minimizes overhead.
 
-To determine if a system will deadlock, look for cycles in resource allocation and necessary conditions:
+Examples with Solutions
+-----------------------
 
-*   **Necessary Conditions**: Mutual exclusion, Hold and Wait, No Preemption, and Circular Wait.
-    A system will not deadlock if any of these conditions are absent.
+### Example: Peterson's Algorithm
 
-### 2. Understanding Synchronization Algorithms
+Suppose we have two threads, `T1` and `T2`, sharing a semaphore `s`. Both threads need exclusive access to the resource during their critical sections.
 
-Synchronization algorithms ensure that multiple threads access shared resources correctly while minimizing the overhead of synchronization primitives.
+```python
+import threading
 
-**Examples with Solutions**
----------------------------
+s = threading.Semaphore(1)  # binary semaphore initialized to 1
 
-### 1. Example 1: Semaphores
+def T1():
+    s.acquire()  # wait for semaphore
+    print("T1 has exclusive access")
+    # do work
+    s.release()  # signal semaphore
 
-Suppose we have two semaphores, $s_1$ and $s_2$, initialized to 3 and 0 respectively. Two processes, P1 and P2, share these semaphores. Initially, P1 acquires $s_1$ three times and P2 acquires $s_2$ once.
+def T2():
+    s.acquire()  # wait for semaphore
+    print("T2 has exclusive access")
+    # do work
+    s.release()  # signal semaphore
 
-```mermaid
-graph LR
-    A[Init] --> B[s1 = 3, s2 = 0]
-    C[P1 Acquire s1] --> D[P1 Count: 3]
-    E[P2 Acquire s2] --> F[P2 Count: 1]
+t1 = threading.Thread(target=T1)
+t2 = threading.Thread(target=T2)
+
+t1.start()
+t2.start()
+
+t1.join()
+t2.join()
 ```
 
-P1 acquires $s_1$ three times and P2 acquires $s_2$ once. If P1 tries to acquire $s_2$, it will be blocked until P2 releases $s_2$. Similarly, if P2 tries to acquire $s_1$, it will be blocked until P1 releases $s_1$.
-
-### 2. Example 2: Locks
-
-Consider two processes, P1 and P2, sharing a lock L1. Initially, both processes are waiting for the lock.
-
-```mermaid
-graph LR
-    A[Init] --> B[P1 Wait L1]
-    C[P2 Wait L1] --> D[L1 Available]
-```
-
-If P1 acquires the lock first, it will be able to execute its critical section. However, if P2 acquires the lock second, it may need to wait until P1 releases the lock.
-
-**Common Pitfalls**
-------------------
-
-*   **Deadlocks**: Failing to prevent cycles in resource allocation.
-*   **Livelocks**: Occurring when processes are waiting indefinitely for resources that cannot be allocated.
-*   **Starvation**: When a process is unable to access a shared resource due to continuous allocation of the resource to other processes.
-
-**Quick Summary**
+Common Pitfalls
 -----------------
 
-*   Mutual exclusion ensures single access to shared resources.
-*   Synchronization coordinates actions of multiple threads or processes when accessing shared resources.
-*   Semaphores and locks are synchronization mechanisms that prevent deadlocks.
-*   Deadlock prevention involves analyzing necessary conditions for deadlock occurrence.
+*   **Deadlocks**: Avoid creating situations where two or more threads are blocked indefinitely, each waiting for the other to release a resource.
+*   **Starvation**: Ensure all threads have a fair chance to access shared resources.
 
-By mastering these concepts, you will be able to solve concurrency and synchronization problems efficiently. Practice with sample questions and analyze real-world scenarios to solidify your understanding of these fundamental principles in Operating Systems.
+Quick Summary
+--------------
+
+*   **Semaphores**: Variables controlling access to shared resources among multiple threads.
+*   **Synchronization**: Coordinating access to shared resources among multiple threads.
+*   **Peterson's Algorithm**: A solution to the critical section problem using two variables: `turn` and `flag`.
+*   **Deadlocks** and **Starvation**: Avoid situations where threads are blocked indefinitely or have an unfair chance to access shared resources.

@@ -1,111 +1,100 @@
 **Power Factor Calculation**
 ==========================
 
-**Introduction**
----------------
+### Introduction
 
-The power factor (PF) is a measure of how effectively an AC electrical circuit or system converts input current into useful work. It's defined as the ratio of real power to apparent power and plays a crucial role in electrical engineering, particularly in power systems and measurement.
+Power factor (PF) is a measure of how effectively an AC power system uses the available voltage to produce useful work. It is defined as the ratio of true power (P) to apparent power (S). In this theory note, we will cover the calculation of power factor and its significance in electrical measurements.
 
-**Core Concepts**
------------------
+### Core Concepts
 
-### Real Power vs. Apparent Power
+#### True Power (P)
 
-Real power (P) is the actual power used by the load, while apparent power (S) is the vector sum of the real and reactive powers. The power factor is the ratio of these two quantities:
+True power, also known as real power, is the actual power consumed by a load. It is measured in watts (W).
 
-$$PF = \frac{P}{S} = cos(\phi)$$
-
-where $\phi$ is the power angle between the voltage and current.
-
-### Power Triangle
-
-The power triangle is a graphical representation of the relationship between real power, apparent power, and reactive power. It's an essential tool for understanding power factor calculations:
-
-```mermaid
-graph LR
-    P[Real Power] -->|cos(φ)|> S[Apparent Power]
-    S ---|sin(φ)|--> Q[Reactive Power]
+```latex
+P = V_{rms} \times I_{rms} \times \cos(\phi)
 ```
 
-### Power Factor Calculation
+where $V_{rms}$ is the root mean square voltage, $I_{rms}$ is the root mean square current, and $\cos(\phi)$ is the power factor angle.
 
-The maximum power factor is achieved when the load is purely resistive, i.e., $\phi = 0^\circ$. In this case, $PF_{max} = cos(0^\circ) = 1$.
+#### Apparent Power (S)
 
-**Key Formulas/Theorems**
--------------------------
+Apparent power is the vector sum of true power and reactive power. It is measured in volt-amperes (VA).
 
-*   Real power: $P = VIcos(\phi)$
-*   Apparent power: $S = VI$
-*   Power factor: $PF = \frac{P}{S} = cos(\phi)$
+```latex
+S = V_{rms} \times I_{rms}
+```
 
-**Problem Solving Patterns**
----------------------------
+#### Power Factor
 
-1.  Identify the type of load (resistive, inductive, or capacitive) and its impact on the power factor.
-2.  Determine the apparent power (S) using the voltage and current values.
-3.  Calculate the real power (P) using the power factor formula.
-4.  Use the power triangle to visualize the relationship between real, apparent, and reactive powers.
+Power factor is defined as the ratio of true power to apparent power.
 
-**Examples with Solutions**
----------------------------
+```latex
+PF = \frac{P}{S} = \cos(\phi)
+```
 
-### Example 1: Maximum Power Factor
+### Key Formulas/Theorems
 
-Given:
-*   Voltage (V): 300 V
-*   Current (I): 5 A
-*   Wattmeter reading: 300 W
+* True power (P) can be calculated using the formula: $P = V_{rms} \times I_{rms} \times \cos(\phi)$
+* Apparent power (S) can be calculated using the formula: $S = V_{rms} \times I_{rms}$
+* Power factor (PF) is defined as the ratio of true power to apparent power: $PF = \frac{P}{S} = \cos(\phi)$
 
-Objective: Find the maximum power factor.
+### Problem Solving Patterns
 
-Solution:
+When solving problems involving power factor calculation, follow these steps:
 
-$$PF_{max} = \frac{P}{S} = cos(0^\circ) = 1$$
+1. Identify the given values: voltage, current, and power.
+2. Calculate true power (P) using the formula: $P = V_{rms} \times I_{rms} \times \cos(\phi)$
+3. Calculate apparent power (S) using the formula: $S = V_{rms} \times I_{rms}$
+4. Calculate power factor (PF) by dividing true power by apparent power: $PF = \frac{P}{S}$
 
-However, we need to find the value of $\phi$ for a wattmeter reading of 300 W. Using the formula $P = VIcos(\phi)$, we can rewrite it as:
+### Examples with Solutions
 
-$$300 = 300 \times 5 \times cos(\phi)$$
-
-Solving for $\phi$, we get:
-
-$$cos(\phi) = \frac{1}{0.2} \approx 5$$
-
-Since the value is greater than 1, it's incorrect to assume a maximum power factor of $PF_{max}$. The correct approach involves finding the actual value of $\phi$.
-
-### Example 2: Power Factor Calculation
+**Example 1**
 
 Given:
-*   Voltage (V): 300 V
-*   Current (I): 5 A
-*   Wattmeter reading: 300 W
 
-Objective: Find the power factor.
+* Voltage ($V_{rms}$): 100 V ± 1%
+* Current ($I_{rms}$): 1 A ± 1%
+* Power ($W$): 50 W ± 2%
 
-Solution:
+Calculate the power factor.
 
-First, let's find the apparent power (S):
+```latex
+P = V_{rms} \times I_{rms} \times \cos(\phi) = 100 \, \text{V} \times 1 \, \text{A} \times \cos(\phi)
+S = V_{rms} \times I_{rms} = 100 \, \text{V} \times 1 \, \text{A}
+PF = \frac{P}{S} = \cos(\phi) = \frac{50}{\sqrt{(100^2 + (1)^2)}} = 0.998
+```
 
-$$S = VI = 300 \times 5 = 1500 VA$$
+The power factor is approximately 0.998.
 
-Next, calculate the real power (P) using the wattmeter reading:
+**Example 2**
 
-$$P = 300 W$$
+Given:
 
-Now, use the formula $PF = \frac{P}{S}$ to find the power factor:
+* Voltage ($V_{rms}$): 200 V ± 1%
+* Current ($I_{rms}$): 2 A ± 1%
+* Power ($W$): 100 W ± 2%
 
-$$PF = \frac{300}{1500} = 0.2$$
+Calculate the power factor.
 
-**Common Pitfalls**
--------------------
+```latex
+P = V_{rms} \times I_{rms} \times \cos(\phi) = 200 \, \text{V} \times 2 \, \text{A} \times \cos(\phi)
+S = V_{rms} \times I_{rms} = 200 \, \text{V} \times 2 \, \text{A}
+PF = \frac{P}{S} = \cos(\phi) = \frac{100}{\sqrt{(200^2 + (2)^2)}} = 0.995
+```
 
-*   Assuming a maximum power factor of 1 when the load is not purely resistive.
-*   Failing to account for the actual value of $\phi$ in calculations.
+The power factor is approximately 0.995.
 
-**Quick Summary**
-------------------
+### Common Pitfalls
 
-*   Power factor (PF) is the ratio of real power (P) to apparent power (S).
-*   Real power: $P = VIcos(\phi)$
-*   Apparent power: $S = VI$
-*   Power factor: $PF = \frac{P}{S} = cos(\phi)$
-*   Maximum power factor is achieved when $\phi = 0^\circ$.
+* Failing to calculate apparent power correctly.
+* Not considering the percentage errors in voltage, current, and power measurements.
+* Using incorrect values for true power or apparent power.
+
+### Quick Summary
+
+* Power factor (PF) is defined as the ratio of true power (P) to apparent power (S): $PF = \frac{P}{S}$
+* True power (P) can be calculated using the formula: $P = V_{rms} \times I_{rms} \times \cos(\phi)$
+* Apparent power (S) can be calculated using the formula: $S = V_{rms} \times I_{rms}$
+* Percentage errors in voltage, current, and power measurements must be considered when calculating power factor.

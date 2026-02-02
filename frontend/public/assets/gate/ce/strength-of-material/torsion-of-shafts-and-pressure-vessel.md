@@ -1,124 +1,73 @@
 **Torsion of Shafts and Pressure Vessels**
 =====================================
 
-**Introduction**
----------------
+### Introduction
 
-The strength of materials topic, specifically torsion of shafts and pressure vessels, deals with the analysis of circular cross-sectioned members subjected to twisting moments. Understanding this concept is crucial in designing and analyzing various mechanical components.
+The topic of torsion of shafts and pressure vessels is a fundamental aspect of Strength of Materials. It deals with the study of the twisting force or moment that causes a shaft to deform, leading to its failure. This concept is crucial in designing structural components such as gears, axles, and pressure vessels.
 
-**Core Concepts**
------------------
+### Core Concepts
 
-### Torsion
+Torsion occurs when a shaft is subjected to a twisting moment (torque) that causes it to rotate about its axis. The twisting force is proportional to the polar moment of inertia of the shaft's cross-section. For a circular cross-section, the polar moment of inertia is given by:
 
-Torsion occurs when a force or moment causes rotation around an axis. The twisting moment (T) is related to the angle of twist (θ) through the following formula:
+$$
+J = \frac{\pi d^4}{32}
+$$
 
-θ = TL / GJ
+where $d$ is the diameter of the shaft.
 
-where L is the length of the shaft, G is the shear modulus, and J is the polar moment of inertia.
+The torsional shear stress in the shaft can be calculated using the formula:
 
-### Polar Moment of Inertia (J)
+$$
+\tau = \frac{Tr}{J}
+$$
 
-The polar moment of inertia (J) for a circular cross-section is given by:
+where $T$ is the twisting moment, and $r$ is the distance from the axis of rotation to the point where the shear stress is being calculated.
 
-J = πr^4 / 2
+### Key Formulas/Theorems
 
-where r is the radius of the circle.
+*   Polar Moment of Inertia for a Circular Cross-section:
 
-**Key Formulas/Theorems**
--------------------------
+    $$ J = \frac{\pi d^4}{32} $$
+*   Torsional Shear Stress:
 
-LaTeX
-```math
-\theta = \frac{TL}{GJ}
-```
+    $$ \tau = \frac{Tr}{J} $$
 
-### Torsional Stiffness (K)
+### Problem Solving Patterns
 
-The torsional stiffness (K) is related to the twisting moment and angle of twist:
+When solving problems related to torsion, the following steps can be taken:
 
-K = GJ / L
+1.  **Determine the polar moment of inertia** of the shaft's cross-section.
+2.  **Calculate the twisting moment reaction** at each end of the shaft using the given torsional moments and the polar moment of inertia.
+3.  **Apply the torsional shear stress formula** to determine the shear stresses in different parts of the shaft.
 
-### Ratio of Lengths
+### Examples with Solutions
 
-For a homogeneous shaft with fixed supports at both ends, subjected to a torsional moment at point Q, the ratio of lengths can be determined using the given conditions.
+**Example 1: Torsion of a Shaft**
 
-**Problem Solving Patterns**
----------------------------
+A homogeneous shaft PQR has a circular cross-section with diameter $d$. The shaft is subjected to a twisting moment $T$ at point Q. If the polar moment of inertia of the portion PQ of the shaft is $J_1$, and the polar moment of inertia of the portion QR of the shaft is $J_2$, determine the ratio of the lengths L1/L2.
 
-*   Analyze the given diagram and identify key points such as the location of the twisting moment, supports, and the direction of rotation.
-*   Determine the polar moments of inertia (J) for each section of the shaft.
-*   Use the given conditions to establish relationships between various quantities, such as ratios of lengths.
+**Solution:**
 
-**Examples with Solutions**
----------------------------
+Given that:
 
-### Example 1
+*   $ T = \frac{PRT}{4} $
+*   $ J_1/J_2 = 1/2 $
 
-A homogeneous shaft PQR has fixed supports at both ends. The torsional moment T is applied at point Q, and the polar moments of inertia for PQ and QR are J1 and J2, respectively. If J1/J2 = 1/2 and PT/Rt = 3/4, determine the ratio of lengths L1/L.
+We can calculate the polar moments of inertia for each part of the shaft and use the formula for torsional shear stress to determine the ratio of lengths.
 
-```mermaid
-graph LR
-A[Torsional moment] --> B[PQ]
-B --> C[Fixed support P]
-D[QR] --> E[Fixed support R]
-F[L1] --> G[L2]
-```
+### Common Pitfalls
 
-Solution:
+When solving problems related to torsion, students often miss:
 
-Using the given conditions and formula for torsion, we can establish relationships between various quantities.
+*   Calculating the polar moment of inertia for non-circular cross-sections
+*   Applying the correct formula for torsional shear stress
+*   Considering the effect of friction and other external forces on the shaft's behavior
 
-```math
-\frac{PT}{Rt} = \frac{3}{4}
-```
+### Quick Summary
 
-and
-
-```math
-\frac{J1}{J2} = \frac{1}{2}
-```
-
-Substituting the expressions for J in terms of L, we get:
-
-```math
-\frac{\pi r_1^4 / 2}{\pi r_2^4 / 2} = \frac{1}{2}
-```
-
-Simplifying and solving for the ratio of lengths (r1/r2), we obtain:
-
-```math
-\frac{L1}{L2} = 0.5
-```
-
-### Example 2
-
-A pressure vessel has a cylindrical shape with a circular cross-section. If the internal pressure is P, determine the maximum shear stress.
-
-Solution:
-
-The maximum shear stress occurs at the outer radius (r) and can be calculated using the formula:
-
-```math
-\tau_{max} = \frac{Pr}{2t}
-```
-
-where t is the thickness of the vessel.
-
-**Common Pitfalls**
-------------------
-
-*   Failing to identify key points in the diagram, such as the location of supports or the direction of rotation.
-*   Misinterpreting the given conditions and establishing incorrect relationships between quantities.
-*   Not considering the effects of torsion on different sections of the shaft.
-
-**Quick Summary**
----------------
-
-| Key Concept | Formula/Expression |
-| --- | --- |
-| Torsion | θ = TL / GJ |
-| Polar Moment of Inertia (J) | J = πr^4 / 2 |
-| Torsional Stiffness (K) | K = GJ / L |
-
-This theory note covers all the necessary concepts and formulas for solving problems related to torsion of shafts and pressure vessels.
+*   **Polar Moment of Inertia**: $ J = \frac{\pi d^4}{32} $
+*   **Torsional Shear Stress**: $ \tau = \frac{Tr}{J} $
+*   **Key Steps**:
+    1. Determine the polar moment of inertia
+    2. Calculate twisting moment reactions
+    3. Apply torsional shear stress formula

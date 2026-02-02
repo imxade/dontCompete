@@ -1,136 +1,124 @@
-# Linear Algebra Theory Note
-## Introduction
-Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and linear transformations. It is a fundamental tool for solving systems of linear equations, finding the inverse of matrices, and determining the eigenvalues and eigenvectors of matrices.
+**Linear Algebra**
+================
 
-## Core Concepts
+### Introduction
 
-### Vector Spaces
-A vector space is a set of vectors that can be added together and scaled by numbers. The key properties of a vector space are:
+Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, linear transformations, and matrices. It has numerous applications in various fields such as physics, engineering, computer science, and economics.
 
-* Closure under addition: For any two vectors `u` and `v`, their sum `u + v` is also in the vector space.
-* Commutativity of addition: `u + v = v + u`
-* Associativity of addition: `(u + v) + w = u + (v + w)`
-* Existence of additive identity: There exists a vector `0` such that `u + 0 = u`
-* Existence of additive inverse: For each vector `u`, there exists a vector `-u` such that `u + (-u) = 0`
+### Core Concepts
 
-### Linear Transformations
-A linear transformation is a function between vector spaces that preserves the operations of vector addition and scalar multiplication. The key properties of a linear transformation are:
+#### Vector Spaces
 
-* Linearity: `T(u + v) = T(u) + T(v)` and `T(cu) = cT(u)`
-* Injectivity: If `T(u) = T(v)`, then `u = v`
-* Surjectivity: For each vector `v` in the codomain, there exists a vector `u` in the domain such that `T(u) = v`
+A **vector space** is a set of vectors under two operations: addition and scalar multiplication. The axioms that define a vector space are:
 
-### Matrices
-A matrix is a rectangular array of numbers. The key properties of a matrix are:
+1. Closure under addition
+2. Commutativity of addition
+3. Associativity of addition
+4. Existence of additive identity (zero vector)
+5. Existence of additive inverse
+6. Distributive law for scalar multiplication over vector addition
+7. Distributive law for scalar multiplication over scalar addition
+8. Scalar multiplication is associative
 
-* Rows and columns: A matrix has rows and columns, denoted by `m x n`
-* Addition and multiplication: Matrices can be added together and multiplied by scalars or other matrices.
+#### Linear Transformations
 
-## Key Formulas/Theorems
+A **linear transformation** is a function between vector spaces that preserves the operations of vector addition and scalar multiplication. The standard form of a linear transformation is:
 
-### Determinant
-The determinant of an `n x n` matrix `A` is denoted by `|A|`. It can be calculated using the formula:
+f: V → W, where f(v) = Av
 
-$$
-|A| = \begin{vmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{n1} & a_{n2} & \cdots & a_{nn}
-\end{vmatrix}
-$$
+where A is a matrix representing the linear transformation.
 
-### Rank
-The rank of an `n x n` matrix `A` is denoted by `r`. It can be calculated using the formula:
+#### Matrices
 
-$$
-r = \begin{cases}
-0, & \text{if } |A| = 0 \\
-1, & \text{if } |A| \neq 0 \text{ and } A \text{ has a single row or column} \\
-2, & \text{if } |A| \neq 0 \text{ and } A \text{ has two rows or columns} \\
-\vdots & \\
-n, & \text{if } |A| \neq 0 \text{ and } A \text{ is invertible}
-\end{cases}
-$$
+A **matrix** is a rectangular array of numbers. Matrices can be used to represent systems of linear equations, linear transformations, and vector spaces. The main types of matrices are:
 
-## Problem Solving Patterns
+1. Row matrix
+2. Column matrix
+3. Square matrix
+4. Diagonal matrix
+5. Scalar matrix
 
-### Non-Trivial Solution
-For a non-trivial solution to exist in the system of equations `Ax = 0`, where `A` is an `n x n` matrix, we need to satisfy the condition:
+#### Determinants
 
-$$
-r < n
-$$
+The **determinant** of a square matrix A is denoted by |A| or det(A). It can be used to determine the invertibility of a matrix and the number of solutions to a system of linear equations.
 
-This implies that the determinant of `A` must be zero:
+Key Formula:
 
-$$
-|A| = 0
-$$
+$det(A) = \sum_{i=1}^{n} (-1)^{i+j} a_{ij} M_{ij}$
 
-### Determinant Calculation
-The determinant of a square matrix can be calculated using the formula:
+where $M_{ij}$ is the minor of $a_{ij}$.
 
-$$
-|A| = \sum_{i=1}^{n} (-1)^{i+j} a_{ij} M_{ij}
-$$
+### Key Formulas/Theorems
 
-where `M_ij` is the minor of element `a_ij`.
+1. **Rank-Nullity Theorem**:
 
-## Examples with Solutions
+$rank(A) + nullity(A) = n$
 
-### Example 1: Non-Trivial Solution
-Consider the system of equations:
+2. **Cramer's Rule**:
 
-$$
-\begin{bmatrix}
-2 & 3 \\
-4 & 5
-\end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}
-$$
+$x_i = \frac{det(M_i)}{det(A)}$
 
-To find a non-trivial solution, we need to satisfy the condition:
+3. **Invertibility Criterion**:
 
-$$
-r < n
-$$
+A matrix A is invertible if and only if |A| ≠ 0.
 
-Since `|A| = 10 - 12 = -2`, we have:
+4. **Eigenvalues and Eigenvectors**:
 
-$$
-r < 2
-$$
+The eigenvalues of a matrix A are the scalars λ such that there exists a non-zero vector v satisfying Av = λv.
 
-This implies that a non-trivial solution exists.
+### Problem Solving Patterns
 
-### Example 2: Determinant Calculation
-Consider the matrix:
+1. **System of Linear Equations**: Represent the system as an augmented matrix and perform row operations to transform it into reduced row echelon form.
+2. **Matrix Inversion**: Use Cramer's rule or the formula for the inverse of a 2x2 matrix to find the inverse.
+3. **Eigenvalues and Eigenvectors**: Find the characteristic equation, solve for λ, and find the corresponding eigenvectors.
 
-$$
-A = \begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{bmatrix}
-$$
+### Examples with Solutions
 
-To calculate the determinant of `A`, we can use the formula:
+**Example 1: System of Linear Equations**
 
-$$
-|A| = \sum_{i=1}^{n} (-1)^{i+j} a_{ij} M_{ij}
-$$
+Solve the system:
 
-## Common Pitfalls
+2x + 3y = 7
+x - 2y = -3
 
-* Forgetting to check the rank of the matrix.
-* Misinterpreting the determinant as the solution to the system of equations.
+Represent the system as an augmented matrix:
 
-## Quick Summary
+$\begin{bmatrix} 2 & 3 & | & 7 \\ 1 & -2 & | & -3 \end{bmatrix}$
 
-* Vector spaces: Closure under addition, commutativity of addition, associativity of addition, existence of additive identity, and existence of additive inverse.
-* Linear transformations: Linearity, injectivity, and surjectivity.
-* Matrices: Rows and columns, addition, and multiplication.
-* Determinant: Formula for calculating the determinant.
-* Rank: Formula for calculating the rank.
+Perform row operations to transform it into reduced row echelon form.
 
-Note: This is a basic outline of linear algebra concepts. For more advanced topics and detailed explanations, please refer to a comprehensive linear algebra textbook.
+**Example 2: Matrix Inversion**
+
+Find the inverse of the matrix A = $\begin{bmatrix} 2 & 1 \\ 4 & 3 \end{bmatrix}$
+
+Use Cramer's rule:
+
+$A^{-1} = \frac{1}{det(A)} \begin{bmatrix} det(M_1) & -det(M_2) \\ -det(M_3) & det(M_4) \end{bmatrix}$
+
+**Example 3: Eigenvalues and Eigenvectors**
+
+Find the eigenvalues and eigenvectors of the matrix A = $\begin{bmatrix} 2 & 1 \\ 4 & 3 \end{bmatrix}$
+
+Find the characteristic equation:
+
+$det(A - λI) = 0$
+
+Solve for λ.
+
+### Common Pitfalls
+
+1. **Incorrect Row Operations**: Make sure to perform row operations correctly to avoid incorrect solutions.
+2. **Invertibility Criterion**: Remember that a matrix A is invertible if and only if |A| ≠ 0.
+3. **Eigenvalues and Eigenvectors**: Be careful when finding the eigenvalues and eigenvectors, as the calculations can be complex.
+
+### Quick Summary
+
+* Vector spaces: Define vector addition and scalar multiplication
+* Linear transformations: Preserve vector addition and scalar multiplication
+* Matrices: Represent systems of linear equations, linear transformations, and vector spaces
+* Determinants: Used to determine invertibility and number of solutions
+* Rank-Nullity Theorem: rank(A) + nullity(A) = n
+* Cramer's Rule: x_i = det(M_i) / det(A)
+* Invertibility Criterion: |A| ≠ 0 for a matrix A to be invertible
+
+Note: This is not an exhaustive list, but it covers the main concepts and formulas tested in the source questions.

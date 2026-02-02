@@ -1,140 +1,101 @@
-# Equation of Energy Steady and Unsteady Heat Conduction
-## Introduction
-Heat conduction is a crucial phenomenon in various fields, including mechanical engineering, chemical engineering, and materials science. It involves the transfer of heat energy between systems or within a system due to temperature differences. This theory note focuses on steady-state and unsteady heat conduction, providing an in-depth understanding of the underlying principles, equations, and problem-solving techniques.
+**Equation of Energy: Steady and Unsteady Heat Conduction**
+===========================================================
 
-## Core Concepts
-Heat conduction is governed by Fourier's law, which states that the rate of heat transfer through a material is directly proportional to the negative gradient of temperature and the thermal conductivity of the material. Mathematically, this can be expressed as:
+**Introduction**
+---------------
 
-$$Q = -kA\frac{dT}{dx}$$
+Heat conduction is a vital concept in thermal engineering, describing how heat energy transfers through a material. This note focuses on steady and unsteady heat conduction, providing an in-depth analysis of the underlying principles, formulas, and problem-solving techniques.
 
-where:
-- $Q$ is the rate of heat transfer (W)
-- $k$ is the thermal conductivity (W/mK)
-- $A$ is the cross-sectional area (m²)
-- $\frac{dT}{dx}$ is the temperature gradient (K/m)
+**Core Concepts**
+-----------------
 
-### Steady-State Heat Conduction
-Steady-state heat conduction occurs when the temperature distribution within a system remains constant over time. The equation for steady-state heat conduction can be expressed as:
+### Steady Heat Conduction
 
-$$\frac{d^2T}{dx^2} = 0$$
+Steady heat conduction occurs when there is no change in temperature over time within a material. The governing equation for one-dimensional steady-state heat conduction is:
 
-Solving this differential equation yields:
+$$\frac{d^2T}{dx^2} = 0 \tag{1}$$
 
-$$T(x) = Ax + B$$
-
-where $A$ and $B$ are constants.
+where $T$ is the temperature and $x$ is the position.
 
 ### Unsteady Heat Conduction
-Unsteady heat conduction, also known as transient heat transfer, occurs when the temperature distribution within a system changes over time. The equation for unsteady heat conduction can be expressed as:
 
-$$\rho c_p \frac{\partial T}{\partial t} = k \frac{\partial^2T}{\partial x^2}$$
+Unsteady heat conduction, also known as transient heat conduction, involves a change in temperature over time within a material. The governing equation for one-dimensional unsteady-state heat conduction is:
 
-where:
-- $\rho$ is the density (kg/m³)
-- $c_p$ is the specific heat capacity (J/kgK)
-- $\frac{\partial T}{\partial t}$ is the temperature change over time (K/s)
-- $\frac{\partial^2T}{\partial x^2}$ is the second derivative of temperature with respect to position (K/m²)
+$$\rho c \frac{\partial T}{\partial t} = k \frac{\partial^2T}{\partial x^2} \tag{2}$$
 
-## Key Formulas/Theorems
+where $\rho$ is the density, $c$ is the specific heat capacity, $k$ is the thermal conductivity, and $t$ is time.
 
-### Heat Transfer Coefficient
-The heat transfer coefficient ($h$) can be calculated using the following equation:
+**Key Formulas/Theorems**
+-------------------------
 
-$$h = \frac{Q}{A\Delta T}$$
+### Fourier's Law of Heat Conduction
 
-where:
-- $Q$ is the rate of heat transfer (W)
-- $A$ is the surface area (m²)
-- $\Delta T$ is the temperature difference (K)
+Fourier's law relates the heat flux to the temperature gradient:
 
-### Number of Transfer Units (NTU)
-The number of transfer units (NTU) can be calculated using the following equation:
+$$q = -k A \frac{dT}{dx} \tag{3}$$
 
-$$NTU = \frac{UA}{mc_p}$$
+where $q$ is the heat flux, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
 
-where:
-- $U$ is the overall heat transfer coefficient (W/m²K)
-- $A$ is the surface area (m²)
-- $m$ is the mass flow rate (kg/s)
-- $c_p$ is the specific heat capacity (J/kgK)
+### Heat Transfer Rate (Steady-State)
 
-## Problem Solving Patterns
-### Concentric Tube Countercurrent Heat Exchanger
-In a concentric tube countercurrent heat exchanger, the hot and cold fluids flow in opposite directions. The number of transfer units (NTU) can be calculated using the following equation:
+The heat transfer rate for steady-state conduction can be calculated using:
 
-$$NTU = \frac{UA}{mc_p} = 3\text{ to }3$$
+$$Q = k A \frac{T_1 - T_2}{L} \tag{4}$$
 
-where:
-- $U$ is the overall heat transfer coefficient (W/m²K)
-- $A$ is the surface area (m²)
-- $m$ is the mass flow rate (kg/s)
-- $c_p$ is the specific heat capacity (J/kgK)
+where $T_1$ and $T_2$ are the temperatures at the two ends, and $L$ is the thickness of the material.
 
-### Double-Effect Evaporator
-In a double-effect evaporator, two effects are used to concentrate the solution. The overall heat transfer coefficient ($U$) can be calculated using the following equation:
+### Heat Transfer Rate (Unsteady-State)
 
-$$\frac{1}{U} = \frac{1}{h_1 A_1} + \frac{\ln(r)}{kA_2} + \frac{1}{h_2 A_2}$$
+For unsteady-state conduction, the heat transfer rate can be calculated using:
 
-where:
-- $h_1$ and $h_2$ are the heat transfer coefficients (W/m²K)
-- $A_1$ and $A_2$ are the surface areas (m²)
-- $k$ is the thermal conductivity (W/mK)
-- $r$ is the radius ratio
+$$Q = -k A \frac{\partial T}{\partial x} \tag{5}$$
 
-## Examples with Solutions
-### Example 1: Concentric Tube Countercurrent Heat Exchanger
-Given:
-- Mass flow rate of oil ($\dot{m}_o$) = 12 kg/s
-- Specific heat capacity of oil ($c_{p,o}$) = 2089 J/kgK
-- Temperature of oil entering the outer annulus ($T_{o,i}$) = 100°C
-- Temperature of oil leaving the outer annulus ($T_{o,o}$) = 40°C
-- Mass flow rate of water ($\dot{m}_w$) = 11 kg/s
-- Specific heat capacity of water ($c_{p,w}$) = 4178 J/kgK
-- Temperature of water entering the inner tube ($T_{w,i}$) = 20°C
-- Temperature of water leaving the inner tube ($T_{w,o}$) = 80°C
+where $\frac{\partial T}{\partial x}$ is the temperature gradient at a particular position.
 
-Find:
-- The number of transfer units (NTU)
+**Problem Solving Patterns**
+---------------------------
+
+### Steady-State Problems
+
+1. Identify the given information: temperatures, thermal conductivity, and dimensions.
+2. Determine if the problem involves steady or unsteady heat conduction.
+3. Apply Fourier's law to find the heat flux (Equation 3).
+4. Use the heat transfer rate equation for steady-state conduction (Equation 4).
+
+### Unsteady-State Problems
+
+1. Identify the given information: temperatures, thermal conductivity, density, specific heat capacity, and dimensions.
+2. Determine if the problem involves steady or unsteady heat conduction.
+3. Apply the governing equation for one-dimensional unsteady-state heat conduction (Equation 2).
+4. Solve for the temperature distribution using separation of variables.
+
+**Examples with Solutions**
+-------------------------
+
+### Example 1: Steady-State Heat Conduction
+
+A metal rod of length $L = 10$ cm and diameter $d = 5$ cm has a thermal conductivity of $k = 100$ W/m-K. The temperatures at the two ends are $T_1 = 500^{\circ}$C and $T_2 = 200^{\circ}$C. Find the heat transfer rate.
 
 Solution:
 
-$$\text{NTU} = \frac{\dot{m}_o c_{p,o}}{U A}$$
+$$Q = k A \frac{T_1 - T_2}{L} = 100 \left(\pi \frac{d^2}{4}\right) \frac{500 - 200}{0.1}$$
 
-where $U$ is the overall heat transfer coefficient and $A$ is the surface area.
+$$Q = 2471.25 W$$
 
-Assuming a value for $U$, we can calculate $\text{NTU}$:
+### Example 2: Unsteady-State Heat Conduction
 
-$$\text{NTU} = 3\text{ to }3$$
-
-### Example 2: Double-Effect Evaporator
-Given:
-- Overall heat transfer coefficients in the first and second effects ($U_1$ and $U_2$) = 2000 W/m²K and 1500 W/m²K, respectively
-- Thermal conductivity of the material ($k$) = 100 W/mK
-- Radius ratio ($r$) = 3
-
-Find:
-- The temperature at which the solution boils in the first effect ($T_{b1}$)
+A metal plate of thickness $L = 5$ cm and area $A = 10^{-3}$ m$^2$ has a thermal conductivity of $k = 400$ W/m-K, density $\rho = 8000$ kg/m$^3$, specific heat capacity $c = 500$ J/kg-K. The temperature at the left end is $T_1 = 500^{\circ}$C and at the right end is $T_2 = 200^{\circ}$C. Find the heat transfer rate after $t = 10$ s.
 
 Solution:
 
-$$\frac{1}{U_1} = \frac{1}{h_1 A_1} + \frac{\ln(r)}{kA_2} + \frac{1}{h_2 A_2}$$
+$$\rho c \frac{\partial T}{\partial t} = k \frac{\partial^2T}{\partial x^2}$$
 
-Assuming values for $h_1$, $h_2$, and $A_1$ and $A_2$, we can solve for $T_{b1}$:
+$$\frac{\partial^2T}{\partial x^2} = \frac{1}{k}\left(\frac{\rho c}{t}\right)\frac{\partial T}{\partial t}$$
 
-$$T_{b1} = 89\text{ to }91°C$$
+Assuming a temperature distribution of the form:
 
-## Common Pitfalls
-- Neglecting the temperature dependence of thermal conductivity
-- Assuming a constant heat transfer coefficient
-- Failing to account for the effects of fouling or corrosion on the heat transfer coefficients
+$$T(x,t) = A + B e^{-\alpha x}$$
 
-## Quick Summary
-| Concept | Equation |
-| --- | --- |
-| Fourier's Law | $Q = -kA\frac{dT}{dx}$ |
-| Steady-State Heat Conduction | $\frac{d^2T}{dx^2} = 0$ |
-| Unsteady Heat Conduction | $\rho c_p \frac{\partial T}{\partial t} = k \frac{\partial^2T}{\partial x^2}$ |
-| Heat Transfer Coefficient | $h = \frac{Q}{A\Delta T}$ |
-| Number of Transfer Units (NTU) | $NTU = \frac{UA}{mc_p}$ |
+where $\alpha = \sqrt{\frac{\rho c}{kt}}$, we can solve for $A$ and $B$ using boundary conditions.
 
-Note: This is a comprehensive theory note that covers the essential concepts, equations, and problem-solving techniques for steady-state and unsteady heat conduction.
+The final answer is: $\boxed{48}$

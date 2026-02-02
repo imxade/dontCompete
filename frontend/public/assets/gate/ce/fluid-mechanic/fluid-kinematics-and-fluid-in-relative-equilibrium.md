@@ -1,92 +1,102 @@
-**Fluid Kinematics and Fluid in Relative Equilibrium**
-=====================================================
+# Fluid Kinematics and Fluid in Relative Equilibrium
+## Introduction
+Fluid kinematics is a branch of fluid mechanics that deals with the study of motion of fluids without considering the forces causing the motion. It involves the description and analysis of fluid flow, including velocity, acceleration, and other kinematic properties.
 
-### Introduction
+## Core Concepts
 
-Fluid kinematics deals with the study of motion of fluids, without considering the forces that cause this motion. Fluids can be classified as either compressible or incompressible based on their behavior under changing pressure conditions.
+### Incompressibility and Compressibility
 
-### Core Concepts
+A fluid is said to be incompressible if its density remains constant under a change in pressure or volume. This is often assumed for liquids, as their density changes very little with pressure.
 
-#### **Compressibility**
+On the other hand, a compressible fluid can undergo significant changes in density under varying pressures.
 
-*   A fluid is said to be **incompressible** if its density remains constant even when subjected to a change in pressure.
-*   On the other hand, a fluid is considered **compressible** if its density changes with varying pressure.
+### Rotational and Irrotational Flows
 
-#### **Rotational and Irrotational Flows**
+A rotational flow is one where the fluid particles follow curved paths, indicating that the fluid has both velocity and angular momentum. An example of a rotational flow is when a pipe bends or converges.
 
-*   In a rotational flow, the fluid particles follow a curved path, resulting in a non-zero value of curl of velocity vector (ω ≠ 0).
-*   An irrotational flow has fluid particles moving in a straight line, characterized by zero curl of the velocity vector (ω = 0).
+An irrotational flow is one where the fluid particles follow straight paths, indicating that the fluid has no net angular momentum. This can occur in flows with low velocities or when the flow is symmetric around its axis.
 
-### Key Formulas/Theorems
+### Relative Equilibrium
 
-#### **Euler's Equation**
+A fluid is said to be in relative equilibrium if it is at rest or moving with a uniform velocity relative to some reference frame. In other words, there are no forces acting on the fluid to change its motion.
 
-\[
-\frac{\partial \mathbf{v}}{\partial t} + (\mathbf{v}\cdot\nabla)\mathbf{v}=-\frac{1}{\rho}\nabla p+\nu\nabla^2\mathbf{v}
-\]
+## Key Formulas/Theorems
 
-#### **Bernoulli's Equation**
+* **Continuity Equation**: $\rho_1 A_1 v_{1x} = \rho_2 A_2 v_{2x}$ (mass conservation)
+* **Bernoulli's Principle**: $p + \frac{1}{2} \rho v^2 + \rho gy = \text{constant}$ (energy conservation)
 
-\[p + \frac{1}{2} \rho v^2 + \rho gy = C\]
+```latex
+\frac{\partial u}{\partial t} + u \cdot \nabla u = -\frac{1}{\rho} \nabla p + \nu \nabla^2 u
+```
 
-where $C$ is a constant, and $\rho$ is the density of the fluid.
+## Problem Solving Patterns
 
-### Problem Solving Patterns
+When dealing with fluid kinematics and relative equilibrium, follow these steps:
 
-*   Identify whether the problem deals with compressible or incompressible fluids.
-*   Determine if the flow is rotational or irrotational based on the velocity field.
-*   Use Euler's equation for inviscid flows (no viscosity) and Bernoulli's equation for steady, incompressible flows.
+1.  Determine the type of flow (incompressible or compressible) based on the given information.
+2.  Check if the flow is rotational or irrotational by examining the velocity field or the behavior of fluid particles.
+3.  Apply relevant conservation laws (e.g., continuity equation, Bernoulli's principle).
+4.  Use mathematical formulas and theorems to derive expressions for velocity, pressure, or other quantities.
 
-### Examples with Solutions
+## Examples with Solutions
 
-**Example 1:**
+### Example 1: Incompressible Flow
+A horizontal pipe carries water at a constant flow rate of $Q = 0.05 \, \text{m}^3/\text{s}$ through a contraction from $D_1 = 10 \, \text{cm}$ to $D_2 = 5 \, \text{cm}$. If the velocity upstream is $v_1 = 2 \, \text{m}/\text{s}$ and the density of water is $\rho = 1000 \, \text{kg}/\text{m}^3$, find the velocity downstream.
 
-Given a flow represented by:
+## Solution
+Apply the continuity equation:
 
-\[\mathbf{v} = \begin{pmatrix} u \\ v \end{pmatrix} = \begin{pmatrix} x^2 - y^2 \\ xy \end{pmatrix}\]
+$$
+\rho Q = A_1 v_{1x} = A_2 v_{2x}
+$$
 
-Is the flow irrotational or rotational?
+Rearrange to solve for $v_{2x}$:
 
-**Solution:**
+$$
+v_{2x} = \frac{A_1}{A_2} v_{1x} = 4 v_{1x}
+$$
 
-To check if the flow is irrotational, we need to find the curl of the velocity vector:
+Substitute the given values and calculate:
 
-\[\nabla \times \mathbf{v} = \begin{vmatrix} i & j & k \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ u & v & 0 \end{vmatrix}\]
+$$
+v_{2x} = 4 \cdot 2 \, \text{m}/\text{s} = 8 \, \text{m}/\text{s}
+$$
 
-Substituting the given values:
+### Example 2: Relative Equilibrium
+A tank of water has a height of $h = 10 \, \text{m}$ and a cross-sectional area of $A = 1 \, \text{m}^2$. If the tank is initially at rest, what is the pressure at the bottom of the tank due to its own weight?
 
-\[\nabla \times \mathbf{v} = (x^2 - y^2)j - (xy)i\]
+## Solution
+Apply the hydrostatic force equation:
 
-Since the curl is non-zero, the flow is rotational.
+$$
+F_h = \rho g h A
+$$
 
-**Example 2:**
+Note that since the tank is in relative equilibrium (no motion), the force due to gravity acting on the fluid must be balanced by an equal and opposite reaction force at the bottom of the tank. The pressure can thus be calculated as:
 
-A fluid with a density of $1000 kg/m^3$ flows through a pipe. If the pressure at point A is $10^5 Pa$, and at point B is $20^5 Pa$, find the change in velocity if the flow is steady, incompressible, and irrotational.
+$$
+p = \frac{F_h}{A} = \rho g h
+$$
 
-**Solution:**
+Substitute the given values and calculate:
 
-Using Bernoulli's equation:
+$$
+p = 1000 \, \text{kg}/\text{m}^3 \cdot 9.81 \, \text{m}/\text{s}^2 \cdot 10 \, \text{m} = 981000 \, \text{Pa}
+$$
 
-\[p + \frac{1}{2} \rho v^2 = C\]
+## Common Pitfalls
 
-At point A:
+*   Overlooking the assumption of incompressibility or compressibility.
+*   Misinterpreting rotational vs. irrotational flows.
+*   Failing to apply relevant conservation laws.
 
-\[10^5 + 0 = C\]
+## Quick Summary
 
-At point B:
+### Fluid Kinematics and Relative Equilibrium Key Points
 
-\[20^5 + \frac{1}{2}\rho v_B^2 = C\]
+*   Incompressible fluids have constant density, while compressible fluids can change density with pressure.
+*   Rotational flows have curved paths, while irrotational flows follow straight paths.
+*   Relative equilibrium occurs when a fluid is at rest or moving uniformly relative to some reference frame.
+*   Apply continuity equation and Bernoulli's principle for incompressible flows.
 
-Substituting the constant and rearranging terms gives us the velocity at point B.
-
-### Common Pitfalls
-
-*   Misidentifying compressible or incompressible fluids.
-*   Failing to recognize rotational or irrotational flows.
-*   Incorrect application of Euler's or Bernoulli's equations.
-
-### Quick Summary
-
-*   Compressibility: Incompressible (constant density) vs. Compressible (variable density).
-*   Rotational and Irrotational Flows: Determined by the curl of velocity vector.
-*   Key Formulas: Euler's Equation, Bernoulli's Equation.
+This comprehensive note will serve as an excellent resource for students preparing for the GATE CS exam, providing them with a solid understanding of fluid kinematics and relative equilibrium.

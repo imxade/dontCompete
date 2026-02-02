@@ -1,103 +1,104 @@
-**Transport Layer Theory Notes**
-=====================================
+**Transport Layer**
+====================
 
 **Introduction**
----------------
-
-The transport layer, also known as the transport protocol layer, is the fourth layer of the OSI model (Open Systems Interconnection) and the second highest layer in the TCP/IP stack. Its primary function is to provide reliable data transfer between devices over a network. The transport layer ensures that data packets are delivered error-free, in order, and within a certain time frame.
-
-**Core Concepts**
 -----------------
 
-### Segmentation and Reassembly
+The Transport Layer is responsible for providing reliable data transfer between devices on a network. It ensures that data packets are delivered in the correct order and reassembles them at the receiving end. TCP (Transmission Control Protocol) is one of the primary protocols used in the Transport Layer.
 
-*   Segmentation: The process of breaking down large data packets into smaller ones for efficient transmission.
-*   Reassembly: The process of reassembling the segmented packets at the receiving end to form the original data packet.
+**Core Concepts**
+------------------
 
-### Flow Control
+### Connection Establishment
 
-*   Flow control is necessary to prevent network congestion by regulating the amount of data sent over a connection.
-*   It involves the sender and receiver agreeing on a maximum amount of data that can be transmitted before an acknowledgement (ACK) is received.
-
-### Connection Establishment and Termination
-
-*   The three-way handshake:
-    1.  **SYN (Synchronize)**: The client sends a SYN packet to establish a connection.
-    2.  **SYN-ACK (Synchronize-Acknowledgment)**: The server responds with a SYN-ACK packet, acknowledging the client's request and sending its own sequence number.
-    3.  **ACK (Acknowledgment)**: The client acknowledges the server's SYN-ACK packet, completing the connection establishment process.
-
-### Reliability
-
-*   Reliable data transfer is achieved through:
-    *   **Checksum**: A mathematical operation on the data to detect errors during transmission.
-    *   **Sequence Number**: Each packet has a unique sequence number for reassembly at the receiving end.
-    *   **Acknowledgment (ACK)**: The receiver acknowledges receipt of each packet, allowing the sender to retransmit lost or corrupted packets.
+*   **Three-Way Handshake**: A mechanism to establish a connection between two hosts.
+    *   SYN (Sync) bit set to 1 by the client, indicating it wants to initiate a connection.
+    *   Server responds with a SYN-ACK (Syn Acknowledgement) packet, which sets its own SYN bit and acknowledges the client's packet. The server also sends its initial sequence number (ISN).
+    *   Client sends an ACK (Acknowledgement) packet, acknowledging the server's ISN.
 
 ### Congestion Control
 
-*   Congestion control is necessary to prevent network congestion by regulating the amount of data transmitted over a connection.
-*   It involves adjusting the transmission rate based on feedback from the network.
+*   **TCP Congestion Window**: A variable that limits the amount of data sent by a host.
+*   **Slow Start**: An algorithm used to prevent network congestion during connection establishment.
+*   **Congestion Avoidance**: An algorithm used to regulate traffic once a TCP connection is established.
 
 **Key Formulas/Theorems**
 -------------------------
 
-### Bandwidth-Delay Product
+### TCP Congestion Control
 
-The minimum number of bits required for sequence numbers in TCP can be calculated using the bandwidth-delay product formula:
+*   $cwnd = \min(\frac{window\_size}{MSS}, cwnd_{max})$
 
-$$\text{bandwidth-delay product} = \frac{\text{bandwidth}}{\text{round-trip time}}$$
-
-where **bandwidth** is measured in bits per second and **round-trip time** is measured in seconds.
-
-### Sequence Number Calculation
-
-The minimum number of bits required for sequence numbers in TCP can be calculated using the following formula:
-
-$$\text{min sequence number bits} = \lceil \log_2 (\text{bandwidth-delay product}) \rceil$$
-
-where $\lceil x \rceil$ denotes the ceiling function, which rounds $x$ up to the nearest integer.
+where $cwnd$ is the congestion window, $window\_size$ is the maximum allowed window size, and $MSS$ is the Maximum Segment Size.
 
 **Problem Solving Patterns**
 ---------------------------
 
-1.  **Bandwidth-Delay Product**: When calculating the minimum number of bits required for sequence numbers in TCP, use the bandwidth-delay product formula.
-2.  **Sequence Number Calculation**: Use the sequence number calculation formula to determine the minimum number of bits required for sequence numbers.
+### TCP Connection Establishment
+
+*   Identify whether a connection is being established or an existing connection is being used.
+*   Determine which host initiates the connection (client or server).
+*   Calculate sequence numbers and acknowledge numbers for each packet.
+
+### Congestion Control
+
+*   Understand the current state of congestion control (slow start, congestion avoidance, or fast recovery).
+*   Identify changes in network conditions that may affect congestion control algorithms.
 
 **Examples with Solutions**
--------------------------
+---------------------------
 
-### Example 1: Bandwidth-Delay Product
+### Example 1: TCP Connection Establishment
 
-*   **Problem**: What is the minimum number of bits required for sequence numbers in a TCP connection if the bandwidth is 1 Gbps and the round-trip time is 60 seconds?
-*   **Solution**: Use the bandwidth-delay product formula to calculate the minimum number of bits required:
+Suppose a client initiates a connection to a server. The client's initial sequence number is 1000, and the server chooses an initial sequence number of 2000.
 
-$$\text{bandwidth-delay product} = \frac{\text{bandwidth}}{\text{round-trip time}} = \frac{10^9}{60} = 16,667,000$$
+#### Step 1: Client Sends SYN Packet
 
-Since we need to round up to the nearest integer, we get $\lceil 16,667,000 \rceil = 16,667,001$. Now, let's find the minimum number of bits required for sequence numbers:
+| Field | Value |
+| --- | --- |
+| SYN bit | 1 |
+| Sequence Number | 1000 |
 
-$$\text{min sequence number bits} = \lceil \log_2 (16,667,001) \rceil = 33$$
+#### Step 2: Server Responds with SYN-ACK Packet
 
-Therefore, the minimum number of bits required for sequence numbers in this TCP connection is **33**.
+| Field | Value |
+| --- | --- |
+| SYN bit | 1 |
+| ACK bit | 1 |
+| Acknowledge Number | 2001 |
+| Initial Sequence Number (ISN) | 2000 |
 
-### Example 2: Sequence Number Calculation
+#### Step 3: Client Sends ACK Packet
 
-*   **Problem**: A TCP client establishes a connection with a server. The client sends a SYN packet to establish the connection. Let $P_N$ denote the sequence number in the SYN sent from the client to the server. What can be said about the acknowledge number $Q_N$ in the SYN-ACK from the server?
-*   **Solution**: Since the server is acknowledging the client's request, the acknowledge number $Q_N$ must equal $P_N + 1$. Therefore, option (D) is correct.
+| Field | Value |
+| --- | --- |
+| ACK bit | 1 |
+| Acknowledge Number | 3001 |
+
+### Example 2: Congestion Control
+
+Suppose a TCP connection has a congestion window of 10,000 bytes. The Maximum Segment Size (MSS) is 1,500 bytes.
+
+#### Step 4: Calculate Congestion Window Size
+
+$cwnd = \min(\frac{window\_size}{MSS}, cwnd_{max})$
+$cwnd = \min(\frac{10,000}{1500}, 10,000)$
+$cwnd = \min(6.67, 10,000) = 6,670$
 
 **Common Pitfalls**
--------------------
+------------------
 
-1.  **Rounding Errors**: When calculating the minimum number of bits required for sequence numbers, be aware that rounding errors can occur when using integer arithmetic.
-2.  **Assuming Random Sequence Numbers**: Be careful not to assume that the sequence numbers are chosen randomly; instead, use the correct formulas and calculations.
+*   Forgetting to set the SYN bit when initiating a connection.
+*   Misunderstanding sequence numbers and acknowledge numbers during connection establishment.
+*   Failing to account for changes in network conditions affecting congestion control.
 
 **Quick Summary**
 -----------------
 
-*   The transport layer provides reliable data transfer between devices over a network.
-*   Segmentation and reassembly ensure efficient transmission of large data packets.
-*   Flow control regulates the amount of data sent over a connection to prevent network congestion.
-*   Connection establishment and termination involve three-way handshakes.
-*   Reliability is achieved through checksums, sequence numbers, and acknowledgments.
-*   Congestion control adjusts the transmission rate based on feedback from the network.
-
-This comprehensive theory note covers all theoretical concepts, formulas, and insights required to solve the source questions and similar future questions.
+*   TCP Connection Establishment:
+    *   Three-way handshake
+    *   Sequence number and acknowledge number calculation
+*   Congestion Control:
+    *   Slow start
+    *   Congestion avoidance
+    *   Fast recovery

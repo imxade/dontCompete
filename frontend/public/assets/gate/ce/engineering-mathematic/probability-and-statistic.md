@@ -2,80 +2,114 @@
 ==========================
 
 ### Introduction
+-----------------
 
-Probability and statistics are fundamental concepts in engineering mathematics that help us understand and analyze random phenomena, make predictions, and assess uncertainty. In this section, we will cover key concepts, formulas, and problem-solving techniques relevant to GATE CS exam questions.
+Probability and statistics are fundamental tools used to analyze and make decisions based on uncertain events. In this note, we'll cover key concepts, formulas, and problem-solving techniques required for GATE CS exam.
 
 ### Core Concepts
+------------------
+
+#### Probability
+
+* **Experiment**: A specific action or event with a set of possible outcomes.
+* **Sample Space**: The set of all possible outcomes of an experiment.
+* **Event**: A subset of the sample space.
+* **Probability Measure** (PM): A function that assigns a number between 0 and 1 to each event, representing its likelihood.
 
 #### Random Variables
 
-A **random variable** is a function that assigns a real number to each outcome of an experiment or phenomenon. It can be either discrete (taking on distinct values) or continuous.
+* **Discrete RV**: Takes on distinct values, e.g., {0, 1, 2, ...}
+* **Continuous RV**: Can take any value within a range or interval
+* **Probability Distribution** (PD): A function that describes the probability of each possible value of a random variable.
 
-#### Probability Distribution
+#### Independence
 
-A **probability distribution**, also known as a probability density function (PDF), describes the likelihood of different outcomes of a random variable. Common distributions include:
-
-*   Uniform distribution
-*   Gaussian distribution (normal distribution)
-*   Binomial distribution
-*   Poisson distribution
-
-#### Cumulative Distribution Function (CDF)
-
-The **cumulative distribution function** (CDF) gives the probability that a random variable takes on a value less than or equal to a given value.
+* Two events E and F are **independent** if P(E ∩ F) = P(E) \* P(F)
 
 ### Key Formulas/Theorems
+---------------------------
 
-*   **Law of Large Numbers**: The average of a large sample of independent and identically distributed random variables will converge to their population mean.
-*   **Chebyshev's Inequality**: For a random variable with finite variance, the probability that it deviates from its mean by more than `k` standard deviations is less than or equal to 1/k^2.
-*   **Gaussian Distribution**:
-    *   Mean: μ
-    *   Standard Deviation: σ
-    *   PDF: f(x) = (1/√(2πσ^2)) \* exp(-((x-μ)^2)/(2σ^2))
-    *   CDF: F(x) = Φ((x-μ)/σ), where Φ is the cumulative distribution function of the standard normal distribution.
+**Conditional Probability**
+$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+
+**Multiplication Rule**
+$$P(A \cap B) = P(A|B) \times P(B)$$
+
+**Bayes' Theorem**
+$$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
 
 ### Problem Solving Patterns
+-----------------------------
 
-#### Probability Questions
+#### Probability of Independent Events
 
-1.  **Use the multiplication rule** to find the probability of two independent events occurring together.
-2.  **Use Bayes' theorem** to update probabilities based on new evidence or observations.
-3.  **Apply Markov's inequality** for problems involving expectations and inequalities.
+When events are independent, the probability of their intersection is simply the product of their individual probabilities.
 
-#### Statistical Analysis
+```mermaid
+graph LR
+Event A --> Probability of A
+Event B --> Probability of B
+A ∩ B --> P(A|B) × P(B)
+```
 
-1.  **Understand the concept of sample space**, and calculate probabilities using it.
-2.  **Calculate mean, median, mode**, and **standard deviation** in a dataset.
-3.  **Use confidence intervals** to estimate population parameters from a sample.
+#### Poisson Distribution
+
+The Poisson distribution models the number of events occurring within a fixed interval. Its probability mass function is:
+
+$$P(X = k) = \frac{e^{-\lambda} \times (\lambda)^k}{k!}$$
+
+where λ is the average rate of events.
 
 ### Examples with Solutions
+---------------------------
 
-**Example 1:** A fair six-sided die is rolled once. What is the probability that the outcome is even?
+**Q1: CE 2024-N-36**
 
-Solution:
+A patient has an 80% chance of having a heart attack without medicine X. If medicine X reduces this probability by 50%, what's the probability that a randomly selected patient, out of 100 patients who took medicine X, has a heart attack?
 
-*   Possible outcomes: {1, 2, 3, 4, 5, 6}
-*   Favorable outcomes (even): {2, 4, 6}
-*   Probability = Number of favorable outcomes / Total number of outcomes
-= 3/6 = 1/2
+Let A be the event "patient takes medicine X" and B be "patient has a heart attack." We want to find P(A ∩ B).
 
-**Example 2:** A pair of six-sided dice is rolled twice. What is the probability that the sum of the first roll is even and the sum of the second roll is odd?
+P(B|A) = 0.5 (medicine reduces probability by 50%)
+P(A) = 1/2 (50 patients took medicine out of 100)
 
-Solution:
+Using Bayes' Theorem, we get:
 
-*   Possible outcomes for each roll: {2, 4, 6} (even), {1, 3, 5} (odd)
-*   Probability of even-odd outcome = (Probability of even) \* (Probability of odd)
-= (1/2) \* (1/2) = 1/4
+$$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
+
+However, since the patient has an 80% chance of having a heart attack without medicine X, P(B) is actually 0.8.
+
+```python
+import math
+
+# Given probabilities
+p_B_given_A = 0.5
+p_A = 1/2
+p_B = 0.8
+
+# Bayes' Theorem
+def bayes_theorem(p_B_given_A, p_A, p_B):
+    return (p_B_given_A * p_A) / p_B
+
+print("Probability:", bayes_theorem(p_B_given_A, p_A, p_B))
+```
+
+Running this code will give us the answer.
 
 ### Common Pitfalls
+-------------------
 
-*   **Confusing independence with causality**. Ensure that the events you are dealing with are truly independent.
-*   **Failing to check for edge cases**. Make sure to consider extreme values and their impact on your solution.
+* Failing to account for independence between events.
+* Misapplying Bayes' Theorem or other probability formulas.
+* Not considering the specific context of each question.
 
 ### Quick Summary
+------------------
 
-*   Understand random variables, probability distributions, and cumulative distribution functions
-*   Apply key formulas and theorems like Chebyshev's inequality and Bayes' theorem
-*   Use problem-solving patterns specific to probability and statistics questions
+| Concept | Key Point |
+| --- | --- |
+| Probability Measure (PM) | Assigns a number between 0 and 1 to each event, representing its likelihood. |
+| Conditional Probability | P(A|B) = P(A ∩ B) / P(B) |
+| Multiplication Rule | P(A ∩ B) = P(A|B) × P(B) |
+| Bayes' Theorem | P(A|B) = (P(B|A) × P(A)) / P(B) |
 
-**Note:** This is a comprehensive theory note for Probability and Statistics. For practice problems and examples, refer to official GATE CS resources or other reliable sources.
+This note should provide a solid foundation for tackling probability and statistics questions on the GATE CS exam. Remember to practice problems and review key concepts regularly!

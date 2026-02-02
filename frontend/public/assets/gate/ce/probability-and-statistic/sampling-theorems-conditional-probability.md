@@ -1,72 +1,87 @@
-**Sampling Theorems and Conditional Probability**
-======================================================
+**Theory Note: Sampling Theorems and Conditional Probability**
+===========================================================
 
-### Introduction
-Sampling theorems provide a framework for understanding the relationship between the sample space, events, and their probabilities. This topic is critical for probability and statistics as it enables us to make inferences about populations based on samples.
+**Introduction**
+---------------
 
-### Core Concepts
+Probability and Statistics are fundamental subjects in computer science, with applications in data analysis, machine learning, and artificial intelligence. This note focuses on sampling theorems and conditional probability, crucial concepts that have been tested in previous GATE exams.
 
-#### Sampling Theorems
+**Core Concepts**
+----------------
 
-*   **Law of Large Numbers (LLN)**: States that as the sample size increases, the average of the sample will converge to the population mean.
-    *   $\lim_{n\to\infty} \frac{1}{n} \sum_{i=1}^{n} X_i = E[X]$
-*   **Chebyshev's Inequality**: Provides a bound on the probability that a random variable deviates from its mean by more than a certain amount.
-    *   $P(|X - E[X]| \geq k) \leq \frac{\sigma^2}{k^2}$
+### 1. Cumulative Distribution Function (CDF)
 
-#### Conditional Probability
-Conditional probability measures the likelihood of an event occurring given that another event has occurred.
+The CDF of a random variable X is defined as:
 
-*   **Definition**: $P(A|B) = \frac{P(A \cap B)}{P(B)}$
-*   **Theorem**: If $A$ and $B$ are independent events, then $P(A|B) = P(A)$
+$$F(x) = P(X \leq x)$$
 
-### Key Formulas/Theorems
-$$
-\begin{align*}
-E[X] &= \sum_{x} xP(X=x) \\
-Var(X) &= E[(X-E[X])^2] \\
-P(A \cup B) &= P(A) + P(B) - P(A \cap B)
-\end{align*}
-$$
+where $P(X \leq x)$ represents the probability that X takes on a value less than or equal to x.
 
-### Problem Solving Patterns
-When solving problems involving sampling theorems and conditional probability, consider the following patterns:
+### 2. Gaussian Distribution
 
-1.  **Identify the problem type**: Determine whether it involves calculating a population parameter (e.g., mean or variance), assessing the likelihood of an event given another event has occurred, or estimating a sample statistic.
-2.  **Determine relevant formulas/theorems**: Choose the appropriate formula or theorem based on the problem context and the concepts required to solve it.
+A Gaussian distribution, also known as the normal distribution, is characterized by its mean (μ) and standard deviation (σ):
 
-### Examples with Solutions
-**Example 1:** A fair coin is flipped twice. What is the probability that at least one of the flips results in heads?
+$f(x | \mu, \sigma) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
 
-*   **Solution:**
-    *   Define events $A$ (first flip is heads) and $B$ (second flip is heads).
-    *   Since these events are independent, we can calculate their individual probabilities.
-    *   Calculate the probability of both events occurring ($P(A \cap B)$), then apply conditional probability to find $P(\text{at least one head})$
-        *   **Solution:**
-            $P(A) = P(B) = 0.5$
-            $P(A \cap B) = P(A) \cdot P(B) = 0.25$
-            $P(\text{at least one head}) = 1 - P(\text{no heads}) = 1 - (1-0.25)^2$
+The cumulative distribution function of a Gaussian distribution is:
 
-**Example 2:** Given that a random variable $X$ follows a Poisson distribution with mean $\lambda$, calculate the probability of at least two events occurring in any given interval.
+$F(x | \mu, \sigma) = \Phi \left( \frac{x-\mu}{\sigma} \right)$
 
-*   **Solution:**
-    *   Recall the formula for the Poisson distribution and apply it to find $P(X \geq 2)$.
-        $P(X = k) = e^{-\lambda} \frac{\lambda^k}{k!}$
+where $\Phi(z)$ is the cumulative distribution function of the standard normal distribution.
 
-### Common Pitfalls
-When solving problems involving sampling theorems and conditional probability, avoid these common pitfalls:
+### 3. Conditional Probability
 
-*   **Failing to identify relevant formulas/theorems**: Carefully review the problem context to ensure that you're using the correct formula or theorem.
-*   **Misapplying concepts**: Double-check your understanding of each concept before applying it to a problem.
+Conditional probability measures the probability of an event occurring given that another event has occurred:
 
-### Quick Summary
-Sampling theorems and conditional probability are crucial for making inferences about populations based on samples. This topic covers essential concepts, formulas, and theorems required to solve problems involving:
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$
 
-*   Law of Large Numbers (LLN)
-*   Chebyshev's Inequality
-*   Conditional Probability
+**Key Formulas/Theorems**
+-------------------------
 
-Mastering these principles will enable you to tackle a wide range of questions related to probability and statistics.
+* **Sampling Theorem**: A signal can be reconstructed from its samples if the sampling rate is greater than twice the highest frequency component of the signal.
+* **Conditional Probability Formula**: $P(A|B) = \frac{P(A \cap B)}{P(B)}$
+* **Gaussian Distribution PDF and CDF**: $f(x | \mu, \sigma)$ and $F(x | \mu, \sigma) = \Phi \left( \frac{x-\mu}{\sigma} \right)$
 
----
+**Problem Solving Patterns**
+---------------------------
 
-This comprehensive theory note covers all theoretical concepts, formulas, and insights required to solve the source questions and similar future ones.
+1. **Identify the distribution**: Recognize whether a problem involves a uniform, Gaussian, or other distributions.
+2. **Apply conditional probability**: Use the formula $P(A|B) = \frac{P(A \cap B)}{P(B)}$ to solve problems involving conditional events.
+3. **Use the sampling theorem**: Apply the sampling theorem to determine whether a signal can be reconstructed from its samples.
+
+**Examples with Solutions**
+-------------------------
+
+### Example 1: Gaussian Distribution CDF
+
+Find the cumulative distribution function of a Gaussian distribution with mean 0 and standard deviation 1 for x = 2.
+
+$F(2 | \mu=0, \sigma=1) = \Phi(2)$
+
+Using a standard normal distribution table or calculator:
+
+$F(2 | \mu=0, \sigma=1) \approx 0.9773$
+
+### Example 2: Conditional Probability
+
+Find the conditional probability of event A occurring given that event B has occurred.
+
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$
+
+Suppose $P(A \cap B) = 0.6$, $P(B) = 0.8$. Then:
+
+$P(A|B) = \frac{0.6}{0.8} = 0.75$
+
+**Common Pitfalls**
+-------------------
+
+* **Misapplying the sampling theorem**: Failing to recognize that a signal cannot be reconstructed from its samples if the sampling rate is not sufficient.
+* **Forgetting to account for conditional probability**: Omitting to use the formula $P(A|B) = \frac{P(A \cap B)}{P(B)}$ in problems involving conditional events.
+
+**Quick Summary**
+----------------
+
+* Cumulative distribution function (CDF): $F(x) = P(X \leq x)$
+* Gaussian distribution: $f(x | \mu, \sigma) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
+* Conditional probability: $P(A|B) = \frac{P(A \cap B)}{P(B)}$
+* Sampling theorem: A signal can be reconstructed from its samples if the sampling rate is greater than twice the highest frequency component of the signal.

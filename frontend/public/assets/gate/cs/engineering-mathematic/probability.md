@@ -1,90 +1,97 @@
-**Probability Theory Notes**
+**Probability Theory Note**
 ==========================
 
-### Introduction
+**Introduction**
+---------------
+
+Probability is a branch of mathematics that deals with quantifying uncertainty and likelihood. It plays a crucial role in engineering, computer science, and many other fields. This note covers essential concepts, formulas, and problem-solving strategies for the GATE CS exam.
+
+**Core Concepts**
 -----------------
 
-Probability theory provides a mathematical framework for quantifying and analyzing uncertainty and randomness. It's a crucial tool in engineering mathematics, enabling us to make informed decisions and predictions about complex systems.
+### 1. Events and Sample Spaces
 
-### Core Concepts
-------------------
+* An **event** is a set of outcomes from a sample space.
+* A **sample space** is the set of all possible outcomes of an experiment.
 
-#### 1. Sample Space and Events
+### 2. Probability Measure
 
-*   The **sample space** is the set of all possible outcomes of an experiment.
-*   An **event** is any subset of the sample space.
+* The probability measure assigns a real number between 0 and 1 to each event, representing its likelihood.
+* The sum of probabilities of all events in a sample space is 1.
 
-#### 2. Probability Measures
+### 3. Axioms of Probability
 
-*   A **probability measure**, denoted as P, assigns a non-negative real number to each event in the sample space, representing its likelihood of occurrence.
-*   The probability of an event A occurring is written as P(A).
-*   Key properties:
-    *   Normalization: P(S) = 1, where S is the sample space.
-    *   Countable Additivity: For mutually exclusive events A1, A2, ..., P(∪Ai) = ∑P(Ai).
+* **Axiom 1**: The probability of an event is non-negative.
+* **Axiom 2**: The probability of the entire sample space is 1.
+* **Axiom 3**: The probability of the union of mutually exclusive events is the sum of their probabilities.
 
-#### 3. Conditional Probability
+### 4. Conditional Probability
 
-*   The **conditional probability** of an event A occurring given that event B has occurred is written as P(A|B).
-*   It satisfies the property: P(B|A) = P(A|B) / (1 - P(A)), by Bayes' theorem.
+* The probability of an event given that another event has occurred.
+* **Formula**: P(A|B) = P(A ∩ B) / P(B)
 
-#### 4. Independence
-
-*   Two events A and B are **independent** if P(A ∩ B) = P(A)P(B).
-
-### Key Formulas/Theorems
+**Key Formulas/Theorems**
 -------------------------
 
-#### 1. Probability of Union
+### 1. Multiplication Rule
 
-*   The probability of the union of two events A and B is:
-    ```latex
-    P(A \cup B) = P(A) + P(B) - P(A \cap B)
-    ```
-    This formula generalizes to any finite number of mutually exclusive events.
+* P(A ∩ B) = P(A) \* P(B|A)
+* **LaTeX**: $P(A \cap B) = P(A) \cdot P(B|A)$
 
-#### 2. Bayes' Theorem
+### 2. Addition Rule for 2 Events
 
-*   For events A and B, the conditional probability of A given B is:
-    ```latex
-    P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-    ```
+* P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
 
-### Problem Solving Patterns
+**Problem Solving Patterns**
 ---------------------------
 
-1.  **Identify Independent Events**: When asked if events are independent, recall the definition and check for equality of their intersection and product probabilities.
-2.  **Apply Bayes' Theorem**: Use the theorem to compute conditional probabilities when given probabilities of other events.
+1. **Tree Diagrams**: Useful for visualizing complex events and calculating probabilities.
+   ```mermaid
+   graph LR
+     A[Event A] --> B[Event B]
+     C[Event C] --> D[Event D]
+   ```
+2. **Independence**: If events are independent, the probability of their intersection is the product of their individual probabilities.
 
-### Examples with Solutions
+**Examples with Solutions**
 -------------------------
 
-#### Example 1: Permutations
+### 1. Example 1: Coin Tosses
 
-Consider a permutation sampled uniformly at random from the set of all permutations of {1, 2, ..., n} for some n ≥ 4. Let X be the event that 1 occurs before 2 in the permutation, and Y the event that 3 occurs before 4.
+* A fair coin is tossed twice.
+* What is the probability that both tosses result in heads?
 
-We are given that P(X ∩ Y) = 0.5P(X)P(Y). This implies that events X and Y are **independent** because their intersection probability is equal to the product of their individual probabilities.
+Solution:
 
-#### Example 2: Engineering College
+P(Head on 1st toss) = 0.5
+P(Head on 2nd toss|Head on 1st toss) = 0.5
+By multiplication rule, P(Both Heads) = 0.5 \* 0.5 = 0.25
 
-A college has 10,000 students. 1,500 like neither their core branches nor other branches. The number of students who like their core branches is 1/4th of the number of students who like other branches. The number of students who like both their core and other branches is 500.
+### 2. Example 2: Bag with Red and Blue Balls
 
-Let's denote C as the set of students who like their core branches, O as those who like other branches. We are given that |C| = 3/4|O|.
+* A bag contains 10 red balls and 15 blue balls.
+* Two balls are drawn randomly without replacement.
+* Given that the first ball is red, what is the probability that both balls are red?
 
-We can calculate the total number of students who like either their core or other branches (or both) by using the principle of inclusion-exclusion:
+Solution:
 
-|C ∪ O| = |C| + |O| - |C ∩ O|
+By tree diagram or direct calculation:
+P(Red Ball in 2nd draw) = (9/25)
+Therefore, P(Both Red Balls) = (10/25) \* (9/24) = 0.375
 
-Substituting values, we get:
-```markdown
-|C ∪ O| = 3/4|O| + |O| - |C ∩ O|
-       = (7/4)|O| - |C ∩ O|
-       = (7/4)(15000) - 500
-       = 15750 - 500
-       = 15250
-```
+**Common Pitfalls**
+------------------
 
-### Common Pitfalls
--------------------
+1. **Failing to account for dependencies**: Ensure events are independent before applying multiplication rule.
+2. **Miscalculating conditional probabilities**: Pay attention to the correct formula and application.
 
-1.  **Misinterpreting Independence**: Be cautious when applying independence criteria to events.
-2.  **Forgetting Conditional Probability Formulae**
+**Quick Summary**
+-----------------
+
+* Sample space: Set of all possible outcomes
+* Event: Subset of the sample space
+* Probability measure: Assigns a real number between 0 and 1 to each event
+* Conditional probability: P(A|B) = P(A ∩ B) / P(B)
+* Key formulas: Multiplication rule, addition rule for 2 events
+
+This comprehensive note covers essential concepts, formulas, and problem-solving strategies for the GATE CS exam in Probability.

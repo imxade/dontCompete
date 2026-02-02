@@ -1,129 +1,68 @@
 **Calculus Theory Note**
 ========================
 
-**Introduction**
----------------
+### Introduction
 
-Calculus is a branch of mathematics that deals with the study of continuous change, particularly in the context of functions and limits. It consists of two main branches: Differential Calculus (study of rates of change) and Integral Calculus (study of accumulation).
+Calculus is a branch of mathematics that deals with the study of continuous change, particularly in the context of functions and limits. It has extensive applications in various fields such as physics, engineering, economics, and computer science. The two main branches of calculus are Differential Calculus and Integral Calculus.
 
-**Core Concepts**
------------------
+### Core Concepts
 
-### Limits
+#### Limits
 
-The limit of a function $f(x)$ as $x$ approaches $a$ is denoted by $\lim_{x \to a} f(x)$ and represents the value that the function approaches as $x$ gets arbitrarily close to $a$. If the limit exists, it can be denoted by $L = \lim_{x \to a} f(x)$.
+The concept of a limit is central to calculus. A function f(x) has a limit L at x=a if for every ε>0, there exists a δ>0 such that |f(x)-L|<ε whenever 0<|x-a|<δ.
 
-### Continuity
+*   The notation lim x→a f(x)=L is used to represent the limit.
+*   A function may have a limit even if it does not exist at a particular point.
 
-A function $f(x)$ is said to be continuous at a point $a$ if the following conditions are met:
+#### Differentiation
 
-1. The function is defined at $a$, i.e., $f(a)$ exists.
-2. The limit of the function as $x$ approaches $a$ exists, i.e., $\lim_{x \to a} f(x)$ exists.
-3. The limit of the function as $x$ approaches $a$ is equal to the value of the function at $a$, i.e., $\lim_{x \to a} f(x) = f(a)$.
+Differentiation is a fundamental concept in calculus that deals with the rate of change of a function with respect to its input variable. The derivative of a function f(x) is denoted as f'(x).
 
-### Differentiation
+*   Geometrically, the derivative represents the slope of the tangent line to the graph of the function at a given point.
+*   Differentiation can be used to find the maximum and minimum values of a function.
 
-The derivative of a function $f(x)$ with respect to $x$ is denoted by $f'(x)$ and represents the rate of change of the function at a given point. It can be calculated using various rules, including:
+#### Integration
 
-* Power Rule: If $f(x) = x^n$, then $f'(x) = nx^{n-1}$
-* Product Rule: If $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$
-* Quotient Rule: If $f(x) = \frac{u(x)}{v(x)}$, then $f'(x) = \frac{u'(x)v(x) - u(x)v'(x)}{(v(x))^2}$
+Integration is another key concept in calculus that deals with finding the area under curves. The definite integral of a function f(x) from a to b is denoted as ∫[a,b] f(x) dx.
 
-### Integration
+*   Geometrically, the definite integral represents the area between the graph of the function and the x-axis.
+*   Integration can be used to find the volume of solids and surfaces.
 
-The definite integral of a function $f(x)$ with respect to $x$ between two limits $a$ and $b$ is denoted by $\int_{a}^{b} f(x) dx$. It represents the area under the curve of the function between the two limits.
+### Key Formulas/Theorems
 
-**Key Formulas/Theorems**
--------------------------
+*   **Power Rule**: If f(x)=x^n, then f'(x)=nx^(n-1)
+*   **Product Rule**: If f(x)=u(x)v(x), then f'(x)=u'(x)v(x)+u(x)v'(x)
+*   **Quotient Rule**: If f(x)=u(x)/v(x), then f'(x)=(u'(x)v(x)-u(x)v'(x))/v^2(x)
 
-### Fundamental Theorem of Calculus (FTC)
+### Problem Solving Patterns
 
-The FTC states that differentiation and integration are inverse processes. Specifically, if $F(x)$ is an antiderivative of $f(x)$, then:
+1.  **Function Differentiation**: Use the power rule, product rule, and quotient rule to find derivatives of functions.
+2.  **Limit Evaluation**: Apply the definition of a limit or use known limits such as lim x→a sin(x)/x=1 to evaluate limits.
+3.  **Integration by Substitution**: Use substitution to integrate functions that are difficult to integrate directly.
 
-$$\int_{a}^{b} f(x) dx = F(b) - F(a)$$
+### Examples with Solutions
 
-### Mean Value Theorem (MVT)
+**Example 1:** Find the derivative of f(x)=2x^2sin(x)
 
-The MVT states that a function $f(x)$ has at least one point where the instantaneous rate of change is equal to the average rate of change. Mathematically:
+*   Using the product rule, we get
+    f'(x)=(2x^2)'sin(x)+2x^2(sin(x))'
+    =4xsin(x)+2x^2cos(x)
 
-$$\exists c \in [a, b] : f'(c) = \frac{f(b) - f(a)}{b-a}$$
+**Example 2:** Evaluate the limit lim x→0 sin(x)/x
 
-### L'Hopital's Rule
+*   Applying the definition of a limit, we get
+    For every ε>0, there exists δ>0 such that |sin(x)/x-L|<ε whenever 0<|x-0|<δ.
+    Since sin(0)=0 and cos(0)=1, we have L=1.
 
-L'Hopital's rule states that if a limit is in the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then:
+### Common Pitfalls
 
-$$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
+*   **Incorrect Application of Rules**: Make sure to apply the correct differentiation or integration rule for a given function.
+*   **Limit Evaluation Errors**: Verify that you are applying the definition of a limit correctly when evaluating limits.
 
-**Problem Solving Patterns**
----------------------------
+### Quick Summary
 
-### Evaluating Limits
+*   Limits: lim x→a f(x)=L
+*   Differentiation: f'(x)=(2x^2)'sin(x)+2x^2(sin(x))'
+*   Integration by Substitution: ∫[a,b] u'(x)v(x) dx=uv(b)-uv(a)
 
-When evaluating limits, the following patterns are useful:
-
-* **Direct Substitution**: If $f(x)$ is continuous at $a$, then $\lim_{x \to a} f(x) = f(a)$.
-* **One-Sided Limits**: If $f(x)$ has a limit as $x$ approaches $a$ from one side, but not the other, then:
-	+ $\lim_{x \to a^+} f(x) = L$
-	+ $\lim_{x \to a^-} f(x) = M$
-* **L'Hopital's Rule**: If a limit is in the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then apply L'Hopital's rule.
-
-### Solving Differential Equations
-
-When solving differential equations using separation of variables:
-
-1. Separate the variables by dividing both sides of the equation by $y$ and multiplying both sides by $dx$.
-2. Integrate both sides separately to obtain the solution.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Evaluating Limits
-
-Find $\lim_{x \to 0} \frac{\sin x}{x}$.
-
-Solution:
-
-Using direct substitution, we get:
-
-$$\lim_{x \to 0} \frac{\sin x}{x} = \frac{\sin 0}{0} = \frac{0}{0}$$
-
-Applying L'Hopital's rule, we get:
-
-$$\lim_{x \to 0} \frac{\cos x}{1} = 1$$
-
-### Example 2: Solving Differential Equations
-
-Solve the differential equation $\frac{dy}{dx} = xy$.
-
-Solution:
-
-Separating variables, we get:
-
-$$\int \frac{dy}{y} = \int x dx$$
-
-Integrating both sides separately, we get:
-
-$$\ln |y| = \frac{x^2}{2} + C$$
-
-### Example 3: Integrating Functions
-
-Evaluate $\int e^{x} dx$.
-
-Solution:
-
-Using the power rule for integration, we get:
-
-$$\int e^{x} dx = e^x + C$$
-
-**Common Pitfalls**
--------------------
-
-* **Incorrectly Applying L'Hopital's Rule**: Be careful when applying L'Hopital's rule to ensure that it is in the correct form.
-* **Forgetting to Check for Continuity**: Always check if a function is continuous at a given point before evaluating its limit.
-
-**Quick Summary**
------------------
-
-Calculus is a branch of mathematics that deals with the study of continuous change. Key concepts include limits, continuity, differentiation, and integration. The fundamental theorem of calculus states that differentiation and integration are inverse processes. Common pitfalls include incorrectly applying L'Hopital's rule and forgetting to check for continuity.
-
-Note: This theory note has been created based on the provided source questions (Q1) and may not cover all possible concepts in calculus. Further study is recommended to ensure comprehensive understanding.
+Note: The above content is just an example and might need adjustments according to your specific requirements.

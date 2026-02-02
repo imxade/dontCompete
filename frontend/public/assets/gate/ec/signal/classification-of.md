@@ -4,62 +4,87 @@
 **Introduction**
 ---------------
 
-Signal classification is a fundamental concept in signal processing and systems engineering. It helps us understand the properties and behavior of signals, which is crucial for designing and analyzing systems that process these signals. In this theory note, we will cover the key concepts related to signal classification.
+Signal classification is a crucial aspect of signal processing and analysis. It involves categorizing signals based on their properties, behavior, or characteristics. This note will cover the fundamental concepts, formulas, and problem-solving strategies related to signal classification.
 
 **Core Concepts**
 -----------------
 
-A system can be classified based on its input-output relationship and time domain behavior. The main types of systems are:
+### Causality and Time Invariance
 
-* **Causal Systems**: A system is causal if its output at any instant depends only on the present or past values of the input.
-* **Non-Causal Systems**: A system is non-causal if its output at any instant also depends on future values of the input.
+*   A system is considered **causal** if its output at time `t` depends only on the input values up to time `t`.
+*   A system is considered **time-invariant** if a time shift in the input signal results in an identical time shift in the output signal.
+*   A system can be either causal and time-invariant, non-causal and time-varying, or any combination of these properties.
+
+### Classification Criteria
+
+Signals can be classified based on their frequency content, amplitude, phase, and other characteristics. Some common classification criteria include:
+
+*   **Time-domain analysis**: Focuses on the signal's behavior over time.
+*   **Frequency-domain analysis**: Examines the signal's frequency components.
+*   **Amplitude and phase analysis**: Studies the signal's magnitude and phase relationships.
 
 **Key Formulas/Theorems**
--------------------------
+-----------------------
 
-LaTeX is not supported in this response, but we can describe the formulas and use Markdown for equations. For example:
+No specific formulas are required for this topic, as it primarily involves understanding concepts and properties of signals. However, some relevant mathematical tools used in signal processing include:
 
-Equation 1: Causality condition
---------------------------------
+\[ X(f) = \int_{-\infty}^{\infty} x(t)e^{-j2\pi ft}dt \]
+\[ x(t) = \int_{-\infty}^{\infty} X(f)e^{j2\pi ft}df \]
 
-A system is causal if:
-
-$$y(t) = \int_{-\infty}^{t} h(\tau)x(t - \tau)d\tau$$
-
-where $h(\tau)$ is the impulse response of the system.
+These equations represent the Fourier transform and its inverse, used to analyze signals in the frequency domain.
 
 **Problem Solving Patterns**
 ---------------------------
 
-1.  **Check for Causality**: If the output depends only on present or past input values, the system is causal.
-2.  **Analyze Time Domain Behavior**: Check if the output at any instant also depends on future input values. If so, the system is non-causal.
+### Identifying System Properties
+
+To determine a system's properties (causality, time-invariance), use the following approach:
+
+1.  Examine the system's output for a given input.
+2.  Check if the output depends only on past or current input values (causality).
+3.  Verify that a time shift in the input signal results in an identical time shift in the output (time-invariance).
+
+### Signal Classification
+
+When classifying signals, consider the following:
+
+1.  Determine the signal's frequency content using Fourier analysis.
+2.  Examine the signal's amplitude and phase relationships.
+3.  Apply relevant classification criteria based on the signal's characteristics.
 
 **Examples with Solutions**
 ---------------------------
 
-### Example 1:
+### Example: Causal and Time-Invariant System
 
-Consider a system with input $x(t) = \cos(2t)$ and output $y(t) = x(t - 1)$. Determine if the system is causal or non-causal.
+Given a system with input `x(t)` and output `y(t) = (t-1)x(t)`:
 
-Solution: The output depends only on past values of the input, so the system is causal.
+*   Is the system causal? Yes, since the output depends only on past or current input values.
+*   Is the system time-invariant? No, because a time shift in the input signal does not result in an identical time shift in the output.
 
-### Example 2:
+### Example: Non-Causal and Time-Varying System
 
-Consider a system with input $x(t) = \cos(2t)$ and output $y(t) = x(t + 1)$. Determine if the system is causal or non-causal.
+Consider another system with output `y(t) = (t+1)x(-t)`:
 
-Solution: The output depends on future values of the input, so the system is non-causal.
+*   Is the system causal? No, since the output depends on future input values.
+*   Is the system time-invariant? No, because a time shift in the input signal results in an opposite time shift in the output.
 
 **Common Pitfalls**
 ------------------
 
-*   **Not checking for causality**: Always verify if the output depends only on present or past input values.
-*   **Not analyzing time domain behavior**: Failure to check if the output also depends on future input values can lead to incorrect conclusions.
+### Misunderstanding System Properties
+
+Be cautious when identifying system properties, as subtle differences can lead to incorrect conclusions. Ensure that you thoroughly analyze the system's behavior and characteristics.
+
+### Overlooking Signal Classification Criteria
+
+When classifying signals, consider multiple criteria and examine the signal's characteristics from different perspectives.
 
 **Quick Summary**
 -----------------
 
-*   Causal systems: output depends only on present or past input values
-*   Non-causal systems: output may depend on future input values
-*   Check for causality and analyze time domain behavior when classifying signals
+*   Causality: output depends only on past or current input values.
+*   Time-invariance: time shift in input results in identical time shift in output.
+*   Signal classification: apply relevant criteria based on frequency content, amplitude, phase, and other characteristics.
 
-Let me know if this helps. I'll be happy to make any further modifications as needed!
+This comprehensive note covers the fundamental concepts, formulas, and problem-solving strategies related to signal classification. By mastering these topics, you'll be well-prepared to tackle similar questions and confidently solve problems involving signal analysis and processing.

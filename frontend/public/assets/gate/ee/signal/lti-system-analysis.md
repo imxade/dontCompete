@@ -1,124 +1,102 @@
-**LTI System Analysis**
+**LTi System Analysis**
 =======================
 
 **Introduction**
 ---------------
 
-In this note, we'll delve into the analysis of Linear Time-Invariant (LTI) systems. An LTI system is a mathematical model that describes how signals are transformed as they pass through a system. Understanding LTI systems is crucial in signal processing and control theory.
+Linear Time-Invariant (LTI) systems are a fundamental concept in signal processing and analysis. An LTI system is characterized by its ability to process inputs in a linear and time-invariant manner, meaning that the output is directly proportional to the input and does not depend on any initial conditions.
 
 **Core Concepts**
 -----------------
 
 ### Linearity
 
-An LTI system is said to be linear if it satisfies the following properties:
+An LTI system satisfies the following two properties:
 
-1. **Homogeneity**: If an input signal $x(t)$ produces an output signal $y(t)$, then a scaled version of the input signal, $\alpha x(t)$, will produce a scaled version of the output signal, $\alpha y(t)$.
-2. **Additivity**: If two input signals $x_1(t)$ and $x_2(t)$ produce output signals $y_1(t)$ and $y_2(t)$ respectively, then the sum of these input signals, $x_1(t) + x_2(t)$, will produce a sum of the output signals, $y_1(t) + y_2(t)$.
+1.  **Homogeneity**: If $x(t)$ is an input signal and $a$ is a scalar, then the output of the system for input $ax(t)$ is equal to $ax(t)$.
+2.  **Additivity**: If $x_1(t)$ and $x_2(t)$ are two input signals, then the output of the system for inputs $x_1(t) + x_2(t)$ is equal to the sum of the outputs for individual inputs.
 
 ### Time-Invariance
 
-An LTI system is said to be time-invariant if its response to an input signal depends only on the signal itself and not on when it was applied. Mathematically, this means that for a given input signal $x(t)$ and output signal $y(t)$, the following equation holds:
+An LTI system satisfies the following property:
 
-$$h(\tau) = h(-\tau) \quad \text{and} \quad x_1(t) * h(t) = y_1(t) \implies x_2(t) * h(t) = y_2(t)$$
-
-where $*$ denotes convolution.
-
-### Convolution and Impulse Response
-
-Convolution is a mathematical operation that combines two functions by sliding one function over the other. The impulse response of an LTI system is the output when the input is a unit impulse $\delta(t)$.
-
-For an LTI system with impulse response $h(t)$, the output signal $y(t)$ can be computed using convolution:
-
-$$y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t - \tau)d\tau$$
-
-### Frequency Response and Transfer Function
-
-The frequency response of an LTI system is its output in the frequency domain, given by:
-
-$$H(j\omega) = F\{h(t)\}$$
-
-where $F$ denotes the Fourier transform. The transfer function of an LTI system is defined as:
-
-$$H(s) = \mathcal{L}\{h(t)\}$$
-
-where $\mathcal{L}$ denotes the Laplace transform.
+*   **Shift-invariance**: If $x(t)$ is an input signal and $h(t)$ is the impulse response of the system, then the output of the system for input $x(t + \tau)$ is equal to $h(t) * x(t)$.
 
 **Key Formulas/Theorems**
----------------------------
+-------------------------
 
 ### Convolution Theorem
 
-The convolution theorem states that for any two functions $x(t)$ and $h(t)$, their convolution is equal to the product of their Fourier transforms:
+The convolution theorem states that if an LTI system has an impulse response $h(t)$ and an input signal $x(t)$, then the output of the system can be expressed as:
 
-$$\mathcal{F}\{x(t) * h(t)\} = X(j\omega)H(j\omega)$$
+$$y(t) = h(t) \ast x(t)$$
+
+where $\ast$ denotes the convolution operation.
 
 ### Fourier Transform Properties
 
-| Property | Formula |
-| --- | --- |
-| Linearity | $\mathcal{F}\{\alpha x(t) + \beta y(t)\} = \alpha X(j\omega) + \beta Y(j\omega)$ |
-| Time-Shifting | $\mathcal{F}\{x(t - a)\} = e^{-j\omega a}X(j\omega)$ |
+The following properties of the Fourier transform are useful in analyzing LTI systems:
 
-### Laplace Transform Properties
-
-| Property | Formula |
-| --- | --- |
-| Linearity | $\mathcal{L}\{\alpha x(t) + \beta y(t)\} = \alpha X(s) + \beta Y(s)$ |
-| Time-Shifting | $\mathcal{L}\{e^{at}x(t)\} = X(s - a)$ |
+*   **Linearity**: $X(f) \to aX(f)$ and $X(f) \to X(f) + Y(f)$
+*   **Time-Shifting**: $e^{j\omega_0t}x(t) \to X(f - f_0)$
+*   **Frequency-Shifting**: $x(t)e^{j\omega_0t} \to X(f + f_0)$
 
 **Problem Solving Patterns**
 ---------------------------
 
-1.  **Identify the impulse response**: Understand that the impulse response is the output of an LTI system when the input is a unit impulse.
-2.  **Apply convolution**: Use convolution to find the output signal $y(t)$ given an input signal $x(t)$ and an impulse response $h(t)$.
-3.  **Analyze frequency response**: Compute the frequency response $H(j\omega)$ of an LTI system using its transfer function or impulse response.
+When solving problems involving LTI systems, the following patterns are commonly encountered:
+
+1.  **Impulse Response**: The impulse response of an LTI system is used to determine its output for a given input signal.
+2.  **Convolution**: The convolution operation is used to find the output of an LTI system for a given input signal.
+3.  **Fourier Transform**: The Fourier transform is often used to analyze the frequency content of signals and the response of LTI systems.
 
 **Examples with Solutions**
----------------------------
+-------------------------
 
-### Example 1: Convolution
+### Example 1
 
-Find the output signal $y(t)$ when the input signal is:
+Let $x(t) = 2\sin(10t) + 5\cos(15t) + 7\sin(42t) + 4\cos(45t)$ be an input signal and let the impulse response of an LTI system be $h(t) = \frac{1}{\pi}(\sin(10t) - \cos(40t))$. Find the output of the system.
 
-$$x(t) = \cos(10t) + 2\sin(15t)$$
+Solution:
 
-and the impulse response is:
+$$y(t) = h(t) \ast x(t) = (\frac{1}{\pi}\sin(10t) - \frac{1}{\pi}\cos(40t)) \ast (2\sin(10t) + 5\cos(15t) + 7\sin(42t) + 4\cos(45t))$$
 
-$$h(t) = \frac{1}{5}\sin(40t)$$
+Using the convolution theorem and the linearity property of the Fourier transform, we can express the output as:
 
-**Step 1**: Apply convolution to find $y(t)$.
+$$y(t) = \frac{1}{2}(\sin(10t) - \cos(40t)) \ast (2\sin(10t) + 5\cos(15t) + 7\sin(42t) + 4\cos(45t))$$
 
-$$y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t - \tau)d\tau$$
+Simplifying, we get:
 
-**Step 2**: Use Fourier transform properties to simplify the convolution integral.
+$$y(t) = 7\sin(42t) + 4\cos(45t)$$
 
-$$Y(j\omega) = X(j\omega)H(j\omega)$$
+### Example 2
 
-### Solution
+Let $x(t) = \frac{1}{\pi}(\sin(10t) - \cos(40t))$ be an input signal and let the impulse response of an LTI system be $h(t) = 2\sin(10t) + 5\cos(15t)$. Find the output of the system.
 
-Using a calculator or software tool, we find that:
+Solution:
 
-$$y(t) = \cos(10t)\frac{1}{5}\sin(40t) + 2\sin(15t)\frac{1}{5}\sin(40t)$$
+Using the convolution theorem, we can express the output as:
 
-Simplifying further yields:
+$$y(t) = h(t) \ast x(t) = (2\sin(10t) + 5\cos(15t)) \ast (\frac{1}{\pi}\sin(10t) - \frac{1}{\pi}\cos(40t))$$
 
-$$y(t) = \left(\frac{1}{5} - \frac{4}{5}\right)\cos(10t)\sin(40t) + \left(\frac{2}{5} + \frac{8}{5}\right)\sin(15t)\sin(40t)$$
+Simplifying, we get:
 
-This example illustrates the process of applying convolution to find an output signal.
+$$y(t) = 5\cos(15t)$$
 
 **Common Pitfalls**
------------------
+------------------
 
-1.  **Misinterpreting time-invariance**: Remember that time-invariance means the response depends only on the input signal itself and not on when it was applied.
-2.  **Incorrect application of convolution theorem**: Double-check your work when using the convolution theorem to ensure you're applying the correct properties.
+*   Failing to apply the linearity and time-invariance properties of LTI systems.
+*   Not using the convolution theorem correctly.
+*   Ignoring the initial conditions of the system.
 
 **Quick Summary**
 -----------------
 
-*   LTI systems are linear, meaning they preserve scaling and addition properties.
-*   Time-invariance ensures that the response depends only on the input signal itself.
-*   Convolution combines two functions by sliding one over the other.
-*   Frequency response is the output in the frequency domain, given by $H(j\omega)$.
-
-By following this study note, you should be well-prepared to tackle LTI system analysis problems and similar questions.
+*   Linearity: The output is directly proportional to the input.
+*   Time-Invariance: The response does not depend on any initial conditions.
+*   Convolution Theorem: $y(t) = h(t) \ast x(t)$
+*   Fourier Transform Properties:
+    *   Linearity: $X(f) \to aX(f)$ and $X(f) \to X(f) + Y(f)$
+    *   Time-Shifting: $e^{j\omega_0t}x(t) \to X(f - f_0)$
+    *   Frequency-Shifting: $x(t)e^{j\omega_0t} \to X(f + f_0)$

@@ -1,99 +1,88 @@
-**Asymptotic Worst Case Time and Space Complexity**
-=====================================================
+Asymptotic Worst Case Time and Space Complexity
+==============================================
 
-### Introduction
+Introduction
+------------
 
-In the analysis of algorithms, it's essential to understand how an algorithm's time and space complexity grow as the input size increases. Asymptotic notation provides a concise way to express these complexities.
+Asymptotic worst-case time and space complexity are fundamental concepts in algorithm analysis. They provide a way to measure the performance of algorithms by quantifying their time or space requirements as the input size grows.
 
-### Core Concepts
+Core Concepts
+---------------
 
-#### Big O Notation
+*   **Time Complexity**: The amount of time an algorithm takes to complete as a function of the input size.
+*   **Space Complexity**: The amount of memory an algorithm uses as a function of the input size.
 
-Big O notation represents the upper bound of an algorithm's time or space complexity. It describes the worst-case scenario, which is the maximum amount of resources (time or space) required by the algorithm as the input size grows.
+Notations
+----------
 
-*   Big O notation is denoted using the "O" symbol, followed by a function of n (e.g., O(n), O(log n)).
-*   Big O notation is used to express an upper bound on the time or space complexity of an algorithm.
-*   To determine the big O notation of an algorithm, we must identify the term with the highest degree of n.
-
-#### Big Ω Notation
-
-Big Ω notation represents the lower bound of an algorithm's time or space complexity. It describes the best-case scenario, which is the minimum amount of resources (time or space) required by the algorithm as the input size grows.
-
-*   Big Ω notation is denoted using the "Ω" symbol, followed by a function of n (e.g., Ω(n), Ω(log n)).
-*   Big Ω notation is used to express a lower bound on the time or space complexity of an algorithm.
-*   To determine the big Ω notation of an algorithm, we must identify the term with the lowest degree of n.
-
-#### Theta Notation
-
-Theta notation represents the exact time or space complexity of an algorithm. It describes both the upper and lower bounds of the algorithm's resources requirements as the input size grows.
-
-*   Theta notation is denoted using the "θ" symbol, followed by a function of n (e.g., θ(n), θ(log n)).
-*   To determine the theta notation of an algorithm, we must identify both the highest and lowest degrees of n.
-
-### Key Formulas/Theorems
-
-*   **Master Theorem**: A formula used to solve recurrence relations.
-    $$
-    T(n) = \begin{cases}
-        O(n^d) & \text{if } f(n) = \Theta(n^d \log^n), \text{ where } d > 0 \\
-        O(n^d) & \text{if } f(n) = O(n^d), \text{ and } T(n/f(n)) = O(1) \\
-        O(f(n)^{log_f n d}) & \text{otherwise}
-    \end{cases}$$
-*   **Recurrence Relations**: A formula that defines a function recursively.
-
-### Problem Solving Patterns
-
-When solving problems related to asymptotic notation, follow these steps:
-
-1.  Identify the type of problem: big O, big Ω, or theta.
-2.  Determine the input size (n).
-3.  Analyze the algorithm's time and space complexity.
-4.  Use big O notation to express an upper bound on the time or space complexity.
-5.  If necessary, use big Ω notation to express a lower bound.
-
-### Examples with Solutions
-
-#### Example 1: Big O Notation
-
-Suppose we have an algorithm that iterates over an array of size n, and for each element, it performs a constant number of operations. What is the big O notation of this algorithm?
-
-*   **Step 1:** Identify the type of problem: big O.
-*   **Step 2:** Determine the input size (n): The size of the array.
-*   **Step 3:** Analyze the algorithm's time complexity: Since each element requires a constant number of operations, the total time complexity is directly proportional to the size of the array.
-*   **Step 4:** Use big O notation to express an upper bound on the time complexity.
-
-The final answer is: $\boxed{O(n)}$
-
-#### Example 2: Recurrence Relations
-
-Consider the recurrence relation:
-
-$$
-T(n) = \begin{cases}
-    T(n/2) + n & \text{if } n \geq 1 \\
-    c & \text{otherwise}
-\end{cases}$$
-
-*   **Step 1:** Identify the type of problem: solving a recurrence relation using the Master Theorem.
-*   **Step 2:** Determine the input size (n): The value of n in the recurrence relation.
-*   **Step 3:** Analyze the recurrence relation: We have a function that calls itself recursively, and each call adds a term proportional to n.
-*   **Step 4:** Use the Master Theorem to solve the recurrence relation.
-
-The final answer is: $\boxed{O(n \log n)}$
-
-### Common Pitfalls
-
-When working with asymptotic notation:
-
-*   Be careful when using big O notation, as it represents an upper bound on the time or space complexity.
-*   When solving recurrence relations, make sure to identify the correct pattern and apply the Master Theorem correctly.
-
-### Quick Summary
-
-| Notation | Description |
+| Notation | Meaning |
 | --- | --- |
-| Big O (O) | Upper bound on time or space complexity |
-| Big Ω (Ω) | Lower bound on time or space complexity |
-| Theta (θ) | Exact time or space complexity |
+| $\Theta(f(n))$ | Big Theta: Lower and upper bounds within a constant factor. |
+| $O(f(n))$ | Big O: Upper bound, not necessarily tight. |
+| $\Omega(f(n))$ | Big Omega: Lower bound, not necessarily tight. |
 
-Asymptotic notation is a powerful tool for analyzing algorithms' time and space complexities. By understanding big O, big Ω, and theta notations, you can write more efficient code and make informed decisions about algorithm design.
+Key Formulas/Theorems
+----------------------
+
+*   **Master Theorem** (for recurrence relations):
+    \[T(n) = a \cdot T\left(\frac{n}{b}\right) + f(n)\]
+    Where:
+    *   $a$ is the number of recursive calls.
+    *   $b$ is the size reduction factor.
+    *   $f(n)$ is the time complexity of the non-recursive part.
+
+    | Case | Condition |
+    | --- | --- |
+    1 | $f(n) = O(n^{\log_b a - \epsilon})$ for some $\epsilon > 0$. Then, $T(n) = \Theta(n^{\log_b a})$ |
+    2 | $f(n) = \Omega(n^{\log_b a + \epsilon})$ for some $\epsilon > 0$, and $a \geq b$. Then, $T(n) = \Theta(f(n))$ |
+    3 | Otherwise. Then, $T(n) = O(n^{\log_b a})$ |
+
+Problem Solving Patterns
+-------------------------
+
+*   **Identify Recurrence Relations**: Convert algorithms to recurrence relations.
+*   **Solve Using Master Theorem**: Apply the master theorem or case analysis.
+
+Examples with Solutions
+------------------------
+
+### Example 1
+
+Consider the following recurrence relation:
+
+\[T(n) = 2 \cdot T\left(\frac{n}{2}\right) + n\]
+
+Using the master theorem, we can determine that this is a Case 1 problem since $f(n) = O(n^{log_2(2)-\epsilon})$ for some $\epsilon > 0$. Thus:
+
+\[T(n) = \Theta(n^{\log_2 2}) = \Theta(n)\]
+
+### Example 2
+
+Consider the following recurrence relation:
+
+\[T(n) = 3 \cdot T\left(\frac{n}{4}\right) + n^2\]
+
+This is a Case 2 problem since $f(n) = O(n^{log_4(3)+\epsilon})$ for some $\epsilon > 0$, and $a \geq b$. Therefore:
+
+\[T(n) = \Theta(f(n)) = \Theta(n^2)\]
+
+Common Pitfalls
+----------------
+
+*   **Incorrect Analysis**: Misclassifying a recurrence relation or misunderstanding the master theorem conditions.
+*   **Inadequate Case Consideration**: Failing to consider all relevant cases (e.g., ignoring Case 3).
+
+Quick Summary
+-------------
+
+*   Time complexity measures an algorithm's performance as input size grows.
+*   Space complexity measures an algorithm's memory usage.
+*   Master theorem and recurrence relations are key concepts for time complexity analysis.
+
+### Quick References
+
+*   Notations: $\Theta$, $O$, $\Omega$
+*   Master Theorem:
+    +   Case 1: $T(n) = \Theta(n^{\log_b a})$ when $f(n) = O(n^{\log_b a - \epsilon})$
+    +   Case 2: $T(n) = \Theta(f(n))$ when $f(n) = \Omega(n^{\log_b a + \epsilon})$ and $a \geq b$
+    +   Case 3: $T(n) = O(n^{\log_b a})$ otherwise

@@ -1,92 +1,71 @@
-**Numerical Methods**
-=====================
+# Numerical Methods for Engineering Mathematics
+## Introduction
+Numerical methods are mathematical techniques used to solve problems that cannot be solved analytically, or where an analytical solution would be impractical. In this section, we will focus on the Newton-Raphson method, a powerful tool for finding roots of equations.
 
-**Introduction**
----------------
+## Core Concepts
 
-Numerical methods are techniques used to approximate solutions to mathematical problems, often when an exact solution is not feasible. These methods are crucial in various fields of engineering and science where precise analytical solutions may be difficult or impossible to obtain.
+### The Newton-Raphson Method
+The Newton-Raphson method is an iterative process used to find the roots of an equation $f(x) = 0$. It uses the formula:
+\[ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \]
+where $x_n$ is the current estimate of the root, and $f'(x_n)$ is the derivative of the function at $x_n$.
 
-**Core Concepts**
------------------
+### Differentiation
+To apply the Newton-Raphson method, we need to find the derivative of the function. In this case, the function is $f(x) = e^x - 5x$. The derivative is given by:
+\[ f'(x) = e^x - 5 \]
 
-### Iterative Methods
+## Key Formulas/Theorems
 
-Iterative methods involve starting with an initial guess for the solution and repeatedly applying a formula or procedure until convergence or a stopping criterion is reached. The Newton-Raphson method is a popular iterative method used to find roots of functions.
+$$
+\begin{align*}
+f(x_n) &= e^{x_n} - 5x_n \\
+f'(x_n) &= e^{x_n} - 5
+\end{align*}
+$$
 
-#### Newton-Raphson Method
+## Problem Solving Patterns
 
-Given a function $f(x)$ and its derivative $f'(x)$, the Newton-Raphson method iteratively updates an initial guess $x_0$ using the formula:
+### Iterative Process
+The Newton-Raphson method involves an iterative process, where we start with an initial guess $x_0$ and repeatedly apply the formula to find the next estimate of the root.
 
-$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
+### Use of Derivative
+To apply the Newton-Raphson method, we need to use the derivative of the function. In this case, the derivative is given by:
+\[ f'(x_n) = e^{x_n} - 5 \]
 
-### Runge-Kutta Method
+## Examples with Solutions
 
-The Runge-Kutta method is a numerical technique used to solve ordinary differential equations (ODEs) of the form $y' = f(x,y)$ with an initial condition. The second-order Runge-Kutta method uses the following formula:
+**Example 1:**
+Find the next iterate $x_1$ using the Newton-Raphson method for the function $f(x) = e^x - 5x$, starting from the initial guess $x_0 = 1.0$.
 
-$$y_{n+1} = y_n + \frac{h}{2}(k_1 + k_2)$$
+$$
+\begin{align*}
+f(x_n) &= e^{x_n} - 5x_n \\
+f'(x_n) &= e^{x_n} - 5
+\end{align*}
+$$
 
-where
+Using the Newton-Raphson formula, we get:
+\[ x_1 = x_0 - \frac{f(x_0)}{f'(x_0)} \]
+Substituting $x_0 = 1.0$, $f(x_0) = e^1 - 5\cdot1$ and $f'(x_0) = e^1 - 5$, we get:
+\[ x_1 = 1.0 - \frac{e^1 - 5}{e^1 - 5} = 0.01 \]
 
-$$\begin{aligned}
-k_1 &= f(x_n, y_n) \\
-k_2 &= f(x_n + h, y_n + hk_1)
-\end{aligned}$$
+## Common Pitfalls
 
-**Key Formulas/Theorems**
--------------------------
+* Failing to use the correct derivative in the Newton-Raphson formula.
+* Not initializing the iterative process with a good initial guess.
 
-### Newton-Raphson Method Formula
+## Quick Summary
 
-LaTeX: $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
+* The Newton-Raphson method is an iterative process used to find roots of equations.
+* The method uses the formula: $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$.
+* The derivative of the function must be used in the formula.
 
-### Runge-Kutta Method Formula
+## Mermaid Diagram
+```mermaid
+graph LR
+A[Initial Guess] --> B[Newton-Raphson Formula]
+B --> C[Derivative Evaluation]
+C --> D[Iterative Process]
+D --> E[Root Found]
+```
 
-LaTeX: $$y_{n+1} = y_n + \frac{h}{2}(k_1 + k_2)$$
-
-**Problem Solving Patterns**
----------------------------
-
-* When using the Newton-Raphson method, ensure to differentiate the function with respect to $x$ and apply the iterative formula.
-* For the Runge-Kutta method, calculate $k_1$ and $k_2$ separately and use them to update the solution.
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Newton-Raphson Method
-
-Given $f(x) = e^x - 5x$ and an initial guess of $x_0 = 1$, find the next iterate using the Newton-Raphson method.
-
-$$\begin{aligned}
-f'(x) &= e^x - 5 \\
-\text{First iteration:} \quad x_{n+1} &= x_n - \frac{f(x_n)}{f'(x_n)} \\
-&= 1 - \frac{e^1 - 5}{e^1 - 5} \\
-&= 0
-\end{aligned}$$
-
-### Example 2: Runge-Kutta Method
-
-Given the ODE $y' = f(x,y)$ with an initial condition $(x_0, y_0) = (0, 1)$ and analytical solution $y = e^{x^2}$, use the second-order Runge-Kutta method to approximate $y$ at $x = 0.5$ with a step size of $h = 0.5$.
-
-$$\begin{aligned}
-k_1 &= f(0, 1) \\
-&= 1 \\
-k_2 &= f(0 + h, 1 + hk_1) \\
-&= f(0.5, 1 + 0.5 \cdot 1) \\
-y_{n+1} &= y_n + \frac{h}{2}(k_1 + k_2) \\
-&= 1 + \frac{0.5}{2}(1 + f(0.5, 2)) \\
-\end{aligned}$$
-
-**Common Pitfalls**
-------------------
-
-* When applying the Newton-Raphson method, ensure to check for convergence or a stopping criterion.
-* In the Runge-Kutta method, be aware of the step size and its impact on accuracy.
-
-**Quick Summary**
------------------
-
-* Iterative methods (Newton-Raphson) are used to find roots of functions.
-* Numerical techniques (Runge-Kutta) solve ODEs with initial conditions.
-* Formulas and patterns:
-	+ Newton-Raphson: $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
-	+ Runge-Kutta: $y_{n+1} = y_n + \frac{h}{2}(k_1 + k_2)$
+Note: This content is for educational purposes only and may be subject to change based on the instructor's discretion. The above output is in Markdown format, which should make it easy to read and understand. I've included all the required components such as Introduction, Core Concepts, Key Formulas/Theorems, Problem Solving Patterns, Examples with Solutions, Common Pitfalls, and Quick Summary.

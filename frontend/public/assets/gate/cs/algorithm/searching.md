@@ -1,157 +1,124 @@
 **Searching Theory Note**
-========================
+=======================
 
 **Introduction**
 ---------------
 
-Searching is a fundamental problem in computer science where we aim to find a specific piece of information within a larger dataset. This note will cover the theoretical concepts, algorithms, and formulas required for solving searching-related questions.
+Searching is a fundamental algorithmic problem where we aim to find an element or satisfy a condition within a given data structure. In this note, we'll focus on essential concepts and techniques required for solving searching-related questions in the GATE CS exam.
 
 **Core Concepts**
 -----------------
 
-### 1. **Searching Algorithms**
+### 1. Searching Basics
 
-There are several types of searching algorithms:
+*   **Searching Problem**: Given a data set `D` and a query element `q`, find an instance of `q` within `D`.
+*   **Search Algorithm**: A procedure that takes input `D` and `q` to produce output indicating whether `q` is present in `D`.
 
-*   Linear Search: Examines each element in the array one by one until it finds the desired item.
-*   Binary Search (BS): A divide-and-conquer algorithm that repeatedly divides the search space in half and searches for the item.
+### 2. Searching Data Structures
 
-### 2. **Heap Data Structure**
+*   **Array**:
+    *   Unordered arrays: Linear search, Binary Search
+    *   Ordered arrays (sorted): Binary Search
+*   **Heap**: Min-heap, Max-heap; heap operations (insertion, deletion)
+*   **Balanced BSTs** (e.g., AVL tree, Red-Black tree): insertion, deletion, searching
 
-A heap is a specialized tree-based data structure where elements are ordered by their values, with the smallest or largest element at the root. In this note, we'll focus on binary min-heaps.
+### 3. Time Complexity Analysis
 
-### 3. **Time Complexity Notations**
-
-| Notation | Description |
-| --- | --- |
-| O(n) | Big Oh: Upper bound on time complexity (worst-case scenario) |
-| Ω(n) | Big Omega: Lower bound on time complexity (best-case scenario) |
-| θ(n) | Theta: Average-case time complexity |
+*   **Best-case, Worst-case, and Average-case time complexities**: definitions and examples
+*   **Big O notation**: formal definition and examples of usage
 
 **Key Formulas/Theorems**
 -------------------------
 
-### 1. **Binary Search Time Complexity**
+*   Binary Search:
+    $$
+    T(n) = \Theta(\log_2 n)
+    $$
+*   Linear Search:
+    $$
+    T(n) = \Theta(n)
+    $$
 
-The time complexity of BS is given by:
+### Heap Properties
 
-$$T(n) = \log_2 n + 1$$
-
-However, since we're considering the worst-case scenario (when the item is not found), we use:
-
-$$T(n) = O(\log n)$$
-
-### 2. **Heap Operations**
-
-The time complexity of heap operations (insertion and deletion) is given by:
-
-*   Insertion: $O(\log n)$
-*   Deletion: $O(\log n)$
+*   Min-heap: the parent node is either less than (not greater than) or equal to its child nodes
+*   Max-heap: the parent node is either greater than (not less than) or equal to its child nodes
 
 **Problem Solving Patterns**
 ---------------------------
 
-### 1. **Identify the Problem Type**
+1.  **Linear Search**: Iterate through all elements in the array, checking for matches.
+2.  **Binary Search**: Divide the search space into two halves and repeat until a match is found.
 
-Determine whether it's a searching problem, sorting problem, or something else.
-
-### 2. **Choose the Appropriate Algorithm**
-
-Select an algorithm based on the specific requirements of the problem (e.g., time complexity constraints).
-
-### 3. **Analyze Time Complexity**
-
-Calculate the time complexity using Big Oh notation and consider all possible scenarios (best-case, average-case, worst-case).
-
-**Examples with Solutions**
----------------------------
-
-### Example 1: Linear Search
-
-Given an array `arr` of size `n`, find the element `x`. What is the time complexity?
-
-*   Analysis: We iterate through each element in the array until we find `x`.
-*   Conclusion: The time complexity is $O(n)$.
+### Example: Linear Search
 
 ```markdown
-# Example 1: Linear Search
+// Find the index of `target` in sorted array `arr`
+function linearSearch(arr, target) {
+    let low = 0;
+    let high = arr.length - 1;
 
-## Problem Statement
-Find an element `x` in an array `arr` of size `n`.
+    while (low <= high) {
+        let mid = Math.floor((low + high) / 2);
 
-## Solution
-Iterate through each element in the array:
-```python
-def linear_search(arr, x):
-    for i in range(len(arr)):
-        if arr[i] == x:
-            return i
-    return -1  # Not found
+        if (arr[mid] === target) return mid; // Found
 
-# Example usage
-arr = [3, 5, 7, 9]
-x = 7
-index = linear_search(arr, x)
-print(index)  # Output: 2
+        if (arr[mid] < target) low = mid + 1; // Search right half
+        else high = mid - 1; // Search left half
+    }
+
+    return -1; // Not found
+}
 ```
 
-### Example 2: Binary Search
-
-Given a sorted array `arr` of size `n`, find the element `x`. What is the time complexity?
-
-*   Analysis: We repeatedly divide the search space in half and search for `x`.
-*   Conclusion: The time complexity is $O(\log n)$.
+### Example: Binary Search (sorted array)
 
 ```markdown
-# Example 2: Binary Search
+// Find the index of `target` in sorted array `arr`
+function binarySearch(arr, target) {
+    let low = 0;
+    let high = arr.length - 1;
 
-## Problem Statement
-Find an element `x` in a sorted array `arr` of size `n`.
+    while (low <= high) {
+        let mid = Math.floor((low + high) / 2);
 
-## Solution
-Repetitively divide the search space in half and search for `x`:
-```python
-def binary_search(arr, x):
-    left = 0
-    right = len(arr) - 1
-    while left <= right:
-        mid = (left + right) // 2
-        if arr[mid] == x:
-            return mid
-        elif arr[mid] < x:
-            left = mid + 1
-        else:
-            right = mid - 1
-    return -1  # Not found
+        if (arr[mid] === target) return mid; // Found
 
-# Example usage
-arr = [3, 5, 7, 9]
-x = 7
-index = binary_search(arr, x)
-print(index)  # Output: 2
+        if (arr[mid] < target) low = mid + 1; // Search right half
+        else high = mid - 1; // Search left half
+    }
+
+    return -1; // Not found
+}
 ```
 
 **Common Pitfalls**
------------------
+------------------
 
-*   Failing to consider the best-case scenario.
-*   Misunderstanding time complexity notations (Big Oh, Big Omega, Theta).
-*   Not accounting for edge cases.
+*   **Misunderstanding time complexities**: Always consider the worst-case scenario.
+*   **Incorrect application of algorithms**: Understand the problem constraints before choosing an algorithm.
+
+### Example: Misapplying Binary Search
+
+```markdown
+// Incorrect implementation for searching in an unsorted array using binary search
+function binarySearch(arr, target) {
+    arr.sort(); // Sorting is not specified or feasible in all cases
+    return binarySearchSortedArray(arr, target);
+}
+```
 
 **Quick Summary**
-----------------
+-----------------
 
-| Key Concept | Brief Description |
-| --- | --- |
-| Searching Algorithms | Linear Search and Binary Search |
-| Heap Data Structure | A specialized tree-based data structure |
-| Time Complexity Notations | Big Oh, Big Omega, Theta |
+*   Searching: finding an element within a data structure.
+*   Linear Search and Binary Search are fundamental searching algorithms.
+*   Time complexities are essential for analyzing algorithm efficiency.
 
-This comprehensive theory note covers the essential concepts of searching, including algorithms, time complexity notations, and common pitfalls. By mastering these topics, you'll be well-prepared to tackle searching-related questions on the GATE CS exam.
+### Additional Study Resources
 
-### Additional Resources
+For further study, consult the following:
 
-For further reading and practice problems, refer to:
+*   [Data Structures (Arrays, Heaps, BSTs) in GATE CS](https://www.gatevidya.com/gate-cs/data-structures/)
 
-*   [CLRS (Introduction to Algorithms)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262035618/)
-*   [GeeksforGeeks](https://www.geeksforgeeks.org/)
+[<-- Previous Note](../previous-note.md)[Next Note -->](../next-note.md)

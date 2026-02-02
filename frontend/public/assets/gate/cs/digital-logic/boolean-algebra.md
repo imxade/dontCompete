@@ -1,75 +1,91 @@
 **Boolean Algebra**
-====================
+=====================
 
 ### Introduction
+-----------------
 
-Boolean algebra is a branch of mathematics that deals with logical operations and their representation using Boolean variables, which can take only two values: 0 (false) or 1 (true). This field is crucial in digital logic, where it is used to design electronic circuits and compute functions. Understanding Boolean algebra is essential for anyone interested in computer science and engineering.
+Boolean algebra is a branch of mathematics that deals with logical operations and their representation using algebraic methods. It provides a powerful tool for modeling digital circuits, computer networks, and other discrete systems. Boolean algebra has numerous applications in computer science, engineering, and mathematics.
 
 ### Core Concepts
+------------------
 
-#### Propositional Variables and Operations
+#### Propositions and Logical Operations
 
-In Boolean algebra, we deal with propositional variables, which can be either true or false. The basic operations on these variables are:
+*   A **proposition** is a statement that can be either true (T) or false (F).
+*   The basic logical operations are:
+    *   **Conjunction**: AND (∧)
+    *   **Disjunction**: OR (∨)
+    *   **Negation**: NOT (~)
 
-*   **Conjunction** ($\land$): AND operation
-*   **Disjunction** ($\lor$): OR operation
-*   **Negation** ($\lnot$): NOT operation
+#### Boolean Variables and Functions
 
-These operations can be combined to form more complex expressions.
-
-#### Laws and Theorems
-
-Some key laws and theorems in Boolean algebra include:
-
-*   **Commutative Law**: $a \land b = b \land a$
-*   **Associative Law**: $(a \land b) \land c = a \land (b \land c)$
-*   **Distributive Law**: $a \land (b \lor c) = (a \land b) \lor (a \land c)$
-*   **De Morgan's Law**: $\lnot(a \land b) = \lnot a \lor \lnot b$
-
-These laws can be used to simplify complex Boolean expressions.
+*   A **Boolean variable** is a proposition that can take on the values T or F.
+*   A **Boolean function** is an expression involving Boolean variables, constants (T or F), and logical operations.
 
 ### Key Formulas/Theorems
+-------------------------
 
-Some key formulas and theorems in Boolean algebra are:
+#### De Morgan's Laws
 
-$$(a \land b) \lor (c \land d) = ((a \lor c) \land (b \lor d))$$
-$$(a \lor b) \land (c \lor d) = (a \land c) \lor (b \land d)$$
+$$\lnot (A \land B) = \lnot A \lor \lnot B$$
+$$\lnot (A \lor B) = \lnot A \land \lnot B$$
 
-These formulas can be used to simplify complex Boolean expressions.
+#### Distributive Law
+
+$$(A \land B) \lor C = (A \lor C) \land (B \lor C)$$
+
+#### Consensus Theorem
+
+$$(A \land B) \lor C = (A \lor C) \land (B \lor C) \land (\lnot A \lor \lnot B \lor C)$$
 
 ### Problem Solving Patterns
+-----------------------------
 
-1.  **Simplifying Boolean Expressions**: Use laws and theorems to simplify complex Boolean expressions.
-2.  **Finding Minimal Sum of Products**: Find the minimal sum of products expression for a given Boolean function.
+1.  **Simplify Boolean expressions**: Use De Morgan's laws and the distributive law to simplify complex expressions.
+2.  **Apply consensus theorem**: Use the consensus theorem to eliminate redundant terms in an expression.
 
 ### Examples with Solutions
+---------------------------
 
-**Example 1**
+#### Example 1: Simplifying a Boolean Expression
 
-Find the simplified form of $(a \land b) \lor (c \land d)$.
+Given:
+$$F(A, B, C) = \lnot (A \land B) \lor (\lnot A \land C)$$
 
-```latex
-(a \land b) \lor (c \land d)
-= ((a \lor c) \land (b \lor d))
-```
+Solution:
 
-**Example 2**
+*   Apply De Morgan's laws:
+    *   $$\lnot (A \land B) = \lnot A \lor \lnot B$$
+    *   $$F(A, B, C) = (\lnot A \lor \lnot B) \lor (\lnot A \land C)$$
+*   Simplify using the distributive law:
+    *   $$(\lnot A \lor \lnot B) \lor (\lnot A \land C) = \lnot A \lor (\lnot B \lor C)$$
 
-Find the minimal sum of products expression for the Boolean function $f(a, b, c) = \lnot a \land b \lor c$.
+#### Example 2: Applying Consensus Theorem
 
-```latex
-\lnot a \land b \lor c
-= (\lnot a \land b) \lor c
-```
+Given:
+
+$$F(A, B, C) = (A \land B) \lor C \lor (A \land \lnot B \land \lnot C)$$
+
+Solution:
+
+*   Identify redundant terms:
+    *   $$(A \land B) \lor C$$
+    *   $$(A \land \lnot B \land \lnot C)$$
+*   Apply the consensus theorem:
+    *   $$F(A, B, C) = (A \lor C) \land (B \lor C) \land (\lnot A \lor \lnot B \lor C)$$
 
 ### Common Pitfalls
+--------------------
 
-1.  **Not Simplifying Expressions Enough**: Make sure to simplify expressions using all available laws and theorems.
-2.  **Missing Important Laws or Theorems**: Familiarize yourself with key laws and theorems in Boolean algebra.
+1.  **Incorrect application of De Morgan's laws**: Be careful when applying De Morgan's laws to ensure correct simplification.
+2.  **Missing consensus theorem applications**: Don't overlook redundant terms that can be eliminated using the consensus theorem.
 
 ### Quick Summary
+------------------
 
-*   **Boolean Variables**: Can take only two values: 0 (false) or 1 (true)
-*   **Propositional Operations**: Conjunction, Disjunction, Negation
-*   **Laws and Theorems**: Commutative Law, Associative Law, Distributive Law, De Morgan's Law
-*   **Formulas and Theorems**: Simplifying Boolean Expressions, Finding Minimal Sum of Products
+*   Boolean algebra is a branch of mathematics for modeling digital circuits and discrete systems.
+*   Key concepts: propositions, logical operations, Boolean variables, and functions.
+*   Important formulas/theorems: De Morgan's laws, distributive law, and consensus theorem.
+*   Problem-solving patterns: simplifying expressions and applying the consensus theorem.
+
+This comprehensive note covers all theoretical concepts, formulas, and insights required to solve the given source questions.
