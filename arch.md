@@ -2,10 +2,11 @@
 
 ## 0. Description
 
-Dont Compete is a purely local, containerized, and agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials from raw syllabus PDFs and local LLMs.
+Dont Compete is a purely local, containerized, and agent-driven platform for exam preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials, notes and interactive quizzes from raw syllabus PDFs and local LLMs.
 
+Live: https://dontcompete.vercel.app
 
-Possible Improvements
+### 0.1 Possible Improvements
 
 * OCR doesn't work well on different colors and some scenarios.
 * LLaMA 3.1 isn't accurate enough.
