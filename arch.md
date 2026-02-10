@@ -35,15 +35,8 @@ graph TD
 *   **Incremental & Idempotent**: Re-runs extend existing datasets instead of recreating them.
 *   **Reusability-First**: Existing PDFs, databases, and artifacts must be reused.
 *   **Single Source of Truth**: All derived data must be traceable to original PDFs.
-*   **No OOP**: Strict functional programming architecture. State must be passed explicitly. Classes are prohibited for core logic.
-*   **Synchronous Execution**: Generator uses synchronous code preferred over async unless significant performance gain exists.
 *   **Robust Prompting**: Prompts must be self-contained (stateless) and designed to fit within model context windows.
 *   **No Hardcoded Values**: Architecture should minimize hardcoded values, unless module-specific.
-
-### Scope & Control
-*   **Initial Scope**: CS and DA streams only.
-*   **Stream Aliases**: Uses short codes for identification (e.g., `computer-science-information-technology` -> `cs`).
-*   **Agent Autonomy**: All scraping, parsing, ordering, and generation logic is agent-decided (within spec constraints).
 
 ### Performance & Safety
 *   **Skip Re-downloading**: Do not download PDFs if they already exist.
@@ -114,9 +107,6 @@ The generator (`generator/src/main.py`) runs a sequential, atomic pipeline.
 *   **Image Stitching**:
     *   **Full Width**: Captures full content width.
     *   **Vertical Merge**: Merges multi-page segments into single `q.png`/`exp.png`.
-*   **Heuristic Cropping**:
-    *   Removes headers/footers (e.g., Top 3%, Bottom 5%).
-    *   Excludes page numbers/artifacts.
 *   **Validation**: Image extraction occurs **only** when valid boundaries are detected.
 
 ### Stage 3: AI Analysis (Syllabus Parsing)
@@ -141,15 +131,18 @@ The generator (`generator/src/main.py`) runs a sequential, atomic pipeline.
 
 ### Stage 5: AI Analysis (Theory Generation)
 For each Subtopic with > 0 questions:
-*   **Prompt**: Includes all question texts as context to determine depth/scope.
+*   **Prompt**: Includes existing theory and all questions as context to determine depth/scope.
 *   **Output**: Markdown with Mermaid diagrams (`graph LR`, etc.) and KaTeX math.
-*   **Update Rule**: Updates existing files only if new content exists.
+*   **Update Rule**: Updates existing files only if theres something new to add.
 
 ### Stage 6: Manifest Generation (Export)
 **Component**: `knowledge_utils.generate_manifest` (Per-Stream)
 *   **No Global Registry**: Does *not* generate a global `exams.json` or `info.json`. Discovery is purely filesystem-based.
 *   **Output**: Generates `structure.json` inside each stream's folder.
 *   **Copy/Linking**: Ensures all referenced images exist in `frontend/assets`.
+
+### Stage 7: Auditing
+Users can improve the generated notes, and LLMs would use it as a reference.
 
 ---
 
