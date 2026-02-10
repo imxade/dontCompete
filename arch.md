@@ -1,92 +1,22 @@
-# Detailed System Design & Architecture
+# Detailed System Architecture
 
-## 1. High-Level Architecture
-**Dont Compete** follows a localized, containerized, and functional architecture. It is split into two primary autonomous systems: the **Generator** (Backend/Data Pipeline) and the **Frontend** (UI/UX). These components communicate strictly via a unidirectional data flow using shared file-system artifacts.
+## 0. Description
 
-```mermaid
-graph TD
-    subgraph "Infrastructure Layer (Docker)"
-        Generator["Asset Generator Container"]
-        Frontend["Frontend Container"]
-        Ollama["Ollama Service"]
-    end
+Dont Compete is a purely local, containerized, and agent-driven platform for GATE (Graduate Aptitude Test in Engineering) preparation. It combines a modern React frontend with an autonomous backend pipeline that scrapes, classifies, and generates study materials from raw syllabus PDFs and local LLMs.
 
-    subgraph "Data Layer"
-        Raw["Raw Data Volume<br/>(PDFs, DB)"]
-        Shared["Shared Assets Volume<br/>(JSON, Markdown, Images)"]
-    end
 
-    Generator -->|Writes| Raw
-    Generator -->|Reads/Writes| Shared
-    Frontend -->|Reads Only| Shared
-    Generator <-->|HTTP/JSON| Ollama
-```
+Possible Improvements
+
+* OCR doesn't work well on different colors and some scenarios.
+* LLaMA 3.1 isn't accurate enough.
+* Duplicate handling in topic classification is a bit too strict.
+* Consider shifting knowledge generation fully to TypeScript?
+* Improve performance on CPU.
+* Platform is currently exam-specific; could be generalized.
 
 ---
 
-## 2. Global Constraints & Principles (Strict)
-
-### Execution & Environment
-*   **No Local Installations**: Entire workflow must run via **Docker / Docker Compose**.
-*   **Single-Entry Workflow**: Docker Compose runs both asset generation and frontend.
-*   **Local & Private**: Relies entirely on local LLMs (Ollama) and local artifacts; **No remote API support**.
-
-### Data Integrity & Reusability
-*   **Incremental & Idempotent**: Re-runs extend existing datasets instead of recreating them.
-*   **Reusability-First**: Existing PDFs, databases, and artifacts must be reused.
-*   **Single Source of Truth**: All derived data must be traceable to original PDFs.
-*   **Robust Prompting**: Prompts must be self-contained (stateless) and designed to fit within model context windows.
-*   **No Hardcoded Values**: Architecture should minimize hardcoded values, unless module-specific.
-
-### Performance & Safety
-*   **Skip Re-downloading**: Do not download PDFs if they already exist.
-*   **Safe DB Ops**: Use `INSERT OR IGNORE`/`REPLACE` to maintain idempotency.
-*   **Valid Extraction**: Image extraction occurs **only** when valid boundaries are detected.
-
-### Non-Goals
-*   Authentication, Cloud Deployment, Real-time collaboration, Analytics (beyond counts).
-
----
-
-## 3. Database Schema (DuckDB)
-The system uses **DuckDB** (`data/app.duckdb`) as an intermediate relational store.
-
-| Table | Column | Type | Description |
-| :--- | :--- | :--- | :--- |
-| **questions** | `id` | VARCHAR | Global composite ID (`{stream}_{packet}_{qno}`) |
-| | `stream_code` | VARCHAR | e.g., `computer-science-information-technology` |
-| | `packet_id` | VARCHAR | Source PDF identifier (e.g., `2024-M`) |
-| | `question_no` | VARCHAR | e.g., `1`, `55` |
-| | `q_type` | VARCHAR | `MCQ`, `MSQ`, `NAT` |
-| | `q_key` | VARCHAR | Answer Key (e.g. `A`, `55.2`) |
-| | `q_text` | TEXT | Extracted text of question |
-| | `a_text` | TEXT | Extracted text of answer |
-| | `exp_text` | TEXT | Extracted text of explanation |
-| | `subtopic_id` | VARCHAR | FK to `subtopics.id`. Populated by LLM. |
-| | `img_path_q` | VARCHAR | Relative path to question image |
-| | `img_path_exp` | VARCHAR | Relative path to explanation image |
-| **subjects** | `id` | VARCHAR | e.g., `cs_subj_1` |
-| | `name` | VARCHAR | e.g., `Digital Logic` |
-| **subtopics** | `id` | VARCHAR | e.g., `cs_subj_1_topic_3` |
-| | `subject_id` | VARCHAR | FK to `subjects.id` |
-| | `name` | VARCHAR | e.g., `Minimization` |
-| **theory** | `id` | VARCHAR | e.g., `theory_cs_subj_1_topic_3` |
-| | `subtopic_id` | VARCHAR | FK to `subtopics.id` |
-| | `content_md` | TEXT | Generated Markdown content |
-
----
-
-## 4. Configuration Management
-*   **Central Config**: `generator/src/config.py`.
-*   **Secrets**: Reads from `.env` (passed to Docker).
-*   **Parameters**:
-    *   `TARGET_STREAMS`: Defines active streams (e.g., CS, DA).
-    *   `OLLAMA_MODEL`: Configurable model selection (Llama 3, Qwen, etc.).
-    *   `CLASSIFICATION_BATCH_SIZE`: Control prompt context size.
-
----
-
-## 5. Data Pipeline: Detailed Components & Flows
+## 1. Data Pipeline: Detailed Components & Flows
 
 The generator (`generator/src/main.py`) runs a sequential, atomic pipeline.
 
@@ -146,7 +76,45 @@ Users can improve the generated notes, and LLMs would use it as a reference.
 
 ---
 
-## 6. Frontend Architecture (React)
+## 2. Database Schema (DuckDB)
+The system uses **DuckDB** (`data/app.duckdb`) as an intermediate relational store.
+
+| Table | Column | Type | Description |
+| :--- | :--- | :--- | :--- |
+| **questions** | `id` | VARCHAR | Global composite ID (`{stream}_{packet}_{qno}`) |
+| | `stream_code` | VARCHAR | e.g., `computer-science-information-technology` |
+| | `packet_id` | VARCHAR | Source PDF identifier (e.g., `2024-M`) |
+| | `question_no` | VARCHAR | e.g., `1`, `55` |
+| | `q_type` | VARCHAR | `MCQ`, `MSQ`, `NAT` |
+| | `q_key` | VARCHAR | Answer Key (e.g. `A`, `55.2`) |
+| | `q_text` | TEXT | Extracted text of question |
+| | `a_text` | TEXT | Extracted text of answer |
+| | `exp_text` | TEXT | Extracted text of explanation |
+| | `subtopic_id` | VARCHAR | FK to `subtopics.id`. Populated by LLM. |
+| | `img_path_q` | VARCHAR | Relative path to question image |
+| | `img_path_exp` | VARCHAR | Relative path to explanation image |
+| **subjects** | `id` | VARCHAR | e.g., `cs_subj_1` |
+| | `name` | VARCHAR | e.g., `Digital Logic` |
+| **subtopics** | `id` | VARCHAR | e.g., `cs_subj_1_topic_3` |
+| | `subject_id` | VARCHAR | FK to `subjects.id` |
+| | `name` | VARCHAR | e.g., `Minimization` |
+| **theory** | `id` | VARCHAR | e.g., `theory_cs_subj_1_topic_3` |
+| | `subtopic_id` | VARCHAR | FK to `subtopics.id` |
+| | `content_md` | TEXT | Generated Markdown content |
+
+---
+
+## 3. Configuration Management
+*   **Central Config**: `generator/src/config.py`.
+*   **Secrets**: Reads from `.env` (passed to Docker).
+*   **Parameters**:
+    *   `TARGET_STREAMS`: Defines active streams (e.g., CS, DA).
+    *   `OLLAMA_MODEL`: Configurable model selection (Llama 3, Qwen, etc.).
+    *   `CLASSIFICATION_BATCH_SIZE`: Control prompt context size.
+
+---
+
+## 4. Frontend Architecture (React)
 
 ### Tech Stack
 *   **Framework**: TanStack Start / React (Vite).
@@ -175,12 +143,12 @@ Users can improve the generated notes, and LLMs would use it as a reference.
 
 ---
 
-## 7. Data Contracts & Artifacts
+## 5. Data Contracts & Artifacts
 
-### 7.1 Location
+### 5.1 Location
 All frontend-consumable data resides in: `frontend/public/assets/gate/`
 
-### 7.2 File Structure
+### 5.2 File Structure
 ```text
 assets/gate/
 └── cs/
@@ -198,9 +166,7 @@ assets/gate/
 
 ---
 
----
-
-## 8. Testing & CI/CD
+## 6. Testing & CI/CD
 *   **Unit Testing**: `pytest` for all backend modules (scraper, parser, utils).
 *   **Frontend Testing**: Component testing via Vitest/Jest.
 *   **CI Pipeline**: GitHub Actions to:
@@ -210,7 +176,7 @@ assets/gate/
 
 ---
 
-## 9. System Design Diagram
+## 7. System Design Diagram
 
 ```mermaid
 sequenceDiagram
@@ -253,5 +219,29 @@ sequenceDiagram
     FE->>FE: Render Theory
     FE->>FE: Start Test (Random 20, 4min/q)
 ```
+
+---
+
+## 8. Constraints
+
+### Execution & Environment
+*   **No Local Installations**: Entire workflow must run via **Docker / Docker Compose**.
+*   **Single-Entry Workflow**: Docker Compose runs both asset generation and frontend.
+*   **Local & Private**: Relies entirely on local LLMs (Ollama) and local artifacts; **No remote API support**.
+
+### Data Integrity & Reusability
+*   **Incremental & Idempotent**: Re-runs extend existing datasets instead of recreating them.
+*   **Reusability-First**: Existing PDFs, databases, and artifacts must be reused.
+*   **Single Source of Truth**: All derived data must be traceable to original PDFs.
+*   **Robust Prompting**: Prompts must be self-contained (stateless) and designed to fit within model context windows.
+*   **No Hardcoded Values**: Architecture should minimize hardcoded values, unless module-specific.
+
+### Performance & Safety
+*   **Skip Re-downloading**: Do not download PDFs if they already exist.
+*   **Safe DB Ops**: Use `INSERT OR IGNORE`/`REPLACE` to maintain idempotency.
+*   **Valid Extraction**: Image extraction occurs **only** when valid boundaries are detected.
+
+### Non-Goals
+*   Authentication, Cloud Deployment, Real-time collaboration, Analytics (beyond counts).
 
 ---
