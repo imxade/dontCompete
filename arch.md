@@ -12,6 +12,7 @@ Live: https://dontcompete.vercel.app
 * LLaMA 3.1 isn't accurate enough.
 * Duplicate handling in topic classification is a bit too strict.
 * Consider shifting knowledge generation fully to TypeScript?
+* Edit markdown from frontend?
 * Improve performance on CPU.
 * Platform is currently exam-specific; could be generalized.
 
