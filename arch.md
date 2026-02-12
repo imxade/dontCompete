@@ -15,6 +15,8 @@ Live: https://dontcompete.vercel.app
 * Edit markdown from frontend?
 * Improve performance on CPU.
 * Platform is currently exam-specific; could be generalized.
+* Shift to asynchronous operations where viable.
+* Shift to better sources for PYQs and answer-keys, generate explaination with LLM.
 
 ---
 
